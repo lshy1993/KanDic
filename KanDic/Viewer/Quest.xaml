@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="KanDic.Viewer.Quest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ss="clr-namespace:KanDic.Resources"
+             mc:Ignorable="d" 
+             d:DesignHeight="510" d:DesignWidth="780">
+    <DockPanel>
+        <Expander DockPanel.Dock="Top" Margin="0" IsExpanded="True">
+            <Expander.Header>
+                <TextBlock Text="任务类型选择" Foreground="White" />
+            </Expander.Header>
+            <Expander.Resources>
+                <ResourceDictionary Source="/KanDic;component/Resources/Style/Expander.xaml"/>
+            </Expander.Resources>
+            <Border BorderThickness="1" Margin="4,0,4,5" BorderBrush="Gray">
+                <Grid DockPanel.Dock="Top" Height="60">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Cache/icon/quest/q1.PNG" Stretch="None" Grid.Column="0"/>
+                    <Image Source="/Cache/icon/quest/q2.PNG" Stretch="None" Grid.Column="1"/>
+                    <Image Source="/Cache/icon/quest/q3.PNG" Stretch="None" Grid.Column="2"/>
+                    <Image Source="/Cache/icon/quest/q4.PNG" Stretch="None" Grid.Column="3"/>
+                    <Image Source="/Cache/icon/quest/q5.PNG" Stretch="None" Grid.Column="4"/>
+                    <Image Source="/Cache/icon/quest/q6.PNG" Stretch="None" Grid.Column="5"/>
+                    <Image Source="/Cache/icon/quest/q7.PNG" Stretch="None" Grid.Column="6"/>
+                    <Image Source="/Cache/icon/quest/q8.PNG" Stretch="None" Grid.Column="7"/>
+                </Grid>
+            </Border>
+        </Expander>
+        <Border DockPanel.Dock="Top" BorderThickness="1" Margin="5,0,5,0" Padding="5" HorizontalAlignment="Left" BorderBrush="Gray">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="过滤选项" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+                <Rectangle Width="1" Margin="5,0,5,0" Fill="Gray"/>
+                <Button Content="重置" Margin="5,0,5,0"/>
+                <CheckBox Content="日常任务" Margin="5" IsChecked="True"/>
+                <CheckBox Content="周常任务" Margin="5" IsChecked="True"/>
+                <CheckBox Content="单次任务" Margin="5" IsChecked="True"/>
+                <Rectangle Width="1" Margin="5,0,5,0" Fill="Gray"/>
+                <CheckBox Content="不显示已完成任务" Margin="5"/>
+            </StackPanel>
+        </Border>
+        <Border BorderThickness="1" Margin="5" BorderBrush="Gray">
+            <ListView ScrollViewer.PanningMode="Both">
+                <ListView.Resources>
+                    <ResourceDictionary Source="/KanDic;component/Resources/Style/ListView.xaml"/>
+                </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="50">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="类型"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="45">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="ID"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="45">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="前置"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="250">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="任务"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="100">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="额外奖励"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="200">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="要求"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="50">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="状态"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        </Border>
+        
+    </DockPanel>
+</UserControl>

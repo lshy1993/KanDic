@@ -1,0 +1,721 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="cjbutton" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/CJ.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/CJ1.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="yxbutton" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/YX.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/YX1.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="yzbutton" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/YZ.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/YZ1.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt0" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/00.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="False"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt11" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/1-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt12" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/1-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt13" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/1-3.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt14" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/1-4.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt21" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/2-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt22" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/2-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt23" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/2-3.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt24" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/2-4.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt31" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/3-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt32" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/3-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt33" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/3-3.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt34" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/3-4.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt41" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/4-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt42" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/4-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt43" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/4-3.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt44" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/4-4.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt51" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/5-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt52" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/5-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt53" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/5-3.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt54" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/5-4.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt61" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/6-1.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt62" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="/KanDic;component/Cache/icon/battle/6-2.PNG" Margin="1.5" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/0.PNG" Margin="1" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button1" TargetType="{x:Type RadioButton}">
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/1.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/2.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/2.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button2" TargetType="{x:Type RadioButton}">
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/3.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/4.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/4.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button3" TargetType="{x:Type RadioButton}">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/5.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/6.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/6.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button4" TargetType="{x:Type RadioButton}">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/7.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/8.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/8.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button5" TargetType="{x:Type RadioButton}">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/9.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/10.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/10.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="button6" TargetType="{x:Type RadioButton}">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Margin" Value="7.5,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid Height="auto">
+                        <Image Source="/KanDic;component/Cache/icon/battle/11.PNG" Stretch="None"/>
+                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/12.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/12.PNG" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

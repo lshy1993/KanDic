@@ -1,0 +1,132 @@
+﻿<Controls:MetroWindow x:Name="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"    
+    xmlns:plugins="clr-namespace:KanDic.Plugins"
+    xmlns:viewer="clr-namespace:KanDic.Viewer"
+    
+    mc:Ignorable="d"
+    x:Class="KanDic.StartWindow"
+    Title="舰娘百科"
+    Height="600"
+    Width="800"
+    MinHeight="600"
+    MinWidth="800"
+    BorderThickness="1"
+    EnableDWMDropShadow="True"
+    ResizeMode="CanResizeWithGrip"
+
+    WindowStartupLocation="CenterScreen">
+    
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_settings}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="Settings" />
+                </StackPanel>
+            </Button>
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_home_question}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="About" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Name="WelcomPanel" Width="624" Height="312">
+            <Controls:Tile Count="舰娘" Title="1"
+				TiltFactor="1"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="装备" Title="2"
+				TiltFactor="2"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="地图" Title="3"
+				TiltFactor="3"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="远征" Title="4"
+				TiltFactor="4"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="任务" Title="5"
+				TiltFactor="5"
+				Width="150" Height="150"
+                Click="Tile_Click"/>
+            <Controls:Tile Count="敌人" Title="6"
+				TiltFactor="6"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="阵型" Title="7"
+				TiltFactor="7"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+            <Controls:Tile Count="计算器" Title="8"
+				TiltFactor="8"
+				Width="150" Height="150"
+				Click="Tile_Click"/>
+        </WrapPanel>
+        <Canvas Name="MainPanel">
+            <TabControl Name="TabCtrl" Canvas.Top="5" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        Width="{Binding ElementName=MainPanel, Path=ActualWidth}"
+                        Height="{Binding ElementName=MainPanel, Path=ActualHeight}"
+                        MinWidth="800">
+                <TabItem Header="舰娘" Width="100">
+                    <viewer:KanColle MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="装备" Width="100">
+                    <viewer:Equipment MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="地图" Width="100">
+                    <viewer:Map VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </TabItem>
+                <TabItem Header="远征" Width="100">
+                    <viewer:Expedition VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="380" MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="任务" Width="100">
+                    <viewer:Quest MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="敌人" Width="100">
+                    <viewer:Enermy MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="阵型" Width="100">
+                    <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+            </TabControl>
+            <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5">
+                <Button.Background>
+                    <VisualBrush Visual="{StaticResource appbar_arrow_left}" Stretch="None">
+                        <VisualBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="0.5" ScaleY="0.5"/>
+                                <TranslateTransform Y="0.25" X="0.25"/>
+                            </TransformGroup>
+                        </VisualBrush.RelativeTransform>
+                    </VisualBrush>
+                </Button.Background>
+            </Button>
+        </Canvas>
+        <plugins:MusicPlayer x:Name="MusicPanel" Background="{DynamicResource AccentColorBrush}" VerticalAlignment="Bottom" Grid.Row="1" />
+    </Grid>
+
+</Controls:MetroWindow>

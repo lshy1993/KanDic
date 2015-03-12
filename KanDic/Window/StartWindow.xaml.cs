@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
+using Microsoft.Win32;
+using MahApps.Metro.Controls;
+
+namespace KanDic
+{
+    /// <summary>
+    /// StartWindow.xaml 的交互逻辑
+    /// </summary>
+
+    public partial class StartWindow : MetroWindow
+    {
+
+        public StartWindow()
+        {
+            InitializeComponent();
+
+            WelcomePanel_Init();
+            MainPanel.Visibility = System.Windows.Visibility.Collapsed;
+        }
+
+        private void Tile_Click(object sender, RoutedEventArgs e)
+        {
+            this.WelcomPanel.Visibility = Visibility.Collapsed;
+            MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
+            this.TabCtrl.SelectedIndex = temp1.TiltFactor - 1;
+            this.MainPanel.Visibility = Visibility.Visible;
+        }
+
+        private void Tile_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
+            ThicknessAnimationUsingKeyFrames ani = new ThicknessAnimationUsingKeyFrames();
+            ani.KeyFrames.Add(new LinearThicknessKeyFrame(new Thickness(-2, -2, 8, 8), TimeSpan.FromSeconds(0.05)));
+            temp1.BeginAnimation(MahApps.Metro.Controls.Tile.MarginProperty, ani);
+        }
+
+        private void Tile_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
+            ThicknessAnimationUsingKeyFrames ani = new ThicknessAnimationUsingKeyFrames();
+            ani.KeyFrames.Add(new LinearThicknessKeyFrame(new Thickness(3, 3, 3, 3), TimeSpan.FromSeconds(0.05)));
+            temp1.BeginAnimation(MahApps.Metro.Controls.Tile.MarginProperty, ani);
+        }
+
+        private void MainPanel_Back(object sender, RoutedEventArgs e)
+        {
+            this.MainPanel.Visibility = Visibility.Collapsed;
+            this.WelcomPanel.Visibility = Visibility.Visible;
+        }
+
+        private void WelcomePanel_Init()
+        {
+            foreach (MahApps.Metro.Controls.Tile element in WelcomPanel.Children)
+            {
+                element.MouseEnter += new System.Windows.Input.MouseEventHandler(Tile_MouseEnter);
+                element.MouseLeave += new System.Windows.Input.MouseEventHandler(Tile_MouseLeave);
+            }
+        }
+
+        private void KanColle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.MainPanel.Visibility = Visibility.Collapsed;
+            this.WelcomPanel.Visibility = Visibility.Visible;
+        }
+
+    }
+}

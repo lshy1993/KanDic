@@ -1,0 +1,1452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B70B8FE-09C5-4772-BE4D-FA80108BEF45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KanDic</RootNamespace>
+    <AssemblyName>KanDic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\packages\MahApps.Metro.1.1.1.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFVisifire.Charts">
+      <HintPath>..\..\..\..\..\Desktop\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Gauges">
+      <HintPath>..\..\..\..\..\Desktop\WPFVisifire.Gauges.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plugins\MusicPlayer.xaml.cs">
+      <DependentUpon>MusicPlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Class\BasicInfo.cs" />
+    <Compile Include="Resources\Class\BattleInfo.cs" />
+    <Compile Include="Resources\Class\BuildInfo.cs" />
+    <Compile Include="Resources\Class\EquipInfo.cs" />
+    <Compile Include="Resources\Class\ExpInfo.cs" />
+    <Compile Include="Resources\Class\ImageView.cs" />
+    <Compile Include="Resources\Class\Kan.cs" />
+    <Compile Include="Resources\Class\MaxInfo.cs" />
+    <Compile Include="Resources\Class\ResolveInfo.cs" />
+    <Compile Include="Resources\Class\SobiInfo.cs" />
+    <Compile Include="Resources\Class\SourceInfo.cs" />
+    <Compile Include="Resources\Class\SupplyInfo.cs" />
+    <Compile Include="Resources\Class\TabNum.cs" />
+    <Compile Include="Resources\Class\MP3.cs" />
+    <Compile Include="Resources\Class\UpdateInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Viewer\Enermy.xaml.cs">
+      <DependentUpon>Enermy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Equipment.xaml.cs">
+      <DependentUpon>Equipment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Expedition.xaml.cs">
+      <DependentUpon>Expedition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Formation.xaml.cs">
+      <DependentUpon>Formation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\KanColle.xaml.cs">
+      <DependentUpon>KanColle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Map.xaml.cs">
+      <DependentUpon>Map.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Quest.xaml.cs">
+      <DependentUpon>Quest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\KanCalculate.xaml.cs">
+      <DependentUpon>KanCalculate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\KanDetail.xaml.cs">
+      <DependentUpon>KanDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\StartWindow.xaml.cs">
+      <DependentUpon>StartWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Plugins\MusicPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\Expander.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\ExpStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\MapStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\FocusVisual.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\RadioStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\RadioStyle2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Enermy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Equipment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Expedition.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Formation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\KanColle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Map.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Quest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\KanCalculate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\KanDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\StartWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Resource Include="Cache\icon\info\aluminum.PNG" />
+    <Resource Include="Cache\icon\info\ammo.PNG" />
+    <Resource Include="Cache\icon\info\bz.PNG" />
+    <Resource Include="Cache\icon\info\dk.PNG" />
+    <Resource Include="Cache\icon\info\dq.PNG" />
+    <Resource Include="Cache\icon\info\fuel.PNG" />
+    <Resource Include="Cache\icon\info\hb.PNG" />
+    <Resource Include="Cache\icon\info\hl.PNG" />
+    <Resource Include="Cache\icon\info\lz.PNG" />
+    <Resource Include="Cache\icon\info\mz.PNG" />
+    <Resource Include="Cache\icon\info\sc.PNG" />
+    <Resource Include="Cache\icon\info\sd.PNG" />
+    <Resource Include="Cache\icon\info\sl.PNG" />
+    <Resource Include="Cache\icon\info\steel.PNG" />
+    <Resource Include="Cache\icon\info\wdk.PNG" />
+    <Resource Include="Cache\icon\info\whl.PNG" />
+    <Resource Include="Cache\icon\info\wlz.PNG" />
+    <Resource Include="Cache\icon\info\wzz.PNG" />
+    <Resource Include="Cache\icon\info\zz.PNG" />
+    <Resource Include="Cache\icon\quest\q1.PNG" />
+    <Resource Include="Cache\icon\quest\q2.PNG" />
+    <Resource Include="Cache\icon\quest\q3.PNG" />
+    <Resource Include="Cache\icon\quest\q4.PNG" />
+    <Resource Include="Cache\icon\quest\q5.PNG" />
+    <Resource Include="Cache\icon\quest\q6.PNG" />
+    <Resource Include="Cache\icon\quest\q7.PNG" />
+    <Resource Include="Cache\icon\quest\q8.PNG" />
+    <Resource Include="Cache\icon\soubi\100.PNG" />
+    <Resource Include="Cache\icon\soubi\102.PNG" />
+    <Resource Include="Cache\icon\soubi\104.PNG" />
+    <Resource Include="Cache\icon\soubi\106.PNG" />
+    <Resource Include="Cache\icon\soubi\108.PNG" />
+    <Resource Include="Cache\icon\soubi\110.PNG" />
+    <Resource Include="Cache\icon\soubi\112.PNG" />
+    <Resource Include="Cache\icon\soubi\114.PNG" />
+    <Resource Include="Cache\icon\soubi\116.PNG" />
+    <Resource Include="Cache\icon\soubi\118.PNG" />
+    <Resource Include="Cache\icon\soubi\120.PNG" />
+    <Resource Include="Cache\icon\soubi\122.PNG" />
+    <Resource Include="Cache\icon\soubi\124.PNG" />
+    <Resource Include="Cache\icon\soubi\126.PNG" />
+    <Resource Include="Cache\icon\soubi\128.PNG" />
+    <Resource Include="Cache\icon\soubi\130.PNG" />
+    <Resource Include="Cache\icon\soubi\68.PNG" />
+    <Resource Include="Cache\icon\soubi\70.PNG" />
+    <Resource Include="Cache\icon\soubi\72.PNG" />
+    <Resource Include="Cache\icon\soubi\74.PNG" />
+    <Resource Include="Cache\icon\soubi\76.PNG" />
+    <Resource Include="Cache\icon\soubi\78.PNG" />
+    <Resource Include="Cache\icon\soubi\80.PNG" />
+    <Resource Include="Cache\icon\soubi\82.PNG" />
+    <Resource Include="Cache\icon\soubi\84.PNG" />
+    <Resource Include="Cache\icon\soubi\86.PNG" />
+    <Resource Include="Cache\icon\soubi\88.PNG" />
+    <Resource Include="Cache\icon\soubi\89.PNG" />
+    <Resource Include="Cache\icon\soubi\90.PNG" />
+    <Resource Include="Cache\icon\soubi\92.PNG" />
+    <Resource Include="Cache\icon\soubi\94.PNG" />
+    <Resource Include="Cache\icon\soubi\96.PNG" />
+    <Resource Include="Cache\icon\soubi\98.PNG" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Cache\error.png" />
+    <None Include="Cache\bgm\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cache\ships\acajrnrqxplq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\aejfywpsegbv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\agybvcshxbpm.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ahztpphnuvco.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ajhdojqfykfu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\algyyokhbnwz.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\aqgjvutybsbk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\aqpnbsizhjij.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\aufduiatycow.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\avfbkpphumso.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bbgkikxppksy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bctrxdxrugqp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bekjyovmrmfd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bfsrsnqivpms.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bhyiqjjifflp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bnbdxfioqxtt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bpegnatlfibc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bqvrrfdcuvdr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bqwjdltjktls.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bwgbubdrhvfg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bxbyaifmqdxk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\bxzhnjffdppv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cayfwlehtvgj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cdidanqovcfr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cdsgjcufyxlz.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cfqmhviykuup.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\chmytqkkilrv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cispmgxqaedk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cjhtlviffiwb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cmmiahpwdamx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cmpqwemjahur.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cmupwurocdpn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cpcycglgelxd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cqtlanpwihpj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\cxhxktltjtbg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dbtrdgatxdpl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\debsnofmttkx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dfrmfmjvschh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dkmxevqgbxmr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dljghewzktat.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dpqjexkcixhw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\drdaipjrohfl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dufziinsornt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dyfnguymthbd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dyupugfxshtd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\dyurkaeenkdh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\eathbqlrqvda.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ecwgnneuzbcv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\eeyrwdehbixg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\emjpbjscgcvf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\epjlpvhwcjvw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\eqgvmdsvjerq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\eqpvjbnbjlhy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\espxbipsjiyt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ethdbrvnuznc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\etxdlqnvwqtx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\exedxncqauws.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\eypcwtnjgoyb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fcydxtnwtaon.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fdpybckruodj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ffyychaekjsj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fggcskrfkpnr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fhaelooubkbi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fhpgicaysllm.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fkatobgcyygb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fqbwbmmdcjby.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\frkfpymtydmg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fsgwccpesgfh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fwptxiocqkyd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\fxypdctjnicq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gbkqnzirjyid.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gbxvfsrqbyxg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gcbiuhgmgjbm.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gcqjowlpkbde.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gdbwncyaopob.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gekgxdsvrliq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ghgphbvmzjrx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gixbrtnuabge.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gjtvekieqatn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gjyqwffsmfgw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gmlbignzjwmq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gmnsxwkdssmj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gmqsmiszmftf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gobumojesgfi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gonohkjynpmb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gpfqngdreebe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gpshoozxgutk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\grppcbegkphv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gsrzkautnghc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gtmwrbaniaud.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\guwzhmxxnwol.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\gyckjmemgqoe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hfhcjjdyqyzn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hgitzuyaysvw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hieimxbtcqrt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hmivswfdmdem.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hmiwrqvijwvv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hosmgvuzyjlw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hpfcwdqxgyvl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hujriolkmhzy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\hvnqlrdovfqe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\iatmdvvwlngq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\icmlpbiditqy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\icpexclhwthr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\icwowutxbvgh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\igezlfrivcar.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ihengpjwmfrt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ihuijkvksqky.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ihwgeegenykh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ijhrnvnbqkmj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ikwmknqjpvkg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ilnimhfcivpt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ilxltdgucgbg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ilxnmfogntbo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\iolnrzaovbhn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\isiuepygxdzq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\iyondwbusgym.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jatvhskutlck.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jdqefjcpslli.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jdsszkolhitg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jdyqtxzmsyng.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jhefpwucyxiq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jiftwdxqwtin.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jkjqeleyhbus.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jmpkkzqwgxtc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jnvcrrgmtvwl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jnxoytktolbb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\joaeulumcgbh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jozbiyweyksl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jprpbvbeillv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jqexjuembtvh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jtfihmyrvmiw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jtyqmhgstese.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jukighzxmudn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\jwrlielrnfpr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kadfixosusrf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kavryopoywwx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kbdewgsfrkra.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kclrmkyzpnpc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kexcbmpnmmwv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kexwyrcqjxfs.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kftqxfempust.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kgwxvcnblfjb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\khtgrpfyurcm.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\khxsxmiuccsf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kkpwecgmftci.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kksiqffpclxh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kmcllyhenjnk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kspwuqsyhipy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ksvosfducgbe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ktexichqewel.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\kynputhclcdl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lcmobkdeizph.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\liqjxscjkogx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ljesxnctkmmf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ljzijyhhgrnx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lnarycubyzrr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lngqiqvigduj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\louolngpmrwj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lovstgcfspwr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lpiecumljbyp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ltdlvothcqnr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lvfswfzywnql.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lvjcqqulbluo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lvmlqrzbobpe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\lwlmcwxyvcyz.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mbgjkzlvemui.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mhpalcnpxmgz.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mhqqhhvvpzxg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mlzpthwviwnf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mnkjkgammeds.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mslkutojcolj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mtvkfikepcfr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mwlzgwdjlpxx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\mxohelwcpocv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ncijtxixkghu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nehcyhpiviue.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nfzmalhtwved.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ngcxxfxovpmn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nkrmsykdohgo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nkvvrszimkre.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nlobofyxzvku.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nnkmuxqyewyk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nolhhoujolpc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nppdykjbwmkx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nrdgjqcgecmg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nsgytjsjbfdp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ntmjjittqkcj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\numjsnomjspr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nvftqenyroyu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\nvnwjedsdgcl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oeimwwkynzlt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ofneitwqroxe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ogkwigciybxf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ohpnwjgzfesg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oiknslickotp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ojkgkujsenly.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\olkahitypycq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\opprvckvhrkv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oqqerytyeisg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oxqlrctsmegi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oxttbkywusfp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oygjwmgvcdyv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\oyjqdsswurhl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ozjrctjajnpx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\paqnehcojygu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pcdygwofwfib.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pdricqoovxfe.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\piobwloefpcz.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pjkwpxniwgge.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pmjnkqodgjpo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pnpixtolsebg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pueufyccujmd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pvhdtbuddjhb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pvomxydmldoi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pwokyefpmqwi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pxogwcltgjkn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\pyfdxrfqwldn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qaryaychpubb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qegrehgswrpg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qgkjswznylty.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qgkmjgfbanxl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qihrkkfwekpo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qmmdyeprdqsu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qngptlxhrwhj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qpnrcirsvqcr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qsmurjkprhku.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qsnkljxqtrgb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qukusrsftcgy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qvmfwjitflgw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\qvqlfmytkmor.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rgribyhrzjjl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rjggwwmmppth.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rjtnzguullvo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rmcvsljwdyur.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rqsbaiaqlunp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rsmzverhwskc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rtkekdbkqrkg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rubtymuqfeuq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rwqqgmxpdwbu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rxzrrkjqvyqy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\rzgndzraoddu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sbdfpooechyn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\scobmrrdbmsw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sdiauxhgyfkj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sejqtlkfjwkc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sfbwblstvfmw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sgpilzypnejy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sgwumdfgzais.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\shcsmfegtxhf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\shjlydqjdfcl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\skgpomqtcedb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\skmmrmdljugc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\slzosqvxjxus.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\snohitatusbk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ssvrjquubpim.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\suivtkpjnmpt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\svcuufdqcqmy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\svglgiwjfyxn.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\sxrrihbkdkjl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\szgthkexanxl.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tcqsalkhzurk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tedevipdbvdr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tiqezicxwpry.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tkcwrodgemlj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tsfbgfyeqxhg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ttcofyyswaum.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ttkeodhvrmog.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tubwmcjwtlqx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tuvoqtqrddem.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\twvnkvqgyiru.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tyjrubumfpxy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\tyumrhcigliq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ubntuiyurxwk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\udkkmzgsimgq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ufcqfujavyyg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uffgxggsrtti.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ufgydlyjdaxb.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uilfcyypnbwm.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ujhxqqlcorxv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ukwcjqlolezy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uockopeurqdf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uswetrxvttms.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\utmejyqmcvbk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uuilouoffjoj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uuqdlbtrkmvk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uuxoixtoemiv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\uvfgjekdjlcw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vbuxfozqoemo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vcftaofxkvgk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vdieczinfgce.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\veulocbvzaqy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vkmjguonqcsg.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vksfcnchqurh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vksjkggcuvik.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vopfxipptsrt.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vqdgxtrgintc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vrtbgpzuepqx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vsnkqdgtcjbs.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vswgjojfoqdc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vxkcklmfevkk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vxryfhvytcig.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\vzgrqylbwegp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wjcrloeyiyxw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wkvdcpaogfii.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wlvvcpnulyer.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wmskekfmgdio.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wmzbyvhflrhy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wnibjvejengh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wnkageqzigwd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wnocckxgfmnh.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\woutqrqtdzqi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wpaqzeclspdr.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wpsyznjwvlmd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wrxtfahvtyqi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wugwvdccggcp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wujywbyjntbp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wvcpwlwuxwhq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wvkpfygaipjq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\wvnchfzhekfo.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xbbfxeemifpv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xcbmsjqrostq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xfxhmadcxfdq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xgoisifuerjd.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xjotoxrgwfrj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xjsgvmgfleuu.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xjtxwkwwfdze.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xmzltsferzto.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xoiprnaxqxbj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xomrbwrvjwfv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xqjemfzdbjox.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xqnkdultpvaf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xthvimkarzgq.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xtqbjysffsvx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xumujwygrmby.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xwjlobdutrwv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xwvykvklvvqk.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\xyqotgpmnjih.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\yiwwnppitqpf.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ykrokmtrnaqw.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\yomyfjkhndny.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ysgtnamukxoi.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\ysidnchjxvfc.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\yyvxfxdusxlx.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\yyyfqcpumpxj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zgerairddhko.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zgscfjpbxnir.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zhixojcwijfj.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zlshfpystoqp.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zoaptkoerfpv.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zrmviexnupjy.swf\Images\Image 5.jpg" />
+    <Resource Include="Cache\ships\zrrxemjrtmql.swf\Images\Image 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Data\Music.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Data\Enemy.xml" />
+    <EmbeddedResource Include="Resources\Data\Equip.xml" />
+    <EmbeddedResource Include="Resources\Data\Expedition.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Data\Ship.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Data\Quest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cache\icon\info\lv.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cache\icon\battle\00.PNG" />
+    <Content Include="Cache\bgm\103v.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\104a.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\105h.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\106q.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\107b.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\108o.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\109k.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\110s.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\111c.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\112o.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\201jb001.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\201y.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\202jb002.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\202w.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\203jb003.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\203w.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\204jb004.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\204y.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\205c.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\205jb005.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\206i.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\207q.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\208a.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\209d.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\210i.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\211p.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\212y.swf.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\bgm.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\fubuki.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\miro.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_bgm.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_1.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_10.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_11.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_12.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_13.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_14.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_15.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_16.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_17.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_19.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_2.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_20.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_25.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_26.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_27.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_28.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_29.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_3.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_30.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_31.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_32.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_33.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_34.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_35.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_36.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_4.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_5.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_6.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_7.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_8.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\bgm\sound_b_bgm_9.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\002.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\003.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\004.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\005.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\006.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\007.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\008.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\009.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\010.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\011.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\012.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\013.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\014.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\015.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\016.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\017.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\018.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\019.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\020.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\021.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\022.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\023.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\024.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\025.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\026.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\027.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\028.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\029.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\030.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\031.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\032.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\033.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\034.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\035.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\036.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\037.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\038.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\039.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\040.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\041.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\042.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\043.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\044.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\045.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\046.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\047.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\048.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\049.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\050.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\051.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\052.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\053.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\054.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\055.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\056.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\057.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\058.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\059.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\060.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\061.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\062.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\063.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\064.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\065.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\066.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\067.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\068.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\069.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\070.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\071.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\072.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\073.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\074.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\075.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\076.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\077.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\078.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\079.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\080.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\081.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\082.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\083.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\084.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\085.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\086.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\087.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\088.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\089.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\090.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\091.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\092.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\093.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\094.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\095.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\096.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\097.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\098.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\099.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\101.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\102.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\103.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\104.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\105.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\106.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\107.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\108.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\109.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\110.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\111.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\112.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\113.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\114.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\115.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\116.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\117.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\118.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\119.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\120.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\121.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\122.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\123.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\124.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\126.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\127.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\129.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\001.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Cache\icon\quest\dc.PNG" />
+    <Resource Include="Cache\icon\expand\1.PNG" />
+    <Resource Include="Cache\icon\expand\10.PNG" />
+    <Resource Include="Cache\icon\expand\11.PNG" />
+    <Resource Include="Cache\icon\expand\12.PNG" />
+    <Resource Include="Cache\icon\expand\2.PNG" />
+    <Resource Include="Cache\icon\expand\3.PNG" />
+    <Resource Include="Cache\icon\expand\4.PNG" />
+    <Resource Include="Cache\icon\expand\5.PNG" />
+    <Resource Include="Cache\icon\expand\6.PNG" />
+    <Resource Include="Cache\icon\expand\7.PNG" />
+    <Resource Include="Cache\icon\expand\8.PNG" />
+    <Resource Include="Cache\icon\expand\9.PNG" />
+    <Resource Include="Cache\icon\expand\a.PNG" />
+    <Resource Include="Cache\icon\expand\b.PNG" />
+    <Resource Include="Cache\icon\expand\c.PNG" />
+    <Resource Include="Cache\icon\expand\content.PNG" />
+    <Resource Include="Cache\icon\expand\cost.PNG" />
+    <Resource Include="Cache\icon\expand\d.PNG" />
+    <Resource Include="Cache\icon\expand\e.PNG" />
+    <Resource Include="Cache\icon\expand\item.PNG" />
+    <Resource Include="Cache\icon\expand\s.PNG" />
+    <Resource Include="Cache\icon\expand\time.PNG" />
+    <Resource Include="Cache\icon\CJ.PNG" />
+    <Resource Include="Cache\icon\CJ1.PNG" />
+    <Resource Include="Cache\icon\YX.PNG" />
+    <Resource Include="Cache\icon\YX1.PNG" />
+    <Resource Include="Cache\icon\YZ.PNG" />
+    <Resource Include="Cache\icon\YZ1.PNG" />
+    <Resource Include="Cache\icon\expand\gsjz.PNG" />
+    <Resource Include="Cache\icon\expand\gsxf.PNG" />
+    <Resource Include="Cache\icon\expand\jjx1.PNG" />
+    <Resource Include="Cache\icon\expand\jjx2.PNG" />
+    <Resource Include="Cache\icon\expand\jjx3.PNG" />
+    <Resource Include="Cache\icon\expand\kfzc.PNG" />
+    <Resource Include="Cache\icon\battle\1-1.PNG" />
+    <Resource Include="Cache\icon\battle\1-2.PNG" />
+    <Resource Include="Cache\icon\battle\1-3.PNG" />
+    <Resource Include="Cache\icon\battle\1-4.PNG" />
+    <Resource Include="Cache\icon\battle\1-5.PNG" />
+    <Resource Include="Cache\icon\battle\1.PNG" />
+    <Resource Include="Cache\icon\battle\10.PNG" />
+    <Resource Include="Cache\icon\battle\11.PNG" />
+    <Resource Include="Cache\icon\battle\12.PNG" />
+    <Resource Include="Cache\icon\battle\2-1.PNG" />
+    <Resource Include="Cache\icon\battle\2-2.PNG" />
+    <Resource Include="Cache\icon\battle\2-3.PNG" />
+    <Resource Include="Cache\icon\battle\2-4.PNG" />
+    <Resource Include="Cache\icon\battle\2-5.PNG" />
+    <Resource Include="Cache\icon\battle\2.PNG" />
+    <Resource Include="Cache\icon\battle\3-1.PNG" />
+    <Resource Include="Cache\icon\battle\3-2.PNG" />
+    <Resource Include="Cache\icon\battle\3-3.PNG" />
+    <Resource Include="Cache\icon\battle\3-4.PNG" />
+    <Resource Include="Cache\icon\battle\3-5.PNG" />
+    <Resource Include="Cache\icon\battle\3.PNG" />
+    <Resource Include="Cache\icon\battle\4-1.PNG" />
+    <Resource Include="Cache\icon\battle\4-2.PNG" />
+    <Resource Include="Cache\icon\battle\4-3.PNG" />
+    <Resource Include="Cache\icon\battle\4-4.PNG" />
+    <Resource Include="Cache\icon\battle\4-5.PNG" />
+    <Resource Include="Cache\icon\battle\4.PNG" />
+    <Resource Include="Cache\icon\battle\5-1.PNG" />
+    <Resource Include="Cache\icon\battle\5-2.PNG" />
+    <Resource Include="Cache\icon\battle\5-3.PNG" />
+    <Resource Include="Cache\icon\battle\5-4.PNG" />
+    <Resource Include="Cache\icon\battle\5.PNG" />
+    <Resource Include="Cache\icon\battle\6-1.PNG" />
+    <Resource Include="Cache\icon\battle\6-2.PNG" />
+    <Resource Include="Cache\icon\battle\6.PNG" />
+    <Resource Include="Cache\icon\battle\7.PNG" />
+    <Resource Include="Cache\icon\battle\8.PNG" />
+    <Resource Include="Cache\icon\battle\9.PNG" />
+    <Resource Include="Cache\icon\battle\0.PNG" />
+    <Resource Include="Cache\icon\battle\blue.PNG" />
+    <Resource Include="Cache\icon\battle\boss.PNG" />
+    <Resource Include="Cache\icon\battle\cancel.PNG" />
+    <Resource Include="Cache\icon\battle\enter.PNG" />
+    <Resource Include="Cache\icon\battle\enter1.PNG" />
+    <Resource Include="Cache\icon\battle\green.PNG" />
+    <Resource Include="Cache\icon\battle\purple.PNG" />
+    <Resource Include="Cache\icon\battle\red.PNG" />
+    <Content Include="Cache\map\1-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\1-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\1-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\1-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\1-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\2-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\2-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\2-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\2-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\2-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\3-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\3-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\3-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\3-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\3-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\4-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\4-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\4-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\4-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\5-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\5-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\5-3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\5-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\5-5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\6-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\map\6-2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Cache\map\BackgroundDay.bmp" />
+    <Content Include="Cache\ships\jnxoytktolbb.swf\Images\Image 17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
