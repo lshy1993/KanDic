@@ -110,7 +110,7 @@
                     <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="活动" Width="100">
-                    <viewer:Enermy MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+
                 </TabItem>
             </TabControl>
             <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5">

@@ -13,6 +13,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KanDic;
 using KanDic.Resources;
 using System.Xml;
 using System.Reflection;
@@ -25,7 +26,8 @@ namespace KanDic.Viewer
     public partial class Map : UserControl
     {
         public MapInfo[] MapPoint = new MapInfo[25];
-        public int num;
+        public int num, tagnum;
+        public System.Windows.Window mainwindow;
 
         #region xaml显示图片用临时class
         public class MapImage
@@ -173,7 +175,7 @@ namespace KanDic.Viewer
         {
             RadioButton xx = (RadioButton)sender;
             DoubleAnimation da = new DoubleAnimation();
-            int tagnum = Convert.ToInt32(xx.Tag);
+            tagnum = Convert.ToInt32(xx.Tag);
             bool isbattle = true;
             PointDetail.DataContext = MapPoint[tagnum];
             if (MapPoint[tagnum].nobattle != null) { isbattle = false; }
@@ -217,7 +219,33 @@ namespace KanDic.Viewer
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            foreach (RadioButton xx in MapButton.Children)
+            {
+                if (Convert.ToInt32(xx.Tag) == tagnum)
+                {
+                    xx.IsChecked = false;
+                    break;
+                }
+            }
             ResetPos();
+        }
+
+        private void TextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            TextBlock xx = (TextBlock)sender;
+            foreach (System.Windows.Window element in Application.Current.Windows)
+            {
+                string type = element.GetType().ToString();
+                if (type == "KanDic.StartWindow") mainwindow = element;
+                if (type == "KanDic.Window.Enermy")
+                {
+                    element.Close();
+                    break;
+                }
+            }
+            MahApps.Metro.Controls.MetroWindow win = new Window.Enermy();
+            win.Owner = mainwindow;
+            win.Show();
         }
     }
 }

@@ -70,11 +70,11 @@
                             <TextBlock Text="深海阵容（点击查看详细）" Margin="5,5,5,0"/>
                             <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
                             <StackPanel Margin="5">
-                                <TextBlock Text="{Binding Pattern1}"/>
-                                <TextBlock Text="{Binding Pattern2}"/>
-                                <TextBlock Text="{Binding Pattern3}"/>
-                                <TextBlock Text="{Binding Pattern4}"/>
-                                <TextBlock Text="{Binding Pattern5}"/>
+                                <TextBlock Text="{Binding Pattern1}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+                                <TextBlock Text="{Binding Pattern2}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+                                <TextBlock Text="{Binding Pattern3}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+                                <TextBlock Text="{Binding Pattern4}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+                                <TextBlock Text="{Binding Pattern5}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
                             </StackPanel>
                             <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
                             <TextBlock Text="推荐阵型" Margin="5,5,5,0"/>

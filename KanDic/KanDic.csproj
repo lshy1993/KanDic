@@ -103,9 +103,6 @@
     <Compile Include="Resources\Class\TabNums.cs" />
     <Compile Include="Resources\Class\Kan\UpdateInfo.cs" />
     <Compile Include="Settings.cs" />
-    <Compile Include="Viewer\Enermy.xaml.cs">
-      <DependentUpon>Enermy.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Viewer\Equipment.xaml.cs">
       <DependentUpon>Equipment.xaml</DependentUpon>
     </Compile>
@@ -123,6 +120,9 @@
     </Compile>
     <Compile Include="Viewer\Quest.xaml.cs">
       <DependentUpon>Quest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\Enermy.xaml.cs">
+      <DependentUpon>Enermy.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\KanCalculate.xaml.cs">
       <DependentUpon>KanCalculate.xaml</DependentUpon>
@@ -183,10 +183,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Enermy.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Viewer\Equipment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -208,6 +204,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Viewer\Quest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\Enermy.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -702,6 +702,9 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Cache\test.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <EmbeddedResource Include="Resources\Data\Map.xml" />
     <Resource Include="Cache\icon\battle\00.PNG" />
     <Content Include="Cache\bgm\103v.swf.mp3">
