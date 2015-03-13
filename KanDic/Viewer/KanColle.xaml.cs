@@ -39,6 +39,7 @@ namespace KanDic.Viewer
             InitializeComponent();
         }
 
+        #region 打开舰娘详细窗口
         private void Show_Detail(object sender, MouseButtonEventArgs e)
         {
             bool IsOpened = false;
@@ -67,6 +68,7 @@ namespace KanDic.Viewer
                 win.Show();
             }
         }
+        #endregion
 
         private void ShipTag_Checked(object sender, RoutedEventArgs e)
         {
@@ -82,6 +84,7 @@ namespace KanDic.Viewer
             Album.DataContext = new TabNum(shipgroup, (string)xx.Tag ,ships);
         }
 
+        #region 读取xml并生成Kan类
         private void Load_Kan()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -131,6 +134,6 @@ namespace KanDic.Viewer
             ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
             ships[num].BasicInfo.FileName = "/Cache/ships/" + ships[num].BasicInfo.FileName + ".swf/Images/Image 5.jpg";
         }
-
+        #endregion
     }
 }

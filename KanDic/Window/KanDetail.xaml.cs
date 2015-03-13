@@ -37,6 +37,7 @@ namespace KanDic.Window
             Detail_Init();
         }
 
+        #region 数据生成-缺图标
         public void Detail_Init()
         {
             this.Title = kanmusu.BasicInfo.Name;
@@ -56,7 +57,9 @@ namespace KanDic.Window
             ImageBox.DataContext = "/Cache/ships/jnxoytktolbb.swf/Images/Image 17.png";
             Show_Chart();
         }
+        #endregion
 
+        #region Visifire表格生成
         private void Show_Chart()
         {
             hl.YValue = Convert.ToInt32(kanmusu.BattleInfo.Power);
@@ -65,7 +68,9 @@ namespace KanDic.Window
             hb.YValue = Convert.ToInt32(kanmusu.BattleInfo.Dodge);
             nj.YValue = Convert.ToInt32(kanmusu.BattleInfo.HP);
         }
+        #endregion
 
+        #region 窗口生成后，调节图片可移动范围
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
             Canvas.SetLeft(MainImage, ImageBox.ActualWidth / 2 - MainImage.ActualWidth / 2);
@@ -75,7 +80,9 @@ namespace KanDic.Window
             maxleft = 0;
             maxtop = 0;
         }
+        #endregion
 
+        #region 鼠标模拟拖动
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
             isdrag = true;
@@ -103,7 +110,9 @@ namespace KanDic.Window
         {
             isdrag = false;
         }
+        #endregion
 
+        #region 调节窗口大小
         private void ImageBox_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             if (ImageBox.ActualWidth < MainImage.ActualWidth)
@@ -126,7 +135,9 @@ namespace KanDic.Window
                 maxtop = ImageBox.ActualHeight - MainImage.ActualHeight;
             }
         }
+        #endregion
 
+        #region 开启关闭最大值
         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
             CheckBox xx = (CheckBox)sender;
@@ -149,5 +160,6 @@ namespace KanDic.Window
                 nj.YValue = Convert.ToInt32(kanmusu.BattleInfo.HP);
             }
         }
+        #endregion
     }
 }

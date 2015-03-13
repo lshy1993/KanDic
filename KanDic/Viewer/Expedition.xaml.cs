@@ -33,6 +33,7 @@ namespace KanDic.Viewer
             Rows_Init(1);
         }
 
+        #region binding每一行
         private void Rows_Init(int x)
         {
             row1.DataContext = exps[x * 8 - 7];
@@ -44,7 +45,9 @@ namespace KanDic.Viewer
             row7.DataContext = exps[x * 8 - 1];
             row8.DataContext = exps[x * 8];
         }
+        #endregion
 
+        #region 读取xml并生成ExpInfo类
         private void Load_Exp()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -72,6 +75,7 @@ namespace KanDic.Viewer
             exps[num].ItemName1 = "/KanDic;component/Cache/icon/expand/" + exps[num].ItemName1 + ".PNG";
             exps[num].ItemName2 = "/KanDic;component/Cache/icon/expand/" + exps[num].ItemName2 + ".PNG";
         }
+        #endregion
 
         private void row_Click(object sender, RoutedEventArgs e)
         {

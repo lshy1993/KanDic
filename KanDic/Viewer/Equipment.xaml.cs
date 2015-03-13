@@ -39,6 +39,7 @@ namespace KanDic.Viewer
             InitializeComponent();
         }
 
+        #region 打开装备详细窗口
         private void Show_Detail(object sender, MouseButtonEventArgs e)
         {
             bool IsOpened = false;
@@ -67,6 +68,7 @@ namespace KanDic.Viewer
                 win.Show();
             }
         }
+        #endregion
 
         private void SoubiTag_Checked(object sender, RoutedEventArgs e)
         {
@@ -85,6 +87,7 @@ namespace KanDic.Viewer
             //Album.DataContext = new TabNums(equipgroup, (string)xx.Tag, equips);
         }
 
+        #region 读取xml并生成Soubi类
         private void Load_Soubi()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -118,5 +121,6 @@ namespace KanDic.Viewer
             }
             equips[num].FileName = "/Cache/equipment/" + equips[num].Number + ".png";
         }
+        #endregion
     }
 }
