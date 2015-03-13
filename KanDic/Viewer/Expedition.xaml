@@ -16,6 +16,7 @@
         </Grid.ColumnDefinitions>
         <DockPanel Margin="5">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+                <CheckBox Content="大成功（全员闪+概率）" Foreground="Black" Margin="0,0,10,0"/>
                 <Button Style="{StaticResource cjbutton}" Margin="5,0,5,0"/>
                 <Button Style="{StaticResource yxbutton}" Margin="5,0,5,0"/>
                 <Image Source="/KanDic;component/Cache/icon/YZ1.PNG" Stretch="None" Margin="5,0,5,0"/>
@@ -25,11 +26,11 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="30"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="35"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="ID" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Grid.Column="0" FontSize="12"/>
                 <TextBlock Text="远征名" VerticalAlignment="Center" Padding="10,0" Foreground="White" Grid.Column="1" FontSize="12"/>
@@ -42,15 +43,15 @@
             <Rectangle DockPanel.Dock="Top" Height="1" Margin="10,5,5,0" Fill="Gray"/>
             <Button Name="row1" DockPanel.Dock="Top" Margin="10,0,0,0" Click="row_Click">
                 <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="30"/>
-                </Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                    </Grid.ColumnDefinitions>
                 <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                 <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
                 <Image Source="{Binding Hard}" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
@@ -66,11 +67,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -87,11 +88,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -108,11 +109,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -129,11 +130,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -150,11 +151,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -171,11 +172,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
@@ -192,11 +193,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
-                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>

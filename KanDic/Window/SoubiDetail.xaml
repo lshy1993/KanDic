@@ -115,7 +115,7 @@
             </Border>
         </DockPanel>
         <DockPanel Grid.Column="1">
-            <Image DockPanel.Dock="Top" Source="{Binding FileName}" Stretch="None" Margin="5,10,5,0"/>
+            <Image DockPanel.Dock="Top" Source="{Binding FileName}" Stretch="None" Margin="5,10,5,5"/>
             <Border Name="Resolve" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="Gray" Margin="5">
                 <DockPanel Margin="5">
                     <TextBlock DockPanel.Dock="Left" Text="分解资源" Margin="5" VerticalAlignment="Center"/>

@@ -5,6 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="480" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="/Resources/Style/MapStyle2.xaml"/>
+    </UserControl.Resources>
     <Grid>
         <Grid Name="MapGrid" Width="690" Height="370" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#f0e6dc">
             <Grid.Resources>
@@ -46,8 +49,55 @@
             <Grid Name="MapBackground">
                 <Image Source="/KanDic;component/Cache/map/BackgroundDay.bmp" Stretch="None"/>
                 <Image Source="{Binding MAP}" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <Canvas Name="MapButton">
-                    
+                <Canvas Name="MapButton" Width="768" Height="435" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Canvas Name="PointDetail">
+                    <Canvas.Resources>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Style>
+                    </Canvas.Resources>
+                    <ScrollViewer Name="Battle" Background="#f0e6dc" Width="300" Height="480" VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <Button Style="{StaticResource close}" Click="Button_Click"/>
+                            <TextBlock Text="{Binding Name}" Margin="5,5,5,0" FontSize="24"/>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="基础要求（数值计算可利用舰队模拟）" Margin="5,5,5,0"/>
+                            <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
+                            <TextBlock Text="敵制空値" Margin="5"/>
+                            <TextBlock Text="優勢" Margin="5"/>
+                            <TextBlock Text="确保" Margin="5"/>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="深海阵容（点击查看详细）" Margin="5,5,5,0"/>
+                            <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
+                            <StackPanel Margin="5">
+                                <TextBlock Text="{Binding Pattern1}"/>
+                                <TextBlock Text="{Binding Pattern2}"/>
+                                <TextBlock Text="{Binding Pattern3}"/>
+                                <TextBlock Text="{Binding Pattern4}"/>
+                                <TextBlock Text="{Binding Pattern5}"/>
+                            </StackPanel>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="推荐阵型" Margin="5,5,5,0"/>
+                            <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
+                            <TextBlock Text="{Binding zhen}" Margin="5"/>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="掉落列表" Margin="5,5,5,0"/>
+                            <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
+                            <TextBlock Text="{Binding Dropqu}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Dropqing}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Dropzhong}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Dropkong}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Dropqian}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Dropzhan}" Margin="5,5,5,0" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                    <ScrollViewer Name="NoBattle" Background="#f0e6dc" Width="300" Height="180">
+                        <StackPanel>
+                            <TextBlock Text="非战斗点" Margin="5,5,5,0" FontSize="24"/>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="{Binding nobattle}" Margin="5"/>
+                        </StackPanel>
+                    </ScrollViewer>
                 </Canvas>
             </Grid>
         </Canvas>

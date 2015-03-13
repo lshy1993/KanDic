@@ -93,6 +93,7 @@
     <Compile Include="Resources\Class\Kan\Kan.cs" />
     <Compile Include="Resources\Class\Kan\MaxInfo.cs" />
     <Compile Include="Resources\Class\Kan\ResolveInfo.cs" />
+    <Compile Include="Resources\Class\Map\MapInfo.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
     <Compile Include="Resources\Class\Soubi\Soubi.cs" />
     <Compile Include="Resources\Class\Kan\SourceInfo.cs" />
@@ -139,6 +140,10 @@
       <DependentUpon>StartWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="Plugins\MusicPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\MapStyle2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -295,7 +300,6 @@
     <Resource Include="Cache\icon\soubi\84.PNG" />
     <Resource Include="Cache\icon\soubi\86.PNG" />
     <Resource Include="Cache\icon\soubi\88.PNG" />
-    <Resource Include="Cache\icon\soubi\89.PNG" />
     <Resource Include="Cache\icon\soubi\90.PNG" />
     <Resource Include="Cache\icon\soubi\92.PNG" />
     <Resource Include="Cache\icon\soubi\94.PNG" />
@@ -698,6 +702,7 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Data\Map.xml" />
     <Resource Include="Cache\icon\battle\00.PNG" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -1350,11 +1355,12 @@
     <Resource Include="Cache\icon\battle\boss.PNG" />
     <Resource Include="Cache\icon\battle\cancel.PNG" />
     <Resource Include="Cache\icon\battle\enter.PNG" />
-    <Resource Include="Cache\icon\battle\enter1.PNG" />
     <Resource Include="Cache\icon\battle\green.PNG" />
     <Resource Include="Cache\icon\battle\purple.PNG" />
     <Resource Include="Cache\icon\battle\red.PNG" />
     <Resource Include="Cache\noicon.png" />
+    <Resource Include="Cache\icon\battle\shipicon.PNG" />
+    <Resource Include="Cache\icon\battle\close.PNG" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
