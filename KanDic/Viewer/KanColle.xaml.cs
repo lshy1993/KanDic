@@ -32,7 +32,7 @@ namespace KanDic.Viewer
 
         public KanColle()
         {
-            ships = new Kan[250];
+            ships = new Kan[251];
             Load_Kan();
             shipteam = "1";
             shipgroup = "1";
@@ -59,7 +59,7 @@ namespace KanDic.Viewer
                     }
                     
                 }
-            };
+            }
             if (!IsOpened)
             {
                 MahApps.Metro.Controls.MetroWindow win = new Window.KanDetail(num);
@@ -72,7 +72,6 @@ namespace KanDic.Viewer
         {
             RadioButton xx = sender as RadioButton;
             shipgroup = (string)xx.Tag;
-            TabPanel.IsChecked = true;
             Album.DataContext = new TabNum((string)xx.Tag, shipteam, ships);
         }
 
@@ -93,10 +92,6 @@ namespace KanDic.Viewer
             foreach (XmlNode temp in ShipInfo.ChildNodes)
             {
                 Set_Kan(temp);
-            }
-            for (int i = 1; i < 250; i++)
-            {
-                //if (ships[i] == null) ships[i] = ships[1];
             }
         }
 
@@ -131,9 +126,10 @@ namespace KanDic.Viewer
                     if (name1 == "UpdateInfo") { typeof(UpdateInfo).GetProperty(name2).SetValue(h, xx.InnerText, null); }
                     if (name1 == "ResolveInfo") { typeof(ResolveInfo).GetProperty(name2).SetValue(i, xx.InnerText, null); }
                 }
-                ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
                 //Console.WriteLine(ships[num].BasicInfo.Name);
             }
+            ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
+            ships[num].BasicInfo.FileName = "/Cache/ships/" + ships[num].BasicInfo.FileName + ".swf/Images/Image 5.jpg";
         }
 
     }

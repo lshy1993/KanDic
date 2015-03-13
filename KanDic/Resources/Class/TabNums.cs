@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace KanDic.Resources
 {
-    public class TabNum
+    public class TabNums
     {
         public string Number1 { get; set; }
         public string Number2 { get; set; }
@@ -37,14 +36,13 @@ namespace KanDic.Resources
 
         public int[] Number = new int[10];
 
-        public TabNum()
+        public TabNums()
         {
             Tab_Init("1");
             Number = new int[10] {1,2,3,4,5,6,7,8,9,10};
             Num_Init();
         }
-
-        public TabNum(string group, string team, Kan[] yyy)
+        public TabNums(string group, string team, Soubi[] yyy)
         {
             Tab_Init(group);
             Number = new int[10];
@@ -54,25 +52,25 @@ namespace KanDic.Resources
             }
             Num_Init();
 
-            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].BasicInfo.FileName;
+            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].FileName;
             else Image1 = "/Cache/error.png";
-            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].BasicInfo.FileName;
+            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].FileName;
             else Image2 = "/Cache/error.png";
-            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].BasicInfo.FileName;
+            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].FileName;
             else Image3 = "/Cache/error.png";
-            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].BasicInfo.FileName;
+            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].FileName;
             else Image4 = "/Cache/error.png";
-            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].BasicInfo.FileName;
+            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].FileName;
             else Image5 = "/Cache/error.png";
-            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].BasicInfo.FileName;
+            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].FileName;
             else Image6 = "/Cache/error.png";
-            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].BasicInfo.FileName;
+            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].FileName;
             else Image7 = "/Cache/error.png";
-            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].BasicInfo.FileName;
+            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].FileName;
             else Image8 = "/Cache/error.png";
-            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].BasicInfo.FileName;
+            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].FileName;
             else Image9 = "/Cache/error.png";
-            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].BasicInfo.FileName;
+            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].FileName;
             else Image10 = "/Cache/error.png";
         }
 
@@ -89,7 +87,6 @@ namespace KanDic.Resources
             Number9 = "No." + Number[8].ToString("D3");
             Number10 = "No." + Number[9].ToString("D3");
         }
-
         public void Tab_Init(string x)
         {
             switch (x)
@@ -115,20 +112,6 @@ namespace KanDic.Resources
                     Tab4 = "No.131-140";
                     Tab5 = "No.141-150";
                     break;
-                case "4":
-                    Tab1 = "No.151-160";
-                    Tab2 = "No.161-170";
-                    Tab3 = "No.171-180";
-                    Tab4 = "No.181-190";
-                    Tab5 = "No.191-200";
-                    break;
-                case "5":
-                    Tab1 = "No.201-210";
-                    Tab2 = "No.211-220";
-                    Tab3 = "No.221-230";
-                    Tab4 = "No.231-240";
-                    Tab5 = "No.241-250";
-                    break;
                 default:
                     Tab1 = "No.001-010";
                     Tab2 = "No.011-020";
@@ -138,5 +121,6 @@ namespace KanDic.Resources
                     break;
             }
         }
+
     }
 }

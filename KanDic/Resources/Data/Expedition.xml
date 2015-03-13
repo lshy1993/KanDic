@@ -30,8 +30,8 @@
     <Hour>00</Hour>
     <Minute>30</Minute>
     <GetFuel>0</GetFuel>
-    <GetAmmo>200</GetAmmo>
-    <GetSteel>60</GetSteel>
+    <GetAmmo>100</GetAmmo>
+    <GetSteel>30</GetSteel>
     <GetAluminum>0</GetAluminum>
     <CostFuel>50%</CostFuel>
     <CostAmmo>无</CostAmmo>

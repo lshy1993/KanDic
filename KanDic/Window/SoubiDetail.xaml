@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Window.SoubiDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns:data="clr-namespace:KanDic.Resources"
+    Title="SoubiDetail" Height="540" Width="770"
+    MinHeight="540" MinWidth="770"
+    BorderThickness="1"
+    EnableDWMDropShadow="True"
+    ResizeMode="CanResizeWithGrip"
+
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+    </Grid>
+</Controls:MetroWindow>

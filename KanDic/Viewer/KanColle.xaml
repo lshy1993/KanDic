@@ -51,7 +51,7 @@
                         <StackPanel.Resources>
                             <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
                         </StackPanel.Resources>
-                        <RadioButton Name="TabPanel" Tag="1" Content="{Binding Tab1}" Checked="NumberTag_Checked" IsChecked="True"/>
+                        <RadioButton Tag="1" Content="{Binding Tab1}" Checked="NumberTag_Checked" IsChecked="True"/>
                         <RadioButton Tag="2" Content="{Binding Tab2}" Checked="NumberTag_Checked"/>
                         <RadioButton Tag="3" Content="{Binding Tab3}" Checked="NumberTag_Checked"/>
                         <RadioButton Tag="4" Content="{Binding Tab4}" Checked="NumberTag_Checked"/>
@@ -60,7 +60,7 @@
                 </Grid>
             </ScrollViewer>
             <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" PanningMode="Both">
-                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid VerticalAlignment="Top" HorizontalAlignment="Center">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                         <ColumnDefinition />

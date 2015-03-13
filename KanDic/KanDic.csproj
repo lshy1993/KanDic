@@ -84,21 +84,23 @@
     <Compile Include="Plugins\MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Class\BasicInfo.cs" />
-    <Compile Include="Resources\Class\BattleInfo.cs" />
-    <Compile Include="Resources\Class\BuildInfo.cs" />
-    <Compile Include="Resources\Class\EquipInfo.cs" />
-    <Compile Include="Resources\Class\ExpInfo.cs" />
+    <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
+    <Compile Include="Resources\Class\Kan\BattleInfo.cs" />
+    <Compile Include="Resources\Class\Kan\BuildInfo.cs" />
+    <Compile Include="Resources\Class\Kan\EquipInfo.cs" />
+    <Compile Include="Resources\Class\Expedition\ExpInfo.cs" />
     <Compile Include="Resources\Class\ImageView.cs" />
-    <Compile Include="Resources\Class\Kan.cs" />
-    <Compile Include="Resources\Class\MaxInfo.cs" />
-    <Compile Include="Resources\Class\ResolveInfo.cs" />
-    <Compile Include="Resources\Class\SobiInfo.cs" />
-    <Compile Include="Resources\Class\SourceInfo.cs" />
-    <Compile Include="Resources\Class\SupplyInfo.cs" />
+    <Compile Include="Resources\Class\Kan\Kan.cs" />
+    <Compile Include="Resources\Class\Kan\MaxInfo.cs" />
+    <Compile Include="Resources\Class\Kan\ResolveInfo.cs" />
+    <Compile Include="Resources\Class\Soubi\SobiInfo.cs" />
+    <Compile Include="Resources\Class\Soubi.cs" />
+    <Compile Include="Resources\Class\Kan\SourceInfo.cs" />
+    <Compile Include="Resources\Class\Kan\SupplyInfo.cs" />
     <Compile Include="Resources\Class\TabNum.cs" />
-    <Compile Include="Resources\Class\MP3.cs" />
-    <Compile Include="Resources\Class\UpdateInfo.cs" />
+    <Compile Include="Resources\Class\Music\MP3.cs" />
+    <Compile Include="Resources\Class\TabNums.cs" />
+    <Compile Include="Resources\Class\Kan\UpdateInfo.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Viewer\Enermy.xaml.cs">
       <DependentUpon>Enermy.xaml</DependentUpon>
@@ -129,6 +131,9 @@
     </Compile>
     <Compile Include="Window\ListView.xaml.cs">
       <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window\SoubiDetail.xaml.cs">
+      <DependentUpon>SoubiDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\StartWindow.xaml.cs">
       <DependentUpon>StartWindow.xaml</DependentUpon>
@@ -206,6 +211,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\SoubiDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

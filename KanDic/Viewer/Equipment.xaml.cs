@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KanDic;
+using KanDic.Resources;
+using System.Xml;
+using System.Reflection;
 
 namespace KanDic.Viewer
 {
@@ -20,103 +24,92 @@ namespace KanDic.Viewer
     /// </summary>
     public partial class Equipment : UserControl
     {
-        public class EquipImage
-        {
-            public string File1 { get; set; }
-            public string File2 { get; set; }
-            public string File3 { get; set; }
-            public string File4 { get; set; }
-            public string File5 { get; set; }
-            public string File6 { get; set; }
-            public string File7 { get; set; }
-            public string File8 { get; set; }
-            public string File9 { get; set; }
-            public string File10 { get; set; }
-            public string Number1 { get; set; }
-            public string Number2 { get; set; }
-            public string Number3 { get; set; }
-            public string Number4 { get; set; }
-            public string Number5 { get; set; }
-            public string Number6 { get; set; }
-            public string Number7 { get; set; }
-            public string Number8 { get; set; }
-            public string Number9 { get; set; }
-            public string Number10 { get; set; }
-        }
-
-        public class TabNumber
-        {
-            public string Tab1 { get; set; }
-            public string Tab2 { get; set; }
-            public string Tab3 { get; set; }
-            public string Tab4 { get; set; }
-            public string Tab5 { get; set; }
-        }
-
         public System.Windows.Window mainwindow;
+
+        public string equipgroup, equipteam;
+
+        public static Soubi[] equips;
 
         public Equipment()
         {
+            equips = new Soubi[151];
+            Load_Soubi();
+            equipteam = "1";
+            equipgroup = "1";
             InitializeComponent();
-            EquipImage page = new EquipImage()
-            {
-                File1 = "/Cache/equipment/001.png",
-                File2 = "/Cache/equipment/002.png",
-                File3 = "/Cache/equipment/003.png",
-                File4 = "/Cache/equipment/004.png",
-                File5 = "/Cache/equipment/005.png",
-                File6 = "/Cache/equipment/006.png",
-                File7 = "/Cache/equipment/007.png",
-                File8 = "/Cache/equipment/008.png",
-                File9 = "/Cache/equipment/009.png",
-                File10 = "/Cache/equipment/010.png",
-                Number1 = "No.001",
-                Number2 = "No.002",
-                Number3 = "No.003",
-                Number4 = "No.004",
-                Number5 = "No.005",
-                Number6 = "No.006",
-                Number7 = "No.007",
-                Number8 = "No.008",
-                Number9 = "No.009",
-                Number10 = "No.010"
-            };
-            TabNumber tab = new TabNumber()
-            {
-                Tab1 = "001-010",
-                Tab2 = "011-020",
-                Tab3 = "021-030",
-                Tab4 = "031-040",
-                Tab5 = "041-050"
-            };
-            MainContent.DataContext = page;
-            TabCtrl.DataContext = tab;
         }
 
         private void Show_Detail(object sender, MouseButtonEventArgs e)
         {
             bool IsOpened = false;
-
-            /*foreach (System.Windows.Window element in Application.Current.Windows)
+            Image xx = (Image)sender;
+            int num = (Convert.ToInt32(equipgroup) - 1) * 50 + (Convert.ToInt32(equipteam) - 1) * 10 + Convert.ToInt32(xx.Tag);
+            if (equips[num] == null) return;
+            foreach (System.Windows.Window element in Application.Current.Windows)
             {
                 string type = element.GetType().ToString();
                 if (type == "KanDic.StartWindow") mainwindow = element;
-                if (type == "KanDic.Window.KanDetail")
+                if (type == "KanDic.Window.SoubiDetail")
                 {
-                    element.WindowState = WindowState.Normal;
-                    element.Activate();
-                    IsOpened = true;
-                    break;
+                    if (element.Title == equips[num].Name)
+                    {
+                        element.WindowState = WindowState.Normal;
+                        IsOpened = true;
+                        break;
+                    }
+
                 }
-            };
+            }
             if (!IsOpened)
             {
-                Window.KanDetail win = new Window.KanDetail();
+                MahApps.Metro.Controls.MetroWindow win = new Window.SoubiDetail(num);
                 win.Owner = mainwindow;
-                win.ShowActivated = true;
-                win.Activate();
                 win.Show();
-            }*/
+            }
+        }
+
+        private void SoubiTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            equipgroup = (string)xx.Tag;
+            //TabPanel.IsChecked = true;
+            Album.DataContext = new TabNums(equipgroup, equipteam, equips);
+            //Album.DataContext = new TabNums((string)xx.Tag, equipteam, equips);
+        }
+
+        private void NumberTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            equipteam = (string)xx.Tag;
+            Album.DataContext = new TabNums(equipgroup, equipteam, equips);
+            //Album.DataContext = new TabNums(equipgroup, (string)xx.Tag, equips);
+        }
+
+        private void Load_Soubi()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Equip.xml");
+            XmlDocument ShipList = new XmlDocument();
+            ShipList.Load(sStream);
+            XmlElement ShipInfo = ShipList.DocumentElement;
+            foreach (XmlNode temp in ShipInfo.ChildNodes)
+            {
+                Set_Soubi(temp);
+            }
+            
+        }
+
+        private void Set_Soubi(XmlNode x)
+        {
+            string name1;
+            int num = Convert.ToInt32(x.FirstChild.InnerText);
+            equips[num] = new Soubi();
+            foreach (XmlNode yy in x.ChildNodes)
+            {
+                name1 = yy.Name;
+                typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
+            }
+            equips[num].FileName = "/Cache/equipment/" + equips[num].Number + ".png";
         }
     }
 }
