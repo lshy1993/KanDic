@@ -73,11 +73,11 @@
 				TiltFactor="5"
 				Width="150" Height="150"
                 Click="Tile_Click"/>
-            <Controls:Tile Count="敌人" Title="6"
+            <Controls:Tile Count="阵型" Title="6"
 				TiltFactor="6"
 				Width="150" Height="150"
 				Click="Tile_Click"/>
-            <Controls:Tile Count="阵型" Title="7"
+            <Controls:Tile Count="最新活动" Title="7"
 				TiltFactor="7"
 				Width="150" Height="150"
 				Click="Tile_Click"/>
@@ -106,11 +106,11 @@
                 <TabItem Header="任务" Width="100">
                     <viewer:Quest MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
-                <TabItem Header="敌人" Width="100">
-                    <viewer:Enermy MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
-                </TabItem>
                 <TabItem Header="阵型" Width="100">
                     <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                </TabItem>
+                <TabItem Header="活动" Width="100">
+                    <viewer:Enermy MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
             </TabControl>
             <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5">

@@ -47,11 +47,12 @@ namespace KanDic.Window
                 SolidColorBrush brush = new SolidColorBrush(color);
                 IfHugeBack.Background = brush;
             }
+            MainData.DataContext = kanmusu.BattleInfo;
             a = "/Cache/icon/soubi/70.PNG";
             b = "/Cache/icon/soubi/70.PNG";
             c = "/Cache/icon/soubi/70.PNG";
             d = "/Cache/icon/soubi/70.PNG";
-            SobiList.DataContext = new SobiInfo(a, b, c, d);
+            SobiList.DataContext = new SobiIcon(a, b, c, d);
             ImageBox.DataContext = "/Cache/ships/jnxoytktolbb.swf/Images/Image 17.png";
             Show_Chart();
         }
@@ -123,6 +124,29 @@ namespace KanDic.Window
             {
                 mintop = 0;
                 maxtop = ImageBox.ActualHeight - MainImage.ActualHeight;
+            }
+        }
+
+        private void CheckBox_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox xx = (CheckBox)sender;
+            if ((bool)xx.IsChecked)
+            {
+                MainData.DataContext = kanmusu.MaxInfo;
+                hl.YValue = Convert.ToInt32(kanmusu.MaxInfo.Power);
+                lz.YValue = Convert.ToInt32(kanmusu.MaxInfo.Torpedo);
+                dk.YValue = Convert.ToInt32(kanmusu.MaxInfo.Air);
+                hb.YValue = Convert.ToInt32(kanmusu.MaxInfo.Dodge);
+                nj.YValue = Convert.ToInt32(kanmusu.MaxInfo.HP);
+            }
+            else
+            {
+                MainData.DataContext = kanmusu.BattleInfo;
+                hl.YValue = Convert.ToInt32(kanmusu.BattleInfo.Power);
+                lz.YValue = Convert.ToInt32(kanmusu.BattleInfo.Torpedo);
+                dk.YValue = Convert.ToInt32(kanmusu.BattleInfo.Air);
+                hb.YValue = Convert.ToInt32(kanmusu.BattleInfo.Dodge);
+                nj.YValue = Convert.ToInt32(kanmusu.BattleInfo.HP);
             }
         }
     }

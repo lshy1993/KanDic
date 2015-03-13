@@ -46,7 +46,7 @@
                     <Rectangle Grid.Row="1" Height="1" Margin="20,10" Fill="Gray" Opacity="0.5" />
                     <StackPanel Grid.Row="2">
                         <StackPanel.Resources>
-                            <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle2.xaml" />
+                            <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
                         </StackPanel.Resources>
                         <RadioButton Tag="1" Content="{Binding Tab1}" Checked="NumberTag_Checked" IsChecked="True"/>
                         <RadioButton Tag="2" Content="{Binding Tab2}" Checked="NumberTag_Checked"/>
@@ -81,16 +81,16 @@
                     <TextBlock Text="{Binding Path=Number8}" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Margin="10"/>
                     <TextBlock Text="{Binding Path=Number9}" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Margin="10"/>
                     <TextBlock Text="{Binding Path=Number10}" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center" Margin="10"/>
-                    <Image Source="{Binding Path=Image1}" Grid.Column="0" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image2}" Grid.Column="1" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image3}" Grid.Column="2" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image4}" Grid.Column="3" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image5}" Grid.Column="4" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image6}" Grid.Column="0" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image7}" Grid.Column="1" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image8}" Grid.Column="2" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image9}" Grid.Column="3" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image Source="{Binding Path=Image10}" Grid.Column="4" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="1" Source="{Binding Path=Image1}" Grid.Column="0" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="2" Source="{Binding Path=Image2}" Grid.Column="1" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="3" Source="{Binding Path=Image3}" Grid.Column="2" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="4" Source="{Binding Path=Image4}" Grid.Column="3" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="5" Source="{Binding Path=Image5}" Grid.Column="4" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="6" Source="{Binding Path=Image6}" Grid.Column="0" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="7" Source="{Binding Path=Image7}" Grid.Column="1" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="8" Source="{Binding Path=Image8}" Grid.Column="2" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="9" Source="{Binding Path=Image9}" Grid.Column="3" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image Tag="10" Source="{Binding Path=Image10}" Grid.Column="4" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
                 </Grid>
             </ScrollViewer>
         </Grid>

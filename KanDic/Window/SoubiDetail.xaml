@@ -4,14 +4,168 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
     xmlns:data="clr-namespace:KanDic.Resources"
-    Title="SoubiDetail" Height="540" Width="770"
-    MinHeight="540" MinWidth="770"
+    Title="SoubiDetail" Height="500" Width="770"
+    MinHeight="500" MinWidth="770"
     BorderThickness="1"
     EnableDWMDropShadow="True"
     ResizeMode="CanResizeWithGrip"
 
     WindowStartupLocation="CenterScreen">
-    <Grid>
-        
+    <Grid Name="MainDetail">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0">
+            <Border Name="Basic" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="Gray" Margin="5" Padding="10,0,10,0">
+                <Grid Height="45">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="No." VerticalAlignment="Bottom" Margin="0,0,0,4" FontSize="16"/>
+                    <TextBlock Text="{Binding Number}" Grid.Column="1" VerticalAlignment="Bottom" Margin="2,0,0,3" FontSize="18"/>
+                    <TextBlock Text="{Binding Name}" Grid.Column="2" Margin="25,0,0,0" VerticalAlignment="Bottom" FontSize="28"/>
+                </Grid>
+            </Border>
+            <Border Name="Intruduction" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="Gray" Margin="5" Height="130">
+                <TextBlock Text="{Binding Content}" TextWrapping="Wrap"/>
+            </Border>
+            <Border Name="Shuxing" BorderThickness="1" BorderBrush="Gray" Margin="5">
+                <DockPanel>
+                    <Grid DockPanel.Dock="Top" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Icon}" Stretch="None" Grid.Column="0"/>
+                        <TextBlock Text="{Binding Type}" Grid.Column="1" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="稀有度：" Grid.Column="2"/>
+                        <TextBlock Text="{Binding Rare}" Grid.Column="3"/>
+                    </Grid>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,0,5,3" Fill="Gray" />
+                    <TextBlock DockPanel.Dock="Top" Text="装备属性" HorizontalAlignment="Center"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,2,5,0" Fill="Gray" />
+                    <Grid DockPanel.Dock="Top" Margin="10,5,10,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Source="{Binding Shu1}" Stretch="None" Grid.Row="0" Grid.Column="0"/>
+                        <Image Source="{Binding Shu2}" Stretch="None" Grid.Row="0" Grid.Column="2"/>
+                        <Image Source="{Binding Shu3}" Stretch="None" Grid.Row="0" Grid.Column="4"/>
+                        <Image Source="{Binding Shu4}" Stretch="None" Grid.Row="1" Grid.Column="0"/>
+                        <Image Source="{Binding Shu5}" Stretch="None" Grid.Row="1" Grid.Column="2"/>
+                        <Image Source="{Binding Shu6}" Stretch="None" Grid.Row="1" Grid.Column="4"/>
+                        <TextBlock Text="{Binding ShuNum1}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding ShuNum2}" Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding ShuNum3}" Grid.Row="0" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding ShuNum4}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding ShuNum5}" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding ShuNum6}" Grid.Row="1" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Grid>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,0,5,3" Fill="Gray" />
+                    <TextBlock DockPanel.Dock="Top" Text="可装备舰种" HorizontalAlignment="Center"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,2,5,0" Fill="Gray" />
+                    <Grid>
+                        <Grid.Resources>
+                            <ResourceDictionary Source="/KanDic;component/Resources/Style/CheckBox.xaml" />
+                        </Grid.Resources>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <CheckBox Content="駆逐艦" IsEnabled="False" IsChecked="{Binding quzhu}" Grid.Row="0" Grid.Column="0"/>
+                        <CheckBox Content="軽巡洋艦" IsEnabled="False" IsChecked="{Binding qingxun}" Grid.Row="0" Grid.Column="1"/>
+                        <CheckBox Content="重巡洋艦" IsEnabled="False" IsChecked="{Binding zhongxun}" Grid.Row="0" Grid.Column="2"/>
+                        <CheckBox Content="重雷装巡洋艦" IsEnabled="False" IsChecked="{Binding leixun}" Grid.Row="0" Grid.Column="3"/>
+                        <CheckBox Content="低速戦艦" IsEnabled="False" IsChecked="{Binding dizhan}" Grid.Row="1" Grid.Column="0"/>
+                        <CheckBox Content="高速戦艦" IsEnabled="False" IsChecked="{Binding gaozhan}" Grid.Row="1" Grid.Column="1"/>
+                        <CheckBox Content="航空戦艦" IsEnabled="False" IsChecked="{Binding hangzhan}" Grid.Row="1" Grid.Column="2"/>
+                        <CheckBox Content="航空巡洋艦" IsEnabled="False" IsChecked="{Binding hangxun}" Grid.Row="1" Grid.Column="3"/>
+                        <CheckBox Content="軽空母" IsEnabled="False" IsChecked="{Binding qingmu}" Grid.Row="2" Grid.Column="0"/>
+                        <CheckBox Content="正規空母" IsEnabled="False" IsChecked="{Binding zhengmu}" Grid.Row="2" Grid.Column="1"/>
+                        <CheckBox Content="水上機母艦" IsEnabled="False" IsChecked="{Binding shuimu}" Grid.Row="2" Grid.Column="2"/>
+                        <CheckBox Content="揚陸艦" IsEnabled="False" IsChecked="{Binding yanglu}" Grid.Row="2" Grid.Column="3"/>
+                        <CheckBox Content="潜水艦" IsEnabled="False" IsChecked="{Binding qianshui}" Grid.Row="3" Grid.Column="0"/>
+                        <CheckBox Content="潜水空母" IsEnabled="False" IsChecked="{Binding qiankong}" Grid.Row="3" Grid.Column="1"/>
+                        <CheckBox Content="潜水母艦" IsEnabled="False" IsChecked="{Binding qianmu}" Grid.Row="3" Grid.Column="2"/>
+                        <CheckBox Content="工作艦" IsEnabled="False" IsChecked="{Binding gongzuo}" Grid.Row="3" Grid.Column="3"/>
+                    </Grid>
+                </DockPanel>
+            </Border>
+        </DockPanel>
+        <DockPanel Grid.Column="1">
+            <Image DockPanel.Dock="Top" Source="{Binding FileName}" Stretch="None" Margin="5,10,5,0"/>
+            <Border Name="Resolve" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="Gray" Margin="5">
+                <DockPanel Margin="5">
+                    <TextBlock DockPanel.Dock="Left" Text="分解资源" Margin="5" VerticalAlignment="Center"/>
+                    <Rectangle DockPanel.Dock="Left" Width="1" Margin="5,0,5,0" Grid.Row="1" Fill="Gray" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Cache/icon/info/fuel.PNG" Stretch="None" Grid.Column="0"/>
+                        <TextBlock Text="{Binding Fuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+                        <Image Source="/Cache/icon/info/ammo.PNG" Stretch="None" Grid.Column="2"/>
+                        <TextBlock Text="{Binding Ammo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3"/>
+                        <Image Source="/Cache/icon/info/steel.PNG" Stretch="None" Grid.Column="4"/>
+                        <TextBlock Text="{Binding Steel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5"/>
+                        <Image Source="/Cache/icon/info/aluminum.PNG" Stretch="None" Grid.Column="6"/>
+                        <TextBlock Text="{Binding Aluminium}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7"/>
+                    </Grid>
+                </DockPanel>
+            </Border>
+            <Border Name="GetWays" BorderThickness="1" BorderBrush="Gray" Margin="5">
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <DockPanel Grid.Column="0" Margin="5">
+                        <TextBlock DockPanel.Dock="Top" Text="推荐公式" />
+                        <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray" />
+                        <TextBlock DockPanel.Dock="Top" Text="{Binding Tuijian}" />
+                        <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray" />
+                        <TextBlock DockPanel.Dock="Top" Text="秘书舰选择" />
+                        <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray" />
+                        <TextBlock DockPanel.Dock="Top" Text="{Binding Mishu}" />
+                    </DockPanel>
+                    <Rectangle Grid.Column="1" Width="1" Margin="5,0,5,0" Fill="Gray" />
+                    <DockPanel Grid.Column="2" Margin="5">
+                        <TextBlock DockPanel.Dock="Top" Text="其他入手方式" />
+                        <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray" />
+                        <TextBlock DockPanel.Dock="Top" Text="{Binding Remarks}" />
+                    </DockPanel>
+                </Grid>
+            </Border>
+        </DockPanel>
     </Grid>
 </Controls:MetroWindow>

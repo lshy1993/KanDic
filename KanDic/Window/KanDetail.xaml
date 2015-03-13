@@ -82,7 +82,7 @@
                         <DockPanel Margin="10,5,10,0">
                             <TextBlock DockPanel.Dock="Top" Text="舰船资料"/>
                             <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,3,0,7" Fill="Gray" />
-                            <Grid DockPanel.Dock="Top" Width="auto">
+                            <Grid Name="MainData" DockPanel.Dock="Top" Width="auto">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="52"/>
                                     <ColumnDefinition />
@@ -101,23 +101,23 @@
                                 <Image Source="/Cache/icon/info/hb.PNG" Margin="2" Stretch="None" Grid.Row="2" Grid.Column="0"/>
                                 <Image Source="/Cache/icon/info/sl.PNG" Margin="2" Stretch="None" Grid.Row="4" Grid.Column="0"/>
                                 <Image Source="/Cache/icon/info/sc.PNG" Margin="2" Stretch="None" Grid.Row="5" Grid.Column="0"/>
-                                <TextBlock Text="{Binding BattleInfo.HP}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Defence}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Dodge}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Carry}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Speed}" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Range}" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding HP}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Defence}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Dodge}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Carry}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Speed}" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Range}" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 <Image Source="/Cache/icon/info/hl.PNG" Margin="2" Stretch="None" Grid.Row="0" Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/lz.PNG" Margin="2" Stretch="None" Grid.Row="1"  Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/dk.PNG" Margin="2" Stretch="None" Grid.Row="2"  Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/dq.PNG" Margin="2" Stretch="None" Grid.Row="3"  Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/sd.PNG" Margin="2" Stretch="None" Grid.Row="4"  Grid.Column="2"/>
-                                <TextBlock Text="{Binding BattleInfo.Power}" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Torpedo}" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Air}" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Antisub}" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Search}" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding BattleInfo.Lucky}" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Power}" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Torpedo}" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Air}" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Antisub}" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Search}" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Lucky}" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
                             <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,7,0,0" Fill="Gray" />
                             <Grid>
@@ -125,7 +125,7 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <CheckBox Content="最大值" HorizontalAlignment="Center"/>
+                                <CheckBox Content="最大值" HorizontalAlignment="Center" Click="CheckBox_Click"/>
                                 <CheckBox Content="颜色显示" Grid.Column="1" HorizontalAlignment="Center"/>
                             </Grid>
                         </DockPanel>

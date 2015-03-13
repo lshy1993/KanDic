@@ -107,7 +107,14 @@ namespace KanDic.Viewer
             foreach (XmlNode yy in x.ChildNodes)
             {
                 name1 = yy.Name;
-                typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
+                if (yy.InnerText == "True" || yy.InnerText == "False")
+                {
+                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], Convert.ToBoolean(yy.InnerText), null);
+                }
+                else
+                {
+                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
+                }
             }
             equips[num].FileName = "/Cache/equipment/" + equips[num].Number + ".png";
         }

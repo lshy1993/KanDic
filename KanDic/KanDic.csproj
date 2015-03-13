@@ -93,8 +93,8 @@
     <Compile Include="Resources\Class\Kan\Kan.cs" />
     <Compile Include="Resources\Class\Kan\MaxInfo.cs" />
     <Compile Include="Resources\Class\Kan\ResolveInfo.cs" />
-    <Compile Include="Resources\Class\Soubi\SobiInfo.cs" />
-    <Compile Include="Resources\Class\Soubi.cs" />
+    <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
+    <Compile Include="Resources\Class\Soubi\Soubi.cs" />
     <Compile Include="Resources\Class\Kan\SourceInfo.cs" />
     <Compile Include="Resources\Class\Kan\SupplyInfo.cs" />
     <Compile Include="Resources\Class\TabNum.cs" />
@@ -171,6 +171,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\Style\RadioStyle2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\CheckBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1350,6 +1354,7 @@
     <Resource Include="Cache\icon\battle\green.PNG" />
     <Resource Include="Cache\icon\battle\purple.PNG" />
     <Resource Include="Cache\icon\battle\red.PNG" />
+    <Resource Include="Cache\noicon.png" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
