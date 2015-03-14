@@ -25,12 +25,14 @@ namespace KanDic.Viewer
     public partial class Expedition : UserControl
     {
         public ExpInfo[] exps = new ExpInfo[41];
+        public int expgroup;
 
         public Expedition()
         {
             Load_Exp();
             InitializeComponent();
-            Rows_Init(1);
+            expgroup = 1;
+            Rows_Init(expgroup);
         }
 
         #region binding每一行
@@ -81,13 +83,15 @@ namespace KanDic.Viewer
         {
             Button bt1 = (Button)sender;
             int y = Convert.ToInt32(bt1.Name.Substring(3));
+            y = y + (expgroup - 1) * 8;
             ExpDetail.DataContext = exps[y];
         }
 
         private void RadioButton_Click(object sender, RoutedEventArgs e)
         {
             RadioButton im = (RadioButton)sender;
-            Rows_Init(Convert.ToInt32(im.Tag));
+            expgroup = Convert.ToInt32(im.Tag); 
+            Rows_Init(expgroup);
         }
     }
 }

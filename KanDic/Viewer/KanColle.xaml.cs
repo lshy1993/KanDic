@@ -32,7 +32,7 @@ namespace KanDic.Viewer
 
         public KanColle()
         {
-            ships = new Kan[251];
+            ships = new Kan[500];
             Load_Kan();
             shipteam = "1";
             shipgroup = "1";
@@ -101,7 +101,6 @@ namespace KanDic.Viewer
         private void Set_Kan(XmlNode x)
         {
             string name1, name2;
-            int num = Convert.ToInt32(x.FirstChild.FirstChild.NextSibling.NextSibling.InnerText);
             BasicInfo a = new BasicInfo();
             BattleInfo b = new BattleInfo();
             BuildInfo c = new BuildInfo();
@@ -131,6 +130,7 @@ namespace KanDic.Viewer
                 }
                 //Console.WriteLine(ships[num].BasicInfo.Name);
             }
+            int num = Convert.ToInt32(a.Number);
             ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
             ships[num].BasicInfo.FileName = "/Cache/ships/" + ships[num].BasicInfo.FileName + ".swf/Images/Image 5.jpg";
         }

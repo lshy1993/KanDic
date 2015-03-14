@@ -8,6 +8,7 @@ namespace KanDic.Resources
 {
     public class MapInfo
     {
+        public string Key { set; get; }
         public string Name { set; get; }
         public string Type { set; get; }
 

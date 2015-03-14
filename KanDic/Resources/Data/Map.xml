@@ -1,90 +1,118 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<CATALOG>
-  <Map>
-    <Key>1-1</Key>
-    <Point>
-      <Name>敵偵察艦</Name>
-      <Type>red</Type>
-      <xPos>218</xPos>
-      <yPos>157</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>駆逐イ級</Pattern1>
-      <Pattern2>駆逐ロ級</Pattern2>
-      <Pattern3>駆逐ハ級</Pattern3>
-      <Dropqu>白雪 初雪 深雪 磯波 綾波 敷波睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞</Dropqu>
-      <Dropqing>神通 那珂</Dropqing>
-    </Point>
-    <Point>
-      <Name>敵はぐれ艦隊</Name>
-      <Type>red</Type>
-      <xPos>343</xPos>
-      <yPos>75</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>駆逐イ級 駆逐イ級</Pattern1>
-      <Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
-      <Pattern3>駆逐ハ級 駆逐ハ級</Pattern3>
-      <Dropqu>白雪 初雪 深雪 磯波 綾波 敷波睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞</Dropqu>
-      <Dropqing>神通 那珂</Dropqing>
-    </Point>
-    <Point>
-      <Name>敵主力艦隊</Name>
-      <Type>boss</Type>
-      <xPos>331</xPos>
-      <yPos>222</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
-      <Pattern2>軽巡ホ級 駆逐ロ級 駆逐ロ級</Pattern2>
-      <Pattern3>軽巡ホ級 駆逐ハ級 駆逐ロ級 駆逐ロ級</Pattern3>
-      <Dropqu>吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮</Dropqu>
-      <Dropqing>北上 天龍 龍田 球磨 多摩 木曾 川内 神通 那珂</Dropqing>
-    </Point>
-  </Map>
-  <Map>
-    <Key>1-2</Key>
-    <Point>
-      <Name>敵前衛艦隊</Name>
-      <Type>red</Type>
-      <xPos>302</xPos>
-      <yPos>107</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
-      <Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
-      <Pattern3>軽巡ヘ級 駆逐ロ級 駆逐ロ級</Pattern3>
-      <Dropqu>白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 文月 菊月 三日月 望月 朧 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 黒潮</Dropqu>
-      <Dropqing>天龍 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂</Dropqing>
-    </Point>
-    <Point>
-      <Name>敵主力部隊</Name>
-      <Type>boss</Type>
-      <xPos>465</xPos>
-      <yPos>72</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>軽巡ヘ級 雷巡チ級 駆逐ハ級 駆逐ハ級 駆逐ロ級</Pattern1>
-      <Pattern2>軽巡ヘ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級</Pattern2>
-      <Pattern3>軽巡ヘ級 軽巡ホ級 駆逐ロ級 駆逐イ級 駆逐イ級</Pattern3>
-      <Dropqu>白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 長月 菊月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮</Dropqu>
-      <Dropqing>北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 阿武隈 夕張</Dropqing>
-      <Dropzhong>加古 那智</Dropzhong>
-    </Point>
-    <Point>
-      <Name></Name>
-      <Type>green</Type>
-      <xPos>253</xPos>
-      <yPos>217</yPos>
-      <nobattle>弾薬+10～20(50%概率)</nobattle>
-    </Point>
-    <Point>
-      <Name>敵前衛艦隊</Name>
-      <Type>red</Type>
-      <xPos>371</xPos>
-      <yPos>294</yPos>
-      <zhen>単縦</zhen>
-      <Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
-      <Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
-      <Pattern3>軽巡ヘ級 駆逐ロ級 駆逐ロ級</Pattern3>
-      <Dropqu>初雪 深雪 磯波 敷波 睦月 如月 文月 皐月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 不知火 黒潮</Dropqu>
-      <Dropqing>天龍 龍田 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂</Dropqing>
-      <Dropkong>千歳</Dropkong>
-    </Point>
-  </Map>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Point>
+		<Key>1-1</Key>
+		<Exp>30</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵偵察艦</Name>
+		<Type>red</Type>
+		<xPos>218</xPos>
+		<yPos>157</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>駆逐イ級</Pattern1>
+		<Pattern2>駆逐ロ級</Pattern2>
+		<Pattern3>駆逐ハ級</Pattern3>
+		<Dropqu>白雪 初雪 深雪 磯波 綾波 敷波睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞</Dropqu>
+		<Dropqing>神通 那珂</Dropqing>
+	</Point>
+	<Point>
+		<Key>1-1</Key>
+		<Exp>30</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵はぐれ艦隊</Name>
+		<Type>red</Type>
+		<xPos>343</xPos>
+		<yPos>75</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>駆逐イ級 駆逐イ級</Pattern1>
+		<Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
+		<Pattern3>駆逐ハ級 駆逐ハ級</Pattern3>
+		<Dropqu>白雪 初雪 深雪 磯波 綾波 敷波睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞</Dropqu>
+		<Dropqing>神通 那珂</Dropqing>
+	</Point>
+	<Point>
+		<Key>1-1</Key>
+		<Exp>30</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵主力艦隊</Name>
+		<Type>boss</Type>
+		<xPos>331</xPos>
+		<yPos>222</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
+		<Pattern2>軽巡ホ級 駆逐ロ級 駆逐ロ級</Pattern2>
+		<Pattern3>軽巡ホ級 駆逐ハ級 駆逐ロ級 駆逐ロ級</Pattern3>
+		<Dropqu>吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮</Dropqu>
+		<Dropqing>北上 天龍 龍田 球磨 多摩 木曾 川内 神通 那珂</Dropqing>
+	</Point>
+	<Point>
+		<Key>1-2</Key>
+		<Exp>50</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵前衛艦隊</Name>
+		<Type>red</Type>
+		<xPos>302</xPos>
+		<yPos>107</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
+		<Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
+		<Pattern3>軽巡ヘ級 駆逐ロ級 駆逐ロ級</Pattern3>
+		<Dropqu>白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 文月 菊月 三日月 望月 朧 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 黒潮</Dropqu>
+		<Dropqing>天龍 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂</Dropqing>
+	</Point>
+	<Point>
+		<Key>1-2</Key>
+		<Exp>50</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵主力部隊</Name>
+		<Type>boss</Type>
+		<xPos>465</xPos>
+		<yPos>72</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>軽巡ヘ級 雷巡チ級 駆逐ハ級 駆逐ハ級 駆逐ロ級</Pattern1>
+		<Pattern2>軽巡ヘ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級</Pattern2>
+		<Pattern3>軽巡ヘ級 軽巡ホ級 駆逐ロ級 駆逐イ級 駆逐イ級</Pattern3>
+		<Dropqu>白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 長月 菊月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮</Dropqu>
+		<Dropqing>北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 阿武隈 夕張</Dropqing>
+		<Dropzhong>加古 那智</Dropzhong>
+	</Point>
+	<Point>
+		<Key>1-2</Key>
+		<Exp>50</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Type>green</Type>
+		<xPos>253</xPos>
+		<yPos>217</yPos>
+		<Pattern1>弾薬+10～20(50%概率)</Pattern1>
+	</Point>
+	<Point>
+		<Key>1-2</Key>
+		<Exp>50</Exp>
+		<zhikong>0</zhikong>
+		<youshi>0</youshi>
+		<quebao>1</quebao>
+		<Name>敵前衛艦隊</Name>
+		<Type>red</Type>
+		<xPos>371</xPos>
+		<yPos>294</yPos>
+		<zhen>単縦</zhen>
+		<Pattern1>軽巡ホ級 駆逐イ級 駆逐イ級</Pattern1>
+		<Pattern2>駆逐ロ級 駆逐イ級</Pattern2>
+		<Pattern3>軽巡ヘ級 駆逐ロ級 駆逐ロ級</Pattern3>
+		<Dropqu>初雪 深雪 磯波 敷波 睦月 如月 文月 皐月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 不知火 黒潮</Dropqu>
+		<Dropqing>天龍 龍田 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂</Dropqing>
+		<Dropkong>千歳</Dropkong>
+	</Point>
 </CATALOG>

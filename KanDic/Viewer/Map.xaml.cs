@@ -105,34 +105,30 @@ namespace KanDic.Viewer
             Button xx = sender as Button;
             buttonnum = Convert.ToInt32(xx.Tag);
             MapBackground.DataContext = new MapImage("/Cache/map/"+radionum+"-"+buttonnum+".png");
-            Button_Init(radionum+"-"+buttonnum);
+            RadioButton_Init(radionum+"-"+buttonnum);
             Map_Show();
         }
         #endregion
 
         #region 读取xml生成数据，绘制按钮
-        private void Button_Init(string x)
+        private void RadioButton_Init(string x)
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
             System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Map.xml");
             XmlDocument MapList = new XmlDocument();
             MapList.Load(sStream);
+            num = 0;
             foreach (XmlNode temp in MapList.DocumentElement.ChildNodes)
             {
-                if (temp.FirstChild.InnerText == x)
+                if (temp.FirstChild.InnerText == x) 
                 {
-                    num = 0; 
-                    foreach (XmlNode y in temp.ChildNodes)
-                    {
-                        if(y.Name != "Key")Add_Point(y);
-                    }
-                    break;
+                    Add_Point(temp);
+                    num++;
                 }
-                
             }
             MapButton.Children.Clear();
             ResetPos();
-            for (int i = 1; i <= num; i++)
+            for (int i = 0; i < num; i++)
             {
                 RadioButton xx = new RadioButton();
                 xx.Style = (Style)FindResource(MapPoint[i].Type);
@@ -143,12 +139,9 @@ namespace KanDic.Viewer
                 xx.Checked += new RoutedEventHandler(Point_Detail);
             }
         }
-        #endregion
 
-        #region 生成MapInfo类
         private void Add_Point(XmlNode x)
         {
-            num++;
             MapPoint[num] = new MapInfo();
             foreach (XmlNode yy in x.ChildNodes)
             {
@@ -158,7 +151,7 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        #region 打开地图动画
+        #region 海图移动动画
         private void Map_Show()
         {
             MapBox.Visibility = Visibility.Visible;
@@ -174,12 +167,18 @@ namespace KanDic.Viewer
         private void Point_Detail(object sender, RoutedEventArgs e)
         {
             RadioButton xx = (RadioButton)sender;
-            DoubleAnimation da = new DoubleAnimation();
             tagnum = Convert.ToInt32(xx.Tag);
+
             bool isbattle = true;
+
             PointDetail.DataContext = MapPoint[tagnum];
-            if (MapPoint[tagnum].nobattle != null) { isbattle = false; }
+            Add_Enermy();
+            Add_Drop();
+
+            if (MapPoint[tagnum].Name == null) { isbattle = false; }
             ResetPos();
+
+            DoubleAnimation da = new DoubleAnimation();
             if (Canvas.GetLeft(xx) < 380)
             {
                 da.From = 800;
@@ -202,6 +201,50 @@ namespace KanDic.Viewer
         }
         #endregion
 
+        #region 添加敌人配置按钮
+        private void Add_Enermy()
+        {
+            EnermyButton.Children.Clear();
+            Button_Init(MapPoint[tagnum].Pattern1);
+            Button_Init(MapPoint[tagnum].Pattern2);
+            Button_Init(MapPoint[tagnum].Pattern3);
+            Button_Init(MapPoint[tagnum].Pattern4);
+            Button_Init(MapPoint[tagnum].Pattern5);
+        }
+
+        private void Button_Init(string x)
+        {
+            if (x == null) return;
+            Button tempbut = new Button();
+            tempbut.Click += Enermy_Detail;
+            tempbut.Content = x;
+            EnermyButton.Children.Add(tempbut);
+        }
+        #endregion
+
+        #region 添加掉落文字
+        private void Add_Drop()
+        {
+            DropDetail.Children.Clear();
+            TextBlock_Init(MapPoint[tagnum].Dropqu);
+            TextBlock_Init(MapPoint[tagnum].Dropqing);
+            TextBlock_Init(MapPoint[tagnum].Dropzhong);
+            TextBlock_Init(MapPoint[tagnum].Dropzhan);
+            TextBlock_Init(MapPoint[tagnum].Dropqian);
+            TextBlock_Init(MapPoint[tagnum].Dropkong);
+        }
+
+        private void TextBlock_Init(string x)
+        {
+            if (x == null) return;
+            TextBlock temptext = new TextBlock();
+            temptext.TextWrapping = TextWrapping.Wrap;
+            temptext.Text = x;
+            temptext.Margin = new Thickness(5);
+            DropDetail.Children.Add(temptext);
+        }
+        #endregion
+
         #region 介绍Panel复原
         private void ResetPos()
         {
@@ -212,12 +255,32 @@ namespace KanDic.Viewer
         }
         #endregion
 
+        #region 打开深海详细窗口
+        private void Enermy_Detail(object sender, RoutedEventArgs e)
+        {
+            Button xx = (Button)sender;
+            foreach (System.Windows.Window element in Application.Current.Windows)
+            {
+                string type = element.GetType().ToString();
+                if (type == "KanDic.StartWindow") mainwindow = element;
+                if (type == "KanDic.Window.EnermySet")
+                {
+                    element.Close();
+                    break;
+                }
+            }
+            MahApps.Metro.Controls.MetroWindow win = new Window.EnermySet((string)xx.Content);
+            win.Owner = mainwindow;
+            win.Show();
+        }
+        #endregion
+
         private void MapBox_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             MapBox.Visibility = Visibility.Hidden;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Close_PointDetail(object sender, MouseButtonEventArgs e)
         {
             foreach (RadioButton xx in MapButton.Children)
             {
@@ -230,22 +293,5 @@ namespace KanDic.Viewer
             ResetPos();
         }
 
-        private void TextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            TextBlock xx = (TextBlock)sender;
-            foreach (System.Windows.Window element in Application.Current.Windows)
-            {
-                string type = element.GetType().ToString();
-                if (type == "KanDic.StartWindow") mainwindow = element;
-                if (type == "KanDic.Window.Enermy")
-                {
-                    element.Close();
-                    break;
-                }
-            }
-            MahApps.Metro.Controls.MetroWindow win = new Window.Enermy();
-            win.Owner = mainwindow;
-            win.Show();
-        }
     }
 }

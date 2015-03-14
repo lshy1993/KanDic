@@ -1,0 +1,19 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Window.EnermySet"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    Title="Enermy"
+    Height="340" Width="620"
+    BorderThickness="1"
+    EnableDWMDropShadow="True"
+    ResizeMode="CanResizeWithGrip"
+
+    WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <StackPanel Name="ImagePanel" Margin="5"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+            <StackPanel Name="DataPanel" Orientation="Horizontal"/>
+        </ScrollViewer>
+    </DockPanel>
+</Controls:MetroWindow>

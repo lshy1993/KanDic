@@ -84,6 +84,7 @@
     <Compile Include="Plugins\MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Class\Enermy\Enermy.cs" />
     <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
     <Compile Include="Resources\Class\Kan\BattleInfo.cs" />
     <Compile Include="Resources\Class\Kan\BuildInfo.cs" />
@@ -103,6 +104,9 @@
     <Compile Include="Resources\Class\TabNums.cs" />
     <Compile Include="Resources\Class\Kan\UpdateInfo.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Viewer\EnermyPanel.xaml.cs">
+      <DependentUpon>EnermyPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Viewer\Equipment.xaml.cs">
       <DependentUpon>Equipment.xaml</DependentUpon>
     </Compile>
@@ -121,8 +125,8 @@
     <Compile Include="Viewer\Quest.xaml.cs">
       <DependentUpon>Quest.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Window\Enermy.xaml.cs">
-      <DependentUpon>Enermy.xaml</DependentUpon>
+    <Compile Include="Window\EnermySet.xaml.cs">
+      <DependentUpon>EnermySet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\KanCalculate.xaml.cs">
       <DependentUpon>KanCalculate.xaml</DependentUpon>
@@ -171,6 +175,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Resources\Style\MapStyle3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\Style\RadioStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -180,6 +188,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\Style\CheckBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\EnermyPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -207,7 +219,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Window\Enermy.xaml">
+    <Page Include="Window\EnermySet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -688,7 +700,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Data\Enemy.xml" />
+    <EmbeddedResource Include="Resources\Data\Enermy.xml" />
     <EmbeddedResource Include="Resources\Data\Equip.xml" />
     <EmbeddedResource Include="Resources\Data\Expedition.xml">
       <SubType>Designer</SubType>
@@ -1363,7 +1375,6 @@
     <Resource Include="Cache\icon\battle\red.PNG" />
     <Resource Include="Cache\noicon.png" />
     <Resource Include="Cache\icon\battle\shipicon.PNG" />
-    <Resource Include="Cache\icon\battle\close.PNG" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -10,20 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KanDic.Resources;
-using MahApps.Metro.Controls;
 
-namespace KanDic.Window
+namespace KanDic.Viewer
 {
     /// <summary>
-    /// Enermy.xaml 的交互逻辑
+    /// EnermyPanel.xaml 的交互逻辑
     /// </summary>
-    public partial class Enermy
+    public partial class EnermyPanel : UserControl
     {
-        public Enermy()
+        public EnermyPanel(Enermy x)
         {
             InitializeComponent();
+            EnermyData.DataContext = x;
         }
     }
 }
