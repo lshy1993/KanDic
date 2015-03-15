@@ -8,20 +8,20 @@ namespace KanDic.Resources
 {
     public class MaxInfo
     {
-        public string HP {get;set;}
-        public string Power {get;set;}
-        public string Defence {get;set;}
-        public string Torpedo {get;set;}
-        public string Air {get;set;}
-        public string Carry {get;set;}
-        public string Antisub {get;set;}
+        public int HP {get;set;}
+        public int Power {get;set;}
+        public int Defence {get;set;}
+        public int Torpedo {get;set;}
+        public int Air {get;set;}
+        public int Carry {get;set;}
+        public int Antisub {get;set;}
         public string Speed {get;set;}
-        public string Search {get;set;}
+        public int Search {get;set;}
         public string Range {get;set;}
-        public string Lucky {get;set;}
-        public string Fuel { get; set; }
-        public string Ammo { get; set; }
-        public string Dodge { get; set; }
+        public int Lucky {get;set;}
+        public int Fuel { get; set; }
+        public int Ammo { get; set; }
+        public int Dodge { get; set; }
 
         public MaxInfo() { }
     }

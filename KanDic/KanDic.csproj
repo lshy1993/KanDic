@@ -95,6 +95,7 @@
     <Compile Include="Resources\Class\Kan\MaxInfo.cs" />
     <Compile Include="Resources\Class\Kan\ResolveInfo.cs" />
     <Compile Include="Resources\Class\Map\MapInfo.cs" />
+    <Compile Include="Resources\Class\Quest\QuestInfo.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
     <Compile Include="Resources\Class\Soubi\Soubi.cs" />
     <Compile Include="Resources\Class\Kan\SourceInfo.cs" />

@@ -20,9 +20,6 @@ namespace KanDic.Resources
         public string RomaName { get;set;}
         public string FileName { get; set; }
 
-        public BasicInfo()
-        {
-
-        }
+        public BasicInfo() { }
     }
 }

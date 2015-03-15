@@ -119,14 +119,22 @@ namespace KanDic.Viewer
                     name2 = xx.Name;
                     //if (xx.InnerText == null) xx.InnerText = " ";
                     if (name1 == "BasicInfo") { typeof(BasicInfo).GetProperty(name2).SetValue(a, xx.InnerText, null); }
-                    if (name1 == "BattleInfo") { typeof(BattleInfo).GetProperty(name2).SetValue(b, xx.InnerText, null); }
+                    if (name1 == "BattleInfo")
+                    {
+                        if (name2 == "Speed" || name2 == "Range") typeof(BattleInfo).GetProperty(name2).SetValue(b, xx.InnerText, null);
+                        else typeof(BattleInfo).GetProperty(name2).SetValue(b, Convert.ToInt32(xx.InnerText), null);
+                    }
                     if (name1 == "BuildInfo") { typeof(BuildInfo).GetProperty(name2).SetValue(c, xx.InnerText, null); }
                     if (name1 == "EquipInfo") { typeof(EquipInfo).GetProperty(name2).SetValue(d, xx.InnerText, null); }
-                    if (name1 == "MaxInfo") { typeof(MaxInfo).GetProperty(name2).SetValue(e, xx.InnerText, null); }
-                    if (name1 == "SourceInfo") { typeof(SourceInfo).GetProperty(name2).SetValue(f, xx.InnerText, null); }
-                    if (name1 == "SupplyInfo") { typeof(SupplyInfo).GetProperty(name2).SetValue(g, xx.InnerText, null); }
+                    if (name1 == "MaxInfo")
+                    {
+                        if (name2 == "Speed" || name2 == "Range") typeof(MaxInfo).GetProperty(name2).SetValue(e, xx.InnerText, null);
+                        else typeof(MaxInfo).GetProperty(name2).SetValue(e, Convert.ToInt32(xx.InnerText), null);
+                    }
+                    if (name1 == "SourceInfo") { typeof(SourceInfo).GetProperty(name2).SetValue(f, Convert.ToInt32(xx.InnerText), null); }
+                    if (name1 == "SupplyInfo") { typeof(SupplyInfo).GetProperty(name2).SetValue(g, Convert.ToInt32(xx.InnerText), null); }
                     if (name1 == "UpdateInfo") { typeof(UpdateInfo).GetProperty(name2).SetValue(h, xx.InnerText, null); }
-                    if (name1 == "ResolveInfo") { typeof(ResolveInfo).GetProperty(name2).SetValue(i, xx.InnerText, null); }
+                    if (name1 == "ResolveInfo") { typeof(ResolveInfo).GetProperty(name2).SetValue(i,  Convert.ToInt32(xx.InnerText), null); }
                 }
                 //Console.WriteLine(ships[num].BasicInfo.Name);
             }

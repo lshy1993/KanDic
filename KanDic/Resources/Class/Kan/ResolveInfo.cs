@@ -8,10 +8,10 @@ namespace KanDic.Resources
 {
     public class ResolveInfo
     {
-        public string Fuel { set; get; }
-        public string Steel { set; get; }
-        public string Ammo { set; get; }
-        public string Aluminium { set; get; }
+        public int Fuel { set; get; }
+        public int Steel { set; get; }
+        public int Ammo { set; get; }
+        public int Aluminium { set; get; }
 
         public ResolveInfo() { }
     }

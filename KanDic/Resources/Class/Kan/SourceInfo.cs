@@ -8,10 +8,10 @@ namespace KanDic.Resources
 {
     public class SourceInfo
     {
-        public string Power { get; set; }
-        public string Torpedo { get; set; }
-        public string Air { get; set; }
-        public string Defence { get; set; }
+        public int Power { get; set; }
+        public int Torpedo { get; set; }
+        public int Air { get; set; }
+        public int Defence { get; set; }
 
         public SourceInfo() { }
     }

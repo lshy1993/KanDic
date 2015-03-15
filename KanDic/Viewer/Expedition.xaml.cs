@@ -71,7 +71,10 @@ namespace KanDic.Viewer
             foreach (XmlNode yy in x.ChildNodes)
             {
                 name1 = yy.Name;
-                typeof(ExpInfo).GetProperty(name1).SetValue(exps[num], yy.InnerText, null);
+                if (name1 == "GetAmmo" || name1 == "GetFuel" || name1 == "GetSteel" || name1 == "GetAluminum")
+                    typeof(ExpInfo).GetProperty(name1).SetValue(exps[num], Convert.ToInt32(yy.InnerText), null);
+                else
+                    typeof(ExpInfo).GetProperty(name1).SetValue(exps[num], yy.InnerText, null);
             }
             exps[num].Hard = "/KanDic;component/Cache/icon/expand/" + exps[num].Hard + ".PNG";
             exps[num].ItemName1 = "/KanDic;component/Cache/icon/expand/" + exps[num].ItemName1 + ".PNG";
@@ -92,6 +95,13 @@ namespace KanDic.Viewer
             RadioButton im = (RadioButton)sender;
             expgroup = Convert.ToInt32(im.Tag); 
             Rows_Init(expgroup);
+        }
+
+        private void CheckBox_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox xx = (CheckBox)sender;
+            bool kira = false;
+            if ((bool)xx.IsChecked) kira = true;
         }
     }
 }

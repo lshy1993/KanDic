@@ -14,10 +14,10 @@ namespace KanDic.Resources
         public string Content { set; get; }
         public string Hour { set; get; }
         public string Minute { set; get; }
-        public string GetFuel { set; get; }
-        public string GetAmmo { set; get; }
-        public string GetSteel { set; get; }
-        public string GetAluminum { set; get; }
+        public int GetFuel { set; get; }
+        public int GetAmmo { set; get; }
+        public int GetSteel { set; get; }
+        public int GetAluminum { set; get; }
         public string CostFuel { set; get; }
         public string CostAmmo { set; get; }
         public string Item1 { set; get; }

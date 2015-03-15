@@ -8,8 +8,8 @@ namespace KanDic.Resources
 {
     public class SupplyInfo
     {
-        public string Fuel { get; set; }
-        public string Ammo { get; set; }
+        public int Fuel { get; set; }
+        public int Ammo { get; set; }
 
         public SupplyInfo() { }
     }

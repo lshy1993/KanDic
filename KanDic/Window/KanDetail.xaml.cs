@@ -49,10 +49,10 @@ namespace KanDic.Window
                 IfHugeBack.Background = brush;
             }
             MainData.DataContext = kanmusu.BattleInfo;
-            a = "/Cache/icon/soubi/70.PNG";
-            b = "/Cache/icon/soubi/70.PNG";
-            c = "/Cache/icon/soubi/70.PNG";
-            d = "/Cache/icon/soubi/70.PNG";
+            a = "小口径主炮";
+            b = "小口径主炮";
+            c = "小口径主炮";
+            d = "小口径主炮";
             SobiList.DataContext = new SobiIcon(a, b, c, d);
             ImageBox.DataContext = "/Cache/ships/jnxoytktolbb.swf/Images/Image 17.png";
             Show_Chart();

@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
         <DockPanel Margin="5">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
-                <CheckBox Content="大成功（全员闪+概率）" Foreground="Black" Margin="0,0,10,0"/>
+                <CheckBox Content="大成功（全员闪+概率）" Foreground="Black" Margin="0,0,10,0" Click="CheckBox_Click"/>
                 <Button Style="{StaticResource cjbutton}" Margin="5,0,5,0"/>
                 <Button Style="{StaticResource yxbutton}" Margin="5,0,5,0"/>
                 <Image Source="/KanDic;component/Cache/icon/YZ1.PNG" Stretch="None" Margin="5,0,5,0"/>
@@ -52,14 +52,14 @@
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="35"/>
                     </Grid.ColumnDefinitions>
-                <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
-                <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
-                <Image Source="{Binding Hard}" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
-                <TextBlock Text="{Binding GetFuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3"/>
-                <TextBlock Text="{Binding GetAmmo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="4"/>
-                <TextBlock Text="{Binding GetSteel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5"/>
-                <TextBlock Text="{Binding GetAluminum}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="6"/>
-            </Grid>
+                    <TextBlock Text="{Binding ID}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0"/>
+                    <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="1"/>
+                    <Image Source="{Binding Hard}" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+                    <TextBlock Text="{Binding GetFuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3"/>
+                    <TextBlock Text="{Binding GetAmmo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="4"/>
+                    <TextBlock Text="{Binding GetSteel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5"/>
+                    <TextBlock Text="{Binding GetAluminum}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="6"/>
+                </Grid>
             </Button>
             <Rectangle DockPanel.Dock="Top" Height="1" Margin="10,1,5,0" Fill="Gray"/>
             <Button Name="row2" DockPanel.Dock="Top" Margin="10,0,0,0" Click="row_Click">
