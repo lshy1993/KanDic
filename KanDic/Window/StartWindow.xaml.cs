@@ -34,10 +34,19 @@ namespace KanDic
 
         private void Tile_Click(object sender, RoutedEventArgs e)
         {
-            this.WelcomPanel.Visibility = Visibility.Collapsed;
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
-            this.TabCtrl.SelectedIndex = temp1.TiltFactor - 1;
-            this.MainPanel.Visibility = Visibility.Visible;
+            int tabnum = temp1.TiltFactor - 1;
+            if (temp1.TiltFactor - 1 < 7)
+            {
+                this.TabCtrl.SelectedIndex = tabnum;
+                this.WelcomPanel.Visibility = Visibility.Collapsed;
+                this.MainPanel.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                KanDic.Plugins.Calculator win = new KanDic.Plugins.Calculator();
+                win.Show();
+            }
         }
 
         private void Tile_MouseEnter(object sender, MouseEventArgs e)

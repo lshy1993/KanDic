@@ -49,11 +49,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MahApps.Metro">
-      <HintPath>..\packages\MahApps.Metro.1.1.1.0\lib\net45\MahApps.Metro.dll</HintPath>
+    <Reference Include="MahApps.Metro, Version=1.1.2.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MahApps.Metro.1.1.2.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.1.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -123,14 +127,17 @@
     <Compile Include="Viewer\Map.xaml.cs">
       <DependentUpon>Map.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Viewer\OverView.xaml.cs">
+      <DependentUpon>OverView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Viewer\Quest.xaml.cs">
       <DependentUpon>Quest.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\EnermySet.xaml.cs">
       <DependentUpon>EnermySet.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Window\KanCalculate.xaml.cs">
-      <DependentUpon>KanCalculate.xaml</DependentUpon>
+    <Compile Include="Plugins\Calculator.xaml.cs">
+      <DependentUpon>Calculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\KanDetail.xaml.cs">
       <DependentUpon>KanDetail.xaml</DependentUpon>
@@ -147,6 +154,10 @@
     <Page Include="Plugins\MusicPlayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\CalculateButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Resources\Style\MapStyle2.xaml">
       <SubType>Designer</SubType>
@@ -216,6 +227,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Viewer\OverView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Viewer\Quest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -224,9 +239,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Window\KanCalculate.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Plugins\Calculator.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Window\KanDetail.xaml">
       <SubType>Designer</SubType>
@@ -906,6 +921,17 @@
     <Content Include="Cache\bgm\sound_b_bgm_9.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Cache\Calculate\1.PNG" />
+    <Resource Include="Cache\Calculate\2.PNG" />
+    <Resource Include="Cache\Calculate\3.PNG" />
+    <Resource Include="Cache\Calculate\4.PNG" />
+    <Resource Include="Cache\Calculate\5.PNG" />
+    <Resource Include="Cache\Calculate\6.PNG" />
+    <Resource Include="Cache\Calculate\back.PNG" />
+    <Resource Include="Cache\Calculate\bt1.PNG" />
+    <Resource Include="Cache\Calculate\bt11.PNG" />
+    <Resource Include="Cache\Calculate\bt2.PNG" />
+    <Resource Include="Cache\Calculate\bt21.PNG" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

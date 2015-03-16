@@ -5,7 +5,7 @@
 			<ID>80</ID>
 			<Number>1</Number>
 			<AlbumNum>1</AlbumNum>
-			<Rare>5</Rare>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
 			<Series>長門型</Series>
 			<SeriesNum>1番艦</SeriesNum>
@@ -28,7 +28,7 @@
 			<Air>31</Air>
 			<Carry>12</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
+			<Speed>低</Speed>
 			<Search>12</Search>
 			<Range>長</Range>
 			<Lucky>20</Lucky>
@@ -87,10 +87,10 @@
 			<ID>81</ID>
 			<Number>2</Number>
 			<AlbumNum>2</AlbumNum>
-			<Rare>5</Rare>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
 			<Series>長門型</Series>
-			<SeriesNum>2號艦</SeriesNum>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>陸奥</Name>
 			<Hiragana>ながと</Hiragana>
 			<RomaName>nagato</RomaName>
@@ -110,10 +110,10 @@
 			<Air>31</Air>
 			<Carry>12</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
+			<Speed>低</Speed>
 			<Search>12</Search>
 			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Lucky>3</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -184,18 +184,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>74</HP>
+			<Power>74</Power>
+			<Defence>70</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
+			<Dodge>22</Dodge>
+			<Air>28</Air>
 			<Carry>12</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
+			<Speed>低</Speed>
+			<Search>10</Search>
 			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Lucky>15</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -266,18 +266,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>74</HP>
+			<Power>74</Power>
+			<Defence>70</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
+			<Dodge>22</Dodge>
+			<Air>28</Air>
 			<Carry>12</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
+			<Speed>低</Speed>
+			<Search>10</Search>
 			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Lucky>15</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -348,18 +348,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
-			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
-			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>7</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>50</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>50</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -430,18 +430,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>69</HP>
+			<Power>0</Power>
+			<Defence>28</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
+			<Dodge>28</Dodge>
+			<Air>32</Air>
+			<Carry>73</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Speed>高</Speed>
+			<Search>44</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -497,7 +497,7 @@
 			<ID>84</ID>
 			<Number>7</Number>
 			<AlbumNum>7</AlbumNum>
-			<Rare>5</Rare>
+			<Rare>4</Rare>
 			<Type>正規空母</Type>
 			<Series>加賀型</Series>
 			<SeriesNum>1番艦</SeriesNum>
@@ -512,18 +512,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>71</HP>
+			<Power>0</Power>
+			<Defence>29</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
+			<Dodge>27</Dodge>
+			<Air>28</Air>
+			<Carry>93</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Speed>高</Speed>
+			<Search>40</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -579,7 +579,7 @@
 			<ID>90</ID>
 			<Number>8</Number>
 			<AlbumNum>8</AlbumNum>
-			<Rare>5</Rare>
+			<Rare>4</Rare>
 			<Type>正規空母</Type>
 			<Series>蒼龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
@@ -594,18 +594,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>50</HP>
+			<Power>0</Power>
+			<Defence>27</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
+			<Dodge>33</Dodge>
+			<Air>26</Air>
+			<Carry>64</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Speed>高</Speed>
+			<Search>42</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -663,8 +663,8 @@
 			<AlbumNum>9</AlbumNum>
 			<Rare>5</Rare>
 			<Type>正規空母</Type>
-			<Series>蒼龍型</Series>
-			<SeriesNum>2番艦</SeriesNum>
+			<Series>飛龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>飛龍</Name>
 			<Hiragana>ひりゅう</Hiragana>
 			<RomaName>hiryuu</RomaName>
@@ -676,18 +676,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
+			<HP>50</HP>
+			<Power>0</Power>
+			<Defence>27</Defence>
 			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
+			<Dodge>37</Dodge>
+			<Air>26</Air>
+			<Carry>64</Carry>
 			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<Speed>高</Speed>
+			<Search>42</Search>
+			<Range>短</Range>
+			<Lucky>35</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -758,18 +758,18 @@
 			<Minute>0</Minute>
 		</BuildInfo>
 		<BattleInfo>
-			<HP>80</HP>
-			<Power>82</Power>
-			<Defence>75</Defence>
-			<Torpedo>0</Torpedo>
-			<Dodge>24</Dodge>
-			<Air>31</Air>
-			<Carry>12</Carry>
-			<Antisub>0</Antisub>
-			<Speed>低速</Speed>
-			<Search>12</Search>
-			<Range>長</Range>
-			<Lucky>20</Lucky>
+			<HP>19</HP>
+			<Power>12</Power>
+			<Defence>8</Defence>
+			<Torpedo>45</Torpedo>
+			<Dodge>50</Dodge>
+			<Air>14</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
 			<Carry1>3</Carry1>
@@ -825,7 +825,10 @@
 			<ID>9</ID>
 			<Number>11</Number>
 			<AlbumNum>11</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>吹雪</Name>
 			<Hiragana>ふぶき</Hiragana>
 			<RomaName>fubuki</RomaName>
@@ -834,7 +837,20 @@
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
 		</BuildInfo>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -870,11 +886,27 @@
 		<BasicInfo>
 			<Number>12</Number>
 			<AlbumNum>12</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>白雪</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -910,11 +942,27 @@
 		<BasicInfo>
 			<Number>13</Number>
 			<AlbumNum>13</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>初雪</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -950,11 +998,27 @@
 		<BasicInfo>
 			<Number>14</Number>
 			<AlbumNum>14</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>深雪</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -990,11 +1054,27 @@
 		<BasicInfo>
 			<Number>15</Number>
 			<AlbumNum>15</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>叢雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1030,11 +1110,27 @@
 		<BasicInfo>
 			<Number>16</Number>
 			<AlbumNum>16</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>9番艦</SeriesNum>
 			<Name>磯波</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1070,11 +1166,27 @@
 		<BasicInfo>
 			<Number>17</Number>
 			<AlbumNum>17</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>綾波</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1110,11 +1222,27 @@
 		<BasicInfo>
 			<Number>18</Number>
 			<AlbumNum>18</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>敷波</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1150,11 +1278,27 @@
 		<BasicInfo>
 			<Number>19</Number>
 			<AlbumNum>19</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>25</HP>
+			<Power>14</Power>
+			<Defence>11</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>13</Air>
+			<Carry>0</Carry>
+			<Antisub>19</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>10</Level>
@@ -1190,11 +1334,27 @@
 		<BasicInfo>
 			<Number>20</Number>
 			<AlbumNum>20</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>25</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>13</Air>
+			<Carry>0</Carry>
+			<Antisub>19</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>10</Level>
@@ -1230,11 +1390,27 @@
 		<BasicInfo>
 			<Number>21</Number>
 			<AlbumNum>21</AlbumNum>
+			<Rare>4</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>金剛</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>63</HP>
+			<Power>63</Power>
+			<Defence>52</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>30</Dodge>
+			<Air>24</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>長</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1270,11 +1446,27 @@
 		<BasicInfo>
 			<Number>22</Number>
 			<AlbumNum>22</AlbumNum>
+			<Rare>4</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>比叡</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>63</HP>
+			<Power>63</Power>
+			<Defence>52</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>30</Dodge>
+			<Air>24</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>長</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1310,11 +1502,27 @@
 		<BasicInfo>
 			<Number>23</Number>
 			<AlbumNum>23</AlbumNum>
+			<Rare>4</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>榛名</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>63</HP>
+			<Power>63</Power>
+			<Defence>52</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>30</Dodge>
+			<Air>24</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>長</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1350,11 +1558,27 @@
 		<BasicInfo>
 			<Number>24</Number>
 			<AlbumNum>24</AlbumNum>
+			<Rare>4</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>霧島</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>63</HP>
+			<Power>63</Power>
+			<Defence>52</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>30</Dodge>
+			<Air>24</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>長</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1390,11 +1614,27 @@
 		<BasicInfo>
 			<Number>25</Number>
 			<AlbumNum>25</AlbumNum>
+			<Rare>2</Rare>
 			<Type>軽空母</Type>
+			<Series>鳳翔型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>鳳翔</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>0</Power>
+			<Defence>15</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>24</Dodge>
+			<Air>10</Air>
+			<Carry>19</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>32</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1430,11 +1670,27 @@
 		<BasicInfo>
 			<Number>26</Number>
 			<AlbumNum>26</AlbumNum>
+			<Rare>3</Rare>
 			<Type>戦艦</Type>
+			<Series>扶桑型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>扶桑</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>67</HP>
+			<Power>74</Power>
+			<Defence>59</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>19</Dodge>
+			<Air>23</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>9</Search>
+			<Range>長</Range>
+			<Lucky>5</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1470,11 +1726,27 @@
 		<BasicInfo>
 			<Number>27</Number>
 			<AlbumNum>27</AlbumNum>
+			<Rare>3</Rare>
 			<Type>戦艦</Type>
+			<Series>扶桑型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>山城</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>67</HP>
+			<Power>74</Power>
+			<Defence>59</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>19</Dodge>
+			<Air>23</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>9</Search>
+			<Range>長</Range>
+			<Lucky>5</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1510,11 +1782,27 @@
 		<BasicInfo>
 			<Number>28</Number>
 			<AlbumNum>28</AlbumNum>
+			<Rare>2</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>天龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>天龍</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>23</HP>
+			<Power>11</Power>
+			<Defence>7</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>8</Air>
+			<Carry>0</Carry>
+			<Antisub>18</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>中</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1550,11 +1838,27 @@
 		<BasicInfo>
 			<Number>29</Number>
 			<AlbumNum>29</AlbumNum>
+			<Rare>2</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>天龍型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>龍田</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>23</HP>
+			<Power>11</Power>
+			<Defence>7</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>8</Air>
+			<Carry>0</Carry>
+			<Antisub>18</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>中</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1590,11 +1894,27 @@
 		<BasicInfo>
 			<Number>30</Number>
 			<AlbumNum>30</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>龍驤型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍驤</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>0</Power>
+			<Defence>17</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>27</Dodge>
+			<Air>16</Air>
+			<Carry>38</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -1630,11 +1950,27 @@
 		<BasicInfo>
 			<Number>31</Number>
 			<AlbumNum>31</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>睦月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1670,11 +2006,27 @@
 		<BasicInfo>
 			<Number>32</Number>
 			<AlbumNum>32</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>如月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1710,11 +2062,27 @@
 		<BasicInfo>
 			<Number>33</Number>
 			<AlbumNum>33</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>皐月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1750,11 +2118,27 @@
 		<BasicInfo>
 			<Number>34</Number>
 			<AlbumNum>34</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>7番艦</SeriesNum>
 			<Name>文月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1790,11 +2174,27 @@
 		<BasicInfo>
 			<Number>35</Number>
 			<AlbumNum>35</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>8番艦</SeriesNum>
 			<Name>長月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1830,11 +2230,27 @@
 		<BasicInfo>
 			<Number>36</Number>
 			<AlbumNum>36</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>9番艦</SeriesNum>
 			<Name>菊月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1870,11 +2286,27 @@
 		<BasicInfo>
 			<Number>37</Number>
 			<AlbumNum>37</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>三日月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1910,11 +2342,27 @@
 		<BasicInfo>
 			<Number>38</Number>
 			<AlbumNum>38</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>11番艦</SeriesNum>
 			<Name>望月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1950,11 +2398,27 @@
 		<BasicInfo>
 			<Number>39</Number>
 			<AlbumNum>39</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>球磨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>25</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -1990,11 +2454,27 @@
 		<BasicInfo>
 			<Number>40</Number>
 			<AlbumNum>40</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>多摩</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>25</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>19</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2030,11 +2510,27 @@
 		<BasicInfo>
 			<Number>41</Number>
 			<AlbumNum>41</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>木曾</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>25</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>19</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2070,11 +2566,27 @@
 		<BasicInfo>
 			<Number>42</Number>
 			<AlbumNum>42</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>長良</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2110,11 +2622,27 @@
 		<BasicInfo>
 			<Number>43</Number>
 			<AlbumNum>43</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>五十鈴</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>12</Level>
@@ -2150,11 +2678,27 @@
 		<BasicInfo>
 			<Number>44</Number>
 			<AlbumNum>44</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>名取</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2190,11 +2734,27 @@
 		<BasicInfo>
 			<Number>45</Number>
 			<AlbumNum>45</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>由良</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2230,11 +2790,27 @@
 		<BasicInfo>
 			<Number>46</Number>
 			<AlbumNum>46</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>川内</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>11</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2270,11 +2846,27 @@
 		<BasicInfo>
 			<Number>47</Number>
 			<AlbumNum>47</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>神通</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>11</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2310,11 +2902,27 @@
 		<BasicInfo>
 			<Number>48</Number>
 			<AlbumNum>48</AlbumNum>
+			<Rare>1</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>那珂</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>11</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -2350,11 +2958,27 @@
 		<BasicInfo>
 			<Number>49</Number>
 			<AlbumNum>49</AlbumNum>
+			<Rare>1</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>9</Power>
+			<Defence>18</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>20</Dodge>
+			<Air>14</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>10</Level>
@@ -2390,11 +3014,27 @@
 		<BasicInfo>
 			<Number>50</Number>
 			<AlbumNum>50</AlbumNum>
+			<Rare>1</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>9</Power>
+			<Defence>18</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>20</Dodge>
+			<Air>14</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>10</Level>
@@ -2430,11 +3070,27 @@
 		<BasicInfo>
 			<Number>51</Number>
 			<AlbumNum>51</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>最上</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>41</HP>
+			<Power>40</Power>
+			<Defence>31</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>20</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>14</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>10</Level>
@@ -2470,11 +3126,27 @@
 		<BasicInfo>
 			<Number>52</Number>
 			<AlbumNum>52</AlbumNum>
+			<Rare>2</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>古鷹型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>古鷹</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>36</HP>
+			<Power>30</Power>
+			<Defence>25</Defence>
+			<Torpedo>12</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>10</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2510,11 +3182,27 @@
 		<BasicInfo>
 			<Number>53</Number>
 			<AlbumNum>53</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>古鷹型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>加古</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>36</HP>
+			<Power>30</Power>
+			<Defence>25</Defence>
+			<Torpedo>12</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>10</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2550,11 +3238,27 @@
 		<BasicInfo>
 			<Number>54</Number>
 			<AlbumNum>54</AlbumNum>
+			<Rare>2</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>青葉型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>青葉</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>37</HP>
+			<Power>30</Power>
+			<Defence>26</Defence>
+			<Torpedo>12</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>11</Search>
+			<Range>中</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2590,11 +3294,27 @@
 		<BasicInfo>
 			<Number>55</Number>
 			<AlbumNum>55</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>妙高</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>40</Power>
+			<Defence>32</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2630,11 +3350,27 @@
 		<BasicInfo>
 			<Number>56</Number>
 			<AlbumNum>56</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>那智</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>40</Power>
+			<Defence>32</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2670,11 +3406,27 @@
 		<BasicInfo>
 			<Number>57</Number>
 			<AlbumNum>57</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>足柄</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>40</Power>
+			<Defence>32</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2710,11 +3462,27 @@
 		<BasicInfo>
 			<Number>58</Number>
 			<AlbumNum>58</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>羽黒</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>40</Power>
+			<Defence>32</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2750,11 +3518,27 @@
 		<BasicInfo>
 			<Number>59</Number>
 			<AlbumNum>59</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>高雄型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>高雄</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>40</Power>
+			<Defence>35</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2790,11 +3574,27 @@
 		<BasicInfo>
 			<Number>60</Number>
 			<AlbumNum>60</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>高雄型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>愛宕</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>40</Power>
+			<Defence>35</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2830,11 +3630,27 @@
 		<BasicInfo>
 			<Number>61</Number>
 			<AlbumNum>61</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>高雄型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>摩耶</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>40</Power>
+			<Defence>35</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>18</Level>
@@ -2870,11 +3686,27 @@
 		<BasicInfo>
 			<Number>62</Number>
 			<AlbumNum>62</AlbumNum>
+			<Rare>1</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>高雄型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>鳥海</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>40</Power>
+			<Defence>35</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2910,11 +3742,27 @@
 		<BasicInfo>
 			<Number>63</Number>
 			<AlbumNum>63</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>利根型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>利根</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>32</Power>
+			<Defence>36</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>20</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>20</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2950,11 +3798,27 @@
 		<BasicInfo>
 			<Number>64</Number>
 			<AlbumNum>64</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>利根型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>筑摩</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>32</Power>
+			<Defence>36</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>20</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>20</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -2990,11 +3854,27 @@
 		<BasicInfo>
 			<Number>65</Number>
 			<AlbumNum>65</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>飛鷹型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>飛鷹</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>0</Power>
+			<Defence>21</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>28</Dodge>
+			<Air>21</Air>
+			<Carry>58</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>38</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -3030,11 +3910,27 @@
 		<BasicInfo>
 			<Number>66</Number>
 			<AlbumNum>66</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>飛鷹型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>隼鷹</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>0</Power>
+			<Defence>21</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>28</Dodge>
+			<Air>21</Air>
+			<Carry>58</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>38</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -3070,11 +3966,27 @@
 		<BasicInfo>
 			<Number>67</Number>
 			<AlbumNum>67</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>7番艦</SeriesNum>
 			<Name>朧</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3110,11 +4022,27 @@
 		<BasicInfo>
 			<Number>68</Number>
 			<AlbumNum>68</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>8番艦</SeriesNum>
 			<Name>曙</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3150,11 +4078,27 @@
 		<BasicInfo>
 			<Number>69</Number>
 			<AlbumNum>69</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>9番艦</SeriesNum>
 			<Name>漣</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3190,11 +4134,27 @@
 		<BasicInfo>
 			<Number>70</Number>
 			<AlbumNum>70</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>5</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3230,11 +4190,27 @@
 		<BasicInfo>
 			<Number>71</Number>
 			<AlbumNum>71</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>暁型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>暁</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3270,11 +4246,27 @@
 		<BasicInfo>
 			<Number>72</Number>
 			<AlbumNum>72</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>暁型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>響</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3310,11 +4302,27 @@
 		<BasicInfo>
 			<Number>73</Number>
 			<AlbumNum>73</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>暁型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>雷</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3350,11 +4358,27 @@
 		<BasicInfo>
 			<Number>74</Number>
 			<AlbumNum>74</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>暁型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>電</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3390,11 +4414,27 @@
 		<BasicInfo>
 			<Number>75</Number>
 			<AlbumNum>75</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>初春</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3430,11 +4470,27 @@
 		<BasicInfo>
 			<Number>76</Number>
 			<AlbumNum>76</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>子日</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3470,11 +4526,27 @@
 		<BasicInfo>
 			<Number>77</Number>
 			<AlbumNum>77</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>若葉</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3510,11 +4582,27 @@
 		<BasicInfo>
 			<Number>78</Number>
 			<AlbumNum>78</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>初霜</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3550,11 +4638,27 @@
 		<BasicInfo>
 			<Number>79</Number>
 			<AlbumNum>79</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>白露</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3590,11 +4694,27 @@
 		<BasicInfo>
 			<Number>80</Number>
 			<AlbumNum>80</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>時雨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3630,11 +4750,27 @@
 		<BasicInfo>
 			<Number>81</Number>
 			<AlbumNum>81</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>村雨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3670,11 +4806,27 @@
 		<BasicInfo>
 			<Number>82</Number>
 			<AlbumNum>82</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>夕立</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3710,11 +4862,27 @@
 		<BasicInfo>
 			<Number>83</Number>
 			<AlbumNum>83</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>6番艦</SeriesNum>
 			<Name>五月雨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3750,11 +4918,27 @@
 		<BasicInfo>
 			<Number>84</Number>
 			<AlbumNum>84</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>涼風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3790,11 +4974,27 @@
 		<BasicInfo>
 			<Number>85</Number>
 			<AlbumNum>85</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>朝潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3830,11 +5030,27 @@
 		<BasicInfo>
 			<Number>86</Number>
 			<AlbumNum>86</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>大潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3870,11 +5086,27 @@
 		<BasicInfo>
 			<Number>87</Number>
 			<AlbumNum>87</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>満潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3910,11 +5142,27 @@
 		<BasicInfo>
 			<Number>88</Number>
 			<AlbumNum>88</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>荒潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3950,11 +5198,27 @@
 		<BasicInfo>
 			<Number>89</Number>
 			<AlbumNum>89</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>9番艦</SeriesNum>
 			<Name>霰</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -3990,11 +5254,27 @@
 		<BasicInfo>
 			<Number>90</Number>
 			<AlbumNum>90</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>霞</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -4030,11 +5310,27 @@
 		<BasicInfo>
 			<Number>91</Number>
 			<AlbumNum>91</AlbumNum>
+			<Rare>2</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>陽炎</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -4070,11 +5366,27 @@
 		<BasicInfo>
 			<Number>92</Number>
 			<AlbumNum>92</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>不知火</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -4110,11 +5422,27 @@
 		<BasicInfo>
 			<Number>93</Number>
 			<AlbumNum>93</AlbumNum>
+			<Rare>1</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>黒潮</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -4150,11 +5478,27 @@
 		<BasicInfo>
 			<Number>94</Number>
 			<AlbumNum>94</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>祥鳳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>祥鳳</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>0</Power>
+			<Defence>19</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>28</Dodge>
+			<Air>14</Air>
+			<Carry>30</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -4190,11 +5534,27 @@
 		<BasicInfo>
 			<Number>95</Number>
 			<AlbumNum>95</AlbumNum>
+			<Rare>2</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>41</HP>
+			<Power>9</Power>
+			<Defence>21</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>25</Dodge>
+			<Air>15</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>39</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>12</Level>
@@ -4230,11 +5590,27 @@
 		<BasicInfo>
 			<Number>96</Number>
 			<AlbumNum>96</AlbumNum>
+			<Rare>2</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>41</HP>
+			<Power>9</Power>
+			<Defence>21</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>25</Dodge>
+			<Air>15</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>39</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>12</Level>
@@ -4270,11 +5646,27 @@
 		<BasicInfo>
 			<Number>97</Number>
 			<AlbumNum>97</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重雷装巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>10</Power>
+			<Defence>14</Defence>
+			<Torpedo>80</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>16</Air>
+			<Carry>0</Carry>
+			<Antisub>28</Antisub>
+			<Speed>高</Speed>
+			<Search>11</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -4310,11 +5702,27 @@
 		<BasicInfo>
 			<Number>98</Number>
 			<AlbumNum>98</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重雷装巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>10</Power>
+			<Defence>14</Defence>
+			<Torpedo>80</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>16</Air>
+			<Carry>0</Carry>
+			<Antisub>28</Antisub>
+			<Speed>高</Speed>
+			<Search>11</Search>
+			<Range>中</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -4350,11 +5758,27 @@
 		<BasicInfo>
 			<Number>99</Number>
 			<AlbumNum>99</AlbumNum>
+			<Rare>2</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳甲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>42</HP>
+			<Power>10</Power>
+			<Defence>22</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>29</Dodge>
+			<Air>19</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>15</Level>
@@ -4390,11 +5814,27 @@
 		<BasicInfo>
 			<Number>100</Number>
 			<AlbumNum>100</AlbumNum>
+			<Rare>2</Rare>
 			<Type>水上機母艦</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田甲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>42</HP>
+			<Power>10</Power>
+			<Defence>22</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>29</Dodge>
+			<Air>19</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>15</Level>
@@ -4430,11 +5870,27 @@
 		<BasicInfo>
 			<Number>101</Number>
 			<AlbumNum>101</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>最上改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>28</Power>
+			<Defence>39</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>24</Air>
+			<Carry>19</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>25</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4470,11 +5926,27 @@
 		<BasicInfo>
 			<Number>102</Number>
 			<AlbumNum>102</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空戦艦</Type>
+			<Series>伊勢型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>伊勢改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>77</HP>
+			<Power>63</Power>
+			<Defence>75</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>49</Air>
+			<Carry>44</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>22</Search>
+			<Range>長</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4510,11 +5982,27 @@
 		<BasicInfo>
 			<Number>103</Number>
 			<AlbumNum>103</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空戦艦</Type>
+			<Series>伊勢型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>日向改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>77</HP>
+			<Power>63</Power>
+			<Defence>75</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>45</Air>
+			<Carry>44</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>22</Search>
+			<Range>長</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4550,11 +6038,27 @@
 		<BasicInfo>
 			<Number>104</Number>
 			<AlbumNum>104</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳航</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>47</HP>
+			<Power>0</Power>
+			<Defence>27</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>20</Air>
+			<Carry>36</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>41</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -4590,11 +6094,27 @@
 		<BasicInfo>
 			<Number>105</Number>
 			<AlbumNum>105</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽空母</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田航</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>47</HP>
+			<Power>3</Power>
+			<Defence>26</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>41</Dodge>
+			<Air>22</Air>
+			<Carry>36</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>41</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -4630,11 +6150,27 @@
 		<BasicInfo>
 			<Number>106</Number>
 			<AlbumNum>106</AlbumNum>
+			<Rare>4</Rare>
 			<Type>正規空母</Type>
+			<Series>翔鶴型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>翔鶴</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>62</HP>
+			<Power>0</Power>
+			<Defence>33</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>29</Air>
+			<Carry>75</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>44</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -4670,11 +6206,27 @@
 		<BasicInfo>
 			<Number>107</Number>
 			<AlbumNum>107</AlbumNum>
+			<Rare>5</Rare>
 			<Type>正規空母</Type>
+			<Series>翔鶴型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鶴</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>62</HP>
+			<Power>0</Power>
+			<Defence>33</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>39</Dodge>
+			<Air>29</Air>
+			<Carry>75</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>44</Search>
+			<Range>短</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -4710,11 +6262,27 @@
 		<BasicInfo>
 			<Number>108</Number>
 			<AlbumNum>108</AlbumNum>
+			<Rare>6</Rare>
 			<Type>正規空母</Type>
+			<Series>翔鶴型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鶴改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>8</Power>
+			<Defence>46</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>51</Dodge>
+			<Air>48</Air>
+			<Carry>84</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>58</Search>
+			<Range>短</Range>
+			<Lucky>42</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4750,11 +6318,27 @@
 		<BasicInfo>
 			<Number>109</Number>
 			<AlbumNum>109</AlbumNum>
+			<Rare>3</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>鬼怒</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>26</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>17</Level>
@@ -4790,11 +6374,27 @@
 		<BasicInfo>
 			<Number>110</Number>
 			<AlbumNum>110</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>6番艦</SeriesNum>
 			<Name>阿武隈</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>27</HP>
+			<Power>14</Power>
+			<Defence>10</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>39</Dodge>
+			<Air>13</Air>
+			<Carry>2</Carry>
+			<Antisub>20</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>17</Level>
@@ -4830,11 +6430,27 @@
 		<BasicInfo>
 			<Number>111</Number>
 			<AlbumNum>111</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>夕張型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>夕張</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>19</HP>
+			<Power>17</Power>
+			<Defence>10</Defence>
+			<Torpedo>20</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>13</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -4870,11 +6486,27 @@
 		<BasicInfo>
 			<Number>112</Number>
 			<AlbumNum>112</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽空母</Type>
+			<Series>祥鳳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鳳</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>0</Power>
+			<Defence>19</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>29</Dodge>
+			<Air>14</Air>
+			<Carry>30</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -4910,11 +6542,27 @@
 		<BasicInfo>
 			<Number>113</Number>
 			<AlbumNum>113</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>祥鳳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鳳改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>6</Power>
+			<Defence>29</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>21</Air>
+			<Carry>48</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>46</Search>
+			<Range>短</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4950,11 +6598,27 @@
 		<BasicInfo>
 			<Number>114</Number>
 			<AlbumNum>114</AlbumNum>
+			<Rare>6</Rare>
 			<Type>重雷装巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>43</HP>
+			<Power>27</Power>
+			<Defence>32</Defence>
+			<Torpedo>110</Torpedo>
+			<Dodge>63</Dodge>
+			<Air>29</Air>
+			<Carry>0</Carry>
+			<Antisub>53</Antisub>
+			<Speed>高</Speed>
+			<Search>26</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -4990,11 +6654,27 @@
 		<BasicInfo>
 			<Number>115</Number>
 			<AlbumNum>115</AlbumNum>
+			<Rare>6</Rare>
 			<Type>重雷装巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>43</HP>
+			<Power>27</Power>
+			<Defence>40</Defence>
+			<Torpedo>100</Torpedo>
+			<Dodge>63</Dodge>
+			<Air>22</Air>
+			<Carry>0</Carry>
+			<Antisub>53</Antisub>
+			<Speed>高</Speed>
+			<Search>26</Search>
+			<Range>中</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5030,11 +6710,27 @@
 		<BasicInfo>
 			<Number>116</Number>
 			<AlbumNum>116</AlbumNum>
+			<Rare>4</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>三隈</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>40</Power>
+			<Defence>30</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>31</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>14</Search>
+			<Range>中</Range>
+			<Lucky>5</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -5070,11 +6766,27 @@
 		<BasicInfo>
 			<Number>117</Number>
 			<AlbumNum>117</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>三隈改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>37</Power>
+			<Defence>42</Defence>
+			<Torpedo>31</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>30</Air>
+			<Carry>19</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>33</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5110,11 +6822,27 @@
 		<BasicInfo>
 			<Number>118</Number>
 			<AlbumNum>118</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>7番艦</SeriesNum>
 			<Name>初風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>45</Dodge>
+			<Air>16</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -5150,11 +6878,27 @@
 		<BasicInfo>
 			<Number>119</Number>
 			<AlbumNum>119</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>18番艦</SeriesNum>
 			<Name>舞風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>45</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -5190,11 +6934,27 @@
 		<BasicInfo>
 			<Number>120</Number>
 			<AlbumNum>120</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>青葉型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>衣笠</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>37</HP>
+			<Power>30</Power>
+			<Defence>26</Defence>
+			<Torpedo>12</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>16</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>11</Search>
+			<Range>中</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -5230,11 +6990,27 @@
 		<BasicInfo>
 			<Number>121</Number>
 			<AlbumNum>121</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳航改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>58</HP>
+			<Power>7</Power>
+			<Defence>39</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>39</Air>
+			<Carry>59</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>68</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5270,11 +7046,27 @@
 		<BasicInfo>
 			<Number>122</Number>
 			<AlbumNum>122</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>千歳型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田航改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>58</HP>
+			<Power>14</Power>
+			<Defence>39</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>39</Air>
+			<Carry>59</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>60</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5310,11 +7102,27 @@
 		<BasicInfo>
 			<Number>123</Number>
 			<AlbumNum>123</AlbumNum>
+			<Rare>3</Rare>
 			<Type>潜水艦</Type>
+			<Series>巡潜乙型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>伊19</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>14</HP>
+			<Power>2</Power>
+			<Defence>4</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>12</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>10</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -5350,11 +7158,27 @@
 		<BasicInfo>
 			<Number>124</Number>
 			<AlbumNum>124</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>鈴谷</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>40</Power>
+			<Defence>30</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>31</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>14</Search>
+			<Range>中</Range>
+			<Lucky>5</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -5390,11 +7214,27 @@
 		<BasicInfo>
 			<Number>125</Number>
 			<AlbumNum>125</AlbumNum>
+			<Rare>3</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>熊野</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>40</Power>
+			<Defence>30</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>31</Dodge>
+			<Air>18</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>14</Search>
+			<Range>中</Range>
+			<Lucky>5</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -5430,11 +7270,27 @@
 		<BasicInfo>
 			<Number>126</Number>
 			<AlbumNum>126</AlbumNum>
+			<Rare>2</Rare>
 			<Type>潜水艦</Type>
+			<Series>海大VI型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>伊168</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>10</HP>
+			<Power>2</Power>
+			<Defence>3</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>15</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>9</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -5470,11 +7326,27 @@
 		<BasicInfo>
 			<Number>127</Number>
 			<AlbumNum>127</AlbumNum>
+			<Rare>3</Rare>
 			<Type>潜水艦</Type>
+			<Series>巡潜乙型改二</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>伊58</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>14</HP>
+			<Power>2</Power>
+			<Defence>4</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>13</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>10</Search>
+			<Range>短</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -5510,11 +7382,27 @@
 		<BasicInfo>
 			<Number>128</Number>
 			<AlbumNum>128</AlbumNum>
+			<Rare>4</Rare>
 			<Type>潜水艦</Type>
+			<Series>巡潜3型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>伊8</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>2</Power>
+			<Defence>4</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>14</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -5550,11 +7438,27 @@
 		<BasicInfo>
 			<Number>129</Number>
 			<AlbumNum>129</AlbumNum>
+			<Rare>4</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>鈴谷改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>32</Power>
+			<Defence>47</Defence>
+			<Torpedo>26</Torpedo>
+			<Dodge>46</Dodge>
+			<Air>32</Air>
+			<Carry>19</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>35</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5590,11 +7494,27 @@
 		<BasicInfo>
 			<Number>130</Number>
 			<AlbumNum>130</AlbumNum>
+			<Rare>4</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>最上型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>熊野改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>32</Power>
+			<Defence>42</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>46</Dodge>
+			<Air>32</Air>
+			<Carry>19</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>35</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5630,11 +7550,27 @@
 		<BasicInfo>
 			<Number>131</Number>
 			<AlbumNum>131</AlbumNum>
+			<Rare>7</Rare>
 			<Type>戦艦</Type>
+			<Series>大和型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大和</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>93</HP>
+			<Power>96</Power>
+			<Defence>88</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>27</Dodge>
+			<Air>50</Air>
+			<Carry>28</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>15</Search>
+			<Range>超長</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>60</Level>
@@ -5670,11 +7606,27 @@
 		<BasicInfo>
 			<Number>132</Number>
 			<AlbumNum>132</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>19番艦</SeriesNum>
 			<Name>秋雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>45</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -5708,11 +7660,27 @@
 		<BasicInfo>
 			<Number>133</Number>
 			<AlbumNum>133</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>夕雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -5746,11 +7714,27 @@
 		<BasicInfo>
 			<Number>134</Number>
 			<AlbumNum>134</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>巻雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>11</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -5786,11 +7770,27 @@
 		<BasicInfo>
 			<Number>135</Number>
 			<AlbumNum>135</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>長波</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -5826,11 +7826,27 @@
 		<BasicInfo>
 			<Number>136</Number>
 			<AlbumNum>136</AlbumNum>
+			<Rare>7</Rare>
 			<Type>戦艦</Type>
+			<Series>大和型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大和改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>96</HP>
+			<Power>104</Power>
+			<Defence>99</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>77</Air>
+			<Carry>28</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>30</Search>
+			<Range>超長</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -5866,11 +7882,27 @@
 		<BasicInfo>
 			<Number>137</Number>
 			<AlbumNum>137</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>阿賀野型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>阿賀野</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>20</Power>
+			<Defence>17</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>17</Air>
+			<Carry>6</Carry>
+			<Antisub>25</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -5906,11 +7938,27 @@
 		<BasicInfo>
 			<Number>138</Number>
 			<AlbumNum>138</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>阿賀野型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>能代</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>20</Power>
+			<Defence>17</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>17</Air>
+			<Carry>6</Carry>
+			<Antisub>25</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -5946,11 +7994,27 @@
 		<BasicInfo>
 			<Number>139</Number>
 			<AlbumNum>139</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>阿賀野型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>矢矧</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>20</Power>
+			<Defence>17</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>17</Air>
+			<Carry>6</Carry>
+			<Antisub>25</Antisub>
+			<Speed>高</Speed>
+			<Search>13</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -5986,11 +8050,27 @@
 		<BasicInfo>
 			<Number>140</Number>
 			<AlbumNum>140</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>阿賀野型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>酒匂</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>19</Power>
+			<Defence>17</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>17</Air>
+			<Carry>6</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>12</Search>
+			<Range>中</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -6026,11 +8106,27 @@
 		<BasicInfo>
 			<Number>141</Number>
 			<AlbumNum>141</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>長良型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>五十鈴改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>27</Power>
+			<Defence>38</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>60</Dodge>
+			<Air>61</Air>
+			<Carry>0</Carry>
+			<Antisub>74</Antisub>
+			<Speed>高</Speed>
+			<Search>37</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6066,11 +8162,27 @@
 		<BasicInfo>
 			<Number>142</Number>
 			<AlbumNum>142</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>青葉型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>衣笠改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>53</HP>
+			<Power>46</Power>
+			<Defence>44</Defence>
+			<Torpedo>47</Torpedo>
+			<Dodge>59</Dodge>
+			<Air>42</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>35</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6106,11 +8218,27 @@
 		<BasicInfo>
 			<Number>143</Number>
 			<AlbumNum>143</AlbumNum>
+			<Rare>7</Rare>
 			<Type>戦艦</Type>
+			<Series>大和型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>武蔵</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>94</HP>
+			<Power>96</Power>
+			<Defence>88</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>27</Dodge>
+			<Air>50</Air>
+			<Carry>28</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>16</Search>
+			<Range>超長</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>40</Level>
@@ -6146,11 +8274,27 @@
 		<BasicInfo>
 			<Number>144</Number>
 			<AlbumNum>144</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>夕立改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>42</Power>
+			<Defence>23</Defence>
+			<Torpedo>50</Torpedo>
+			<Dodge>69</Dodge>
+			<Air>26</Air>
+			<Carry>0</Carry>
+			<Antisub>50</Antisub>
+			<Speed>高</Speed>
+			<Search>32</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6186,11 +8330,27 @@
 		<BasicInfo>
 			<Number>145</Number>
 			<AlbumNum>145</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>時雨改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>35</Power>
+			<Defence>33</Defence>
+			<Torpedo>56</Torpedo>
+			<Dodge>80</Dodge>
+			<Air>36</Air>
+			<Carry>0</Carry>
+			<Antisub>53</Antisub>
+			<Speed>高</Speed>
+			<Search>29</Search>
+			<Range>短</Range>
+			<Lucky>50</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6226,11 +8386,27 @@
 		<BasicInfo>
 			<Number>146</Number>
 			<AlbumNum>146</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重雷装巡洋艦</Type>
+			<Series>球磨型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>木曾改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>31</Power>
+			<Defence>46</Defence>
+			<Torpedo>88</Torpedo>
+			<Dodge>70</Dodge>
+			<Air>37</Air>
+			<Carry>0</Carry>
+			<Antisub>64</Antisub>
+			<Speed>高</Speed>
+			<Search>39</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6266,11 +8442,27 @@
 		<BasicInfo>
 			<Number>147</Number>
 			<AlbumNum>147</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>暁型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>Верный</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>37</HP>
+			<Power>37</Power>
+			<Defence>27</Defence>
+			<Torpedo>47</Torpedo>
+			<Dodge>76</Dodge>
+			<Air>42</Air>
+			<Carry>0</Carry>
+			<Antisub>61</Antisub>
+			<Speed>高</Speed>
+			<Search>34</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6306,11 +8498,27 @@
 		<BasicInfo>
 			<Number>148</Number>
 			<AlbumNum>148</AlbumNum>
+			<Rare>7</Rare>
 			<Type>戦艦</Type>
+			<Series>大和型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>武蔵改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>97</HP>
+			<Power>92</Power>
+			<Defence>92</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>27</Dodge>
+			<Air>60</Air>
+			<Carry>28</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>18</Search>
+			<Range>超長</Range>
+			<Lucky>9</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6346,11 +8554,27 @@
 		<BasicInfo>
 			<Number>149</Number>
 			<AlbumNum>149</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>金剛改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>82</HP>
+			<Power>90</Power>
+			<Defence>85</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>63</Dodge>
+			<Air>63</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>41</Search>
+			<Range>長</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6386,11 +8610,27 @@
 		<BasicInfo>
 			<Number>150</Number>
 			<AlbumNum>150</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>比叡改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>83</HP>
+			<Power>90</Power>
+			<Defence>79</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>67</Dodge>
+			<Air>65</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>41</Search>
+			<Range>長</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6426,11 +8666,27 @@
 		<BasicInfo>
 			<Number>151</Number>
 			<AlbumNum>151</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>榛名改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>81</HP>
+			<Power>91</Power>
+			<Defence>79</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>74</Dodge>
+			<Air>80</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>47</Search>
+			<Range>長</Range>
+			<Lucky>41</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6461,11 +8717,27 @@
 		<BasicInfo>
 			<Number>152</Number>
 			<AlbumNum>152</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>金剛型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>霧島改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>82</HP>
+			<Power>89</Power>
+			<Defence>77</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>62</Dodge>
+			<Air>46</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>40</Search>
+			<Range>長</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6501,11 +8773,27 @@
 		<BasicInfo>
 			<Number>153</Number>
 			<AlbumNum>153</AlbumNum>
+			<Rare>6</Rare>
 			<Type>装甲空母</Type>
+			<Series>大鳳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鳳</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>67</HP>
+			<Power>0</Power>
+			<Defence>40</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>42</Air>
+			<Carry>61</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>47</Search>
+			<Range>短</Range>
+			<Lucky>2</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>40</Level>
@@ -6541,9 +8829,27 @@
 		<BasicInfo>
 			<Number>154</Number>
 			<AlbumNum>154</AlbumNum>
+			<Rare>3</Rare>
+			<Type>練習巡洋艦</Type>
+			<Series>香取型</Series>
+			<SeriesNum>1番艦</SeriesNum>
+			<Name>香取</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>36</HP>
+			<Power>14</Power>
+			<Defence>9</Defence>
+			<Torpedo>12</Torpedo>
+			<Dodge>24</Dodge>
+			<Air>14</Air>
+			<Carry>3</Carry>
+			<Antisub>12</Antisub>
+			<Speed>低</Speed>
+			<Search>10</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo/>
@@ -6555,11 +8861,27 @@
 		<BasicInfo>
 			<Number>155</Number>
 			<AlbumNum>155</AlbumNum>
+			<Rare>5</Rare>
 			<Type>潜水空母</Type>
+			<Series>潜特型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>伊401</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>20</HP>
+			<Power>2</Power>
+			<Defence>5</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>13</Dodge>
+			<Air>0</Air>
+			<Carry>3</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>15</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -6595,11 +8917,27 @@
 		<BasicInfo>
 			<Number>156</Number>
 			<AlbumNum>156</AlbumNum>
+			<Rare>6</Rare>
 			<Type>装甲空母</Type>
+			<Series>大鳳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鳳改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>70</HP>
+			<Power>20</Power>
+			<Defence>57</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>59</Air>
+			<Carry>86</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>60</Search>
+			<Range>短</Range>
+			<Lucky>4</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6635,11 +8973,27 @@
 		<BasicInfo>
 			<Number>157</Number>
 			<AlbumNum>157</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>龍驤型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍驤改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>0</Power>
+			<Defence>49</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>24</Air>
+			<Carry>55</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>75</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6675,11 +9029,27 @@
 		<BasicInfo>
 			<Number>158</Number>
 			<AlbumNum>158</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>川内改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>35</Power>
+			<Defence>39</Defence>
+			<Torpedo>57</Torpedo>
+			<Dodge>67</Dodge>
+			<Air>33</Air>
+			<Carry>3</Carry>
+			<Antisub>59</Antisub>
+			<Speed>高</Speed>
+			<Search>39</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6715,11 +9085,27 @@
 		<BasicInfo>
 			<Number>159</Number>
 			<AlbumNum>159</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>神通改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>39</Power>
+			<Defence>39</Defence>
+			<Torpedo>71</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>32</Air>
+			<Carry>3</Carry>
+			<Antisub>64</Antisub>
+			<Speed>高</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6755,11 +9141,27 @@
 		<BasicInfo>
 			<Number>160</Number>
 			<AlbumNum>160</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>川内型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>那珂改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>22</Power>
+			<Defence>34</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>61</Dodge>
+			<Air>24</Air>
+			<Carry>3</Carry>
+			<Antisub>65</Antisub>
+			<Speed>高</Speed>
+			<Search>37</Search>
+			<Range>中</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -6795,11 +9197,27 @@
 		<BasicInfo>
 			<Number>161</Number>
 			<AlbumNum>161</AlbumNum>
+			<Rare>4</Rare>
 			<Type>揚陸艦</Type>
+			<Series>特種船丙型</Series>
+			<SeriesNum>-</SeriesNum>
 			<Name>あきつ丸</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>38</HP>
+			<Power>6</Power>
+			<Defence>13</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>15</Dodge>
+			<Air>13</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>3</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -6851,11 +9269,27 @@
 		<BasicInfo>
 			<Number>163</Number>
 			<AlbumNum>163</AlbumNum>
+			<Rare>4</Rare>
 			<Type>潜水艦</Type>
+			<Series>三式潜航輸送艇</Series>
+			<SeriesNum>-</SeriesNum>
 			<Name>まるゆ</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>6</HP>
+			<Power>1</Power>
+			<Defence>4</Defence>
+			<Torpedo>1</Torpedo>
+			<Dodge>9</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>1</Search>
+			<Range>短</Range>
+			<Lucky>7</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -6891,11 +9325,27 @@
 		<BasicInfo>
 			<Number>164</Number>
 			<AlbumNum>164</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>弥生</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -6931,11 +9381,27 @@
 		<BasicInfo>
 			<Number>165</Number>
 			<AlbumNum>165</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>睦月型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>卯月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>13</HP>
+			<Power>6</Power>
+			<Defence>5</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>7</Air>
+			<Carry>0</Carry>
+			<Antisub>16</Antisub>
+			<Speed>高</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>25</Level>
@@ -6971,11 +9437,27 @@
 		<BasicInfo>
 			<Number>166</Number>
 			<AlbumNum>166</AlbumNum>
+			<Rare>5</Rare>
 			<Type>揚陸艦</Type>
+			<Series>特種船丙型</Series>
+			<SeriesNum>-</SeriesNum>
 			<Name>あきつ丸改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>8</Power>
+			<Defence>21</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>17</Dodge>
+			<Air>15</Air>
+			<Carry>24</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>24</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7011,11 +9493,27 @@
 		<BasicInfo>
 			<Number>167</Number>
 			<AlbumNum>167</AlbumNum>
+			<Rare>4</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>12番艦</SeriesNum>
 			<Name>磯風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>14</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>短</Range>
+			<Lucky>16</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>45</Level>
@@ -7051,11 +9549,27 @@
 		<BasicInfo>
 			<Number>168</Number>
 			<AlbumNum>168</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>11番艦</SeriesNum>
 			<Name>浦風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -7091,11 +9605,27 @@
 		<BasicInfo>
 			<Number>169</Number>
 			<AlbumNum>169</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>14番艦</SeriesNum>
 			<Name>谷風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>短</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7131,11 +9661,27 @@
 		<BasicInfo>
 			<Number>170</Number>
 			<AlbumNum>170</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>13番艦</SeriesNum>
 			<Name>浜風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>45</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7171,11 +9717,27 @@
 		<BasicInfo>
 			<Number>171</Number>
 			<AlbumNum>171</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>Bismarck級</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>90</HP>
+			<Power>64</Power>
+			<Defence>67</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>18</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>16</Search>
+			<Range>長</Range>
+			<Lucky>8</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7211,11 +9773,27 @@
 		<BasicInfo>
 			<Number>172</Number>
 			<AlbumNum>172</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>Bismarck級</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>94</HP>
+			<Power>73</Power>
+			<Defence>81</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>33</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>28</Search>
+			<Range>長</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -7251,11 +9829,25 @@
 		<BasicInfo>
 			<Number>173</Number>
 			<AlbumNum>173</AlbumNum>
+			<Rare>6</Rare>
 			<Type>戦艦</Type>
+			<Series>Bismarck級</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck zwei</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>96</HP>
+			<Power>70</Power>
+			<Torpedo>0</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>25</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Range>長</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>75</Level>
@@ -7291,11 +9883,27 @@
 		<BasicInfo>
 			<Number>174</Number>
 			<AlbumNum>174</AlbumNum>
+			<Rare>4</Rare>
 			<Type>駆逐艦</Type>
+			<Series>Z1型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Z1</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>18</HP>
+			<Power>8</Power>
+			<Defence>8</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>32</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>6</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7331,11 +9939,27 @@
 		<BasicInfo>
 			<Number>175</Number>
 			<AlbumNum>175</AlbumNum>
+			<Rare>4</Rare>
 			<Type>駆逐艦</Type>
+			<Series>Z1型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>Z3</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>18</HP>
+			<Power>8</Power>
+			<Defence>8</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>36</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>32</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>6</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7371,11 +9995,27 @@
 		<BasicInfo>
 			<Number>176</Number>
 			<AlbumNum>176</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>Admiral Hipper級</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>Prinz Eugen</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>38</Power>
+			<Defence>32</Defence>
+			<Torpedo>32</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>16</Air>
+			<Carry>9</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>15</Search>
+			<Range>中</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>45</Level>
@@ -7411,11 +10051,27 @@
 		<BasicInfo>
 			<Number>177</Number>
 			<AlbumNum>177</AlbumNum>
+			<Rare>6</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>Admiral Hipper級</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>Prinz Eugen改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>63</HP>
+			<Power>71</Power>
+			<Defence>61</Defence>
+			<Torpedo>57</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>42</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>40</Search>
+			<Range>中</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7449,11 +10105,27 @@
 		<BasicInfo>
 			<Number>178</Number>
 			<AlbumNum>178</AlbumNum>
+			<Rare>7</Rare>
 			<Type>戦艦</Type>
+			<Series>Bismarck級</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck drei</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>96</HP>
+			<Power>99</Power>
+			<Defence>95</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>74</Dodge>
+			<Air>70</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>59</Search>
+			<Range>長</Range>
+			<Lucky>22</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7489,11 +10161,27 @@
 		<BasicInfo>
 			<Number>179</Number>
 			<AlbumNum>179</AlbumNum>
+			<Rare>6</Rare>
 			<Type>駆逐艦</Type>
+			<Series>Z1型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>Z1 zwei</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>35</HP>
+			<Power>23</Power>
+			<Defence>28</Defence>
+			<Torpedo>52</Torpedo>
+			<Dodge>71</Dodge>
+			<Air>33</Air>
+			<Carry>0</Carry>
+			<Antisub>59</Antisub>
+			<Speed>高</Speed>
+			<Search>33</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7529,11 +10217,27 @@
 		<BasicInfo>
 			<Number>180</Number>
 			<AlbumNum>180</AlbumNum>
+			<Rare>6</Rare>
 			<Type>駆逐艦</Type>
+			<Series>Z1型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>Z3 zwei</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>35</HP>
+			<Power>21</Power>
+			<Defence>38</Defence>
+			<Torpedo>52</Torpedo>
+			<Dodge>71</Dodge>
+			<Air>49</Air>
+			<Carry>0</Carry>
+			<Antisub>59</Antisub>
+			<Speed>高</Speed>
+			<Search>33</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7569,11 +10273,27 @@
 		<BasicInfo>
 			<Number>181</Number>
 			<AlbumNum>181</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>9番艦</SeriesNum>
 			<Name>天津風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>18</HP>
+			<Power>10</Power>
+			<Defence>7</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>22</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>短</Range>
+			<Lucky>18</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -7609,11 +10329,27 @@
 		<BasicInfo>
 			<Number>182</Number>
 			<AlbumNum>182</AlbumNum>
+			<Rare>5</Rare>
 			<Type>工作艦</Type>
+			<Series>明石型</Series>
+			<SeriesNum>-</SeriesNum>
 			<Name>明石</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>39</HP>
+			<Power>4</Power>
+			<Defence>7</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>8</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>1</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -7649,11 +10385,27 @@
 		<BasicInfo>
 			<Number>183</Number>
 			<AlbumNum>183</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽巡洋艦</Type>
+			<Series>大淀型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大淀</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>34</HP>
+			<Power>24</Power>
+			<Defence>19</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>18</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>24</Search>
+			<Range>中</Range>
+			<Lucky>24</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -7689,11 +10441,27 @@
 		<BasicInfo>
 			<Number>184</Number>
 			<AlbumNum>184</AlbumNum>
+			<Rare>3</Rare>
 			<Type>潜水母艦</Type>
+			<Series>大鯨型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鯨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>39</HP>
+			<Power>5</Power>
+			<Defence>15</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>24</Dodge>
+			<Air>16</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>24</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>20</Level>
@@ -7729,11 +10497,27 @@
 		<BasicInfo>
 			<Number>185</Number>
 			<AlbumNum>185</AlbumNum>
+			<Rare>4</Rare>
 			<Type>軽空母</Type>
+			<Series>龍鳳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍鳳</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>39</HP>
+			<Power>0</Power>
+			<Defence>18</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>27</Dodge>
+			<Air>24</Air>
+			<Carry>31</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>28</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -7769,11 +10553,27 @@
 		<BasicInfo>
 			<Number>186</Number>
 			<AlbumNum>186</AlbumNum>
+			<Rare>4</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>時津風</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>10</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>7</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -7809,11 +10609,27 @@
 		<BasicInfo>
 			<Number>187</Number>
 			<AlbumNum>187</AlbumNum>
+			<Rare>6</Rare>
 			<Type>工作艦</Type>
+			<Series>明石型</Series>
+			<SeriesNum>-</SeriesNum>
 			<Name>明石改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>9</Power>
+			<Defence>12</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>20</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>3</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -7849,11 +10665,27 @@
 		<BasicInfo>
 			<Number>188</Number>
 			<AlbumNum>188</AlbumNum>
+			<Rare>6</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>利根型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>利根改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>59</HP>
+			<Power>46</Power>
+			<Defence>66</Defence>
+			<Torpedo>32</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>32</Air>
+			<Carry>18</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>72</Search>
+			<Range>中</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>70</Level>
@@ -7889,11 +10721,27 @@
 		<BasicInfo>
 			<Number>189</Number>
 			<AlbumNum>189</AlbumNum>
+			<Rare>6</Rare>
 			<Type>航空巡洋艦</Type>
+			<Series>利根型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>筑摩改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>58</HP>
+			<Power>46</Power>
+			<Defence>57</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>33</Air>
+			<Carry>18</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>72</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>70</Level>
@@ -7929,11 +10777,27 @@
 		<BasicInfo>
 			<Number>190</Number>
 			<AlbumNum>190</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>龍鳳型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍鳳改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>0</Power>
+			<Defence>24</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>30</Dodge>
+			<Air>28</Air>
+			<Carry>45</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>30</Search>
+			<Range>短</Range>
+			<Lucky>24</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50</Level>
@@ -7969,11 +10833,27 @@
 		<BasicInfo>
 			<Number>191</Number>
 			<AlbumNum>191</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>妙高改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>56</HP>
+			<Power>67</Power>
+			<Defence>56</Defence>
+			<Torpedo>51</Torpedo>
+			<Dodge>73</Dodge>
+			<Air>58</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>47</Search>
+			<Range>中</Range>
+			<Lucky>32</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>70</Level>
@@ -8009,11 +10889,27 @@
 		<BasicInfo>
 			<Number>192</Number>
 			<AlbumNum>192</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>那智改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>56</HP>
+			<Power>58</Power>
+			<Defence>56</Defence>
+			<Torpedo>48</Torpedo>
+			<Dodge>69</Dodge>
+			<Air>47</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>46</Search>
+			<Range>中</Range>
+			<Lucky>18</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>65</Level>
@@ -8044,11 +10940,27 @@
 		<BasicInfo>
 			<Number>193</Number>
 			<AlbumNum>193</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>3番艦</SeriesNum>
 			<Name>足柄改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>56</HP>
+			<Power>61</Power>
+			<Defence>64</Defence>
+			<Torpedo>48</Torpedo>
+			<Dodge>69</Dodge>
+			<Air>39</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>43</Search>
+			<Range>中</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>65</Level>
@@ -8079,11 +10991,27 @@
 		<BasicInfo>
 			<Number>194</Number>
 			<AlbumNum>194</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>妙高型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>羽黒改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>61</Power>
+			<Defence>55</Defence>
+			<Torpedo>61</Torpedo>
+			<Dodge>70</Dodge>
+			<Air>50</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>44</Search>
+			<Range>中</Range>
+			<Lucky>19</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>65</Level>
@@ -8119,11 +11047,27 @@
 		<BasicInfo>
 			<Number>195</Number>
 			<AlbumNum>195</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>綾波改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>17</Power>
+			<Defence>38</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>78</Dodge>
+			<Air>16</Air>
+			<Carry>0</Carry>
+			<Antisub>51</Antisub>
+			<Speed>高</Speed>
+			<Search>38</Search>
+			<Range>短</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>70</Level>
@@ -8159,11 +11103,27 @@
 		<BasicInfo>
 			<Number>196</Number>
 			<AlbumNum>196</AlbumNum>
+			<Rare>7</Rare>
 			<Type>正規空母</Type>
+			<Series>飛龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>飛龍改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>67</HP>
+			<Power>0</Power>
+			<Defence>50</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>72</Dodge>
+			<Air>33</Air>
+			<Carry>79</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>81</Search>
+			<Range>短</Range>
+			<Lucky>50</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>77</Level>
@@ -8199,11 +11159,27 @@
 		<BasicInfo>
 			<Number>197</Number>
 			<AlbumNum>197</AlbumNum>
+			<Rare>6</Rare>
 			<Type>正規空母</Type>
+			<Series>蒼龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>蒼龍改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>67</HP>
+			<Power>0</Power>
+			<Defence>49</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>74</Dodge>
+			<Air>34</Air>
+			<Carry>79</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>90</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>78</Level>
@@ -8281,11 +11257,27 @@
 		<BasicInfo>
 			<Number>201</Number>
 			<AlbumNum>201</AlbumNum>
+			<Rare>5</Rare>
 			<Type>正規空母</Type>
+			<Series>雲龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>雲龍</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>0</Power>
+			<Defence>26</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>32</Dodge>
+			<Air>28</Air>
+			<Carry>51</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>40</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>50+</Level>
@@ -8321,9 +11313,27 @@
 		<BasicInfo>
 			<Number>202</Number>
 			<AlbumNum>202</AlbumNum>
+			<Rare>5</Rare>
+			<Type>正規空母</Type>
+			<Series>雲龍型</Series>
+			<SeriesNum>2番艦</SeriesNum>
+			<Name>天城</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>0</Power>
+			<Defence>26</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>33</Dodge>
+			<Air>27</Air>
+			<Carry>51</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>38</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo/>
@@ -8349,11 +11359,19 @@
 		<BasicInfo>
 			<Number>204</Number>
 			<AlbumNum>204</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>初春改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Speed>高</Speed>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -8385,11 +11403,27 @@
 		<BasicInfo>
 			<Number>205</Number>
 			<AlbumNum>205</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>白露型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>春雨</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -8425,11 +11459,23 @@
 		<BasicInfo>
 			<Number>206</Number>
 			<AlbumNum>206</AlbumNum>
+			<Rare>6</Rare>
 			<Type>正規空母</Type>
+			<Series>雲龍型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>雲龍改</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>60</HP>
+			<Defence>44</Defence>
+			<Dodge>54</Dodge>
+			<Carry>69</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8465,11 +11511,27 @@
 		<BasicInfo>
 			<Number>207</Number>
 			<AlbumNum>207</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>綾波型</Series>
+			<SeriesNum>10番艦</SeriesNum>
 			<Name>潮改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>33</HP>
+			<Power>20</Power>
+			<Defence>25</Defence>
+			<Torpedo>39</Torpedo>
+			<Dodge>84</Dodge>
+			<Air>60</Air>
+			<Carry>0</Carry>
+			<Antisub>61</Antisub>
+			<Speed>高</Speed>
+			<Search>33</Search>
+			<Range>短</Range>
+			<Lucky>32</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8505,11 +11567,24 @@
 		<BasicInfo>
 			<Number>208</Number>
 			<AlbumNum>208</AlbumNum>
+			<Rare>5</Rare>
 			<Type>軽空母</Type>
+			<Series>飛鷹型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>隼鷹改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>40</Power>
+			<Defence>62</Defence>
+			<Torpedo>0</Torpedo>
+			<Carry>66</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Range>短</Range>
+			<Lucky>41</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8545,11 +11620,27 @@
 		<BasicInfo>
 			<Number>209</Number>
 			<AlbumNum>209</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>17番艦</SeriesNum>
 			<Name>早霜</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>12</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>11</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -8585,11 +11676,27 @@
 		<BasicInfo>
 			<Number>210</Number>
 			<AlbumNum>210</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>19番艦</SeriesNum>
 			<Name>清霜</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
@@ -8625,11 +11732,27 @@
 		<BasicInfo>
 			<Number>211</Number>
 			<AlbumNum>211</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空戦艦</Type>
+			<Series>扶桑型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>扶桑改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>77</HP>
+			<Power>80</Power>
+			<Defence>84</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>34</Dodge>
+			<Air>44</Air>
+			<Carry>40</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>51</Search>
+			<Range>長</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8665,11 +11788,27 @@
 		<BasicInfo>
 			<Number>212</Number>
 			<AlbumNum>212</AlbumNum>
+			<Rare>5</Rare>
 			<Type>航空戦艦</Type>
+			<Series>扶桑型</Series>
+			<SeriesNum>2番艦</SeriesNum>
 			<Name>山城改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>77</HP>
+			<Power>80</Power>
+			<Defence>85</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>43</Air>
+			<Carry>40</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>52</Search>
+			<Range>長</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8705,11 +11844,27 @@
 		<BasicInfo>
 			<Number>213</Number>
 			<AlbumNum>213</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>5番艦</SeriesNum>
 			<Name>朝雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>21</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>8</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -8745,11 +11900,27 @@
 		<BasicInfo>
 			<Number>214</Number>
 			<AlbumNum>214</AlbumNum>
+			<Rare>3</Rare>
 			<Type>駆逐艦</Type>
+			<Series>朝潮型</Series>
+			<SeriesNum>6番艦</SeriesNum>
 			<Name>山雲</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>9</Air>
+			<Carry>0</Carry>
+			<Antisub>23</Antisub>
+			<Speed>高</Speed>
+			<Search>5</Search>
+			<Range>短</Range>
+			<Lucky>7</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -8773,11 +11944,27 @@
 		<BasicInfo>
 			<Number>215</Number>
 			<AlbumNum>215</AlbumNum>
+			<Rare>4</Rare>
 			<Type>駆逐艦</Type>
+			<Series>陽炎型</Series>
+			<SeriesNum>15番艦</SeriesNum>
 			<Name>野分</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>10</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>12</Air>
+			<Carry>0</Carry>
+			<Antisub>24</Antisub>
+			<Speed>高</Speed>
+			<Search>8</Search>
+			<Range>短</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>35</Level>
@@ -8813,11 +12000,27 @@
 		<BasicInfo>
 			<Number>216</Number>
 			<AlbumNum>216</AlbumNum>
+			<Rare>5</Rare>
 			<Type>重巡洋艦</Type>
+			<Series>古鷹型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>古鷹改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>53</HP>
+			<Power>77</Power>
+			<Defence>54</Defence>
+			<Torpedo>51</Torpedo>
+			<Dodge>61</Dodge>
+			<Air>40</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>41</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8881,11 +12084,27 @@
 		<BasicInfo>
 			<Number>219</Number>
 			<AlbumNum>219</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>初春型</Series>
+			<SeriesNum>4番艦</SeriesNum>
 			<Name>初霜改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>34</Power>
+			<Defence>25</Defence>
+			<Torpedo>60</Torpedo>
+			<Dodge>85</Dodge>
+			<Air>47</Air>
+			<Carry>0</Carry>
+			<Antisub>56</Antisub>
+			<Speed>高</Speed>
+			<Search>37</Search>
+			<Range>短</Range>
+			<Lucky>53</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>-</Level>
@@ -8930,11 +12149,27 @@
 		<BasicInfo>
 			<Number>221</Number>
 			<AlbumNum>221</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>秋月型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>秋月</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>20</HP>
+			<Power>16</Power>
+			<Defence>9</Defence>
+			<Torpedo>16</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>70</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高</Speed>
+			<Search>9</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>40</Level>
@@ -9012,9 +12247,27 @@
 		<BasicInfo>
 			<Number>225</Number>
 			<AlbumNum>225</AlbumNum>
+			<Rare>3</Rare>
+			<Type>駆逐艦</Type>
+			<Series>夕雲型</Series>
+			<SeriesNum>16番艦</SeriesNum>
+			<Name>朝霜</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>16</HP>
+			<Power>12</Power>
+			<Defence>6</Defence>
+			<Torpedo>24</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>11</Air>
+			<Carry>0</Carry>
+			<Antisub>41</Antisub>
+			<Speed>高</Speed>
+			<Search>6</Search>
+			<Range>短</Range>
+			<Lucky>16</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo/>
@@ -9026,11 +12279,27 @@
 		<BasicInfo>
 			<Number>226</Number>
 			<AlbumNum>226</AlbumNum>
+			<Rare>5</Rare>
 			<Type>駆逐艦</Type>
+			<Series>吹雪型</Series>
+			<SeriesNum>1番艦</SeriesNum>
 			<Name>吹雪改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>40</Power>
+			<Defence>25</Defence>
+			<Torpedo>63</Torpedo>
+			<Dodge>79</Dodge>
+			<Air>60</Air>
+			<Carry>0</Carry>
+			<Antisub>55</Antisub>
+			<Speed>高</Speed>
+			<Search>42</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -9061,6 +12330,7 @@
 	<KanMusu>
 		<BasicInfo>
 			<Number>227</Number>
+			<AlbumNum>227</AlbumNum>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -9074,9 +12344,28 @@
 	<KanMusu>
 		<BasicInfo>
 			<Number>228</Number>
+			<AlbumNum>228</AlbumNum>
+			<Rare>5</Rare>
+			<Type>重巡洋艦</Type>
+			<Series>高雄型</Series>
+			<SeriesNum>3番艦</SeriesNum>
+			<Name>摩耶改二</Name>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>42</Power>
+			<Defence>58</Defence>
+			<Torpedo>34</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>72</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>45</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo/>
@@ -9087,6 +12376,39 @@
 	<KanMusu>
 		<BasicInfo>
 			<Number>229</Number>
+			<AlbumNum>229</AlbumNum>
+			<Rare>6</Rare>
+			<Type>正規空母</Type>
+			<Series>雲龍型</Series>
+			<SeriesNum>2番艦</SeriesNum>
+			<Name>天城改</Name>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo>
+			<HP>60</HP>
+			<Power>19</Power>
+			<Defence>44</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>43</Air>
+			<Carry>69</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高</Speed>
+			<Search>63</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>230</Number>
+			<AlbumNum>230</AlbumNum>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -9099,7 +12421,96 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<Number>230</Number>
+			<Number>231</Number>
+			<AlbumNum>231</AlbumNum>
+			<Rare>4</Rare>
+			<Type>潜水艦</Type>
+			<Series>UボートIXC型</Series>
+			<SeriesNum>-</SeriesNum>
+			<Name>U-511</Name>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo>
+			<HP>8</HP>
+			<Power>2</Power>
+			<Defence>4</Defence>
+			<Torpedo>22</Torpedo>
+			<Dodge>18</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低</Speed>
+			<Search>8</Search>
+			<Range>短</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>232</Number>
+			<AlbumNum>232</AlbumNum>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo/>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>233</Number>
+			<AlbumNum>233</AlbumNum>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo/>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>234</Number>
+			<AlbumNum>234</AlbumNum>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo/>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>235</Number>
+			<AlbumNum>235</AlbumNum>
+		</BasicInfo>
+		<BuildInfo/>
+		<BattleInfo/>
+		<EquipInfo/>
+		<UpdateInfo/>
+		<SourceInfo/>
+		<SupplyInfo/>
+		<MaxInfo/>
+		<ResolveInfo/>
+	</KanMusu>
+	<KanMusu>
+		<BasicInfo>
+			<Number>236</Number>
+			<AlbumNum>236</AlbumNum>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>

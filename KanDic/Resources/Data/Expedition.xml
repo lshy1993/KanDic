@@ -337,6 +337,7 @@
 	<row>
 		<ID>17</ID>
 		<Name>敵地偵察作戦</Name>
+		<Hard>A</Hard>
 		<Hour>0</Hour>
 		<Minute>45</Minute>
 		<GetFuel>70</GetFuel>
@@ -350,6 +351,7 @@
 	<row>
 		<ID>18</ID>
 		<Name>航空機輸送作戦</Name>
+		<Hard>A</Hard>
 		<Hour>5</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -365,6 +367,7 @@
 	<row>
 		<ID>19</ID>
 		<Name>北号作戦</Name>
+		<Hard>A</Hard>
 		<Hour>6</Hour>
 		<Minute>0</Minute>
 		<GetFuel>400</GetFuel>
@@ -382,6 +385,7 @@
 	<row>
 		<ID>20</ID>
 		<Name>潜水艦哨戒任務</Name>
+		<Hard>A</Hard>
 		<Hour>2</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -399,6 +403,7 @@
 	<row>
 		<ID>21</ID>
 		<Name>北方鼠輸送作戦</Name>
+		<Hard>A</Hard>
 		<Hour>2</Hour>
 		<Minute>20</Minute>
 		<GetFuel>320</GetFuel>
@@ -414,6 +419,7 @@
 	<row>
 		<ID>22</ID>
 		<Name>艦隊演習</Name>
+		<Hard>A</Hard>
 		<Hour>3</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -427,6 +433,7 @@
 	<row>
 		<ID>23</ID>
 		<Name>航空戦艦運用演習</Name>
+		<Hard>A</Hard>
 		<Hour>4</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -440,6 +447,7 @@
 	<row>
 		<ID>24</ID>
 		<Name>通商破壊作戦</Name>
+		<Hard>A</Hard>
 		<Hour>40</Hour>
 		<Minute>0</Minute>
 		<GetFuel>900</GetFuel>
@@ -453,6 +461,7 @@
 	<row>
 		<ID>25</ID>
 		<Name>敵母港空襲作戦</Name>
+		<Hard>A</Hard>
 		<Hour>80</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -466,6 +475,7 @@
 	<row>
 		<ID>26</ID>
 		<Name>潜水艦通商破壊作戦</Name>
+		<Hard>A</Hard>
 		<Hour>20</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -481,6 +491,7 @@
 	<row>
 		<ID>27</ID>
 		<Name>西方海域封鎖作戦</Name>
+		<Hard>A</Hard>
 		<Hour>25</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -498,6 +509,7 @@
 	<row>
 		<ID>28</ID>
 		<Name>潜水艦派遣演習</Name>
+		<Hard>A</Hard>
 		<Hour>24</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -515,6 +527,7 @@
 	<row>
 		<ID>29</ID>
 		<Name>潜水艦派遣作戦</Name>
+		<Hard>A</Hard>
 		<Hour>48</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -532,6 +545,7 @@
 	<row>
 		<ID>30</ID>
 		<Name>海外艦との接触</Name>
+		<Hard>A</Hard>
 		<Hour>2</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -547,6 +561,7 @@
 	<row>
 		<ID>31</ID>
 		<Name>前衛支援任務</Name>
+		<Hard>A</Hard>
 		<Hour>0</Hour>
 		<Minute>15</Minute>
 		<Item1>1</Item1>
@@ -556,6 +571,7 @@
 	<row>
 		<ID>32</ID>
 		<Name>艦隊決戦支援任務</Name>
+		<Hard>A</Hard>
 		<Hour>0</Hour>
 		<Minute>30</Minute>
 		<Set>驱2必要</Set>
@@ -563,6 +579,7 @@
 	<row>
 		<ID>33</ID>
 		<Name>MO作戦</Name>
+		<Hard>A</Hard>
 		<Hour>7</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -580,6 +597,7 @@
 	<row>
 		<ID>34</ID>
 		<Name>水上機基地建設</Name>
+		<Hard>A</Hard>
 		<Hour>9</Hour>
 		<Minute>0</Minute>
 		<GetFuel>480</GetFuel>
@@ -597,6 +615,7 @@
 	<row>
 		<ID>35</ID>
 		<Name>東京急行</Name>
+		<Hard>A</Hard>
 		<Hour>2</Hour>
 		<Minute>45</Minute>
 		<GetFuel>0</GetFuel>
@@ -612,6 +631,7 @@
 	<row>
 		<ID>36</ID>
 		<Name>東京急行(弐)</Name>
+		<Hard>A</Hard>
 		<Hour>2</Hour>
 		<Minute>55</Minute>
 		<GetFuel>420</GetFuel>
@@ -627,6 +647,7 @@
 	<row>
 		<ID>37</ID>
 		<Name>遠洋潜水艦作戦</Name>
+		<Hard>A</Hard>
 		<Hour>30</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>

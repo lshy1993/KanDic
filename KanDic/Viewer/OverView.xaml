@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="KanDic.Viewer.OverView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:image="clr"
+             mc:Ignorable="d" 
+             d:DesignHeight="110" d:DesignWidth="340">
+    <Canvas Height="110" Width="340">
+        <Canvas.Resources>
+            <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
+        </Canvas.Resources>
+        <Image Source="/KanDic;component/Cache/Calculate/back.PNG" Canvas.Right="0" Stretch="None"/>
+        <Image Source="/KanDic;component/Cache/Calculate/1.PNG" Stretch="None"/>
+        <TextBlock Text="金剛改" Foreground="White" FontSize="24" Canvas.Top="13" Canvas.Left="23"/>
+        <TextBlock Text="40" Foreground="White" FontSize="14" Canvas.Top="13" Canvas.Left="150"/>
+        <TextBlock Text="70/70" Foreground="White" FontSize="10" Canvas.Top="43" Canvas.Left="138"/>
+        <TextBlock Text="70" Foreground="White" FontSize="10" Canvas.Top="61" Canvas.Left="76"/>
+        <TextBlock Text="70" Foreground="White" FontSize="10" Canvas.Top="61" Canvas.Left="153"/>
+        <TextBlock Text="70" Foreground="White" FontSize="10" Canvas.Top="81" Canvas.Left="76"/>
+        <TextBlock Text="70" Foreground="White" FontSize="10" Canvas.Top="81" Canvas.Left="153"/>
+        <Image Source="{Binding ShipImage}" Stretch="None"/>
+        <Button Style="{StaticResource xxbutton}" Canvas.Right="90" Canvas.Bottom="12"/>
+        <Button Style="{StaticResource bgbutton}" Canvas.Right="5" Canvas.Bottom="12"/>
+    </Canvas>
+</UserControl>

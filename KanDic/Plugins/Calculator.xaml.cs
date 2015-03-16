@@ -10,16 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 
-namespace KanDic.Window
+namespace KanDic.Plugins
 {
     /// <summary>
-    /// KanCalculate.xaml 的交互逻辑
+    /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class KanCalculate
+    public partial class Calculator : MetroWindow
     {
-        public KanCalculate()
+        public Calculator()
         {
             InitializeComponent();
         }

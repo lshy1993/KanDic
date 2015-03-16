@@ -1,0 +1,32 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Plugins.Calculator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+    xmlns:viewer="clr-namespace:KanDic.Viewer"
+    
+    Title="舰队模拟器（测试版）"
+    Height="400" Width="700"
+    BorderThickness="1"
+    EnableDWMDropShadow="True"
+    ResizeMode="CanResizeWithGrip"
+    
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="340"/>
+            <ColumnDefinition Width="340"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+        </Grid.RowDefinitions>
+        <viewer:OverView Grid.Row="0" Grid.Column="0"/>
+        <viewer:OverView Grid.Row="0" Grid.Column="1"/>
+        <viewer:OverView Grid.Row="1" Grid.Column="0"/>
+        <viewer:OverView Grid.Row="1" Grid.Column="1"/>
+        <viewer:OverView Grid.Row="2" Grid.Column="0"/>
+        <viewer:OverView Grid.Row="2" Grid.Column="1"/>
+    </Grid>
+</Controls:MetroWindow>
