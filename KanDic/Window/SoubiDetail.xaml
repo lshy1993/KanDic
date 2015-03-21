@@ -49,7 +49,7 @@
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,0,5,3" Fill="Gray" />
                     <TextBlock DockPanel.Dock="Top" Text="装备属性" HorizontalAlignment="Center"/>
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,2,5,0" Fill="Gray" />
-                    <Grid DockPanel.Dock="Top" Margin="10,5,10,5">
+                    <Grid Name="DataBox" DockPanel.Dock="Top" Margin="10,5,10,5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition/>
@@ -62,18 +62,18 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Image Source="{Binding Shu1}" Stretch="None" Grid.Row="0" Grid.Column="0"/>
-                        <Image Source="{Binding Shu2}" Stretch="None" Grid.Row="0" Grid.Column="2"/>
-                        <Image Source="{Binding Shu3}" Stretch="None" Grid.Row="0" Grid.Column="4"/>
-                        <Image Source="{Binding Shu4}" Stretch="None" Grid.Row="1" Grid.Column="0"/>
-                        <Image Source="{Binding Shu5}" Stretch="None" Grid.Row="1" Grid.Column="2"/>
-                        <Image Source="{Binding Shu6}" Stretch="None" Grid.Row="1" Grid.Column="4"/>
-                        <TextBlock Text="{Binding ShuNum1}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding ShuNum2}" Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding ShuNum3}" Grid.Row="0" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding ShuNum4}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding ShuNum5}" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding ShuNum6}" Grid.Row="1" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <Image Source="{Binding Path=.[0]}" Stretch="None" Grid.Row="0" Grid.Column="0"/>
+                        <Image Source="{Binding Path=.[2]}" Stretch="None" Grid.Row="0" Grid.Column="2"/>
+                        <Image Source="{Binding Path=.[4]}" Stretch="None" Grid.Row="0" Grid.Column="4"/>
+                        <Image Source="{Binding Path=.[6]}" Stretch="None" Grid.Row="1" Grid.Column="0"/>
+                        <Image Source="{Binding Path=.[8]}" Stretch="None" Grid.Row="1" Grid.Column="2"/>
+                        <Image Source="{Binding Path=.[10]}" Stretch="None" Grid.Row="1" Grid.Column="4"/>
+                        <TextBlock Text="{Binding Path=.[1]}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=.[3]}" Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=.[5]}" Grid.Row="0" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=.[7]}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=.[9]}" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=.[11]}" Grid.Row="1" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Grid>
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="5,0,5,3" Fill="Gray" />
                     <TextBlock DockPanel.Dock="Top" Text="可装备舰种" HorizontalAlignment="Center"/>
@@ -115,7 +115,7 @@
             </Border>
         </DockPanel>
         <DockPanel Grid.Column="1">
-            <Image DockPanel.Dock="Top" Source="{Binding FileName}" Stretch="None" Margin="5,10,5,5"/>
+            <Image DockPanel.Dock="Top" Source="{Binding Image}" Stretch="None" Margin="5,10,5,5"/>
             <Border Name="Resolve" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="Gray" Margin="5">
                 <DockPanel Margin="5">
                     <TextBlock DockPanel.Dock="Left" Text="分解资源" Margin="5" VerticalAlignment="Center"/>

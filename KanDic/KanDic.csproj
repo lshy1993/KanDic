@@ -88,6 +88,15 @@
     <Compile Include="Plugins\MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\Simulator\ShipRow.xaml.cs">
+      <DependentUpon>ShipRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\SoubiButton.xaml.cs">
+      <DependentUpon>SoubiButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\SoubiRow.xaml.cs">
+      <DependentUpon>SoubiRow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Resources\Class\Enermy\Enermy.cs" />
     <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
     <Compile Include="Resources\Class\Kan\BattleInfo.cs" />
@@ -99,6 +108,7 @@
     <Compile Include="Resources\Class\Kan\MaxInfo.cs" />
     <Compile Include="Resources\Class\Kan\ResolveInfo.cs" />
     <Compile Include="Resources\Class\Map\MapInfo.cs" />
+    <Compile Include="Resources\Class\MoniKan.cs" />
     <Compile Include="Resources\Class\Quest\QuestInfo.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
     <Compile Include="Resources\Class\Soubi\Soubi.cs" />
@@ -127,7 +137,7 @@
     <Compile Include="Viewer\Map.xaml.cs">
       <DependentUpon>Map.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\OverView.xaml.cs">
+    <Compile Include="Plugins\Simulator\OverView.xaml.cs">
       <DependentUpon>OverView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\Quest.xaml.cs">
@@ -152,6 +162,18 @@
       <DependentUpon>StartWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="Plugins\MusicPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\ShipRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\SoubiButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\SoubiRow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -227,7 +249,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\OverView.xaml">
+    <Page Include="Plugins\Simulator\OverView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -717,7 +739,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Data\Enermy.xml" />
-    <EmbeddedResource Include="Resources\Data\Equip.xml" />
+    <EmbeddedResource Include="Resources\Data\Soubi.xml" />
     <EmbeddedResource Include="Resources\Data\Expedition.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -932,6 +954,19 @@
     <Resource Include="Cache\Calculate\bt11.PNG" />
     <Resource Include="Cache\Calculate\bt2.PNG" />
     <Resource Include="Cache\Calculate\bt21.PNG" />
+    <Resource Include="Cache\Calculate\bt3.PNG" />
+    <Resource Include="Cache\Calculate\bt31.PNG" />
+    <Resource Include="Cache\Calculate\team1.PNG" />
+    <Resource Include="Cache\Calculate\team11.PNG" />
+    <Resource Include="Cache\Calculate\team2.PNG" />
+    <Resource Include="Cache\Calculate\team21.PNG" />
+    <Resource Include="Cache\Calculate\team3.PNG" />
+    <Resource Include="Cache\Calculate\team31.PNG" />
+    <Resource Include="Cache\Calculate\team4.PNG" />
+    <Resource Include="Cache\Calculate\team41.PNG" />
+    <Resource Include="Cache\Calculate\left.PNG" />
+    <Resource Include="Cache\Calculate\right.PNG" />
+    <Resource Include="Cache\Calculate\shuxing.PNG" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

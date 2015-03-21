@@ -52,25 +52,25 @@ namespace KanDic.Resources
             }
             Num_Init();
 
-            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].FileName;
+            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].Image;
             else Image1 = "/Cache/error.png";
-            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].FileName;
+            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].Image;
             else Image2 = "/Cache/error.png";
-            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].FileName;
+            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].Image;
             else Image3 = "/Cache/error.png";
-            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].FileName;
+            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].Image;
             else Image4 = "/Cache/error.png";
-            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].FileName;
+            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].Image;
             else Image5 = "/Cache/error.png";
-            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].FileName;
+            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].Image;
             else Image6 = "/Cache/error.png";
-            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].FileName;
+            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].Image;
             else Image7 = "/Cache/error.png";
-            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].FileName;
+            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].Image;
             else Image8 = "/Cache/error.png";
-            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].FileName;
+            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].Image;
             else Image9 = "/Cache/error.png";
-            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].FileName;
+            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].Image;
             else Image10 = "/Cache/error.png";
         }
 

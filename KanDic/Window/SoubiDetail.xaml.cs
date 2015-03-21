@@ -23,6 +23,7 @@ namespace KanDic.Window
     public partial class SoubiDetail
     {
         public Soubi equip = new Soubi();
+        public List<string> strlist = new List<string>();
 
         public SoubiDetail(int num)
         {
@@ -30,47 +31,57 @@ namespace KanDic.Window
             equip = KanDic.Viewer.Equipment.equips[num];
             Detail_Init();
             MainDetail.DataContext = equip;
+            DataBox.DataContext = strlist;
             this.Title = equip.Name;
         }
 
         public void Detail_Init()
         {
-            equip.Shu1 = Set_Icon(equip.Shu1);
-            equip.Shu2 = Set_Icon(equip.Shu2);
-            equip.Shu3 = Set_Icon(equip.Shu3);
-            equip.Shu4 = Set_Icon(equip.Shu4);
-            equip.Shu5 = Set_Icon(equip.Shu5);
-            equip.Shu6 = Set_Icon(equip.Shu6);
-        }
-
-        public string Set_Icon(string x)
-        {
-            switch (x)
+            if (equip.Power != 0)
             {
-                case "火力":
-                    return "/Cache/icon/info/hl.PNG";
-                case "雷裝":
-                    return "/Cache/icon/info/lz.PNG";
-                case "爆裝":
-                    return "/Cache/icon/info/bz.PNG";
-                case "对空":
-                    return "/Cache/icon/info/dk.PNG";
-                case "对潜":
-                    return "/Cache/icon/info/dq.PNG";
-                case "索敌":
-                    return "/Cache/icon/info/sd.PNG";
-                case "命中":
-                    return "/Cache/icon/info/mz.PNG";
-                case "回避":
-                    return "/Cache/icon/info/hb.PNG";
-                case "射程":
-                    return "/Cache/icon/info/sc.PNG";
-                case "装甲":
-                    return "/Cache/icon/info/zz.PNG";
-                default:
-                    return "/Cache/noicon.png";
+                strlist.Add("/Cache/icon/info/hl.PNG");
+                strlist.Add(equip.Power.ToString());
             }
-
+            if (equip.Torpedo != 0)
+            {
+                strlist.Add("/Cache/icon/info/lz.PNG");
+                strlist.Add(equip.Torpedo.ToString());
+            }
+            if (equip.Bomb != 0)
+            {
+                strlist.Add("/Cache/icon/info/bz.PNG");
+                strlist.Add(equip.Bomb.ToString());
+            }
+            if (equip.Air != 0)
+            {
+                strlist.Add("/Cache/icon/info/dk.PNG");
+                strlist.Add(equip.Air.ToString());
+            }
+            if (equip.Antisub != 0)
+            {
+                strlist.Add("/Cache/icon/info/fq.PNG");
+                strlist.Add(equip.Antisub.ToString());
+            }
+            if (equip.Search != 0)
+            {
+                strlist.Add("/Cache/icon/info/sd.PNG");
+                strlist.Add(equip.Search.ToString());
+            }
+            if (equip.Hitrate != 0)
+            {
+                strlist.Add("/Cache/icon/info/mz.PNG");
+                strlist.Add(equip.Hitrate.ToString());
+            }
+            if (equip.Dodge != 0)
+            {
+                strlist.Add("/Cache/icon/info/hb.PNG");
+                strlist.Add(equip.Dodge.ToString());
+            }
+            if (equip.Range != null)
+            {
+                strlist.Add("/Cache/icon/info/sc.PNG");
+                strlist.Add(equip.Range);
+            }
         }
     }
 }

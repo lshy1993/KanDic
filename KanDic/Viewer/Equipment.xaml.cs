@@ -91,7 +91,7 @@ namespace KanDic.Viewer
         private void Load_Soubi()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Equip.xml");
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Soubi.xml");
             XmlDocument ShipList = new XmlDocument();
             ShipList.Load(sStream);
             XmlElement ShipInfo = ShipList.DocumentElement;
@@ -99,7 +99,6 @@ namespace KanDic.Viewer
             {
                 Set_Soubi(temp);
             }
-            
         }
 
         private void Set_Soubi(XmlNode x)
@@ -116,11 +115,95 @@ namespace KanDic.Viewer
                 }
                 else
                 {
-                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
+                    int i ;
+                    if (Int32.TryParse(yy.InnerText, out i))
+                    {
+                        typeof(Soubi).GetProperty(name1).SetValue(equips[num], i, null);
+                    }
+                    else
+                    {
+                        typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
+                    }
                 }
             }
-            equips[num].FileName = "/Cache/equipment/" + equips[num].Number + ".png";
+            equips[num].Image = "/Cache/equipment/" + string.Format("{0:D3}", equips[num].Number) + ".png";
+            equips[num].Icon = geticon(equips[num].Type);
         }
         #endregion
+
+        private string geticon(string x)
+        {
+            switch (x)
+            {
+                case "小口径主砲":
+                    return "/Cache/icon/soubi/68.PNG";
+                case "中口径主砲":
+                    return "/Cache/icon/soubi/70.PNG";
+                case "大口径主砲":
+                    return "/Cache/icon/soubi/72.PNG";
+                case "副砲":
+                    return "/Cache/icon/soubi/74.PNG";
+                case "魚雷":
+                    return "/Cache/icon/soubi/76.PNG";
+                case "艦上戦闘機":
+                    return "/Cache/icon/soubi/78.PNG";
+                case "艦上爆撃機":
+                    return "/Cache/icon/soubi/80.PNG";
+                case "艦上攻撃機":
+                    return "/Cache/icon/soubi/82.PNG";
+                case "艦上偵察機":
+                    return "/Cache/icon/soubi/84.PNG";
+                case "水上爆撃機":
+                    return "/Cache/icon/soubi/86.PNG";
+                case "水上偵察機":
+                    return "/Cache/icon/soubi/86.PNG";
+                case "电探":
+                    return "/Cache/icon/soubi/88.PNG";
+                case "三式弹":
+                    return "/Cache/icon/soubi/90.PNG";
+                case "彻甲弹":
+                    return "/Cache/icon/soubi/92.PNG";
+                case "应急修理要员":
+                    return "/Cache/icon/soubi/94.PNG";
+                case "対空機銃":
+                    return "/Cache/icon/soubi/96.PNG";
+                case "主炮类":
+                    return "/Cache/icon/soubi/98.PNG";
+                case "水雷":
+                    return "/Cache/icon/soubi/100.PNG";
+                case "水听":
+                    return "/Cache/icon/soubi/102.PNG";
+                case "机关部强化类":
+                    return "/Cache/icon/soubi/104.PNG";
+                case "大发动艇":
+                    return "/Cache/icon/soubi/106.PNG";
+                case "カ号观测机":
+                    return "/Cache/icon/soubi/108.PNG";
+                case "三式指挥联络机（对潜）":
+                    return "/Cache/icon/soubi/110.PNG";
+                case "追加装甲":
+                    return "/Cache/icon/soubi/112.PNG";
+                case "探照灯":
+                    return "/Cache/icon/soubi/114.PNG";
+                case "运输桶":
+                    return "/Cache/icon/soubi/116.PNG";
+                case "舰艇修理设施":
+                    return "/Cache/icon/soubi/118.PNG";
+                case "照明弹":
+                    return "/Cache/icon/soubi/120.PNG";
+                case "舰队司令部设施":
+                    return "/Cache/icon/soubi/122.PNG";
+                case "舰载机熟练员":
+                    return "/Cache/icon/soubi/124.PNG";
+                case "高射装置类":
+                    return "/Cache/icon/soubi/126.PNG";
+                case "WG42":
+                    return "/Cache/icon/soubi/128.PNG";
+                case "熟练见张员":
+                    return "/Cache/icon/soubi/130.PNG";
+                default:
+                    return "";
+            }
+        }
     }
 }

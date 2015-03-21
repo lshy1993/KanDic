@@ -891,6 +891,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>白雪</Name>
+			<Hiragana>しらゆき</Hiragana>
+			<RomaName>shirayuki</RomaName>
+			<FileName>xqnkdultpvaf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -947,6 +950,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>初雪</Name>
+			<Hiragana>はつゆき</Hiragana>
+			<RomaName>hatsuyuki</RomaName>
+			<FileName>pxogwcltgjkn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1003,6 +1009,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>深雪</Name>
+			<Hiragana>みゆき</Hiragana>
+			<RomaName>miyuki</RomaName>
+			<FileName>cdidanqovcfr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1059,6 +1068,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>叢雲</Name>
+			<Hiragana>もらくも</Hiragana>
+			<RomaName>morakumo</RomaName>
+			<FileName>hpfcwdqxgyvl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1115,6 +1127,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>9番艦</SeriesNum>
 			<Name>磯波</Name>
+			<Hiragana>いそなみ</Hiragana>
+			<RomaName>isonami</RomaName>
+			<FileName>ljesxnctkmmf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1171,6 +1186,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>綾波</Name>
+			<Hiragana>あやなみ</Hiragana>
+			<RomaName>ayanami</RomaName>
+			<FileName>icpexclhwthr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1227,6 +1245,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>敷波</Name>
+			<Hiragana>しきなみ</Hiragana>
+			<RomaName>shikinami</RomaName>
+			<FileName>gcbiuhgmgjbm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1283,6 +1304,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井</Name>
+			<Hiragana>おおい</Hiragana>
+			<RomaName>ooi</RomaName>
+			<FileName>yomyfjkhndny</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1339,6 +1363,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上</Name>
+			<Hiragana>きたかみ</Hiragana>
+			<RomaName>kitakami</RomaName>
+			<FileName>oxqlrctsmegi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1395,6 +1422,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>金剛</Name>
+			<Hiragana>こんごう</Hiragana>
+			<RomaName>kongou</RomaName>
+			<FileName>oygjwmgvcdyv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1451,6 +1481,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>比叡</Name>
+			<Hiragana>ひえい</Hiragana>
+			<RomaName>hiei</RomaName>
+			<FileName>bxzhnjffdppv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1507,6 +1540,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>榛名</Name>
+			<Hiragana>はるな</Hiragana>
+			<RomaName>haruna</RomaName>
+			<FileName>vzgrqylbwegp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1563,6 +1599,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>霧島</Name>
+			<Hiragana>きりしま</Hiragana>
+			<RomaName>kirishima</RomaName>
+			<FileName>icwowutxbvgh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1619,6 +1658,9 @@
 			<Series>鳳翔型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>鳳翔</Name>
+			<Hiragana>ほうしょう</Hiragana>
+			<RomaName>housyou</RomaName>
+			<FileName>bwgbubdrhvfg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1675,6 +1717,9 @@
 			<Series>扶桑型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>扶桑</Name>
+			<Hiragana>ふそう</Hiragana>
+			<RomaName>fusou</RomaName>
+			<FileName>ubntuiyurxwk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1731,6 +1776,9 @@
 			<Series>扶桑型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>山城</Name>
+			<Hiragana>やましろ</Hiragana>
+			<RomaName>yamashiro</RomaName>
+			<FileName>dyurkaeenkdh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1787,6 +1835,9 @@
 			<Series>天龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>天龍</Name>
+			<Hiragana>てんりゅう</Hiragana>
+			<RomaName>tenryuu</RomaName>
+			<FileName>vswgjojfoqdc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1843,6 +1894,9 @@
 			<Series>天龍型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>龍田</Name>
+			<Hiragana>たつだ</Hiragana>
+			<RomaName>tatsuda</RomaName>
+			<FileName>qvqlfmytkmor</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1899,6 +1953,9 @@
 			<Series>龍驤型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍驤</Name>
+			<Hiragana>りゅうじょう</Hiragana>
+			<RomaName>ryuujyou</RomaName>
+			<FileName>iyondwbusgym</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -1955,6 +2012,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>睦月</Name>
+			<Hiragana>むつき</Hiragana>
+			<RomaName>mutsuki</RomaName>
+			<FileName>snohitatusbk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2011,6 +2071,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>如月</Name>
+			<Hiragana>きさらぎ</Hiragana>
+			<RomaName>kisaragi</RomaName>
+			<FileName>wujywbyjntbp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2067,6 +2130,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>皐月</Name>
+			<Hiragana>さつき</Hiragana>
+			<RomaName>satsuki</RomaName>
+			<FileName>qvmfwjitflgw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2123,6 +2189,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>7番艦</SeriesNum>
 			<Name>文月</Name>
+			<Hiragana>ふみづき</Hiragana>
+			<RomaName>fumizuki</RomaName>
+			<FileName>pjkwpxniwgge</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2179,6 +2248,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>8番艦</SeriesNum>
 			<Name>長月</Name>
+			<Hiragana>ながつき</Hiragana>
+			<RomaName>nagatsuki</RomaName>
+			<FileName>kksiqffpclxh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2235,6 +2307,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>9番艦</SeriesNum>
 			<Name>菊月</Name>
+			<Hiragana>きくづき</Hiragana>
+			<RomaName>kikuzuki</RomaName>
+			<FileName>jatvhskutlck</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2291,6 +2366,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>三日月</Name>
+			<Hiragana>みかつき</Hiragana>
+			<RomaName>mikatsuki</RomaName>
+			<FileName>ujhxqqlcorxv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2347,6 +2425,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>11番艦</SeriesNum>
 			<Name>望月</Name>
+			<Hiragana>もちづき</Hiragana>
+			<RomaName>mochizuki</RomaName>
+			<FileName>isiuepygxdzq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2403,6 +2484,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>球磨</Name>
+			<Hiragana>くま</Hiragana>
+			<RomaName>kuma</RomaName>
+			<FileName>zrmviexnupjy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2459,6 +2543,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>多摩</Name>
+			<Hiragana>たま</Hiragana>
+			<RomaName>tama</RomaName>
+			<FileName>jiftwdxqwtin</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2515,6 +2602,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>木曾</Name>
+			<Hiragana>きそ</Hiragana>
+			<RomaName>kiso</RomaName>
+			<FileName>veulocbvzaqy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2571,6 +2661,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>長良</Name>
+			<Hiragana>ながら</Hiragana>
+			<RomaName>nagara</RomaName>
+			<FileName>debsnofmttkx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2627,6 +2720,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>五十鈴</Name>
+			<Hiragana>いすず</Hiragana>
+			<RomaName>isuzu</RomaName>
+			<FileName>tcqsalkhzurk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2683,6 +2779,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>名取</Name>
+			<Hiragana>なとり</Hiragana>
+			<RomaName>natori</RomaName>
+			<FileName>bqwjdltjktls</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2739,6 +2838,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>由良</Name>
+			<Hiragana>ゆら</Hiragana>
+			<RomaName>yura</RomaName>
+			<FileName>shjlydqjdfcl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2795,6 +2897,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>川内</Name>
+			<Hiragana>せんだい</Hiragana>
+			<RomaName>sendai</RomaName>
+			<FileName>nehcyhpiviue</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2851,6 +2956,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>神通</Name>
+			<Hiragana>じんつう</Hiragana>
+			<RomaName>jintsuu</RomaName>
+			<FileName>icmlpbiditqy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2907,6 +3015,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>那珂</Name>
+			<Hiragana>アフリカアイドル</Hiragana>
+			<RomaName>Africa Idol</RomaName>
+			<FileName>vopfxipptsrt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -2963,6 +3074,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>dkmxevqgbxmr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3019,6 +3133,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>cayfwlehtvgj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3075,6 +3192,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>最上</Name>
+			<Hiragana>もがみ</Hiragana>
+			<RomaName>mogami</RomaName>
+			<FileName>lcmobkdeizph</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3131,6 +3251,9 @@
 			<Series>古鷹型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>古鷹</Name>
+			<Hiragana>ふるたか</Hiragana>
+			<RomaName>furutaka</RomaName>
+			<FileName>sfbwblstvfmw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3187,6 +3310,9 @@
 			<Series>古鷹型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>加古</Name>
+			<Hiragana>かこ</Hiragana>
+			<RomaName>kako</RomaName>
+			<FileName>vkmjguonqcsg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3243,6 +3369,9 @@
 			<Series>青葉型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>青葉</Name>
+			<Hiragana>あおば</Hiragana>
+			<RomaName>aoba</RomaName>
+			<FileName>bhyiqjjifflp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3299,6 +3428,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>妙高</Name>
+			<Hiragana>みょうこう</Hiragana>
+			<RomaName>myoukou</RomaName>
+			<FileName>grppcbegkphv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3355,6 +3487,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>那智</Name>
+			<Hiragana>なち</Hiragana>
+			<RomaName>nachi</RomaName>
+			<FileName>wnkageqzigwd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3411,6 +3546,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>足柄</Name>
+			<Hiragana>あしがら</Hiragana>
+			<RomaName>ashigara</RomaName>
+			<FileName>opprvckvhrkv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3467,6 +3605,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>羽黒</Name>
+			<Hiragana>はぐろ</Hiragana>
+			<RomaName>haguro</RomaName>
+			<FileName>lvfswfzywnql</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3523,6 +3664,9 @@
 			<Series>高雄型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>高雄</Name>
+			<Hiragana>たかお</Hiragana>
+			<RomaName>takao</RomaName>
+			<FileName>eqpvjbnbjlhy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3579,6 +3723,9 @@
 			<Series>高雄型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>愛宕</Name>
+			<Hiragana>あたご</Hiragana>
+			<RomaName>atago</RomaName>
+			<FileName>aqpnbsizhjij</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3635,6 +3782,9 @@
 			<Series>高雄型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>摩耶</Name>
+			<Hiragana>まや</Hiragana>
+			<RomaName>maya</RomaName>
+			<FileName>gpshoozxgutk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3691,6 +3841,9 @@
 			<Series>高雄型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>鳥海</Name>
+			<Hiragana>ちょうかい</Hiragana>
+			<RomaName>cyoukai</RomaName>
+			<FileName>qmmdyeprdqsu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3747,6 +3900,9 @@
 			<Series>利根型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>利根</Name>
+			<Hiragana>とね</Hiragana>
+			<RomaName>tone</RomaName>
+			<FileName>kmcllyhenjnk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3803,6 +3959,9 @@
 			<Series>利根型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>筑摩</Name>
+			<Hiragana>ちくま</Hiragana>
+			<RomaName>chikuma</RomaName>
+			<FileName>gcqjowlpkbde</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3859,6 +4018,9 @@
 			<Series>飛鷹型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>飛鷹</Name>
+			<Hiragana>ひよう</Hiragana>
+			<RomaName>hiyou</RomaName>
+			<FileName>sdiauxhgyfkj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3915,6 +4077,9 @@
 			<Series>飛鷹型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>隼鷹</Name>
+			<Hiragana>じゅんよう</Hiragana>
+			<RomaName>jyunyou</RomaName>
+			<FileName>ltdlvothcqnr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -3971,6 +4136,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>7番艦</SeriesNum>
 			<Name>朧</Name>
+			<Hiragana>おぼろ</Hiragana>
+			<RomaName>oboro</RomaName>
+			<FileName>jqexjuembtvh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4027,6 +4195,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>8番艦</SeriesNum>
 			<Name>曙</Name>
+			<Hiragana>あけぼの</Hiragana>
+			<RomaName>akebono</RomaName>
+			<FileName>fwptxiocqkyd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4083,6 +4254,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>9番艦</SeriesNum>
 			<Name>漣</Name>
+			<Hiragana>さざなみ</Hiragana>
+			<RomaName>sazanami</RomaName>
+			<FileName>lnarycubyzrr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4139,6 +4313,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>潮</Name>
+			<Hiragana>うしお</Hiragana>
+			<RomaName>ushio</RomaName>
+			<FileName>xqjemfzdbjox</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4195,6 +4372,9 @@
 			<Series>暁型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>暁</Name>
+			<Hiragana>あかつき</Hiragana>
+			<RomaName>akatsuki</RomaName>
+			<FileName>mtvkfikepcfr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4251,6 +4431,9 @@
 			<Series>暁型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>響</Name>
+			<Hiragana>ひびき</Hiragana>
+			<RomaName>hibiki</RomaName>
+			<FileName>nfzmalhtwved</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4307,6 +4490,9 @@
 			<Series>暁型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>雷</Name>
+			<Hiragana>いかづち</Hiragana>
+			<RomaName>ikazuchi</RomaName>
+			<FileName>aejfywpsegbv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4363,6 +4549,9 @@
 			<Series>暁型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>電</Name>
+			<Hiragana>いなづま</Hiragana>
+			<RomaName>inazuma</RomaName>
+			<FileName>uuilouoffjoj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4419,6 +4608,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>初春</Name>
+			<Hiragana>はつはる</Hiragana>
+			<RomaName>hatsuharu</RomaName>
+			<FileName>nlobofyxzvku</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4475,6 +4667,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>子日</Name>
+			<Hiragana>ねのひ</Hiragana>
+			<RomaName>nenohi</RomaName>
+			<FileName>zgerairddhko</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4531,6 +4726,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>若葉</Name>
+			<Hiragana>わかば</Hiragana>
+			<RomaName>wakaba</RomaName>
+			<FileName>ihuijkvksqky</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4587,6 +4785,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>初霜</Name>
+			<Hiragana>はつしも</Hiragana>
+			<RomaName>hatsushimo</RomaName>
+			<FileName>qngptlxhrwhj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4643,6 +4844,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>白露</Name>
+			<Hiragana>しらつゆ</Hiragana>
+			<RomaName>shiratsuyu</RomaName>
+			<FileName>ahztpphnuvco</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4699,6 +4903,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>時雨</Name>
+			<Hiragana>しぐれ</Hiragana>
+			<RomaName>shigure</RomaName>
+			<FileName>kclrmkyzpnpc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4755,6 +4962,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>村雨</Name>
+			<Hiragana>むらさめ</Hiragana>
+			<RomaName>murasame</RomaName>
+			<FileName>fhaelooubkbi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4811,6 +5021,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>夕立</Name>
+			<Hiragana>ゆうだち</Hiragana>
+			<RomaName>yuudachi</RomaName>
+			<FileName>pnpixtolsebg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4867,6 +5080,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>6番艦</SeriesNum>
 			<Name>五月雨</Name>
+			<Hiragana>さみだれ</Hiragana>
+			<RomaName>samidare</RomaName>
+			<FileName>tyjrubumfpxy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4923,6 +5139,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>涼風</Name>
+			<Hiragana>すずかぜ</Hiragana>
+			<RomaName>suzukaze</RomaName>
+			<FileName>qaryaychpubb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -4979,6 +5198,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>朝潮</Name>
+			<Hiragana>あさしお</Hiragana>
+			<RomaName>asashio</RomaName>
+			<FileName>eeyrwdehbixg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5035,6 +5257,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>大潮</Name>
+			<Hiragana>おおしお</Hiragana>
+			<RomaName>ooshio</RomaName>
+			<FileName>svcuufdqcqmy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5091,6 +5316,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>満潮</Name>
+			<Hiragana>みちしお</Hiragana>
+			<RomaName>michishio</RomaName>
+			<FileName>fhpgicaysllm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5147,6 +5375,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>荒潮</Name>
+			<Hiragana>あらしお</Hiragana>
+			<RomaName>arashio</RomaName>
+			<FileName>vksjkggcuvik</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5203,6 +5434,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>9番艦</SeriesNum>
 			<Name>霰</Name>
+			<Hiragana>あられ</Hiragana>
+			<RomaName>arare</RomaName>
+			<FileName>oiknslickotp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5259,6 +5493,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>霞</Name>
+			<Hiragana>かすみ</Hiragana>
+			<RomaName>kasumi</RomaName>
+			<FileName>qukusrsftcgy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5315,6 +5552,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>陽炎</Name>
+			<Hiragana>かげろう</Hiragana>
+			<RomaName>kagerou</RomaName>
+			<FileName>nkvvrszimkre</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5371,6 +5611,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>不知火</Name>
+			<Hiragana>しらぬい</Hiragana>
+			<RomaName>shiranui</RomaName>
+			<FileName>louolngpmrwj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5427,6 +5670,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>黒潮</Name>
+			<Hiragana>くろしお</Hiragana>
+			<RomaName>kuroshio</RomaName>
+			<FileName>ihengpjwmfrt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5483,6 +5729,9 @@
 			<Series>祥鳳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>祥鳳</Name>
+			<Hiragana>しようほう</Hiragana>
+			<RomaName>syouhou</RomaName>
+			<FileName>qihrkkfwekpo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5539,6 +5788,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳改</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>wvkpfygaipjq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5595,6 +5847,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田改</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>tsfbgfyeqxhg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5651,6 +5906,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井改</Name>
+			<Hiragana>おおい</Hiragana>
+			<RomaName>ooi</RomaName>
+			<FileName>gonohkjynpmb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5707,6 +5965,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上改</Name>
+			<Hiragana>きたかみ</Hiragana>
+			<RomaName>kitakami</RomaName>
+			<FileName>jdqefjcpslli</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5763,6 +6024,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳甲</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>ttkeodhvrmog</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5819,6 +6083,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田甲</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>agybvcshxbpm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5875,6 +6142,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>最上改</Name>
+			<Hiragana>もがみ</Hiragana>
+			<RomaName>mogami</RomaName>
+			<FileName>ethdbrvnuznc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5931,6 +6201,9 @@
 			<Series>伊勢型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>伊勢改</Name>
+			<Hiragana>いせ</Hiragana>
+			<RomaName>ise</RomaName>
+			<FileName>guwzhmxxnwol</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -5987,6 +6260,9 @@
 			<Series>伊勢型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>日向改</Name>
+			<Hiragana>ひゅうが</Hiragana>
+			<RomaName>hyuuga</RomaName>
+			<FileName>jprpbvbeillv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6043,6 +6319,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳航</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>wlvvcpnulyer</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6099,6 +6378,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田航</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>rsmzverhwskc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6155,6 +6437,9 @@
 			<Series>翔鶴型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>翔鶴</Name>
+			<Hiragana>しょうかく</Hiragana>
+			<RomaName>syoukaku</RomaName>
+			<FileName>pdricqoovxfe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6211,6 +6496,9 @@
 			<Series>翔鶴型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鶴</Name>
+			<Hiragana>ずいかく</Hiragana>
+			<RomaName>zuikaku</RomaName>
+			<FileName>suivtkpjnmpt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6267,6 +6555,9 @@
 			<Series>翔鶴型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鶴改</Name>
+			<Hiragana>ずいかく</Hiragana>
+			<RomaName>zuikaku</RomaName>
+			<FileName>ihwgeegenykh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6323,6 +6614,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>鬼怒</Name>
+			<Hiragana>きぬ</Hiragana>
+			<RomaName>kinu</RomaName>
+			<FileName>rgribyhrzjjl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6379,6 +6673,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>6番艦</SeriesNum>
 			<Name>阿武隈</Name>
+			<Hiragana>あぶくま</Hiragana>
+			<RomaName>abukuma</RomaName>
+			<FileName>sgwumdfgzais</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6435,6 +6732,9 @@
 			<Series>夕張型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>夕張</Name>
+			<Hiragana>ゆうばり</Hiragana>
+			<RomaName>yuubari</RomaName>
+			<FileName>hieimxbtcqrt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6491,6 +6791,9 @@
 			<Series>祥鳳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鳳</Name>
+			<Hiragana>ずいほう</Hiragana>
+			<RomaName>zuihou</RomaName>
+			<FileName>ktexichqewel</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6547,6 +6850,9 @@
 			<Series>祥鳳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>瑞鳳改</Name>
+			<Hiragana>ずいほう</Hiragana>
+			<RomaName>zuihou</RomaName>
+			<FileName>xmzltsferzto</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6603,6 +6909,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>大井改二</Name>
+			<Hiragana>おおい</Hiragana>
+			<RomaName>ooi</RomaName>
+			<FileName>khtgrpfyurcm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6659,6 +6968,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>北上改二</Name>
+			<Hiragana>きたかみ</Hiragana>
+			<RomaName>kitakami</RomaName>
+			<FileName>cqtlanpwihpj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6715,6 +7027,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>三隈</Name>
+			<Hiragana>みくま</Hiragana>
+			<RomaName>mikuma</RomaName>
+			<FileName>oqqerytyeisg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6771,6 +7086,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>三隈改</Name>
+			<Hiragana>みくま</Hiragana>
+			<RomaName>mikuma</RomaName>
+			<FileName>yyvxfxdusxlx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6827,6 +7145,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>7番艦</SeriesNum>
 			<Name>初風</Name>
+			<Hiragana>はつかぜ</Hiragana>
+			<RomaName>hatsukaze</RomaName>
+			<FileName>rwqqgmxpdwbu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6883,6 +7204,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>18番艦</SeriesNum>
 			<Name>舞風</Name>
+			<Hiragana>まいかぜ</Hiragana>
+			<RomaName>maikaze</RomaName>
+			<FileName>emjpbjscgcvf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6939,6 +7263,9 @@
 			<Series>青葉型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>衣笠</Name>
+			<Hiragana>きぬがさ</Hiragana>
+			<RomaName>kinugasa</RomaName>
+			<FileName>tyumrhcigliq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -6995,6 +7322,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>千歳航改二</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>kavryopoywwx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7051,6 +7381,9 @@
 			<Series>千歳型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>千代田航改二</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>jhefpwucyxiq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7107,6 +7440,9 @@
 			<Series>巡潜乙型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>伊19</Name>
+			<Hiragana>い19</Hiragana>
+			<RomaName>i19</RomaName>
+			<FileName>jdsszkolhitg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7163,6 +7499,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>鈴谷</Name>
+			<Hiragana>すずや</Hiragana>
+			<RomaName>suzuya</RomaName>
+			<FileName>lvmlqrzbobpe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7219,6 +7558,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>熊野</Name>
+			<Hiragana>くまの</Hiragana>
+			<RomaName>kumano</RomaName>
+			<FileName>mlzpthwviwnf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7275,6 +7617,9 @@
 			<Series>海大VI型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>伊168</Name>
+			<Hiragana>い168</Hiragana>
+			<RomaName>i168</RomaName>
+			<FileName>wmzbyvhflrhy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7331,6 +7676,9 @@
 			<Series>巡潜乙型改二</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>伊58</Name>
+			<Hiragana>い58</Hiragana>
+			<RomaName>i58</RomaName>
+			<FileName>fqbwbmmdcjby</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7387,6 +7735,9 @@
 			<Series>巡潜3型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>伊8</Name>
+			<Hiragana>い8</Hiragana>
+			<RomaName>i8</RomaName>
+			<FileName>zoaptkoerfpv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7443,6 +7794,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>鈴谷改</Name>
+			<Hiragana>すずや</Hiragana>
+			<RomaName>suzuya</RomaName>
+			<FileName>oyjqdsswurhl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7499,6 +7853,9 @@
 			<Series>最上型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>熊野改</Name>
+			<Hiragana>くまの</Hiragana>
+			<RomaName>kumano</RomaName>
+			<FileName>pcdygwofwfib</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7555,6 +7912,9 @@
 			<Series>大和型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大和</Name>
+			<Hiragana>やまと</Hiragana>
+			<RomaName>yamato</RomaName>
+			<FileName>liqjxscjkogx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7611,6 +7971,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>19番艦</SeriesNum>
 			<Name>秋雲</Name>
+			<Hiragana>あきぐも</Hiragana>
+			<RomaName>akigumo</RomaName>
+			<FileName>khxsxmiuccsf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7665,6 +8028,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>夕雲</Name>
+			<Hiragana>ゆうぐも</Hiragana>
+			<RomaName>yuugumo</RomaName>
+			<FileName>jtfihmyrvmiw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7719,6 +8085,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>巻雲</Name>
+			<Hiragana>まきぐも</Hiragana>
+			<RomaName>makigumo</RomaName>
+			<FileName>piobwloefpcz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7775,6 +8144,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>長波</Name>
+			<Hiragana>ながなみ</Hiragana>
+			<RomaName>naganami</RomaName>
+			<FileName>xwvykvklvvqk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7831,6 +8203,9 @@
 			<Series>大和型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大和改</Name>
+			<Hiragana>やまと</Hiragana>
+			<RomaName>yamato</RomaName>
+			<FileName>drdaipjrohfl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7887,6 +8262,9 @@
 			<Series>阿賀野型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>阿賀野</Name>
+			<Hiragana>あがの</Hiragana>
+			<RomaName>agano</RomaName>
+			<FileName>ljzijyhhgrnx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7943,6 +8321,9 @@
 			<Series>阿賀野型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>能代</Name>
+			<Hiragana>のしろ</Hiragana>
+			<RomaName>noshiro</RomaName>
+			<FileName>lpiecumljbyp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -7999,6 +8380,9 @@
 			<Series>阿賀野型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>矢矧</Name>
+			<Hiragana>やはぎ</Hiragana>
+			<RomaName>yahagi</RomaName>
+			<FileName>hmivswfdmdem</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8055,6 +8439,9 @@
 			<Series>阿賀野型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>酒匂</Name>
+			<Hiragana>さかわ</Hiragana>
+			<RomaName>sakawa</RomaName>
+			<FileName>vrtbgpzuepqx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8111,6 +8498,9 @@
 			<Series>長良型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>五十鈴改二</Name>
+			<Hiragana>いすず</Hiragana>
+			<RomaName>isuzu</RomaName>
+			<FileName>nnkmuxqyewyk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8167,6 +8557,9 @@
 			<Series>青葉型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>衣笠改二</Name>
+			<Hiragana>きぬがさ</Hiragana>
+			<RomaName>kinugasa</RomaName>
+			<FileName>ykrokmtrnaqw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8223,6 +8616,9 @@
 			<Series>大和型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>武蔵</Name>
+			<Hiragana>むさし</Hiragana>
+			<RomaName>musashi</RomaName>
+			<FileName>ilxnmfogntbo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8279,6 +8675,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>夕立改二</Name>
+			<Hiragana>ゆうだち</Hiragana>
+			<RomaName>yuudachi</RomaName>
+			<FileName>lngqiqvigduj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8335,6 +8734,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>時雨改二</Name>
+			<Hiragana>しぐれ</Hiragana>
+			<RomaName>shigure</RomaName>
+			<FileName>ogkwigciybxf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8391,6 +8793,9 @@
 			<Series>球磨型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>木曾改二</Name>
+			<Hiragana>きそ</Hiragana>
+			<RomaName>kiso</RomaName>
+			<FileName>gpfqngdreebe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8447,6 +8852,9 @@
 			<Series>暁型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>Верный</Name>
+			<Hiragana>ひびき</Hiragana>
+			<RomaName>hibiki</RomaName>
+			<FileName>gmqsmiszmftf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8503,6 +8911,9 @@
 			<Series>大和型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>武蔵改</Name>
+			<Hiragana>むさし</Hiragana>
+			<RomaName>musashi</RomaName>
+			<FileName>eqgvmdsvjerq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8559,6 +8970,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>金剛改二</Name>
+			<Hiragana>こんごう</Hiragana>
+			<RomaName>kongou</RomaName>
+			<FileName>wugwvdccggcp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8615,6 +9029,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>比叡改二</Name>
+			<Hiragana>ひえい</Hiragana>
+			<RomaName>hiei</RomaName>
+			<FileName>mhpalcnpxmgz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8671,6 +9088,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>榛名改二</Name>
+			<Hiragana>はるな</Hiragana>
+			<RomaName>haruna</RomaName>
+			<FileName>ilxltdgucgbg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8722,6 +9142,9 @@
 			<Series>金剛型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>霧島改二</Name>
+			<Hiragana>きりしま</Hiragana>
+			<RomaName>kirishima</RomaName>
+			<FileName>kspwuqsyhipy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8778,6 +9201,9 @@
 			<Series>大鳳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鳳</Name>
+			<Hiragana>たいほう</Hiragana>
+			<RomaName>taihou</RomaName>
+			<FileName>ysidnchjxvfc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8866,6 +9292,9 @@
 			<Series>潜特型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>伊401</Name>
+			<Hiragana>い401</Hiragana>
+			<RomaName>i401</RomaName>
+			<FileName>hmiwrqvijwvv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8922,6 +9351,9 @@
 			<Series>大鳳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鳳改</Name>
+			<Hiragana>たいほう</Hiragana>
+			<RomaName>taihou</RomaName>
+			<FileName>vsnkqdgtcjbs</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -8978,6 +9410,9 @@
 			<Series>龍驤型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍驤改二</Name>
+			<Hiragana>りゅうじょう</Hiragana>
+			<RomaName>ryuujyou</RomaName>
+			<FileName>mslkutojcolj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9034,6 +9469,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>川内改二</Name>
+			<Hiragana>せんだい</Hiragana>
+			<RomaName>sendai</RomaName>
+			<FileName>qpnrcirsvqcr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9090,6 +9528,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>神通改二</Name>
+			<Hiragana>じんつう</Hiragana>
+			<RomaName>jintsuu</RomaName>
+			<FileName>xyqotgpmnjih</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9146,6 +9587,9 @@
 			<Series>川内型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>那珂改二</Name>
+			<Hiragana>なか</Hiragana>
+			<RomaName>naka</RomaName>
+			<FileName>lvjcqqulbluo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9202,6 +9646,9 @@
 			<Series>特種船丙型</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>あきつ丸</Name>
+			<Hiragana>あきつまる</Hiragana>
+			<RomaName>akitsumaru</RomaName>
+			<FileName>nvnwjedsdgcl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9274,6 +9721,9 @@
 			<Series>三式潜航輸送艇</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>まるゆ</Name>
+			<Hiragana>まるゆ</Hiragana>
+			<RomaName>maruyu</RomaName>
+			<FileName>joaeulumcgbh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9330,6 +9780,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>弥生</Name>
+			<Hiragana>やよい</Hiragana>
+			<RomaName>yayoi</RomaName>
+			<FileName>jnvcrrgmtvwl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9386,6 +9839,9 @@
 			<Series>睦月型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>卯月</Name>
+			<Hiragana>うづき</Hiragana>
+			<RomaName>uzuki</RomaName>
+			<FileName>gjtvekieqatn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9442,6 +9898,9 @@
 			<Series>特種船丙型</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>あきつ丸改</Name>
+			<Hiragana>あきつまる</Hiragana>
+			<RomaName>akitsumaru</RomaName>
+			<FileName>vxryfhvytcig</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9498,6 +9957,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>12番艦</SeriesNum>
 			<Name>磯風</Name>
+			<Hiragana>いそかぜ</Hiragana>
+			<RomaName>isokaze</RomaName>
+			<FileName>bctrxdxrugqp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9554,6 +10016,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>11番艦</SeriesNum>
 			<Name>浦風</Name>
+			<Hiragana>うらかぜ</Hiragana>
+			<RomaName>urakaze</RomaName>
+			<FileName>cmupwurocdpn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9610,6 +10075,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>14番艦</SeriesNum>
 			<Name>谷風</Name>
+			<Hiragana>たにかぜ</Hiragana>
+			<RomaName>tanikaze</RomaName>
+			<FileName>gsrzkautnghc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9666,6 +10134,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>13番艦</SeriesNum>
 			<Name>浜風</Name>
+			<Hiragana>はまかぜ</Hiragana>
+			<RomaName>hamakaze</RomaName>
+			<FileName>rubtymuqfeuq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9722,6 +10193,9 @@
 			<Series>Bismarck級</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck</Name>
+			<Hiragana>ビスマルク</Hiragana>
+			<RomaName>bisumaruku</RomaName>
+			<FileName>ntmjjittqkcj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9778,6 +10252,9 @@
 			<Series>Bismarck級</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck改</Name>
+			<Hiragana>ビスマルク</Hiragana>
+			<RomaName>bisumaruku</RomaName>
+			<FileName>frkfpymtydmg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9834,6 +10311,9 @@
 			<Series>Bismarck級</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck zwei</Name>
+			<Hiragana>ビスマルク</Hiragana>
+			<RomaName>bisumaruku</RomaName>
+			<FileName>etxdlqnvwqtx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9888,6 +10368,9 @@
 			<Series>Z1型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Z1</Name>
+			<Hiragana>レーベレヒト・マース</Hiragana>
+			<RomaName>reeberehito・maasu</RomaName>
+			<FileName>pvhdtbuddjhb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -9944,6 +10427,9 @@
 			<Series>Z1型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>Z3</Name>
+			<Hiragana>マックス・ジュルつ</Hiragana>
+			<RomaName>makkusu・jyurutsu</RomaName>
+			<FileName>rxzrrkjqvyqy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10000,6 +10486,9 @@
 			<Series>Admiral Hipper級</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>Prinz Eugen</Name>
+			<Hiragana>プリンツ・オイゲン</Hiragana>
+			<RomaName>purintsu・oigen</RomaName>
+			<FileName>shcsmfegtxhf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10056,6 +10545,9 @@
 			<Series>Admiral Hipper級</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>Prinz Eugen改</Name>
+			<Hiragana>プリンツ・オイゲン</Hiragana>
+			<RomaName>purintsu・oigen</RomaName>
+			<FileName>cmmiahpwdamx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10110,6 +10602,9 @@
 			<Series>Bismarck級</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Bismarck drei</Name>
+			<Hiragana>ビスマルク</Hiragana>
+			<RomaName>bisumaruku</RomaName>
+			<FileName>twvnkvqgyiru</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10166,6 +10661,9 @@
 			<Series>Z1型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>Z1 zwei</Name>
+			<Hiragana>レーベレヒト・マース</Hiragana>
+			<RomaName>reeberehito・maasu</RomaName>
+			<FileName>qgkjswznylty</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10222,6 +10720,9 @@
 			<Series>Z1型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>Z3 zwei</Name>
+			<Hiragana>マックス・ジュルつ</Hiragana>
+			<RomaName>makkusu・jyurutsu</RomaName>
+			<FileName>utmejyqmcvbk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10278,6 +10779,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>9番艦</SeriesNum>
 			<Name>天津風</Name>
+			<Hiragana>あまつかぜ</Hiragana>
+			<RomaName>amatsukaze</RomaName>
+			<FileName>fdpybckruodj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10334,6 +10838,9 @@
 			<Series>明石型</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>明石</Name>
+			<Hiragana>あかし</Hiragana>
+			<RomaName>akashi</RomaName>
+			<FileName>kynputhclcdl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10390,6 +10897,9 @@
 			<Series>大淀型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大淀</Name>
+			<Hiragana>おおよど</Hiragana>
+			<RomaName>ooyodo</RomaName>
+			<FileName>uockopeurqdf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10446,6 +10956,9 @@
 			<Series>大鯨型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>大鯨</Name>
+			<Hiragana>たいげい</Hiragana>
+			<RomaName>taigei</RomaName>
+			<FileName>xumujwygrmby</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10502,6 +11015,9 @@
 			<Series>龍鳳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍鳳</Name>
+			<Hiragana>りゅうほう</Hiragana>
+			<RomaName>ryuuhou</RomaName>
+			<FileName>bfsrsnqivpms</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10558,6 +11074,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>時津風</Name>
+			<Hiragana>ときつかぜ</Hiragana>
+			<RomaName>tokitsukaze</RomaName>
+			<FileName>dljghewzktat</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10614,6 +11133,9 @@
 			<Series>明石型</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>明石改</Name>
+			<Hiragana>あかし</Hiragana>
+			<RomaName>akashi</RomaName>
+			<FileName>scobmrrdbmsw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10670,6 +11192,9 @@
 			<Series>利根型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>利根改二</Name>
+			<Hiragana>とね</Hiragana>
+			<RomaName>tone</RomaName>
+			<FileName>rjggwwmmppth</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10726,6 +11251,9 @@
 			<Series>利根型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>筑摩改二</Name>
+			<Hiragana>ちくま</Hiragana>
+			<RomaName>chikuma</RomaName>
+			<FileName>ilnimhfcivpt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10782,6 +11310,9 @@
 			<Series>龍鳳型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>龍鳳改</Name>
+			<Hiragana>りゅうほう</Hiragana>
+			<RomaName>ryuuhou</RomaName>
+			<FileName>rjtnzguullvo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10838,6 +11369,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>妙高改二</Name>
+			<Hiragana>みょうこう</Hiragana>
+			<RomaName>myoukou</RomaName>
+			<FileName>kadfixosusrf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10894,6 +11428,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>那智改二</Name>
+			<Hiragana>なち</Hiragana>
+			<RomaName>nachi</RomaName>
+			<FileName>bpegnatlfibc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10945,6 +11482,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>足柄改二</Name>
+			<Hiragana>あしがら</Hiragana>
+			<RomaName>ashikara</RomaName>
+			<FileName>bxbyaifmqdxk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -10996,6 +11536,9 @@
 			<Series>妙高型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>羽黒改二</Name>
+			<Hiragana>はぐろ</Hiragana>
+			<RomaName>haguro</RomaName>
+			<FileName>ecwgnneuzbcv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11052,6 +11595,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>綾波改二</Name>
+			<Hiragana>あやなみ</Hiragana>
+			<RomaName>ayanami</RomaName>
+			<FileName>tiqezicxwpry</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11108,6 +11654,9 @@
 			<Series>飛龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>飛龍改二</Name>
+			<Hiragana>ひりゅう</Hiragana>
+			<RomaName>hiryuu</RomaName>
+			<FileName>gbxvfsrqbyxg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11164,6 +11713,9 @@
 			<Series>蒼龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>蒼龍改二</Name>
+			<Hiragana>そうりゅう</Hiragana>
+			<RomaName>souryuu</RomaName>
+			<FileName>mwlzgwdjlpxx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11262,6 +11814,9 @@
 			<Series>雲龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>雲龍</Name>
+			<Hiragana>うんりゅう</Hiragana>
+			<RomaName>unryuu</RomaName>
+			<FileName>xgoisifuerjd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11318,6 +11873,9 @@
 			<Series>雲龍型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>天城</Name>
+			<Hiragana>あまぎ</Hiragana>
+			<RomaName>amagi</RomaName>
+			<FileName>gmlbignzjwmq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11364,6 +11922,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>初春改二</Name>
+			<Hiragana>はつはる</Hiragana>
+			<RomaName>hatsuharu</RomaName>
+			<FileName>xoiprnaxqxbj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11408,6 +11969,9 @@
 			<Series>白露型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>春雨</Name>
+			<Hiragana>はるさめ</Hiragana>
+			<RomaName>harusame</RomaName>
+			<FileName>dbtrdgatxdpl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11464,6 +12028,9 @@
 			<Series>雲龍型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>雲龍改</Name>
+			<Hiragana>うんりゅう</Hiragana>
+			<RomaName>unryuu</RomaName>
+			<FileName>rqsbaiaqlunp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11516,6 +12083,9 @@
 			<Series>綾波型</Series>
 			<SeriesNum>10番艦</SeriesNum>
 			<Name>潮改二</Name>
+			<Hiragana>うしお</Hiragana>
+			<RomaName>ushio</RomaName>
+			<FileName>fsgwccpesgfh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11572,6 +12142,9 @@
 			<Series>飛鷹型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>隼鷹改二</Name>
+			<Hiragana>じゅんよう</Hiragana>
+			<RomaName>jyunyou</RomaName>
+			<FileName>yyyfqcpumpxj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11625,6 +12198,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>17番艦</SeriesNum>
 			<Name>早霜</Name>
+			<Hiragana>はやしも</Hiragana>
+			<RomaName>hayashimo</RomaName>
+			<FileName>kgwxvcnblfjb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11681,6 +12257,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>19番艦</SeriesNum>
 			<Name>清霜</Name>
+			<Hiragana>きよしも</Hiragana>
+			<RomaName>kiyoshimo</RomaName>
+			<FileName>gdbwncyaopob</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11737,6 +12316,9 @@
 			<Series>扶桑型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>扶桑改二</Name>
+			<Hiragana>ふそう</Hiragana>
+			<RomaName>fusou</RomaName>
+			<FileName>gmnsxwkdssmj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11793,6 +12375,9 @@
 			<Series>扶桑型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>山城改二</Name>
+			<Hiragana>やましろ</Hiragana>
+			<RomaName>yamashiro</RomaName>
+			<FileName>xjsgvmgfleuu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11849,6 +12434,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>5番艦</SeriesNum>
 			<Name>朝雲</Name>
+			<Hiragana>あさぐも</Hiragana>
+			<RomaName>asagumo</RomaName>
+			<FileName>xjtxwkwwfdze</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11905,6 +12493,9 @@
 			<Series>朝潮型</Series>
 			<SeriesNum>6番艦</SeriesNum>
 			<Name>山雲</Name>
+			<Hiragana>やまぐも</Hiragana>
+			<RomaName>yamagumo</RomaName>
+			<FileName>xthvimkarzgq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -11949,6 +12540,9 @@
 			<Series>陽炎型</Series>
 			<SeriesNum>15番艦</SeriesNum>
 			<Name>野分</Name>
+			<Hiragana>のわき</Hiragana>
+			<RomaName>nowaki</RomaName>
+			<FileName>skmmrmdljugc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12005,6 +12599,9 @@
 			<Series>古鷹型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>古鷹改二</Name>
+			<Hiragana>ふるたか</Hiragana>
+			<RomaName>furutaka</RomaName>
+			<FileName>vqdgxtrgintc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12089,6 +12686,9 @@
 			<Series>初春型</Series>
 			<SeriesNum>4番艦</SeriesNum>
 			<Name>初霜改二</Name>
+			<Hiragana>はつしも</Hiragana>
+			<RomaName>hatsushimo</RomaName>
+			<FileName>ufgydlyjdaxb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12154,6 +12754,9 @@
 			<Series>秋月型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>秋月</Name>
+			<Hiragana>あきづき</Hiragana>
+			<RomaName>akizuki</RomaName>
+			<FileName>wkvdcpaogfii</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12252,6 +12855,9 @@
 			<Series>夕雲型</Series>
 			<SeriesNum>16番艦</SeriesNum>
 			<Name>朝霜</Name>
+			<Hiragana>あさしも</Hiragana>
+			<RomaName>asashimo</RomaName>
+			<FileName>cdsgjcufyxlz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12284,6 +12890,9 @@
 			<Series>吹雪型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>吹雪改二</Name>
+			<Hiragana>ふぶき</Hiragana>
+			<RomaName>fubuki</RomaName>
+			<FileName>rtkekdbkqrkg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12350,6 +12959,9 @@
 			<Series>高雄型</Series>
 			<SeriesNum>3番艦</SeriesNum>
 			<Name>摩耶改二</Name>
+			<Hiragana>まや</Hiragana>
+			<RomaName>maya</RomaName>
+			<FileName>xljtrrmemnon</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12382,6 +12994,9 @@
 			<Series>雲龍型</Series>
 			<SeriesNum>2番艦</SeriesNum>
 			<Name>天城改</Name>
+			<Hiragana>あまぎ</Hiragana>
+			<RomaName>amagi</RomaName>
+			<FileName>zgscfjpbxnir</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12428,6 +13043,8 @@
 			<Series>UボートIXC型</Series>
 			<SeriesNum>-</SeriesNum>
 			<Name>U-511</Name>
+			<Hiragana>ゆー511・ろ500</Hiragana>
+			<FileName>ksvosfducgbe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -12527,6 +13144,9 @@
 			<AlbumNum>001b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>長門改</Name>
+			<Hiragana>ながと</Hiragana>
+			<RomaName>nagato</RomaName>
+			<FileName>szgthkexanxl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12563,6 +13183,9 @@
 			<AlbumNum>002b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>陸奥改</Name>
+			<Hiragana>むつ</Hiragana>
+			<RomaName>mutsu</RomaName>
+			<FileName>hujriolkmhzy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12599,6 +13222,9 @@
 			<AlbumNum>005b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>雪風改</Name>
+			<Hiragana>ゆきかぜ</Hiragana>
+			<RomaName>yukikaze</RomaName>
+			<FileName>avfbkpphumso</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12635,6 +13261,9 @@
 			<AlbumNum>006b</AlbumNum>
 			<Type>正規空母</Type>
 			<Name>赤城改</Name>
+			<Hiragana>あかぎ</Hiragana>
+			<RomaName>akagi</RomaName>
+			<FileName>gtmwrbaniaud</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12671,6 +13300,9 @@
 			<AlbumNum>007b</AlbumNum>
 			<Type>正規空母</Type>
 			<Name>加賀改</Name>
+			<Hiragana>かが</Hiragana>
+			<RomaName>kaga</RomaName>
+			<FileName>uuqdlbtrkmvk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12707,6 +13339,9 @@
 			<AlbumNum>008b</AlbumNum>
 			<Type>正規空母</Type>
 			<Name>蒼龍改</Name>
+			<Hiragana>そうりゅう</Hiragana>
+			<RomaName>souryuu</RomaName>
+			<FileName>mxohelwcpocv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12743,6 +13378,9 @@
 			<AlbumNum>009b</AlbumNum>
 			<Type>正規空母</Type>
 			<Name>飛龍改</Name>
+			<Hiragana>ひりゅう</Hiragana>
+			<RomaName>hiryuu</RomaName>
+			<FileName>kftqxfempust</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12779,6 +13417,9 @@
 			<AlbumNum>010b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>島風改</Name>
+			<Hiragana>しまかぜ</Hiragana>
+			<RomaName>shimakaze</RomaName>
+			<FileName>cjhtlviffiwb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12815,6 +13456,9 @@
 			<AlbumNum>011b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>吹雪改</Name>
+			<Hiragana>ふぶき</Hiragana>
+			<RomaName>fubuki</RomaName>
+			<FileName>dufziinsornt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12851,6 +13495,9 @@
 			<AlbumNum>012b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>白雪改</Name>
+			<Hiragana>しらゆき</Hiragana>
+			<RomaName>shirayuki</RomaName>
+			<FileName>kkpwecgmftci</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12887,6 +13534,9 @@
 			<AlbumNum>013b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>初雪改</Name>
+			<Hiragana>はつゆき</Hiragana>
+			<RomaName>hatsuyuki</RomaName>
+			<FileName>sejqtlkfjwkc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12923,6 +13573,9 @@
 			<AlbumNum>014b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>深雪改</Name>
+			<Hiragana>みゆき</Hiragana>
+			<RomaName>miyuki</RomaName>
+			<FileName>zlshfpystoqp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12959,6 +13612,9 @@
 			<AlbumNum>015b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>叢雲改</Name>
+			<Hiragana>もらくも</Hiragana>
+			<RomaName>morakumo</RomaName>
+			<FileName>rmcvsljwdyur</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -12995,6 +13651,9 @@
 			<AlbumNum>016b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>磯波改</Name>
+			<Hiragana>いそなみ</Hiragana>
+			<RomaName>isonami</RomaName>
+			<FileName>olkahitypycq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13031,6 +13690,9 @@
 			<AlbumNum>017b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>綾波改</Name>
+			<Hiragana>あやなみ</Hiragana>
+			<RomaName>ayanami</RomaName>
+			<FileName>sgpilzypnejy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13067,6 +13729,9 @@
 			<AlbumNum>018b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>敷波改</Name>
+			<Hiragana>しきなみ</Hiragana>
+			<RomaName>shikinami</RomaName>
+			<FileName>epjlpvhwcjvw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13103,6 +13768,9 @@
 			<AlbumNum>021b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>金剛改</Name>
+			<Hiragana>こんごう</Hiragana>
+			<RomaName>kongou</RomaName>
+			<FileName>fxypdctjnicq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13139,6 +13807,9 @@
 			<AlbumNum>022b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>比叡改</Name>
+			<Hiragana>ひえい</Hiragana>
+			<RomaName>hiei</RomaName>
+			<FileName>iatmdvvwlngq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13175,6 +13846,9 @@
 			<AlbumNum>023b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>榛名改</Name>
+			<Hiragana>はるな</Hiragana>
+			<RomaName>haruna</RomaName>
+			<FileName>nolhhoujolpc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13211,6 +13885,9 @@
 			<AlbumNum>024b</AlbumNum>
 			<Type>戦艦</Type>
 			<Name>霧島改</Name>
+			<Hiragana>きりしま</Hiragana>
+			<RomaName>kirishima</RomaName>
+			<FileName>kexwyrcqjxfs</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13247,6 +13924,9 @@
 			<AlbumNum>025b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>鳳翔改</Name>
+			<Hiragana>ほうしょう</Hiragana>
+			<RomaName>housyou</RomaName>
+			<FileName>xjotoxrgwfrj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13283,6 +13963,9 @@
 			<AlbumNum>026b</AlbumNum>
 			<Type>航空戦艦</Type>
 			<Name>扶桑改</Name>
+			<Hiragana>ふそう</Hiragana>
+			<RomaName>fusou</RomaName>
+			<FileName>mnkjkgammeds</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13319,6 +14002,9 @@
 			<AlbumNum>027b</AlbumNum>
 			<Type>航空戦艦</Type>
 			<Name>山城改</Name>
+			<Hiragana>やましろ</Hiragana>
+			<RomaName>yamashiro</RomaName>
+			<FileName>bnbdxfioqxtt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13355,6 +14041,9 @@
 			<AlbumNum>028b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>天龍改</Name>
+			<Hiragana>てんりゅう</Hiragana>
+			<RomaName>tenryuu</RomaName>
+			<FileName>wjcrloeyiyxw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13391,6 +14080,9 @@
 			<AlbumNum>029b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>龍田改</Name>
+			<Hiragana>たつだ</Hiragana>
+			<RomaName>tatsuda</RomaName>
+			<FileName>chmytqkkilrv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13427,6 +14119,9 @@
 			<AlbumNum>030b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>龍驤改</Name>
+			<Hiragana>りゅうじょう</Hiragana>
+			<RomaName>ryuujyou</RomaName>
+			<FileName>wvcpwlwuxwhq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13463,6 +14158,9 @@
 			<AlbumNum>031b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>睦月改</Name>
+			<Hiragana>むつき</Hiragana>
+			<RomaName>mutsuki</RomaName>
+			<FileName>pvomxydmldoi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13499,6 +14197,9 @@
 			<AlbumNum>032b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>如月改</Name>
+			<Hiragana>きさらぎ</Hiragana>
+			<RomaName>kisaragi</RomaName>
+			<FileName>lwlmcwxyvcyz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13535,6 +14236,9 @@
 			<AlbumNum>033b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>皐月改</Name>
+			<Hiragana>さつき</Hiragana>
+			<RomaName>satsuki</RomaName>
+			<FileName>ttcofyyswaum</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13571,6 +14275,9 @@
 			<AlbumNum>034b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>文月改</Name>
+			<Hiragana>ふみづき</Hiragana>
+			<RomaName>fumizuki</RomaName>
+			<FileName>ysgtnamukxoi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13607,6 +14314,9 @@
 			<AlbumNum>035b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>長月改</Name>
+			<Hiragana>ながつき</Hiragana>
+			<RomaName>nagatsuki</RomaName>
+			<FileName>wrxtfahvtyqi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13643,6 +14353,9 @@
 			<AlbumNum>036b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>菊月改</Name>
+			<Hiragana>きくづき</Hiragana>
+			<RomaName>kikuzuki</RomaName>
+			<FileName>zrrxemjrtmql</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13679,6 +14392,9 @@
 			<AlbumNum>037b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>三日月改</Name>
+			<Hiragana>みかつき</Hiragana>
+			<RomaName>mikatsuki</RomaName>
+			<FileName>sxrrihbkdkjl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13715,6 +14431,9 @@
 			<AlbumNum>038b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>望月改</Name>
+			<Hiragana>もちづき</Hiragana>
+			<RomaName>mochizuki</RomaName>
+			<FileName>aufduiatycow</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13751,6 +14470,9 @@
 			<AlbumNum>039b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>球磨改</Name>
+			<Hiragana>くま</Hiragana>
+			<RomaName>kuma</RomaName>
+			<FileName>mbgjkzlvemui</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13787,6 +14509,9 @@
 			<AlbumNum>040b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>多摩改</Name>
+			<Hiragana>たま</Hiragana>
+			<RomaName>tama</RomaName>
+			<FileName>cxhxktltjtbg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13823,6 +14548,9 @@
 			<AlbumNum>041b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>木曾改</Name>
+			<Hiragana>きそ</Hiragana>
+			<RomaName>kiso</RomaName>
+			<FileName>gjyqwffsmfgw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13859,6 +14587,9 @@
 			<AlbumNum>042b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>長良改</Name>
+			<Hiragana>ながら</Hiragana>
+			<RomaName>nagara</RomaName>
+			<FileName>jmpkkzqwgxtc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13895,6 +14626,9 @@
 			<AlbumNum>043b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>五十鈴改</Name>
+			<Hiragana>いすず</Hiragana>
+			<RomaName>isuzu</RomaName>
+			<FileName>espxbipsjiyt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13931,6 +14665,9 @@
 			<AlbumNum>044b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>名取改</Name>
+			<Hiragana>なとり</Hiragana>
+			<RomaName>natori</RomaName>
+			<FileName>aqgjvutybsbk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -13967,6 +14704,9 @@
 			<AlbumNum>045b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>由良改</Name>
+			<Hiragana>ゆら</Hiragana>
+			<RomaName>yura</RomaName>
+			<FileName>xtqbjysffsvx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14003,6 +14743,9 @@
 			<AlbumNum>046b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>川内改</Name>
+			<Hiragana>せんだい</Hiragana>
+			<RomaName>sendai</RomaName>
+			<FileName>zhixojcwijfj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14039,6 +14782,9 @@
 			<AlbumNum>047b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>神通改</Name>
+			<Hiragana>じんつう</Hiragana>
+			<RomaName>jintsuu</RomaName>
+			<FileName>ncijtxixkghu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14075,6 +14821,9 @@
 			<AlbumNum>048b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>那珂改</Name>
+			<Hiragana>なか</Hiragana>
+			<RomaName>naka</RomaName>
+			<FileName>vxkcklmfevkk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14111,6 +14860,9 @@
 			<AlbumNum>052b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>古鷹改</Name>
+			<Hiragana>ふるたか</Hiragana>
+			<RomaName>furutaka</RomaName>
+			<FileName>iolnrzaovbhn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14147,6 +14899,9 @@
 			<AlbumNum>053b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>加古改</Name>
+			<Hiragana>かこ</Hiragana>
+			<RomaName>kako</RomaName>
+			<FileName>qsmurjkprhku</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14183,6 +14938,9 @@
 			<AlbumNum>054b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>青葉改</Name>
+			<Hiragana>あおば</Hiragana>
+			<RomaName>aoba</RomaName>
+			<FileName>udkkmzgsimgq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14219,6 +14977,9 @@
 			<AlbumNum>055b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>妙高改</Name>
+			<Hiragana>みょうこう</Hiragana>
+			<RomaName>myoukou</RomaName>
+			<FileName>fcydxtnwtaon</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14255,6 +15016,9 @@
 			<AlbumNum>056b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>那智改</Name>
+			<Hiragana>なち</Hiragana>
+			<RomaName>nachi</RomaName>
+			<FileName>nvftqenyroyu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14291,6 +15055,9 @@
 			<AlbumNum>057b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>足柄改</Name>
+			<Hiragana>あしがら</Hiragana>
+			<RomaName>ashigara</RomaName>
+			<FileName>bekjyovmrmfd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14327,6 +15094,9 @@
 			<AlbumNum>058b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>羽黒改</Name>
+			<Hiragana>はぐろ</Hiragana>
+			<RomaName>haguro</RomaName>
+			<FileName>uilfcyypnbwm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14363,6 +15133,9 @@
 			<AlbumNum>059b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>高雄改</Name>
+			<Hiragana>たかお</Hiragana>
+			<RomaName>takao</RomaName>
+			<FileName>ghgphbvmzjrx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14399,6 +15172,9 @@
 			<AlbumNum>060b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>愛宕改</Name>
+			<Hiragana>あたご</Hiragana>
+			<RomaName>atago</RomaName>
+			<FileName>gbkqnzirjyid</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14435,6 +15211,9 @@
 			<AlbumNum>061b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>摩耶改</Name>
+			<Hiragana>まや</Hiragana>
+			<RomaName>maya</RomaName>
+			<FileName>ajhdojqfykfu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14471,6 +15250,9 @@
 			<AlbumNum>062b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>鳥海改</Name>
+			<Hiragana>ちょうかい</Hiragana>
+			<RomaName>cyoukai</RomaName>
+			<FileName>nsgytjsjbfdp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14507,6 +15289,9 @@
 			<AlbumNum>063b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>利根改</Name>
+			<Hiragana>とね</Hiragana>
+			<RomaName>tone</RomaName>
+			<FileName>fkatobgcyygb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14543,6 +15328,9 @@
 			<AlbumNum>064b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>筑摩改</Name>
+			<Hiragana>ちくま</Hiragana>
+			<RomaName>chikuma</RomaName>
+			<FileName>paqnehcojygu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14579,6 +15367,9 @@
 			<AlbumNum>065b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>飛鷹改</Name>
+			<Hiragana>ひよう</Hiragana>
+			<RomaName>hiyou</RomaName>
+			<FileName>yiwwnppitqpf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14615,6 +15406,9 @@
 			<AlbumNum>066b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>隼鷹改</Name>
+			<Hiragana>じゅんよう</Hiragana>
+			<RomaName>jyunyou</RomaName>
+			<FileName>pwokyefpmqwi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14651,6 +15445,9 @@
 			<AlbumNum>067b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>朧改</Name>
+			<Hiragana>おぼろ</Hiragana>
+			<RomaName>oboro</RomaName>
+			<FileName>sbdfpooechyn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14687,6 +15484,9 @@
 			<AlbumNum>068b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>曙改</Name>
+			<Hiragana>あけぼの</Hiragana>
+			<RomaName>akebono</RomaName>
+			<FileName>wnocckxgfmnh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14723,6 +15523,9 @@
 			<AlbumNum>069b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>漣改</Name>
+			<Hiragana>さざなみ</Hiragana>
+			<RomaName>sazanami</RomaName>
+			<FileName>xfxhmadcxfdq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14759,6 +15562,9 @@
 			<AlbumNum>070b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>潮改</Name>
+			<Hiragana>うしお</Hiragana>
+			<RomaName>ushio</RomaName>
+			<FileName>dpqjexkcixhw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14795,6 +15601,9 @@
 			<AlbumNum>071b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>暁改</Name>
+			<Hiragana>あかつき</Hiragana>
+			<RomaName>akatsuki</RomaName>
+			<FileName>slzosqvxjxus</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14831,6 +15640,9 @@
 			<AlbumNum>072b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>響改</Name>
+			<Hiragana>ひびき</Hiragana>
+			<RomaName>hibiki</RomaName>
+			<FileName>wpaqzeclspdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14867,6 +15679,9 @@
 			<AlbumNum>073b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>雷改</Name>
+			<Hiragana>いかづち</Hiragana>
+			<RomaName>ikazuchi</RomaName>
+			<FileName>eathbqlrqvda</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14903,6 +15718,9 @@
 			<AlbumNum>074b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>電改</Name>
+			<Hiragana>いなづま</Hiragana>
+			<RomaName>inazuma</RomaName>
+			<FileName>bqvrrfdcuvdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14939,6 +15757,9 @@
 			<AlbumNum>075b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>初春改</Name>
+			<Hiragana>はつはる</Hiragana>
+			<RomaName>hatsuharu</RomaName>
+			<FileName>tedevipdbvdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -14975,6 +15796,9 @@
 			<AlbumNum>076b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>子日改</Name>
+			<Hiragana>ねのひ</Hiragana>
+			<RomaName>nenohi</RomaName>
+			<FileName>nkrmsykdohgo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15011,6 +15835,9 @@
 			<AlbumNum>077b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>若葉改</Name>
+			<Hiragana>わかば</Hiragana>
+			<RomaName>wakaba</RomaName>
+			<FileName>tkcwrodgemlj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15047,6 +15874,9 @@
 			<AlbumNum>078b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>初霜改</Name>
+			<Hiragana>はつしも</Hiragana>
+			<RomaName>hatsushimo</RomaName>
+			<FileName>woutqrqtdzqi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15083,6 +15913,9 @@
 			<AlbumNum>079b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>白露改</Name>
+			<Hiragana>しらつゆ</Hiragana>
+			<RomaName>shiratsuyu</RomaName>
+			<FileName>xcbmsjqrostq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15119,6 +15952,9 @@
 			<AlbumNum>080b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>時雨改</Name>
+			<Hiragana>しぐれ</Hiragana>
+			<RomaName>shigure</RomaName>
+			<FileName>wmskekfmgdio</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15155,6 +15991,9 @@
 			<AlbumNum>081b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>村雨改</Name>
+			<Hiragana>むらさめ</Hiragana>
+			<RomaName>murasame</RomaName>
+			<FileName>wvnchfzhekfo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15191,6 +16030,9 @@
 			<AlbumNum>082b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>夕立改</Name>
+			<Hiragana>ゆうだち</Hiragana>
+			<RomaName>yuudachi</RomaName>
+			<FileName>wpsyznjwvlmd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15227,6 +16069,9 @@
 			<AlbumNum>083b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>五月雨改</Name>
+			<Hiragana>さみだれ</Hiragana>
+			<RomaName>samidare</RomaName>
+			<FileName>ofneitwqroxe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15263,6 +16108,9 @@
 			<AlbumNum>084b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>涼風改</Name>
+			<Hiragana>すずかぜ</Hiragana>
+			<RomaName>suzukaze</RomaName>
+			<FileName>jukighzxmudn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15299,6 +16147,9 @@
 			<AlbumNum>085b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>朝潮改</Name>
+			<Hiragana>あさしお</Hiragana>
+			<RomaName>asashio</RomaName>
+			<FileName>xbbfxeemifpv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15335,6 +16186,9 @@
 			<AlbumNum>086b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>大潮改</Name>
+			<Hiragana>おおしお</Hiragana>
+			<RomaName>ooshio</RomaName>
+			<FileName>ngcxxfxovpmn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15371,6 +16225,9 @@
 			<AlbumNum>087b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>満潮改</Name>
+			<Hiragana>みちしお</Hiragana>
+			<RomaName>michishio</RomaName>
+			<FileName>eypcwtnjgoyb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15407,6 +16264,9 @@
 			<AlbumNum>088b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>荒潮改</Name>
+			<Hiragana>あらしお</Hiragana>
+			<RomaName>arashio</RomaName>
+			<FileName>pmjnkqodgjpo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15443,6 +16303,9 @@
 			<AlbumNum>089b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>霰改</Name>
+			<Hiragana>あられ</Hiragana>
+			<RomaName>arare</RomaName>
+			<FileName>oxttbkywusfp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15479,6 +16342,9 @@
 			<AlbumNum>090b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>霞改</Name>
+			<Hiragana>かすみ</Hiragana>
+			<RomaName>kasumi</RomaName>
+			<FileName>ohpnwjgzfesg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15515,6 +16381,9 @@
 			<AlbumNum>091b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>陽炎改</Name>
+			<Hiragana>かげろう</Hiragana>
+			<RomaName>kagerou</RomaName>
+			<FileName>ffyychaekjsj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15551,6 +16420,9 @@
 			<AlbumNum>092b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>不知火改</Name>
+			<Hiragana>しらぬい</Hiragana>
+			<RomaName>shiranui</RomaName>
+			<FileName>algyyokhbnwz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15587,6 +16459,9 @@
 			<AlbumNum>093b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>黒潮改</Name>
+			<Hiragana>くろしお</Hiragana>
+			<RomaName>kuroshio</RomaName>
+			<FileName>qsnkljxqtrgb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15623,6 +16498,9 @@
 			<AlbumNum>094b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>祥鳳改</Name>
+			<Hiragana>しようほう</Hiragana>
+			<RomaName>syouhou</RomaName>
+			<FileName>numjsnomjspr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15659,6 +16537,9 @@
 			<AlbumNum>104b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>千歳航改</Name>
+			<Hiragana>ちとせ</Hiragana>
+			<RomaName>chitose</RomaName>
+			<FileName>ufcqfujavyyg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15695,6 +16576,9 @@
 			<AlbumNum>105b</AlbumNum>
 			<Type>軽空母</Type>
 			<Name>千代田航改</Name>
+			<Hiragana>ちよだ</Hiragana>
+			<RomaName>chiyoda</RomaName>
+			<FileName>hgitzuyaysvw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15731,6 +16615,9 @@
 			<AlbumNum>106b</AlbumNum>
 			<Type>正規空母</Type>
 			<Name>翔鶴改</Name>
+			<Hiragana>しょうかく</Hiragana>
+			<RomaName>syoukaku</RomaName>
+			<FileName>vcftaofxkvgk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15767,6 +16654,9 @@
 			<AlbumNum>109b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>鬼怒改</Name>
+			<Hiragana>きぬ</Hiragana>
+			<RomaName>kinu</RomaName>
+			<FileName>ikwmknqjpvkg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15803,6 +16693,9 @@
 			<AlbumNum>110b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>阿武隈改</Name>
+			<Hiragana>あぶくま</Hiragana>
+			<RomaName>abukuma</RomaName>
+			<FileName>uuxoixtoemiv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15839,6 +16732,9 @@
 			<AlbumNum>111b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>夕張改</Name>
+			<Hiragana>ゆうばり</Hiragana>
+			<RomaName>yuubari</RomaName>
+			<FileName>hfhcjjdyqyzn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15875,6 +16771,9 @@
 			<AlbumNum>118b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>初風改</Name>
+			<Hiragana>はつかぜ</Hiragana>
+			<RomaName>hatsukaze</RomaName>
+			<FileName>ukwcjqlolezy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15911,6 +16810,9 @@
 			<AlbumNum>119b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>舞風改</Name>
+			<Hiragana>まいかぜ</Hiragana>
+			<RomaName>maikaze</RomaName>
+			<FileName>ssvrjquubpim</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15947,6 +16849,9 @@
 			<AlbumNum>120b</AlbumNum>
 			<Type>重巡洋艦</Type>
 			<Name>衣笠改</Name>
+			<Hiragana>きぬがさ</Hiragana>
+			<RomaName>kinugasa</RomaName>
+			<FileName>qgkmjgfbanxl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -15983,6 +16888,9 @@
 			<AlbumNum>123b</AlbumNum>
 			<Type>潜水空母</Type>
 			<Name>伊19改</Name>
+			<Hiragana>い19</Hiragana>
+			<RomaName>i19</RomaName>
+			<FileName>jwrlielrnfpr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16019,6 +16927,9 @@
 			<AlbumNum>126b</AlbumNum>
 			<Type>潜水艦</Type>
 			<Name>伊168改</Name>
+			<Hiragana>い168</Hiragana>
+			<RomaName>i168</RomaName>
+			<FileName>dyfnguymthbd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16055,6 +16966,9 @@
 			<AlbumNum>127b</AlbumNum>
 			<Type>潜水空母</Type>
 			<Name>伊58改</Name>
+			<Hiragana>い58</Hiragana>
+			<RomaName>i58</RomaName>
+			<FileName>hosmgvuzyjlw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16091,6 +17005,9 @@
 			<AlbumNum>128b</AlbumNum>
 			<Type>潜水空母</Type>
 			<Name>伊8改</Name>
+			<Hiragana>い8</Hiragana>
+			<RomaName>i8</RomaName>
+			<FileName>fggcskrfkpnr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16127,6 +17044,9 @@
 			<AlbumNum>132b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>秋雲改</Name>
+			<Hiragana>あきぐも</Hiragana>
+			<RomaName>akigumo</RomaName>
+			<FileName>ijhrnvnbqkmj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16163,6 +17083,9 @@
 			<AlbumNum>133b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>夕雲改</Name>
+			<Hiragana>ゆうぐも</Hiragana>
+			<RomaName>yuugumo</RomaName>
+			<FileName>bbgkikxppksy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16199,6 +17122,9 @@
 			<AlbumNum>134b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>巻雲改</Name>
+			<Hiragana>まきぐも</Hiragana>
+			<RomaName>makigumo</RomaName>
+			<FileName>gekgxdsvrliq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16235,6 +17161,9 @@
 			<AlbumNum>135b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>長波改</Name>
+			<Hiragana>ながなみ</Hiragana>
+			<RomaName>naganami</RomaName>
+			<FileName>lovstgcfspwr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16271,6 +17200,9 @@
 			<AlbumNum>137b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>阿賀野改</Name>
+			<Hiragana>あがの</Hiragana>
+			<RomaName>agano</RomaName>
+			<FileName>cmpqwemjahur</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16307,6 +17239,9 @@
 			<AlbumNum>138b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>能代改</Name>
+			<Hiragana>のしろ</Hiragana>
+			<RomaName>noshiro</RomaName>
+			<FileName>hvnqlrdovfqe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16343,6 +17278,9 @@
 			<AlbumNum>139b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>矢矧改</Name>
+			<Hiragana>やはぎ</Hiragana>
+			<RomaName>yahagi</RomaName>
+			<FileName>acajrnrqxplq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16379,6 +17317,9 @@
 			<AlbumNum>140b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>酒匂改</Name>
+			<Hiragana>さかわ</Hiragana>
+			<RomaName>sakawa</RomaName>
+			<FileName>kbdewgsfrkra</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16415,6 +17356,9 @@
 			<AlbumNum>155b</AlbumNum>
 			<Type>潜水空母</Type>
 			<Name>伊401改</Name>
+			<Hiragana>い401</Hiragana>
+			<RomaName>i401</RomaName>
+			<FileName>tuvoqtqrddem</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16451,6 +17395,9 @@
 			<AlbumNum>163b</AlbumNum>
 			<Type>潜水艦</Type>
 			<Name>まるゆ改</Name>
+			<Hiragana>まるゆ</Hiragana>
+			<RomaName>maruyu</RomaName>
+			<FileName>nrdgjqcgecmg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16487,6 +17434,9 @@
 			<AlbumNum>164b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>弥生改</Name>
+			<Hiragana>やよい</Hiragana>
+			<RomaName>yayoi</RomaName>
+			<FileName>ozjrctjajnpx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16523,6 +17473,9 @@
 			<AlbumNum>165b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>卯月改</Name>
+			<Hiragana>うづき</Hiragana>
+			<RomaName>uzuki</RomaName>
+			<FileName>xwjlobdutrwv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16559,6 +17512,9 @@
 			<AlbumNum>167b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>磯風改</Name>
+			<Hiragana>いそかぜ</Hiragana>
+			<RomaName>isokaze</RomaName>
+			<FileName>dyupugfxshtd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16595,6 +17551,9 @@
 			<AlbumNum>168b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>浦風改</Name>
+			<Hiragana>うらかぜ</Hiragana>
+			<RomaName>urakaze</RomaName>
+			<FileName>exedxncqauws</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16631,6 +17590,9 @@
 			<AlbumNum>169b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>谷風改</Name>
+			<Hiragana>たにかぜ</Hiragana>
+			<RomaName>tanikaze</RomaName>
+			<FileName>jdyqtxzmsyng</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16667,6 +17629,9 @@
 			<AlbumNum>170b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>浜風改</Name>
+			<Hiragana>はまかぜ</Hiragana>
+			<RomaName>hamakaze</RomaName>
+			<FileName>ojkgkujsenly</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16703,6 +17668,9 @@
 			<AlbumNum>174b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>Z1改</Name>
+			<Hiragana>レーベレヒト・マース</Hiragana>
+			<RomaName>reeberehito・maasu</RomaName>
+			<FileName>vbuxfozqoemo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16739,6 +17707,9 @@
 			<AlbumNum>175b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>Z3改</Name>
+			<Hiragana>マックス・ジュルつ</Hiragana>
+			<RomaName>makkusu・jyurutsu</RomaName>
+			<FileName>vksfcnchqurh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16775,6 +17746,9 @@
 			<AlbumNum>181b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>天津風改</Name>
+			<Hiragana>あまつかぜ</Hiragana>
+			<RomaName>amatsukaze</RomaName>
+			<FileName>cpcycglgelxd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16811,6 +17785,9 @@
 			<AlbumNum>183b</AlbumNum>
 			<Type>軽巡洋艦</Type>
 			<Name>大淀改</Name>
+			<Hiragana>おおよど</Hiragana>
+			<RomaName>ooyodo</RomaName>
+			<FileName>gixbrtnuabge</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16847,6 +17824,9 @@
 			<AlbumNum>186b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>時津風改</Name>
+			<Hiragana>ときつかぜ</Hiragana>
+			<RomaName>tokitsukaze</RomaName>
+			<FileName>svglgiwjfyxn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16883,6 +17863,9 @@
 			<AlbumNum>205b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>春雨改</Name>
+			<Hiragana>はるさめ</Hiragana>
+			<RomaName>harusame</RomaName>
+			<FileName>cispmgxqaedk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16919,6 +17902,9 @@
 			<AlbumNum>209b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>早霜改</Name>
+			<Hiragana>はやしも</Hiragana>
+			<RomaName>hayashimo</RomaName>
+			<FileName>uvfgjekdjlcw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16955,6 +17941,9 @@
 			<AlbumNum>210b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>清霜改</Name>
+			<Hiragana>きよしも</Hiragana>
+			<RomaName>kiyoshimo</RomaName>
+			<FileName>xomrbwrvjwfv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -16991,6 +17980,9 @@
 			<AlbumNum>213b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>朝雲改</Name>
+			<Hiragana>あさぐも</Hiragana>
+			<RomaName>asagumo</RomaName>
+			<FileName>vdieczinfgce</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -17024,6 +18016,9 @@
 			<AlbumNum>214b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>山雲改</Name>
+			<Hiragana>やまぐも</Hiragana>
+			<RomaName>yamagumo</RomaName>
+			<FileName>pyfdxrfqwldn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -17048,6 +18043,9 @@
 			<AlbumNum>215b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>野分改</Name>
+			<Hiragana>のわき</Hiragana>
+			<RomaName>nowaki</RomaName>
+			<FileName>qegrehgswrpg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
@@ -17081,6 +18079,9 @@
 			<AlbumNum>221b</AlbumNum>
 			<Type>駆逐艦</Type>
 			<Name>秋月改</Name>
+			<Hiragana>あきづき</Hiragana>
+			<RomaName>akizuki</RomaName>
+			<FileName>tubwmcjwtlqx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
