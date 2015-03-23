@@ -9,6 +9,8 @@ namespace KanDic.Resources
     public class MoniKan
     {
         public string Name { get; set; }
+        public string ImageName { get; set; }
+        public string IconName { get; set; }
 
         public int LV { get; set; }
 
@@ -35,6 +37,11 @@ namespace KanDic.Resources
         public Soubi soubi3 { get; set; }
         public Soubi soubi4 { get; set; }
 
+        public int Carry1 { get; set; }
+        public int Carry2 { get; set; }
+        public int Carry3 { get; set; }
+        public int Carry4 { get; set; }
+
         public int MaxPower { get; set; }
         public int MaxDefence { get; set; }
         public int MaxTorpedo { get; set; }
@@ -47,6 +54,8 @@ namespace KanDic.Resources
             LV = 1;
 
             Name = xx.BasicInfo.Name;
+            ImageName = xx.BasicInfo.FileName;
+
             HP = xx.BattleInfo.HP;
             Power = xx.BattleInfo.Power;
             Defence = xx.BattleInfo.Defence;
@@ -69,6 +78,16 @@ namespace KanDic.Resources
             MaxAir = xx.MaxInfo.Air;
             MaxDefence = xx.MaxInfo.Defence;
             MaxTorpedo = xx.MaxInfo.Torpedo;
+
+            soubi1 = new Soubi();
+            soubi2 = new Soubi();
+            soubi3 = new Soubi();
+            soubi4 = new Soubi();
+
+            Carry1 = Convert.ToInt32(xx.EquipInfo.Carry1);
+            Carry2 = Convert.ToInt32(xx.EquipInfo.Carry2);
+            Carry3 = Convert.ToInt32(xx.EquipInfo.Carry3);
+            Carry4 = Convert.ToInt32(xx.EquipInfo.Carry4);
         }
     }
 }

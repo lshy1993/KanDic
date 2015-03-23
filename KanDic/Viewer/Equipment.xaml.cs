@@ -145,6 +145,10 @@ namespace KanDic.Viewer
                     return "/Cache/icon/soubi/74.PNG";
                 case "魚雷":
                     return "/Cache/icon/soubi/76.PNG";
+                case "特殊潜航艇":
+                    return "/Cache/icon/soubi/76.PNG";
+                case "潜水艦魚雷":
+                    return "/Cache/icon/soubi/76.PNG";
                 case "艦上戦闘機":
                     return "/Cache/icon/soubi/78.PNG";
                 case "艦上爆撃機":
@@ -157,49 +161,55 @@ namespace KanDic.Viewer
                     return "/Cache/icon/soubi/86.PNG";
                 case "水上偵察機":
                     return "/Cache/icon/soubi/86.PNG";
-                case "电探":
+                case "小型電探":
                     return "/Cache/icon/soubi/88.PNG";
-                case "三式弹":
+                case "大型電探":
+                    return "/Cache/icon/soubi/88.PNG";
+                case "対空強化弾":
                     return "/Cache/icon/soubi/90.PNG";
-                case "彻甲弹":
+                case "対艦強化弾":
                     return "/Cache/icon/soubi/92.PNG";
-                case "应急修理要员":
+                case "応急修理要員":
                     return "/Cache/icon/soubi/94.PNG";
                 case "対空機銃":
                     return "/Cache/icon/soubi/96.PNG";
                 case "主炮类":
                     return "/Cache/icon/soubi/98.PNG";
-                case "水雷":
+                case "爆雷":
                     return "/Cache/icon/soubi/100.PNG";
-                case "水听":
+                case "ソナー":
                     return "/Cache/icon/soubi/102.PNG";
-                case "机关部强化类":
+                case "大型ソナー":
+                    return "/Cache/icon/soubi/102.PNG";
+                case "機関部強化":
                     return "/Cache/icon/soubi/104.PNG";
-                case "大发动艇":
+                case "上陸用舟艇":
                     return "/Cache/icon/soubi/106.PNG";
-                case "カ号观测机":
+                case "オートジャイロ":
                     return "/Cache/icon/soubi/108.PNG";
-                case "三式指挥联络机（对潜）":
+                case "対潜哨戒機":
                     return "/Cache/icon/soubi/110.PNG";
-                case "追加装甲":
+                case "追加装甲(中型)":
+                    return "/Cache/icon/soubi/112.PNG";
+                case "追加装甲(大型)":
                     return "/Cache/icon/soubi/112.PNG";
                 case "探照灯":
                     return "/Cache/icon/soubi/114.PNG";
-                case "运输桶":
+                case "簡易輸送部材":
                     return "/Cache/icon/soubi/116.PNG";
-                case "舰艇修理设施":
+                case "艦艇修理施設":
                     return "/Cache/icon/soubi/118.PNG";
-                case "照明弹":
+                case "照明弾":
                     return "/Cache/icon/soubi/120.PNG";
-                case "舰队司令部设施":
+                case "艦隊司令部施設":
                     return "/Cache/icon/soubi/122.PNG";
-                case "舰载机熟练员":
+                case "航空要員":
                     return "/Cache/icon/soubi/124.PNG";
-                case "高射装置类":
+                case "高射装置":
                     return "/Cache/icon/soubi/126.PNG";
-                case "WG42":
+                case "対地装備":
                     return "/Cache/icon/soubi/128.PNG";
-                case "熟练见张员":
+                case "水上艦要員":
                     return "/Cache/icon/soubi/130.PNG";
                 default:
                     return "";

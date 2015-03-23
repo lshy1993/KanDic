@@ -95,6 +95,16 @@
                 <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,30,0" Fill="Gray"/>
                 <plugin:ShipRow x:Name="row10" Tag="10" DockPanel.Dock="Top"/>
                 <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,30,0" Fill="Gray"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Cache/Calculate/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Page_Prev"/>
+                    <TextBlock Name="PageNum" Text="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <Image Source="/Cache/Calculate/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Page_Next"/>
+                </Grid>
             </DockPanel>
             <Canvas Name="ConfirmPanel" Visibility="Hidden">
                 <Rectangle Width="700" Height="380" Fill="Black" Opacity="0.2" MouseLeftButtonDown="ShipView_Hide"/>
@@ -137,24 +147,63 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="飞龙"/>
+                <StackPanel Margin="15,20,5,20">
+                    <DockPanel Margin="10,0,30,0">
+                        <TextBlock Text="{Binding Name}" FontSize="20" Width="130"/>
                         <Image Source="/Cache/icon/info/lv.PNG" Stretch="None"/>
-                        <TextBlock Text="99"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding LV}" HorizontalAlignment="Right" FontSize="20"/>
+                    </DockPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5,10,0,5">
                         <Border BorderThickness="1" BorderBrush="White" Background="#00ff00" CornerRadius="3" Height="7" Width="65" VerticalAlignment="Center"/>
-                        <TextBlock Text="50"/>
-                        <TextBlock Text="/"/>
-                        <TextBlock Text="50"/>
+                        <TextBlock Text="{Binding HP}" FontSize="10" Margin="10,0,0,0"/>
+                        <TextBlock Text="/" FontSize="10"/>
+                        <TextBlock Text="{Binding HP}" FontSize="10"/>
                     </StackPanel>
-                    <plugin:SoubiButton x:Name="soubi1"/>
-                    <plugin:SoubiButton x:Name="soubi2"/>
-                    <plugin:SoubiButton x:Name="soubi3"/>
-                    <plugin:SoubiButton x:Name="soubi4"/>
+                    <plugin:SoubiButton x:Name="soubi1" Tag="1"/>
+                    <plugin:SoubiButton x:Name="soubi2" Tag="2"/>
+                    <plugin:SoubiButton x:Name="soubi3" Tag="3"/>
+                    <plugin:SoubiButton x:Name="soubi4" Tag="4"/>
+                    <StackPanel Height="40">
+                        <TextBlock Text="即时数据" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="30"/>
+                        <Rectangle Height="1" Fill="Gray" Margin="15,0"/>
+                    </StackPanel>
+                    <Canvas Name="DataBox" Margin="20,0,0,0">
+                        <Image Source="/Cache/Calculate/shuxing.PNG" Stretch="None"/>
+                        <Grid Canvas.Left="56" Width="34">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="{Binding HP}" HorizontalAlignment="Center" Grid.Row="0"/>
+                            <TextBlock Text="{Binding Defence}" HorizontalAlignment="Center" Grid.Row="1"/>
+                            <TextBlock Text="{Binding Dodge}" HorizontalAlignment="Center" Grid.Row="2"/>
+                            <TextBlock Text="{Binding Carry}" HorizontalAlignment="Center" Grid.Row="3"/>
+                            <TextBlock Text="{Binding Speed}" HorizontalAlignment="Center" Grid.Row="4"/>
+                            <TextBlock Text="{Binding Range}" HorizontalAlignment="Center" Grid.Row="5"/>
+                        </Grid>
+                        <Grid Canvas.Left="150" Width="34">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                                <RowDefinition Height="23"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="{Binding Power}" HorizontalAlignment="Center" Grid.Row="0"/>
+                            <TextBlock Text="{Binding Torpedo}" HorizontalAlignment="Center" Grid.Row="1"/>
+                            <TextBlock Text="{Binding Air}" HorizontalAlignment="Center" Grid.Row="2"/>
+                            <TextBlock Text="{Binding Antisub}" HorizontalAlignment="Center" Grid.Row="3"/>
+                            <TextBlock Text="{Binding Search}" HorizontalAlignment="Center" Grid.Row="4"/>
+                            <TextBlock Text="{Binding Lucky}" HorizontalAlignment="Center" Grid.Row="5"/>
+                        </Grid>
+                    </Canvas>
                 </StackPanel>
-                <Image Source="{Binding FileName}" Grid.Column="1"/>
+                <Image Source="{Binding ImageName}" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,15" Grid.Column="1"/>
             </Grid>
             <Canvas Name="SoubiPanel" Visibility="Hidden">
                 <Rectangle Width="700" Height="380" Fill="Black" Opacity="0.2" MouseLeftButtonDown="SoubiList_Hide"/>
@@ -170,38 +219,69 @@
                         <TextBlock Text="详情" Grid.Column="2" VerticalAlignment="Center" Foreground="White" FontSize="12"/>
                     </Grid>
                     <plugin:SoubiRow x:Name="soubirow1" Tag="1" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow2" Tag="2" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow3" Tag="3" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow4" Tag="4" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow5" Tag="5" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow6" Tag="6" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow7" Tag="7" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow8" Tag="8" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow9" Tag="9" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
                     <plugin:SoubiRow x:Name="soubirow10" Tag="10" DockPanel.Dock="Top"/>
-                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="35,0,0,0" Fill="Gray"/>
+                    <Rectangle DockPanel.Dock="Top" Height="1" Margin="60,0,0,0" Fill="Gray"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Cache/Calculate/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Pages_Prev"/>
+                        <TextBlock Name="PageNums" Text="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <Image Source="/Cache/Calculate/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Pages_Next"/>
+                    </Grid>
                 </DockPanel>
                 <Canvas Name="ChangePanel" Visibility="Hidden">
                     <Rectangle Width="700" Height="380" Fill="Black" Opacity="0.2" MouseLeftButtonDown="SoubiChange_Hide"/>
                     <DockPanel Name="SoubiChange" Width="215" Height="380" Background="#f0e6dc">
                         <TextBlock Text="变更前" DockPanel.Dock="Top" Margin="0,0,10,0" HorizontalAlignment="Right" Foreground="#af9441"/>
-                        <DockPanel Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
-                            
-                        </DockPanel>
+                        <StackPanel Name="BeforeChange" Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
+                            <StackPanel Orientation="Horizontal">
+                                <Canvas Height="30" Width="30">
+                                    <Image Source="{Binding Path=.[0]}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
+                                </Canvas>
+                                <TextBlock Text="{Binding Path=.[1]}" VerticalAlignment="Center" FontWeight="Bold"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding Path=.[2]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[3]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[4]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[5]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[6]}" Margin="10,0" FontSize="12"/>
+                        </StackPanel>
                         <TextBlock Text="变更后" DockPanel.Dock="Top" Margin="0,0,10,0" HorizontalAlignment="Right" Foreground="#af9441"/>
-                        <DockPanel Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
-
-                        </DockPanel>
-                        <Button Style="{StaticResource qrbutton}"/>
+                        <Border Height="30" DockPanel.Dock="Top"/>
+                        <StackPanel Name="AfterChange" Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
+                            <StackPanel Orientation="Horizontal">
+                                <Canvas Height="30" Width="30">
+                                    <Image Name="AfterIcon" Source="{Binding Path=.[0]}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
+                                </Canvas>
+                                <TextBlock Text="{Binding Path=.[1]}" VerticalAlignment="Center" FontWeight="Bold"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding Path=.[2]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[3]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[4]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[5]}" Margin="10,0" FontSize="12"/>
+                            <TextBlock Text="{Binding Path=.[6]}" Margin="10,0" FontSize="12"/>
+                        </StackPanel>
+                        <Button Style="{StaticResource qrbutton}" Click="Change_Click"/>
                     </DockPanel>
                 </Canvas>
             </Canvas>

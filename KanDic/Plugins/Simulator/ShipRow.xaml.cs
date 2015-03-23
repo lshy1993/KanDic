@@ -30,14 +30,15 @@ namespace KanDic.Plugins.Simulator
         private void row_Click(object sender, RoutedEventArgs e)
         {
             Calculator xx = (Calculator)Calculator.GetWindow(this);
+            if (this.DataContext == null) return;
             xx.ConfirmPanel.Visibility = Visibility.Visible;
             DoubleAnimation da = new DoubleAnimation();
             da.From = 700;
             da.To = 490;
             da.Duration = TimeSpan.FromSeconds(0.2);
             xx.ShipView.BeginAnimation(Canvas.LeftProperty, da);
-            xx.tagnum = Convert.ToInt32(this.Tag);
-            xx.example[xx.posnum] = new MoniKan(xx.ships[xx.tagnum]);
+            xx.rownum = Convert.ToInt32(this.Tag);
+            xx.example[xx.posnum] = new MoniKan(xx.ships[xx.page * 10 - 11 + xx.rownum]);
             xx.ShipView.DataContext = xx.example[xx.posnum];
         }
     }

@@ -48,6 +48,7 @@
 			<Ammo>900</Ammo>
 			<Steel>800</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>251</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>5</Power>
@@ -130,6 +131,7 @@
 			<Ammo>900</Ammo>
 			<Steel>800</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>252</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>5</Power>
@@ -212,6 +214,7 @@
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>102</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -294,6 +297,7 @@
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>103</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -376,6 +380,7 @@
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>255</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -458,6 +463,7 @@
 			<Ammo>300</Ammo>
 			<Steel>700</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>256</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -540,6 +546,7 @@
 			<Ammo>300</Ammo>
 			<Steel>750</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>257</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -622,6 +629,7 @@
 			<Ammo>300</Ammo>
 			<Steel>650</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>258</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -704,6 +712,7 @@
 			<Ammo>300</Ammo>
 			<Steel>650</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>259</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -786,6 +795,7 @@
 			<Ammo>100</Ammo>
 			<Steel>120</Steel>
 			<LinkID>275</LinkID>
+			<LinkNumber>260</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -856,6 +866,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>261</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -915,6 +926,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>262</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -974,6 +986,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>263</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1033,6 +1046,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>264</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1092,6 +1106,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>265</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1151,6 +1166,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>266</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1210,6 +1226,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>267</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -1269,6 +1286,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>268</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1328,6 +1346,7 @@
 			<Level>10</Level>
 			<Ammo>400</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>97</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1387,6 +1406,7 @@
 			<Level>10</Level>
 			<Ammo>400</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>98</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1446,6 +1466,7 @@
 			<Level>25</Level>
 			<Ammo>600</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>271</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
@@ -1505,6 +1526,7 @@
 			<Level>25</Level>
 			<Ammo>600</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>272</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
@@ -1564,6 +1586,7 @@
 			<Level>25</Level>
 			<Ammo>600</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>273</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
@@ -1623,6 +1646,7 @@
 			<Level>25</Level>
 			<Ammo>600</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>274</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
@@ -1682,6 +1706,7 @@
 			<Level>25</Level>
 			<Ammo>150</Ammo>
 			<Steel>350</Steel>
+			<LinkNumber>275</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1741,6 +1766,7 @@
 			<Level>20</Level>
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
+			<LinkNumber>276</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -1800,6 +1826,7 @@
 			<Level>20</Level>
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
+			<LinkNumber>277</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -1859,6 +1886,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>150</Steel>
+			<LinkNumber>278</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1918,6 +1946,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>150</Steel>
+			<LinkNumber>279</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -1977,6 +2006,7 @@
 			<Level>25</Level>
 			<Ammo>220</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>280</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2036,6 +2066,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>281</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -2095,6 +2126,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>282</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2154,6 +2186,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>283</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2213,6 +2246,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>284</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2272,6 +2306,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>285</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2331,6 +2366,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>286</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2390,6 +2426,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>287</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2449,6 +2486,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>288</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2508,6 +2546,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>289</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2567,6 +2606,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>290</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2626,6 +2666,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>291</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2685,6 +2726,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>292</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2744,6 +2786,7 @@
 			<Level>12</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>293</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2803,6 +2846,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>294</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2862,6 +2906,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>295</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2921,6 +2966,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>296</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -2980,6 +3026,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>297</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -3039,6 +3086,7 @@
 			<Level>20</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>298</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -3098,6 +3146,7 @@
 			<Level>10</Level>
 			<Ammo>40</Ammo>
 			<Steel>70</Steel>
+			<LinkNumber>95</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -3157,6 +3206,7 @@
 			<Level>10</Level>
 			<Ammo>40</Ammo>
 			<Steel>70</Steel>
+			<LinkNumber>96</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -3216,6 +3266,7 @@
 			<Level>10</Level>
 			<Ammo>70</Ammo>
 			<Steel>210</Steel>
+			<LinkNumber>101</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3275,6 +3326,7 @@
 			<Level>25</Level>
 			<Ammo>300</Ammo>
 			<Steel>250</Steel>
+			<LinkNumber>302</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3334,6 +3386,7 @@
 			<Level>25</Level>
 			<Ammo>300</Ammo>
 			<Steel>250</Steel>
+			<LinkNumber>303</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3393,6 +3446,7 @@
 			<Level>25</Level>
 			<Ammo>300</Ammo>
 			<Steel>250</Steel>
+			<LinkNumber>304</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3452,6 +3506,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>305</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3511,6 +3566,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>306</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3570,6 +3626,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>307</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3629,6 +3686,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>308</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3688,6 +3746,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>309</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3747,6 +3806,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>310</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3806,6 +3866,7 @@
 			<Level>18</Level>
 			<Ammo>300</Ammo>
 			<Steel>250</Steel>
+			<LinkNumber>311</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3865,6 +3926,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>312</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3924,6 +3986,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>313</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -3983,6 +4046,7 @@
 			<Level>25</Level>
 			<Ammo>450</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>314</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -4042,6 +4106,7 @@
 			<Level>25</Level>
 			<Ammo>250</Ammo>
 			<Steel>500</Steel>
+			<LinkNumber>315</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4101,6 +4166,7 @@
 			<Level>25</Level>
 			<Ammo>250</Ammo>
 			<Steel>500</Steel>
+			<LinkNumber>316</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4160,6 +4226,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>317</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4219,6 +4286,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>318</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4278,6 +4346,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>319</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4337,6 +4406,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>320</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4396,6 +4466,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>321</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -4455,6 +4526,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>322</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4514,6 +4586,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>323</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4573,6 +4646,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>324</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4632,6 +4706,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>325</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -4691,6 +4766,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>326</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4750,6 +4826,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>327</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4809,6 +4886,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>328</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4868,6 +4946,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>329</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -4927,6 +5006,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>330</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -4986,6 +5066,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>331</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5045,6 +5126,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>332</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5104,6 +5186,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>333</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5163,6 +5246,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>334</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -5222,6 +5306,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>335</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -5281,6 +5366,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>336</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5340,6 +5426,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>337</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5399,6 +5486,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>338</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5458,6 +5546,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>339</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5517,6 +5606,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>340</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5576,6 +5666,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>341</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -5635,6 +5726,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>342</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5694,6 +5786,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>343</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5753,6 +5846,7 @@
 			<Level>25</Level>
 			<Ammo>210</Ammo>
 			<Steel>380</Steel>
+			<LinkNumber>344</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5812,6 +5906,7 @@
 			<Level>12</Level>
 			<Ammo>80</Ammo>
 			<Steel>70</Steel>
+			<LinkNumber>99</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5871,6 +5966,7 @@
 			<Level>12</Level>
 			<Ammo>80</Ammo>
 			<Steel>70</Steel>
+			<LinkNumber>100</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5930,6 +6026,7 @@
 			<Level>50</Level>
 			<Ammo>770</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>114</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -5989,6 +6086,7 @@
 			<Level>50</Level>
 			<Ammo>770</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>115</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6048,6 +6146,7 @@
 			<Level>15</Level>
 			<Ammo>60</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>104</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6107,6 +6206,7 @@
 			<Level>15</Level>
 			<Ammo>60</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>105</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6343,6 +6443,7 @@
 			<Level>35</Level>
 			<Ammo>250</Ammo>
 			<Steel>550</Steel>
+			<LinkNumber>121</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6402,6 +6503,7 @@
 			<Level>35</Level>
 			<Ammo>250</Ammo>
 			<Steel>550</Steel>
+			<LinkNumber>122</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6461,6 +6563,7 @@
 			<Level>30</Level>
 			<Ammo>350</Ammo>
 			<Steel>750</Steel>
+			<LinkNumber>356</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6520,6 +6623,7 @@
 			<Level>25</Level>
 			<Ammo>350</Ammo>
 			<Steel>750</Steel>
+			<LinkNumber>108</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6638,6 +6742,7 @@
 			<Level>17</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>359</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6697,6 +6802,7 @@
 			<Level>17</Level>
 			<Ammo>200</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>360</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -6756,6 +6862,7 @@
 			<Level>25</Level>
 			<Ammo>240</Ammo>
 			<Steel>280</Steel>
+			<LinkNumber>361</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -6815,6 +6922,7 @@
 			<Level>25</Level>
 			<Ammo>210</Ammo>
 			<Steel>380</Steel>
+			<LinkNumber>113</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7051,6 +7159,7 @@
 			<Level>30</Level>
 			<Ammo>110</Ammo>
 			<Steel>270</Steel>
+			<LinkNumber>117</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -7169,6 +7278,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>368</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7228,6 +7338,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>369</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7287,6 +7398,7 @@
 			<Level>25</Level>
 			<Ammo>300</Ammo>
 			<Steel>250</Steel>
+			<LinkNumber>370</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -7464,6 +7576,7 @@
 			<Level>50</Level>
 			<Ammo>200</Ammo>
 			<Steel>140</Steel>
+			<LinkNumber>373</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7523,6 +7636,7 @@
 			<Level>35</Level>
 			<Ammo>110</Ammo>
 			<Steel>270</Steel>
+			<LinkNumber>129</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -7582,6 +7696,7 @@
 			<Level>35</Level>
 			<Ammo>110</Ammo>
 			<Steel>270</Steel>
+			<LinkNumber>130</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -7641,6 +7756,7 @@
 			<Level>50</Level>
 			<Ammo>200</Ammo>
 			<Steel>130</Steel>
+			<LinkNumber>376</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7700,6 +7816,7 @@
 			<Level>50</Level>
 			<Ammo>200</Ammo>
 			<Steel>140</Steel>
+			<LinkNumber>377</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7759,6 +7876,7 @@
 			<Level>50</Level>
 			<Ammo>200</Ammo>
 			<Steel>150</Steel>
+			<LinkNumber>378</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -7936,6 +8054,7 @@
 			<Level>60</Level>
 			<Ammo>2500</Ammo>
 			<Steel>3000</Steel>
+			<LinkNumber>136</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>7</Power>
@@ -7993,6 +8112,7 @@
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
+			<LinkNumber>382</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -8050,6 +8170,7 @@
 		<EquipInfo/>
 		<UpdateInfo>
 			<Level>30</Level>
+			<LinkNumber>383</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -8109,6 +8230,7 @@
 			<Level>30</Level>
 			<Ammo>120</Ammo>
 			<Steel>110</Steel>
+			<LinkNumber>384</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -8168,6 +8290,7 @@
 			<Level>30</Level>
 			<Ammo>130</Ammo>
 			<Steel>110</Steel>
+			<LinkNumber>385</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -8286,6 +8409,7 @@
 			<Level>35</Level>
 			<Ammo>220</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>387</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -8345,6 +8469,7 @@
 			<Level>35</Level>
 			<Ammo>220</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>388</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -8404,6 +8529,7 @@
 			<Level>35</Level>
 			<Ammo>220</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>389</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -8463,6 +8589,7 @@
 			<Level>35</Level>
 			<Ammo>220</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>390</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -8640,6 +8767,7 @@
 			<Level>40</Level>
 			<Ammo>2500</Ammo>
 			<Steel>3000</Steel>
+			<LinkNumber>148</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>7</Power>
@@ -9225,6 +9353,7 @@
 			<Level>40</Level>
 			<Ammo>450</Ammo>
 			<Steel>900</Steel>
+			<LinkNumber>156</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -9316,6 +9445,7 @@
 			<Level>35</Level>
 			<Ammo>100</Ammo>
 			<Steel>300</Steel>
+			<LinkNumber>405</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -9670,6 +9800,7 @@
 			<Level>25</Level>
 			<Ammo>80</Ammo>
 			<Steel>200</Steel>
+			<LinkNumber>166</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -9745,6 +9876,7 @@
 			<Level>20</Level>
 			<Ammo>20</Ammo>
 			<Steel>50</Steel>
+			<LinkNumber>413</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -9804,6 +9936,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>414</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -9863,6 +9996,7 @@
 			<Level>25</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>415</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -9981,6 +10115,7 @@
 			<Level>45</Level>
 			<Ammo>160</Ammo>
 			<Steel>140</Steel>
+			<LinkNumber>417</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -10040,6 +10175,7 @@
 			<Level>35</Level>
 			<Ammo>140</Ammo>
 			<Steel>110</Steel>
+			<LinkNumber>418</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -10099,6 +10235,7 @@
 			<Level>30</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>419</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -10158,6 +10295,7 @@
 			<Level>30</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
+			<LinkNumber>420</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -10217,6 +10355,7 @@
 			<Level>30</Level>
 			<Ammo>800</Ammo>
 			<Steel>600</Steel>
+			<LinkNumber>172</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
@@ -10276,6 +10415,7 @@
 			<Level>50</Level>
 			<Ammo>1600</Ammo>
 			<Steel>1200</Steel>
+			<LinkNumber>173</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -10333,6 +10473,7 @@
 			<Level>75</Level>
 			<Ammo>2400</Ammo>
 			<Steel>1800</Steel>
+			<LinkNumber>178</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
@@ -10392,6 +10533,7 @@
 			<Level>30</Level>
 			<Ammo>150</Ammo>
 			<Steel>170</Steel>
+			<LinkNumber>424</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -10451,6 +10593,7 @@
 			<Level>30</Level>
 			<Ammo>150</Ammo>
 			<Steel>170</Steel>
+			<LinkNumber>425</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -10510,6 +10653,7 @@
 			<Level>45</Level>
 			<Ammo>600</Ammo>
 			<Steel>700</Steel>
+			<LinkNumber>177</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
@@ -10803,6 +10947,7 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>120</Steel>
+			<LinkNumber>431</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -10862,6 +11007,7 @@
 			<Level>35</Level>
 			<Ammo>200</Ammo>
 			<Steel>1500</Steel>
+			<LinkNumber>187</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -10921,6 +11067,7 @@
 			<Level>35</Level>
 			<Ammo>320</Ammo>
 			<Steel>400</Steel>
+			<LinkNumber>433</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
@@ -11039,6 +11186,7 @@
 			<Level>35</Level>
 			<Ammo>550</Ammo>
 			<Steel>450</Steel>
+			<LinkNumber>190</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -11098,6 +11246,7 @@
 			<Level>30</Level>
 			<Ammo>110</Ammo>
 			<Steel>120</Steel>
+			<LinkNumber>436</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
@@ -13346,7 +13495,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>196</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
 			<Torpedo>0</Torpedo>
@@ -13385,7 +13536,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>197</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
 			<Torpedo>0</Torpedo>
@@ -13697,7 +13850,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>195</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -13775,7 +13930,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>149</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
 			<Torpedo>0</Torpedo>
@@ -13814,7 +13971,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>150</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
 			<Torpedo>0</Torpedo>
@@ -13853,7 +14012,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>151</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
 			<Torpedo>0</Torpedo>
@@ -13892,7 +14053,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>152</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>4</Power>
 			<Torpedo>0</Torpedo>
@@ -14126,7 +14289,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>157</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>0</Power>
 			<Torpedo>0</Torpedo>
@@ -14555,7 +14720,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>146</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -14633,7 +14800,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>141</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -14750,7 +14919,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>158</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
 			<Torpedo>1</Torpedo>
@@ -14789,7 +14960,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>159</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -14828,7 +15001,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>160</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -14984,7 +15159,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>191</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15023,7 +15200,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>192</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15062,7 +15241,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>193</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15101,7 +15282,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>194</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15296,7 +15479,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>188</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15335,7 +15520,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>189</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>3</Power>
 			<Torpedo>1</Torpedo>
@@ -15959,7 +16146,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>145</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -16037,7 +16226,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>144</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -16856,7 +17047,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>142</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>2</Power>
 			<Torpedo>1</Torpedo>
@@ -17675,7 +17868,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>179</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>
@@ -17714,7 +17909,9 @@
 		<BuildInfo/>
 		<BattleInfo/>
 		<EquipInfo/>
-		<UpdateInfo/>
+		<UpdateInfo>
+			<LinkNumber>180</LinkNumber>
+		</UpdateInfo>
 		<SourceInfo>
 			<Power>1</Power>
 			<Torpedo>1</Torpedo>

@@ -23,7 +23,7 @@
                 <TextBlock Text="{Binding BasicInfo.Type}" VerticalAlignment="Center"/>
                 <TextBlock Text="{Binding BasicInfo.Name}" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
-            <TextBlock Text="99" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+            <TextBlock Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
             <TextBlock Text="{Binding BattleInfo.HP}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2"/>
             <TextBlock Text="{Binding BattleInfo.Power}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="3"/>
             <TextBlock Text="{Binding BattleInfo.Torpedo}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="4"/>

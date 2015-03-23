@@ -24,16 +24,17 @@ namespace KanDic.Plugins
     /// </summary>
     public partial class Calculator : MetroWindow
     {
-        public Kan[] ships;
+        //public Soubi[] equips;
+        public List<Kan> ships;
+        public List<Soubi> equips;
         public MoniKan[] example = new MoniKan[6];
-        public Soubi[] equips;
-        public int page,tagnum,posnum;
+        public int page,rownum,posnum,soubinum;//page那一页，rownum哪一行，posnum哪只船，soubinum哪格装备
 
         public Calculator()
         {
             InitializeComponent();
-            ships = KanDic.Viewer.KanColle.ships;
-            equips = KanDic.Viewer.Equipment.equips;
+            Set_Ship(KanDic.Viewer.KanColle.ships);
+            Set_Soubi(KanDic.Viewer.Equipment.equips);
             page = 1;
             Dock1.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/1.PNG", UriKind.Relative));
             Dock2.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/2.PNG", UriKind.Relative));
@@ -45,33 +46,204 @@ namespace KanDic.Plugins
             SoubiList_Change(page);
         }
 
-        #region 生成行
-        private void ShipList_Change(int x)
+        #region 形成船List
+        private void Set_Ship(Kan[] xx)
         {
-            row1.DataContext = ships[x * 10 - 9];
-            row2.DataContext = ships[x * 10 - 8];
-            row3.DataContext = ships[x * 10 - 7];
-            row4.DataContext = ships[x * 10 - 6];
-            row5.DataContext = ships[x * 10 - 5];
-            row6.DataContext = ships[x * 10 - 4];
-            row7.DataContext = ships[x * 10 - 3];
-            row8.DataContext = ships[x * 10 - 2];
-            row9.DataContext = ships[x * 10 - 1];
-            row10.DataContext = ships[x * 10];
+            ships = new List<Kan>();
+            bool[] isadded = new bool[500];
+            int link, links;
+            for (int i = 1; i < 500; i++)
+            {
+                isadded[i] = false;
+            }
+            for (int i = 1; i < 500; i++)
+            {
+                //若不在isadded列表中 则加入
+                if (xx[i] != null && !isadded[i])
+                {
+                    if (xx[i].BasicInfo.Name != null) ships.Add(xx[i]);
+
+                    //判断是否有存在【改】
+                    if (xx[i].UpdateInfo.LinkNumber != null)
+                    {
+                        link = Convert.ToInt32(xx[i].UpdateInfo.LinkNumber);
+
+                        //防止读取到【改】的船二次加入列表
+                        if (!isadded[link]) ships.Add(xx[link]);
+                        isadded[link] = true;
+
+                        //判断是否存在【改二】一并加入
+                        if (xx[link].UpdateInfo.LinkNumber != null)
+                        {
+                            links = Convert.ToInt32(xx[link].UpdateInfo.LinkNumber);
+                            ships.Add(xx[links]);
+                            isadded[links] = true;
+                        }
+                    }
+                }
+            }
+        }
+        #endregion
+
+        #region 形成装备List
+        private void Set_Soubi(Soubi[] xx)
+        {
+            equips = new List<Soubi>();
+            for (int i = 1; i < xx.Count(); i++)
+            {
+                if (xx[i] != null) equips.Add(xx[i]);
+            }
+            //equips.Sort();
+        }
+        #endregion
+
+        #region 生成船按钮
+        public void ShipList_Change(int x)
+        {
+            PageNum.Text = x.ToString();
+            if ( x * 10 - 10 < ships.Count )
+                row1.DataContext = ships[x * 10 - 10];
+            else
+                row1.DataContext = null;
+            if ( x * 10 - 9 < ships.Count )
+                row2.DataContext = ships[x * 10 - 9];
+            else
+                row2.DataContext = null;
+            if ( x * 10 - 8 < ships.Count )
+                row3.DataContext = ships[x * 10 - 8];
+            else
+                row3.DataContext = null;
+            if ( x * 10 - 7 < ships.Count )
+                row4.DataContext = ships[x * 10 - 7];
+            else
+                row4.DataContext = null;
+            if ( x * 10 - 6 < ships.Count )
+                row5.DataContext = ships[x * 10 - 6];
+            else
+                row5.DataContext = null;
+            if ( x * 10 - 5 < ships.Count )
+                row6.DataContext = ships[x * 10 - 5];
+            else
+                row6.DataContext = null;
+            if ( x * 10 - 4 < ships.Count )
+                row7.DataContext = ships[x * 10 - 4];
+            else
+                row7.DataContext = null;
+            if ( x * 10 - 3 < ships.Count )
+                row8.DataContext = ships[x * 10 - 3];
+            else
+                row8.DataContext = null;
+            if ( x * 10 - 2 < ships.Count )
+                row9.DataContext = ships[x * 10 - 2];
+            else
+                row9.DataContext = null;
+            if ( x * 10 - 1 < ships.Count )
+                row10.DataContext = ships[x * 10 - 1];
+            else
+                row10.DataContext = null;
+        }
+        #endregion
+
+        #region 生成装备按钮
+        public void SoubiList_Change(int x)
+        {
+            PageNums.Text = page.ToString();
+            if (x * 10 - 10 < equips.Count)
+                soubirow1.DataContext = equips[x * 10 - 10];
+            else
+                soubirow1.DataContext = null;
+            if (x * 10 - 9 < equips.Count)
+                soubirow2.DataContext = equips[x * 10 - 9];
+            else
+                soubirow2.DataContext = null;
+            if (x * 10 - 8 < equips.Count)
+                soubirow3.DataContext = equips[x * 10 - 8];
+            else
+                soubirow3.DataContext = null;
+            if (x * 10 - 7 < equips.Count)
+                soubirow4.DataContext = equips[x * 10 - 7];
+            else
+                soubirow4.DataContext = null;
+            if (x * 10 - 6 < equips.Count)
+                soubirow5.DataContext = equips[x * 10 - 6];
+            else
+                soubirow5.DataContext = null;
+            if (x * 10 - 5 < equips.Count)
+                soubirow6.DataContext = equips[x * 10 - 5];
+            else
+                soubirow6.DataContext = null;
+            if (x * 10 - 4 < equips.Count)
+                soubirow7.DataContext = equips[x * 10 - 4];
+            else
+                soubirow7.DataContext = null;
+            if (x * 10 - 3 < equips.Count)
+                soubirow8.DataContext = equips[x * 10 - 3];
+            else
+                soubirow8.DataContext = null;
+            if (x * 10 - 2 < equips.Count)
+                soubirow9.DataContext = equips[x * 10 - 2];
+            else
+                soubirow9.DataContext = null;
+            if (x * 10 - 1 < equips.Count)
+                soubirow10.DataContext = equips[x * 10 - 1];
+            else
+                soubirow10.DataContext = null;
+        }
+        #endregion
+
+        #region 生成装备对比
+        public void Compare_Init()
+        {
+            Soubi yuan = new Soubi();
+            Soubi hou = new Soubi();
+            if (soubinum == 1) yuan = example[posnum].soubi1;
+            if (soubinum == 2) yuan = example[posnum].soubi2;
+            if (soubinum == 3) yuan = example[posnum].soubi3;
+            if (soubinum == 4) yuan = example[posnum].soubi4;
+            hou = equips[rownum];
+            Compare_List(yuan,BeforeChange);
+            Compare_List(hou,AfterChange);
         }
 
-        private void SoubiList_Change(int x)
+        private void Compare_List(Soubi x,StackPanel target)
         {
-            soubirow1.DataContext = equips[x * 10 - 9];
-            soubirow2.DataContext = equips[x * 10 - 8];
-            soubirow3.DataContext = equips[x * 10 - 7];
-            soubirow4.DataContext = equips[x * 10 - 6];
-            soubirow5.DataContext = equips[x * 10 - 5];
-            soubirow6.DataContext = equips[x * 10 - 4];
-            soubirow7.DataContext = equips[x * 10 - 3];
-            soubirow8.DataContext = equips[x * 10 - 2];
-            soubirow9.DataContext = equips[x * 10 - 1];
-            soubirow10.DataContext = equips[x * 10];
+            List<string> strlist = new List<string>();
+            strlist.Clear();
+            strlist.Add(x.Icon);
+            strlist.Add(x.Name);
+            if (x.Power != 0)
+            {
+                strlist.Add("火力+" + x.Power.ToString());
+            }
+            if (x.Torpedo != 0)
+            {
+                strlist.Add("雷装+" + x.Torpedo.ToString());
+            }
+            if (x.Bomb != 0)
+            {
+                strlist.Add("爆装+" + x.Bomb.ToString());
+            }
+            if (x.Air != 0)
+            {
+                strlist.Add("对空+" + x.Air.ToString());
+            }
+            if (x.Antisub != 0)
+            {
+                strlist.Add("对潜+" + x.Antisub.ToString());
+            }
+            if (x.Search != 0)
+            {
+                strlist.Add("索敌+" + x.Search.ToString());
+            }
+            if (x.Hitrate != 0)
+            {
+                strlist.Add("命中+" + x.Hitrate.ToString());
+            }
+            if (x.Dodge != 0)
+            {
+                strlist.Add("回避+" + x.Dodge.ToString());
+            }
+            target.DataContext = strlist;
         }
         #endregion
 
@@ -152,7 +324,7 @@ namespace KanDic.Plugins
         }
         #endregion
 
-        #region 按下变更按钮
+        #region 按下舰船变更按钮
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
             DoubleAnimation da1 = new DoubleAnimation();
@@ -223,6 +395,44 @@ namespace KanDic.Plugins
         }
         #endregion
 
+        #region 按下装备更换按钮
+        private void Change_Click(object sender, RoutedEventArgs e)
+        {
+
+            if(soubinum == 1)
+            {
+                example[posnum].soubi1 = equips[rownum];
+                soubi1.Carry.Text = example[posnum].Carry.ToString();
+                soubi1.NameText.Text = example[posnum].soubi1.Name;
+                soubi1.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi1.Icon, UriKind.Relative));
+            }
+            if (soubinum == 2)
+            {
+                example[posnum].soubi2 = equips[rownum];
+                soubi2.Carry.Text = example[posnum].Carry.ToString();
+                soubi2.NameText.Text = example[posnum].soubi2.Name;
+                soubi2.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi2.Icon, UriKind.Relative));
+            }
+            if (soubinum == 3)
+            {
+                example[posnum].soubi3 = equips[rownum];
+                soubi3.Carry.Text = example[posnum].Carry.ToString();
+                soubi3.NameText.Text = example[posnum].soubi3.Name;
+                soubi3.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi3.Icon, UriKind.Relative));
+            }
+            if (soubinum == 4)
+            {
+                example[posnum].soubi4 = equips[rownum];
+                soubi4.Carry.Text = example[posnum].Carry.ToString();
+                soubi4.NameText.Text = example[posnum].soubi4.Name;
+                soubi4.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi4.Icon, UriKind.Relative));
+            }
+            DataBox.DataContext = new ShowData(example[posnum]);
+            SoubiList_Hide(null,null);
+            ChangePanel.Visibility = Visibility.Hidden;
+        }
+        #endregion
+
         #region 计算结果展开动画
         private void Expander_Expanded(object sender, RoutedEventArgs e)
         {
@@ -243,6 +453,7 @@ namespace KanDic.Plugins
         }
         #endregion
 
+        #region 取下舰娘动画
         private void row0_Click(object sender, RoutedEventArgs e)
         {
             DoubleAnimation da1 = new DoubleAnimation();
@@ -311,5 +522,44 @@ namespace KanDic.Plugins
             SelectPanel.Visibility = Visibility.Hidden;
 
         }
+        #endregion
+
+        #region 页数变更按钮
+        private void Page_Prev(object sender, MouseButtonEventArgs e)
+        {
+            if (page > 1)
+            {
+                page--;
+                ShipList_Change(page);
+            }
+        }
+
+        private void Page_Next(object sender, MouseButtonEventArgs e)
+        {
+            if (page < ships.Count() / 10 + 1)
+            {
+                page++;
+                ShipList_Change(page);
+            }
+        }
+
+        private void Pages_Prev(object sender, MouseButtonEventArgs e)
+        {
+            if (page > 1)
+            {
+                page--;
+                SoubiList_Change(page);
+            }
+        }
+
+        private void Pages_Next(object sender, MouseButtonEventArgs e)
+        {
+            if (page < equips.Count() / 10 + 1)
+            {
+                page++;
+                SoubiList_Change(page);
+            }
+        }
+        #endregion
     }
 }

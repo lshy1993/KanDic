@@ -44,7 +44,13 @@ namespace KanDic.Viewer
         private void Show_Detail(object sender, RoutedEventArgs e)
         {
             Calculator xx = (Calculator)Calculator.GetWindow(this);
+
+            //数据binding
             xx.posnum = Convert.ToInt32(this.Tag);
+            xx.ShipDetail.DataContext = xx.example[xx.posnum];
+            xx.DataBox.DataContext = new ShowData(xx.example[xx.posnum]);
+
+            //动画部分
             xx.DetailPanel.Visibility = Visibility.Visible;
             xx.SelectPanel.Visibility = Visibility.Hidden;
             DoubleAnimation da = new DoubleAnimation();

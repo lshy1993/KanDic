@@ -110,6 +110,7 @@
     <Compile Include="Resources\Class\Map\MapInfo.cs" />
     <Compile Include="Resources\Class\MoniKan.cs" />
     <Compile Include="Resources\Class\Quest\QuestInfo.cs" />
+    <Compile Include="Resources\Class\ShowData.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
     <Compile Include="Resources\Class\Soubi\Soubi.cs" />
     <Compile Include="Resources\Class\Kan\SourceInfo.cs" />
@@ -967,6 +968,8 @@
     <Resource Include="Cache\Calculate\left.PNG" />
     <Resource Include="Cache\Calculate\right.PNG" />
     <Resource Include="Cache\Calculate\shuxing.PNG" />
+    <Resource Include="Cache\Calculate\next.PNG" />
+    <Resource Include="Cache\Calculate\prev.PNG" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

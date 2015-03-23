@@ -4,14 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             Loaded="UserControl_Loaded"
-             d:DesignHeight="27" d:DesignWidth="470">
+             d:DesignHeight="27" d:DesignWidth="470"
+             DataContextChanged="UserControl_DataContextChanged">
     <UserControl.Resources>
         <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
     </UserControl.Resources>
     <StackPanel Margin="35,0,0,0" Orientation="Horizontal">
         <Canvas Width="30" Height="30">
-            <Image Name="Icon" Source="{Binding Icon}" Stretch="None"/>
+            <Image Source="{Binding Icon}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
         </Canvas>
         <Button Click="row_Click">
             <Grid Margin="0">
