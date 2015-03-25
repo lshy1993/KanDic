@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using KanDic.Viewer;
 using KanDic.Resources;
+using KanDic.Plugins.Simulator;
 
 namespace KanDic.Plugins
 {
@@ -27,23 +28,26 @@ namespace KanDic.Plugins
         //public Soubi[] equips;
         public List<Kan> ships;
         public List<Soubi> equips;
-        public MoniKan[] example = new MoniKan[6];
-        public int page,rownum,posnum,soubinum;//page那一页，rownum哪一行，posnum哪只船，soubinum哪格装备
+        public MoniKan[] example = new MoniKan[7];
+        public int shippage,soubipage,rownum,posnum,soubinum;//page一页，rownum哪一行，posnum哪只船，soubinum哪格装备
+
+        public List<string> airplane = new List<string>() { "艦上戦闘機", "艦上爆撃機", "艦上攻撃機", "艦上偵察機", "水上爆撃機", "水上偵察機" };
 
         public Calculator()
         {
             InitializeComponent();
             Set_Ship(KanDic.Viewer.KanColle.ships);
             Set_Soubi(KanDic.Viewer.Equipment.equips);
-            page = 1;
+            shippage = 1;
+            soubipage = 1;
             Dock1.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/1.PNG", UriKind.Relative));
             Dock2.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/2.PNG", UriKind.Relative));
             Dock3.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/3.PNG", UriKind.Relative));
             Dock4.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/4.PNG", UriKind.Relative));
             Dock5.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/5.PNG", UriKind.Relative));
             Dock6.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/6.PNG", UriKind.Relative));
-            ShipList_Change(page);
-            SoubiList_Change(page);
+            ShipList_Change(shippage);
+            SoubiList_Change(soubipage);
         }
 
         #region 形成船List
@@ -147,7 +151,7 @@ namespace KanDic.Plugins
         #region 生成装备按钮
         public void SoubiList_Change(int x)
         {
-            PageNums.Text = page.ToString();
+            PageNums.Text = soubipage.ToString();
             if (x * 10 - 10 < equips.Count)
                 soubirow1.DataContext = equips[x * 10 - 10];
             else
@@ -189,18 +193,15 @@ namespace KanDic.Plugins
             else
                 soubirow10.DataContext = null;
         }
-        #endregion
+        #endregion 
 
         #region 生成装备对比
         public void Compare_Init()
         {
             Soubi yuan = new Soubi();
             Soubi hou = new Soubi();
-            if (soubinum == 1) yuan = example[posnum].soubi1;
-            if (soubinum == 2) yuan = example[posnum].soubi2;
-            if (soubinum == 3) yuan = example[posnum].soubi3;
-            if (soubinum == 4) yuan = example[posnum].soubi4;
-            hou = equips[rownum];
+            yuan = example[posnum].soubi[soubinum];
+            hou = equips[soubipage * 10 - 11 + rownum];
             Compare_List(yuan,BeforeChange);
             Compare_List(hou,AfterChange);
         }
@@ -335,7 +336,6 @@ namespace KanDic.Plugins
             da2.From = 10;
             da2.To = -170;
             da2.Duration = TimeSpan.FromSeconds(0.15);
-
             if (posnum == 1)
             {
                 if (Dock1.InfoBox.DataContext == null)
@@ -390,6 +390,7 @@ namespace KanDic.Plugins
                 }
                 Dock6.InfoBox.DataContext = example[6];
             }
+            Result_Refresh();
             ConfirmPanel.Visibility = Visibility.Hidden;
             SelectPanel.Visibility = Visibility.Hidden;
         }
@@ -398,42 +399,36 @@ namespace KanDic.Plugins
         #region 按下装备更换按钮
         private void Change_Click(object sender, RoutedEventArgs e)
         {
-
-            if(soubinum == 1)
-            {
-                example[posnum].soubi1 = equips[rownum];
-                soubi1.Carry.Text = example[posnum].Carry.ToString();
-                soubi1.NameText.Text = example[posnum].soubi1.Name;
-                soubi1.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi1.Icon, UriKind.Relative));
-            }
-            if (soubinum == 2)
-            {
-                example[posnum].soubi2 = equips[rownum];
-                soubi2.Carry.Text = example[posnum].Carry.ToString();
-                soubi2.NameText.Text = example[posnum].soubi2.Name;
-                soubi2.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi2.Icon, UriKind.Relative));
-            }
-            if (soubinum == 3)
-            {
-                example[posnum].soubi3 = equips[rownum];
-                soubi3.Carry.Text = example[posnum].Carry.ToString();
-                soubi3.NameText.Text = example[posnum].soubi3.Name;
-                soubi3.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi3.Icon, UriKind.Relative));
-            }
-            if (soubinum == 4)
-            {
-                example[posnum].soubi4 = equips[rownum];
-                soubi4.Carry.Text = example[posnum].Carry.ToString();
-                soubi4.NameText.Text = example[posnum].soubi4.Name;
-                soubi4.Icon.Source = new BitmapImage(new Uri(example[posnum].soubi4.Icon, UriKind.Relative));
-            }
+            example[posnum].soubi[soubinum] = equips[soubipage * 10 - 11 + rownum];
+            SoubiButton_Init();
             DataBox.DataContext = new ShowData(example[posnum]);
+            Result_Refresh();
             SoubiList_Hide(null,null);
             ChangePanel.Visibility = Visibility.Hidden;
         }
+
+        public void SoubiButton_Init()
+        {
+            soubi1.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[1].Type) == null) ? "" : example[posnum].Carrys[1].ToString();
+            soubi1.NameText.Text = example[posnum].soubi[1].Name;
+            soubi1.Icon.Source = (example[posnum].soubi[1].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[1].Icon, UriKind.Relative));
+
+            soubi2.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[2].Type) == null) ? "" : example[posnum].Carrys[2].ToString();
+            soubi2.NameText.Text = example[posnum].soubi[2].Name;
+            soubi2.Icon.Source = (example[posnum].soubi[2].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[2].Icon, UriKind.Relative));
+
+            soubi3.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[3].Type) == null) ? "" : example[posnum].Carrys[3].ToString();
+            soubi3.NameText.Text = example[posnum].soubi[3].Name;
+            soubi3.Icon.Source = (example[posnum].soubi[3].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[3].Icon, UriKind.Relative));
+
+            soubi4.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[4].Type) == null) ? "" : example[posnum].Carrys[4].ToString();
+            soubi4.NameText.Text = example[posnum].soubi[4].Name;
+            soubi4.Icon.Source = (example[posnum].soubi[4].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[4].Icon, UriKind.Relative));
+
+        }
         #endregion
 
-        #region 计算结果展开动画
+        #region 计算结果栏展开
         private void Expander_Expanded(object sender, RoutedEventArgs e)
         {
             DoubleAnimation da = new DoubleAnimation();
@@ -464,7 +459,7 @@ namespace KanDic.Plugins
             da2.From = -170;
             da2.To = 0;
             da2.Duration = TimeSpan.FromSeconds(0.15);
-
+            example[posnum] = null;
             if (posnum == 1)
             {
                 if (Dock1.InfoBox.DataContext != null)
@@ -519,47 +514,84 @@ namespace KanDic.Plugins
                 }
                 Dock6.InfoBox.DataContext = null;
             }
+            Result_Refresh();
             SelectPanel.Visibility = Visibility.Hidden;
-
         }
         #endregion
 
         #region 页数变更按钮
         private void Page_Prev(object sender, MouseButtonEventArgs e)
         {
-            if (page > 1)
+            if (shippage > 1)
             {
-                page--;
-                ShipList_Change(page);
+                shippage--;
+                ShipList_Change(shippage);
             }
         }
 
         private void Page_Next(object sender, MouseButtonEventArgs e)
         {
-            if (page < ships.Count() / 10 + 1)
+            if (shippage < ships.Count() / 10 + 1)
             {
-                page++;
-                ShipList_Change(page);
+                shippage++;
+                ShipList_Change(shippage);
             }
         }
 
         private void Pages_Prev(object sender, MouseButtonEventArgs e)
         {
-            if (page > 1)
+            if (soubipage > 1)
             {
-                page--;
-                SoubiList_Change(page);
+                soubipage--;
+                SoubiList_Change(soubipage);
             }
         }
 
         private void Pages_Next(object sender, MouseButtonEventArgs e)
         {
-            if (page < equips.Count() / 10 + 1)
+            if (soubipage < equips.Count() / 10 + 1)
             {
-                page++;
-                SoubiList_Change(page);
+                soubipage++;
+                SoubiList_Change(soubipage);
             }
         }
         #endregion
+
+        #region 各项数值计算
+        private void Over_Click(object sender, RoutedEventArgs e)
+        {
+            ResultPanel.Children.Clear();
+            ResultPanel.Children.Add(new Koukusen(example));
+        }
+        private void Koukusen_Click(object sender, RoutedEventArgs e)
+        {
+            ResultPanel.Children.Clear();
+            ResultPanel.Children.Add(new Koukusen(example));
+        }
+        private void Raigekisen_Click(object sender, RoutedEventArgs e)
+        {
+            ResultPanel.Children.Clear();
+            ResultPanel.Children.Add(new Koukusen(example));
+        }
+        private void Hougekisen_Click(object sender, RoutedEventArgs e)
+        {
+            ResultPanel.Children.Clear();
+            ResultPanel.Children.Add(new Koukusen(example));
+        }
+        private void Yasen_Click(object sender, RoutedEventArgs e)
+        {
+            ResultPanel.Children.Clear();
+            ResultPanel.Children.Add(new Koukusen(example));
+        }
+        #endregion
+
+        private void Result_Refresh()
+        {
+            if ((bool)rb1.IsChecked) Over_Click(null, null);
+            if ((bool)rb2.IsChecked) Koukusen_Click(null, null);
+            if ((bool)rb3.IsChecked) Raigekisen_Click(null, null);
+            if ((bool)rb4.IsChecked) Hougekisen_Click(null, null);
+            if ((bool)rb5.IsChecked) Yasen_Click(null, null);
+        }
     }
 }

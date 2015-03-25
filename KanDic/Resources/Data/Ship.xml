@@ -366,10 +366,10 @@
 			<Lucky>50</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>0</Carry1>
+			<Carry2>0</Carry2>
+			<Carry3>0</Carry3>
+			<Carry4>0</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -449,10 +449,10 @@
 			<Lucky>12</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>18</Carry1>
+			<Carry2>18</Carry2>
+			<Carry3>27</Carry3>
+			<Carry4>10</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -532,10 +532,10 @@
 			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>18</Carry1>
+			<Carry2>18</Carry2>
+			<Carry3>45</Carry3>
+			<Carry4>12</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -615,10 +615,10 @@
 			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>12</Carry1>
+			<Carry2>27</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>7</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -698,10 +698,10 @@
 			<Lucky>35</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>12</Carry1>
+			<Carry2>27</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>7</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -781,10 +781,10 @@
 			<Lucky>10</Lucky>
 		</BattleInfo>
 		<EquipInfo>
-			<Carry1>3</Carry1>
-			<Carry2>3</Carry2>
-			<Carry3>3</Carry3>
-			<Carry4>3</Carry4>
+			<Carry1>0</Carry1>
+			<Carry2>0</Carry2>
+			<Carry3>0</Carry3>
+			<Carry4>0</Carry4>
 			<Equip1>41cm連裝炮</Equip1>
 			<Equip2>14cm單裝炮</Equip2>
 			<Equip3>零式水上偵察機</Equip3>
@@ -13416,7 +13416,12 @@
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
-		<EquipInfo/>
+		<EquipInfo>
+			<Carry1>20</Carry1>
+			<Carry2>20</Carry2>
+			<Carry3>32</Carry3>
+			<Carry4>10</Carry4>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -13455,7 +13460,12 @@
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo/>
-		<EquipInfo/>
+		<EquipInfo>
+			<Carry1>20</Carry1>
+			<Carry2>20</Carry2>
+			<Carry3>46</Carry3>
+			<Carry4>12</Carry4>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>

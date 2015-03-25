@@ -12,6 +12,8 @@ namespace KanDic.Resources
         public string ImageName { get; set; }
         public string IconName { get; set; }
 
+        public string Type { get; set; }
+
         public int LV { get; set; }
 
         public int HP { get; set; }
@@ -32,15 +34,9 @@ namespace KanDic.Resources
         public int MinTorpedo { get; set; }
         public int MinAir { get; set; }
 
-        public Soubi soubi1 { get; set; }
-        public Soubi soubi2 { get; set; }
-        public Soubi soubi3 { get; set; }
-        public Soubi soubi4 { get; set; }
+        public Soubi[] soubi { get; set; }
 
-        public int Carry1 { get; set; }
-        public int Carry2 { get; set; }
-        public int Carry3 { get; set; }
-        public int Carry4 { get; set; }
+        public int[] Carrys { get; set; }
 
         public int MaxPower { get; set; }
         public int MaxDefence { get; set; }
@@ -52,6 +48,8 @@ namespace KanDic.Resources
         public MoniKan(Kan xx)
         {
             LV = 1;
+
+            Type = xx.BasicInfo.Type;
 
             Name = xx.BasicInfo.Name;
             ImageName = xx.BasicInfo.FileName;
@@ -79,15 +77,17 @@ namespace KanDic.Resources
             MaxDefence = xx.MaxInfo.Defence;
             MaxTorpedo = xx.MaxInfo.Torpedo;
 
-            soubi1 = new Soubi();
-            soubi2 = new Soubi();
-            soubi3 = new Soubi();
-            soubi4 = new Soubi();
+            soubi = new Soubi[5];
+            soubi[1] = new Soubi();
+            soubi[2] = new Soubi();
+            soubi[3] = new Soubi();
+            soubi[4] = new Soubi();
 
-            Carry1 = Convert.ToInt32(xx.EquipInfo.Carry1);
-            Carry2 = Convert.ToInt32(xx.EquipInfo.Carry2);
-            Carry3 = Convert.ToInt32(xx.EquipInfo.Carry3);
-            Carry4 = Convert.ToInt32(xx.EquipInfo.Carry4);
+            Carrys = new int[5];
+            Carrys[1] = Convert.ToInt32(xx.EquipInfo.Carry1);
+            Carrys[2] = Convert.ToInt32(xx.EquipInfo.Carry2);
+            Carrys[3] = Convert.ToInt32(xx.EquipInfo.Carry3);
+            Carrys[4] = Convert.ToInt32(xx.EquipInfo.Carry4);
         }
     }
 }

@@ -88,6 +88,9 @@
     <Compile Include="Plugins\MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\Simulator\Koukusen.xaml.cs">
+      <DependentUpon>Koukusen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Plugins\Simulator\ShipRow.xaml.cs">
       <DependentUpon>ShipRow.xaml</DependentUpon>
     </Compile>
@@ -166,6 +169,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Plugins\Simulator\Koukusen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Plugins\Simulator\ShipRow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -181,6 +188,10 @@
     <Page Include="Resources\Style\CalculateButton.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\CalculateResult.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\Style\MapStyle2.xaml">
       <SubType>Designer</SubType>

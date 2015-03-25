@@ -14,9 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KanDic.Resources;
-using KanDic.Plugins;
 
-namespace KanDic.Viewer
+namespace KanDic.Plugins.Simulator
 {
     /// <summary>
     /// OverView.xaml 的交互逻辑
@@ -49,6 +48,7 @@ namespace KanDic.Viewer
             xx.posnum = Convert.ToInt32(this.Tag);
             xx.ShipDetail.DataContext = xx.example[xx.posnum];
             xx.DataBox.DataContext = new ShowData(xx.example[xx.posnum]);
+            xx.SoubiButton_Init();
 
             //动画部分
             xx.DetailPanel.Visibility = Visibility.Visible;
