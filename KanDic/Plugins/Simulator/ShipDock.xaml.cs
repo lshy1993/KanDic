@@ -20,9 +20,9 @@ namespace KanDic.Plugins.Simulator
     /// <summary>
     /// OverView.xaml 的交互逻辑
     /// </summary>
-    public partial class OverView : UserControl
+    public partial class ShipDock : UserControl
     {
-        public OverView()
+        public ShipDock()
         {
             InitializeComponent();
         }

@@ -59,7 +59,7 @@ namespace KanDic.Plugins.Simulator
                                 setgrid(i, j, name, "通常" + damage1.ToString() + "  " + "强击" + damage2.ToString(), "d1e2ff");
                                 break;
                             case "艦上偵察機":
-                                setgrid(i, j, "", name, "fff380");
+                                setgrid(i, j, name, "", "fff380");
                                 break;
                         }
                     }
@@ -85,14 +85,20 @@ namespace KanDic.Plugins.Simulator
             tb.HorizontalAlignment = HorizontalAlignment.Center;
             tb.Foreground = new SolidColorBrush(Colors.Black);
             tb.Text = text1;
+            tb.VerticalAlignment = VerticalAlignment.Center;
+            if (text2 == "") tb.SetValue(Grid.RowSpanProperty, 2);
             gg.Children.Add(tb);
 
-            tb = new TextBlock();
-            tb.HorizontalAlignment = HorizontalAlignment.Center;
-            tb.Foreground = new SolidColorBrush(Colors.Black);
-            tb.Text = text2;
-            tb.SetValue(Grid.RowProperty, 1);
-            gg.Children.Add(tb);
+            if (text2 != "")
+            {
+                tb = new TextBlock();
+                tb.HorizontalAlignment = HorizontalAlignment.Center;
+                tb.Foreground = new SolidColorBrush(Colors.Black);
+                tb.Text = text2;
+                tb.VerticalAlignment = VerticalAlignment.Center;
+                tb.SetValue(Grid.RowProperty, 1);
+                gg.Children.Add(tb);
+            }
 
             bod.Child = gg;
             bod.SetValue(Grid.ColumnProperty, colunm);

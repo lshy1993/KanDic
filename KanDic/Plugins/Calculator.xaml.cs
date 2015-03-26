@@ -25,11 +25,17 @@ namespace KanDic.Plugins
     /// </summary>
     public partial class Calculator : MetroWindow
     {
-        //public Soubi[] equips;
         public List<Kan> ships;
         public List<Soubi> equips;
         public MoniKan[] example = new MoniKan[7];
-        public int shippage,soubipage,rownum,posnum,soubinum;//page一页，rownum哪一行，posnum哪只船，soubinum哪格装备
+        public int shippage, soubipage, rownum, posnum, soubinum;//page一页，rownum哪一行，posnum哪只船，soubinum哪格装备
+
+        public class Level
+        {
+            public int LV { get; set; }
+            public Level(){}
+        };//司令部等级
+        Level commanderlv = new Level();
 
         public List<string> airplane = new List<string>() { "艦上戦闘機", "艦上爆撃機", "艦上攻撃機", "艦上偵察機", "水上爆撃機", "水上偵察機" };
 
@@ -38,6 +44,8 @@ namespace KanDic.Plugins
             InitializeComponent();
             Set_Ship(KanDic.Viewer.KanColle.ships);
             Set_Soubi(KanDic.Viewer.Equipment.equips);
+            commanderlv.LV = 1;
+            LevelPanel.DataContext = commanderlv;
             shippage = 1;
             soubipage = 1;
             Dock1.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/1.PNG", UriKind.Relative));
@@ -97,7 +105,16 @@ namespace KanDic.Plugins
             {
                 if (xx[i] != null) equips.Add(xx[i]);
             }
-            //equips.Sort();
+            equips.Sort((x,y) =>{
+                string aa = x.Icon.Substring(18, x.Icon.Length - 22);
+                string bb = y.Icon.Substring(18, y.Icon.Length - 22);
+                if (int.Parse(aa) > int.Parse(bb))
+                    return 1;
+                else if (int.Parse(aa) == int.Parse(bb))
+                    return 0;
+                else
+                    return -1;
+            });
         }
         #endregion
 
@@ -328,6 +345,7 @@ namespace KanDic.Plugins
         #region 按下舰船变更按钮
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
+            example[posnum] = new MoniKan(ships[shippage * 10 - 11 + rownum]);
             DoubleAnimation da1 = new DoubleAnimation();
             da1.From = 10;
             da1.To = -170;
@@ -424,7 +442,6 @@ namespace KanDic.Plugins
             soubi4.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[4].Type) == null) ? "" : example[posnum].Carrys[4].ToString();
             soubi4.NameText.Text = example[posnum].soubi[4].Name;
             soubi4.Icon.Source = (example[posnum].soubi[4].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[4].Icon, UriKind.Relative));
-
         }
         #endregion
 
@@ -561,7 +578,7 @@ namespace KanDic.Plugins
         private void Over_Click(object sender, RoutedEventArgs e)
         {
             ResultPanel.Children.Clear();
-            ResultPanel.Children.Add(new Koukusen(example));
+            ResultPanel.Children.Add(new Over(example, commanderlv.LV));
         }
         private void Koukusen_Click(object sender, RoutedEventArgs e)
         {
@@ -592,6 +609,11 @@ namespace KanDic.Plugins
             if ((bool)rb3.IsChecked) Raigekisen_Click(null, null);
             if ((bool)rb4.IsChecked) Hougekisen_Click(null, null);
             if ((bool)rb5.IsChecked) Yasen_Click(null, null);
+        }
+
+        private void LevelPanel_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if ((bool)rb1.IsChecked) Over_Click(null, null);
         }
     }
 }
