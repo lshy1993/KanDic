@@ -25,17 +25,19 @@ namespace KanDic.Plugins
     /// </summary>
     public partial class Calculator : MetroWindow
     {
-        public List<Kan> ships;
-        public List<Soubi> equips;
-        public MoniKan[] example = new MoniKan[7];
-        public int shippage, soubipage, rownum, posnum, soubinum;//page一页，rownum哪一行，posnum哪只船，soubinum哪格装备
+        public List<Kan> ships;//排序后的船只list
+        public List<Soubi> equips;//排序后的装备list
+        public MoniKan[] example = new MoniKan[7];//储存队列中6只船，0作废
+        public int shippage, soubipage, rownum, posnum, soubinum;
+        //shippage船只页数，soubipage装备页数，rownum记录按下的行数，posnum队列中船只编号，soubinum装备格编号
+        public int formation, status;//阵型选择，交战状态
 
         public class Level
         {
             public int LV { get; set; }
             public Level(){}
         };//司令部等级
-        Level commanderlv = new Level();
+        public Level commanderlv = new Level();
 
         public List<string> airplane = new List<string>() { "艦上戦闘機", "艦上爆撃機", "艦上攻撃機", "艦上偵察機", "水上爆撃機", "水上偵察機" };
 
@@ -48,6 +50,8 @@ namespace KanDic.Plugins
             LevelPanel.DataContext = commanderlv;
             shippage = 1;
             soubipage = 1;
+            formation = 0;
+            status = 0;
             Dock1.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/1.PNG", UriKind.Relative));
             Dock2.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/2.PNG", UriKind.Relative));
             Dock3.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/3.PNG", UriKind.Relative));
@@ -278,6 +282,7 @@ namespace KanDic.Plugins
 
         private void ShipView_Hide(object sender, MouseButtonEventArgs e)
         {
+            example[posnum] = null;
             DoubleAnimation da = new DoubleAnimation();
             da.From = 490;
             da.To = 700;
@@ -345,7 +350,7 @@ namespace KanDic.Plugins
         #region 按下舰船变更按钮
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
-            example[posnum] = new MoniKan(ships[shippage * 10 - 11 + rownum]);
+            //example[posnum] = new MoniKan(ships[shippage * 10 - 11 + rownum]);
             DoubleAnimation da1 = new DoubleAnimation();
             da1.From = 10;
             da1.To = -170;
@@ -429,19 +434,19 @@ namespace KanDic.Plugins
         {
             soubi1.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[1].Type) == null) ? "" : example[posnum].Carrys[1].ToString();
             soubi1.NameText.Text = example[posnum].soubi[1].Name;
-            soubi1.Icon.Source = (example[posnum].soubi[1].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[1].Icon, UriKind.Relative));
+            soubi1.seticon(example[posnum].soubi[1].Icon);
 
             soubi2.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[2].Type) == null) ? "" : example[posnum].Carrys[2].ToString();
             soubi2.NameText.Text = example[posnum].soubi[2].Name;
-            soubi2.Icon.Source = (example[posnum].soubi[2].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[2].Icon, UriKind.Relative));
+            soubi2.seticon(example[posnum].soubi[2].Icon);
 
             soubi3.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[3].Type) == null) ? "" : example[posnum].Carrys[3].ToString();
             soubi3.NameText.Text = example[posnum].soubi[3].Name;
-            soubi3.Icon.Source = (example[posnum].soubi[3].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[3].Icon, UriKind.Relative));
+            soubi3.seticon(example[posnum].soubi[3].Icon);
 
             soubi4.Carry.Text = (airplane.Find(x => x == example[posnum].soubi[4].Type) == null) ? "" : example[posnum].Carrys[4].ToString();
             soubi4.NameText.Text = example[posnum].soubi[4].Name;
-            soubi4.Icon.Source = (example[posnum].soubi[4].Icon == null) ? null : new BitmapImage(new Uri(example[posnum].soubi[4].Icon, UriKind.Relative));
+            soubi4.seticon(example[posnum].soubi[4].Icon);
         }
         #endregion
 
@@ -450,7 +455,7 @@ namespace KanDic.Plugins
         {
             DoubleAnimation da = new DoubleAnimation();
             da.From = 455;
-            da.To = 700;
+            da.To = 800;
             da.Duration = TimeSpan.FromSeconds(0.2);
             this.BeginAnimation(HeightProperty, da);
         }
@@ -458,7 +463,7 @@ namespace KanDic.Plugins
         private void Expander_Collapsed(object sender, RoutedEventArgs e)
         {
             DoubleAnimation da = new DoubleAnimation();
-            da.From = 700;
+            da.From = 800;
             da.To = 455;
             da.Duration = TimeSpan.FromSeconds(0.2);
             this.BeginAnimation(HeightProperty, da);
@@ -574,11 +579,11 @@ namespace KanDic.Plugins
         }
         #endregion
 
-        #region 各项数值计算
+        #region 计算结果选择按钮
         private void Over_Click(object sender, RoutedEventArgs e)
         {
             ResultPanel.Children.Clear();
-            ResultPanel.Children.Add(new Over(example, commanderlv.LV));
+            ResultPanel.Children.Add(new OverView(example, commanderlv.LV));
         }
         private void Koukusen_Click(object sender, RoutedEventArgs e)
         {
@@ -588,17 +593,17 @@ namespace KanDic.Plugins
         private void Raigekisen_Click(object sender, RoutedEventArgs e)
         {
             ResultPanel.Children.Clear();
-            ResultPanel.Children.Add(new Koukusen(example));
+            ResultPanel.Children.Add(new Raigekisen(example));
         }
         private void Hougekisen_Click(object sender, RoutedEventArgs e)
         {
             ResultPanel.Children.Clear();
-            ResultPanel.Children.Add(new Koukusen(example));
+            ResultPanel.Children.Add(new Hougekisen(example));
         }
         private void Yasen_Click(object sender, RoutedEventArgs e)
         {
             ResultPanel.Children.Clear();
-            ResultPanel.Children.Add(new Koukusen(example));
+            ResultPanel.Children.Add(new Yasen(example));
         }
         #endregion
 

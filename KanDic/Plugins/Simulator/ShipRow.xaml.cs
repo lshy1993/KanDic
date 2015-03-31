@@ -38,7 +38,8 @@ namespace KanDic.Plugins.Simulator
             da.Duration = TimeSpan.FromSeconds(0.2);
             xx.ShipView.BeginAnimation(Canvas.LeftProperty, da);
             xx.rownum = Convert.ToInt32(this.Tag);
-            xx.ShipView.DataContext = new MoniKan(xx.ships[xx.shippage * 10 - 11 + xx.rownum]);
+            xx.example[xx.posnum] = new MoniKan(xx.ships[xx.shippage * 10 - 11 + xx.rownum]);
+            xx.ShipView.DataContext = xx.example[xx.posnum];
         }
     }
 }

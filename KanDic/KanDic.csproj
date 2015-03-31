@@ -88,11 +88,20 @@
     <Compile Include="Plugins\MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\Simulator\Hougekisen.xaml.cs">
+      <DependentUpon>Hougekisen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Plugins\Simulator\Koukusen.xaml.cs">
       <DependentUpon>Koukusen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plugins\Simulator\Over.xaml.cs">
-      <DependentUpon>Over.xaml</DependentUpon>
+    <Compile Include="Plugins\Simulator\OverView.xaml.cs">
+      <DependentUpon>OverView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\OverViewRow.xaml.cs">
+      <DependentUpon>OverViewRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\Raigekisen.xaml.cs">
+      <DependentUpon>Raigekisen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Plugins\Simulator\ShipRow.xaml.cs">
       <DependentUpon>ShipRow.xaml</DependentUpon>
@@ -102,6 +111,9 @@
     </Compile>
     <Compile Include="Plugins\Simulator\SoubiRow.xaml.cs">
       <DependentUpon>SoubiRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\Yasen.xaml.cs">
+      <DependentUpon>Yasen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Resources\Class\Enermy\Enermy.cs" />
     <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
@@ -173,11 +185,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Plugins\Simulator\Hougekisen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Plugins\Simulator\Koukusen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Plugins\Simulator\Over.xaml">
+    <Page Include="Plugins\Simulator\OverView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\OverViewRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\Raigekisen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -190,6 +214,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Plugins\Simulator\SoubiRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\Yasen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -14,7 +14,7 @@
     EnableDWMDropShadow="True"
     ResizeMode="CanResizeWithGrip"
     
-    WindowStartupLocation="CenterScreen">
+    WindowStartupLocation="Manual">
     <Grid Background="#f0e6dc">
         <Grid.Resources>
             <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>

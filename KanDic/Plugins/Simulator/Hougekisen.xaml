@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="KanDic.Plugins.Simulator.Hougekisen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Loaded="UserControl_Loaded"
+             d:DesignHeight="300" d:DesignWidth="600">
+    <DockPanel>
+        <DockPanel.Resources>
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize" Value="12"/>
+            </Style>
+        </DockPanel.Resources>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <TextBlock Text="阵型选择" VerticalAlignment="Center" Margin="5"/>
+            <ComboBox Name="Formation" Width="100" SelectionChanged="Formation_Changed">
+                <ComboBoxItem>単縦陣</ComboBoxItem>
+                <ComboBoxItem>複縦陣</ComboBoxItem>
+                <ComboBoxItem>輪形陣</ComboBoxItem>
+                <ComboBoxItem>梯形陣</ComboBoxItem>
+                <ComboBoxItem>単横陣</ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="交战状态" VerticalAlignment="Center" Margin="5"/>
+            <ComboBox Name="Status" Width="120" SelectionChanged="Status_Changed">
+                <ComboBoxItem>同航戦</ComboBoxItem>
+                <ComboBoxItem>反航戦</ComboBoxItem>
+                <ComboBoxItem>T字戦（優）</ComboBoxItem>
+                <ComboBoxItem>T字戦（劣）</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Rectangle Height="1" Fill="Gray" DockPanel.Dock="Top" Margin="5,0"/>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <TextBlock Text="舰船名" Width="60" Margin="5"/>
+            <TextBlock Text="首轮/二次顺序" Width="80" Margin="5"/>
+            <TextBlock Text="普通伤害" Width="60" Margin="5"/>
+            <TextBlock Text="弹着观测射击" Width="80" Margin="5"/>
+            <TextBlock Text="伤害" Width="50" Margin="5"/>
+            <TextBlock Text="二连伤害" Width="60" Margin="5"/>
+            <TextBlock Text="对潜" Width="50" Margin="5"/>
+            <TextBlock Text="命中" Width="50" Margin="5"/>
+        </StackPanel>
+        <Rectangle Height="1" Fill="Gray" DockPanel.Dock="Top" Margin="5,0"/>
+        <StackPanel Name="MainPanel"/>
+    </DockPanel>
+</UserControl>

@@ -43,6 +43,11 @@ namespace KanDic.Resources
         public int MaxTorpedo { get; set; }
         public int MaxAir { get; set; }
 
+        public int Fuel { get; set; }
+        public int Ammo { get; set; }
+        public int FuelAll { get; set; }
+        public int AmmoAll { get; set; }
+
         public MoniKan() { }
 
         public MoniKan(Kan xx)
@@ -76,6 +81,11 @@ namespace KanDic.Resources
             MaxAir = xx.MaxInfo.Air;
             MaxDefence = xx.MaxInfo.Defence;
             MaxTorpedo = xx.MaxInfo.Torpedo;
+
+            Fuel = xx.SupplyInfo.Fuel;
+            Ammo = xx.SupplyInfo.Ammo;
+            FuelAll = xx.MaxInfo.Fuel;
+            AmmoAll = xx.MaxInfo.Ammo;
 
             soubi = new Soubi[5];
             soubi[1] = new Soubi();

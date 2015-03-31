@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="KanDic.Plugins.Simulator.OverView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Loaded="UserControl_Loaded"
+             d:DesignHeight="300" d:DesignWidth="600">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="索敌" VerticalAlignment="Center" Grid.RowSpan="3" Grid.Column="0" Margin="5"/>
+                    <Rectangle Width="1" Fill="Gray" Grid.RowSpan="3" Grid.Column="1"/>
+                    <TextBlock Text="旧版算法" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2"/>
+                    <Rectangle Width="1" Fill="Gray" Grid.RowSpan="3" Grid.Column="3"/>
+                    <TextBlock Text="新算法" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="4"/>
+                    <Rectangle Width="1" Fill="Gray" Grid.RowSpan="3" Grid.Column="5"/>
+                    <TextBlock Text="简化算法" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="6"/>
+                    <Rectangle Height="1" Fill="Gray" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6"/>
+                    <TextBlock Name="sd1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2"/>
+                    <TextBlock Name="sd2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="4"/>
+                    <TextBlock Name="sd3" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="6"/>
+                </Grid>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="阵型选择" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center"/>
+                    <TextBlock Text="交战状态" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"/>
+                    <ComboBox Name="Formation" Grid.Row="1" Grid.Column="0" SelectionChanged="Formation_Changed">
+                        <ComboBoxItem>単縦陣</ComboBoxItem>
+                        <ComboBoxItem>複縦陣</ComboBoxItem>
+                        <ComboBoxItem>輪形陣</ComboBoxItem>
+                        <ComboBoxItem>梯形陣</ComboBoxItem>
+                        <ComboBoxItem>単横陣</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox Name="Status" Grid.Row="1" Grid.Column="1" SelectionChanged="Status_Changed">
+                        <ComboBoxItem>同航戦</ComboBoxItem>
+                        <ComboBoxItem>反航戦</ComboBoxItem>
+                        <ComboBoxItem>T字戦（優）</ComboBoxItem>
+                        <ComboBoxItem>T字戦（劣）</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+            </Border>
+        </StackPanel>
+        <Border BorderBrush="Gray" BorderThickness="1" Background="{DynamicResource AccentColorBrush}" DockPanel.Dock="Top" Margin="5,0">
+            <StackPanel Orientation="Horizontal" Margin="5,0">
+                <TextBlock Name="All" Text="等级合计：" Foreground="White" Width="120"/>
+                <TextBlock Name="Average" Text="平均：" Foreground="White" Width="100"/>
+                <TextBlock Name="Air" Text="制空力：" Foreground="White" Width="100"/>
+                <TextBlock Name="Speed" Text="高速战舰" Foreground="White"/>
+            </StackPanel>
+        </Border>
+        <Rectangle Height="1" Fill="Gray" DockPanel.Dock="Top" Margin="5,5,5,0"/>
+        <StackPanel Name="ResultPanel" Margin="5,0"/>
+    </DockPanel>
+</UserControl>
