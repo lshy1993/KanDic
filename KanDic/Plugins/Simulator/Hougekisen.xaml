@@ -35,8 +35,8 @@
             <TextBlock Text="首轮/二次顺序" Width="80" Margin="5"/>
             <TextBlock Text="普通伤害" Width="60" Margin="5"/>
             <TextBlock Text="弹着观测射击" Width="80" Margin="5"/>
-            <TextBlock Text="伤害" Width="50" Margin="5"/>
-            <TextBlock Text="二连伤害" Width="60" Margin="5"/>
+            <TextBlock Text="伤害" Width="60" Margin="5"/>
+            <TextBlock Text="二连单发伤害" Width="80" Margin="5"/>
             <TextBlock Text="对潜" Width="50" Margin="5"/>
             <TextBlock Text="命中" Width="50" Margin="5"/>
         </StackPanel>

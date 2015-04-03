@@ -25,7 +25,7 @@ namespace KanDic.Plugins.Simulator
         {
             InitializeComponent();
             MainPanel.DataContext = calc.example[i];
-            nextexp.Text = "next: " + calc.GetNextExp(i);
+            nextexp.Text = "next: " + calc.NextExp(i);
             for (int j = 1; j <= 4; j++)
             {
                 if (calc.IfEquip(i, j)) addicon(calc.GetIcon(i, j), calc.GetSoubiName(i, j));

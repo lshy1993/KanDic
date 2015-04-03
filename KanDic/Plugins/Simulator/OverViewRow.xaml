@@ -17,7 +17,7 @@
             </StackPanel>
             <TextBlock Name="nextexp" FontSize="10" Foreground="Gray"/>
         </StackPanel>
-        <DockPanel Width="65" Margin="15,0">
+        <DockPanel Width="65" Margin="15,2,15,0">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
                 <TextBlock Text="HP: " FontSize="12" Foreground="Gray" VerticalAlignment="Bottom"/>
                 <TextBlock Text="{Binding HP}" FontSize="13" Foreground="White" VerticalAlignment="Bottom"/>

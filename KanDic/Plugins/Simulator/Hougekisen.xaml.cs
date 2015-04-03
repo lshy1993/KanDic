@@ -17,14 +17,14 @@ using KanDic.Resources;
 namespace KanDic.Plugins.Simulator
 {
     /// <summary>
-    /// Yasen.xaml 的交互逻辑
+    /// Hougekisen.xaml 的交互逻辑
     /// </summary>
-    public partial class Yasen : UserControl
+    public partial class Hougekisen : UserControl
     {
         public Keisanki calc;
         public Calculator xx;
 
-        public Yasen(MoniKan[] example)
+        public Hougekisen(MoniKan[] example)
         {
             InitializeComponent();
             calc = new Keisanki(example);
@@ -35,7 +35,7 @@ namespace KanDic.Plugins.Simulator
             MainPanel.Children.Clear();
             for (int i = 1; i <= 6; i++)
             {
-                if (calc.IfExist(i) && !calc.IfAirforce(i))
+                if (calc.IfExist(i))
                 {
                     double capa, capb;
                     StackPanel sp = new StackPanel();
@@ -46,43 +46,64 @@ namespace KanDic.Plugins.Simulator
                     tb.Width = 60;
                     tb.Margin = new Thickness(5);
                     sp.Children.Add(tb);
-                    //普通伤害
+                    //顺序
                     tb = new TextBlock();
-                    capb = calc.CAPB(xx.formation, xx.status, 3);
-                    tb.Text = calc.DamageAllY(calc.BasicDamageY(i), capb, 1, 1).ToString() + "-" + calc.DamageAllY(calc.BasicDamageY(i), capb, 1.5, 1).ToString();
-                    tb.Width = 60;
-                    tb.Margin = new Thickness(5);
-                    sp.Children.Add(tb);
-                    //夜战CI类型
-                    tb = new TextBlock();
-                    tb.Text = calc.GetCITypeY(i);
-                    tb.Width = 120;
-                    tb.Margin = new Thickness(5);
-                    sp.Children.Add(tb);
-                    //伤害
-                    tb = new TextBlock();
-                    capb = calc.CAPB(xx.formation, xx.status, 3);
-                    capa = calc.CAPY(calc.GetCITypeY(i));
-                    if(calc.GetCITypeY(i) != "-")
-                    {
-                        tb.Text = calc.DamageAllY(calc.BasicDamageY(i), capb, capa, 1).ToString() + "-" + calc.DamageAllY(calc.BasicDamageY(i), capb, capa * 1.5, 1).ToString();
-                        if (calc.CITimes(calc.GetCITypeY(i)) == 2) tb.Text += " * 2";
-                    }else
+                    if (!calc.IfFire(i))
                     {
                         tb.Text = "-";
+                    }
+                    else
+                    {
+                        tb.Text = calc.GetFireNumber(i).ToString() + "/" + i.ToString();
                     }
                     tb.Width = 80;
                     tb.Margin = new Thickness(5);
                     sp.Children.Add(tb);
-                    //发动率
+                    //普通伤害
                     tb = new TextBlock();
-                    tb.Text = calc.GetCITypeY(i) != "-" ? calc.CIRate(i).ToString() : "-";
+                    capb = calc.CAPB(xx.formation, xx.status, 0);
+                    if (!calc.IfFire(i))
+                    {
+                        tb.Text = "-";
+                    }
+                    else if (calc.IfAirforce(i))
+                    {
+                        tb.Text = calc.DamageAll(calc.BasicDamageA(i), capb, 1, 1).ToString() + "-" + calc.DamageAll(calc.BasicDamageA(i), capb, 1.5, 1).ToString();
+                    }
+                    else
+                    {
+                        tb.Text = calc.DamageAll(calc.BasicDamageP(i), capb, 1, 1).ToString() + "-" + calc.DamageAll(calc.BasicDamageP(i), capb, 1.5, 1).ToString();
+                    }
                     tb.Width = 60;
+                    tb.Margin = new Thickness(5);
+                    sp.Children.Add(tb);
+                    //弹着射击
+                    tb = new TextBlock();
+                    tb.Text = calc.IfCutIn(i) ? calc.GetCIType(i) : "-";
+                    tb.Width = 80;
+                    tb.Margin = new Thickness(5);
+                    sp.Children.Add(tb);
+                    //伤害
+                    tb = new TextBlock();
+                    capb = calc.CAPB(xx.formation, xx.status, 0);
+                    capa = calc.CAPA(calc.GetCIType(i));
+                    tb.Text = calc.IfCutIn(i) ? calc.DamageAll(calc.BasicDamageP(i), capb, capa, 1).ToString() + "-" + calc.DamageAll(calc.BasicDamageP(i), capb, capa * 1.5, 1).ToString() : "-";
+                    tb.Width = 60;
+                    tb.Margin = new Thickness(5);
+                    sp.Children.Add(tb);
+                    //连击伤害
+                    tb = new TextBlock();
+                    capb = calc.CAPB(xx.formation, xx.status, 0);
+                    capa = calc.CAPA("连击");
+                    tb.Text = calc.IfDoubleHit(i) ? calc.DamageAll(calc.BasicDamageP(i), capb, capa, 1).ToString() + "-" + calc.DamageAll(calc.BasicDamageP(i), capb, capa * 1.5, 1).ToString() : "-";
+                    tb.Width = 80;
                     tb.Margin = new Thickness(5);
                     sp.Children.Add(tb);
                     //对潜
                     tb = new TextBlock();
-                    tb.Text = calc.IfAntiSub(i) ? "0-1" : "-";
+                    capb = calc.CAPB(xx.formation, xx.status, 1);
+                    capa = calc.CAPA(calc.GetCIType(i));
+                    tb.Text = calc.IfAntiSub(i) ? calc.DamageAllS(calc.BasicDamageS(i), capb, capa, 1).ToString() + "-" + calc.DamageAllS(calc.BasicDamageS(i), capb, capa * 1.5, 1).ToString() : "-";
                     tb.Width = 50;
                     tb.Margin = new Thickness(5);
                     sp.Children.Add(tb);

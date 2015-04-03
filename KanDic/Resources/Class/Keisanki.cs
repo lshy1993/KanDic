@@ -11,14 +11,21 @@ namespace KanDic.Resources
         public MoniKan[] example { get; set; }
         int counter, lvall, search;
         double sdold, sdnew, sdsimple;
+
         double[,] capformation = new double[5, 4] { { 1, 0.45, 1, 1 }, { 0.8, 0.6, 0.8, 1 }, { 0.7, 0.9, 0.7, 1 }, { 0.6, 0.75, 0.6, 1 }, { 0.6, 1, 0.6, 1 } };
         double[] capstatus = new double[4] { 1, 0.8, 1.2, 0.6 };
+
         List<string> airforce = new List<string>() { "正規空母", "軽空母", "水上機母艦", "航空戦艦", "航空巡洋艦", "装甲空母" };
+        List<string> pureair = new List<string>() { "正規空母", "軽空母", "水上機母艦", "装甲空母" };
         List<string> hastorpedo = new List<string>() { "重雷装巡洋艦", "水上機母艦", "潜水艦", "潜水空母" };
         List<string> antisub = new List<string>() { "駆逐艦", "軽巡洋艦", "重雷装巡洋艦" };
+        List<string> submarine = new List<string>() { "潜水艦", "潜水空母", "潜水母艦" };
         List<string> mainarti = new List<string>() { "小口径主砲", "中口径主砲", "大口径主砲" };
         List<string> artillery = new List<string>() { "小口径主砲", "中口径主砲", "大口径主砲", "副砲", "対艦強化弾", "主炮类" };
-        
+        List<string> range = new List<string>() { "超長", "長", "中", "短" };
+
+        List<MoniKan> firenum = new List<MoniKan>();
+
         public Keisanki(MoniKan[] xx)
         {
             example = xx;
@@ -41,6 +48,7 @@ namespace KanDic.Resources
             {
                 if (example[i] != null)
                 {
+                    firenum.Add(example[i]);
                     search += example[i].Search;
                     for (int j = 1; j <= 4; j++)
                     {
@@ -205,6 +213,59 @@ namespace KanDic.Resources
             else if (tan == 1) return "主砲 + 電探";
             else return "主砲 + 副砲";
         }
+        //获取夜战CI种类
+        public string GetCITypeY(int i)
+        {
+            int zhu = 0;
+            int fu = 0;
+            int yu = 0;
+            for (int j = 1; j <= 4; j++)
+            {
+                switch (example[i].soubi[j].Type)
+                {
+                    case "小口径主砲":
+                        zhu++;
+                        break;
+                    case "中口径主砲":
+                        zhu++;
+                        break;
+                    case "大口径主砲":
+                        zhu++;
+                        break;
+                    case "副砲":
+                        fu++;
+                        break;
+                    case "魚雷":
+                        yu++;
+                        break;
+                }
+            }
+            if (yu >= 2) return "魚雷 + 魚雷";
+            else if (zhu >= 3) return "主砲 + 主砲 + 主砲";
+            else if (zhu == 2 && fu >= 1) return "主砲 + 主砲 + 副砲";
+            else if (yu == 1 && zhu >= 1) return "主砲 + 魚雷";
+            else if (zhu == 2 && yu == 0 && fu == 0) return "夜战二连";
+            else if (zhu == 1 && yu >= 1) return "夜战二连";
+            else if (yu <= 1 && fu >= 2) return "夜战二连";
+            else return "-";
+        }
+        //获取射击顺序
+        public int GetFireNumber(int i)
+        {
+            firenum.Sort((left, right) =>
+            {
+                int indl, indr;
+                indl = range.IndexOf(left.Range);
+                indr = range.IndexOf(right.Range);
+                if (indl > indr)
+                    return 1;
+                else if (indl == indr)
+                    return 0;
+                else
+                    return -1;
+            });
+            return firenum.IndexOf(example[i]) + 1;
+        }
         #endregion
 
         #region 计算类方法
@@ -225,7 +286,7 @@ namespace KanDic.Resources
             return sdsimple + Math.Sqrt(search) - level * 0.4;
         }
         //计算所需经验值
-        public int GetNextExp(int i)
+        public int NextExp(int i)
         {
             if (example[i].LV <= 50) return 100 * example[i].LV;
             else if (example[i].LV <= 70) return 5000 + 200 * (example[i].LV - 50);
@@ -262,6 +323,11 @@ namespace KanDic.Resources
         public int BasicDamageS(int i)
         {
             return (int)(Correction(i) * ((int)example[i].Antisub / 5) + GetAntisub(i) * 2 + AttackAddition(i));
+        }
+        //基本攻击力（夜战）
+        public int BasicDamageY(int i)
+        {
+            return (int)GetPower(i) + GetTorpedo(i) + 5;
         }
         //协同补正（对潜）
         public double Correction(int i)
@@ -302,6 +368,50 @@ namespace KanDic.Resources
             if (citype == "主砲 + 副砲") return 1.1;
             if (citype == "连击") return 1.2;
             return 1;
+        }
+        //软上限后补正（夜战CI）
+        public double CAPY(string citype)
+        {
+            if (citype == "魚雷 + 魚雷") return 1.5;
+            if (citype == "主砲 + 魚雷") return 1.3;
+            if (citype == "主砲 + 主砲 + 主砲") return 2;
+            if (citype == "主砲 + 主砲 + 副砲") return 1.75;
+            if (citype == "夜战二连") return 1.2;
+            return 1;
+        }
+        //夜战CI连击次数
+        public int CITimes(string citype)
+        {
+            if (citype == "魚雷 + 魚雷") return 2;
+            if (citype == "主砲 + 魚雷") return 2;
+            if (citype == "夜战二连") return 2;
+            return 1;
+        }
+        //夜战CI发动率
+        public int CIRate(int i)
+        {
+            int lucky = example[i].Lucky;
+            int cap = 999;
+            double sum = 0.85 * lucky + 15;
+            if (i == 1) sum += 15;
+            if (IfLight(i)) sum += 5;
+            switch (GetCITypeY(i))
+            {
+                case "魚雷 + 魚雷":
+                    cap = 50;
+                    break;
+                case "主砲 + 魚雷":
+                    cap = 60;
+                    break;
+                case "主砲 + 主砲 + 主砲":
+                    cap = 40;
+                    break;
+                case "夜战二连":
+                    sum = 100;
+                    break;
+            }
+            if (lucky > cap) sum += Math.Sqrt(lucky - cap);
+            return (int)sum;
         }
         //弹药补正
         public double CAPAmmo()
@@ -347,27 +457,27 @@ namespace KanDic.Resources
         /// <summary>
         /// 判断是否存在、是否符合要求等的方法
         /// </summary>
-        //判断i号位置是否有船
+        //判断i号位置是否有船 true有
         public bool IfExist(int i)
         {
-            return example[i] == null ? false : true;
+            return example[i] != null;
         }
-        //判断是否装有装备
+        //判断是否装有装备 true有
         public bool IfEquip(int i, int j)
         {
-            return example[i].soubi[j].Icon != null ? true : false;
+            return example[i].soubi[j].Icon != null;
         }
-        //是否是航母系
+        //是否是航母系 true是
         public bool IfAirforce(int i)
         {
-            return airforce.Find(x => x == example[i].Type) != null;
+            return pureair.Find(x => x == example[i].Type) != null;
         }
-        //是否参与雷击战
+        //是否参与雷击战 true是
         public bool IfTorpedo(int i)
         {
             return !IfAirforce(i) && example[i].Torpedo != 0;
         }
-        //是否可以对潜
+        //是否可以对潜 true是
         public bool IfAntiSub(int i)
         {
             return antisub.Find(x => x == example[i].Type) != null && example[i].Antisub > 0;
@@ -382,6 +492,11 @@ namespace KanDic.Resources
                 if (example[i].soubi[j].Name == "甲標的 甲") return true;
             }
             return false;
+        }
+        //是否参加炮击战
+        public bool IfFire(int i)
+        {
+            return submarine.Find(x => x == example[i].Type) == null;
         }
         //是否可以观测射击
         public bool IfCutIn(int i)
@@ -408,6 +523,16 @@ namespace KanDic.Resources
                 if (mainarti.Find(x => x == example[i].soubi[j].Type) != null) sum++;
             }
             return tempbool1 && sum >= 2;
+        }
+        //是否有照明灯
+        public bool IfLight(int i)
+        {
+            bool tempbol = false;
+            for (int j = 1; j <= 4; j++)
+            {
+                if (example[i].soubi[j].Type == "探照灯") tempbol = true;
+            }
+            return tempbol;
         }
         #endregion
 
