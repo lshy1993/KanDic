@@ -13122,7 +13122,7 @@
 			<Air>72</Air>
 			<Carry>12</Carry>
 			<Antisub>0</Antisub>
-			<Speed>高速</Speed>
+			<Speed>高</Speed>
 			<Search>45</Search>
 			<Range>中</Range>
 			<Lucky>14</Lucky>
@@ -13298,8 +13298,29 @@
 			<FileName>szgthkexanxl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>90</HP>
+			<Power>92</Power>
+			<Defence>87</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>42</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>25</Search>
+			<Range>长</Range>
+			<Lucky>32</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>41cm連装砲</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>5</Power>
@@ -13337,8 +13358,29 @@
 			<FileName>hujriolkmhzy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>90</HP>
+			<Power>92</Power>
+			<Defence>87</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>37</Dodge>
+			<Air>42</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>25</Search>
+			<Range>长</Range>
+			<Lucky>6</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>41cm連装砲</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>5</Power>
@@ -13376,8 +13418,24 @@
 			<FileName>avfbkpphumso</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>16</Power>
+			<Defence>18</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>73</Dodge>
+			<Air>23</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>60</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13415,12 +13473,28 @@
 			<FileName>gtmwrbaniaud</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>77</HP>
+			<Power>6</Power>
+			<Defence>45</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>40</Dodge>
+			<Air>41</Air>
+			<Carry>82</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>61</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo>
 			<Carry1>20</Carry1>
 			<Carry2>20</Carry2>
 			<Carry3>32</Carry3>
 			<Carry4>10</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
 		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -13459,12 +13533,28 @@
 			<FileName>uuqdlbtrkmvk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>79</HP>
+			<Power>6</Power>
+			<Defence>45</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>39</Dodge>
+			<Air>37</Air>
+			<Carry>98</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>61</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
 		<EquipInfo>
 			<Carry1>20</Carry1>
 			<Carry2>20</Carry2>
 			<Carry3>46</Carry3>
 			<Carry4>12</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
 		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -13503,8 +13593,29 @@
 			<FileName>mxohelwcpocv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>65</HP>
+			<Power>10</Power>
+			<Defence>40</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>42</Air>
+			<Carry>73</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>59</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>18</Carry1>
+			<Carry2>27</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>10</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>196</LinkNumber>
 		</UpdateInfo>
@@ -13544,8 +13655,29 @@
 			<FileName>kftqxfempust</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>65</HP>
+			<Power>5</Power>
+			<Defence>40</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>36</Air>
+			<Carry>73</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>59</Search>
+			<Range>短</Range>
+			<Lucky>40</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>18</Carry1>
+			<Carry2>27</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>10</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>197</LinkNumber>
 		</UpdateInfo>
@@ -13585,8 +13717,24 @@
 			<FileName>cjhtlviffiwb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>36</HP>
+			<Power>18</Power>
+			<Defence>18</Defence>
+			<Torpedo>57</Torpedo>
+			<Dodge>63</Dodge>
+			<Air>20</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>15</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13624,8 +13772,24 @@
 			<FileName>dufziinsornt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13663,8 +13827,24 @@
 			<FileName>kkpwecgmftci</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13702,8 +13882,24 @@
 			<FileName>sejqtlkfjwkc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>16</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13741,8 +13937,24 @@
 			<FileName>zlshfpystoqp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13780,8 +13992,24 @@
 			<FileName>rmcvsljwdyur</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13819,8 +14047,24 @@
 			<FileName>olkahitypycq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>17</Power>
+			<Defence>16</Defence>
+			<Torpedo>42</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>28</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13858,8 +14102,24 @@
 			<FileName>sgpilzypnejy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>19</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>195</LinkNumber>
 		</UpdateInfo>
@@ -13899,8 +14159,24 @@
 			<FileName>epjlpvhwcjvw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>19</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -13938,8 +14214,29 @@
 			<FileName>fxypdctjnicq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>77</Power>
+			<Defence>70</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>34</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>23</Search>
+			<Range>长</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>15.5cm三連装副砲</Equip2>
+			<Equip3>12.7cm連装高角砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>149</LinkNumber>
 		</UpdateInfo>
@@ -13979,8 +14276,29 @@
 			<FileName>iatmdvvwlngq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>75</Power>
+			<Defence>72</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>39</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>23</Search>
+			<Range>长</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>15.5cm三連装副砲</Equip2>
+			<Equip3>12.7cm連装高角砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>150</LinkNumber>
 		</UpdateInfo>
@@ -14020,8 +14338,29 @@
 			<FileName>nolhhoujolpc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>75</Power>
+			<Defence>70</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>34</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>23</Search>
+			<Range>长</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>15.5cm三連装副砲</Equip2>
+			<Equip3>12.7cm連装高角砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>151</LinkNumber>
 		</UpdateInfo>
@@ -14061,8 +14400,29 @@
 			<FileName>kexwyrcqjxfs</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>75</Power>
+			<Defence>72</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>43</Dodge>
+			<Air>39</Air>
+			<Carry>12</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>23</Search>
+			<Range>长</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Carry3>3</Carry3>
+			<Carry4>3</Carry4>
+			<Equip1>41cm連装砲</Equip1>
+			<Equip2>15.5cm三連装副砲</Equip2>
+			<Equip3>12.7cm連装高角砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>152</LinkNumber>
 		</UpdateInfo>
@@ -14102,8 +14462,27 @@
 			<FileName>xjotoxrgwfrj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>6</Power>
+			<Defence>28</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>32</Dodge>
+			<Air>20</Air>
+			<Carry>42</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>46</Search>
+			<Range>短</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>14</Carry1>
+			<Carry2>16</Carry2>
+			<Carry3>12</Carry3>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>九七式艦攻</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14141,8 +14520,29 @@
 			<FileName>mnkjkgammeds</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>65</Power>
+			<Defence>74</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>39</Dodge>
+			<Air>48</Air>
+			<Carry>40</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>24</Search>
+			<Range>长</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>10</Carry1>
+			<Carry2>10</Carry2>
+			<Carry3>10</Carry3>
+			<Carry4>10</Carry4>
+			<Equip1>35.6cm連装砲</Equip1>
+			<Equip2>瑞雲</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>4</Power>
@@ -14180,8 +14580,29 @@
 			<FileName>bnbdxfioqxtt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>65</Power>
+			<Defence>74</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>39</Dodge>
+			<Air>44</Air>
+			<Carry>40</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>24</Search>
+			<Range>长</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>10</Carry1>
+			<Carry2>10</Carry2>
+			<Carry3>10</Carry3>
+			<Carry4>10</Carry4>
+			<Equip1>35.6cm連装砲</Equip1>
+			<Equip2>瑞雲</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>4</Power>
@@ -14219,8 +14640,25 @@
 			<FileName>wjcrloeyiyxw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>27</Power>
+			<Defence>34</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14258,8 +14696,25 @@
 			<FileName>chmytqkkilrv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>40</HP>
+			<Power>24</Power>
+			<Defence>31</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14297,8 +14752,29 @@
 			<FileName>wvcpwlwuxwhq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>6</Power>
+			<Defence>29</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>22</Air>
+			<Carry>43</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>46</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>9</Carry1>
+			<Carry2>24</Carry2>
+			<Carry3>5</Carry3>
+			<Carry4>5</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>157</LinkNumber>
 		</UpdateInfo>
@@ -14338,8 +14814,24 @@
 			<FileName>pvomxydmldoi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14377,8 +14869,24 @@
 			<FileName>lwlmcwxyvcyz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>16</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14416,8 +14924,24 @@
 			<FileName>ttcofyyswaum</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14455,8 +14979,24 @@
 			<FileName>ysgtnamukxoi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14494,8 +15034,24 @@
 			<FileName>wrxtfahvtyqi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14533,8 +15089,24 @@
 			<FileName>zrrxemjrtmql</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14572,8 +15144,24 @@
 			<FileName>sxrrihbkdkjl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14611,8 +15199,24 @@
 			<FileName>aufduiatycow</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>12</Power>
+			<Defence>16</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>17</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -14650,8 +15254,28 @@
 			<FileName>mbgjkzlvemui</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>42</HP>
+			<Power>28</Power>
+			<Defence>33</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>20</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -14689,8 +15313,28 @@
 			<FileName>cxhxktltjtbg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>42</HP>
+			<Power>24</Power>
+			<Defence>32</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>23</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14728,8 +15372,28 @@
 			<FileName>gjyqwffsmfgw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>42</HP>
+			<Power>24</Power>
+			<Defence>32</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>146</LinkNumber>
 		</UpdateInfo>
@@ -14769,8 +15433,28 @@
 			<FileName>jmpkkzqwgxtc</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>43</HP>
+			<Power>24</Power>
+			<Defence>33</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>20</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -14808,8 +15492,28 @@
 			<FileName>espxbipsjiyt</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>37</HP>
+			<Power>20</Power>
+			<Defence>31</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>44</Dodge>
+			<Air>41</Air>
+			<Carry>3</Carry>
+			<Antisub>51</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>12.7cm連装高角砲</Equip1>
+			<Equip2>21号対空電探</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>141</LinkNumber>
 		</UpdateInfo>
@@ -14849,8 +15553,28 @@
 			<FileName>aqgjvutybsbk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>43</HP>
+			<Power>24</Power>
+			<Defence>34</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14888,8 +15612,28 @@
 			<FileName>xtqbjysffsvx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>43</HP>
+			<Power>24</Power>
+			<Defence>32</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>23</Air>
+			<Carry>3</Carry>
+			<Antisub>54</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -14927,8 +15671,28 @@
 			<FileName>zhixojcwijfj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>24</Power>
+			<Defence>33</Defence>
+			<Torpedo>39</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>20</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>158</LinkNumber>
 		</UpdateInfo>
@@ -14968,8 +15732,28 @@
 			<FileName>ncijtxixkghu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>24</Power>
+			<Defence>34</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>159</LinkNumber>
 		</UpdateInfo>
@@ -15009,8 +15793,28 @@
 			<FileName>vxkcklmfevkk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>44</HP>
+			<Power>24</Power>
+			<Defence>34</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>41</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>160</LinkNumber>
 		</UpdateInfo>
@@ -15050,8 +15854,29 @@
 			<FileName>iolnrzaovbhn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>43</Power>
+			<Defence>36</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>23</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>21</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -15089,8 +15914,29 @@
 			<FileName>qsmurjkprhku</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>48</HP>
+			<Power>38</Power>
+			<Defence>36</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>27</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>21</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -15128,8 +15974,30 @@
 			<FileName>udkkmzgsimgq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>49</HP>
+			<Power>28</Power>
+			<Defence>41</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>27</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>21</Search>
+			<Range>中</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>25mm連装機銃</Equip2>
+			<Equip3>61cm四連装魚雷</Equip3>
+			<Equip4>61cm四連装魚雷</Equip4>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -15167,8 +16035,29 @@
 			<FileName>fcydxtnwtaon</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>51</Power>
+			<Defence>45</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>24</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>191</LinkNumber>
 		</UpdateInfo>
@@ -15208,8 +16097,29 @@
 			<FileName>nvftqenyroyu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>51</Power>
+			<Defence>46</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>29</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>192</LinkNumber>
 		</UpdateInfo>
@@ -15249,8 +16159,29 @@
 			<FileName>bekjyovmrmfd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>51</Power>
+			<Defence>49</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>24</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>193</LinkNumber>
 		</UpdateInfo>
@@ -15290,8 +16221,29 @@
 			<FileName>uilfcyypnbwm</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>53</Power>
+			<Defence>49</Defence>
+			<Torpedo>34</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>29</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>194</LinkNumber>
 		</UpdateInfo>
@@ -15331,8 +16283,29 @@
 			<FileName>ghgphbvmzjrx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>51</Power>
+			<Defence>48</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>25</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>3</Power>
@@ -15370,8 +16343,29 @@
 			<FileName>gbkqnzirjyid</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>51</Power>
+			<Defence>48</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>25</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>3</Power>
@@ -15409,8 +16403,29 @@
 			<FileName>ajhdojqfykfu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>55</HP>
+			<Power>45</Power>
+			<Defence>50</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>60</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>20</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>12.7cm連装高角砲</Equip1>
+			<Equip2>21号対空電探</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -15448,8 +16463,29 @@
 			<FileName>nsgytjsjbfdp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>51</Power>
+			<Defence>51</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>30</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>12.7cm連装高角砲</Equip2>
+			<Equip3>61cm四連装(酸素)魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>3</Power>
@@ -15487,8 +16523,29 @@
 			<FileName>fkatobgcyygb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>56</HP>
+			<Power>46</Power>
+			<Defence>49</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>50</Dodge>
+			<Air>30</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>37</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>4</Carry1>
+			<Carry2>4</Carry2>
+			<Carry3>4</Carry3>
+			<Carry4>4</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>188</LinkNumber>
 		</UpdateInfo>
@@ -15528,8 +16585,29 @@
 			<FileName>paqnehcojygu</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>56</HP>
+			<Power>43</Power>
+			<Defence>50</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>50</Dodge>
+			<Air>30</Air>
+			<Carry>16</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>37</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>4</Carry1>
+			<Carry2>4</Carry2>
+			<Carry3>4</Carry3>
+			<Carry4>4</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+			<Equip3>零式水上偵察機</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>189</LinkNumber>
 		</UpdateInfo>
@@ -15569,8 +16647,29 @@
 			<FileName>yiwwnppitqpf</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>6</Power>
+			<Defence>33</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>34</Air>
+			<Carry>66</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>49</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>18</Carry1>
+			<Carry2>18</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>12</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -15608,8 +16707,29 @@
 			<FileName>pwokyefpmqwi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>50</HP>
+			<Power>6</Power>
+			<Defence>33</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>38</Dodge>
+			<Air>34</Air>
+			<Carry>66</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>49</Search>
+			<Range>短</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>18</Carry1>
+			<Carry2>18</Carry2>
+			<Carry3>18</Carry3>
+			<Carry4>12</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -15647,8 +16767,24 @@
 			<FileName>sbdfpooechyn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>19</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15686,8 +16822,24 @@
 			<FileName>wnocckxgfmnh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15725,8 +16877,24 @@
 			<FileName>xfxhmadcxfdq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>19</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15764,8 +16932,24 @@
 			<FileName>dpqjexkcixhw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15803,8 +16987,24 @@
 			<FileName>slzosqvxjxus</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>17</Power>
+			<Defence>16</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15842,8 +17042,24 @@
 			<FileName>wpaqzeclspdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>16</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15881,8 +17097,24 @@
 			<FileName>eathbqlrqvda</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>19</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15920,8 +17152,24 @@
 			<FileName>bqvrrfdcuvdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>17</Power>
+			<Defence>16</Defence>
+			<Torpedo>42</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15959,8 +17207,24 @@
 			<FileName>tedevipdbvdr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -15998,8 +17262,24 @@
 			<FileName>nkrmsykdohgo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16037,8 +17317,24 @@
 			<FileName>tkcwrodgemlj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16076,8 +17372,24 @@
 			<FileName>woutqrqtdzqi</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>16</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16115,8 +17427,24 @@
 			<FileName>xcbmsjqrostq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16154,8 +17482,24 @@
 			<FileName>wmskekfmgdio</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>145</LinkNumber>
 		</UpdateInfo>
@@ -16195,8 +17539,24 @@
 			<FileName>wvnchfzhekfo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16234,8 +17594,24 @@
 			<FileName>wpsyznjwvlmd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>144</LinkNumber>
 		</UpdateInfo>
@@ -16275,8 +17651,25 @@
 			<FileName>ofneitwqroxe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>20</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1> </Carry1>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16314,8 +17707,25 @@
 			<FileName>jukighzxmudn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>18</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>13</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1> </Carry1>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16353,8 +17763,24 @@
 			<FileName>xbbfxeemifpv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>18</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16392,8 +17818,24 @@
 			<FileName>ngcxxfxovpmn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>18</Power>
+			<Defence>20</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>22</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16431,8 +17873,24 @@
 			<FileName>eypcwtnjgoyb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>15</Power>
+			<Defence>20</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>22</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16470,8 +17928,24 @@
 			<FileName>pmjnkqodgjpo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>15</Power>
+			<Defence>20</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16509,8 +17983,24 @@
 			<FileName>oxttbkywusfp</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>15</Power>
+			<Defence>20</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16548,8 +18038,24 @@
 			<FileName>ohpnwjgzfesg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16587,8 +18093,24 @@
 			<FileName>ffyychaekjsj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16626,8 +18148,24 @@
 			<FileName>algyyokhbnwz</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16665,8 +18203,24 @@
 			<FileName>qsnkljxqtrgb</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>33</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16704,8 +18258,29 @@
 			<FileName>numjsnomjspr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>6</Power>
+			<Defence>29</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>35</Dodge>
+			<Air>21</Air>
+			<Carry>48</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>46</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>18</Carry1>
+			<Carry2>12</Carry2>
+			<Carry3>12</Carry3>
+			<Carry4>6</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>九七式艦攻</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -16743,8 +18318,29 @@
 			<FileName>ufcqfujavyyg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>5</Power>
+			<Defence>37</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>39</Air>
+			<Carry>56</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>55</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>24</Carry1>
+			<Carry2>16</Carry2>
+			<Carry3>8</Carry3>
+			<Carry4>8</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>九七式艦攻</Equip2>
+			<Equip3>12cm30連装噴進砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -16782,8 +18378,29 @@
 			<FileName>hgitzuyaysvw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>57</HP>
+			<Power>5</Power>
+			<Defence>39</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>34</Air>
+			<Carry>56</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>55</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>24</Carry1>
+			<Carry2>16</Carry2>
+			<Carry3>8</Carry3>
+			<Carry4>8</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>九七式艦攻</Equip2>
+			<Equip3>12cm30連装噴進砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -16821,8 +18438,29 @@
 			<FileName>vcftaofxkvgk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>75</HP>
+			<Power>8</Power>
+			<Defence>49</Defence>
+			<Torpedo>0</Torpedo>
+			<Dodge>51</Dodge>
+			<Air>48</Air>
+			<Carry>84</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>58</Search>
+			<Range>短</Range>
+			<Lucky>42</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>24</Carry1>
+			<Carry2>24</Carry2>
+			<Carry3>24</Carry3>
+			<Carry4>12</Carry4>
+			<Equip1>零式艦戦52型</Equip1>
+			<Equip2>彗星</Equip2>
+			<Equip3>12cm30連装噴進砲</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -16860,8 +18498,28 @@
 			<FileName>ikwmknqjpvkg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>41</HP>
+			<Power>23</Power>
+			<Defence>32</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>53</Antisub>
+			<Speed>高速</Speed>
+			<Search>16</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>12.7cm連装高角砲</Equip1>
+			<Equip2>25mm連装機銃</Equip2>
+			<Equip3>21号対空電探</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16899,8 +18557,28 @@
 			<FileName>uuxoixtoemiv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>41</HP>
+			<Power>23</Power>
+			<Defence>32</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>50</Dodge>
+			<Air>19</Air>
+			<Carry>3</Carry>
+			<Antisub>53</Antisub>
+			<Speed>高速</Speed>
+			<Search>16</Search>
+			<Range>中</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+			<Carry3>1</Carry3>
+			<Equip1>12.7cm連装高角砲</Equip1>
+			<Equip2>25mm連装機銃</Equip2>
+			<Equip3>21号対空電探</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16938,8 +18616,25 @@
 			<FileName>hfhcjjdyqyzn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>36</HP>
+			<Power>32</Power>
+			<Defence>31</Defence>
+			<Torpedo>30</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>25</Air>
+			<Carry>0</Carry>
+			<Antisub>35</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>中</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>14cm単装砲</Equip1>
+			<Equip2>12.7cm単装高角砲</Equip2>
+			<Equip3>25mm三連装機銃</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -16977,8 +18672,24 @@
 			<FileName>ukwcjqlolezy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>33</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>34</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17016,8 +18727,24 @@
 			<FileName>ssvrjquubpim</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>15</Power>
+			<Defence>17</Defence>
+			<Torpedo>37</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>34</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm連装高角砲</Equip1>
+			<Equip2>61cm四連装(酸素)魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17055,8 +18782,29 @@
 			<FileName>qgkmjgfbanxl</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>49</HP>
+			<Power>38</Power>
+			<Defence>38</Defence>
+			<Torpedo>23</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>23</Air>
+			<Carry>8</Carry>
+			<Antisub>0</Antisub>
+			<Speed>高速</Speed>
+			<Search>21</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Carry4>2</Carry4>
+			<Equip1>20.3cm連装砲</Equip1>
+			<Equip2>25mm連装機銃</Equip2>
+			<Equip3>61cm四連装魚雷</Equip3>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>142</LinkNumber>
 		</UpdateInfo>
@@ -17096,8 +18844,24 @@
 			<FileName>jwrlielrnfpr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>18</HP>
+			<Power>5</Power>
+			<Defence>11</Defence>
+			<Torpedo>52</Torpedo>
+			<Dodge>31</Dodge>
+			<Air>0</Air>
+			<Carry>2</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>27</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -17135,7 +18899,20 @@
 			<FileName>dyfnguymthbd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>15</HP>
+			<Power>5</Power>
+			<Defence>8</Defence>
+			<Torpedo>38</Torpedo>
+			<Dodge>32</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>19</Search>
+			<Range>短</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -17174,8 +18951,24 @@
 			<FileName>hosmgvuzyjlw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>18</HP>
+			<Power>7</Power>
+			<Defence>11</Defence>
+			<Torpedo>46</Torpedo>
+			<Dodge>32</Dodge>
+			<Air>0</Air>
+			<Carry>2</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>27</Search>
+			<Range>短</Range>
+			<Lucky>50</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -17213,8 +19006,24 @@
 			<FileName>fggcskrfkpnr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>19</HP>
+			<Power>9</Power>
+			<Defence>8</Defence>
+			<Torpedo>46</Torpedo>
+			<Dodge>32</Dodge>
+			<Air>0</Air>
+			<Carry>2</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>27</Search>
+			<Range>短</Range>
+			<Lucky>25</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>1</Carry1>
+			<Carry2>1</Carry2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -17252,8 +19061,24 @@
 			<FileName>ijhrnvnbqkmj</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>13</Power>
+			<Defence>19</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>59</Dodge>
+			<Air>27</Air>
+			<Carry>0</Carry>
+			<Antisub>38</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>短</Range>
+			<Lucky>15</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>25mm三連装機銃</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17291,8 +19116,24 @@
 			<FileName>bbgkikxppksy</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>17</Power>
+			<Defence>19</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>60</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高速</Speed>
+			<Search>19</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>22号対水上電探</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17330,8 +19171,24 @@
 			<FileName>gekgxdsvrliq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>17</Power>
+			<Defence>23</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>60</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高速</Speed>
+			<Search>19</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>三式水中探信儀</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17369,8 +19226,24 @@
 			<FileName>lovstgcfspwr</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>17</Power>
+			<Defence>19</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>60</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高速</Speed>
+			<Search>19</Search>
+			<Range>短</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>三式水中探信儀</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17408,8 +19281,27 @@
 			<FileName>cmpqwemjahur</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>36</Power>
+			<Defence>37</Defence>
+			<Torpedo>40</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>31</Air>
+			<Carry>6</Carry>
+			<Antisub>45</Antisub>
+			<Speed>高速</Speed>
+			<Search>29</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Equip1>15.2cm連装砲</Equip1>
+			<Equip2>22号対水上電探</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -17447,8 +19339,27 @@
 			<FileName>hvnqlrdovfqe</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>45</HP>
+			<Power>38</Power>
+			<Defence>42</Defence>
+			<Torpedo>32</Torpedo>
+			<Dodge>55</Dodge>
+			<Air>35</Air>
+			<Carry>6</Carry>
+			<Antisub>45</Antisub>
+			<Speed>高速</Speed>
+			<Search>29</Search>
+			<Range>中</Range>
+			<Lucky>10</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Equip1>15.2cm連装砲</Equip1>
+			<Equip2>22号対水上電探</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -17486,8 +19397,27 @@
 			<FileName>acajrnrqxplq</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>47</HP>
+			<Power>39</Power>
+			<Defence>38</Defence>
+			<Torpedo>32</Torpedo>
+			<Dodge>57</Dodge>
+			<Air>30</Air>
+			<Carry>6</Carry>
+			<Antisub>45</Antisub>
+			<Speed>高速</Speed>
+			<Search>29</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+			<Equip1>15.2cm連装砲</Equip1>
+			<Equip2>21号対空電探</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -17525,8 +19455,25 @@
 			<FileName>kbdewgsfrkra</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>46</HP>
+			<Power>32</Power>
+			<Defence>42</Defence>
+			<Torpedo>39</Torpedo>
+			<Dodge>54</Dodge>
+			<Air>35</Air>
+			<Carry>6</Carry>
+			<Antisub>49</Antisub>
+			<Speed>高速</Speed>
+			<Search>29</Search>
+			<Range>中</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>2</Carry1>
+			<Carry2>2</Carry2>
+			<Carry3>2</Carry3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -17564,8 +19511,25 @@
 			<FileName>tuvoqtqrddem</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>10</Power>
+			<Defence>12</Defence>
+			<Torpedo>46</Torpedo>
+			<Dodge>23</Dodge>
+			<Air>0</Air>
+			<Carry>6</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>25</Search>
+			<Range>短</Range>
+			<Lucky>20</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Carry1>3</Carry1>
+			<Carry2>3</Carry2>
+			<Equip1>試製晴嵐</Equip1>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -17603,7 +19567,20 @@
 			<FileName>nrdgjqcgecmg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
+		<BattleInfo>
+			<HP>7</HP>
+			<Power>2</Power>
+			<Defence>3</Defence>
+			<Torpedo>2</Torpedo>
+			<Dodge>13</Dodge>
+			<Air>0</Air>
+			<Carry>0</Carry>
+			<Antisub>0</Antisub>
+			<Speed>低速</Speed>
+			<Search>4</Search>
+			<Range>短</Range>
+			<Lucky>7</Lucky>
+		</BattleInfo>
 		<EquipInfo/>
 		<UpdateInfo/>
 		<SourceInfo>
@@ -17642,8 +19619,24 @@
 			<FileName>ozjrctjajnpx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>14</Power>
+			<Defence>14</Defence>
+			<Torpedo>27</Torpedo>
+			<Dodge>49</Dodge>
+			<Air>15</Air>
+			<Carry>0</Carry>
+			<Antisub>26</Antisub>
+			<Speed>高速</Speed>
+			<Search>12</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm単装高角砲</Equip1>
+			<Equip2>61cm三連装魚雷</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17681,8 +19674,25 @@
 			<FileName>xwjlobdutrwv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>24</HP>
+			<Power>13</Power>
+			<Defence>15</Defence>
+			<Torpedo>18</Torpedo>
+			<Dodge>42</Dodge>
+			<Air>22</Air>
+			<Carry>0</Carry>
+			<Antisub>31</Antisub>
+			<Speed>高速</Speed>
+			<Search>14</Search>
+			<Range>短</Range>
+			<Lucky>14</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>25mm三連装機銃</Equip1>
+			<Equip2>25mm連装機銃</Equip2>
+			<Equip3>13号対空電探</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>0</Power>
@@ -17720,8 +19730,25 @@
 			<FileName>dyupugfxshtd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>33</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>47</Dodge>
+			<Air>24</Air>
+			<Carry>0</Carry>
+			<Antisub>27</Antisub>
+			<Speed>高速</Speed>
+			<Search>9</Search>
+			<Range>短</Range>
+			<Lucky>18</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装高角砲(後期型)</Equip1>
+			<Equip2>九四式爆雷投射機</Equip2>
+			<Equip3>13号対空電探改</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17759,8 +19786,24 @@
 			<FileName>exedxncqauws</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>18</Power>
+			<Defence>19</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>60</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>43</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装高角砲(後期型)</Equip1>
+			<Equip2>九三式水中聴音機</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17798,8 +19841,24 @@
 			<FileName>jdyqtxzmsyng</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>21</Power>
+			<Defence>19</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>58</Dodge>
+			<Air>25</Air>
+			<Carry>0</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>短</Range>
+			<Lucky>16</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>九四式爆雷投射機</Equip1>
+			<Equip2>九三式水中聴音機</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17837,8 +19896,24 @@
 			<FileName>ojkgkujsenly</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>21</Power>
+			<Defence>23</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>58</Dodge>
+			<Air>37</Air>
+			<Carry>0</Carry>
+			<Antisub>38</Antisub>
+			<Speed>高速</Speed>
+			<Search>22</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>25mm三連装機銃</Equip1>
+			<Equip2>22号対水上電探</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17876,8 +19951,23 @@
 			<FileName>vbuxfozqoemo</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>33</HP>
+			<Power>16</Power>
+			<Defence>19</Defence>
+			<Torpedo>31</Torpedo>
+			<Dodge>52</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>46</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm単装砲</Equip1>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>179</LinkNumber>
 		</UpdateInfo>
@@ -17917,8 +20007,23 @@
 			<FileName>vksfcnchqurh</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>33</HP>
+			<Power>16</Power>
+			<Defence>19</Defence>
+			<Torpedo>31</Torpedo>
+			<Dodge>52</Dodge>
+			<Air>19</Air>
+			<Carry>0</Carry>
+			<Antisub>46</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm単装砲</Equip1>
+		</EquipInfo>
 		<UpdateInfo>
 			<LinkNumber>180</LinkNumber>
 		</UpdateInfo>
@@ -17958,8 +20063,25 @@
 			<FileName>cpcycglgelxd</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>34</HP>
+			<Power>15</Power>
+			<Defence>18</Defence>
+			<Torpedo>57</Torpedo>
+			<Dodge>58</Dodge>
+			<Air>30</Air>
+			<Carry>0</Carry>
+			<Antisub>34</Antisub>
+			<Speed>高速</Speed>
+			<Search>15</Search>
+			<Range>短</Range>
+			<Lucky>17</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>三式水中探信儀</Equip2>
+			<Equip3>新型高温高圧缶</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -17997,8 +20119,25 @@
 			<FileName>gixbrtnuabge</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>47</HP>
+			<Power>37</Power>
+			<Defence>38</Defence>
+			<Torpedo>7</Torpedo>
+			<Dodge>53</Dodge>
+			<Air>37</Air>
+			<Carry>12</Carry>
+			<Antisub>13</Antisub>
+			<Speed>高速</Speed>
+			<Search>47</Search>
+			<Range>中</Range>
+			<Lucky>30</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>15.2cm連装砲</Equip1>
+			<Equip2>艦隊司令部施設</Equip2>
+			<Equip3>13号対空電探改</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>2</Power>
@@ -18036,8 +20175,24 @@
 			<FileName>svglgiwjfyxn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>17</Power>
+			<Defence>23</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>58</Dodge>
+			<Air>25</Air>
+			<Carry>0</Carry>
+			<Antisub>37</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>61cm四連装(酸素)魚雷</Equip1>
+			<Equip2>12.7cm連装高角砲(後期型)</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18075,8 +20230,24 @@
 			<FileName>cispmgxqaedk</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>30</HP>
+			<Power>17</Power>
+			<Defence>23</Defence>
+			<Torpedo>35</Torpedo>
+			<Dodge>58</Dodge>
+			<Air>20</Air>
+			<Carry>0</Carry>
+			<Antisub>34</Antisub>
+			<Speed>高速</Speed>
+			<Search>16</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装砲B型改二</Equip1>
+			<Equip2>ドラム缶(輸送用)</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18114,8 +20285,25 @@
 			<FileName>uvfgjekdjlcw</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>18</Air>
+			<Carry>0</Carry>
+			<Antisub>34</Antisub>
+			<Speed>高速</Speed>
+			<Search>17</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>22号対水上電探</Equip1>
+			<Equip2>九四式爆雷投射機</Equip2>
+			<Equip3>13号対空電探</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18153,8 +20341,25 @@
 			<FileName>xomrbwrvjwfv</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>12</Power>
+			<Defence>14</Defence>
+			<Torpedo>28</Torpedo>
+			<Dodge>48</Dodge>
+			<Air>16</Air>
+			<Carry>0</Carry>
+			<Antisub>29</Antisub>
+			<Speed>高速</Speed>
+			<Search>9</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>22号対水上電探</Equip1>
+			<Equip2>三式水中探信儀</Equip2>
+			<Equip3>13号対空電探</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18192,8 +20397,24 @@
 			<FileName>vdieczinfgce</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>18</Power>
+			<Defence>19</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>61</Dodge>
+			<Air>26</Air>
+			<Carry>0</Carry>
+			<Antisub>36</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装高角砲(後期型)</Equip1>
+			<Equip2>九四式爆雷投射機</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18228,8 +20449,24 @@
 			<FileName>pyfdxrfqwldn</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>31</HP>
+			<Power>18</Power>
+			<Defence>19</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>61</Dodge>
+			<Air>21</Air>
+			<Carry>0</Carry>
+			<Antisub>40</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>11</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装高角砲(後期型)</Equip1>
+			<Equip2>九四式爆雷投射機</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo/>
 		<SupplyInfo/>
@@ -18255,8 +20492,24 @@
 			<FileName>qegrehgswrpg</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>32</HP>
+			<Power>25</Power>
+			<Defence>24</Defence>
+			<Torpedo>36</Torpedo>
+			<Dodge>61</Dodge>
+			<Air>26</Air>
+			<Carry>0</Carry>
+			<Antisub>49</Antisub>
+			<Speed>高速</Speed>
+			<Search>18</Search>
+			<Range>短</Range>
+			<Lucky>13</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>12.7cm連装高角砲(後期型)</Equip1>
+			<Equip2>九三式水中聴音機</Equip2>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>
@@ -18291,8 +20544,25 @@
 			<FileName>tubwmcjwtlqx</FileName>
 		</BasicInfo>
 		<BuildInfo/>
-		<BattleInfo/>
-		<EquipInfo/>
+		<BattleInfo>
+			<HP>37</HP>
+			<Power>30</Power>
+			<Defence>22</Defence>
+			<Torpedo>29</Torpedo>
+			<Dodge>64</Dodge>
+			<Air>86</Air>
+			<Carry>0</Carry>
+			<Antisub>46</Antisub>
+			<Speed>高速</Speed>
+			<Search>25</Search>
+			<Range>短</Range>
+			<Lucky>12</Lucky>
+		</BattleInfo>
+		<EquipInfo>
+			<Equip1>10cm高角砲＋高射装置</Equip1>
+			<Equip2>13号対空電探改</Equip2>
+			<Equip3>25mm三連装機銃</Equip3>
+		</EquipInfo>
 		<UpdateInfo/>
 		<SourceInfo>
 			<Power>1</Power>

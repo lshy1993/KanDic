@@ -321,7 +321,7 @@
                 <Border BorderThickness="1" Margin="5" BorderBrush="Gray">
                     <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled">
                         <Canvas Name="ImageBox" SizeChanged="ImageBox_SizeChanged">
-                            <Image Name="MainImage" Source="/Cache/ships/jnxoytktolbb.swf/Images/Image 17.png" Stretch="None"
+                            <Image Name="MainImage" Source="{Binding BasicInfo.FileName}" Stretch="None"
                                    MouseDown="Image_MouseDown" MouseMove="Image_MouseMove" MouseUp="Image_MouseUp" MouseLeave="Image_MouseLeave" />
                         </Canvas>
                     </ScrollViewer>

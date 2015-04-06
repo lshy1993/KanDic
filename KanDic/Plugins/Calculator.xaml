@@ -12,9 +12,25 @@
     Height="440" Width="695"
     BorderThickness="1"
     EnableDWMDropShadow="True"
-    ResizeMode="CanResizeWithGrip"
+    ResizeMode="CanMinimize"
     
     WindowStartupLocation="Manual">
+
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_home_question}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="Help" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
     <Grid Background="#f0e6dc">
         <Grid.Resources>
             <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>

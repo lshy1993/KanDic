@@ -54,7 +54,6 @@ namespace KanDic.Window
             c = "小口径主炮";
             d = "小口径主炮";
             SobiList.DataContext = new SobiIcon(a, b, c, d);
-            ImageBox.DataContext = "/Cache/ships/jnxoytktolbb.swf/Images/Image 17.png";
             Show_Chart();
         }
         #endregion

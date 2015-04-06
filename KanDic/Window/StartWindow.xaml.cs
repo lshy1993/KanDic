@@ -86,5 +86,18 @@ namespace KanDic
             this.WelcomPanel.Visibility = Visibility.Visible;
         }
 
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
+            About ab = new About();
+            ab.Owner = this;
+            ab.ShowDialog();
+        }
+
+        private void Setting_Click(object sender, RoutedEventArgs e)
+        {
+            Setting st = new Setting();
+            st.Owner = this;
+            st.ShowDialog();
+        }
     }
 }

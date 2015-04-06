@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UpdateInfo>
+  <AppName>舰娘百科内测版</AppName>
+  <AppVersion>0.8.0</AppVersion>
+  <AppDescription>内部测试版本，欢迎提供bug反馈，指正错误，提出意见及建议~</AppDescription>
+  <AppUpdateTime>2015-4-3</AppUpdateTime>
+  <DataVersion>0.1</DataVersion>
+  <DataDescription>舰娘数据库测试中</DataDescription>
+  <DataUpdateTime>2015-4-3</DataUpdateTime>
+</UpdateInfo>
