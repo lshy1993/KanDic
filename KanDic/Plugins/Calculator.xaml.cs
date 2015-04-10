@@ -620,5 +620,12 @@ namespace KanDic.Plugins
         {
             if ((bool)rb1.IsChecked) Over_Click(null, null);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Help hp = new Help();
+            hp.Owner = this;
+            hp.Show();
+        }
     }
 }

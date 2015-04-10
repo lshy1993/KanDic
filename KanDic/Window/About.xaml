@@ -23,28 +23,28 @@
         <TextBlock Text="舰娘百科" FontSize="30"/>
         <TextBlock Text="可视化的「艦これ」动态 wiki" FontSize="20" Margin="0,2"/>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Kancolle-Dictionary" FontSize="16" Margin="0,2"/>
+            <TextBlock Text="程序版本 Kancolle-Dictionary" FontSize="16" Margin="0,2"/>
             <TextBlock Name="appver" FontSize="16" Margin="5,2"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="KanWikiData" FontSize="12" Margin="0,2"/>
+            <TextBlock Text="数据版本 KanWikiData" FontSize="12" Margin="0,2"/>
             <TextBlock Name="dataver" FontSize="12" Margin="5,2"/>
         </StackPanel>
         <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Project Home:"/>
+            <TextBlock Text="项目主页 Project Home:"/>
             <TextBlock Margin="5,0">
                 <Hyperlink NavigateUri="http://lshy1993.github.io" RequestNavigate="Hyperlink_RequestNavigate">Now Building</Hyperlink>
             </TextBlock>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Source Code:"/>
+            <TextBlock Text="源码 Source Code:"/>
             <TextBlock Margin="5,0">
                 <Hyperlink NavigateUri="https://github.com/lshy1993/KanDic" RequestNavigate="Hyperlink_RequestNavigate">https://github.com/lshy1993/KanDic</Hyperlink>
             </TextBlock>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Bug / Error Report:"/>
+            <TextBlock Text="错误提交 Bug / Error Report:"/>
             <TextBlock Margin="5,0">
                 <Hyperlink NavigateUri="http://kan.aemedia.org/thread-5346-1-1.html" RequestNavigate="Hyperlink_RequestNavigate">http://kan.aemedia.org/thread-5346-1-1.html</Hyperlink>
             </TextBlock>
@@ -53,7 +53,7 @@
         <DockPanel>
             <StackPanel DockPanel.Dock="Left">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Author / Developer: 幸运的路奇 "/>
+                    <TextBlock Text="开发者 Author / Developer: 幸运的路奇 "/>
                     <TextBlock Margin="5,0">
                         <Hyperlink NavigateUri="https://github.com/lshy1993" RequestNavigate="Hyperlink_RequestNavigate">github</Hyperlink>
                     </TextBlock>
@@ -62,27 +62,27 @@
                     </TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Assistance: 死鱼眼的喵星人 "/>
+                    <TextBlock Text="好基友 Assistance: 死鱼眼的喵星人 "/>
                     <TextBlock Margin="5,0">
                         <Hyperlink NavigateUri="https://github.com/meowalienowo" RequestNavigate="Hyperlink_RequestNavigate">github</Hyperlink>
                     </TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="UI / Icon Assist:"/>
+                    <TextBlock Text="美工 UI / Icon Assist:"/>
                     <TextBlock Margin="5,0">
                         <Hyperlink NavigateUri="http://kan.aemedia.org" RequestNavigate="Hyperlink_RequestNavigate">@天國的834</Hyperlink>
                     </TextBlock>
                 </StackPanel>
             </StackPanel>
             <StackPanel>
-                <TextBlock Text="Partner: " HorizontalAlignment="Right"/>
+                <TextBlock Text="合作伙伴 Partner: " HorizontalAlignment="Right"/>
             </StackPanel>
         </DockPanel>
         <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
         <DockPanel>
             <Image Source="/Cache/test.png" DockPanel.Dock="Right" Width="128" Height="128" Stretch="None"/>
             <StackPanel>
-                <TextBlock Text="Build with:"/>
+                <TextBlock Text="开发使用 Build with:"/>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Cache/vs.png" Width="200" Stretch="Uniform"/>
                     <Grid Margin="5,1" Width="210" Height="40" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Cursor="Hand">
@@ -93,7 +93,7 @@
                 <TextBlock Text="This soft is open released under the MIT License.&#13;Copyroght © 2015 lshy1993"/>
                 <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="The soft is open and free.....&#13;but if you want to donate : )"/>
+                    <TextBlock Text="本软件完全免费，但——&#13;若您愿意支持作者的话→_→" ToolTip="帮冲DMM点也好啊OwO&#13;船位满了……"/>
                     <Image Source="/Cache/alipay.png" Stretch="Uniform" Height="30" Margin="5,0">
                         <Image.ToolTip>
                             <ToolTip HasDropShadow="False" Placement="Top" HorizontalOffset="190" ToolTipService.InitialShowDelay="0" ToolTipService.ShowDuration="10">
@@ -103,6 +103,7 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
+                    <TextBlock Text="The soft is open and free.....&#13;but if you want to donate : )" ToolTip="ＤＭＭ券もいいです～"/>
                 </StackPanel>
             </StackPanel>
         </DockPanel>

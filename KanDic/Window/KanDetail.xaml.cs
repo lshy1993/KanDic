@@ -24,7 +24,6 @@ namespace KanDic.Window
     public partial class KanDetail
     {
         public Kan kanmusu;
-        public string a, b, c, d;
         public bool isdrag;
         public Point oldPoint = new Point();
         public double minleft, mintop, maxleft, maxtop ,xPos, yPos ,xmove, ymove;
@@ -49,11 +48,7 @@ namespace KanDic.Window
                 IfHugeBack.Background = brush;
             }
             MainData.DataContext = kanmusu.BattleInfo;
-            a = "小口径主炮";
-            b = "小口径主炮";
-            c = "小口径主炮";
-            d = "小口径主炮";
-            SobiList.DataContext = new SobiIcon(a, b, c, d);
+            SobiList.DataContext = new SobiIcon(kanmusu.EquipInfo.Equip1, kanmusu.EquipInfo.Equip2, kanmusu.EquipInfo.Equip3, kanmusu.EquipInfo.Equip4);
             Show_Chart();
         }
         #endregion

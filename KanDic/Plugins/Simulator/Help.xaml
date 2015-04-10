@@ -1,0 +1,204 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Plugins.Simulator.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+    ShowInTaskbar="False"
+    Title="Help"
+    Height="350" Width="500"
+    ResizeMode="NoResize"
+    BorderBrush="{DynamicResource AccentColorBrush}"
+    BorderThickness="1"
+    WindowStartupLocation="CenterOwner">
+    <ScrollViewer VerticalScrollBarVisibility="Visible">
+        <StackPanel Margin="5">
+            <TextBlock Text="索敌计算" Foreground="Gray"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="旧版公式：" Foreground="Gray"/>
+            <TextBlock Text="索敌 = 侦察机×2 + 电探 + √(每个舰娘索敌值合计)" HorizontalAlignment="Center"/>
+            <TextBlock Text="新版公式：" Foreground="Gray"/>
+            <TextBlock Text="索敌 = 舰上爆击机 × 1.04 +&#13;           舰上攻击机 × 1.37 +&#13;           舰上侦查机 × 1.66 +&#13;           水上侦察机 × 2.00 +&#13;           水上爆击机 × 1.78 +&#13;           小型电探 × 1.00 +&#13;           大型电探 × 0.99 +&#13;           探照灯 × 0.91 +&#13;           √(各舰娘裸装索敌) × 1.69 -&#13;           司令部等级向上取5倍数 × 0.61" HorizontalAlignment="Center"/>
+            <TextBlock Text="简化公式：" Foreground="Gray"/>
+            <TextBlock Text="索敌 = 舰爆 × 0.6 + 舰攻 × 0.8 + 舰侦 × 1.0&#13;+ 水侦 × 1.2 + 水爆 × 1.0 + 电探 × 0.6&#13;+ 探照灯 × 0.5 - 司令部等级 × 0.4 + √(每个舰娘裸装索敌值)" HorizontalAlignment="Center"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="伤害值" Foreground="Gray"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="基本伤害" Foreground="Gray"/>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Text="伤害 = ([基本攻击力 × 软上限前补正] × 软上限后补正&#13;- 敌人装甲 × 乱数(2/3～4/3)) × 弹药补正" />
+                <TextBlock Text="---------------------------------------------------------"/>
+                <TextBlock Text="默认：敌装甲为0，上限昼战150，夜战300，对潜100"/>
+                <TextBlock Text="损伤、弹药补正不计，伤害显示为普通1倍~暴击1.5倍"/>
+            </StackPanel>
+            <TextBlock Text="阵型补正" Foreground="Gray"/>
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="阵型" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="炮击" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="对潜" Grid.Row="0" Grid.Column="2"/>
+                <TextBlock Text="雷击" Grid.Row="0" Grid.Column="3"/>
+                <TextBlock Text="夜战" Grid.Row="0" Grid.Column="4"/>
+                <TextBlock Text="单纵" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="复纵" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="轮形" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="梯形" Grid.Row="4" Grid.Column="0"/>
+                <TextBlock Text="单横" Grid.Row="5" Grid.Column="0"/>
+                <TextBlock Text="1.0" Grid.Row="1" Grid.Column="1"/>
+                <TextBlock Text="0.45" Grid.Row="1" Grid.Column="2"/>
+                <TextBlock Text="1.0" Grid.Row="1" Grid.Column="3"/>
+                <TextBlock Text="1.0" Grid.Row="1" Grid.Column="4"/>
+                <TextBlock Text="0.8" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Text="0.6" Grid.Row="2" Grid.Column="2"/>
+                <TextBlock Text="0.8" Grid.Row="2" Grid.Column="3"/>
+                <TextBlock Text="1.0" Grid.Row="2" Grid.Column="4"/>
+                <TextBlock Text="0.7" Grid.Row="3" Grid.Column="1"/>
+                <TextBlock Text="0.9" Grid.Row="3" Grid.Column="2"/>
+                <TextBlock Text="0.7" Grid.Row="3" Grid.Column="3"/>
+                <TextBlock Text="1.0?" Grid.Row="3" Grid.Column="4"/>
+                <TextBlock Text="0.6" Grid.Row="4" Grid.Column="1"/>
+                <TextBlock Text="0.75" Grid.Row="4" Grid.Column="2"/>
+                <TextBlock Text="0.6?" Grid.Row="4" Grid.Column="3"/>
+                <TextBlock Text="1.0?" Grid.Row="4" Grid.Column="4"/>
+                <TextBlock Text="0.6" Grid.Row="5" Grid.Column="1"/>
+                <TextBlock Text="1.0" Grid.Row="5" Grid.Column="2"/>
+                <TextBlock Text="0.6?" Grid.Row="5" Grid.Column="3"/>
+                <TextBlock Text="1.0" Grid.Row="5" Grid.Column="4"/>
+            </Grid>
+            <TextBlock Text="交战状态补正" Foreground="Gray"/>
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="同航战" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="反航战" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="T字战（优）" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="T字战（劣）" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="100%" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="80%" Grid.Row="1" Grid.Column="1"/>
+                <TextBlock Text="120%" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Text="60%" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="航空战" Foreground="Gray"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="制空值" Foreground="Gray"/>
+            <TextBlock Text="单格飞机的制空 = 飞机的对空值 × √搭载数" HorizontalAlignment="Center"/>
+            <TextBlock Text="基本攻击力" Foreground="Gray"/>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Text="单格攻击力 = 飞机种类倍率 × (飞机的雷装或爆装 × √搭载数 + 25)"/>
+                <TextBlock Text="舰攻：80%或150%（50%概率）；舰爆：100%"/>
+            </StackPanel>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="炮击战、雷击战" Foreground="Gray"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="炮击"  Foreground="Gray"/>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Text="非空母：基本攻击 = 火力 + 5"/>
+                <TextBlock Text="空母：基本攻击 = (火力 + 雷装) × 1.5 + 爆装 × 2 + 55"/>
+            </StackPanel>
+            <TextBlock Text="开幕闭幕雷击" Foreground="Gray"/>
+            <TextBlock Text="基本攻击力 = 雷装 + 5" HorizontalAlignment="Center"/>
+            <TextBlock Text="对潜"  Foreground="Gray"/>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Text="基本攻击力 = 协同补正 × ([舰娘自身对潜 ÷ 5] + 装备对潜 × 2 + 攻击类别补正)"/>
+                <TextBlock Text="协同补正：暴雷加声呐是1.15，除此之外为1.0（待验证）"/>
+                <TextBlock Text="攻击类别补正：爆雷或声呐 +25 飞机 +10"/>
+            </StackPanel>
+            <TextBlock Text="特殊攻击"  Foreground="Gray"/>
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="类型" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="补正倍率" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="主炮·主炮" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="主炮·撤甲弹" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="主炮·电探" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="主炮·副炮" Grid.Row="4" Grid.Column="0"/>
+                <TextBlock Text="连击" Grid.Row="5" Grid.Column="0"/>
+                <TextBlock Text="150%" Grid.Row="1" Grid.Column="1"/>
+                <TextBlock Text="130%" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Text="120%" Grid.Row="3" Grid.Column="1"/>
+                <TextBlock Text="110%" Grid.Row="4" Grid.Column="1"/>
+                <TextBlock Text="120% × 2回" Grid.Row="5" Grid.Column="1"/>
+            </Grid>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <TextBlock Text="夜战" Foreground="Gray"/>
+            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="种类" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="倍率" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="鱼雷·鱼雷" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="主炮·鱼雷" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="主炮·主炮·主炮" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="主炮·主炮·副炮" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0"/>
+                <TextBlock Text="连击" HorizontalAlignment="Center" Grid.Row="5" Grid.Column="0"/>
+                <TextBlock Text="通常攻击" HorizontalAlignment="Center" Grid.Row="6" Grid.Column="0"/>
+                <TextBlock Text="150% × 2回" Grid.Row="1" Grid.Column="1"/>
+                <TextBlock Text="130% × 2回" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Text="200%" Grid.Row="3" Grid.Column="1"/>
+                <TextBlock Text="175%" Grid.Row="4" Grid.Column="1"/>
+                <TextBlock Text="120% × 2回" Grid.Row="5" Grid.Column="1"/>
+                <TextBlock Text="100%" Grid.Row="6" Grid.Column="1"/>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Controls:MetroWindow>

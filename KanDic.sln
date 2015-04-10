@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanDic", "KanDic\KanDic.csproj", "{9B70B8FE-09C5-4772-BE4D-FA80108BEF45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanDicUpdater", "KanDicUpdater\KanDicUpdater.csproj", "{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,16 @@ Global
 		{9B70B8FE-09C5-4772-BE4D-FA80108BEF45}.Release|ARM.ActiveCfg = Release|Any CPU
 		{9B70B8FE-09C5-4772-BE4D-FA80108BEF45}.Release|x64.ActiveCfg = Release|Any CPU
 		{9B70B8FE-09C5-4772-BE4D-FA80108BEF45}.Release|x86.ActiveCfg = Release|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Release|x64.ActiveCfg = Release|Any CPU
+		{F14D9ABD-EEBB-4D9E-9F52-549E056F2C55}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

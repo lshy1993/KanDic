@@ -38,9 +38,12 @@ namespace KanDic
 
             int minute = Convert.ToInt32(ConfigurationManager.AppSettings["minute"]);
             int second = Convert.ToInt32(ConfigurationManager.AppSettings["second"]);
-            App_Timer.Interval = new TimeSpan(0, 0, minute, second, 0);
-            App_Timer.Tick += new EventHandler(WindowColor_Change);
-            App_Timer.Start();
+            if (minute != 0 && second != 0)
+            {
+                App_Timer.Interval = new TimeSpan(0, 0, minute, second, 0);
+                App_Timer.Tick += new EventHandler(WindowColor_Change);
+                App_Timer.Start();
+            }
 
             base.OnStartup(e);
         }
