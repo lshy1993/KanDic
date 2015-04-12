@@ -317,6 +317,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Border BorderThickness="1" Margin="5" BorderBrush="Gray">
                     <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled">
@@ -326,11 +327,34 @@
                         </Canvas>
                     </ScrollViewer>
                 </Border>
-                <Border Name="Voice" BorderThickness="1" Margin="5" Grid.Row="1" BorderBrush="Gray">
-                    <TextBlock Text="新版本功能：音频试听"/>
+                <Border BorderThickness="1" BorderBrush="Gray" Margin="5" Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="5">
+                            <TextBlock Text="推荐公式"/>
+                            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+                            <TextBlock Text="40 20 30 20 + 1"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5">
+                            <TextBlock Text="掉落地点"/>
+                            <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
+                            <TextBlock Text="1-1 2-2"/>
+                        </StackPanel>
+                    </Grid>
                 </Border>
-                <Border Name="Info" BorderThickness="1" Margin="5" Grid.Row="2" BorderBrush="Gray">
-                    <TextBlock Text="官方图鉴介绍"/>
+                <Border Name="Voice" BorderThickness="1" BorderBrush="Gray" Margin="5" Grid.Row="2">
+                    <TextBlock Text="音频试听（未实装）"/>
+                </Border>
+                <Border Name="Info" BorderThickness="1" BorderBrush="Gray" Margin="5" Grid.Row="3">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="画师" Margin="5"/>
+                        <TextBlock Text="画师名"/>
+                        <TextBlock Text="声优" Margin="5"/>
+                        <TextBlock Text="声优名"/>
+                    </StackPanel>
                 </Border>
             </Grid>
         </Grid>

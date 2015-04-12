@@ -29,6 +29,28 @@ namespace KanDic.Resources
         public string Set { set; get; }
         public string Remark { set; get; }
 
+        int a, b, c, d;
+
         public ExpInfo(){}
+
+        public void GetMulty()
+        {
+            a = GetFuel;
+            b = GetSteel;
+            c = GetAmmo;
+            d = GetAluminum;
+            GetFuel = (int)(a * 1.5);
+            GetSteel = (int)(b * 1.5);
+            GetAmmo = (int)(c * 1.5);
+            GetAluminum = (int)(d * 1.5);
+        }
+
+        public void RemoveMulty()
+        {
+            GetFuel = a;
+            GetSteel = b;
+            GetAmmo = c;
+            GetAluminum = d;
+        }
     }
 }

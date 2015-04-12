@@ -70,23 +70,6 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        private void SoubiTag_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton xx = sender as RadioButton;
-            equipgroup = (string)xx.Tag;
-            //TabPanel.IsChecked = true;
-            Album.DataContext = new TabNums(equipgroup, equipteam, equips);
-            //Album.DataContext = new TabNums((string)xx.Tag, equipteam, equips);
-        }
-
-        private void NumberTag_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton xx = sender as RadioButton;
-            equipteam = (string)xx.Tag;
-            Album.DataContext = new TabNums(equipgroup, equipteam, equips);
-            //Album.DataContext = new TabNums(equipgroup, (string)xx.Tag, equips);
-        }
-
         #region 读取xml并生成Soubi类
         private void Load_Soubi()
         {
@@ -131,6 +114,7 @@ namespace KanDic.Viewer
         }
         #endregion
 
+        #region 判断装备（准备废除）
         private string geticon(string x)
         {
             switch (x)
@@ -214,6 +198,33 @@ namespace KanDic.Viewer
                 default:
                     return "";
             }
+        }
+        #endregion
+
+        private void SoubiTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            equipgroup = (string)xx.Tag;
+            AlbumPanel.DataContext = new TabNums(equipgroup, equipteam, equips);
+        }
+
+        private void NumberTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            equipteam = (string)xx.Tag;
+            AlbumPanel.DataContext = new TabNums(equipgroup, equipteam, equips);
+        }
+
+        private void Album_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumPanel.Visibility = Visibility.Visible;
+            ListPanel.Visibility = Visibility.Hidden;
+        }
+
+        private void List_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumPanel.Visibility = Visibility.Hidden;
+            ListPanel.Visibility = Visibility.Visible;
         }
     }
 }

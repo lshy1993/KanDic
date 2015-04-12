@@ -36,7 +36,7 @@ namespace KanDic
         {
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
             int tabnum = temp1.TiltFactor - 1;
-            if (temp1.TiltFactor - 1 < 7)
+            if (tabnum < 8)
             {
                 this.TabCtrl.SelectedIndex = tabnum;
                 this.WelcomPanel.Visibility = Visibility.Collapsed;
@@ -61,7 +61,7 @@ namespace KanDic
         {
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
             ThicknessAnimationUsingKeyFrames ani = new ThicknessAnimationUsingKeyFrames();
-            ani.KeyFrames.Add(new LinearThicknessKeyFrame(new Thickness(3, 3, 3, 3), TimeSpan.FromSeconds(0.05)));
+            ani.KeyFrames.Add(new LinearThicknessKeyFrame(new Thickness(4, 4, 4, 4), TimeSpan.FromSeconds(0.05)));
             temp1.BeginAnimation(MahApps.Metro.Controls.Tile.MarginProperty, ani);
         }
 
@@ -73,11 +73,11 @@ namespace KanDic
 
         private void WelcomePanel_Init()
         {
-            foreach (MahApps.Metro.Controls.Tile element in WelcomPanel.Children)
+            /*foreach (MahApps.Metro.Controls.Tile element in WelcomPanel.Children)
             {
                 element.MouseEnter += new System.Windows.Input.MouseEventHandler(Tile_MouseEnter);
                 element.MouseLeave += new System.Windows.Input.MouseEventHandler(Tile_MouseLeave);
-            }
+            }*/
         }
 
         private void KanColle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)

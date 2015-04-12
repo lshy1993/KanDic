@@ -127,6 +127,7 @@
     <Compile Include="Plugins\Simulator\Yasen.xaml.cs">
       <DependentUpon>Yasen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Class\Kan\NewKan.cs" />
     <Compile Include="Resources\Class\Update.cs" />
     <Compile Include="Resources\Class\Enermy\Enermy.cs" />
     <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
@@ -187,9 +188,6 @@
     </Compile>
     <Compile Include="Window\KanDetail.xaml.cs">
       <DependentUpon>KanDetail.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window\ListView.xaml.cs">
-      <DependentUpon>ListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>
@@ -253,6 +251,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Resources\Style\CalculateResult.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\EquipStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -345,10 +347,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Window\KanDetail.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window\ListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

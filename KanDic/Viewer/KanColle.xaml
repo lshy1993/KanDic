@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:ss="clr-namespace:KanDic.Resources"
              mc:Ignorable="d" 
-             d:DesignHeight="510" d:DesignWidth="780">
+             d:DesignHeight="510" d:DesignWidth="780"
+             Loaded="UserControl_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -18,12 +18,14 @@
                 </StackPanel.Resources>
                 <TextBlock Text="模式选择" Margin="5,9,0,3"/>
                 <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="图鉴模式" IsChecked="True"/>
+                <RadioButton Content="图鉴模式" Tag="0" IsChecked="True" Click="Alubm_Click"/>
                 <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="舰娘一览" Grid.Column="1"/>
+                <RadioButton Content="快速搜索" Click="List_Click"/>
+                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                <RadioButton Content="类型浏览" Click="Class_Click"/>
             </StackPanel>
         </Border>
-        <Grid Name="Album" Grid.Row="1">
+        <Grid Name="AlbumPanel" Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition />
@@ -97,5 +99,59 @@
                 </Grid>
             </ScrollViewer>
         </Grid>
+        <DockPanel Name="ListPanel" Grid.Row="1" Visibility="Hidden">
+            <DockPanel Margin="5,0" DockPanel.Dock="Top">
+                <Rectangle Width="40" Height="25" DockPanel.Dock="Left">
+                    <Rectangle.Fill>
+                        <VisualBrush Visual="{StaticResource appbar_magnify}" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBox Name="Keyword" TextChanged="Keyword_TextChanged" VerticalAlignment="Center" FontSize="16">
+                    <TextBox.Resources>
+                        <VisualBrush x:Key="HelpBrush" TileMode="None" Opacity="0.3" Stretch="None" AlignmentX="Left">
+                            <VisualBrush.Visual>
+                                <TextBlock FontStyle="Italic" Text="输入船名，平假名，罗马音"/>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </TextBox.Resources>
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Style.Triggers>
+                                <Trigger Property="Text" Value="{x:Null}">
+                                    <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                                </Trigger>
+                                <Trigger Property="Text" Value="">
+                                    <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+            </DockPanel>
+            <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="船名" Width="60" Binding="{Binding Name}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="火力" Binding="{Binding Power}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="雷装" Binding="{Binding Torpedo}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="对空" Binding="{Binding Air}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="对潜" Binding="{Binding Antisub}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="耐久" Binding="{Binding HP}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="装甲" Binding="{Binding Defence}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="回避" Binding="{Binding Dodge}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="搭载" Binding="{Binding Carry}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="航速" Binding="{Binding Speed}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="射程" Binding="{Binding Range}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="索敌" Binding="{Binding Search}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="幸运" Binding="{Binding Lucky}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="燃料" Binding="{Binding Fuel}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="弹药" Binding="{Binding Ammo}" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+        <ScrollViewer Name="ClassPanel" Grid.Row="1" VerticalScrollBarVisibility="Visible" Visibility="Hidden">
+            <StackPanel Name="MainClass">
+                <CheckBox Content="显示所有舰种"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>

@@ -16,6 +16,7 @@ using KanDic;
 using KanDic.Resources;
 using System.Xml;
 using System.Reflection;
+using System.Collections.ObjectModel;
 
 namespace KanDic.Viewer
 {
@@ -27,16 +28,32 @@ namespace KanDic.Viewer
         public System.Windows.Window mainwindow;
 
         public string shipgroup,shipteam;
+        public static Kan[] ships = new Kan[500];
 
-        public static Kan[] ships;
+        CollectionViewSource shipview = new CollectionViewSource();
+        ObservableCollection<NewKan> customers = new ObservableCollection<NewKan>();
 
         public KanColle()
         {
-            ships = new Kan[500];
             Load_Kan();
             shipteam = "1";
             shipgroup = "1";
             InitializeComponent();
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            shipview.Filter += shipview_Filter;
+            shipview.Source = customers;
+            MainList.DataContext = shipview;
+        }
+
+        void shipview_Filter(object sender, FilterEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(Keyword.Text))
+            {
+                e.Accepted = ((NewKan)e.Item).Name.Contains(Keyword.Text) || ((NewKan)e.Item).Hiragana.Contains(Keyword.Text) || ((NewKan)e.Item).RomaName.Contains(Keyword.Text);
+            }
         }
 
         #region 打开舰娘详细窗口
@@ -58,7 +75,6 @@ namespace KanDic.Viewer
                         IsOpened = true;
                         break;
                     }
-                    
                 }
             }
             if (!IsOpened)
@@ -69,20 +85,6 @@ namespace KanDic.Viewer
             }
         }
         #endregion
-
-        private void ShipTag_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton xx = sender as RadioButton;
-            shipgroup = (string)xx.Tag;
-            Album.DataContext = new TabNum((string)xx.Tag, shipteam, ships);
-        }
-
-        private void NumberTag_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton xx = sender as RadioButton;
-            shipteam = (string)xx.Tag;
-            Album.DataContext = new TabNum(shipgroup, (string)xx.Tag ,ships);
-        }
 
         #region 读取xml并生成Kan类
         private void Load_Kan()
@@ -141,7 +143,48 @@ namespace KanDic.Viewer
             int num = Convert.ToInt32(a.Number);
             ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
             ships[num].BasicInfo.FileName = "/Cache/ships/" + ships[num].BasicInfo.FileName + ".swf/Images/Image 5.jpg";
+            if (ships[num].BasicInfo.Name != null) customers.Add(new NewKan(ships[num]));
         }
         #endregion
+
+        private void ShipTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            shipgroup = (string)xx.Tag;
+            AlbumPanel.DataContext = new TabNum((string)xx.Tag, shipteam, ships);
+        }
+
+        private void NumberTag_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            shipteam = (string)xx.Tag;
+            AlbumPanel.DataContext = new TabNum(shipgroup, (string)xx.Tag, ships);
+        }
+
+        private void Alubm_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumPanel.Visibility = Visibility.Visible;
+            ListPanel.Visibility = Visibility.Hidden;
+            ClassPanel.Visibility = Visibility.Hidden;
+        }
+
+        private void List_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumPanel.Visibility = Visibility.Hidden;
+            ListPanel.Visibility = Visibility.Visible;
+            ClassPanel.Visibility = Visibility.Hidden;
+        }
+
+        private void Class_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumPanel.Visibility = Visibility.Hidden;
+            ListPanel.Visibility = Visibility.Hidden;
+            ClassPanel.Visibility = Visibility.Visible;
+        }
+
+        private void Keyword_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            shipview.View.Refresh();
+        }
     }
 }

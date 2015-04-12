@@ -2,7 +2,6 @@
 <CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<KanMusu>
 		<BasicInfo>
-			<ID>80</ID>
 			<Number>1</Number>
 			<AlbumNum>1</AlbumNum>
 			<Rare>6</Rare>
@@ -47,7 +46,6 @@
 			<Level>30</Level>
 			<Ammo>900</Ammo>
 			<Steel>800</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>251</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -85,7 +83,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>81</ID>
 			<Number>2</Number>
 			<AlbumNum>2</AlbumNum>
 			<Rare>6</Rare>
@@ -130,7 +127,6 @@
 			<Level>30</Level>
 			<Ammo>900</Ammo>
 			<Steel>800</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>252</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -168,7 +164,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>77</ID>
 			<Number>3</Number>
 			<AlbumNum>3</AlbumNum>
 			<Rare>4</Rare>
@@ -182,8 +177,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>30</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>74</HP>
@@ -213,7 +208,6 @@
 			<Level>10</Level>
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>102</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -251,7 +245,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>87</ID>
 			<Number>4</Number>
 			<AlbumNum>4</AlbumNum>
 			<Rare>4</Rare>
@@ -265,8 +258,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>30</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>74</HP>
@@ -296,7 +289,6 @@
 			<Level>10</Level>
 			<Ammo>150</Ammo>
 			<Steel>500</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>103</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -334,7 +326,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>20</ID>
 			<Number>5</Number>
 			<AlbumNum>5</AlbumNum>
 			<Rare>5</Rare>
@@ -348,8 +339,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
@@ -379,7 +370,6 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>100</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>255</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -417,7 +407,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>83</ID>
 			<Number>6</Number>
 			<AlbumNum>6</AlbumNum>
 			<Rare>5</Rare>
@@ -431,8 +420,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>30</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>69</HP>
@@ -462,7 +451,6 @@
 			<Level>30</Level>
 			<Ammo>300</Ammo>
 			<Steel>700</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>256</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -500,7 +488,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>84</ID>
 			<Number>7</Number>
 			<AlbumNum>7</AlbumNum>
 			<Rare>4</Rare>
@@ -514,8 +501,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>20</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>71</HP>
@@ -545,7 +532,6 @@
 			<Level>30</Level>
 			<Ammo>300</Ammo>
 			<Steel>750</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>257</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -583,7 +569,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>90</ID>
 			<Number>8</Number>
 			<AlbumNum>8</AlbumNum>
 			<Rare>4</Rare>
@@ -597,8 +582,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>10</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>50</HP>
@@ -628,7 +613,6 @@
 			<Level>30</Level>
 			<Ammo>300</Ammo>
 			<Steel>650</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>258</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -666,7 +650,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>91</ID>
 			<Number>9</Number>
 			<AlbumNum>9</AlbumNum>
 			<Rare>5</Rare>
@@ -680,8 +663,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>4</Hour>
+			<Minute>10</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>50</HP>
@@ -711,7 +694,6 @@
 			<Level>30</Level>
 			<Ammo>300</Ammo>
 			<Steel>650</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>259</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -749,7 +731,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>50</ID>
 			<Number>10</Number>
 			<AlbumNum>10</AlbumNum>
 			<Rare>5</Rare>
@@ -763,8 +744,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
-			<Hour>5</Hour>
-			<Minute>0</Minute>
+			<Hour>0</Hour>
+			<Minute>30</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>19</HP>
@@ -794,7 +775,6 @@
 			<Level>20</Level>
 			<Ammo>100</Ammo>
 			<Steel>120</Steel>
-			<LinkID>275</LinkID>
 			<LinkNumber>260</LinkNumber>
 		</UpdateInfo>
 		<SourceInfo>
@@ -832,7 +812,6 @@
 	</KanMusu>
 	<KanMusu>
 		<BasicInfo>
-			<ID>9</ID>
 			<Number>11</Number>
 			<AlbumNum>11</AlbumNum>
 			<Rare>2</Rare>
@@ -846,6 +825,8 @@
 		</BasicInfo>
 		<BuildInfo>
 			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
 		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
@@ -906,7 +887,11 @@
 			<RomaName>shirayuki</RomaName>
 			<FileName>xqnkdultpvaf</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -966,7 +951,11 @@
 			<RomaName>hatsuyuki</RomaName>
 			<FileName>pxogwcltgjkn</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1026,7 +1015,11 @@
 			<RomaName>miyuki</RomaName>
 			<FileName>cdidanqovcfr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1086,7 +1079,11 @@
 			<RomaName>morakumo</RomaName>
 			<FileName>hpfcwdqxgyvl</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1146,7 +1143,11 @@
 			<RomaName>isonami</RomaName>
 			<FileName>ljesxnctkmmf</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1206,7 +1207,11 @@
 			<RomaName>ayanami</RomaName>
 			<FileName>icpexclhwthr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1266,7 +1271,11 @@
 			<RomaName>shikinami</RomaName>
 			<FileName>gcbiuhgmgjbm</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -1326,7 +1335,11 @@
 			<RomaName>ooi</RomaName>
 			<FileName>yomyfjkhndny</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>25</HP>
 			<Power>14</Power>
@@ -1386,7 +1399,11 @@
 			<RomaName>kitakami</RomaName>
 			<FileName>oxqlrctsmegi</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>25</HP>
 			<Power>14</Power>
@@ -1446,7 +1463,11 @@
 			<RomaName>kongou</RomaName>
 			<FileName>oygjwmgvcdyv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>63</HP>
 			<Power>63</Power>
@@ -1506,7 +1527,11 @@
 			<RomaName>hiei</RomaName>
 			<FileName>bxzhnjffdppv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>63</HP>
 			<Power>63</Power>
@@ -1566,7 +1591,11 @@
 			<RomaName>haruna</RomaName>
 			<FileName>vzgrqylbwegp</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>63</HP>
 			<Power>63</Power>
@@ -1626,7 +1655,11 @@
 			<RomaName>kirishima</RomaName>
 			<FileName>icwowutxbvgh</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>63</HP>
 			<Power>63</Power>
@@ -1686,7 +1719,11 @@
 			<RomaName>housyou</RomaName>
 			<FileName>bwgbubdrhvfg</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>30</HP>
 			<Power>0</Power>
@@ -1746,7 +1783,11 @@
 			<RomaName>fusou</RomaName>
 			<FileName>ubntuiyurxwk</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>67</HP>
 			<Power>74</Power>
@@ -1806,7 +1847,11 @@
 			<RomaName>yamashiro</RomaName>
 			<FileName>dyurkaeenkdh</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>4</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>67</HP>
 			<Power>74</Power>
@@ -1866,7 +1911,11 @@
 			<RomaName>tenryuu</RomaName>
 			<FileName>vswgjojfoqdc</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>23</HP>
 			<Power>11</Power>
@@ -1926,7 +1975,11 @@
 			<RomaName>tatsuda</RomaName>
 			<FileName>qvqlfmytkmor</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>23</HP>
 			<Power>11</Power>
@@ -1986,7 +2039,11 @@
 			<RomaName>ryuujyou</RomaName>
 			<FileName>iyondwbusgym</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>50</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>31</HP>
 			<Power>0</Power>
@@ -2046,7 +2103,11 @@
 			<RomaName>mutsuki</RomaName>
 			<FileName>snohitatusbk</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2106,7 +2167,11 @@
 			<RomaName>kisaragi</RomaName>
 			<FileName>wujywbyjntbp</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2166,7 +2231,11 @@
 			<RomaName>satsuki</RomaName>
 			<FileName>qvmfwjitflgw</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2226,7 +2295,11 @@
 			<RomaName>fumizuki</RomaName>
 			<FileName>pjkwpxniwgge</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2286,7 +2359,11 @@
 			<RomaName>nagatsuki</RomaName>
 			<FileName>kksiqffpclxh</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2346,7 +2423,11 @@
 			<RomaName>kikuzuki</RomaName>
 			<FileName>jatvhskutlck</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2406,7 +2487,11 @@
 			<RomaName>mikatsuki</RomaName>
 			<FileName>ujhxqqlcorxv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2466,7 +2551,11 @@
 			<RomaName>mochizuki</RomaName>
 			<FileName>isiuepygxdzq</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>18</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>13</HP>
 			<Power>6</Power>
@@ -2526,7 +2615,11 @@
 			<RomaName>kuma</RomaName>
 			<FileName>zrmviexnupjy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>25</HP>
 			<Power>14</Power>
@@ -2586,7 +2679,11 @@
 			<RomaName>tama</RomaName>
 			<FileName>jiftwdxqwtin</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>25</HP>
 			<Power>14</Power>
@@ -2646,7 +2743,11 @@
 			<RomaName>kiso</RomaName>
 			<FileName>veulocbvzaqy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>25</HP>
 			<Power>14</Power>
@@ -2706,7 +2807,11 @@
 			<RomaName>nagara</RomaName>
 			<FileName>debsnofmttkx</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -2766,7 +2871,11 @@
 			<RomaName>isuzu</RomaName>
 			<FileName>tcqsalkhzurk</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -2826,7 +2935,11 @@
 			<RomaName>natori</RomaName>
 			<FileName>bqwjdltjktls</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -2886,7 +2999,11 @@
 			<RomaName>yura</RomaName>
 			<FileName>shjlydqjdfcl</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -2946,7 +3063,11 @@
 			<RomaName>sendai</RomaName>
 			<FileName>nehcyhpiviue</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -3006,7 +3127,11 @@
 			<RomaName>jintsuu</RomaName>
 			<FileName>icmlpbiditqy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -3066,7 +3191,11 @@
 			<RomaName>Africa Idol</RomaName>
 			<FileName>vopfxipptsrt</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -3126,7 +3255,11 @@
 			<RomaName>chitose</RomaName>
 			<FileName>dkmxevqgbxmr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>40</HP>
 			<Power>9</Power>
@@ -3186,7 +3319,11 @@
 			<RomaName>chiyoda</RomaName>
 			<FileName>cayfwlehtvgj</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>40</HP>
 			<Power>9</Power>
@@ -3246,7 +3383,11 @@
 			<RomaName>mogami</RomaName>
 			<FileName>lcmobkdeizph</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>30</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>41</HP>
 			<Power>40</Power>
@@ -3306,7 +3447,11 @@
 			<RomaName>furutaka</RomaName>
 			<FileName>sfbwblstvfmw</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>36</HP>
 			<Power>30</Power>
@@ -3366,7 +3511,11 @@
 			<RomaName>kako</RomaName>
 			<FileName>vkmjguonqcsg</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>36</HP>
 			<Power>30</Power>
@@ -3426,7 +3575,11 @@
 			<RomaName>aoba</RomaName>
 			<FileName>bhyiqjjifflp</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>37</HP>
 			<Power>30</Power>
@@ -3486,7 +3639,11 @@
 			<RomaName>myoukou</RomaName>
 			<FileName>grppcbegkphv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>40</Power>
@@ -3546,7 +3703,11 @@
 			<RomaName>nachi</RomaName>
 			<FileName>wnkageqzigwd</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>40</Power>
@@ -3606,7 +3767,11 @@
 			<RomaName>ashigara</RomaName>
 			<FileName>opprvckvhrkv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>40</Power>
@@ -3666,7 +3831,11 @@
 			<RomaName>haguro</RomaName>
 			<FileName>lvfswfzywnql</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>40</Power>
@@ -3726,7 +3895,11 @@
 			<RomaName>takao</RomaName>
 			<FileName>eqpvjbnbjlhy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>25</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>45</HP>
 			<Power>40</Power>
@@ -3786,7 +3959,11 @@
 			<RomaName>atago</RomaName>
 			<FileName>aqpnbsizhjij</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>25</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>45</HP>
 			<Power>40</Power>
@@ -3846,7 +4023,11 @@
 			<RomaName>maya</RomaName>
 			<FileName>gpshoozxgutk</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>25</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>45</HP>
 			<Power>40</Power>
@@ -3906,7 +4087,11 @@
 			<RomaName>cyoukai</RomaName>
 			<FileName>qmmdyeprdqsu</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>25</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>45</HP>
 			<Power>40</Power>
@@ -3966,7 +4151,11 @@
 			<RomaName>tone</RomaName>
 			<FileName>kmcllyhenjnk</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>30</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>32</Power>
@@ -4026,7 +4215,11 @@
 			<RomaName>chikuma</RomaName>
 			<FileName>gcqjowlpkbde</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>30</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>44</HP>
 			<Power>32</Power>
@@ -4086,7 +4279,11 @@
 			<RomaName>hiyou</RomaName>
 			<FileName>sdiauxhgyfkj</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>3</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>40</HP>
 			<Power>0</Power>
@@ -4146,7 +4343,11 @@
 			<RomaName>jyunyou</RomaName>
 			<FileName>ltdlvothcqnr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>3</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>40</HP>
 			<Power>0</Power>
@@ -4206,7 +4407,11 @@
 			<RomaName>oboro</RomaName>
 			<FileName>jqexjuembtvh</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4266,7 +4471,11 @@
 			<RomaName>akebono</RomaName>
 			<FileName>fwptxiocqkyd</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4326,7 +4535,11 @@
 			<RomaName>sazanami</RomaName>
 			<FileName>lnarycubyzrr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4386,7 +4599,11 @@
 			<RomaName>ushio</RomaName>
 			<FileName>xqjemfzdbjox</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4446,7 +4663,11 @@
 			<RomaName>akatsuki</RomaName>
 			<FileName>mtvkfikepcfr</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4506,7 +4727,11 @@
 			<RomaName>hibiki</RomaName>
 			<FileName>nfzmalhtwved</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4566,7 +4791,11 @@
 			<RomaName>ikazuchi</RomaName>
 			<FileName>aejfywpsegbv</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4626,7 +4855,11 @@
 			<RomaName>inazuma</RomaName>
 			<FileName>uuilouoffjoj</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>15</HP>
 			<Power>10</Power>
@@ -4686,7 +4919,11 @@
 			<RomaName>hatsuharu</RomaName>
 			<FileName>nlobofyxzvku</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -4746,7 +4983,11 @@
 			<RomaName>nenohi</RomaName>
 			<FileName>zgerairddhko</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -4806,7 +5047,11 @@
 			<RomaName>wakaba</RomaName>
 			<FileName>ihuijkvksqky</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -4866,7 +5111,11 @@
 			<RomaName>hatsushimo</RomaName>
 			<FileName>qngptlxhrwhj</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>20</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -4926,7 +5175,11 @@
 			<RomaName>shiratsuyu</RomaName>
 			<FileName>ahztpphnuvco</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -4986,7 +5239,11 @@
 			<RomaName>shigure</RomaName>
 			<FileName>kclrmkyzpnpc</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5046,7 +5303,11 @@
 			<RomaName>murasame</RomaName>
 			<FileName>fhaelooubkbi</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5106,7 +5367,11 @@
 			<RomaName>yuudachi</RomaName>
 			<FileName>pnpixtolsebg</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5166,7 +5431,11 @@
 			<RomaName>samidare</RomaName>
 			<FileName>tyjrubumfpxy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5226,7 +5495,11 @@
 			<RomaName>suzukaze</RomaName>
 			<FileName>qaryaychpubb</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5286,7 +5559,11 @@
 			<RomaName>asashio</RomaName>
 			<FileName>eeyrwdehbixg</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5346,7 +5623,11 @@
 			<RomaName>ooshio</RomaName>
 			<FileName>svcuufdqcqmy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5406,7 +5687,11 @@
 			<RomaName>michishio</RomaName>
 			<FileName>fhpgicaysllm</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5466,7 +5751,11 @@
 			<RomaName>arashio</RomaName>
 			<FileName>vksjkggcuvik</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5526,7 +5815,11 @@
 			<RomaName>arare</RomaName>
 			<FileName>oiknslickotp</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5586,7 +5879,11 @@
 			<RomaName>kasumi</RomaName>
 			<FileName>qukusrsftcgy</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5646,7 +5943,11 @@
 			<RomaName>kagerou</RomaName>
 			<FileName>nkvvrszimkre</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5706,7 +6007,11 @@
 			<RomaName>shiranui</RomaName>
 			<FileName>louolngpmrwj</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5766,7 +6071,11 @@
 			<RomaName>kuroshio</RomaName>
 			<FileName>ihengpjwmfrt</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -5826,7 +6135,11 @@
 			<RomaName>syouhou</RomaName>
 			<FileName>qihrkkfwekpo</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>40</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>32</HP>
 			<Power>0</Power>
@@ -6543,7 +6856,11 @@
 			<RomaName>syoukaku</RomaName>
 			<FileName>pdricqoovxfe</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>62</HP>
 			<Power>0</Power>
@@ -6603,7 +6920,11 @@
 			<RomaName>zuikaku</RomaName>
 			<FileName>suivtkpjnmpt</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>62</HP>
 			<Power>0</Power>
@@ -6722,7 +7043,11 @@
 			<RomaName>kinu</RomaName>
 			<FileName>rgribyhrzjjl</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>26</HP>
 			<Power>14</Power>
@@ -6782,7 +7107,11 @@
 			<RomaName>abukuma</RomaName>
 			<FileName>sgwumdfgzais</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>0</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>27</HP>
 			<Power>14</Power>
@@ -6842,7 +7171,11 @@
 			<RomaName>yuubari</RomaName>
 			<FileName>hieimxbtcqrt</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>22</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>19</HP>
 			<Power>17</Power>
@@ -6902,7 +7235,11 @@
 			<RomaName>zuihou</RomaName>
 			<FileName>ktexichqewel</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>2</Hour>
+			<Minute>40</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>32</HP>
 			<Power>0</Power>
@@ -7139,7 +7476,11 @@
 			<RomaName>mikuma</RomaName>
 			<FileName>oqqerytyeisg</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>True</OnlyHuge>
+			<Hour>1</Hour>
+			<Minute>30</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>40</HP>
 			<Power>40</Power>
@@ -7258,7 +7599,11 @@
 			<RomaName>hatsukaze</RomaName>
 			<FileName>rwqqgmxpdwbu</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -7318,7 +7663,11 @@
 			<RomaName>maikaze</RomaName>
 			<FileName>emjpbjscgcvf</FileName>
 		</BasicInfo>
-		<BuildInfo/>
+		<BuildInfo>
+			<OnlyHuge>False</OnlyHuge>
+			<Hour>0</Hour>
+			<Minute>24</Minute>
+		</BuildInfo>
 		<BattleInfo>
 			<HP>16</HP>
 			<Power>10</Power>
@@ -9389,6 +9738,9 @@
 			<Series>香取型</Series>
 			<SeriesNum>1番艦</SeriesNum>
 			<Name>香取</Name>
+			<Hiragana>かとり</Hiragana>
+			<RomaName>katori</RomaName>
+			<FileName>jtyqmhgstese</FileName>
 		</BasicInfo>
 		<BuildInfo/>
 		<BattleInfo>
@@ -13193,6 +13545,7 @@
 			<SeriesNum>-</SeriesNum>
 			<Name>U-511</Name>
 			<Hiragana>ゆー511・ろ500</Hiragana>
+			<RomaName>yu511ro500</RomaName>
 			<FileName>ksvosfducgbe</FileName>
 		</BasicInfo>
 		<BuildInfo/>

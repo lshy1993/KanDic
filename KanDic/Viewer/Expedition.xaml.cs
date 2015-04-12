@@ -26,6 +26,7 @@ namespace KanDic.Viewer
     {
         public ExpInfo[] exps = new ExpInfo[41];
         public int expgroup;
+        public bool kira;
 
         public Expedition()
         {
@@ -38,6 +39,15 @@ namespace KanDic.Viewer
         #region binding每一行
         private void Rows_Init(int x)
         {
+            row1.DataContext = null;
+            row2.DataContext = null;
+            row3.DataContext = null;
+            row4.DataContext = null;
+            row5.DataContext = null;
+            row6.DataContext = null;
+            row7.DataContext = null;
+            row8.DataContext = null;
+
             row1.DataContext = exps[x * 8 - 7];
             row2.DataContext = exps[x * 8 - 6];
             row3.DataContext = exps[x * 8 - 5];
@@ -99,9 +109,18 @@ namespace KanDic.Viewer
 
         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
-            CheckBox xx = (CheckBox)sender;
-            bool kira = false;
-            if ((bool)xx.IsChecked) kira = true;
+            kira = (bool)((CheckBox)sender).IsChecked;
+            for (int i = 1; i < 41; i++)
+            {
+                if (exps[i] != null)
+                {
+                    if(kira)
+                        exps[i].GetMulty();
+                    else
+                        exps[i].RemoveMulty();
+                }
+            }
+            Rows_Init(expgroup);
         }
     }
 }

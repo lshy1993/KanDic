@@ -114,8 +114,6 @@ namespace KanDic.Plugins
                 WaitTimer.Stop();
                 Status.Text = "正在启动更新程序……";
                 //更新代码
-
-                //WebClient downWebClient = new WebClient(); 
                 string url = "http://1.pngbase.sinaapp.com/Update.zip";
 
                 downWebClient.DownloadProgressChanged +=downWebClient_DownloadProgressChanged;
@@ -123,13 +121,7 @@ namespace KanDic.Plugins
                 downWebClient.DownloadDataCompleted += downWebClient_DownloadDataCompleted;
 
                 downWebClient.DownloadDataAsync(new Uri(url));
-                /*废弃部分
-                System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
-                Info.FileName = "KanDicUpdater.exe";
-                Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                System.Diagnostics.Process.Start(Info);
-                this.Close();
-                */
+
             }
             else
             {

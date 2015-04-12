@@ -52,41 +52,32 @@
             <RowDefinition/>
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
-
-        <WrapPanel Name="WelcomPanel" Width="624" Height="312">
-            <Controls:Tile Count="舰娘" Title="1"
+        <StackPanel Name="WelcomPanel" Width="640" Height="424">
+            <StackPanel Orientation="Horizontal">
+                <Controls:Tile Count="舰娘" Title="1"
 				TiltFactor="1"
-				Width="150" Height="150"
+				Width="424" Height="208"
 				Click="Tile_Click"/>
-            <Controls:Tile Count="装备" Title="2"
-				TiltFactor="2"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-            <Controls:Tile Count="地图" Title="3"
-				TiltFactor="3"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-            <Controls:Tile Count="远征" Title="4"
-				TiltFactor="4"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-            <Controls:Tile Count="任务" Title="5"
-				TiltFactor="5"
-				Width="150" Height="150"
-                Click="Tile_Click"/>
-            <Controls:Tile Count="阵型" Title="6"
-				TiltFactor="6"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-            <Controls:Tile Count="最新活动" Title="7"
-				TiltFactor="7"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-            <Controls:Tile Count="计算器" Title="8"
-				TiltFactor="8"
-				Width="150" Height="150"
-				Click="Tile_Click"/>
-        </WrapPanel>
+                <StackPanel Width="212" Height="208">
+                    <StackPanel Orientation="Horizontal">
+                        <Controls:Tile Count="装备" Title="2" TiltFactor="2" Width="100" Height="100" Click="Tile_Click"/>
+                        <Controls:Tile Count="远征" Title="3" TiltFactor="3" Width="100" Height="100" Click="Tile_Click"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Controls:Tile Count="任务" Title="4" TiltFactor="4" Width="100" Height="100" Click="Tile_Click"/>
+                        <Controls:Tile Count="阵型" Title="5" TiltFactor="5" Width="100" Height="100" Click="Tile_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Controls:Tile Count="攻略速报" Title="6" TiltFactor="6" Width="208" Height="208" Click="Tile_Click"/>
+                <StackPanel>
+                    <Controls:Tile Count="改修" Title="7" TiltFactor="7" Width="208" Height="100" Click="Tile_Click"/>
+                    <Controls:Tile Count="地图" Title="8" TiltFactor="8" Width="208" Height="100" Click="Tile_Click"/>
+                </StackPanel>
+                <Controls:Tile Count="舰队模拟器" Title="9" TiltFactor="9" Width="208" Height="208" Click="Tile_Click"/>
+            </StackPanel>
+        </StackPanel>
         <Canvas Name="MainPanel">
             <TabControl Name="TabCtrl" Canvas.Top="5" HorizontalAlignment="Left" VerticalAlignment="Top"
                         Width="{Binding ElementName=MainPanel, Path=ActualWidth}"
