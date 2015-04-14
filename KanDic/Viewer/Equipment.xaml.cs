@@ -16,6 +16,7 @@ using KanDic;
 using KanDic.Resources;
 using System.Xml;
 using System.Reflection;
+using System.Collections.ObjectModel;
 
 namespace KanDic.Viewer
 {
@@ -26,17 +27,68 @@ namespace KanDic.Viewer
     {
         public System.Windows.Window mainwindow;
 
-        public string equipgroup, equipteam;
+        public int equipgroup, equipteam, equiptype;
 
         public static Soubi[] equips;
+
+        CollectionViewSource equipview = new CollectionViewSource();
+        ObservableCollection<Soubi> customers = new ObservableCollection<Soubi>();
 
         public Equipment()
         {
             equips = new Soubi[151];
             Load_Soubi();
-            equipteam = "1";
-            equipgroup = "1";
+            equipteam = 1;
+            equipgroup = 1;
+            equiptype = 1;
             InitializeComponent();
+            equipview.Filter += equipview_Filter;
+            equipview.Source = customers;
+            MainList.DataContext = equipview;
+        }
+
+        void equipview_Filter(object sender, FilterEventArgs e)
+        {
+            if (equiptype == 1)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("主砲");
+            }
+            if (equiptype == 2)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("副砲");
+            }
+            if (equiptype == 3)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("強化弾");
+            }
+            if (equiptype == 4)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("魚雷") || ((Soubi)e.Item).Type.Contains("潜航艇");
+            }
+            if (equiptype == 5)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("艦上") || ((Soubi)e.Item).Type.Contains("水上");
+            }
+            if (equiptype == 6)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("電探");
+            }
+            if (equiptype == 7)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("爆雷") || ((Soubi)e.Item).Type.Contains("ソナ");
+            }
+            if (equiptype == 8)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("機銃") || ((Soubi)e.Item).Type.Contains("高射");
+            }
+            if (equiptype == 9)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("追加") || ((Soubi)e.Item).Type.Contains("機関部強化");
+            }
+            if (equiptype == 10)
+            {
+                e.Accepted = ((Soubi)e.Item).Type.Contains("追加") || ((Soubi)e.Item).Type.Contains("機関部強化");
+            }
         }
 
         #region 打开装备详细窗口
@@ -44,7 +96,7 @@ namespace KanDic.Viewer
         {
             bool IsOpened = false;
             Image xx = (Image)sender;
-            int num = (Convert.ToInt32(equipgroup) - 1) * 50 + (Convert.ToInt32(equipteam) - 1) * 10 + Convert.ToInt32(xx.Tag);
+            int num = (equipgroup - 1) * 50 + (equipteam - 1) * 10 + Convert.ToInt32(xx.Tag);
             if (equips[num] == null) return;
             foreach (System.Windows.Window element in Application.Current.Windows)
             {
@@ -111,6 +163,7 @@ namespace KanDic.Viewer
             }
             equips[num].Image = "/Cache/equipment/" + string.Format("{0:D3}", equips[num].Number) + ".png";
             equips[num].Icon = geticon(equips[num].Type);
+            customers.Add(equips[num]);
         }
         #endregion
 
@@ -204,14 +257,14 @@ namespace KanDic.Viewer
         private void SoubiTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
-            equipgroup = (string)xx.Tag;
+            equipgroup = Convert.ToInt32(xx.Tag);
             AlbumPanel.DataContext = new TabNums(equipgroup, equipteam, equips);
         }
 
         private void NumberTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
-            equipteam = (string)xx.Tag;
+            equipteam = Convert.ToInt32(xx.Tag);
             AlbumPanel.DataContext = new TabNums(equipgroup, equipteam, equips);
         }
 
@@ -225,6 +278,13 @@ namespace KanDic.Viewer
         {
             AlbumPanel.Visibility = Visibility.Hidden;
             ListPanel.Visibility = Visibility.Visible;
+        }
+
+        private void Type_Click(object sender, RoutedEventArgs e)
+        {
+            RadioButton xx = sender as RadioButton;
+            equiptype = Convert.ToInt32(xx.Tag);
+            equipview.View.Refresh();
         }
     }
 }

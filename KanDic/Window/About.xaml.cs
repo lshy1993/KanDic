@@ -37,9 +37,14 @@ namespace KanDic
 
         }
 
-        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void Mahapp_MLBD(object sender, MouseButtonEventArgs e)
         {
             System.Diagnostics.Process.Start("http://mahapps.com/");
+        }
+
+        private void PLogo_MLBD(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://kancolle.aemedia.org");
         }
     }
 }

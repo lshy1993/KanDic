@@ -28,8 +28,8 @@
                             <ColumnDefinition Width="auto"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Text="No." VerticalAlignment="Bottom" Margin="0,0,0,4" FontSize="16"/>
-                        <TextBlock Text="{Binding BasicInfo.AlbumNum}" Grid.Column="1" VerticalAlignment="Bottom" Margin="2,0,0,3" FontSize="20"/>
-                        <TextBlock Text="{Binding BasicInfo.Name}" Grid.Column="2" Margin="25,0,0,0" VerticalAlignment="Center" FontSize="34"/>
+                        <TextBlock Text="{Binding AlbumNum}" Grid.Column="1" VerticalAlignment="Bottom" Margin="2,0,0,3" FontSize="20"/>
+                        <TextBlock Text="{Binding Name}" Grid.Column="2" Margin="25,0,0,0" VerticalAlignment="Center" FontSize="34"/>
                         <Grid Grid.Column="3" VerticalAlignment="Bottom">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
@@ -40,10 +40,10 @@
                                     <ColumnDefinition Width="auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Text="{Binding BasicInfo.Series}" HorizontalAlignment="Right" Margin="0,0,7,0" FontSize="14"/>
-                                <TextBlock Text="{Binding BasicInfo.SeriesNum}" Grid.Column="1" HorizontalAlignment="Right" FontSize="14"/>
+                                <TextBlock Text="{Binding Series}" HorizontalAlignment="Right" Margin="0,0,7,0" FontSize="14"/>
+                                <TextBlock Text="{Binding SeriesNum}" Grid.Column="1" HorizontalAlignment="Right" FontSize="14"/>
                             </Grid>
-                            <TextBlock Text="{Binding BasicInfo.Type}" Grid.Row="1" HorizontalAlignment="Right" Margin="0,0,0,2" FontSize="18"/>
+                            <TextBlock Text="{Binding Type}" Grid.Row="1" HorizontalAlignment="Right" Margin="0,0,0,2" FontSize="18"/>
                         </Grid>
                     </Grid>
                 </Border>
@@ -169,19 +169,19 @@
                                     <ColumnDefinition Width="auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Text="{Binding EquipInfo.Equip1}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                                <TextBlock Text="{Binding EquipInfo.Equip2}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                                <TextBlock Text="{Binding EquipInfo.Equip3}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                                <TextBlock Text="{Binding EquipInfo.Equip4}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="{Binding Equip1}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="{Binding Equip2}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="{Binding Equip3}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="{Binding Equip4}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
                                 <Rectangle DockPanel.Dock="Top" Width="1" Margin="10,0,10,0" Grid.RowSpan="4" Grid.Column="2" Fill="Gray"/>
                                 <TextBlock Text="Max " Grid.Row="0" Grid.Column="3" VerticalAlignment="Center"/>
                                 <TextBlock Text="Max " Grid.Row="1" Grid.Column="3" VerticalAlignment="Center"/>
                                 <TextBlock Text="Max " Grid.Row="2" Grid.Column="3" VerticalAlignment="Center"/>
                                 <TextBlock Text="Max " Grid.Row="3" Grid.Column="3" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding EquipInfo.Carry1}" Grid.Row="0" Grid.Column="4" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding EquipInfo.Carry2}" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding EquipInfo.Carry3}" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding EquipInfo.Carry4}" Grid.Row="3" Grid.Column="4" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Carry1}" Grid.Row="0" Grid.Column="4" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Carry2}" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Carry3}" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Carry4}" Grid.Row="3" Grid.Column="4" VerticalAlignment="Center"/>
                             </Grid>
                         </DockPanel>
                         <Rectangle Width="1" Margin="5,0,5,0" Fill="Gray" />
@@ -201,9 +201,9 @@
                                 <Image Source="/Cache/icon/info/lv.PNG" Stretch="None" Grid.Row="0" Margin="1,0,0,2"/>
                                 <Image Source="/Cache/icon/info/steel.PNG" Stretch="None" Grid.Row="1"/>
                                 <Image Source="/Cache/icon/info/ammo.PNG" Stretch="None" Grid.Row="2"/>
-                                <TextBlock Text="{Binding UpdateInfo.Level}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="1"/>
-                                <TextBlock Text="{Binding UpdateInfo.Steel}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1"/>
-                                <TextBlock Text="{Binding UpdateInfo.Ammo}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="2" Grid.Column="1"/>
+                                <TextBlock Text="{Binding UpdateLevel}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="1"/>
+                                <TextBlock Text="{Binding CostSteel}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1"/>
+                                <TextBlock Text="{Binding CostAmmo}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="2" Grid.Column="1"/>
                             </Grid>
                             <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray" />
                             <Button Content="改造后"/>
@@ -225,9 +225,9 @@
                                             <ColumnDefinition Width="auto"/>
                                             <ColumnDefinition Width="auto"/>
                                         </Grid.ColumnDefinitions>
-                                        <TextBlock Text="{Binding BuildInfo.Hour}" Grid.Column="0"/>
+                                        <TextBlock Text="{Binding Hour}" Grid.Column="0"/>
                                         <TextBlock Text=":" Margin="2,0,2,0" Grid.Column="1"/>
-                                        <TextBlock Text="{Binding BuildInfo.Minute}" Grid.Column="2"/>
+                                        <TextBlock Text="{Binding Minute}" Grid.Column="2"/>
                                         <TextBlock Text=":" Margin="2,0,2,0" Grid.Column="3"/>
                                         <TextBlock Text="00" Margin="2,0,2,0" Grid.Column="4"/>
                                     </Grid>
@@ -250,10 +250,10 @@
                                     </Grid.RowDefinitions>
                                     <Image Source="/Cache/icon/info/fuel.PNG" Stretch="None" Grid.RowSpan="2" Grid.Column="0"/>
                                     <Image Source="/Cache/icon/info/ammo.PNG" Stretch="None" Grid.RowSpan="2" Grid.Column="2"/>
-                                    <TextBlock Text="{Binding SupplyInfo.Fuel}" VerticalAlignment="Center" Grid.Column="1" Margin="5,0,0,0" />
-                                    <TextBlock Text="{Binding SupplyInfo.Ammo}" VerticalAlignment="Center" Grid.Column="3" Margin="5,0,0,0"/>
-                                    <TextBlock Text="{Binding MaxInfo.Fuel}" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="5,0,0,0"/>
-                                    <TextBlock Text="{Binding MaxInfo.Ammo}" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" Margin="5,0,0,0"/>
+                                    <TextBlock Text="{Binding Fuel}" VerticalAlignment="Center" Grid.Column="1" Margin="5,0,0,0" />
+                                    <TextBlock Text="{Binding Ammo}" VerticalAlignment="Center" Grid.Column="3" Margin="5,0,0,0"/>
+                                    <TextBlock Text="{Binding MaxFuel}" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="5,0,0,0"/>
+                                    <TextBlock Text="{Binding MaxAmmo}" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" Margin="5,0,0,0"/>
                                 </Grid>
                             </DockPanel>
                         </DockPanel>
@@ -275,13 +275,13 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Image Source="/Cache/icon/info/whl.PNG" Stretch="None" Grid.Column="0"/>
-                            <TextBlock Text="{Binding SourceInfo.Power}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" FontSize="20"/>
+                            <TextBlock Text="{Binding PlusPower}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" FontSize="20"/>
                             <Image Source="/Cache/icon/info/wlz.PNG" Stretch="None" Grid.Column="2"/>
-                            <TextBlock Text="{Binding SourceInfo.Torpedo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" FontSize="20"/>
+                            <TextBlock Text="{Binding PlusTorpedo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" FontSize="20"/>
                             <Image Source="/Cache/icon/info/wdk.PNG" Stretch="None" Grid.Column="4"/>
-                            <TextBlock Text="{Binding SourceInfo.Air}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" FontSize="20"/>
+                            <TextBlock Text="{Binding PlusAir}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" FontSize="20"/>
                             <Image Source="/Cache/icon/info/wzz.PNG" Stretch="None" Grid.Column="6"/>
-                            <TextBlock Text="{Binding SourceInfo.Defence}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7" FontSize="20"/>
+                            <TextBlock Text="{Binding PlusDefence}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7" FontSize="20"/>
                         </Grid>
                     </DockPanel>
                 </Border>
@@ -301,13 +301,13 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Image Source="/Cache/icon/info/fuel.PNG" Stretch="None" Grid.Column="0"/>
-                            <TextBlock Text="{Binding ResolveInfo.Fuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+                            <TextBlock Text="{Binding ResolveFuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
                             <Image Source="/Cache/icon/info/ammo.PNG" Stretch="None" Grid.Column="2"/>
-                            <TextBlock Text="{Binding ResolveInfo.Ammo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3"/>
+                            <TextBlock Text="{Binding ResolveAmmo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3"/>
                             <Image Source="/Cache/icon/info/steel.PNG" Stretch="None" Grid.Column="4"/>
-                            <TextBlock Text="{Binding ResolveInfo.Steel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5"/>
+                            <TextBlock Text="{Binding ResolveSteel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5"/>
                             <Image Source="/Cache/icon/info/aluminum.PNG" Stretch="None" Grid.Column="6"/>
-                            <TextBlock Text="{Binding ResolveInfo.Aluminium}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7"/>
+                            <TextBlock Text="{Binding ResolveAluminium}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7"/>
                         </Grid>
                     </DockPanel>
                 </Border>
@@ -322,7 +322,7 @@
                 <Border BorderThickness="1" Margin="5" BorderBrush="Gray">
                     <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled">
                         <Canvas Name="ImageBox" SizeChanged="ImageBox_SizeChanged">
-                            <Image Name="MainImage" Source="{Binding BasicInfo.FileName}" Stretch="None"
+                            <Image Name="MainImage" Source="{Binding ImageNormal}" Stretch="None"
                                    MouseDown="Image_MouseDown" MouseMove="Image_MouseMove" MouseUp="Image_MouseUp" MouseLeave="Image_MouseLeave" />
                         </Canvas>
                     </ScrollViewer>
@@ -336,12 +336,12 @@
                         <StackPanel Grid.Column="0" Margin="5">
                             <TextBlock Text="推荐公式"/>
                             <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
-                            <TextBlock Text="40 20 30 20 + 1"/>
+                            <TextBlock Text="{Binding Formula}"/>
                         </StackPanel>
                         <StackPanel Grid.Column="1" Margin="5">
                             <TextBlock Text="掉落地点"/>
                             <Rectangle Fill="Gray" Height="1" Margin="0,5"/>
-                            <TextBlock Text="1-1 2-2"/>
+                            <TextBlock Text="{Binding DropPoint}"/>
                         </StackPanel>
                     </Grid>
                 </Border>
@@ -351,9 +351,9 @@
                 <Border Name="Info" BorderThickness="1" BorderBrush="Gray" Margin="5" Grid.Row="3">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="画师" Margin="5"/>
-                        <TextBlock Text="画师名"/>
+                        <TextBlock Text="{Binding CV}"/>
                         <TextBlock Text="声优" Margin="5"/>
-                        <TextBlock Text="声优名"/>
+                        <TextBlock Text="{Binding Illustrator}"/>
                     </StackPanel>
                 </Border>
             </Grid>

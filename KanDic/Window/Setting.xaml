@@ -19,13 +19,17 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Content="应用" Width="100" Grid.Column="0" Click="Button_Click"/>
-            <Button Content="取消" Width="100" Grid.Column="1" Click="Button_Click_1"/>
+            <Button Content="应用" Width="100" Grid.Column="0" Click="Accept_Click"/>
+            <Button Content="取消" Width="100" Grid.Column="1" Click="Cancel_Click"/>
         </Grid>
         <StackPanel>
-            <TextBlock Text="更新设置" />
+            <TextBlock Text="基本设置" />
             <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
-            <CheckBox Name="CheckUpdate" Click="CheckBox_Click" Content="是否自动更新"/>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Name="CheckUpdate" Click="CheckBox_Click" Content="是否自动更新" Margin="5,0"/>
+                <CheckBox Name="OpenMusic" Click="CheckBox_Click" Content="开启音乐控件（未实装）" Margin="5,0"/>
+                <CheckBox Name="QuickOpen" Click="CheckBox_Click" Content="快速启动（未实装）" Margin="5,0"/>
+            </StackPanel>
             <Rectangle Height="15" Fill="Transparent"/>
             <TextBlock Text="语言" />
             <Rectangle Height="1" Fill="Gray" Margin="0,5"/>

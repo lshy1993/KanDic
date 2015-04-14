@@ -77,21 +77,21 @@ namespace KanDic.Plugins
                 //若不在isadded列表中 则加入
                 if (xx[i] != null && !isadded[i])
                 {
-                    if (xx[i].BasicInfo.Name != null) ships.Add(xx[i]);
+                    if (xx[i].Name != null) ships.Add(xx[i]);
 
                     //判断是否有存在【改】
-                    if (xx[i].UpdateInfo.LinkNumber != null)
+                    if (xx[i].LinkNumber != 0)
                     {
-                        link = Convert.ToInt32(xx[i].UpdateInfo.LinkNumber);
+                        link = xx[i].LinkNumber;
 
                         //防止读取到【改】的船二次加入列表
                         if (!isadded[link]) ships.Add(xx[link]);
                         isadded[link] = true;
 
                         //判断是否存在【改二】一并加入
-                        if (xx[link].UpdateInfo.LinkNumber != null)
+                        if (xx[link].LinkNumber != 0)
                         {
-                            links = Convert.ToInt32(xx[link].UpdateInfo.LinkNumber);
+                            links = xx[link].LinkNumber;
                             ships.Add(xx[links]);
                             isadded[links] = true;
                         }

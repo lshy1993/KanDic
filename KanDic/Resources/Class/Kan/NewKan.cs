@@ -8,7 +8,7 @@ namespace KanDic.Resources
 {
     public class NewKan
     {
-        public string Number { get; set; }
+        public int Number { get; set; }
         public string AlbumNum { get; set; }
         public string Name { get;set;}
         public string Hiragana { get;set;}
@@ -27,30 +27,53 @@ namespace KanDic.Resources
         public int Dodge { get; set; }
         public int Fuel { get; set; }
         public int Ammo { get; set; }
+        public bool IsFinal { get; set; }
 
         public NewKan() { }
 
-        public NewKan(Kan xx)
+        public NewKan(Kan xx, bool ifmax)
         {
-            Number = xx.BasicInfo.Number;
-            AlbumNum = xx.BasicInfo.AlbumNum;
-            Name = xx.BasicInfo.Name;
-            Hiragana = xx.BasicInfo.Hiragana;
-            RomaName = xx.BasicInfo.RomaName;
-            HP = xx.BattleInfo.HP;
-            Power = xx.BattleInfo.Power;
-            Defence = xx.BattleInfo.Defence;
-            Torpedo = xx.BattleInfo.Torpedo;
-            Air = xx.BattleInfo.Air;
-            Carry = xx.BattleInfo.Carry;
-            Antisub = xx.BattleInfo.Antisub;
-            Speed = xx.BattleInfo.Speed;
-            Search = xx.BattleInfo.Search;
-            Range = xx.BattleInfo.Range;
-            Lucky = xx.BattleInfo.Lucky;
-            Dodge = xx.BattleInfo.Dodge;
-            Fuel = xx.SupplyInfo.Fuel;
-            Ammo = xx.SupplyInfo.Ammo;
+            Number = xx.Number;
+            AlbumNum = xx.AlbumNum;
+            Name = xx.Name;
+            Hiragana = xx.Hiragana;
+            RomaName = xx.RomaName;
+            IsFinal = xx.IsFinal;
+
+            if (!ifmax)
+            {
+                HP = xx.HP;
+                Power = xx.Power;
+                Defence = xx.Defence;
+                Torpedo = xx.Torpedo;
+                Air = xx.Air;
+                Carry = xx.Carry;
+                Antisub = xx.Antisub;
+                Speed = xx.Speed;
+                Search = xx.Search;
+                Range = xx.Range;
+                Lucky = xx.Lucky;
+                Dodge = xx.Dodge;
+                Fuel = xx.Fuel;
+                Ammo = xx.Ammo;
+            }
+            else
+            {
+                HP = xx.MaxHP;
+                Power = xx.MaxPower;
+                Defence = xx.MaxDefence;
+                Torpedo = xx.MaxTorpedo;
+                Air = xx.MaxAir;
+                Carry = xx.MaxCarry;
+                Antisub = xx.MaxAntisub;
+                Speed = xx.MaxSpeed;
+                Search = xx.MaxSearch;
+                Range = xx.MaxRange;
+                Lucky = xx.MaxLucky;
+                Dodge = xx.MaxDodge;
+                Fuel = xx.MaxFuel;
+                Ammo = xx.MaxAmmo;
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace KanDic
     public partial class App : Application
     {
         public System.Windows.Threading.DispatcherTimer App_Timer = new System.Windows.Threading.DispatcherTimer();
-        public string[] ColorType111 = { "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
+        public string[] ColorType111 = { "Purple", "Red", "Green", "Blue", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
         public List<string> ColorType = new List<string>();
         public int ColorNumber;
 

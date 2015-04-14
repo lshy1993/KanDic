@@ -46,7 +46,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="错误提交 Bug / Error Report:"/>
             <TextBlock Margin="5,0">
-                <Hyperlink NavigateUri="http://kan.aemedia.org/thread-5346-1-1.html" RequestNavigate="Hyperlink_RequestNavigate">http://kan.aemedia.org/thread-5346-1-1.html</Hyperlink>
+                <Hyperlink NavigateUri="http://kancolle.aemedia.org/thread-5346-1-1.html" RequestNavigate="Hyperlink_RequestNavigate">http://kancolle.aemedia.org/thread-5346-1-1.html</Hyperlink>
             </TextBlock>
         </StackPanel>
         <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
@@ -70,13 +70,14 @@
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="美工 UI / Icon Assist:"/>
                     <TextBlock Margin="5,0">
-                        <Hyperlink NavigateUri="http://kan.aemedia.org" RequestNavigate="Hyperlink_RequestNavigate">@天國的834</Hyperlink>
+                        <Hyperlink NavigateUri="http://weibo.com/u/3297631372" RequestNavigate="Hyperlink_RequestNavigate">@海色镇守府</Hyperlink>
                     </TextBlock>
                 </StackPanel>
             </StackPanel>
-            <StackPanel>
-                <TextBlock Text="合作伙伴 Partner: " HorizontalAlignment="Right"/>
-            </StackPanel>
+            <DockPanel>
+                <Image Source="/Cache/plogo.png" Stretch="Uniform" Height="40" DockPanel.Dock="Right" MouseLeftButtonDown="PLogo_MLBD" Cursor="Hand"/>
+                <TextBlock Text="合作伙伴&#13;Partner: " HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </DockPanel>
         </DockPanel>
         <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
         <DockPanel>
@@ -85,7 +86,7 @@
                 <TextBlock Text="开发使用 Build with:"/>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Cache/vs.png" Width="200" Stretch="Uniform"/>
-                    <Grid Margin="5,1" Width="210" Height="40" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Cursor="Hand">
+                    <Grid Margin="5,1" Width="210" Height="40" MouseLeftButtonDown="Mahapp_MLBD" Cursor="Hand">
                         <Rectangle Fill="#0071bc"/>
                         <TextBlock Text="mahapps.metro" Foreground="White" FontFamily="Source Code Pro" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Grid>

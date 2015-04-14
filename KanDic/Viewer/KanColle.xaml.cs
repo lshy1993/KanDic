@@ -27,8 +27,9 @@ namespace KanDic.Viewer
     {
         public System.Windows.Window mainwindow;
 
-        public string shipgroup,shipteam;
+        public int shipgroup,shipteam;
         public static Kan[] ships = new Kan[500];
+        public bool iffinalon;
 
         CollectionViewSource shipview = new CollectionViewSource();
         ObservableCollection<NewKan> customers = new ObservableCollection<NewKan>();
@@ -36,8 +37,8 @@ namespace KanDic.Viewer
         public KanColle()
         {
             Load_Kan();
-            shipteam = "1";
-            shipgroup = "1";
+            shipteam = 1;
+            shipgroup = 1;
             InitializeComponent();
         }
 
@@ -50,9 +51,20 @@ namespace KanDic.Viewer
 
         void shipview_Filter(object sender, FilterEventArgs e)
         {
-            if (!string.IsNullOrEmpty(Keyword.Text))
+            if (iffinalon)
             {
-                e.Accepted = ((NewKan)e.Item).Name.Contains(Keyword.Text) || ((NewKan)e.Item).Hiragana.Contains(Keyword.Text) || ((NewKan)e.Item).RomaName.Contains(Keyword.Text);
+                e.Accepted = ((NewKan)e.Item).IsFinal;
+                if (!string.IsNullOrEmpty(Keyword.Text))
+                {
+                    e.Accepted = ((NewKan)e.Item).IsFinal && ((NewKan)e.Item).Name.Contains(Keyword.Text) || ((NewKan)e.Item).Hiragana.Contains(Keyword.Text) || ((NewKan)e.Item).RomaName.Contains(Keyword.Text);
+                }
+            }
+            else
+            {
+                if (!string.IsNullOrEmpty(Keyword.Text))
+                {
+                    e.Accepted = ((NewKan)e.Item).Name.Contains(Keyword.Text) || ((NewKan)e.Item).Hiragana.Contains(Keyword.Text) || ((NewKan)e.Item).RomaName.Contains(Keyword.Text);
+                }
             }
         }
 
@@ -69,7 +81,7 @@ namespace KanDic.Viewer
                 if (type == "KanDic.StartWindow") mainwindow = element;
                 if (type == "KanDic.Window.KanDetail")
                 {
-                    if (element.Title == ships[num].BasicInfo.Name)
+                    if (element.Title == ships[num].Name)
                     {
                         element.WindowState = WindowState.Normal;
                         IsOpened = true;
@@ -90,7 +102,7 @@ namespace KanDic.Viewer
         private void Load_Kan()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Ship.xml");
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Ships.xml");
             XmlDocument ShipList = new XmlDocument();
             ShipList.Load(sStream);
             XmlElement ShipInfo = ShipList.DocumentElement;
@@ -102,63 +114,52 @@ namespace KanDic.Viewer
 
         private void Set_Kan(XmlNode x)
         {
-            string name1, name2;
-            BasicInfo a = new BasicInfo();
-            BattleInfo b = new BattleInfo();
-            BuildInfo c = new BuildInfo();
-            EquipInfo d = new EquipInfo();
-            MaxInfo e = new MaxInfo();
-            SourceInfo f = new SourceInfo();
-            SupplyInfo g = new SupplyInfo();
-            UpdateInfo h = new UpdateInfo();
-            ResolveInfo i = new ResolveInfo(); 
+            string name1;
+            int num = Convert.ToInt32(x.FirstChild.InnerText);
+            ships[num] = new Kan();
+
             foreach (XmlNode yy in x.ChildNodes)
             {
                 name1 = yy.Name;
-                //Console.WriteLine(name1);
-                foreach (XmlNode xx in yy.ChildNodes)
+                var prop = typeof(Kan).GetProperty(name1);
+                if (prop.PropertyType.Equals(typeof(int)))
                 {
-                    name2 = xx.Name;
-                    //if (xx.InnerText == null) xx.InnerText = " ";
-                    if (name1 == "BasicInfo") { typeof(BasicInfo).GetProperty(name2).SetValue(a, xx.InnerText, null); }
-                    if (name1 == "BattleInfo")
+                    if (!string.IsNullOrEmpty(yy.InnerText))
                     {
-                        if (name2 == "Speed" || name2 == "Range") typeof(BattleInfo).GetProperty(name2).SetValue(b, xx.InnerText, null);
-                        else typeof(BattleInfo).GetProperty(name2).SetValue(b, Convert.ToInt32(xx.InnerText), null);
+                        prop.SetValue(ships[num], Convert.ToInt32(yy.InnerText), null);
                     }
-                    if (name1 == "BuildInfo") { typeof(BuildInfo).GetProperty(name2).SetValue(c, xx.InnerText, null); }
-                    if (name1 == "EquipInfo") { typeof(EquipInfo).GetProperty(name2).SetValue(d, xx.InnerText, null); }
-                    if (name1 == "MaxInfo")
-                    {
-                        if (name2 == "Speed" || name2 == "Range") typeof(MaxInfo).GetProperty(name2).SetValue(e, xx.InnerText, null);
-                        else typeof(MaxInfo).GetProperty(name2).SetValue(e, Convert.ToInt32(xx.InnerText), null);
-                    }
-                    if (name1 == "SourceInfo") { typeof(SourceInfo).GetProperty(name2).SetValue(f, Convert.ToInt32(xx.InnerText), null); }
-                    if (name1 == "SupplyInfo") { typeof(SupplyInfo).GetProperty(name2).SetValue(g, Convert.ToInt32(xx.InnerText), null); }
-                    if (name1 == "UpdateInfo") { typeof(UpdateInfo).GetProperty(name2).SetValue(h, xx.InnerText, null); }
-                    if (name1 == "ResolveInfo") { typeof(ResolveInfo).GetProperty(name2).SetValue(i,  Convert.ToInt32(xx.InnerText), null); }
                 }
-                //Console.WriteLine(ships[num].BasicInfo.Name);
+                else
+                {
+                    prop.SetValue(ships[num], yy.InnerText, null);
+                }
             }
-            int num = Convert.ToInt32(a.Number);
-            ships[num] = new Kan(a,b,c,d,e,f,g,h,i);
-            ships[num].BasicInfo.FileName = "/Cache/ships/" + ships[num].BasicInfo.FileName + ".swf/Images/Image 5.jpg";
-            if (ships[num].BasicInfo.Name != null) customers.Add(new NewKan(ships[num]));
+            ships[num].ImageNormal = "/Cache/ships/" + ships[num].FileName + ".swf/Image 5.jpg";
+            ships[num].ImageSmall = "/Cache/ships/" + ships[num].FileName + ".swf/Image 1.jpg";
+            ships[num].IsFinal = ships[num].LinkNumber == 0;
+            if (ships[num].Name == null)
+            {
+                ships[num] = null;
+            }
+            else
+            {
+                customers.Add(new NewKan(ships[num], false));
+            }
         }
         #endregion
 
         private void ShipTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
-            shipgroup = (string)xx.Tag;
-            AlbumPanel.DataContext = new TabNum((string)xx.Tag, shipteam, ships);
+            shipgroup = Convert.ToInt32(xx.Tag);
+            AlbumPanel.DataContext = new TabNum(shipgroup, shipteam, ships);
         }
 
         private void NumberTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
-            shipteam = (string)xx.Tag;
-            AlbumPanel.DataContext = new TabNum(shipgroup, (string)xx.Tag, ships);
+            shipteam = Convert.ToInt32(xx.Tag);
+            AlbumPanel.DataContext = new TabNum(shipgroup, shipteam, ships);
         }
 
         private void Alubm_Click(object sender, RoutedEventArgs e)
@@ -166,6 +167,8 @@ namespace KanDic.Viewer
             AlbumPanel.Visibility = Visibility.Visible;
             ListPanel.Visibility = Visibility.Hidden;
             ClassPanel.Visibility = Visibility.Hidden;
+            ModeAddition.Visibility = Visibility.Collapsed;
+            TypeAddition.Visibility = Visibility.Collapsed;
         }
 
         private void List_Click(object sender, RoutedEventArgs e)
@@ -173,6 +176,8 @@ namespace KanDic.Viewer
             AlbumPanel.Visibility = Visibility.Hidden;
             ListPanel.Visibility = Visibility.Visible;
             ClassPanel.Visibility = Visibility.Hidden;
+            ModeAddition.Visibility = Visibility.Visible;
+            TypeAddition.Visibility = Visibility.Collapsed;
         }
 
         private void Class_Click(object sender, RoutedEventArgs e)
@@ -180,10 +185,29 @@ namespace KanDic.Viewer
             AlbumPanel.Visibility = Visibility.Hidden;
             ListPanel.Visibility = Visibility.Hidden;
             ClassPanel.Visibility = Visibility.Visible;
+            ModeAddition.Visibility = Visibility.Collapsed;
+            TypeAddition.Visibility = Visibility.Visible;
         }
 
         private void Keyword_TextChanged(object sender, TextChangedEventArgs e)
         {
+            shipview.View.Refresh();
+        }
+
+        private void MaxData_Click(object sender, RoutedEventArgs e)
+        {
+            bool ifmax = (bool)((CheckBox)sender).IsChecked;
+            for (int i = 0; i < customers.Count; i++)
+            {
+                int x = Convert.ToInt32(customers[i].Number);
+                customers[i] = new NewKan(ships[x], ifmax);
+            }
+            shipview.View.Refresh();
+        }
+
+        private void Final_Click(object sender, RoutedEventArgs e)
+        {
+            iffinalon = (bool)((CheckBox)sender).IsChecked;
             shipview.View.Refresh();
         }
     }

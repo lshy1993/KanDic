@@ -38,11 +38,11 @@ namespace KanDic.Resources
 
         public TabNums()
         {
-            Tab_Init("1");
+            Tab_Init(1);
             Number = new int[10] {1,2,3,4,5,6,7,8,9,10};
             Num_Init();
         }
-        public TabNums(string group, string team, Soubi[] yyy)
+        public TabNums(int group, int team, Soubi[] yyy)
         {
             Tab_Init(group);
             Number = new int[10];
@@ -87,25 +87,25 @@ namespace KanDic.Resources
             Number9 = "No." + Number[8].ToString("D3");
             Number10 = "No." + Number[9].ToString("D3");
         }
-        public void Tab_Init(string x)
+        public void Tab_Init(int x)
         {
             switch (x)
             {
-                case "1":
+                case 1:
                     Tab1 = "No.001-010";
                     Tab2 = "No.011-020";
                     Tab3 = "No.021-030";
                     Tab4 = "No.031-040";
                     Tab5 = "No.041-050";
                     break;
-                case "2":
+                case 2:
                     Tab1 = "No.051-060";
                     Tab2 = "No.061-070";
                     Tab3 = "No.071-080";
                     Tab4 = "No.081-090";
                     Tab5 = "No.091-100";
                     break;
-                case "3":
+                case 3:
                     Tab1 = "No.101-110";
                     Tab2 = "No.111-120";
                     Tab3 = "No.121-130";

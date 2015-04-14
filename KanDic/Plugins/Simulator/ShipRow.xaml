@@ -20,15 +20,15 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <StackPanel Orientation="Horizontal" Grid.Column="0">
-                <TextBlock Text="{Binding BasicInfo.Type}" VerticalAlignment="Center"/>
-                <TextBlock Text="{Binding BasicInfo.Name}" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding Type}" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding Name}" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
             <TextBlock Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
-            <TextBlock Text="{Binding BattleInfo.HP}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2"/>
-            <TextBlock Text="{Binding BattleInfo.Power}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="3"/>
-            <TextBlock Text="{Binding BattleInfo.Torpedo}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="4"/>
-            <TextBlock Text="{Binding BattleInfo.Air}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="5"/>
-            <TextBlock Text="{Binding BattleInfo.Speed}" Margin="5,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="6"/>
+            <TextBlock Text="{Binding HP}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2"/>
+            <TextBlock Text="{Binding Power}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="3"/>
+            <TextBlock Text="{Binding Torpedo}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="4"/>
+            <TextBlock Text="{Binding Air}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="5"/>
+            <TextBlock Text="{Binding Speed}" Margin="5,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="6"/>
         </Grid>
     </Button>
 </UserControl>

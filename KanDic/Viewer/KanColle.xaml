@@ -11,20 +11,35 @@
             <RowDefinition Height="50"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Border Name="ModeSelect" BorderThickness="1" Width="auto" HorizontalAlignment="Left" Margin="5" Padding="10,3,10,3" BorderBrush="Gray">
-            <StackPanel Orientation="Horizontal">
-                <StackPanel.Resources>
-                    <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
-                </StackPanel.Resources>
-                <TextBlock Text="模式选择" Margin="5,9,0,3"/>
-                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="图鉴模式" Tag="0" IsChecked="True" Click="Alubm_Click"/>
-                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="快速搜索" Click="List_Click"/>
-                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="类型浏览" Click="Class_Click"/>
-            </StackPanel>
-        </Border>
+        <DockPanel>
+            <Border Name="ModeSelect" BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10,3,10,3" DockPanel.Dock="Left">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel.Resources>
+                        <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
+                    </StackPanel.Resources>
+                    <TextBlock Text="模式选择" Margin="5,9,0,3"/>
+                    <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                    <RadioButton Content="图鉴模式" Tag="0" IsChecked="True" Click="Alubm_Click"/>
+                    <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                    <RadioButton Content="快速搜索" Click="List_Click"/>
+                    <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                    <RadioButton Content="类型浏览" Click="Class_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Name="ModeAddition" BorderBrush="Gray" BorderThickness="1" Margin="5" DockPanel.Dock="Right" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="只显示最终版" Margin="5" Click="Final_Click"/>
+                    <CheckBox Content="显示最大值" Margin="5" Click="MaxData_Click"/>
+                    <CheckBox Content="显示颜色" Margin="5"/>
+                </StackPanel>
+            </Border>
+            <Border Name="TypeAddition" BorderBrush="Gray" BorderThickness="1" Margin="5" DockPanel.Dock="Right" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="只显示最终版" Margin="5" Click="Final_Click"/>
+                </StackPanel>
+            </Border>
+            <Rectangle/>
+        </DockPanel>
         <Grid Name="AlbumPanel" Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
@@ -129,8 +144,13 @@
                 </TextBox>
             </DockPanel>
             <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5">
+                <DataGrid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </DataGrid.Resources>
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="船名" Width="60" Binding="{Binding Name}" IsReadOnly="True"/>
+                    <DataGridTextColumn Width="100" Header="船名" Binding="{Binding Name}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="火力" Binding="{Binding Power}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="雷装" Binding="{Binding Torpedo}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="对空" Binding="{Binding Air}" IsReadOnly="True"/>
@@ -150,7 +170,7 @@
         </DockPanel>
         <ScrollViewer Name="ClassPanel" Grid.Row="1" VerticalScrollBarVisibility="Visible" Visibility="Hidden">
             <StackPanel Name="MainClass">
-                <CheckBox Content="显示所有舰种"/>
+
             </StackPanel>
         </ScrollViewer>
     </Grid>

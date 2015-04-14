@@ -9,8 +9,8 @@ namespace KanDic.Resources
     public class MoniKan
     {
         public string Name { get; set; }
-        public string ImageName { get; set; }
-        public string IconName { get; set; }
+        public string ImageNormal { get; set; }
+        public string ImageSmall { get; set; }
 
         public string Type { get; set; }
 
@@ -54,38 +54,39 @@ namespace KanDic.Resources
         {
             LV = 1;
 
-            Type = xx.BasicInfo.Type;
+            Type = xx.Type;
 
-            Name = xx.BasicInfo.Name;
-            ImageName = xx.BasicInfo.FileName;
+            Name = xx.Name;
+            ImageNormal = xx.ImageNormal;
+            ImageSmall = xx.ImageSmall;
 
-            HP = xx.BattleInfo.HP;
-            Power = xx.BattleInfo.Power;
-            Defence = xx.BattleInfo.Defence;
-            Torpedo = xx.BattleInfo.Torpedo;
-            Air = xx.BattleInfo.Air;
-            Carry = xx.BattleInfo.Carry;
-            Antisub = xx.BattleInfo.Antisub;
-            Speed = xx.BattleInfo.Speed;
-            Search = xx.BattleInfo.Search;
-            Range = xx.BattleInfo.Range;
-            Lucky = xx.BattleInfo.Lucky;
-            Dodge = xx.BattleInfo.Dodge;
+            HP = xx.HP;
+            Power = xx.Power;
+            Defence = xx.Defence;
+            Torpedo = xx.Torpedo;
+            Air = xx.Air;
+            Carry = xx.Carry;
+            Antisub = xx.Antisub;
+            Speed = xx.Speed;
+            Search = xx.Search;
+            Range = xx.Range;
+            Lucky = xx.Lucky;
+            Dodge = xx.Dodge;
 
             MinPower = Power;
             MinDefence = Defence;
             MinAir = Air;
             MinTorpedo = Torpedo;
 
-            MaxPower = xx.MaxInfo.Power;
-            MaxAir = xx.MaxInfo.Air;
-            MaxDefence = xx.MaxInfo.Defence;
-            MaxTorpedo = xx.MaxInfo.Torpedo;
+            MaxPower = xx.MaxPower;
+            MaxAir = xx.MaxAir;
+            MaxDefence = xx.MaxDefence;
+            MaxTorpedo = xx.MaxTorpedo;
 
-            Fuel = xx.SupplyInfo.Fuel;
-            Ammo = xx.SupplyInfo.Ammo;
-            FuelAll = xx.MaxInfo.Fuel;
-            AmmoAll = xx.MaxInfo.Ammo;
+            Fuel = xx.Fuel;
+            Ammo = xx.Ammo;
+            FuelAll = xx.MaxFuel;
+            AmmoAll = xx.MaxAmmo;
 
             soubi = new Soubi[5];
             soubi[1] = new Soubi();
@@ -94,10 +95,10 @@ namespace KanDic.Resources
             soubi[4] = new Soubi();
 
             Carrys = new int[5];
-            Carrys[1] = Convert.ToInt32(xx.EquipInfo.Carry1);
-            Carrys[2] = Convert.ToInt32(xx.EquipInfo.Carry2);
-            Carrys[3] = Convert.ToInt32(xx.EquipInfo.Carry3);
-            Carrys[4] = Convert.ToInt32(xx.EquipInfo.Carry4);
+            Carrys[1] = xx.Carry1;
+            Carrys[2] = xx.Carry2;
+            Carrys[3] = xx.Carry3;
+            Carrys[4] = xx.Carry4;
         }
     }
 }

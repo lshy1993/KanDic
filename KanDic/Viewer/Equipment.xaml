@@ -10,18 +10,21 @@
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Border Name="ModeSelect" BorderThickness="1" Width="auto" HorizontalAlignment="Left" Margin="5" Padding="10,3,10,3" BorderBrush="Gray">
-            <StackPanel Orientation="Horizontal">
-                <StackPanel.Resources>
-                    <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
-                </StackPanel.Resources>
-                <TextBlock Text="模式选择" Margin="5,9,0,3"/>
-                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="图鉴模式" IsChecked="True" Click="Album_Click"/>
-                <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
-                <RadioButton Content="装备一览" Grid.Column="1" Click="List_Click"/>
-            </StackPanel>
-        </Border>
+        <DockPanel>
+            <Border Name="ModeSelect" BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10,3,10,3" DockPanel.Dock="Left">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel.Resources>
+                        <ResourceDictionary Source="/KanDic;component/Resources/Style/RadioStyle.xaml" />
+                    </StackPanel.Resources>
+                    <TextBlock Text="模式选择" Margin="5,9,0,3"/>
+                    <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                    <RadioButton Content="图鉴模式" IsChecked="True" Click="Album_Click"/>
+                    <Rectangle Width="1" Margin="10,0,10,0" Fill="Gray" />
+                    <RadioButton Content="装备一览" Grid.Column="1" Click="List_Click"/>
+                </StackPanel>
+            </Border>
+            <Rectangle/>
+        </DockPanel>
         <Grid Name="AlbumPanel" Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
@@ -97,22 +100,29 @@
         <DockPanel Name="ListPanel" Grid.Row="1" Visibility="Hidden">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
                 <StackPanel.Resources>
-                    <ResourceDictionary Source="/Resources/Style/EquipStyle.xaml"/>
+                    <ResourceDictionary Source="/KanDic;component/Resources/Style/EquipStyle.xaml"/>
                 </StackPanel.Resources>
-                <RadioButton Content="主炮" Style="{StaticResource zhupao}"/>
-                <RadioButton Content="副炮" Style="{StaticResource fupao}"/>
-                <RadioButton Content="强化弹" Style="{StaticResource qianghua}"/>
-                <RadioButton Content="鱼雷" Style="{StaticResource yulei}"/>
-                <RadioButton Content="飞机" Style="{StaticResource feiji}"/>
-                <RadioButton Content="电探" Style="{StaticResource diantan}"/>
-                <RadioButton Content="对潜" Style="{StaticResource baolei}"/>
-                <RadioButton Content="高射装置" Style="{StaticResource gaoshe}"/>
-                <RadioButton Content="追加类" Style="{StaticResource zhuijia}"/>
-                <RadioButton Content="其他" Style="{StaticResource qita}"/>
+                <RadioButton Tag="1" Content="主炮" Style="{StaticResource zhupao}" IsChecked="True" Click="Type_Click"/>
+                <RadioButton Tag="2" Content="副炮" Style="{StaticResource fupao}" Click="Type_Click"/>
+                <RadioButton Tag="3" Content="强化弹" Style="{StaticResource qianghua}" Click="Type_Click"/>
+                <RadioButton Tag="4" Content="鱼雷" Style="{StaticResource yulei}" Click="Type_Click"/>
+                <RadioButton Tag="5" Content="飞机" Style="{StaticResource feiji}" Click="Type_Click"/>
+                <RadioButton Tag="6" Content="电探" Style="{StaticResource diantan}" Click="Type_Click"/>
+                <RadioButton Tag="7" Content="对潜" Style="{StaticResource baolei}" Click="Type_Click"/>
+                <RadioButton Tag="8" Content="高射装置" Style="{StaticResource gaoshe}" Click="Type_Click"/>
+                <RadioButton Tag="9" Content="追加类" Style="{StaticResource zhuijia}" Click="Type_Click"/>
+                <RadioButton Tag="10" Content="其他" Style="{StaticResource qita}" Click="Type_Click"/>
             </StackPanel>
             <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="装备名" Binding="{Binding Name}" IsReadOnly="True"/>
+                    <DataGridTemplateColumn Width="30" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Icon}" Stretch="None"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Width="200" Header="装备名" Binding="{Binding Name}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="火力" Binding="{Binding Power}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="雷装" Binding="{Binding Torpedo}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="对空" Binding="{Binding Air}" IsReadOnly="True"/>
@@ -121,7 +131,7 @@
                     <DataGridTextColumn Header="命中" Binding="{Binding Dodge}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="装甲" Binding="{Binding Defence}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="回避" Binding="{Binding Dodge}" IsReadOnly="True"/>
-                    <DataGridTextColumn Header="索敌" Binding="{Binding Carry}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="索敌" Binding="{Binding Search}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="射程" Binding="{Binding Range}" IsReadOnly="True"/>
                 </DataGrid.Columns>
             </DataGrid>

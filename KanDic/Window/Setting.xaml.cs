@@ -24,8 +24,8 @@ namespace KanDic
         public string colors;
         public bool autoupdate;
         public int minute, second;
-        public string[] ColorType1 = { "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
-        public string[] ColorType = { "CCE51400", "CC60A917", "CC119EDA", "CC6459DF", "CCFA6800", "CCA4C400", "CC008A00", "CC00ABA9", "CC1BA1E2", "CC0050EF", "CC6A00FF", "CCAA00FF", "CCF472D0", "CCD80073", "CCA20025", "CCF0A30A", "CCFEDE06", "CC825A2C", "CC6D8764", "CC647687", "CC76608A", "CC87794E", "CCA0522D" };
+        public string[] ColorType1 = { "Purple", "Red", "Green", "Blue", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
+        public string[] ColorType = { "CC6459DF", "CCE51400", "CC60A917", "CC119EDA", "CCFA6800", "CCA4C400", "CC008A00", "CC00ABA9", "CC1BA1E2", "CC0050EF", "CC6A00FF", "CCAA00FF", "CCF472D0", "CCD80073", "CCA20025", "CCF0A30A", "CCFEDE06", "CC825A2C", "CC6D8764", "CC647687", "CC76608A", "CC87794E", "CCA0522D" };
         
         public Setting()
         {
@@ -92,7 +92,7 @@ namespace KanDic
             second = (int)nud.Value;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Accept_Click(object sender, RoutedEventArgs e)
         {
             Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             cfa.AppSettings.Settings["autoupdate"].Value = autoupdate.ToString();
@@ -103,7 +103,7 @@ namespace KanDic
             ConfigurationManager.RefreshSection("appSettings");
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Cancel_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

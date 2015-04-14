@@ -20,6 +20,7 @@ using System.Net;
 using System.ComponentModel;
 using System.Data;
 using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
 using KanDic.Resources;
 using System.Configuration;
 using ICSharpCode.SharpZipLib;
@@ -33,100 +34,42 @@ namespace KanDic.Plugins
     {
 
         private System.Windows.Threading.DispatcherTimer WaitTimer = new System.Windows.Threading.DispatcherTimer();
-        private Update updateInfo;
-
-        private static long size;//所有文件大小
-        private static int count;//文件总数
-        private static string[] fileNames;
-        private static int num;//已更新文件数
-        private static long upsize;//已更新文件大小
-        private static string fileName;//当前文件名
-        private static long filesize;//当前文件大小
-
         private string curpath;
         private WebClient downWebClient = new WebClient();
 
         public AutoUpdate()
         {
             InitializeComponent();
-
             curpath = AppDomain.CurrentDomain.BaseDirectory;
 
+            /*
             WaitTimer.Interval = new TimeSpan(0, 0, 0, 0, 5);
             WaitTimer.Tick += new EventHandler(ShowSecond);
+            */
 
             AppVer.Text = "当前程序版本：" + ConfigurationManager.AppSettings["appver"];
             DataVer.Text = "当前数据库版本：" + ConfigurationManager.AppSettings["dataver"];
 
-            xx.Maximum = 80;
+            xx.Maximum = 60;
 
-            if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]))
-            {
-                Status.Text = "检查更新...";
-                ChangeLog.Source = new Uri("http://1.pngbase.sinaapp.com/changelog.html");//加载更新页面
-                ChangeLog.LoadCompleted += ChangeLog_LoadCompleted;//委托完成事件
-            }
-            else
-            {
-                WaitTimer.Start();
-            }
+            ChangeLog.Source = new Uri("http://1.pngbase.sinaapp.com/changelog.html");//加载更新页面
+            ChangeLog.LoadCompleted += ChangeLog_LoadCompleted;//委托完成事件
         }
 
         void ChangeLog_LoadCompleted(object sender, NavigationEventArgs e)
         {
-            CheckUpdate();
-        }
-
-        private void CheckUpdate()
-        {
-            string url = "http://1.pngbase.sinaapp.com/Update.xml";
-            var client = new WebClient();
-            client.DownloadDataCompleted += (x, y) =>
-            {
-                try
-                {
-                    updateInfo = new Update();
-                    MemoryStream stream = new MemoryStream(y.Result);
-                    XmlDocument xDoc = new XmlDocument();
-                    xDoc.Load(stream);
-                    XmlElement Infos = xDoc.DocumentElement;
-                    foreach (XmlNode temp in Infos.ChildNodes)
-                    {
-                        string nodename = temp.Name;
-                        typeof(Update).GetProperty(nodename).SetValue(updateInfo, temp.InnerText, null);
-                    }
-                    stream.Close();
-                    StartUpdate();
-                }
-                catch
-                {
-                    Status.Text = "检查更新失败！程序将直接启动";
-                    WaitTimer.Start();
-                }
-            };
-            client.DownloadDataAsync(new Uri(url));
+            //this.ShowMessageAsync("检测到新版本！", "Some message");
+            //StartUpdate();
         }
 
         private void StartUpdate()
         {
-            if (Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.AppVersion) || Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.DataVersion))
-            {
-                WaitTimer.Stop();
-                Status.Text = "正在启动更新程序……";
-                //更新代码
-                string url = "http://1.pngbase.sinaapp.com/Update.zip";
-
-                downWebClient.DownloadProgressChanged +=downWebClient_DownloadProgressChanged;
-
-                downWebClient.DownloadDataCompleted += downWebClient_DownloadDataCompleted;
-
-                downWebClient.DownloadDataAsync(new Uri(url));
-
-            }
-            else
-            {
-                WaitTimer.Start();
-            }
+            Status.Text = "正在启动自动更新……";
+            //更新代码
+            string url = "http://1.pngbase.sinaapp.com/Update.zip";
+            downWebClient.DownloadProgressChanged += downWebClient_DownloadProgressChanged;
+            downWebClient.DownloadDataCompleted += downWebClient_DownloadDataCompleted;
+            downWebClient.DownloadDataAsync(new Uri(url));
         }
 
         void downWebClient_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
@@ -199,19 +142,6 @@ namespace KanDic.Plugins
             xx.Value = ex.ProgressPercentage; 
         }
 
-        private void ShowSecond(object sender, EventArgs e)
-        {
-            Status.Text = "正在启动ing";
-            xx.Value++;
-            if (xx.Value == xx.Maximum)
-            {
-                WaitTimer.Stop();
-                StartWindow mainwin = new StartWindow();
-                this.Close();
-                mainwin.Show();
-            }
-        }
-
         private static void UnZipFile(string zipFilePath, string targetDir)
         {
             ICSharpCode.SharpZipLib.Zip.FastZipEvents evt = new ICSharpCode.SharpZipLib.Zip.FastZipEvents();
@@ -242,7 +172,7 @@ namespace KanDic.Plugins
                     CopyDirectory(dir, destDirName + System.IO.Path.GetFileName(dir));
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 throw new Exception("复制文件错误");
             }

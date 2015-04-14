@@ -34,6 +34,7 @@ namespace KanDic.Resources
         public int Search{ get; set; }
         public int Hitrate{ get; set; }
         public int Dodge { get; set; }
+        public int Defence { get; set; }
         public string Range{ get; set; }
 
         public string Fuel{ get; set; }

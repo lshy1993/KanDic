@@ -11,7 +11,7 @@
             <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
         </Canvas.Resources>
         <Image Source="/KanDic;component/Cache/Calculate/back.PNG" Canvas.Right="0" Stretch="None"/>
-        <Image Name="ShipImage" Source="/KanDic;component/Cache/test.PNG" Canvas.Right="7" Canvas.Top="12" Stretch="None"/>
+        <Image Name="ShipImage" Source="{Binding ImageSmall}" Canvas.Right="7" Canvas.Top="12" Stretch="None"/>
         <Border BorderThickness="1" BorderBrush="White" Background="#00ff00" CornerRadius="3" Height="7" Width="65" Canvas.Left="98" Canvas.Top="36"/>
         <TextBlock Text="{Binding Name}" Foreground="White" FontSize="24" Canvas.Top="13" Canvas.Left="23"/>
         <TextBlock Text="{Binding LV}" Foreground="White" FontSize="14" Canvas.Top="13" Canvas.Left="148"/>

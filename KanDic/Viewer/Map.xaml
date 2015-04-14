@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="480" d:DesignWidth="800">
     <UserControl.Resources>
-        <ResourceDictionary Source="/Resources/Style/MapStyle2.xaml"/>
+        <ResourceDictionary Source="/KanDic;component/Resources/Style/MapStyle2.xaml"/>
     </UserControl.Resources>
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Disabled">
         <Grid>
@@ -71,7 +71,7 @@
                                 <Rectangle Height="1" Margin="5,3,5,3" Fill="Gray" />
                                 <StackPanel Name="EnermyButton" Margin="5">
                                     <StackPanel.Resources>
-                                        <ResourceDictionary Source="/Resources/Style/MapStyle3.xaml"/>
+                                        <ResourceDictionary Source="/KanDic;component/Resources/Style/MapStyle3.xaml"/>
                                     </StackPanel.Resources>
                                 </StackPanel>
                                 <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />

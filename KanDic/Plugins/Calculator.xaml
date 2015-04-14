@@ -60,6 +60,7 @@
                     <RadioButton Style="{StaticResource team2}" Margin="5,0"/>
                     <RadioButton Style="{StaticResource team3}" Margin="5,0"/>
                     <RadioButton Style="{StaticResource team4}" Margin="5,0"/>
+                    <TextBlock Text="其他舰队未实装" VerticalAlignment="Center"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Grid.Column="1">
                     <TextBlock Text="司令部等级：" VerticalAlignment="Center"/>
@@ -136,7 +137,7 @@
                 <DockPanel Name="ShipView" Width="210" Height="380" Canvas.Left="700" Background="#f0e6dc">
                     <TextBlock DockPanel.Dock="Top" Text="{Binding Name}" FontSize="24" Margin="20,0"/>
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="10,5" Fill="Gray"/>
-                    <Image Source="/KanDic;component/Cache/test.png" Stretch="None" DockPanel.Dock="Top"/>
+                    <Image Source="{Binding ImageSmall}" Stretch="None" DockPanel.Dock="Top"/>
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="10,5" Fill="Gray"/>
                     <TextBlock DockPanel.Dock="Top" Text="数值增减" Margin="15,0"/>
                     <Rectangle DockPanel.Dock="Top" Height="1" Margin="10,5" Fill="Gray"/>
@@ -228,7 +229,7 @@
                         </Grid>
                     </Canvas>
                 </StackPanel>
-                <Image Source="{Binding ImageName}" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,15" Grid.Column="1"/>
+                <Image Source="{Binding ImageNormal}" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,15" Grid.Column="1"/>
             </Grid>
             <Canvas Name="SoubiPanel" Visibility="Hidden">
                 <Rectangle Width="700" Height="380" Fill="Black" Opacity="0.2" MouseLeftButtonDown="SoubiList_Hide"/>

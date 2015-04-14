@@ -338,6 +338,7 @@
 		<ID>17</ID>
 		<Name>敵地偵察作戦</Name>
 		<Hard>A</Hard>
+		<Content>精鋭の水雷戦隊を編成し、北方海域の敵情勢を強行偵察せよ！</Content>
 		<Hour>0</Hour>
 		<Minute>45</Minute>
 		<GetFuel>70</GetFuel>
@@ -351,7 +352,8 @@
 	<row>
 		<ID>18</ID>
 		<Name>航空機輸送作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>有力な「航空母艦」多数を配備した艦隊を編成、前線に航空機を輸送せよ！</Content>
 		<Hour>5</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -367,7 +369,8 @@
 	<row>
 		<ID>19</ID>
 		<Name>北号作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>練度の高い「航空戦艦」複数を基幹とした、強行輸送船団を出航させよ！</Content>
 		<Hour>6</Hour>
 		<Minute>0</Minute>
 		<GetFuel>400</GetFuel>
@@ -385,7 +388,8 @@
 	<row>
 		<ID>20</ID>
 		<Name>潜水艦哨戒任務</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦とその支援艦艇によって構成された艦隊で、北方海域の哨戒任務に当たれ！</Content>
 		<Hour>2</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -403,7 +407,8 @@
 	<row>
 		<ID>21</ID>
 		<Name>北方鼠輸送作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>水雷戦隊にドラム缶(輸送用)を積載し、北方方面への友軍の糧食補給を図れ！</Content>
 		<Hour>2</Hour>
 		<Minute>20</Minute>
 		<GetFuel>320</GetFuel>
@@ -419,7 +424,8 @@
 	<row>
 		<ID>22</ID>
 		<Name>艦隊演習</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>練度を向上させるための艦隊演習を行う。(資源獲得目的の遠征ではありません)</Content>
 		<Hour>3</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -433,7 +439,8 @@
 	<row>
 		<ID>23</ID>
 		<Name>航空戦艦運用演習</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>練度の高い「航空戦艦」複数を基幹とした艦隊による総合演習を実施せよ！</Content>
 		<Hour>4</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -446,8 +453,12 @@
 	</row>
 	<row>
 		<ID>24</ID>
+	</row>
+	<row>
+		<ID>25</ID>
 		<Name>通商破壊作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>快速かつ打撃力のある重巡を中心にした艦隊によって、敵後方補給線を遮断せよ！</Content>
 		<Hour>40</Hour>
 		<Minute>0</Minute>
 		<GetFuel>900</GetFuel>
@@ -459,9 +470,10 @@
 		<Set>最低4只，重巡2驱2必要</Set>
 	</row>
 	<row>
-		<ID>25</ID>
+		<ID>26</ID>
 		<Name>敵母港空襲作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>敵潜水艦の哨戒線を長躯突破し、空母を伴った有力な機動艦隊で敵母港を叩け！</Content>
 		<Hour>80</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -473,9 +485,10 @@
 		<Set>最低4只，空母1轻1驱2必要</Set>
 	</row>
 	<row>
-		<ID>26</ID>
+		<ID>27</ID>
 		<Name>潜水艦通商破壊作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦２隻以上を伴う艦隊で敵後方へ進出、通商破壊作戦を実施せよ！</Content>
 		<Hour>20</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -489,9 +502,10 @@
 		<Set>最少2只，潜艇2必要</Set>
 	</row>
 	<row>
-		<ID>27</ID>
+		<ID>28</ID>
 		<Name>西方海域封鎖作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦3隻以上で構成される艦隊で、西方海域の敵水上艦の活動を封鎖せよ！</Content>
 		<Hour>25</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -507,9 +521,10 @@
 		<Set>最少3只，潜艇3必要</Set>
 	</row>
 	<row>
-		<ID>28</ID>
+		<ID>29</ID>
 		<Name>潜水艦派遣演習</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦3隻以上で構成される艦隊を編成、長距離派遣の演習を実施せよ！</Content>
 		<Hour>24</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -525,9 +540,10 @@
 		<Set>最少3只，潜艇3必要</Set>
 	</row>
 	<row>
-		<ID>29</ID>
+		<ID>30</ID>
 		<Name>潜水艦派遣作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦4隻以上で編成される艦隊を編成し、遠方の友軍勢力との連絡を試みよ！</Content>
 		<Hour>48</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -543,9 +559,10 @@
 		<Set>最少4只，潜艇4必要</Set>
 	</row>
 	<row>
-		<ID>30</ID>
+		<ID>31</ID>
 		<Name>海外艦との接触</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水艦4隻以上で編成される艦隊を編成?派遣し、海外艦との邂逅を試みよ！</Content>
 		<Hour>2</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -559,9 +576,28 @@
 		<Set>最少4只，潜艇4必要</Set>
 	</row>
 	<row>
-		<ID>31</ID>
+		<ID>32</ID>
+		<Name>遠洋練習航海</Name>
+		<Hard>D</Hard>
+		<Content>練習巡洋艦を旗艦とした練習艦隊で遠洋練習航海を実施、基礎練度向上に努めよ！</Content>
+		<Hour>24</Hour>
+		<Minute>0</Minute>
+		<GetFuel>50</GetFuel>
+		<GetAmmo>50</GetAmmo>
+		<GetSteel>50</GetSteel>
+		<GetAluminum>50</GetAluminum>
+		<CostFuel>90%</CostFuel>
+		<CostAmmo>30%</CostAmmo>
+		<Item1>3</Item1>
+		<ItemName1>gxzc</ItemName1>
+		<Item2>1</Item2>
+		<ItemName2>jjx3</ItemName2>
+	</row>
+	<row>
+		<ID>33</ID>
 		<Name>前衛支援任務</Name>
-		<Hard>A</Hard>
+		<Hard>D</Hard>
+		<Content>南方海域へ支援艦隊を出撃させ、主力艦隊の進撃を援護せよ！</Content>
 		<Hour>0</Hour>
 		<Minute>15</Minute>
 		<Item1>1</Item1>
@@ -569,17 +605,19 @@
 		<Set>驱2必要</Set>
 	</row>
 	<row>
-		<ID>32</ID>
+		<ID>34</ID>
 		<Name>艦隊決戦支援任務</Name>
-		<Hard>A</Hard>
+		<Hard>E</Hard>
+		<Content>南方海域へ支援艦隊を出撃させ、主力艦隊の進撃を援護せよ！</Content>
 		<Hour>0</Hour>
 		<Minute>30</Minute>
 		<Set>驱2必要</Set>
 	</row>
 	<row>
-		<ID>33</ID>
+		<ID>35</ID>
 		<Name>MO作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>空母2隻を基幹とするMO機動部隊を出撃させ、南方海域の制海権を確保せよ！</Content>
 		<Hour>7</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>
@@ -595,9 +633,10 @@
 		<Set>全6只，空母2重1驱1必要</Set>
 	</row>
 	<row>
-		<ID>34</ID>
+		<ID>36</ID>
 		<Name>水上機基地建設</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>水上機母艦2隻を含む艦隊を編成し、南方海域に哨戒用の水上機基地を建設せよ！</Content>
 		<Hour>9</Hour>
 		<Minute>0</Minute>
 		<GetFuel>480</GetFuel>
@@ -613,9 +652,10 @@
 		<Set>全6只，水母2轻1驱1必要</Set>
 	</row>
 	<row>
-		<ID>35</ID>
+		<ID>37</ID>
 		<Name>東京急行</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>水雷戦隊にドラム缶(輸送用)を満載し、南方方面友軍への鼠輸送作戦を遂行せよ！</Content>
 		<Hour>2</Hour>
 		<Minute>45</Minute>
 		<GetFuel>0</GetFuel>
@@ -629,9 +669,10 @@
 		<Set>全6只，轻1驱5必要，最少4只舰娘装备 ドラム缶(輸送用)</Set>
 	</row>
 	<row>
-		<ID>36</ID>
+		<ID>38</ID>
 		<Name>東京急行(弐)</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>水雷戦隊にドラム缶(輸送用)を可能な限り満載し、南方鼠輸送作戦を続行せよ！</Content>
 		<Hour>2</Hour>
 		<Minute>55</Minute>
 		<GetFuel>420</GetFuel>
@@ -645,9 +686,10 @@
 		<Set>全6只，驱5必要，最少4只舰娘装备至少8个 ドラム缶(輸送用)，</Set>
 	</row>
 	<row>
-		<ID>37</ID>
+		<ID>39</ID>
 		<Name>遠洋潜水艦作戦</Name>
-		<Hard>A</Hard>
+		<Hard>S</Hard>
+		<Content>潜水母艦と多数の潜水艦による遠洋潜水艦作戦を実施、敵勢力の漸減に努めよ！</Content>
 		<Hour>30</Hour>
 		<Minute>0</Minute>
 		<GetFuel>0</GetFuel>

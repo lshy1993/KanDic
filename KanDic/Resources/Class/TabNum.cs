@@ -38,40 +38,40 @@ namespace KanDic.Resources
 
         public TabNum()
         {
-            Tab_Init("1");
+            Tab_Init(1);
             Number = new int[10] {1,2,3,4,5,6,7,8,9,10};
             Num_Init();
         }
 
-        public TabNum(string group, string team, Kan[] yyy)
+        public TabNum(int group, int team, Kan[] yyy)
         {
             Tab_Init(group);
             Number = new int[10];
             for (int x = 0; x <= 9; x++)
             {
-                Number[x] = (Convert.ToInt32(group) - 1) * 50 + (Convert.ToInt32(team) - 1) * 10 + x + 1;
+                Number[x] = (group - 1) * 50 + (team - 1) * 10 + x + 1;
             }
             Num_Init();
 
-            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].BasicInfo.FileName;
+            if (yyy[Number[0]] != null) Image1 = yyy[Number[0]].ImageNormal;
             else Image1 = "/Cache/error.png";
-            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].BasicInfo.FileName;
+            if (yyy[Number[1]] != null) Image2 = yyy[Number[1]].ImageNormal;
             else Image2 = "/Cache/error.png";
-            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].BasicInfo.FileName;
+            if (yyy[Number[2]] != null) Image3 = yyy[Number[2]].ImageNormal;
             else Image3 = "/Cache/error.png";
-            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].BasicInfo.FileName;
+            if (yyy[Number[3]] != null) Image4 = yyy[Number[3]].ImageNormal;
             else Image4 = "/Cache/error.png";
-            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].BasicInfo.FileName;
+            if (yyy[Number[4]] != null) Image5 = yyy[Number[4]].ImageNormal;
             else Image5 = "/Cache/error.png";
-            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].BasicInfo.FileName;
+            if (yyy[Number[5]] != null) Image6 = yyy[Number[5]].ImageNormal;
             else Image6 = "/Cache/error.png";
-            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].BasicInfo.FileName;
+            if (yyy[Number[6]] != null) Image7 = yyy[Number[6]].ImageNormal;
             else Image7 = "/Cache/error.png";
-            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].BasicInfo.FileName;
+            if (yyy[Number[7]] != null) Image8 = yyy[Number[7]].ImageNormal;
             else Image8 = "/Cache/error.png";
-            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].BasicInfo.FileName;
+            if (yyy[Number[8]] != null) Image9 = yyy[Number[8]].ImageNormal;
             else Image9 = "/Cache/error.png";
-            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].BasicInfo.FileName;
+            if (yyy[Number[9]] != null) Image10 = yyy[Number[9]].ImageNormal;
             else Image10 = "/Cache/error.png";
         }
 
@@ -89,39 +89,39 @@ namespace KanDic.Resources
             Number10 = "No." + Number[9].ToString("D3");
         }
 
-        public void Tab_Init(string x)
+        public void Tab_Init(int x)
         {
             switch (x)
             {
-                case "1":
+                case 1:
                     Tab1 = "No.001-010";
                     Tab2 = "No.011-020";
                     Tab3 = "No.021-030";
                     Tab4 = "No.031-040";
                     Tab5 = "No.041-050";
                     break;
-                case "2":
+                case 2:
                     Tab1 = "No.051-060";
                     Tab2 = "No.061-070";
                     Tab3 = "No.071-080";
                     Tab4 = "No.081-090";
                     Tab5 = "No.091-100";
                     break;
-                case "3":
+                case 3:
                     Tab1 = "No.101-110";
                     Tab2 = "No.111-120";
                     Tab3 = "No.121-130";
                     Tab4 = "No.131-140";
                     Tab5 = "No.141-150";
                     break;
-                case "4":
+                case 4:
                     Tab1 = "No.151-160";
                     Tab2 = "No.161-170";
                     Tab3 = "No.171-180";
                     Tab4 = "No.181-190";
                     Tab5 = "No.191-200";
                     break;
-                case "5":
+                case 5:
                     Tab1 = "No.201-210";
                     Tab2 = "No.211-220";
                     Tab3 = "No.221-230";

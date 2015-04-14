@@ -39,16 +39,16 @@ namespace KanDic.Window
         #region 数据生成-缺图标
         public void Detail_Init()
         {
-            this.Title = kanmusu.BasicInfo.Name;
-            if (kanmusu.BuildInfo.OnlyHuge == "True")
+            this.Title = kanmusu.Name;
+            if (kanmusu.OnlyHuge == "True")
             {
                 IfHuge.Text = "大";
                 Color color = (Color)ColorConverter.ConvertFromString("Red");
                 SolidColorBrush brush = new SolidColorBrush(color);
                 IfHugeBack.Background = brush;
             }
-            MainData.DataContext = kanmusu.BattleInfo;
-            SobiList.DataContext = new SobiIcon(kanmusu.EquipInfo.Equip1, kanmusu.EquipInfo.Equip2, kanmusu.EquipInfo.Equip3, kanmusu.EquipInfo.Equip4);
+            MainData.DataContext = kanmusu;
+            SobiList.DataContext = new SobiIcon(kanmusu.Equip1, kanmusu.Equip2, kanmusu.Equip3, kanmusu.Equip4);
             Show_Chart();
         }
         #endregion
@@ -56,11 +56,11 @@ namespace KanDic.Window
         #region Visifire表格生成
         private void Show_Chart()
         {
-            hl.YValue = Convert.ToInt32(kanmusu.BattleInfo.Power);
-            lz.YValue = Convert.ToInt32(kanmusu.BattleInfo.Torpedo);
-            dk.YValue = Convert.ToInt32(kanmusu.BattleInfo.Air);
-            hb.YValue = Convert.ToInt32(kanmusu.BattleInfo.Dodge);
-            nj.YValue = Convert.ToInt32(kanmusu.BattleInfo.HP);
+            hl.YValue = Convert.ToInt32(kanmusu.Power);
+            lz.YValue = Convert.ToInt32(kanmusu.Torpedo);
+            dk.YValue = Convert.ToInt32(kanmusu.Air);
+            hb.YValue = Convert.ToInt32(kanmusu.Dodge);
+            nj.YValue = Convert.ToInt32(kanmusu.HP);
         }
         #endregion
 
@@ -137,21 +137,21 @@ namespace KanDic.Window
             CheckBox xx = (CheckBox)sender;
             if ((bool)xx.IsChecked)
             {
-                MainData.DataContext = kanmusu.MaxInfo;
-                hl.YValue = Convert.ToInt32(kanmusu.MaxInfo.Power);
-                lz.YValue = Convert.ToInt32(kanmusu.MaxInfo.Torpedo);
-                dk.YValue = Convert.ToInt32(kanmusu.MaxInfo.Air);
-                hb.YValue = Convert.ToInt32(kanmusu.MaxInfo.Dodge);
-                nj.YValue = Convert.ToInt32(kanmusu.MaxInfo.HP);
+                MainData.DataContext = new NewKan(kanmusu, true);
+                hl.YValue = Convert.ToInt32(kanmusu.MaxPower);
+                lz.YValue = Convert.ToInt32(kanmusu.MaxTorpedo);
+                dk.YValue = Convert.ToInt32(kanmusu.MaxAir);
+                hb.YValue = Convert.ToInt32(kanmusu.MaxDodge);
+                nj.YValue = Convert.ToInt32(kanmusu.MaxHP);
             }
             else
             {
-                MainData.DataContext = kanmusu.BattleInfo;
-                hl.YValue = Convert.ToInt32(kanmusu.BattleInfo.Power);
-                lz.YValue = Convert.ToInt32(kanmusu.BattleInfo.Torpedo);
-                dk.YValue = Convert.ToInt32(kanmusu.BattleInfo.Air);
-                hb.YValue = Convert.ToInt32(kanmusu.BattleInfo.Dodge);
-                nj.YValue = Convert.ToInt32(kanmusu.BattleInfo.HP);
+                MainData.DataContext = new NewKan(kanmusu, false);
+                hl.YValue = Convert.ToInt32(kanmusu.Power);
+                lz.YValue = Convert.ToInt32(kanmusu.Torpedo);
+                dk.YValue = Convert.ToInt32(kanmusu.Air);
+                hb.YValue = Convert.ToInt32(kanmusu.Dodge);
+                nj.YValue = Convert.ToInt32(kanmusu.HP);
             }
         }
         #endregion
