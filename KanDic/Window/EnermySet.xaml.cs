@@ -41,7 +41,7 @@ namespace KanDic.Window
                 shinkai = new Enermy();
                 Load_Enermy(namelist[i]);
                 DataPanel.Children.Add(new KanDic.Viewer.EnermyPanel(shinkai));
-                Draw_Icon(shinkai,i);
+                //Draw_Icon(shinkai,i);
             }
         }
 

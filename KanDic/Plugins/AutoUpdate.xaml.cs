@@ -32,8 +32,6 @@ namespace KanDic.Plugins
     /// </summary>
     public partial class AutoUpdate : MetroWindow
     {
-
-        private System.Windows.Threading.DispatcherTimer WaitTimer = new System.Windows.Threading.DispatcherTimer();
         private string curpath;
         private WebClient downWebClient = new WebClient();
 
@@ -42,29 +40,18 @@ namespace KanDic.Plugins
             InitializeComponent();
             curpath = AppDomain.CurrentDomain.BaseDirectory;
 
-            /*
-            WaitTimer.Interval = new TimeSpan(0, 0, 0, 0, 5);
-            WaitTimer.Tick += new EventHandler(ShowSecond);
-            */
-
             AppVer.Text = "当前程序版本：" + ConfigurationManager.AppSettings["appver"];
             DataVer.Text = "当前数据库版本：" + ConfigurationManager.AppSettings["dataver"];
 
             xx.Maximum = 60;
 
-            ChangeLog.Source = new Uri("http://1.pngbase.sinaapp.com/changelog.html");//加载更新页面
-            ChangeLog.LoadCompleted += ChangeLog_LoadCompleted;//委托完成事件
-        }
-
-        void ChangeLog_LoadCompleted(object sender, NavigationEventArgs e)
-        {
-            //this.ShowMessageAsync("检测到新版本！", "Some message");
-            //StartUpdate();
+            string homeurl = "http://1.pngbase.sinaapp.com/changelog.html";
+            ChangeLog.Navigate(new Uri(homeurl));
         }
 
         private void StartUpdate()
         {
-            Status.Text = "正在启动自动更新……";
+            Status.Text = "正在下载更新……";
             //更新代码
             string url = "http://1.pngbase.sinaapp.com/Update.zip";
             downWebClient.DownloadProgressChanged += downWebClient_DownloadProgressChanged;
@@ -74,65 +61,72 @@ namespace KanDic.Plugins
 
         void downWebClient_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
         {
-            string zipFilePath = System.IO.Path.Combine(curpath, "Update.zip");
-            byte[] data = e.Result;
-            BinaryWriter writer = new BinaryWriter(new FileStream(zipFilePath, FileMode.OpenOrCreate));
-            writer.Write(data);
-            writer.Flush();
-            writer.Close();
-
-            System.Threading.ThreadPool.QueueUserWorkItem((s) =>
+            try
             {
-                Action f = () =>
+                string zipFilePath = System.IO.Path.Combine(curpath, "Update.zip");
+                byte[] data = e.Result;
+                BinaryWriter writer = new BinaryWriter(new FileStream(zipFilePath, FileMode.OpenOrCreate));
+                writer.Write(data);
+                writer.Flush();
+                writer.Close();
+
+                System.Threading.ThreadPool.QueueUserWorkItem((s) =>
                 {
-                    Status.Text = "开始更新程序...";
-                };
-                this.Dispatcher.Invoke(f);
-                string tempDir = System.IO.Path.Combine(curpath, "temp");
-                if (!Directory.Exists(tempDir))
-                {
-                    Directory.CreateDirectory(tempDir);
-                }
-                //解压缩包
-                UnZipFile(zipFilePath, tempDir);
-                //移动文件
-                if (Directory.Exists(tempDir))
-                {
-                    CopyDirectory(tempDir, curpath);
-                }
-                f = () =>
-                {
-                    Status.Text = "更新完成!";
+                    Action f = () =>
+                    {
+                        Status.Text = "开始更新程序...";
+                    };
+                    this.Dispatcher.Invoke(f);
+                    string tempDir = System.IO.Path.Combine(curpath, "temp");
+                    if (!Directory.Exists(tempDir))
+                    {
+                        Directory.CreateDirectory(tempDir);
+                    }
+                    //解压缩包
+                    UnZipFile(zipFilePath, tempDir);
+                    //移动文件
+                    if (Directory.Exists(tempDir))
+                    {
+                        CopyDirectory(tempDir, curpath);
+                    }
+                    f = () =>
+                    {
+                        Status.Text = "更新完成!";
+                        try
+                        {
+                            //清空缓存文件夹
+                            System.IO.Directory.Delete(curpath + "temp", true);
+                            System.IO.File.Delete(zipFilePath);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    };
+                    this.Dispatcher.Invoke(f);
                     try
                     {
-                        //清空缓存文件夹
-                        System.IO.Directory.Delete(curpath + "temp", true);
-                        System.IO.File.Delete(zipFilePath);
+                        f = () =>
+                        {
+                            //启动软件
+                            System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
+                            Info.FileName = "KanDic.exe";
+                            Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                            System.Diagnostics.Process.Start(Info);
+                            Application.Current.Shutdown();
+                        };
+                        this.Dispatcher.Invoke(f);
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message);
                     }
-                };
-                this.Dispatcher.Invoke(f);
-                try
-                {
-                    f = () =>
-                    {
-                        //启动软件
-                        System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
-                        Info.FileName = "KanDic.exe";
-                        Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                        System.Diagnostics.Process.Start(Info);
-                        Application.Current.Shutdown();
-                    };
-                    this.Dispatcher.Invoke(f);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            });
+                });
+            }
+            catch
+            {
+                Status.Text = "自动获取失败，请手动下载";
+            }
         }
         
         void downWebClient_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs ex)
@@ -176,6 +170,25 @@ namespace KanDic.Plugins
             {
                 throw new Exception("复制文件错误");
             }
+        }
+
+        private void Yun_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://pan.baidu.com/share/home?uk=1610972107");
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            StartWindow mainwin = new StartWindow();
+            this.Close();
+            mainwin.Show();
+        }
+
+        private void Download_Click(object sender, RoutedEventArgs e)
+        {
+            BarPanel.Visibility = Visibility.Visible;
+            ButtonPanel.Visibility = Visibility.Hidden;
+            StartUpdate();
         }
     }
 }

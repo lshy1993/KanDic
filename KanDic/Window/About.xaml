@@ -5,7 +5,7 @@
     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
     ShowInTaskbar="False"
     Title="关于"
-    Height="402" Width="600"
+    Height="410" Width="600"
     
     ResizeMode="NoResize"
     

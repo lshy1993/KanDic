@@ -4,82 +4,68 @@
 		<Number>001</Number>
 		<Name>12cm単装砲</Name>
 		<Type>小口径主砲</Type>
+		<Icon>68</Icon>
 		<Rare>コモン</Rare>
 		<Power>1</Power>
 		<Air>1</Air>
 		<Range>短</Range>
-		<quzhu>True</quzhu>
-		<qingxun>True</qingxun>
-		<shuimu>True</shuimu>
 	</Soubi>
 	<Soubi>
 		<Number>002</Number>
 		<Name>12.7cm連装砲</Name>
 		<Type>小口径主砲</Type>
+		<Icon>68</Icon>
 		<Rare>コモン</Rare>
 		<Power>2</Power>
 		<Air>2</Air>
 		<Range>短</Range>
-		<quzhu>True</quzhu>
-		<qingxun>True</qingxun>
-		<shuimu>True</shuimu>
 	</Soubi>
 	<Soubi>
 		<Number>003</Number>
 		<Name>10cm連装高角砲</Name>
 		<Type>小口径主砲</Type>
+		<Icon>98</Icon>
 		<Rare>レア</Rare>
 		<Power>2</Power>
 		<Air>7</Air>
 		<Range>短</Range>
-		<quzhu>True</quzhu>
-		<qingxun>True</qingxun>
-		<shuimu>True</shuimu>
 	</Soubi>
 	<Soubi>
 		<Number>004</Number>
 		<Name>14cm単装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>コモン</Rare>
 		<Power>2</Power>
 		<Hitrate>1</Hitrate>
 		<Range>中</Range>
-		<qingxun>True</qingxun>
-		<zhongxun>True</zhongxun>
-		<zhanjian>True</zhanjian>
-		<hangzhan>True</hangzhan>
 	</Soubi>
 	<Soubi>
 		<Number>005</Number>
 		<Name>15.5cm三連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>コモン</Rare>
 		<Power>7</Power>
 		<Air>4</Air>
 		<Hitrate>1</Hitrate>
 		<Range>中</Range>
-		<qingxun>True</qingxun>
-		<zhongxun>True</zhongxun>
-		<zhanjian>True</zhanjian>
-		<hangzhan>True</hangzhan>
 	</Soubi>
 	<Soubi>
 		<Number>006</Number>
 		<Name>20.3cm連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>コモン</Rare>
 		<Power>8</Power>
 		<Air>3</Air>
 		<Range>中</Range>
-		<qingxun>True</qingxun>
-		<zhongxun>True</zhongxun>
-		<zhanjian>True</zhanjian>
-		<hangzhan>True</hangzhan>
 	</Soubi>
 	<Soubi>
 		<Number>007</Number>
 		<Name>35.6cm連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>コモン</Rare>
 		<Power>15</Power>
 		<Air>4</Air>
@@ -89,6 +75,7 @@
 		<Number>008</Number>
 		<Name>41cm連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>レア</Rare>
 		<Power>20</Power>
 		<Air>4</Air>
@@ -98,6 +85,7 @@
 		<Number>009</Number>
 		<Name>46cm三連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>ホロ</Rare>
 		<Power>26</Power>
 		<Air>5</Air>
@@ -107,6 +95,7 @@
 		<Number>010</Number>
 		<Name>12.7cm連装高角砲</Name>
 		<Type>副砲</Type>
+		<Icon>98</Icon>
 		<Rare>コモン</Rare>
 		<Power>2</Power>
 		<Air>4</Air>
@@ -117,6 +106,7 @@
 		<Number>011</Number>
 		<Name>15.2cm単装砲</Name>
 		<Type>副砲</Type>
+		<Icon>74</Icon>
 		<Rare>コモン</Rare>
 		<Power>2</Power>
 		<Hitrate>1</Hitrate>
@@ -126,6 +116,7 @@
 		<Number>012</Number>
 		<Name>15.5cm三連装副砲</Name>
 		<Type>副砲</Type>
+		<Icon>74</Icon>
 		<Rare>レア</Rare>
 		<Power>7</Power>
 		<Air>3</Air>
@@ -136,6 +127,7 @@
 		<Number>013</Number>
 		<Name>61cm三連装魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>コモン</Rare>
 		<Torpedo>5</Torpedo>
 		<Range>短</Range>
@@ -144,6 +136,7 @@
 		<Number>014</Number>
 		<Name>61cm四連装魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>コモン</Rare>
 		<Torpedo>7</Torpedo>
 		<Range>短</Range>
@@ -152,6 +145,7 @@
 		<Number>015</Number>
 		<Name>61cm四連装(酸素)魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>レア</Rare>
 		<Torpedo>10</Torpedo>
 		<Range>短</Range>
@@ -160,6 +154,7 @@
 		<Number>016</Number>
 		<Name>九七式艦攻</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>コモン</Rare>
 		<Torpedo>5</Torpedo>
 		<Antisub>4</Antisub>
@@ -169,6 +164,7 @@
 		<Number>017</Number>
 		<Name>天山</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>レア</Rare>
 		<Torpedo>7</Torpedo>
 		<Antisub>3</Antisub>
@@ -178,6 +174,7 @@
 		<Number>018</Number>
 		<Name>流星</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>ホロ</Rare>
 		<Torpedo>10</Torpedo>
 		<Antisub>4</Antisub>
@@ -187,6 +184,7 @@
 		<Number>019</Number>
 		<Name>九六式艦戦</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>コモン</Rare>
 		<Air>2</Air>
 	</Soubi>
@@ -194,6 +192,7 @@
 		<Number>020</Number>
 		<Name>零式艦戦21型</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>コモン</Rare>
 		<Air>5</Air>
 	</Soubi>
@@ -201,6 +200,7 @@
 		<Number>021</Number>
 		<Name>零式艦戦52型</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>レア</Rare>
 		<Air>6</Air>
 	</Soubi>
@@ -208,6 +208,7 @@
 		<Number>022</Number>
 		<Name>烈風</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>10</Air>
 	</Soubi>
@@ -215,6 +216,7 @@
 		<Number>023</Number>
 		<Name>九九式艦爆</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>コモン</Rare>
 		<Bomb>5</Bomb>
 		<Antisub>3</Antisub>
@@ -223,6 +225,7 @@
 		<Number>024</Number>
 		<Name>彗星</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>レア</Rare>
 		<Bomb>8</Bomb>
 		<Antisub>3</Antisub>
@@ -231,6 +234,7 @@
 		<Number>025</Number>
 		<Name>零式水上偵察機</Name>
 		<Type>水上偵察機</Type>
+		<Icon>86</Icon>
 		<Rare>コモン</Rare>
 		<Bomb>1</Bomb>
 		<Air>1</Air>
@@ -242,6 +246,7 @@
 		<Number>026</Number>
 		<Name>瑞雲</Name>
 		<Type>水上爆撃機</Type>
+		<Icon>86</Icon>
 		<Rare>レア</Rare>
 		<Bomb>4</Bomb>
 		<Air>2</Air>
@@ -253,6 +258,7 @@
 		<Number>027</Number>
 		<Name>13号対空電探</Name>
 		<Type>小型電探</Type>
+		<Icon>88</Icon>
 		<Rare>レア</Rare>
 		<Air>2</Air>
 		<Search>3</Search>
@@ -262,6 +268,7 @@
 		<Number>028</Number>
 		<Name>22号対水上電探</Name>
 		<Type>小型電探</Type>
+		<Icon>88</Icon>
 		<Rare>レア</Rare>
 		<Search>5</Search>
 		<Hitrate>3</Hitrate>
@@ -270,6 +277,7 @@
 		<Number>029</Number>
 		<Name>33号対水上電探</Name>
 		<Type>小型電探</Type>
+		<Icon>88</Icon>
 		<Rare>ホロ</Rare>
 		<Search>7</Search>
 		<Hitrate>5</Hitrate>
@@ -278,6 +286,7 @@
 		<Number>030</Number>
 		<Name>21号対空電探</Name>
 		<Type>大型電探</Type>
+		<Icon>88</Icon>
 		<Rare>レア</Rare>
 		<Air>4</Air>
 		<Search>4</Search>
@@ -287,6 +296,7 @@
 		<Number>031</Number>
 		<Name>32号対水上電探</Name>
 		<Type>大型電探</Type>
+		<Icon>88</Icon>
 		<Rare>Sホロ</Rare>
 		<Search>10</Search>
 		<Hitrate>8</Hitrate>
@@ -295,6 +305,7 @@
 		<Number>032</Number>
 		<Name>14号対空電探</Name>
 		<Type>大型電探</Type>
+		<Icon>88</Icon>
 		<Rare>SSホロ</Rare>
 		<Air>6</Air>
 		<Search>5</Search>
@@ -304,6 +315,7 @@
 		<Number>033</Number>
 		<Name>改良型艦本式タービン</Name>
 		<Type>機関部強化</Type>
+		<Icon>104</Icon>
 		<Rare>コモン</Rare>
 		<Dodge>6</Dodge>
 	</Soubi>
@@ -311,6 +323,7 @@
 		<Number>034</Number>
 		<Name>強化型艦本式缶</Name>
 		<Type>機関部強化</Type>
+		<Icon>104</Icon>
 		<Rare>レア</Rare>
 		<Dodge>10</Dodge>
 	</Soubi>
@@ -318,6 +331,7 @@
 		<Number>035</Number>
 		<Name>三式弾</Name>
 		<Type>対空強化弾</Type>
+		<Icon>90</Icon>
 		<Rare>コモン</Rare>
 		<Air>5</Air>
 	</Soubi>
@@ -325,6 +339,7 @@
 		<Number>036</Number>
 		<Name>九一式徹甲弾</Name>
 		<Type>対艦強化弾</Type>
+		<Icon>92</Icon>
 		<Rare>レア</Rare>
 		<Power>8</Power>
 		<Hitrate>1</Hitrate>
@@ -333,6 +348,7 @@
 		<Number>037</Number>
 		<Name>7.7mm機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>コモン</Rare>
 		<Air>2</Air>
 		<Dodge>1</Dodge>
@@ -341,6 +357,7 @@
 		<Number>038</Number>
 		<Name>12.7mm単装機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>コモン</Rare>
 		<Air>3</Air>
 		<Dodge>1</Dodge>
@@ -349,6 +366,7 @@
 		<Number>039</Number>
 		<Name>25mm連装機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>コモン</Rare>
 		<Air>5</Air>
 		<Dodge>1</Dodge>
@@ -357,6 +375,7 @@
 		<Number>040</Number>
 		<Name>25mm三連装機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>レア</Rare>
 		<Air>6</Air>
 		<Dodge>1</Dodge>
@@ -365,6 +384,7 @@
 		<Number>041</Number>
 		<Name>甲標的 甲</Name>
 		<Type>特殊潜航艇</Type>
+		<Icon>76</Icon>
 		<Rare>レア</Rare>
 		<Torpedo>12</Torpedo>
 	</Soubi>
@@ -372,18 +392,21 @@
 		<Number>042</Number>
 		<Name>応急修理要員</Name>
 		<Type>応急修理要員</Type>
+		<Icon>94</Icon>
 		<Rare>コモン</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>043</Number>
 		<Name>応急修理女神</Name>
 		<Type>応急修理要員</Type>
+		<Icon>94</Icon>
 		<Rare>ホロ</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>044</Number>
 		<Name>九四式爆雷投射機</Name>
 		<Type>爆雷</Type>
+		<Icon>100</Icon>
 		<Rare>コモン</Rare>
 		<Antisub>5</Antisub>
 	</Soubi>
@@ -391,6 +414,7 @@
 		<Number>045</Number>
 		<Name>三式爆雷投射機</Name>
 		<Type>爆雷</Type>
+		<Icon>100</Icon>
 		<Rare>ホロ</Rare>
 		<Antisub>8</Antisub>
 	</Soubi>
@@ -398,6 +422,7 @@
 		<Number>046</Number>
 		<Name>九三式水中聴音機</Name>
 		<Type>ソナー</Type>
+		<Icon>102</Icon>
 		<Rare>コモン</Rare>
 		<Antisub>6</Antisub>
 		<Hitrate>1</Hitrate>
@@ -406,6 +431,7 @@
 		<Number>047</Number>
 		<Name>三式水中探信儀</Name>
 		<Type>ソナー</Type>
+		<Icon>102</Icon>
 		<Rare>ホロ</Rare>
 		<Antisub>10</Antisub>
 		<Hitrate>2</Hitrate>
@@ -414,6 +440,7 @@
 		<Number>048</Number>
 		<Name>12.7cm単装高角砲</Name>
 		<Type>小口径主砲</Type>
+		<Icon>98</Icon>
 		<Rare>コモン</Rare>
 		<Power>1</Power>
 		<Air>3</Air>
@@ -423,11 +450,13 @@
 		<Number>049</Number>
 		<Name>25mm単装機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 	</Soubi>
 	<Soubi>
 		<Number>050</Number>
 		<Name>20.3cm(3号)連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>ホロ</Rare>
 		<Power>10</Power>
 		<Air>4</Air>
@@ -437,6 +466,7 @@
 		<Number>051</Number>
 		<Name>12cm30連装噴進砲</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>ホロ</Rare>
 		<Air>8</Air>
 	</Soubi>
@@ -444,6 +474,7 @@
 		<Number>052</Number>
 		<Name>流星改</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>Sホロ</Rare>
 		<Torpedo>13</Torpedo>
 		<Antisub>3</Antisub>
@@ -453,6 +484,7 @@
 		<Number>053</Number>
 		<Name>烈風改</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>SSホロ</Rare>
 		<Air>12</Air>
 	</Soubi>
@@ -460,6 +492,7 @@
 		<Number>054</Number>
 		<Name>彩雲</Name>
 		<Type>艦上偵察機</Type>
+		<Icon>84</Icon>
 		<Rare>ホロ</Rare>
 		<Search>9</Search>
 		<Hitrate>2</Hitrate>
@@ -468,6 +501,7 @@
 		<Number>055</Number>
 		<Name>紫電改二</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>ホロ</Rare>
 		<Air>9</Air>
 	</Soubi>
@@ -475,6 +509,7 @@
 		<Number>056</Number>
 		<Name>震電改</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>SSホロ</Rare>
 		<Air>15</Air>
 	</Soubi>
@@ -482,6 +517,7 @@
 		<Number>057</Number>
 		<Name>彗星一二型甲</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>ホロ</Rare>
 		<Bomb>10</Bomb>
 		<Antisub>3</Antisub>
@@ -491,6 +527,7 @@
 		<Number>058</Number>
 		<Name>61cm五連装(酸素)魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>ホロ</Rare>
 		<Torpedo>12</Torpedo>
 		<Hitrate>1</Hitrate>
@@ -500,6 +537,7 @@
 		<Number>059</Number>
 		<Name>零式水上観測機</Name>
 		<Type>水上偵察機</Type>
+		<Icon>86</Icon>
 		<Rare>レア</Rare>
 		<Bomb>1</Bomb>
 		<Air>2</Air>
@@ -511,6 +549,7 @@
 		<Number>060</Number>
 		<Name>零式艦戦62型(爆戦)</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>ホロ</Rare>
 		<Bomb>4</Bomb>
 		<Air>4</Air>
@@ -520,6 +559,7 @@
 		<Number>061</Number>
 		<Name>二式艦上偵察機</Name>
 		<Type>艦上偵察機</Type>
+		<Icon>84</Icon>
 		<Rare>レア</Rare>
 		<Air>1</Air>
 		<Search>7</Search>
@@ -529,6 +569,7 @@
 		<Number>062</Number>
 		<Name>試製晴嵐</Name>
 		<Type>水上爆撃機</Type>
+		<Icon>86</Icon>
 		<Rare>SSホロ</Rare>
 		<Bomb>11</Bomb>
 		<Antisub>6</Antisub>
@@ -539,6 +580,7 @@
 		<Number>063</Number>
 		<Name>12.7cm連装砲B型改二</Name>
 		<Type>小口径主砲</Type>
+		<Icon>68</Icon>
 		<Rare>レア</Rare>
 		<Power>3</Power>
 		<Air>2</Air>
@@ -548,6 +590,7 @@
 		<Number>064</Number>
 		<Name>Ju87C改</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>Sホロ</Rare>
 		<Bomb>9</Bomb>
 		<Antisub>5</Antisub>
@@ -557,6 +600,7 @@
 		<Number>065</Number>
 		<Name>15.2cm連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>ホロ</Rare>
 		<Power>4</Power>
 		<Air>3</Air>
@@ -567,6 +611,7 @@
 		<Number>066</Number>
 		<Name>8cm高角砲</Name>
 		<Type>副砲</Type>
+		<Icon>98</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>1</Power>
 		<Air>6</Air>
@@ -577,6 +622,7 @@
 		<Number>067</Number>
 		<Name>53cm艦首(酸素)魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>レア</Rare>
 		<Torpedo>15</Torpedo>
 		<Hitrate>2</Hitrate>
@@ -586,12 +632,14 @@
 		<Number>068</Number>
 		<Name>大発動艇</Name>
 		<Type>上陸用舟艇</Type>
+		<Icon>106</Icon>
 		<Rare>コモン</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>069</Number>
 		<Name>カ号観測機</Name>
 		<Type>オートジャイロ</Type>
+		<Icon>108</Icon>
 		<Rare>Sホロ</Rare>
 		<Antisub>9</Antisub>
 		<Hitrate>1</Hitrate>
@@ -600,6 +648,7 @@
 		<Number>070</Number>
 		<Name>三式指揮連絡機(対潜)</Name>
 		<Type>対潜哨戒機</Type>
+		<Icon>110</Icon>
 		<Rare>レア</Rare>
 		<Antisub>7</Antisub>
 		<Search>1</Search>
@@ -609,6 +658,7 @@
 		<Number>071</Number>
 		<Name>10cm連装高角砲(砲架)</Name>
 		<Type>副砲</Type>
+		<Icon>98</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>1</Power>
 		<Air>7</Air>
@@ -619,6 +669,7 @@
 		<Number>072</Number>
 		<Name>増設バルジ(中型艦)</Name>
 		<Type>追加装甲(中型)</Type>
+		<Icon>112</Icon>
 		<Rare>レア</Rare>
 		<Dodge>2</Dodge>
 	</Soubi>
@@ -626,6 +677,7 @@
 		<Number>073</Number>
 		<Name>増設バルジ(大型艦)</Name>
 		<Type>追加装甲(大型)</Type>
+		<Icon>112</Icon>
 		<Rare>レア</Rare>
 		<Dodge>3</Dodge>
 	</Soubi>
@@ -633,6 +685,7 @@
 		<Number>074</Number>
 		<Name>探照灯</Name>
 		<Type>探照灯</Type>
+		<Icon>114</Icon>
 		<Rare>コモン</Rare>
 		<Search>2</Search>
 	</Soubi>
@@ -640,12 +693,14 @@
 		<Number>075</Number>
 		<Name>ドラム缶(輸送用)</Name>
 		<Type>簡易輸送部材</Type>
+		<Icon>116</Icon>
 		<Rare>コモン</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>076</Number>
 		<Name>38cm連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>コモン</Rare>
 		<Power>16</Power>
 		<Air>1</Air>
@@ -656,6 +711,7 @@
 		<Number>077</Number>
 		<Name>15cm連装副砲</Name>
 		<Type>副砲</Type>
+		<Icon>74</Icon>
 		<Rare>コモン</Rare>
 		<Power>4</Power>
 		<Air>2</Air>
@@ -666,6 +722,7 @@
 		<Number>078</Number>
 		<Name>12.7cm単装砲</Name>
 		<Type>小口径主砲</Type>
+		<Icon>68</Icon>
 		<Rare>コモン</Rare>
 		<Power>2</Power>
 		<Hitrate>1</Hitrate>
@@ -675,6 +732,7 @@
 		<Number>079</Number>
 		<Name>瑞雲(六三四空)</Name>
 		<Type>水上爆撃機</Type>
+		<Icon>86</Icon>
 		<Rare>レア</Rare>
 		<Bomb>6</Bomb>
 		<Air>2</Air>
@@ -686,6 +744,7 @@
 		<Number>080</Number>
 		<Name>瑞雲12型</Name>
 		<Type>水上爆撃機</Type>
+		<Icon>86</Icon>
 		<Rare>ホロ</Rare>
 		<Bomb>7</Bomb>
 		<Air>3</Air>
@@ -697,6 +756,7 @@
 		<Number>081</Number>
 		<Name>瑞雲12型(六三四空)</Name>
 		<Type>水上爆撃機</Type>
+		<Icon>86</Icon>
 		<Rare>ホロ</Rare>
 		<Bomb>9</Bomb>
 		<Air>3</Air>
@@ -708,6 +768,7 @@
 		<Number>082</Number>
 		<Name>九七式艦攻(九三一空)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>レア</Rare>
 		<Torpedo>6</Torpedo>
 		<Antisub>7</Antisub>
@@ -717,6 +778,7 @@
 		<Number>083</Number>
 		<Name>天山(九三一空)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>ホロ</Rare>
 		<Torpedo>9</Torpedo>
 		<Antisub>8</Antisub>
@@ -726,6 +788,7 @@
 		<Number>084</Number>
 		<Name>2cm 四連装FlaK 38</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>ホロ</Rare>
 		<Air>7</Air>
 		<Hitrate>1</Hitrate>
@@ -734,6 +797,7 @@
 		<Number>085</Number>
 		<Name>3.7cm FlaK M42</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>ホロ</Rare>
 		<Power>1</Power>
 		<Air>8</Air>
@@ -743,12 +807,14 @@
 		<Number>086</Number>
 		<Name>艦艇修理施設</Name>
 		<Type>艦艇修理施設</Type>
+		<Icon>118</Icon>
 		<Rare>Sホロ</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>087</Number>
 		<Name>新型高温高圧缶</Name>
 		<Type>機関部強化</Type>
+		<Icon>104</Icon>
 		<Rare>Sホロ</Rare>
 		<Dodge>13</Dodge>
 	</Soubi>
@@ -756,6 +822,7 @@
 		<Number>088</Number>
 		<Name>22号対水上電探改四</Name>
 		<Type>小型電探</Type>
+		<Icon>88</Icon>
 		<Rare>Sホロ</Rare>
 		<Antisub>2</Antisub>
 		<Search>5</Search>
@@ -765,6 +832,7 @@
 		<Number>089</Number>
 		<Name>21号対空電探改</Name>
 		<Type>大型電探</Type>
+		<Icon>88</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>5</Air>
 		<Search>6</Search>
@@ -775,6 +843,7 @@
 		<Number>090</Number>
 		<Name>20.3cm(2号)連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>レア</Rare>
 		<Power>9</Power>
 		<Air>3</Air>
@@ -785,6 +854,7 @@
 		<Number>091</Number>
 		<Name>12.7cm連装高角砲(後期型)</Name>
 		<Type>小口径主砲</Type>
+		<Icon>98</Icon>
 		<Rare>レア</Rare>
 		<Power>2</Power>
 		<Air>5</Air>
@@ -797,6 +867,7 @@
 		<Number>092</Number>
 		<Name>毘式40mm連装機銃</Name>
 		<Type>対空機銃</Type>
+		<Icon>96</Icon>
 		<Rare>コモン</Rare>
 		<Air>6</Air>
 		<Dodge>1</Dodge>
@@ -805,6 +876,7 @@
 		<Number>093</Number>
 		<Name>九七式艦攻(友永隊)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>SSホロ</Rare>
 		<Torpedo>11</Torpedo>
 		<Air>1</Air>
@@ -816,6 +888,7 @@
 		<Number>094</Number>
 		<Name>天山一二型(友永隊)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>SSホロ</Rare>
 		<Torpedo>14</Torpedo>
 		<Air>1</Air>
@@ -827,6 +900,7 @@
 		<Number>095</Number>
 		<Name>潜水艦53cm艦首魚雷(8門)</Name>
 		<Type>潜水艦魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>ホロ</Rare>
 		<Torpedo>16</Torpedo>
 		<Hitrate>3</Hitrate>
@@ -836,6 +910,7 @@
 		<Number>096</Number>
 		<Name>零式艦戦21型(熟練)</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>8</Air>
 		<Search>1</Search>
@@ -846,6 +921,7 @@
 		<Number>097</Number>
 		<Name>九九式艦爆(熟練)</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>Sホロ</Rare>
 		<Bomb>7</Bomb>
 		<Air>1</Air>
@@ -857,6 +933,7 @@
 		<Number>098</Number>
 		<Name>九七式艦攻(熟練)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>Sホロ</Rare>
 		<Torpedo>8</Torpedo>
 		<Antisub>5</Antisub>
@@ -867,6 +944,7 @@
 		<Number>099</Number>
 		<Name>九九式艦爆(江草隊)</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>SSホロ</Rare>
 		<Bomb>10</Bomb>
 		<Antisub>5</Antisub>
@@ -877,6 +955,7 @@
 		<Number>100</Number>
 		<Name>彗星(江草隊)</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>SSホロ</Rare>
 		<Bomb>13</Bomb>
 		<Air>1</Air>
@@ -888,12 +967,14 @@
 		<Number>101</Number>
 		<Name>照明弾</Name>
 		<Type>照明弾</Type>
+		<Icon>120</Icon>
 		<Rare>レア</Rare>
 	</Soubi>
 	<Soubi>
 		<Number>102</Number>
 		<Name>九八式水上偵察機(夜偵)</Name>
 		<Type>水上偵察機</Type>
+		<Icon>86</Icon>
 		<Rare>Sホロ</Rare>
 		<Antisub>1</Antisub>
 		<Search>3</Search>
@@ -903,6 +984,7 @@
 		<Number>103</Number>
 		<Name>試製35.6cm三連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>18</Power>
 		<Air>5</Air>
@@ -913,6 +995,7 @@
 		<Number>104</Number>
 		<Name>35.6cm連装砲(ダズル迷彩)</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>15</Power>
 		<Air>5</Air>
@@ -924,6 +1007,7 @@
 		<Number>105</Number>
 		<Name>試製41cm三連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>22</Power>
 		<Air>5</Air>
@@ -934,6 +1018,7 @@
 		<Number>106</Number>
 		<Name>13号対空電探改</Name>
 		<Type>小型電探</Type>
+		<Icon>88</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>4</Air>
 		<Search>4</Search>
@@ -944,6 +1029,7 @@
 		<Number>107</Number>
 		<Name>艦隊司令部施設</Name>
 		<Type>艦隊司令部施設</Type>
+		<Icon>122</Icon>
 		<Rare>SSホロ</Rare>
 		<Air>1</Air>
 		<Search>1</Search>
@@ -954,6 +1040,7 @@
 		<Number>108</Number>
 		<Name>熟練艦載機整備員</Name>
 		<Type>航空要員</Type>
+		<Icon>124</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>10</Power>
 		<Air>1</Air>
@@ -965,6 +1052,7 @@
 		<Number>109</Number>
 		<Name>零戦52型丙(六〇一空)</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>9</Air>
 		<Hitrate>1</Hitrate>
@@ -974,6 +1062,7 @@
 		<Number>110</Number>
 		<Name>烈風(六〇一空)</Name>
 		<Type>艦上戦闘機</Type>
+		<Icon>78</Icon>
 		<Rare>SSホロ</Rare>
 		<Air>11</Air>
 		<Hitrate>1</Hitrate>
@@ -983,6 +1072,7 @@
 		<Number>111</Number>
 		<Name>彗星(六〇一空)</Name>
 		<Type>艦上爆撃機</Type>
+		<Icon>80</Icon>
 		<Rare>Sホロ</Rare>
 		<Bomb>11</Bomb>
 		<Antisub>4</Antisub>
@@ -993,6 +1083,7 @@
 		<Number>112</Number>
 		<Name>天山(六〇一空)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>Sホロ</Rare>
 		<Torpedo>10</Torpedo>
 		<Antisub>4</Antisub>
@@ -1003,6 +1094,7 @@
 		<Number>113</Number>
 		<Name>流星(六〇一空)</Name>
 		<Type>艦上攻撃機</Type>
+		<Icon>82</Icon>
 		<Rare>SSホロ</Rare>
 		<Torpedo>13</Torpedo>
 		<Antisub>5</Antisub>
@@ -1013,6 +1105,7 @@
 		<Number>114</Number>
 		<Name>38cm連装砲改</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>ホロ</Rare>
 		<Power>17</Power>
 		<Air>2</Air>
@@ -1023,6 +1116,7 @@
 		<Number>115</Number>
 		<Name>Ar196改</Name>
 		<Type>水上偵察機</Type>
+		<Icon>86</Icon>
 		<Rare>ホロ</Rare>
 		<Bomb>1</Bomb>
 		<Air>1</Air>
@@ -1034,6 +1128,7 @@
 		<Number>116</Number>
 		<Name>一式徹甲弾</Name>
 		<Type>対艦強化弾</Type>
+		<Icon>92</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>9</Power>
 		<Hitrate>2</Hitrate>
@@ -1042,6 +1137,7 @@
 		<Number>117</Number>
 		<Name>試製46cm連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>23</Power>
 		<Air>4</Air>
@@ -1052,6 +1148,7 @@
 		<Number>118</Number>
 		<Name>紫雲</Name>
 		<Type>水上偵察機</Type>
+		<Icon>86</Icon>
 		<Rare>SSホロ</Rare>
 		<Bomb>1</Bomb>
 		<Antisub>2</Antisub>
@@ -1062,6 +1159,7 @@
 		<Number>119</Number>
 		<Name>14cm連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>レア</Rare>
 		<Power>3</Power>
 		<Hitrate>2</Hitrate>
@@ -1071,6 +1169,7 @@
 		<Number>120</Number>
 		<Name>91式高射装置</Name>
 		<Type>高射装置</Type>
+		<Icon>126</Icon>
 		<Rare>レア</Rare>
 		<Air>2</Air>
 		<Dodge>1</Dodge>
@@ -1079,6 +1178,7 @@
 		<Number>121</Number>
 		<Name>94式高射装置</Name>
 		<Type>高射装置</Type>
+		<Icon>126</Icon>
 		<Rare>ホロ</Rare>
 		<Air>3</Air>
 		<Dodge>1</Dodge>
@@ -1087,6 +1187,7 @@
 		<Number>122</Number>
 		<Name>10cm高角砲＋高射装置</Name>
 		<Type>小口径主砲</Type>
+		<Icon>98</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>3</Power>
 		<Air>10</Air>
@@ -1098,6 +1199,7 @@
 		<Number>123</Number>
 		<Name>SKC34 20.3cm連装砲</Name>
 		<Type>中口径主砲</Type>
+		<Icon>70</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>10</Power>
 		<Air>2</Air>
@@ -1108,6 +1210,7 @@
 		<Number>124</Number>
 		<Name>FuMO25 レーダー</Name>
 		<Type>大型電探</Type>
+		<Icon>88</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>3</Power>
 		<Air>7</Air>
@@ -1118,6 +1221,7 @@
 		<Number>125</Number>
 		<Name>61cm三連装(酸素)魚雷</Name>
 		<Type>魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>ホロ</Rare>
 		<Torpedo>8</Torpedo>
 		<Dodge>1</Dodge>
@@ -1127,6 +1231,7 @@
 		<Number>126</Number>
 		<Name>WG42(Wurfgerät 42)</Name>
 		<Type>対地装備</Type>
+		<Icon>128</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>1</Power>
 		<Range>短</Range>
@@ -1135,6 +1240,7 @@
 		<Number>127</Number>
 		<Name>試製FaT仕様九五式酸素魚雷改</Name>
 		<Type>潜水艦魚雷</Type>
+		<Icon>76</Icon>
 		<Rare>SSホロ</Rare>
 		<Torpedo>14</Torpedo>
 		<Hitrate>7</Hitrate>
@@ -1145,6 +1251,7 @@
 		<Number>128</Number>
 		<Name>試製51cm連装砲</Name>
 		<Type>大口径主砲</Type>
+		<Icon>72</Icon>
 		<Rare>SSホロ</Rare>
 		<Power>30</Power>
 		<Air>5</Air>
@@ -1156,6 +1263,7 @@
 		<Number>129</Number>
 		<Name>熟練見張員</Name>
 		<Type>水上艦要員</Type>
+		<Icon>130</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>1</Air>
 		<Search>2</Search>
@@ -1166,6 +1274,7 @@
 		<Number>130</Number>
 		<Name>12.7cm高角砲＋高射装置</Name>
 		<Type>副砲</Type>
+		<Icon>98</Icon>
 		<Rare>Sホロ</Rare>
 		<Power>1</Power>
 		<Air>8</Air>
@@ -1177,6 +1286,7 @@
 		<Number>131</Number>
 		<Name>25mm三連装機銃 集中配備</Name>
 		<Type>対空機銃</Type>
+		<Icon>126</Icon>
 		<Rare>Sホロ</Rare>
 		<Air>9</Air>
 		<Dodge>1</Dodge>
@@ -1185,6 +1295,7 @@
 		<Number>132</Number>
 		<Name>零式水中聴音機</Name>
 		<Type>大型ソナー</Type>
+		<Icon>88</Icon>
 		<Rare>Sホロ</Rare>
 		<Antisub>11</Antisub>
 		<Search>1</Search>

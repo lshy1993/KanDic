@@ -68,13 +68,20 @@ namespace KanDic.Viewer
             }
         }
 
-        #region 打开舰娘详细窗口
+        
         private void Show_Detail(object sender, MouseButtonEventArgs e)
         {
-            bool IsOpened = false;
+            
             Image xx = (Image)sender;
-            int num = (Convert.ToInt32(shipgroup) - 1) * 50 + (Convert.ToInt32(shipteam) - 1) * 10 + Convert.ToInt32(xx.Tag);
+            int num = (shipgroup - 1) * 50 + (shipteam - 1) * 10 + Convert.ToInt32(xx.Tag);
             if (ships[num] == null) return;
+            Open_Window(num);
+        }
+        
+        #region 打开舰娘详细窗口
+        private void Open_Window(int num)
+        {
+            bool IsOpened = false;
             foreach (System.Windows.Window element in Application.Current.Windows)
             {
                 string type = element.GetType().ToString();
@@ -91,8 +98,7 @@ namespace KanDic.Viewer
             }
             if (!IsOpened)
             {
-                MahApps.Metro.Controls.MetroWindow win = new Window.KanDetail(num);
-                win.Owner = mainwindow;
+                Window.KanDetail win = new Window.KanDetail(num);
                 win.Show();
             }
         }
@@ -209,6 +215,13 @@ namespace KanDic.Viewer
         {
             iffinalon = (bool)((CheckBox)sender).IsChecked;
             shipview.View.Refresh();
+        }
+
+        private void MainList_MLBD(object sender, RoutedEventArgs e)
+        {
+            DataGrid dg = (DataGrid)sender;
+            int num = ((NewKan)dg.SelectedValue).Number;
+            Open_Window(num);
         }
     }
 }

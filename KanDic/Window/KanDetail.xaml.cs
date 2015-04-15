@@ -48,7 +48,7 @@ namespace KanDic.Window
                 IfHugeBack.Background = brush;
             }
             MainData.DataContext = kanmusu;
-            SobiList.DataContext = new SobiIcon(kanmusu.Equip1, kanmusu.Equip2, kanmusu.Equip3, kanmusu.Equip4);
+            //SobiList.DataContext = new SobiIcon(kanmusu.Equip1, kanmusu.Equip2, kanmusu.Equip3, kanmusu.Equip4);
             Show_Chart();
         }
         #endregion

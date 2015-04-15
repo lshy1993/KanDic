@@ -144,25 +144,17 @@ namespace KanDic.Viewer
             foreach (XmlNode yy in x.ChildNodes)
             {
                 name1 = yy.Name;
-                if (yy.InnerText == "True" || yy.InnerText == "False")
+                var prop = typeof(Soubi).GetProperty(name1);
+                if (prop.PropertyType.Equals(typeof(int)))
                 {
-                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], Convert.ToBoolean(yy.InnerText), null);
-                }
-                else
+                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], Convert.ToInt32(yy.InnerText), null);
+                }else
                 {
-                    int i ;
-                    if (Int32.TryParse(yy.InnerText, out i))
-                    {
-                        typeof(Soubi).GetProperty(name1).SetValue(equips[num], i, null);
-                    }
-                    else
-                    {
-                        typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
-                    }
+                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
                 }
             }
             equips[num].Image = "/Cache/equipment/" + string.Format("{0:D3}", equips[num].Number) + ".png";
-            equips[num].Icon = geticon(equips[num].Type);
+            equips[num].Icon = "/Cache/icon/soubi/" + equips[num].Icon + ".PNG";
             customers.Add(equips[num]);
         }
         #endregion

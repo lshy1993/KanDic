@@ -9,10 +9,10 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using KanDic.Resources;
-using MahApps.Metro.Controls;
 using System.Net.NetworkInformation;
 using System.Net;
 using System.Configuration;
@@ -24,19 +24,23 @@ namespace KanDic.Plugins
     /// <summary>
     /// Loading.xaml 的交互逻辑
     /// </summary>
-    public partial class Loading : MetroWindow
+    public partial class Loading : System.Windows.Window
     {
+        public System.Windows.Threading.DispatcherTimer myTimer = new System.Windows.Threading.DispatcherTimer();
+
         public Loading()
         {
             InitializeComponent();
-            string url = "http://1.pngbase.sinaapp.com";
+            AnimationInit();
+            AnimationInit2();
+            string url = "http://www.zjut.edu.cn/";
             if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]) && CheckServeStatus(url))
             {
                 CheckUpdate();
             }
             else
             {
-                MainWindow();
+                DataLoading();
             }
         }
 
@@ -47,10 +51,10 @@ namespace KanDic.Plugins
             {
                 return false;
             }
-            /*else if (!MyPing(urls))
+            else if (!MyPing(urls))
             {
                 return false;
-            }*/
+            }
             return true;
         }
 
@@ -97,13 +101,7 @@ namespace KanDic.Plugins
         }
         #endregion
 
-        private void MainWindow()
-        {
-            StartWindow mainwin = new StartWindow();
-            this.Close();
-            mainwin.Show();
-        }
-
+        #region 检测是否有更新
         private void CheckUpdate()
         {
             string url = "http://1.pngbase.sinaapp.com/Update.xml";
@@ -131,15 +129,67 @@ namespace KanDic.Plugins
                     }
                     else
                     {
-                        MainWindow();
+                        DataLoading();
                     }
                 }
                 catch
                 {
-                    MainWindow();
+                    DataLoading();
                 }
             };
             client.DownloadDataAsync(new Uri(url));
+        }
+        #endregion
+
+        #region 动画绑定
+        private void AnimationInit()
+        {
+            DoubleAnimationUsingKeyFrames dak = new DoubleAnimationUsingKeyFrames();
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(515, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(507, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.8))));
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(515, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.6))));
+            dak.RepeatBehavior = RepeatBehavior.Forever;
+            ship.BeginAnimation(Canvas.TopProperty, dak);
+        }
+
+        private void AnimationInit2()
+        {
+            DoubleAnimation da = new DoubleAnimation();
+            da.From = 22.5;
+            da.To = 76.5;
+            da.RepeatBehavior = RepeatBehavior.Forever;
+            da.Duration = TimeSpan.FromSeconds(2.0);
+            ov1.BeginAnimation(EllipseGeometry.RadiusXProperty, da);
+            DoubleAnimation dd = new DoubleAnimation();
+            dd.From = 6;
+            dd.To = 20.4;
+            dd.RepeatBehavior = RepeatBehavior.Forever;
+            dd.Duration = TimeSpan.FromSeconds(2.0);
+            ov1.BeginAnimation(EllipseGeometry.RadiusYProperty, dd);
+            DoubleAnimationUsingKeyFrames dak = new DoubleAnimationUsingKeyFrames();
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.5))));
+            dak.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(2))));
+            dak.RepeatBehavior = RepeatBehavior.Forever;
+            oval1.BeginAnimation(OpacityProperty, dak);
+        }
+        #endregion
+
+        private void DataLoading()
+        {
+            this.Visibility = Visibility.Visible;
+            myTimer.Interval = new TimeSpan(0, 0, 0 ,3);
+            myTimer.Tick += myTimer_Tick;
+            myTimer.Start();
+        }
+
+        void myTimer_Tick(object sender, EventArgs e)
+        {
+            myTimer.Stop();
+            StartWindow mainwin = new StartWindow();
+            this.Close();
+            mainwin.Show();
         }
     }
 }

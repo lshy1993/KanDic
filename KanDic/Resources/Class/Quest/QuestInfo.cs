@@ -20,5 +20,9 @@ namespace KanDic.Resources
         public string Content { set; get; }
         public string IsDaily { set; get; }
         public string IsWeekly { set; get; }
+
+        public string IsDone { set; get; }
+
+        public QuestInfo() { }
     }
 }

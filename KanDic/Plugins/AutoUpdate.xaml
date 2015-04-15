@@ -2,20 +2,29 @@
     x:Class="KanDic.Plugins.AutoUpdate"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
-    ShowInTaskbar="False"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
     Title="AutoUpdater"
-    Height="300" Width="400"
+    Height="320" Width="400"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen">
     <DockPanel>
-        <ProgressBar Name="xx" DockPanel.Dock="Bottom" Height="20" Maximum="50" Minimum="1"/>
-        <TextBlock Name="Status" DockPanel.Dock="Bottom" HorizontalAlignment="Center"/>
-        <DockPanel DockPanel.Dock="Bottom">
+        <Grid DockPanel.Dock="Bottom" Height="auto">
+            <DockPanel Name="ButtonPanel" Margin="5">
+                <Button Content="网盘" DockPanel.Dock="Left" Click="Yun_Click"/>
+                <Button Content="稍后提醒" DockPanel.Dock="Right" Click="Cancel_Click"/>
+                <Button Content="开始更新" DockPanel.Dock="Right" Margin="5,0" Click="Download_Click"/>
+                <Rectangle/>
+            </DockPanel>
+            <StackPanel Name="BarPanel" Visibility="Hidden">
+                <TextBlock Name="Status" HorizontalAlignment="Center"/>
+                <ProgressBar Name="xx" Height="20"/>
+            </StackPanel>
+        </Grid>
+        <DockPanel DockPanel.Dock="Top">
             <TextBlock Name="AppVer" DockPanel.Dock="Left" FontSize="16" Margin="10,0,0,0"/>
             <TextBlock Name="DataVer" DockPanel.Dock="Right" FontSize="16" Margin="0,0,10,0"/>
             <Rectangle/>
         </DockPanel>
-        <Frame Name="ChangeLog"/>
+        <WebBrowser Name="ChangeLog"/>
     </DockPanel>
 </Controls:MetroWindow>

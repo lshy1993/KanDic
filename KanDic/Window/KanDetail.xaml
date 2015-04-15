@@ -5,8 +5,8 @@
     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
     xmlns:data="clr-namespace:KanDic.Resources"
     xmlns:vc="clr-namespace:Visifire.Charts;assembly=WPFVisifire.Charts"
-    Title="KanDetail" Height="540" Width="770"
-    MinHeight="540" MinWidth="770"
+    Title="KanDetail" Height="540" Width="655"
+    MinHeight="540" MinWidth="655"
     BorderThickness="1"
     EnableDWMDropShadow="True"
     ResizeMode="CanResizeWithGrip"
@@ -97,10 +97,12 @@
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
                                 </Grid.RowDefinitions>
+                                <TextBlock Text="耐久" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 <Image Source="/Cache/icon/info/zz.PNG" Margin="2" Stretch="None" Grid.Row="1" Grid.Column="0"/>
                                 <Image Source="/Cache/icon/info/hb.PNG" Margin="2" Stretch="None" Grid.Row="2" Grid.Column="0"/>
                                 <Image Source="/Cache/icon/info/sl.PNG" Margin="2" Stretch="None" Grid.Row="4" Grid.Column="0"/>
                                 <Image Source="/Cache/icon/info/sc.PNG" Margin="2" Stretch="None" Grid.Row="5" Grid.Column="0"/>
+                                <TextBlock Text="搭载" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 <TextBlock Text="{Binding HP}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 <TextBlock Text="{Binding Defence}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 <TextBlock Text="{Binding Dodge}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -112,6 +114,7 @@
                                 <Image Source="/Cache/icon/info/dk.PNG" Margin="2" Stretch="None" Grid.Row="2"  Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/dq.PNG" Margin="2" Stretch="None" Grid.Row="3"  Grid.Column="2"/>
                                 <Image Source="/Cache/icon/info/sd.PNG" Margin="2" Stretch="None" Grid.Row="4"  Grid.Column="2"/>
+                                <TextBlock Text="运" Grid.Row="5" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 <TextBlock Text="{Binding Power}" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 <TextBlock Text="{Binding Torpedo}" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 <TextBlock Text="{Binding Air}" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>

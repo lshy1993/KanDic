@@ -143,7 +143,7 @@
                     </TextBox.Style>
                 </TextBox>
             </DockPanel>
-            <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5">
+            <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5" MouseLeftButtonDown="MainList_MLBD">
                 <DataGrid.Resources>
                     <Style TargetType="TextBlock">
                         <Setter Property="HorizontalAlignment" Value="Center"/>

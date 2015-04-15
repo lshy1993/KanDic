@@ -132,10 +132,8 @@
     </Compile>
     <Compile Include="Resources\Class\Kan\NewKan.cs" />
     <Compile Include="Resources\Class\Update.cs" />
-    <Compile Include="Resources\Class\Enermy\Enermy.cs" />
-    <Compile Include="Resources\Class\Kan\BasicInfo.cs" />
+    <Compile Include="Resources\Class\Enemy\Enermy.cs" />
     <Compile Include="Resources\Class\Expedition\ExpInfo.cs" />
-    <Compile Include="Resources\Class\ImageView.cs" />
     <Compile Include="Resources\Class\Kan\Kan.cs" />
     <Compile Include="Resources\Class\Keisanki.cs" />
     <Compile Include="Resources\Class\Map\MapInfo.cs" />
@@ -479,15 +477,13 @@
     <EmbeddedResource Include="Resources\Data\Expedition.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Data\Ship.xml">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Data\Quest.xml" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Cache\ship.png" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 1.jpg" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 5.jpg" />
     <Resource Include="Cache\ships\jcrdsdpsjcgj.swf\Image 1.jpg" />
@@ -1332,10 +1328,6 @@
     <EmbeddedResource Include="Resources\Data\Ships.xml" />
     <Resource Include="Resources\Data\XMLFile1.xml" />
     <Resource Include="Cache\vs.png" />
-    <Resource Include="Update.xml" />
-    <Resource Include="Cache\test.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
     <EmbeddedResource Include="Resources\Data\Map.xml" />
     <Resource Include="Cache\icon\battle\00.PNG" />
     <Resource Include="Cache\alipay.png" />
@@ -2021,6 +2013,9 @@
     <Resource Include="Cache\icon\battle\red.PNG" />
     <Resource Include="Cache\noicon.png" />
     <Resource Include="Cache\icon\battle\shipicon.PNG" />
+    <Resource Include="Cache\loading.jpg" />
+    <Resource Include="Cache\loading-d.png" />
+    <Resource Include="Cache\font.png" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -84,7 +84,7 @@
 		<Hard>C</Hard>
 		<Content>輸送船団の安全を図るために、船団に同行して、これを護衛しよう！</Content>
 		<Hour>1</Hour>
-		<Minute>15</Minute>
+		<Minute>30</Minute>
 		<GetFuel>200</GetFuel>
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>20</GetSteel>

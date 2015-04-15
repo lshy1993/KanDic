@@ -59,7 +59,7 @@ namespace KanDic.Window
             }
             if (equip.Antisub != 0)
             {
-                strlist.Add("/Cache/icon/info/fq.PNG");
+                strlist.Add("/Cache/icon/info/dq.PNG");
                 strlist.Add(equip.Antisub.ToString());
             }
             if (equip.Search != 0)
