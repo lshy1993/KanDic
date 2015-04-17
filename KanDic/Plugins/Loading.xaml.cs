@@ -33,7 +33,7 @@ namespace KanDic.Plugins
             InitializeComponent();
             AnimationInit();
             AnimationInit2();
-            string url = "http://www.zjut.edu.cn/";
+            string url = "pngbase.sinapp.com";
             if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]) && CheckServeStatus(url))
             {
                 CheckUpdate();
@@ -78,8 +78,8 @@ namespace KanDic.Plugins
             Ping ping = new Ping();
             try
             {
-                PingReply pr = ping.Send(url, 3000);
-                Console.WriteLine("Ping " + pr.Status.ToString());
+                PingReply pr = ping.Send(url);
+                //Console.WriteLine("Ping " + pr.Status.ToString());
                 if (pr.Status == IPStatus.TimedOut)
                 {
                     flag = false;
@@ -93,8 +93,9 @@ namespace KanDic.Plugins
                     flag = false;
                 }
             }
-            catch
+            catch(Exception e)
             {
+                MessageBox.Show(e.ToString());
                 flag = false;
             }
             return flag;

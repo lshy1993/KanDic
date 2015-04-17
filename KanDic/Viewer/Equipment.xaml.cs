@@ -91,13 +91,18 @@ namespace KanDic.Viewer
             }
         }
 
-        #region 打开装备详细窗口
-        private void Show_Detail(object sender, MouseButtonEventArgs e)
+        private void Show_Detail(object sender, RoutedEventArgs e)
         {
-            bool IsOpened = false;
             Image xx = (Image)sender;
             int num = (equipgroup - 1) * 50 + (equipteam - 1) * 10 + Convert.ToInt32(xx.Tag);
             if (equips[num] == null) return;
+            Open_Window(num);
+        }
+
+        #region 打开装备详细窗口
+        private void Open_Window(int num)
+        {
+            bool IsOpened = false;
             foreach (System.Windows.Window element in Application.Current.Windows)
             {
                 string type = element.GetType().ToString();
@@ -106,11 +111,9 @@ namespace KanDic.Viewer
                 {
                     if (element.Title == equips[num].Name)
                     {
-                        element.WindowState = WindowState.Normal;
                         IsOpened = true;
                         break;
                     }
-
                 }
             }
             if (!IsOpened)
@@ -159,93 +162,6 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        #region 判断装备（准备废除）
-        private string geticon(string x)
-        {
-            switch (x)
-            {
-                case "小口径主砲":
-                    return "/Cache/icon/soubi/68.PNG";
-                case "中口径主砲":
-                    return "/Cache/icon/soubi/70.PNG";
-                case "大口径主砲":
-                    return "/Cache/icon/soubi/72.PNG";
-                case "副砲":
-                    return "/Cache/icon/soubi/74.PNG";
-                case "魚雷":
-                    return "/Cache/icon/soubi/76.PNG";
-                case "特殊潜航艇":
-                    return "/Cache/icon/soubi/76.PNG";
-                case "潜水艦魚雷":
-                    return "/Cache/icon/soubi/76.PNG";
-                case "艦上戦闘機":
-                    return "/Cache/icon/soubi/78.PNG";
-                case "艦上爆撃機":
-                    return "/Cache/icon/soubi/80.PNG";
-                case "艦上攻撃機":
-                    return "/Cache/icon/soubi/82.PNG";
-                case "艦上偵察機":
-                    return "/Cache/icon/soubi/84.PNG";
-                case "水上爆撃機":
-                    return "/Cache/icon/soubi/86.PNG";
-                case "水上偵察機":
-                    return "/Cache/icon/soubi/86.PNG";
-                case "小型電探":
-                    return "/Cache/icon/soubi/88.PNG";
-                case "大型電探":
-                    return "/Cache/icon/soubi/88.PNG";
-                case "対空強化弾":
-                    return "/Cache/icon/soubi/90.PNG";
-                case "対艦強化弾":
-                    return "/Cache/icon/soubi/92.PNG";
-                case "応急修理要員":
-                    return "/Cache/icon/soubi/94.PNG";
-                case "対空機銃":
-                    return "/Cache/icon/soubi/96.PNG";
-                case "主炮类":
-                    return "/Cache/icon/soubi/98.PNG";
-                case "爆雷":
-                    return "/Cache/icon/soubi/100.PNG";
-                case "ソナー":
-                    return "/Cache/icon/soubi/102.PNG";
-                case "大型ソナー":
-                    return "/Cache/icon/soubi/102.PNG";
-                case "機関部強化":
-                    return "/Cache/icon/soubi/104.PNG";
-                case "上陸用舟艇":
-                    return "/Cache/icon/soubi/106.PNG";
-                case "オートジャイロ":
-                    return "/Cache/icon/soubi/108.PNG";
-                case "対潜哨戒機":
-                    return "/Cache/icon/soubi/110.PNG";
-                case "追加装甲(中型)":
-                    return "/Cache/icon/soubi/112.PNG";
-                case "追加装甲(大型)":
-                    return "/Cache/icon/soubi/112.PNG";
-                case "探照灯":
-                    return "/Cache/icon/soubi/114.PNG";
-                case "簡易輸送部材":
-                    return "/Cache/icon/soubi/116.PNG";
-                case "艦艇修理施設":
-                    return "/Cache/icon/soubi/118.PNG";
-                case "照明弾":
-                    return "/Cache/icon/soubi/120.PNG";
-                case "艦隊司令部施設":
-                    return "/Cache/icon/soubi/122.PNG";
-                case "航空要員":
-                    return "/Cache/icon/soubi/124.PNG";
-                case "高射装置":
-                    return "/Cache/icon/soubi/126.PNG";
-                case "対地装備":
-                    return "/Cache/icon/soubi/128.PNG";
-                case "水上艦要員":
-                    return "/Cache/icon/soubi/130.PNG";
-                default:
-                    return "";
-            }
-        }
-        #endregion
-
         private void SoubiTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
@@ -277,6 +193,13 @@ namespace KanDic.Viewer
             RadioButton xx = sender as RadioButton;
             equiptype = Convert.ToInt32(xx.Tag);
             equipview.View.Refresh();
+        }
+
+        private void MainList_MLBD(object sender, MouseButtonEventArgs e)
+        {
+            DataGrid dg = (DataGrid)sender;
+            int num = ((Soubi)dg.SelectedValue).Number;
+            Open_Window(num);
         }
     }
 }

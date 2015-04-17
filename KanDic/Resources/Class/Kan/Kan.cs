@@ -54,8 +54,8 @@ namespace KanDic.Resources
 
         //建造信息系列
         public string OnlyHuge { get; set; }
-        public string Hour { get; set; }
-        public string Minute { get; set; }
+        public int Hour { get; set; }
+        public int Minute { get; set; }
         public string Formula { get; set; }
         public string DropPoint { get; set; }
 

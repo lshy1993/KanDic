@@ -27,9 +27,10 @@ namespace KanDic.Viewer
     {
         public System.Windows.Window mainwindow;
 
-        public int shipgroup,shipteam;
+        public int shipgroup, shipteam, classtag;
         public static Kan[] ships = new Kan[500];
         public bool iffinalon;
+        public string classname;
 
         CollectionViewSource shipview = new CollectionViewSource();
         ObservableCollection<NewKan> customers = new ObservableCollection<NewKan>();
@@ -68,10 +69,9 @@ namespace KanDic.Viewer
             }
         }
 
-        
-        private void Show_Detail(object sender, MouseButtonEventArgs e)
+
+        private void Show_Detail(object sender, RoutedEventArgs e)
         {
-            
             Image xx = (Image)sender;
             int num = (shipgroup - 1) * 50 + (shipteam - 1) * 10 + Convert.ToInt32(xx.Tag);
             if (ships[num] == null) return;
@@ -90,7 +90,6 @@ namespace KanDic.Viewer
                 {
                     if (element.Title == ships[num].Name)
                     {
-                        element.WindowState = WindowState.Normal;
                         IsOpened = true;
                         break;
                     }
@@ -99,6 +98,7 @@ namespace KanDic.Viewer
             if (!IsOpened)
             {
                 Window.KanDetail win = new Window.KanDetail(num);
+                win.Owner = mainwindow;
                 win.Show();
             }
         }
@@ -184,6 +184,7 @@ namespace KanDic.Viewer
             ClassPanel.Visibility = Visibility.Hidden;
             ModeAddition.Visibility = Visibility.Visible;
             TypeAddition.Visibility = Visibility.Collapsed;
+            Final1.IsChecked = iffinalon;
         }
 
         private void Class_Click(object sender, RoutedEventArgs e)
@@ -193,6 +194,7 @@ namespace KanDic.Viewer
             ClassPanel.Visibility = Visibility.Visible;
             ModeAddition.Visibility = Visibility.Collapsed;
             TypeAddition.Visibility = Visibility.Visible;
+            Final2.IsChecked = iffinalon;
         }
 
         private void Keyword_TextChanged(object sender, TextChangedEventArgs e)
@@ -215,12 +217,81 @@ namespace KanDic.Viewer
         {
             iffinalon = (bool)((CheckBox)sender).IsChecked;
             shipview.View.Refresh();
+            Class_Refresh();
         }
 
         private void MainList_MLBD(object sender, RoutedEventArgs e)
         {
             DataGrid dg = (DataGrid)sender;
             int num = ((NewKan)dg.SelectedValue).Number;
+            Open_Window(num);
+        }
+
+        private void ClassChange_Click(object sender, RoutedEventArgs e)
+        {
+            classtag = Convert.ToInt32(((RadioButton)sender).Tag);
+            Class_Refresh();
+        }
+
+        private void Class_Refresh()
+        {
+            MainClass.Children.Clear();
+            for (int i = 1; i < 500; i++)
+            {
+                if (ships[i] != null && IfIsClass(classtag, ships[i]))
+                {
+                    Image im = new Image();
+                    im.Stretch = Stretch.None;
+                    im.Source = new BitmapImage(new Uri(ships[i].ImageSmall, UriKind.Relative));
+                    im.MouseLeftButtonDown += im_MLBD;
+                    im.ToolTip = ships[i].Name;
+                    im.Cursor = Cursors.Hand;
+                    im.Margin = new Thickness(5);
+                    im.Tag = ships[i].Number;
+                    MainClass.Children.Add(im);
+                }
+            }
+        }
+
+        private bool IfIsClass(int i,Kan ship)
+        {
+            bool flag = false;
+            switch (i)
+            {
+                case 1:
+                    flag = ship.Type == "戦艦" || ship.Type == "航空戦艦";
+                    break;
+                case 2:
+                    flag = ship.Type == "正規空母" || ship.Type == "装甲空母";
+                    break;
+                case 3:
+                    flag = ship.Type == "軽空母" || ship.Type == "水上機母艦";
+                    break;
+                case 4:
+                    flag = ship.Type == "重巡洋艦" || ship.Type == "航空巡洋艦";
+                    break;
+                case 5:
+                    flag = ship.Type == "軽巡洋艦";
+                    break;
+                case 6:
+                    flag = ship.Type == "重雷装巡洋艦";
+                    break;
+                case 7:
+                    flag = ship.Type == "駆逐艦";
+                    break;
+                case 8:
+                    flag = ship.Type == "潜水母艦" || ship.Type == "潜水艦" || ship.Type == "潜水空母";
+                    break;
+                case 9:
+                    flag = ship.Type == "工作艦" || ship.Type == "揚陸艦" || ship.Type == "練習巡洋艦";
+                    break;
+            }
+            return iffinalon ? flag && ship.IsFinal : flag;
+        }
+
+        private void im_MLBD(object sender, MouseButtonEventArgs e)
+        {
+            int num = Convert.ToInt32(((Image)sender).Tag);
             Open_Window(num);
         }
     }

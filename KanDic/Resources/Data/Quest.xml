@@ -6,7 +6,7 @@
 		<Name>はじめての「編成」！</Name>
 		<GetFuel>20</GetFuel>
 		<GetAmmo>20</GetAmmo>
-		<GetOhter>驱逐舰白雪</GetOhter>
+		<GetOther>驱逐舰白雪</GetOther>
 		<Content>在第一舰队配置2艘舰船以上即可</Content>
 	</quest>
 	<quest>
@@ -16,7 +16,7 @@
 		<GetFuel>30</GetFuel>
 		<GetAmmo>30</GetAmmo>
 		<GetSteel>30</GetSteel>
-		<GetOhter>高速建造*1</GetOhter>
+		<GetOther>高速建造*1</GetOther>
 		<Content>在第一舰队配置4艘驱逐船即可</Content>
 	</quest>
 	<quest>
@@ -25,7 +25,7 @@
 		<Name>「水雷戦隊」を編成せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>第一舰队以轻巡为旗舰，再搭配复数只驱逐舰即可</Content>
 	</quest>
 	<quest>
@@ -35,7 +35,7 @@
 		<Name>6隻編成の艦隊を編成せよ！</Name>
 		<GetFuel>50</GetFuel>
 		<GetSteel>50</GetSteel>
-		<GetOhter>第2舰队开启</GetOhter>
+		<GetOther>第2舰队开启</GetOther>
 		<Content>在第一舰队配置6艘舰船即可</Content>
 	</quest>
 	<quest>
@@ -44,7 +44,7 @@
 		<Name>軽巡2隻を擁する隊を編成せよ！</Name>
 		<GetFuel>60</GetFuel>
 		<GetAmmo>60</GetAmmo>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>第一舰队配置2艘轻巡</Content>
 	</quest>
 	<quest>
@@ -54,7 +54,7 @@
 		<GetFuel>50</GetFuel>
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>100</GetSteel>
-		<GetOhter>高速建造*1</GetOhter>
+		<GetOther>高速建造*1</GetOther>
 		<Content>为第二舰队配置旗舰即可</Content>
 	</quest>
 	<quest>
@@ -64,7 +64,7 @@
 		<Name>「重巡戦隊」を編成せよ！</Name>
 		<GetAmmo>70</GetAmmo>
 		<GetAluminium>30</GetAluminium>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>第一舰队配置2艘重巡</Content>
 	</quest>
 	<quest>
@@ -76,7 +76,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速建造*2</GetOhter>
+		<GetOther>高速建造*2</GetOther>
 		<Content>将天龙、龙田配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -84,7 +84,7 @@
 		<ID>A9</ID>
 		<Name>「水上機母艦」を配備せよ！</Name>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>第一舰队配置一艘水上机母舰即可</Content>
 	</quest>
 	<quest>
@@ -94,7 +94,7 @@
 		<Name>「第六駆逐隊」を編成せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>只将晓、响、雷、电配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -103,7 +103,7 @@
 		<Name>第2艦隊で空母機動部隊を編成せよ！</Name>
 		<GetFuel>100</GetFuel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速建造*2</GetOhter>
+		<GetOther>高速建造*2</GetOther>
 		<Content>为第二舰队配置航母旗舰一艘，驱逐舰3艘</Content>
 	</quest>
 	<quest>
@@ -112,7 +112,7 @@
 		<Name>空母機動部隊を編成せよ！</Name>
 		<GetFuel>50</GetFuel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>配置航空母舰一艘作为旗舰和 3艘 驱逐</Content>
 	</quest>
 	<quest>
@@ -121,7 +121,7 @@
 		<Father>A12</Father>
 		<Name>戦艦と重巡による主力艦隊を編成せよ！</Name>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>高速建造*2</GetOhter>
+		<GetOther>高速建造*2</GetOther>
 		<Content>第一舰队配置战舰1艘以上，重巡2艘以上的主力队伍</Content>
 	</quest>
 	<quest>
@@ -131,7 +131,7 @@
 		<Name>「川内」型軽巡姉妹の全3艦を編成せよ！</Name>
 		<GetFuel>100</GetFuel>
 		<GetSteel>100</GetSteel>
-		<GetOhter>第3舰队开启</GetOhter>
+		<GetOther>第3舰队开启</GetOther>
 		<Content>将川内、神通、那珂配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -143,7 +143,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>150</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速修复*1 开发资材*1</GetOhter>
+		<GetOther>高速修复*1 开发资材*1</GetOther>
 		<Content>将妙高、那智、足柄、羽黑配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -151,7 +151,7 @@
 		<ID>A16</ID>
 		<Father>A15</Father>
 		<Name>「金剛」型による高速戦艦部隊を編成せよ！</Name>
-		<GetOhter>第4舰队开启</GetOhter>
+		<GetOther>第4舰队开启</GetOther>
 		<Content>将金刚、比叡、榛名、雾岛配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -163,7 +163,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>高速修复*2 开发资材*1</GetOhter>
+		<GetOther>高速修复*2 开发资材*1</GetOther>
 		<Content>将扶桑、山城配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -175,7 +175,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>高速修复*2 开发资材*2</GetOhter>
+		<GetOther>高速修复*2 开发资材*2</GetOther>
 		<Content>将伊势、日向配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -187,7 +187,7 @@
 		<GetAmmo>500</GetAmmo>
 		<GetSteel>500</GetSteel>
 		<GetAluminium>500</GetAluminium>
-		<GetOhter>高速建造*2 开发资材*4</GetOhter>
+		<GetOther>高速建造*2 开发资材*4</GetOther>
 		<Content>只将赤城、加贺、飞龙、苍龙配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -197,7 +197,7 @@
 		<Name>「三川艦隊」を編成せよ！</Name>
 		<GetFuel>400</GetFuel>
 		<GetSteel>200</GetSteel>
-		<GetOhter>高速修复*3</GetOhter>
+		<GetOther>高速修复*3</GetOther>
 		<Content>第一舰队配置鸟海、青叶、加古、古鹰、天龙及任意一只高速舰</Content>
 	</quest>
 	<quest>
@@ -207,7 +207,7 @@
 		<Name>「第四戦隊」を編成せよ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>高速修复*2 开发资材*1</GetOhter>
+		<GetOther>高速修复*2 开发资材*1</GetOther>
 		<Content>将爱宕、高雄、摩耶、鸟海配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -218,7 +218,7 @@
 		<GetFuel>200</GetFuel>
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>200</GetSteel>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>将扶桑、山城、最上、时雨配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -228,7 +228,7 @@
 		<Name>「第五航空戦隊」を編成せよ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>将翔鹤、瑞鹤以及其他2艘驱逐舰配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -238,7 +238,7 @@
 		<Name>新「三川艦隊」を編成せよ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetSteel>300</GetSteel>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>第一舰队配置鸟海、青叶、加古、古鹰、天龙、衣笠</Content>
 	</quest>
 	<quest>
@@ -248,7 +248,7 @@
 		<Name>潜水艦隊を編成せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetSteel>150</GetSteel>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>第一舰队配置两艘潜水艇（潜水空母、まるゆ均可）</Content>
 	</quest>
 	<quest>
@@ -258,7 +258,7 @@
 		<Name>航空水上打撃艦隊を編成せよ！</Name>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>高速修复*2</GetOhter>
+		<GetOther>高速修复*2</GetOther>
 		<Content>将两艘航空战舰和两艘航空巡洋舰配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -268,7 +268,7 @@
 		<Name>中規模潜水艦隊を編成せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>第一舰队配置三艘潜水艇</Content>
 	</quest>
 	<quest>
@@ -278,7 +278,7 @@
 		<Name>「第六戦隊」を編成せよ！</Name>
 		<GetFuel>250</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>将古鹰、加古、青叶、衣笠配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -288,7 +288,7 @@
 		<Name>「第5艦隊」を編成せよ！</Name>
 		<GetFuel>200</GetFuel>
 		<GetSteel>300</GetSteel>
-		<GetOhter>高速修复*3</GetOhter>
+		<GetOther>高速修复*3</GetOther>
 		<Content>将那智、足柄、多摩、木曾配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -298,7 +298,7 @@
 		<Name>「第1水雷戦隊」を編成せよ！</Name>
 		<GetFuel>200</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>将阿武隈、曙、潮、霞、不知火配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -308,7 +308,7 @@
 		<Name>「第八駆逐隊」を編成せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetAmmo>150</GetAmmo>
-		<GetOhter>开发资材*3</GetOhter>
+		<GetOther>开发资材*3</GetOther>
 		<Content>只将朝潮、满潮、大潮、荒潮配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -318,7 +318,7 @@
 		<Name>「第十八駆逐隊」を編成せよ！</Name>
 		<GetFuel>180</GetFuel>
 		<GetAmmo>180</GetAmmo>
-		<GetOhter>开发资材*1 应急修理要员*1</GetOhter>
+		<GetOther>开发资材*1 应急修理要员*1</GetOther>
 		<Content>只将霞、霰、阳炎、不知火配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -328,7 +328,7 @@
 		<Name>「第三十駆逐隊(第一次)」を編成せよ！</Name>
 		<GetFuel>200</GetFuel>
 		<GetAmmo>200</GetAmmo>
-		<GetOhter>高速修复*2 应急修理要员*1</GetOhter>
+		<GetOther>高速修复*2 应急修理要员*1</GetOther>
 		<Content>只将睦月、如月、弥生、望月配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -338,7 +338,7 @@
 		<Name>「第三十駆逐隊(第二次)」を編成せよ！</Name>
 		<GetFuel>220</GetFuel>
 		<GetAmmo>220</GetAmmo>
-		<GetOhter>開発資材x3</GetOhter>
+		<GetOther>開発資材x3</GetOther>
 		<Content>只将睦月、卯月、弥生、望月配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -347,7 +347,7 @@
 		<Father>B24</Father>
 		<Name>「第五戦隊」を編成せよ！</Name>
 		<GetSteel>300</GetSteel>
-		<GetOhter>開発資材x5</GetOhter>
+		<GetOther>開発資材x5</GetOther>
 		<Content>将妙高、那智、羽黒配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -356,7 +356,7 @@
 		<Father>A28</Father>
 		<Name>新編「第二航空戦隊」を編成せよ！</Name>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>高速修復材x2 開発資材x2</GetOhter>
+		<GetOther>高速修復材x2 開発資材x2</GetOther>
 		<Content>将飛龍改二(※旗艦)蒼龍，2艘驱逐配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -366,7 +366,7 @@
 		<Name>潜水艦隊「第六艦隊」を編成せよ！</Name>
 		<GetFuel>250</GetFuel>
 		<GetAmmo>250</GetAmmo>
-		<GetOhter>開発資材x3</GetOhter>
+		<GetOther>開発資材x3</GetOther>
 		<Content>将潜水母艦(※旗艦)4艘配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -376,7 +376,7 @@
 		<Name>新型電探を配備せよ</Name>
 		<GetFuel>300</GetFuel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>[獲]小型電探22号対水上電探改四</GetOhter>
+		<GetOther>[獲]小型電探22号対水上電探改四</GetOther>
 		<Content>新型電探運用試験のため、第一艦隊の旗艦に「妙高改二」を配備せよ！</Content>
 	</quest>
 	<quest>
@@ -385,8 +385,8 @@
 		<Father>B25</Father>
 		<Name>再編成「第二航空戦隊」を強化せよ！</Name>
 		<GetAluminium>450</GetAluminium>
-		<GetOhter>高速建造材x2
-開発資材x2</GetOhter>
+		<GetOther>高速建造材x2
+開発資材x2</GetOther>
 		<Content>「蒼龍改二」(※旗艦)及「飛龍改二」和 2只驱逐 配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -395,7 +395,7 @@
 		<Father>WB02</Father>
 		<Name>精鋭「第三戦隊」全艦集結せよ！</Name>
 		<GetAmmo>100</GetAmmo>
-		<GetOhter>大口径主砲試製35.6cm三連装砲</GetOhter>
+		<GetOther>大口径主砲試製35.6cm三連装砲</GetOther>
 		<Content>4只 改二 的 金刚级战舰 配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -407,7 +407,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>開発資材x2</GetOhter>
+		<GetOther>開発資材x2</GetOther>
 		<Content>「雲龍」作为第一艦隊機旗艦配備！</Content>
 	</quest>
 	<quest>
@@ -426,7 +426,7 @@
 		<Name>戦艦を主力とした水上打撃部隊を編成せよ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>開発資材x3</GetOhter>
+		<GetOther>開発資材x3</GetOther>
 		<Content>大和型・長門型・伊勢型・扶桑型其中3只和一只轻巡配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -436,8 +436,8 @@
 		<Name>「西村艦隊」を再編成せよ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>開発資材x2
-改修資材x3</GetOhter>
+		<GetOther>開発資材x2
+改修資材x3</GetOther>
 		<Content>以「扶桑」「山城」「最上」「時雨」「満潮」为基幹的西村艦隊編成！</Content>
 	</quest>
 	<quest>
@@ -447,8 +447,8 @@
 		<Name>改修工廠を準備せよ！</Name>
 		<GetFuel>100</GetFuel>
 		<GetSteel>100</GetSteel>
-		<GetOhter>改修資材x5
-改修工廠開放</GetOhter>
+		<GetOther>改修資材x5
+改修工廠開放</GetOther>
 		<Content>第一艦隊的旗艦为「明石」、改修工廠準備完成！</Content>
 	</quest>
 	<quest>
@@ -459,8 +459,8 @@
 		<GetFuel>250</GetFuel>
 		<GetAmmo>250</GetAmmo>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速修復材x2
-開発資材x2</GetOhter>
+		<GetOther>高速修復材x2
+開発資材x2</GetOther>
 		<Content>「霞」作为旗艦和「足柄」以及軽巡1隻駆逐艦4隻组成 水上挺身部隊</Content>
 	</quest>
 	<quest>
@@ -471,7 +471,7 @@
 		<GetFuel>110</GetFuel>
 		<GetAmmo>110</GetAmmo>
 		<GetSteel>110</GetSteel>
-		<GetOhter>開発資材×3</GetOhter>
+		<GetOther>開発資材×3</GetOther>
 		<Content>只将吹雪、白雪、初雪、叢雲配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -481,7 +481,7 @@
 		<Name>「第二一駆逐隊」を編成せよ！</Name>
 		<GetFuel>210</GetFuel>
 		<GetAmmo>210</GetAmmo>
-		<GetOhter>高速修復材x3</GetOhter>
+		<GetOther>高速修復材x3</GetOther>
 		<Content>只将初春、子日、若葉、初霜配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -491,8 +491,8 @@
 		<Name>「第二二駆逐隊」を編成せよ！</Name>
 		<GetFuel>220</GetFuel>
 		<GetAmmo>220</GetAmmo>
-		<GetOhter>開発資材x2
-高速修復材x2</GetOhter>
+		<GetOther>開発資材x2
+高速修復材x2</GetOther>
 		<Content>只将皐月、文月、長月和另外一艘驱逐配置在同一队伍</Content>
 	</quest>
 	<quest>
@@ -501,7 +501,7 @@
 		<Name>はじめての「出撃」！</Name>
 		<GetFuel>20</GetFuel>
 		<GetAmmo>20</GetAmmo>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>出击一次</Content>
 	</quest>
 	<quest>
@@ -511,7 +511,7 @@
 		<GetFuel>30</GetFuel>
 		<GetAmmo>30</GetAmmo>
 		<GetSteel>30</GetSteel>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>攻略1-1</Content>
 	</quest>
 	<quest>
@@ -521,7 +521,7 @@
 		<Name>第2艦隊、出撃せよ！</Name>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>使用第2舰队出击一次</Content>
 	</quest>
 	<quest>
@@ -530,7 +530,7 @@
 		<Name>南西諸島沖に出撃せよ！</Name>
 		<GetFuel>40</GetFuel>
 		<GetAmmo>40</GetAmmo>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>1-2出击一次</Content>
 	</quest>
 	<quest>
@@ -539,7 +539,7 @@
 		<Name>接近する「敵前衛艦隊」を迎撃せよ！</Name>
 		<GetFuel>50</GetFuel>
 		<GetSteel>50</GetSteel>
-		<GetOhter>开发资材*1   驱逐舰深雪</GetOhter>
+		<GetOther>开发资材*1   驱逐舰深雪</GetOther>
 		<Content>击破1-2BOSS</Content>
 	</quest>
 	<quest>
@@ -550,7 +550,7 @@
 		<GetFuel>60</GetFuel>
 		<GetAmmo>60</GetAmmo>
 		<GetAluminium>60</GetAluminium>
-		<GetOhter>轻巡龙田</GetOhter>
+		<GetOther>轻巡龙田</GetOther>
 		<Content>队伍使用轻巡*1、驱逐*3出击一次</Content>
 	</quest>
 	<quest>
@@ -569,7 +569,7 @@
 		<Name>「戦艦」を出撃させよ！</Name>
 		<GetAmmo>150</GetAmmo>
 		<GetSteel>150</GetSteel>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>使用战舰1艘以上出击一次</Content>
 	</quest>
 	<quest>
@@ -587,7 +587,7 @@
 		<Father>A11</Father>
 		<Name>敵空母を撃沈せよ！</Name>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>正航赤城</GetOhter>
+		<GetOther>正航赤城</GetOther>
 		<Content>击沉敌方航母即可（轻母也行）</Content>
 	</quest>
 	<quest>
@@ -596,7 +596,7 @@
 		<Father>A20</Father>
 		<Name>「三川艦隊」出撃せよ!</Name>
 		<GetAmmo>200</GetAmmo>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>使用鸟海、青叶、加古、古鹰、天龙以及任一高速舰出击一次</Content>
 	</quest>
 	<quest>
@@ -605,7 +605,7 @@
 		<Father>A10</Father>
 		<Name>「第六駆逐隊」出撃せよ！</Name>
 		<GetFuel>200</GetFuel>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>只使用晓、响、雷、电出击一次</Content>
 	</quest>
 	<quest>
@@ -617,7 +617,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>150</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速修复*2</GetOhter>
+		<GetOther>高速修复*2</GetOther>
 		<Content>使用爱宕、高雄、鸟海、摩耶击破2-2BOSS</Content>
 	</quest>
 	<quest>
@@ -627,7 +627,7 @@
 		<Name>「西村艦隊」出撃せよ！</Name>
 		<GetFuel>400</GetFuel>
 		<GetSteel>400</GetSteel>
-		<GetOhter>高速修复*2   家具箱（小）*1</GetOhter>
+		<GetOther>高速修复*2   家具箱（小）*1</GetOther>
 		<Content>使用扶桑、山城、最上、时雨击破2-3BOSS</Content>
 	</quest>
 	<quest>
@@ -638,7 +638,7 @@
 		<GetFuel>200</GetFuel>
 		<GetAmmo>200</GetAmmo>
 		<GetAluminium>700</GetAluminium>
-		<GetOhter>高速修复*2   家具箱（中）*1</GetOhter>
+		<GetOther>高速修复*2   家具箱（中）*1</GetOther>
 		<Content>使用翔鹤、瑞鹤击破3-1BOSS</Content>
 	</quest>
 	<quest>
@@ -650,7 +650,7 @@
 		<GetAmmo>150</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>150</GetAluminium>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>使用鸟海、青叶、加古、古鹰、天龙、衣笠击破2-3BOSS</Content>
 	</quest>
 	<quest>
@@ -660,7 +660,7 @@
 		<Name>「潜水艦隊」出撃せよ！</Name>
 		<GetFuel>150</GetFuel>
 		<GetSteel>300</GetSteel>
-		<GetOhter>特注家具职人*1</GetOhter>
+		<GetOther>特注家具职人*1</GetOther>
 		<Content>使用两艘潜水艇击破2-3BOSS</Content>
 	</quest>
 	<quest>
@@ -670,7 +670,7 @@
 		<Name>「航空水上打撃艦隊」出撃せよ！</Name>
 		<GetAmmo>150</GetAmmo>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>使用两艘航空战舰和两艘航空巡洋舰击破4-2BOSS</Content>
 	</quest>
 	<quest>
@@ -680,7 +680,7 @@
 		<Name>「第六戦隊」出撃せよ！</Name>
 		<GetAmmo>150</GetAmmo>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>家具箱（中）*1应急修理要员*1</GetOhter>
+		<GetOther>家具箱（中）*1应急修理要员*1</GetOther>
 		<Content>使用古鹰、加古、青叶、衣笠取得2-5BOSS战S胜利</Content>
 	</quest>
 	<quest>
@@ -690,7 +690,7 @@
 		<Name>「第八駆逐隊」出撃せよ！</Name>
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>400</GetSteel>
-		<GetOhter>开发资材*1   家具箱（中）*1</GetOhter>
+		<GetOther>开发资材*1   家具箱（中）*1</GetOther>
 		<Content>使用朝潮、满潮、荒潮、大潮击破2-3BOSS</Content>
 	</quest>
 	<quest>
@@ -700,7 +700,7 @@
 		<Name>「第十八駆逐隊」出撃せよ！</Name>
 		<GetAmmo>100</GetAmmo>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>开发资材*2   家具箱（大）*1</GetOhter>
+		<GetOther>开发资材*2   家具箱（大）*1</GetOther>
 		<Content>使用霰、霞、阳炎、不知火击破3-1BOSS</Content>
 	</quest>
 	<quest>
@@ -712,7 +712,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>500</GetAluminium>
-		<GetOhter>给粮舰间宫*1</GetOhter>
+		<GetOther>给粮舰间宫*1</GetOther>
 		<Content>使用睦月、如月、弥生、望月与3-2BOSS交战</Content>
 	</quest>
 	<quest>
@@ -723,7 +723,7 @@
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>900</GetAluminium>
-		<GetOhter>高速修复*3   家具箱（大）*1</GetOhter>
+		<GetOther>高速修复*3   家具箱（大）*1</GetOther>
 		<Content>使用两艘航空战舰击破4-4BOSS</Content>
 	</quest>
 	<quest>
@@ -734,7 +734,7 @@
 		<GetFuel>330</GetFuel>
 		<GetAmmo>330</GetAmmo>
 		<GetSteel>330</GetSteel>
-		<GetOhter>特注家具職人x1</GetOhter>
+		<GetOther>特注家具職人x1</GetOther>
 		<Content>使用睦月、卯月、弥生、望月与1-5BOSS交战</Content>
 	</quest>
 	<quest>
@@ -744,7 +744,7 @@
 		<Name>新編「第二航空戦隊」出撃せよ！</Name>
 		<GetAmmo>500</GetAmmo>
 		<GetAluminium>500</GetAluminium>
-		<GetOhter>給糧艦「間宮」×1</GetOhter>
+		<GetOther>給糧艦「間宮」×1</GetOther>
 		<Content>「飛龍改二」和「苍龙」加两艘驱逐组成的舰队与5-2boss交战S胜利</Content>
 	</quest>
 	<quest>
@@ -754,7 +754,7 @@
 		<Name>精鋭「第二航空戦隊」抜錨せよ</Name>
 		<GetFuel>500</GetFuel>
 		<GetSteel>500</GetSteel>
-		<GetOhter>特注家具職人×1</GetOhter>
+		<GetOther>特注家具職人×1</GetOther>
 		<Content>「蒼龍改二」(※旗艦)及「飛龍改二」和 2只驱逐 与4-3BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -763,7 +763,7 @@
 		<Father>B24</Father>
 		<Name>戦艦「榛名」出撃せよ！</Name>
 		<GetFuel>100</GetFuel>
-		<GetOhter>大口径主砲試製35.6cm三連装砲</GetOhter>
+		<GetOther>大口径主砲試製35.6cm三連装砲</GetOther>
 		<Content>「榛名改二」(※旗艦)组成的部队与 5-1BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -773,8 +773,8 @@
 		<Name>「第六〇一航空隊」出撃せよ！</Name>
 		<GetAmmo>300</GetAmmo>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>家具箱(大)x1
-[獲]航空要員熟練艦載機整備員</GetOhter>
+		<GetOther>家具箱(大)x1
+[獲]航空要員熟練艦載機整備員</GetOther>
 		<Content>包含「雲龍改」的机动部队出击5-2BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -784,8 +784,8 @@
 		<Name>「軽空母」戦隊、出撃せよ！</Name>
 		<GetAmmo>300</GetAmmo>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>高速修復材x3
-応急修理要員x1</GetOhter>
+		<GetOther>高速修復材x3
+応急修理要員x1</GetOther>
 		<Content>軽空母1～2隻、軽巡1隻、駆逐艦3～4隻的艦隊与2-1BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -795,8 +795,8 @@
 		<Name>「水雷戦隊」バシー島沖緊急展開</Name>
 		<GetFuel>300</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>家具箱(大)x1
-特注家具職人x1</GetOhter>
+		<GetOther>家具箱(大)x1
+特注家具職人x1</GetOther>
 		<Content>軽巡作为旗艦的水雷戦隊(軽巡最大2隻其他駆逐艦)与2-2BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -805,7 +805,7 @@
 		<Father>A42</Father>
 		<Name>「第二戦隊」抜錨！</Name>
 		<GetAmmo>400</GetAmmo>
-		<GetOhter>[獲]対艦強化弾一式徹甲弾</GetOhter>
+		<GetOther>[獲]対艦強化弾一式徹甲弾</GetOther>
 		<Content>由「長門型」2隻和「扶桑型」2隻还有其余两只出击与4-2BOSS交战 2回S胜利</Content>
 	</quest>
 	<quest>
@@ -815,8 +815,8 @@
 		<Name>「戦艦部隊」北方海域に突入せよ！</Name>
 		<GetAmmo>500</GetAmmo>
 		<GetAluminium>250</GetAluminium>
-		<GetOhter>開発資材x2
-[獲]対艦強化弾一式徹甲弾</GetOhter>
+		<GetOther>開発資材x2
+[獲]対艦強化弾一式徹甲弾</GetOther>
 		<Content>戦艦2隻 軽空母1隻 和 其他舰 组成的舰队与3-5BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -826,8 +826,8 @@
 		<Name>「西村艦隊」南方海域へ進出せよ！</Name>
 		<GetSteel>500</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>改修資材x5
-[獲]勲章x1</GetOhter>
+		<GetOther>改修資材x5
+[獲]勲章x1</GetOther>
 		<Content>「西村艦隊」的5隻和一艘其他舰与5-1BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -837,8 +837,8 @@
 		<Name>「第六戦隊」南西海域へ出撃せよ</Name>
 		<GetAmmo>400</GetAmmo>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>家具箱(大)x1
-特注家具職人</GetOhter>
+		<GetOther>家具箱(大)x1
+特注家具職人</GetOther>
 		<Content>「古鷹」「加古」「青葉」「衣笠」组成的第六舰队与2-5BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -848,7 +848,7 @@
 		<Name>「第十一駆逐隊」出撃せよ！</Name>
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
-		<GetOhter>給糧艦「間宮」×1</GetOhter>
+		<GetOther>給糧艦「間宮」×1</GetOther>
 		<Content>「吹雪」「白雪」「初雪」「叢雲」与另外两只舰组成第十一驱逐队与2-3BOSS交战获胜</Content>
 	</quest>
 	<quest>
@@ -858,8 +858,8 @@
 		<Name>「第十一駆逐隊」対潜哨戒！</Name>
 		<GetFuel>400</GetFuel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>開発資材×2
-[獲]ソナー三式水中探信儀</GetOhter>
+		<GetOther>開発資材×2
+[獲]ソナー三式水中探信儀</GetOther>
 		<Content>「吹雪」「白雪」「初雪」「叢雲」组成第十一驱逐队与1-5BOSS交战胜利</Content>
 	</quest>
 	<quest>
@@ -870,7 +870,7 @@
 		<GetFuel>300</GetFuel>
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
-		<GetOhter>プレゼント箱×1</GetOhter>
+		<GetOther>プレゼント箱×1</GetOther>
 		<Content>「初春」「子日」「若葉」「初霜」和另外两只舰组成第二一駆逐隊与3-1BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -880,8 +880,8 @@
 		<Name>「那智戦隊」抜錨せよ</Name>
 		<GetFuel>500</GetFuel>
 		<GetAmmo>300</GetAmmo>
-		<GetOhter>改修資材x2
-家具箱(大)x1</GetOhter>
+		<GetOther>改修資材x2
+家具箱(大)x1</GetOther>
 		<Content>「那智」「初霜」「霞」「潮」「曙」和另外一艘其他舰与2-2BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -890,8 +890,8 @@
 		<Father>A49</Father>
 		<Name>「第二二駆逐隊」出撃せよ！</Name>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>給糧艦「伊良湖」x1
-家具箱(中)x1</GetOhter>
+		<GetOther>給糧艦「伊良湖」x1
+家具箱(中)x1</GetOther>
 		<Content>「皐月」「文月」「長月」和另外三艘其他舰与1-4BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -900,7 +900,7 @@
 		<Name>敵艦隊を撃破せよ！</Name>
 		<GetFuel>50</GetFuel>
 		<GetAmmo>50</GetAmmo>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>出击胜利一次</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -913,7 +913,7 @@
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>50</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速修复*1   开发资材*1</GetOhter>
+		<GetOther>高速修复*1   开发资材*1</GetOther>
 		<Content>完成上一个任务后继续出击一次并胜利</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -926,7 +926,7 @@
 		<GetAmmo>150</GetAmmo>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>出击10次胜利</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -939,7 +939,7 @@
 		<GetAmmo>150</GetAmmo>
 		<GetSteel>150</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>高速修复*2</GetOhter>
+		<GetOther>高速修复*2</GetOther>
 		<Content>击沉敌3艘航母</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -952,7 +952,7 @@
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速修复*1   开发资材*1</GetOhter>
+		<GetOther>高速修复*1   开发资材*1</GetOther>
 		<Content>击沉敌3艘补给舰</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -962,7 +962,7 @@
 		<Father>Bd1</Father>
 		<Name>敵輸送船団を叩け！</Name>
 		<GetAmmo>200</GetAmmo>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>击沉敌方补给船5艘以上</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -973,7 +973,7 @@
 		<Name>南西諸島海域の制海権を握れ！</Name>
 		<GetFuel>300</GetFuel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>高速建造*1   高速修复*1</GetOhter>
+		<GetOther>高速建造*1   高速修复*1</GetOther>
 		<Content>击破2图BOSS5次</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -986,7 +986,7 @@
 		<GetAmmo>30</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>30</GetAluminium>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>击沉敌6艘潜艇</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -999,7 +999,7 @@
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速建造*2   开发资材*2</GetOhter>
+		<GetOther>高速建造*2   开发资材*2</GetOther>
 		<Content>出击36次、进入BOSS点24次，BOSS战胜利12次，S胜6次（道中也可）</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1010,7 +1010,7 @@
 		<Name>い号作戦</Name>
 		<GetAmmo>500</GetAmmo>
 		<GetAluminium>500</GetAluminium>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>击沉敌方航母达20艘</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1021,7 +1021,7 @@
 		<Name>海上通商破壊作戦</Name>
 		<GetFuel>500</GetFuel>
 		<GetSteel>400</GetSteel>
-		<GetOhter>开发资材*3</GetOhter>
+		<GetOther>开发资材*3</GetOther>
 		<Content>一周内击沉20艘补给船</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1032,7 +1032,7 @@
 		<Name>ろ号作戦</Name>
 		<GetFuel>400</GetFuel>
 		<GetSteel>800</GetSteel>
-		<GetOhter>高速修复*3</GetOhter>
+		<GetOther>高速修复*3</GetOther>
 		<Content>一周内击沉50艘补给船</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1042,7 +1042,7 @@
 		<Father>Bw2</Father>
 		<Name>海上護衛戦</Name>
 		<GetFuel>600</GetFuel>
-		<GetOhter>高速修复*2</GetOhter>
+		<GetOther>高速修复*2</GetOther>
 		<Content>击沉敌潜水艇15艘以上</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1053,7 +1053,7 @@
 		<Name>敵東方艦隊を撃滅せよ！</Name>
 		<GetFuel>400</GetFuel>
 		<GetAluminium>700</GetAluminium>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>击破4图BOSS达12次</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1066,7 +1066,7 @@
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>400</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>开发资材*3   家具箱（中）*1</GetOhter>
+		<GetOther>开发资材*3   家具箱（中）*1</GetOther>
 		<Content>击破3-3或3-4或3-5BOSS达5次</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1077,7 +1077,7 @@
 		<Name>敵東方中枢艦隊を撃破せよ！</Name>
 		<GetFuel>500</GetFuel>
 		<GetSteel>500</GetSteel>
-		<GetOhter>高速修复*1   开发资材*1</GetOhter>
+		<GetOther>高速修复*1   开发资材*1</GetOther>
 		<Content>击破4-4BOSS一次</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1088,7 +1088,7 @@
 		<Name>南方海域珊瑚諸島沖の制空権を握れ！</Name>
 		<GetAmmo>300</GetAmmo>
 		<GetAluminium>800</GetAluminium>
-		<GetOhter>开发资材*2   家具箱（中）*1</GetOhter>
+		<GetOther>开发资材*2   家具箱（中）*1</GetOther>
 		<Content>5-2BOSS战S胜 两次</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1098,7 +1098,7 @@
 		<Father>A45 &amp; Bw4</Father>
 		<Name>海上輸送路の安全確保に努めよ！</Name>
 		<GetFuel>100</GetFuel>
-		<GetOhter>改修資材x3</GetOhter>
+		<GetOther>改修資材x3</GetOther>
 		<Content>与1-5BOSS交战 3回 A胜利以上</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1109,8 +1109,8 @@
 		<Name>「第五戦隊」出撃せよ！</Name>
 		<GetAmmo>550</GetAmmo>
 		<GetSteel>550</GetSteel>
-		<GetOhter>開発資材x5
-家具箱(大)x1</GetOhter>
+		<GetOther>開発資材x5
+家具箱(大)x1</GetOther>
 		<Content>妙高、那智、羽黒与2-5BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -1119,8 +1119,8 @@
 		<Father>B30</Father>
 		<Name>「潜水艦隊」出撃せよ！</Name>
 		<GetAmmo>600</GetAmmo>
-		<GetOhter>家具箱(大)x1
-給糧艦「伊良湖」×1</GetOhter>
+		<GetOther>家具箱(大)x1
+給糧艦「伊良湖」×1</GetOther>
 		<Content>队伍中配备潜艇与6-1BOSS交战3回 S胜利</Content>
 	</quest>
 	<quest>
@@ -1130,8 +1130,8 @@
 		<Name>「水雷戦隊」南西へ！</Name>
 		<GetFuel>500</GetFuel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>家具箱(大)
-給糧艦「伊良湖」×1</GetOhter>
+		<GetOther>家具箱(大)
+給糧艦「伊良湖」×1</GetOther>
 		<Content>最多只能配备3艘轻巡，其中一只需是旗舰与1-4BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -1142,8 +1142,8 @@
 		<GetFuel>350</GetFuel>
 		<GetAmmo>400</GetAmmo>
 		<GetSteel>350</GetSteel>
-		<GetOhter>高速修復材x3
-家具箱(大)x1</GetOhter>
+		<GetOther>高速修復材x3
+家具箱(大)x1</GetOther>
 		<Content>戦艦3隻軽巡1隻和 2只其他舰 与5-1BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -1152,8 +1152,8 @@
 		<Father>bm1 &amp; B21</Father>
 		<Name>海上護衛強化月間</Name>
 		<GetFuel>800</GetFuel>
-		<GetOhter>開発資材x5
-改修資材x3</GetOhter>
+		<GetOther>開発資材x5
+改修資材x3</GetOther>
 		<Content>舰队与1-5BOSS交战 A胜利 10回</Content>
 	</quest>
 	<quest>
@@ -1163,8 +1163,8 @@
 		<Name>「空母機動部隊」西へ！</Name>
 		<GetSteel>600</GetSteel>
 		<GetAluminium>800</GetAluminium>
-		<GetOhter>改修資材x2
-家具箱(大)x2</GetOhter>
+		<GetOther>改修資材x2
+家具箱(大)x2</GetOther>
 		<Content>由 2空母 2驱逐 组成的舰队与4-2BOSS交战 S胜利</Content>
 	</quest>
 	<quest>
@@ -1174,8 +1174,8 @@
 		<Name>「水上反撃部隊」突入せよ！</Name>
 		<GetAmmo>600</GetAmmo>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>開発資材x4
-改修資材x2</GetOhter>
+		<GetOther>開発資材x4
+改修資材x2</GetOther>
 		<Content>之前组成的水上挺身部隊与2-5BOSS交战S胜利</Content>
 	</quest>
 	<quest>
@@ -1184,7 +1184,7 @@
 		<Name>はじめての「演習」！</Name>
 		<GetFuel>10</GetFuel>
 		<GetAmmo>10</GetAmmo>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>演习1次</Content>
 	</quest>
 	<quest>
@@ -1193,7 +1193,7 @@
 		<Name>「演習」で練度向上！</Name>
 		<GetFuel>50</GetFuel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速建造*1</GetOhter>
+		<GetOther>高速建造*1</GetOther>
 		<Content>演习3次</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1204,7 +1204,7 @@
 		<Name>「演習」で他提督を圧倒せよ！</Name>
 		<GetAmmo>50</GetAmmo>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>演习5次并胜利</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1217,7 +1217,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>一周内演习20次并胜利</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1229,7 +1229,7 @@
 		<GetAmmo>30</GetAmmo>
 		<GetSteel>30</GetSteel>
 		<GetAluminium>30</GetAluminium>
-		<GetOhter>家具箱（小）*1</GetOhter>
+		<GetOther>家具箱（小）*1</GetOther>
 		<Content>远征1次</Content>
 	</quest>
 	<quest>
@@ -1240,7 +1240,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>远征3次成功</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1253,7 +1253,7 @@
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>150</GetAluminium>
-		<GetOhter>家具箱（小）*1   家具箱（中）*1</GetOhter>
+		<GetOther>家具箱（小）*1   家具箱（中）*1</GetOther>
 		<Content>远征10次成功</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1265,7 +1265,7 @@
 		<GetAmmo>500</GetAmmo>
 		<GetSteel>500</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>开发资材*3   家具箱（大）*1</GetOhter>
+		<GetOther>开发资材*3   家具箱（大）*1</GetOther>
 		<Content>一周内远征30次成功</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1276,7 +1276,7 @@
 		<Name>第一次潜水艦派遣作戦</Name>
 		<GetSteel>10</GetSteel>
 		<GetAluminium>10</GetAluminium>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>完成一次远征「潜水艦派遣作戦」</Content>
 	</quest>
 	<quest>
@@ -1286,7 +1286,7 @@
 		<Name>第二次潜水艦派遣作戦</Name>
 		<GetSteel>10</GetSteel>
 		<GetAluminium>10</GetAluminium>
-		<GetOhter>舰爆Ju87C改*1</GetOhter>
+		<GetOther>舰爆Ju87C改*1</GetOther>
 		<Content>完成一次远征「潜水艦派遣作戦」</Content>
 	</quest>
 	<quest>
@@ -1295,7 +1295,7 @@
 		<Father>D6</Father>
 		<Name>潜水艦派遣作戦による技術入手の継続！</Name>
 		<GetAluminium>800</GetAluminium>
-		<GetOhter>舰爆Ju87C改*1特注家具职人*1</GetOhter>
+		<GetOther>舰爆Ju87C改*1特注家具职人*1</GetOther>
 		<Content>完成两次远征「潜水艦派遣作戦」</Content>
 	</quest>
 	<quest>
@@ -1304,7 +1304,7 @@
 		<Father>D7</Father>
 		<Name>潜水艦派遣による海外艦との接触作戦</Name>
 		<GetAmmo>100</GetAmmo>
-		<GetOhter>德国驱逐舰Z1</GetOhter>
+		<GetOther>德国驱逐舰Z1</GetOther>
 		<Content>完成一次远征「海外艦との接触」</Content>
 	</quest>
 	<quest>
@@ -1313,7 +1313,7 @@
 		<Father>A30</Father>
 		<Name>南方への輸送作戦を成功させよ！</Name>
 		<GetFuel>150</GetFuel>
-		<GetOhter>家具箱（小）*1</GetOhter>
+		<GetOther>家具箱（小）*1</GetOther>
 		<Content>完成一次远征「東京急行」或「東京急行(弐)」</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1323,7 +1323,7 @@
 		<Father>B20</Father>
 		<Name>航空火力艦の運用を強化せよ！</Name>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>水爆瑞雲(六三四空)*1</GetOhter>
+		<GetOther>水爆瑞雲(六三四空)*1</GetOther>
 		<Content>完成一次远征「航空戦艦運用演習」</Content>
 	</quest>
 	<quest>
@@ -1333,7 +1333,7 @@
 		<Name>南方への鼠輸送を継続実施せよ!</Name>
 		<GetFuel>400</GetFuel>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>完成七次远征「東京急行」或「東京急行(弐)」</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1343,7 +1343,7 @@
 		<Father>D10</Father>
 		<Name>(続)航空火力艦の運用を強化せよ！</Name>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>水爆瑞雲(六三四空)*1</GetOhter>
+		<GetOther>水爆瑞雲(六三四空)*1</GetOther>
 		<Content>完成三次远征「航空戦艦運用演習」</Content>
 	</quest>
 	<quest>
@@ -1352,7 +1352,7 @@
 		<Father>A37</Father>
 		<Name>遠洋潜水艦作戦を実施せよ！</Name>
 		<GetAmmo>200</GetAmmo>
-		<GetOhter>53cm艦首魚雷(8門)</GetOhter>
+		<GetOther>53cm艦首魚雷(8門)</GetOther>
 		<Content>远征「遠洋潜水艦作戦」成功一次</Content>
 	</quest>
 	<quest>
@@ -1361,7 +1361,7 @@
 		<Father>D13</Father>
 		<Name>遠洋潜水艦作戦の成果を拡大せよ！</Name>
 		<GetAmmo>400</GetAmmo>
-		<GetOhter>53cm艦首魚雷(8門)</GetOhter>
+		<GetOther>53cm艦首魚雷(8門)</GetOther>
 		<Content>远征「遠洋潜水艦作戦」2回（和D13一起共计3回）成功</Content>
 	</quest>
 	<quest>
@@ -1371,7 +1371,7 @@
 		<Name>はじめての「補給」！</Name>
 		<GetFuel>20</GetFuel>
 		<GetAmmo>20</GetAmmo>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>为舰队补给一次</Content>
 	</quest>
 	<quest>
@@ -1380,7 +1380,7 @@
 		<Father>B2</Father>
 		<Name>はじめての「入渠」！</Name>
 		<GetSteel>30</GetSteel>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>为受损的舰船入渠维修一次</Content>
 	</quest>
 	<quest>
@@ -1391,7 +1391,7 @@
 		<GetAmmo>30</GetAmmo>
 		<GetSteel>30</GetSteel>
 		<GetAluminium>30</GetAluminium>
-		<GetOhter>高速修复*2</GetOhter>
+		<GetOther>高速修复*2</GetOther>
 		<Content>入渠修复5条船只</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1404,7 +1404,7 @@
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>50</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速建造*1   开发资材*1</GetOhter>
+		<GetOther>高速建造*1   开发资材*1</GetOther>
 		<Content>补给15次</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1416,7 +1416,7 @@
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>50</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>建造一次</Content>
 	</quest>
 	<quest>
@@ -1427,7 +1427,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>开发一次（不论成败）</Content>
 	</quest>
 	<quest>
@@ -1438,7 +1438,7 @@
 		<GetAmmo>60</GetAmmo>
 		<GetSteel>60</GetSteel>
 		<GetAluminium>60</GetAluminium>
-		<GetOhter>高速建造*1   开发资材*1</GetOhter>
+		<GetOther>高速建造*1   开发资材*1</GetOther>
 		<Content>解体一只舰船</Content>
 	</quest>
 	<quest>
@@ -1449,7 +1449,7 @@
 		<GetAmmo>80</GetAmmo>
 		<GetSteel>80</GetSteel>
 		<GetAluminium>80</GetAluminium>
-		<GetOhter>高速修复*1   开发资材*1</GetOhter>
+		<GetOther>高速修复*1   开发资材*1</GetOther>
 		<Content>废弃一个装备</Content>
 	</quest>
 	<quest>
@@ -1460,7 +1460,7 @@
 		<GetAmmo>40</GetAmmo>
 		<GetSteel>40</GetSteel>
 		<GetAluminium>40</GetAluminium>
-		<GetOhter>高速建造*1   开发资材*1</GetOhter>
+		<GetOther>高速建造*1   开发资材*1</GetOther>
 		<Content>开发一次（不论成败）</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1473,7 +1473,7 @@
 		<GetAmmo>50</GetAmmo>
 		<GetSteel>50</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速修复*1   开发资材*1</GetOhter>
+		<GetOther>高速修复*1   开发资材*1</GetOther>
 		<Content>建造一次</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1486,7 +1486,7 @@
 		<GetAmmo>100</GetAmmo>
 		<GetSteel>100</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>开发资材*2</GetOhter>
+		<GetOther>开发资材*2</GetOther>
 		<Content>开发3次（不论成败）</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1499,7 +1499,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速建造*1   开发资材*2</GetOhter>
+		<GetOther>高速建造*1   开发资材*2</GetOther>
 		<Content>建造3只舰船</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1509,7 +1509,7 @@
 		<Father>F8</Father>
 		<Name>軍縮条約対応！</Name>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>解体2只舰船</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1520,7 +1520,7 @@
 		<Name>「大型艦建造」の準備！(その弐)</Name>
 		<GetFuel>800</GetFuel>
 		<GetAmmo>800</GetAmmo>
-		<GetOhter>大型舰建造开启</GetOhter>
+		<GetOther>大型舰建造开启</GetOther>
 		<Content>废弃装备4次</Content>
 	</quest>
 	<quest>
@@ -1528,7 +1528,7 @@
 		<ID>F11</ID>
 		<Name>輸送用ドラム缶の準備 </Name>
 		<GetSteel>30</GetSteel>
-		<GetOhter>ドラム缶(輸送用)x3</GetOhter>
+		<GetOther>ドラム缶(輸送用)x3</GetOther>
 		<Content>废弃3次装备</Content>
 	</quest>
 	<quest>
@@ -1537,7 +1537,7 @@
 		<Father>Bw5</Father>
 		<Name>資源の再利用 </Name>
 		<GetSteel>100</GetSteel>
-		<GetOhter>ドラム缶(輸送用)x1</GetOhter>
+		<GetOther>ドラム缶(輸送用)x1</GetOther>
 		<Content>废弃24次装备</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1547,7 +1547,7 @@
 		<Father>B25</Father>
 		<Name>機種転換</Name>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>天山一二型(友永隊)</GetOhter>
+		<GetOther>天山一二型(友永隊)</GetOther>
 		<Content>旗舰空母装备「九七式艦攻(友永隊)」的情况下废弃「天山」两台</Content>
 	</quest>
 	<quest>
@@ -1556,7 +1556,7 @@
 		<Father>B25</Father>
 		<Name>機種転換</Name>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>艦上爆撃機彗星(江草隊)</GetOhter>
+		<GetOther>艦上爆撃機彗星(江草隊)</GetOther>
 		<Content>旗舰空母装备「九九式艦爆(江草隊)」的情况下废弃「彗星」两台</Content>
 	</quest>
 	<quest>
@@ -1565,7 +1565,7 @@
 		<Father>B28</Father>
 		<Name>機種転換</Name>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>艦上戦闘機烈風(六〇一空)</GetOhter>
+		<GetOther>艦上戦闘機烈風(六〇一空)</GetOther>
 		<Content>旗舰空母装备「零戦52型丙(六〇一空)」的情况下废弃「烈風」两台</Content>
 	</quest>
 	<quest>
@@ -1574,7 +1574,7 @@
 		<Father>F8</Father>
 		<Name>「伊良湖」の準備</Name>
 		<GetFuel>100</GetFuel>
-		<GetOhter>給糧艦「伊良湖」x4</GetOhter>
+		<GetOther>給糧艦「伊良湖」x4</GetOther>
 		<Content>废弃10个装备</Content>
 	</quest>
 	<quest>
@@ -1583,7 +1583,7 @@
 		<Father>A45</Father>
 		<Name>はじめての「装備改修」！</Name>
 		<GetSteel>100</GetSteel>
-		<GetOhter>改修資材x1</GetOhter>
+		<GetOther>改修資材x1</GetOther>
 		<Content>利用「改修工廠」的「装備」改修一次</Content>
 	</quest>
 	<quest>
@@ -1592,7 +1592,7 @@
 		<Father>F8和F17</Father>
 		<Name>装備の改修強化</Name>
 		<GetAmmo>50</GetAmmo>
-		<GetOhter>改修資材x1</GetOhter>
+		<GetOther>改修資材x1</GetOther>
 		<Content>※改修工廠用1回</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1602,7 +1602,7 @@
 		<Name>はじめての「近代化改修」！</Name>
 		<GetSteel>50</GetSteel>
 		<GetAluminium>50</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>给任意一只舰船近代化改修成功</Content>
 	</quest>
 	<quest>
@@ -1612,7 +1612,7 @@
 		<GetFuel>20</GetFuel>
 		<GetAmmo>20</GetAmmo>
 		<GetSteel>50</GetSteel>
-		<GetOhter>高速修复*1</GetOhter>
+		<GetOther>高速修复*1</GetOther>
 		<Content>近代化改修2次并成功</Content>
 		<IsDaily>true</IsDaily>
 	</quest>
@@ -1625,7 +1625,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>100</GetAluminium>
-		<GetOhter>高速建造*1   开发资材*2</GetOhter>
+		<GetOther>高速建造*1   开发资材*2</GetOther>
 		<Content>一周内近代化改修成功15次</Content>
 		<IsWeekly>true</IsWeekly>
 	</quest>
@@ -1636,7 +1636,7 @@
 		<Name>「大型艦建造」の準備！(その壱)</Name>
 		<GetSteel>400</GetSteel>
 		<GetAluminium>400</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>近代化改修4次并成功</Content>
 	</quest>
 	<quest>
@@ -1646,7 +1646,7 @@
 		<Name>式の準備！(その壱)</Name>
 		<GetFuel>88</GetFuel>
 		<GetAmmo>88</GetAmmo>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>废弃装备2次</Content>
 	</quest>
 	<quest>
@@ -1656,7 +1656,7 @@
 		<Name>式の準備！(その弐)</Name>
 		<GetSteel>88</GetSteel>
 		<GetAluminium>88</GetAluminium>
-		<GetOhter>开发资材*1</GetOhter>
+		<GetOther>开发资材*1</GetOther>
 		<Content>演习胜利2次</Content>
 	</quest>
 	<quest>
@@ -1668,7 +1668,7 @@
 		<GetAmmo>88</GetAmmo>
 		<GetSteel>88</GetSteel>
 		<GetAluminium>88</GetAluminium>
-		<GetOhter>家具箱（大）*1</GetOhter>
+		<GetOther>家具箱（大）*1</GetOther>
 		<Content>第一舰队旗舰配置90级以上的舰娘</Content>
 	</quest>
 	<quest>
@@ -1676,7 +1676,7 @@
 		<ID>WB01</ID>
 		<Father>WA01</Father>
 		<Name>式の準備！(最終)</Name>
-		<GetOhter>書類一式&amp;指輪（结婚道具）*1</GetOhter>
+		<GetOther>書類一式&amp;指輪（结婚道具）*1</GetOther>
 		<Content>用旗舰为90级以上的第一舰队取得2-3BOSS战S胜</Content>
 	</quest>
 	<quest>
@@ -1688,7 +1688,7 @@
 		<GetAmmo>200</GetAmmo>
 		<GetSteel>200</GetSteel>
 		<GetAluminium>200</GetAluminium>
-		<GetOhter>应急修理要员*1</GetOhter>
+		<GetOther>应急修理要员*1</GetOther>
 		<Content>第一舰队旗舰配置100级以上的舰娘</Content>
 	</quest>
 	<quest>
@@ -1700,7 +1700,7 @@
 		<GetAmmo>300</GetAmmo>
 		<GetSteel>300</GetSteel>
 		<GetAluminium>300</GetAluminium>
-		<GetOhter>家具煎餅布団*1</GetOhter>
+		<GetOther>家具煎餅布団*1</GetOther>
 		<Content>用旗舰为100级以上的第一舰队取得4-3BOSS战S胜</Content>
 	</quest>
 </CATALOG>

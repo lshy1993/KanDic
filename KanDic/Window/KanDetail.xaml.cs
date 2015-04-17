@@ -40,6 +40,7 @@ namespace KanDic.Window
         public void Detail_Init()
         {
             this.Title = kanmusu.Name;
+            //是否大建
             if (kanmusu.OnlyHuge == "True")
             {
                 IfHuge.Text = "大";
@@ -47,9 +48,46 @@ namespace KanDic.Window
                 SolidColorBrush brush = new SolidColorBrush(color);
                 IfHugeBack.Background = brush;
             }
+            //建造时间
+            TextBlock temptb = new TextBlock();
+            temptb.VerticalAlignment = VerticalAlignment.Center;
+            temptb.HorizontalAlignment = HorizontalAlignment.Center;
+            temptb.Text = String.Format("{0:00}:{1:00}:{2:00}", kanmusu.Hour, kanmusu.Minute, 0);
+            TimePanel.Children.Add(temptb);
+            //补给量
+            Draw_Supply(Supply1, false);
+            Draw_Supply(Supply2, false);
+            Draw_Supply(Supply3, true);
+            Draw_Supply(Supply4, true);
             MainData.DataContext = kanmusu;
             //SobiList.DataContext = new SobiIcon(kanmusu.Equip1, kanmusu.Equip2, kanmusu.Equip3, kanmusu.Equip4);
             Show_Chart();
+        }
+        #endregion
+
+        #region 绘制补给格
+        private void Draw_Supply(StackPanel temp,bool ifall)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                Border tempbd = new Border();
+                tempbd.BorderThickness = new Thickness(1);
+                tempbd.BorderBrush = new SolidColorBrush(Color.FromRgb(197, 184, 170));
+                tempbd.Width = 5;
+                tempbd.Height = 10;
+                tempbd.Margin = new Thickness(1, 1, 0, 0);
+                if (i <= 8 && !ifall)
+                {
+                    //tempbd.Background = new SolidColorBrush(Color.FromRgb(153, 255, 102));
+                    tempbd.Background = new SolidColorBrush(Color.FromRgb(18, 255, 0));
+                    temp.Children.Add(tempbd);
+                }
+                else
+                {
+                    tempbd.Background = new SolidColorBrush(Color.FromRgb(229, 216, 202));
+                    temp.Children.Add(tempbd);
+                }
+            }
         }
         #endregion
 
@@ -152,6 +190,35 @@ namespace KanDic.Window
                 dk.YValue = Convert.ToInt32(kanmusu.Air);
                 hb.YValue = Convert.ToInt32(kanmusu.Dodge);
                 nj.YValue = Convert.ToInt32(kanmusu.HP);
+            }
+        }
+        #endregion
+
+        #region 打开改造后窗口
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            bool IsOpened = false;
+            Kan[] ships = KanDic.Viewer.KanColle.ships;
+            int num = kanmusu.LinkNumber;
+            if (num == 0) return;
+            foreach (System.Windows.Window element in Application.Current.Windows)
+            {
+                string type = element.GetType().ToString();
+                if (type == "KanDic.Window.KanDetail")
+                {
+                    if (element.Title == ships[num].Name)
+                    {
+                        IsOpened = true;
+                        element.Activate();
+                        break;
+                    }
+                }
+            }
+            if (!IsOpened)
+            {
+                Window.KanDetail win = new Window.KanDetail(num);
+                win.Owner = this.Owner;
+                win.Show();
             }
         }
         #endregion

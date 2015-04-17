@@ -16,7 +16,7 @@ namespace KanDic.Resources
         public string GetAmmo { set; get; }
         public string GetSteel { set; get; }
         public string GetAluminium { set; get; }
-        public string GetOhter { set; get; }
+        public string GetOther { set; get; }
         public string Content { set; get; }
         public string IsDaily { set; get; }
         public string IsWeekly { set; get; }

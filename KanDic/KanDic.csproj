@@ -274,10 +274,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Style\FocusVisual.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Resources\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -483,6 +479,7 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Cache\icon\info\supply.PNG" />
     <Resource Include="Cache\ship.png" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 1.jpg" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 5.jpg" />

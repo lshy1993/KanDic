@@ -48,42 +48,73 @@
             <Border.Resources>
                 <XmlDataProvider x:Key="listsource" Source="/Resources/Data/Quest.xml"/>
             </Border.Resources>
-            <ListView Name="ShowList" ScrollViewer.PanningMode="Both">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding Type}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="类型"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding ID}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="ID"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding Father}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="前置"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding Name}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="任务"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding GetOhter}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="额外奖励"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                        <GridViewColumn Width="auto" DisplayMemberBinding="{Binding Content}">
-                            <GridViewColumn.Header>
-                                <TextBlock Text="要求"/>
-                            </GridViewColumn.Header>
-                        </GridViewColumn>
-                    </GridView>
-                </ListView.View>
-            </ListView>
+            <DataGrid Name="ShowList" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both">
+                <DataGrid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="TextWrapping" Value="Wrap"/>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding ID}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="前置任务" Binding="{Binding Father}" IsReadOnly="True"/>
+                    <DataGridTextColumn Width="140" Header="任务名" Binding="{Binding Name}" IsReadOnly="True">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="TextWrapping" Value="Wrap"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Width="200" Header="基本要求" Binding="{Binding Content}" IsReadOnly="True">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="TextWrapping" Value="Wrap"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Width="100" Header="特殊说明" Binding="{Binding Extra}" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding GetFuel}" IsReadOnly="True">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Image Source="/KanDic;component/Cache/icon/info/fuel.PNG" Stretch="None"/>
+                                    <ContentPresenter Content="{Binding}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding GetSteel}" IsReadOnly="True">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Image Source="/KanDic;component/Cache/icon/info/steel.PNG" Stretch="None"/>
+                                    <ContentPresenter Content="{Binding}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding GetAmmo}" IsReadOnly="True">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Image Source="/KanDic;component/Cache/icon/info/ammo.PNG" Stretch="None"/>
+                                    <ContentPresenter Content="{Binding}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding GetAluminium}" IsReadOnly="True">
+                        <DataGridTextColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Image Source="/KanDic;component/Cache/icon/info/aluminum.PNG" Stretch="None"/>
+                                    <ContentPresenter Content="{Binding}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTextColumn.HeaderTemplate>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="其他奖励" Binding="{Binding GetOther}" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
         </Border>
     </DockPanel>
 </UserControl>
