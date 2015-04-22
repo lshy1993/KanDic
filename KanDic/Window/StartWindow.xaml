@@ -90,7 +90,7 @@
                     <viewer:Equipment MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="远征" Width="100">
-                    <viewer:Expedition VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="380" MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                    <viewer:ExpPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="380" MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="任务" Width="100">
                     <viewer:Quest MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
@@ -102,7 +102,7 @@
                     <viewer:Revamp MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="地图" Width="100">
-                    <viewer:Map VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <viewer:MapPanel VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </TabItem>
             </TabControl>
             <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5">

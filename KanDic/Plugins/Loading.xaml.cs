@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using KanData;
 using KanDic.Resources;
 using System.Net.NetworkInformation;
 using System.Net;
@@ -19,7 +20,7 @@ using System.Configuration;
 using System.IO;
 using System.Xml;
 
-namespace KanDic.Plugins
+namespace KanDic
 {
     /// <summary>
     /// Loading.xaml 的交互逻辑
@@ -122,20 +123,21 @@ namespace KanDic.Plugins
                         typeof(Update).GetProperty(nodename).SetValue(updateInfo, temp.InnerText, null);
                     }
                     stream.Close();
-                    if (Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.AppVersion) || Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.DataVersion))
+                    if (Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.AppVersion))
                     {
-                        AutoUpdate au = new AutoUpdate();
-                        this.Close();
-                        au.Show();
+                        Confirm cr = new Confirm(updateInfo.AppVersion);
+                        cr.Owner = this;
+                        if (!(bool)cr.ShowDialog()) DataLoading();
                     }
                     else
                     {
                         DataLoading();
                     }
                 }
-                catch
+                catch(Exception e)
                 {
-                    DataLoading();
+                    MessageBox.Show(e.ToString());
+                    //DataLoading();
                 }
             };
             client.DownloadDataAsync(new Uri(url));
@@ -177,13 +179,35 @@ namespace KanDic.Plugins
         }
         #endregion
 
+        #region 读取数据
         private void DataLoading()
         {
-            this.Visibility = Visibility.Visible;
-            myTimer.Interval = new TimeSpan(0, 0, 0 ,3);
+            DataInit di = new DataInit();
+            for (int i = 0; i < di.kanlist.Count; i++)
+            {
+                KanDic.Viewer.KanColle.ships[di.kanlist[i].Number] = di.kanlist[i];
+            }
+            for (int i = 0; i < di.soubilist.Count; i++)
+            {
+                KanDic.Viewer.Equipment.equips[di.soubilist[i].Number] = di.soubilist[i];
+            }
+            for (int i = 0; i < di.explist.Count; i++)
+            {
+                KanDic.Viewer.ExpPanel.exps[i + 1] = di.explist[i];
+            }
+            for (int i = 0; i < di.maplist.Count; i++)
+            {
+                KanDic.Viewer.MapPanel.maps[i + 1] = di.maplist[i];
+            }
+            for (int i = 0; i < di.enemylist.Count; i++)
+            {
+                KanDic.Window.EnermySet.enemys[i + 1] = di.enemylist[i];
+            }
+            myTimer.Interval = new TimeSpan(0, 0, 0 ,1);
             myTimer.Tick += myTimer_Tick;
             myTimer.Start();
         }
+        #endregion
 
         void myTimer_Tick(object sender, EventArgs e)
         {

@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using KanData;
 using KanDic.Viewer;
 using KanDic.Resources;
 using KanDic.Plugins.Simulator;

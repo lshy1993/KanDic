@@ -12,7 +12,9 @@ namespace KanDic.Resources
         int counter, lvall, search;
         double sdold, sdnew, sdsimple;
 
+        //阵型布阵：单纵、复纵、轮形、梯形、单横{炮、潜、雷、夜}
         double[,] capformation = new double[5, 4] { { 1, 0.45, 1, 1 }, { 0.8, 0.6, 0.8, 1 }, { 0.7, 0.9, 0.7, 1 }, { 0.6, 0.75, 0.6, 1 }, { 0.6, 1, 0.6, 1 } };
+        //交战状态补正：{同航、反航、T优、T劣}
         double[] capstatus = new double[4] { 1, 0.8, 1.2, 0.6 };
 
         List<string> airforce = new List<string>() { "正規空母", "軽空母", "水上機母艦", "航空戦艦", "航空巡洋艦", "装甲空母" };
@@ -24,6 +26,7 @@ namespace KanDic.Resources
         List<string> artillery = new List<string>() { "小口径主砲", "中口径主砲", "大口径主砲", "副砲", "対艦強化弾", "主炮类" };
         List<string> range = new List<string>() { "超長", "長", "中", "短" };
 
+        //炮击顺序
         List<MoniKan> firenum = new List<MoniKan>();
 
         public Keisanki(MoniKan[] xx)

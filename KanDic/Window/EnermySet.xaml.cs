@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using KanData;
 using KanDic.Resources;
 using MahApps.Metro.Controls;
 using System.Xml;
@@ -23,7 +24,8 @@ namespace KanDic.Window
     /// </summary>
     public partial class EnermySet
     {
-        public Enermy shinkai;
+        public Enemy shinkai;
+        public static KanData.Enemy[] enemys = new KanData.Enemy[200];
         public XmlDocument EnermyList = new XmlDocument();
         public string[] namelist;
 
@@ -38,14 +40,14 @@ namespace KanDic.Window
             namelist = x.Split(' ');
             for (int i = 0; i < namelist.Length; i++)
             {
-                shinkai = new Enermy();
+                shinkai = new Enemy();
                 Load_Enermy(namelist[i]);
                 DataPanel.Children.Add(new KanDic.Viewer.EnermyPanel(shinkai));
                 //Draw_Icon(shinkai,i);
             }
         }
 
-        private void Draw_Icon(Enermy x,int nownum)
+        private void Draw_Icon(Enemy x,int nownum)
         {
             Image tempim = new Image();
             tempim.Stretch = Stretch.None;
@@ -79,7 +81,7 @@ namespace KanDic.Window
             foreach (XmlNode yy in x.ChildNodes)
             {
                 string name1 = yy.Name;
-                typeof(Enermy).GetProperty(name1).SetValue(shinkai, yy.InnerText, null);
+                typeof(Enemy).GetProperty(name1).SetValue(shinkai, yy.InnerText, null);
             }
         }
     }

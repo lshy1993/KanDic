@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KanData;
 using KanDic;
 using KanDic.Resources;
 using System.Xml;
@@ -26,9 +27,8 @@ namespace KanDic.Viewer
     public partial class KanColle : UserControl
     {
         public System.Windows.Window mainwindow;
-
-        public int shipgroup, shipteam, classtag;
         public static Kan[] ships = new Kan[500];
+        public int shipgroup, shipteam, classtag;
         public bool iffinalon;
         public string classname;
 
@@ -37,10 +37,13 @@ namespace KanDic.Viewer
 
         public KanColle()
         {
-            Load_Kan();
             shipteam = 1;
             shipgroup = 1;
             InitializeComponent();
+            for (int i = 1; i < 500; i++)
+            {
+                if (ships[i] != null && ships[i].Name != null) customers.Add(new NewKan(ships[i], false));
+            }
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -50,6 +53,7 @@ namespace KanDic.Viewer
             MainList.DataContext = shipview;
         }
 
+        //筛选器
         void shipview_Filter(object sender, FilterEventArgs e)
         {
             if (iffinalon)
@@ -69,7 +73,7 @@ namespace KanDic.Viewer
             }
         }
 
-
+        //图鉴点击事件
         private void Show_Detail(object sender, RoutedEventArgs e)
         {
             Image xx = (Image)sender;
@@ -104,56 +108,6 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        #region 读取xml并生成Kan类
-        private void Load_Kan()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Ships.xml");
-            XmlDocument ShipList = new XmlDocument();
-            ShipList.Load(sStream);
-            XmlElement ShipInfo = ShipList.DocumentElement;
-            foreach (XmlNode temp in ShipInfo.ChildNodes)
-            {
-                Set_Kan(temp);
-            }
-        }
-
-        private void Set_Kan(XmlNode x)
-        {
-            string name1;
-            int num = Convert.ToInt32(x.FirstChild.InnerText);
-            ships[num] = new Kan();
-
-            foreach (XmlNode yy in x.ChildNodes)
-            {
-                name1 = yy.Name;
-                var prop = typeof(Kan).GetProperty(name1);
-                if (prop.PropertyType.Equals(typeof(int)))
-                {
-                    if (!string.IsNullOrEmpty(yy.InnerText))
-                    {
-                        prop.SetValue(ships[num], Convert.ToInt32(yy.InnerText), null);
-                    }
-                }
-                else
-                {
-                    prop.SetValue(ships[num], yy.InnerText, null);
-                }
-            }
-            ships[num].ImageNormal = "/Cache/ships/" + ships[num].FileName + ".swf/Image 5.jpg";
-            ships[num].ImageSmall = "/Cache/ships/" + ships[num].FileName + ".swf/Image 1.jpg";
-            ships[num].IsFinal = ships[num].LinkNumber == 0;
-            if (ships[num].Name == null)
-            {
-                ships[num] = null;
-            }
-            else
-            {
-                customers.Add(new NewKan(ships[num], false));
-            }
-        }
-        #endregion
-
         private void ShipTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
@@ -167,7 +121,7 @@ namespace KanDic.Viewer
             shipteam = Convert.ToInt32(xx.Tag);
             AlbumPanel.DataContext = new TabNum(shipgroup, shipteam, ships);
         }
-
+        //“图鉴模式”点击事件
         private void Alubm_Click(object sender, RoutedEventArgs e)
         {
             AlbumPanel.Visibility = Visibility.Visible;
@@ -176,7 +130,7 @@ namespace KanDic.Viewer
             ModeAddition.Visibility = Visibility.Collapsed;
             TypeAddition.Visibility = Visibility.Collapsed;
         }
-
+        //“快速搜索”点击事件
         private void List_Click(object sender, RoutedEventArgs e)
         {
             AlbumPanel.Visibility = Visibility.Hidden;
@@ -186,7 +140,7 @@ namespace KanDic.Viewer
             TypeAddition.Visibility = Visibility.Collapsed;
             Final1.IsChecked = iffinalon;
         }
-
+        //“类型一览”点击事件
         private void Class_Click(object sender, RoutedEventArgs e)
         {
             AlbumPanel.Visibility = Visibility.Hidden;
@@ -196,12 +150,12 @@ namespace KanDic.Viewer
             TypeAddition.Visibility = Visibility.Visible;
             Final2.IsChecked = iffinalon;
         }
-
+        //关键字变更
         private void Keyword_TextChanged(object sender, TextChangedEventArgs e)
         {
             shipview.View.Refresh();
         }
-
+        //“显示最大值”点击事件
         private void MaxData_Click(object sender, RoutedEventArgs e)
         {
             bool ifmax = (bool)((CheckBox)sender).IsChecked;
@@ -212,27 +166,27 @@ namespace KanDic.Viewer
             }
             shipview.View.Refresh();
         }
-
+        //“显示最终版”点击事件
         private void Final_Click(object sender, RoutedEventArgs e)
         {
             iffinalon = (bool)((CheckBox)sender).IsChecked;
             shipview.View.Refresh();
             Class_Refresh();
         }
-
+        //列表行点击事件
         private void MainList_MLBD(object sender, RoutedEventArgs e)
         {
             DataGrid dg = (DataGrid)sender;
             int num = ((NewKan)dg.SelectedValue).Number;
             Open_Window(num);
         }
-
+        //舰种标签点击事件
         private void ClassChange_Click(object sender, RoutedEventArgs e)
         {
             classtag = Convert.ToInt32(((RadioButton)sender).Tag);
             Class_Refresh();
         }
-
+        //刷新小图标
         private void Class_Refresh()
         {
             MainClass.Children.Clear();
@@ -252,7 +206,7 @@ namespace KanDic.Viewer
                 }
             }
         }
-
+        //类型判断
         private bool IfIsClass(int i,Kan ship)
         {
             bool flag = false;
@@ -288,7 +242,7 @@ namespace KanDic.Viewer
             }
             return iffinalon ? flag && ship.IsFinal : flag;
         }
-
+        //小图标点击事件
         private void im_MLBD(object sender, MouseButtonEventArgs e)
         {
             int num = Convert.ToInt32(((Image)sender).Tag);

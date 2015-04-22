@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using KanDic;
+using KanData;
 using KanDic.Resources;
 using System.Xml;
 using System.Reflection;
@@ -29,25 +29,28 @@ namespace KanDic.Viewer
 
         public int equipgroup, equipteam, equiptype;
 
-        public static Soubi[] equips;
+        public static Soubi[] equips = new Soubi[151];
 
         CollectionViewSource equipview = new CollectionViewSource();
         ObservableCollection<Soubi> customers = new ObservableCollection<Soubi>();
 
         public Equipment()
         {
-            equips = new Soubi[151];
-            Load_Soubi();
             equipteam = 1;
             equipgroup = 1;
             equiptype = 1;
+            for (int i = 1; i <= 150; i++)
+            {
+                if (equips[i] != null) customers.Add(equips[i]);
+            }
             InitializeComponent();
             equipview.Filter += equipview_Filter;
             equipview.Source = customers;
             MainList.DataContext = equipview;
         }
 
-        void equipview_Filter(object sender, FilterEventArgs e)
+        //筛选器
+        private void equipview_Filter(object sender, FilterEventArgs e)
         {
             if (equiptype == 1)
             {
@@ -91,6 +94,7 @@ namespace KanDic.Viewer
             }
         }
 
+        //图片按下事件
         private void Show_Detail(object sender, RoutedEventArgs e)
         {
             Image xx = (Image)sender;
@@ -125,43 +129,6 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        #region 读取xml并生成Soubi类
-        private void Load_Soubi()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Soubi.xml");
-            XmlDocument ShipList = new XmlDocument();
-            ShipList.Load(sStream);
-            XmlElement ShipInfo = ShipList.DocumentElement;
-            foreach (XmlNode temp in ShipInfo.ChildNodes)
-            {
-                Set_Soubi(temp);
-            }
-        }
-
-        private void Set_Soubi(XmlNode x)
-        {
-            string name1;
-            int num = Convert.ToInt32(x.FirstChild.InnerText);
-            equips[num] = new Soubi();
-            foreach (XmlNode yy in x.ChildNodes)
-            {
-                name1 = yy.Name;
-                var prop = typeof(Soubi).GetProperty(name1);
-                if (prop.PropertyType.Equals(typeof(int)))
-                {
-                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], Convert.ToInt32(yy.InnerText), null);
-                }else
-                {
-                    typeof(Soubi).GetProperty(name1).SetValue(equips[num], yy.InnerText, null);
-                }
-            }
-            equips[num].Image = "/Cache/equipment/" + string.Format("{0:D3}", equips[num].Number) + ".png";
-            equips[num].Icon = "/Cache/icon/soubi/" + equips[num].Icon + ".PNG";
-            customers.Add(equips[num]);
-        }
-        #endregion
-
         private void SoubiTag_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
@@ -176,18 +143,20 @@ namespace KanDic.Viewer
             AlbumPanel.DataContext = new TabNums(equipgroup, equipteam, equips);
         }
 
+        //“图鉴模式”点击事件
         private void Album_Click(object sender, RoutedEventArgs e)
         {
             AlbumPanel.Visibility = Visibility.Visible;
             ListPanel.Visibility = Visibility.Hidden;
         }
-
+        //“分类一览”点击事件
         private void List_Click(object sender, RoutedEventArgs e)
         {
             AlbumPanel.Visibility = Visibility.Hidden;
             ListPanel.Visibility = Visibility.Visible;
         }
 
+        //装备类型点击事件
         private void Type_Click(object sender, RoutedEventArgs e)
         {
             RadioButton xx = sender as RadioButton;
@@ -195,6 +164,7 @@ namespace KanDic.Viewer
             equipview.View.Refresh();
         }
 
+        //表格行点击事件
         private void MainList_MLBD(object sender, MouseButtonEventArgs e)
         {
             DataGrid dg = (DataGrid)sender;

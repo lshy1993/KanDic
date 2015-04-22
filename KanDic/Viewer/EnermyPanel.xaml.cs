@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KanData;
 using KanDic.Resources;
 
 namespace KanDic.Viewer
@@ -21,7 +22,7 @@ namespace KanDic.Viewer
     /// </summary>
     public partial class EnermyPanel : UserControl
     {
-        public EnermyPanel(Enermy x)
+        public EnermyPanel(Enemy x)
         {
             InitializeComponent();
             EnermyData.DataContext = x;

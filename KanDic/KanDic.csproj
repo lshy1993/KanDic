@@ -44,15 +44,12 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\..\..\..\Desktop\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="MahApps.Metro, Version=1.1.2.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MahApps.Metro.1.1.2.0\lib\net45\MahApps.Metro.dll</HintPath>
@@ -76,10 +73,10 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="WPFVisifire.Charts">
-      <HintPath>..\..\..\..\..\Desktop\WPFVisifire.Charts.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\dll\WPFVisifire.Charts.dll</HintPath>
     </Reference>
     <Reference Include="WPFVisifire.Gauges">
-      <HintPath>..\..\..\..\..\Desktop\WPFVisifire.Gauges.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\dll\WPFVisifire.Gauges.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -91,8 +88,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Plugins\AutoUpdate.xaml.cs">
-      <DependentUpon>AutoUpdate.xaml</DependentUpon>
+    <Compile Include="Plugins\Confirm.xaml.cs">
+      <DependentUpon>Confirm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Plugins\Loading.xaml.cs">
       <DependentUpon>Loading.xaml</DependentUpon>
@@ -130,18 +127,13 @@
     <Compile Include="Plugins\Simulator\Yasen.xaml.cs">
       <DependentUpon>Yasen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Class\Kan\NewKan.cs" />
+    <Compile Include="Resources\Class\NewKan.cs" />
     <Compile Include="Resources\Class\Update.cs" />
-    <Compile Include="Resources\Class\Enemy\Enermy.cs" />
-    <Compile Include="Resources\Class\Expedition\ExpInfo.cs" />
-    <Compile Include="Resources\Class\Kan\Kan.cs" />
     <Compile Include="Resources\Class\Keisanki.cs" />
-    <Compile Include="Resources\Class\Map\MapInfo.cs" />
     <Compile Include="Resources\Class\MoniKan.cs" />
     <Compile Include="Resources\Class\Quest\QuestInfo.cs" />
     <Compile Include="Resources\Class\ShowData.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
-    <Compile Include="Resources\Class\Soubi\Soubi.cs" />
     <Compile Include="Resources\Class\TabNum.cs" />
     <Compile Include="Resources\Class\Music\MP3.cs" />
     <Compile Include="Resources\Class\TabNums.cs" />
@@ -152,8 +144,8 @@
     <Compile Include="Viewer\Equipment.xaml.cs">
       <DependentUpon>Equipment.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Expedition.xaml.cs">
-      <DependentUpon>Expedition.xaml</DependentUpon>
+    <Compile Include="Viewer\ExpPanel.xaml.cs">
+      <DependentUpon>ExpPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\Formation.xaml.cs">
       <DependentUpon>Formation.xaml</DependentUpon>
@@ -161,8 +153,8 @@
     <Compile Include="Viewer\KanColle.xaml.cs">
       <DependentUpon>KanColle.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Map.xaml.cs">
-      <DependentUpon>Map.xaml</DependentUpon>
+    <Compile Include="Viewer\MapPanel.xaml.cs">
+      <DependentUpon>MapPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Plugins\Simulator\ShipDock.xaml.cs">
       <DependentUpon>ShipDock.xaml</DependentUpon>
@@ -194,7 +186,7 @@
     <Compile Include="Window\StartWindow.xaml.cs">
       <DependentUpon>StartWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="Plugins\AutoUpdate.xaml">
+    <Page Include="Plugins\Confirm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -306,7 +298,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Expedition.xaml">
+    <Page Include="Viewer\ExpPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -318,7 +310,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Map.xaml">
+    <Page Include="Viewer\MapPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -454,7 +446,9 @@
     <Resource Include="Resources\Entypo.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\WindowsIcons-license.txt" />
@@ -479,6 +473,7 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Cache\loading-d.png" />
     <Resource Include="Cache\icon\info\supply.PNG" />
     <Resource Include="Cache\ship.png" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 1.jpg" />
@@ -2011,8 +2006,6 @@
     <Resource Include="Cache\noicon.png" />
     <Resource Include="Cache\icon\battle\shipicon.PNG" />
     <Resource Include="Cache\loading.jpg" />
-    <Resource Include="Cache\loading-d.png" />
-    <Resource Include="Cache\font.png" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -2112,7 +2105,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\KanData\KanData.csproj">
+      <Project>{fb97e43a-4c71-4c14-9a6e-c80237162b32}</Project>
+      <Name>KanData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
