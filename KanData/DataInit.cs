@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.IO;
 
 namespace KanData
 {
@@ -23,7 +24,8 @@ namespace KanData
             Load_Enemy();
             Load_Kan();
             Load_Exp();
-            Load_Map();
+            loadmap();
+            //Load_Map();
         }
 
         #region 读取xml并生成Soubi类
@@ -165,11 +167,28 @@ namespace KanData
             foreach (XmlNode yy in x.ChildNodes)
             {
                 string name1 = yy.Name;
-                typeof(Map).GetProperty(name1).SetValue(map, yy.InnerText, null);
+                var prop = typeof(Map).GetProperty(name1);
+                if (prop.PropertyType.Equals(typeof(int)))
+                {
+                    prop.SetValue(map, Convert.ToInt32(yy.InnerText), null);
+                }
+                else
+                {
+                    prop.SetValue(map, yy.InnerText, null);
+                }
             }
             maplist.Add(map);
         }
         #endregion
+
+        private void loadmap()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            maplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Map>>(html);
+        }
 
         #region 读取xml并生成Enemy类
         private void Load_Enemy()

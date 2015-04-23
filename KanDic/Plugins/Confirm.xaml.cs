@@ -42,6 +42,7 @@ namespace KanDic
         {
             this.DialogResult = true;
             System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
+            Info.Arguments = "x";
             Info.FileName = "KanUpdate.exe";
             Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
             System.Diagnostics.Process.Start(Info);

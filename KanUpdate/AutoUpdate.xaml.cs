@@ -21,6 +21,7 @@ using System.ComponentModel;
 using System.Data;
 using MahApps.Metro.Controls;
 using ICSharpCode.SharpZipLib;
+using Newtonsoft;
 
 namespace KanUpdate
 {
@@ -32,13 +33,29 @@ namespace KanUpdate
         private string curpath;
         private WebClient downWebClient = new WebClient();
 
-        public AutoUpdate()
+        public AutoUpdate(string[] args)
         {
             InitializeComponent();
             curpath = AppDomain.CurrentDomain.BaseDirectory;
             AppVer.Text = "当前程序版本：" + System.Configuration.ConfigurationManager.AppSettings["appver"];
-            string homeurl = "http://1.pngbase.sinaapp.com/changelog.html";
-            ChangeLog.Navigate(new Uri(homeurl));
+            GetChangelog();
+            if (args.Count() > 0) StartUpdate();
+        }
+
+        private void GetChangelog()
+        {
+            HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/changelog.json");
+            htr.Method = "GET";
+            HttpWebResponse hwr = (HttpWebResponse)htr.GetResponse();
+            Stream responseStream = hwr.GetResponseStream();
+            StreamReader streamReader = new StreamReader(responseStream, Encoding.UTF8);
+            var html = streamReader.ReadToEnd();
+            streamReader.Close();
+            responseStream.Close();
+            htr.Abort();
+            hwr.Close();
+            var temp = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Changelog>>(html);
+            Change.DataContext = temp;
         }
 
         private void StartUpdate()
@@ -124,7 +141,7 @@ namespace KanUpdate
         void downWebClient_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs ex)
         {
             Status.Text = "正在下载……";
-            xx.Maximum = ex.TotalBytesToReceive;
+            //xx.Maximum = ex.TotalBytesToReceive;
             xx.Value = ex.ProgressPercentage; 
         }
 

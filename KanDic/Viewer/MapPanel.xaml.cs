@@ -25,7 +25,7 @@ namespace KanDic.Viewer
     /// </summary>
     public partial class MapPanel : UserControl
     {
-        public static Map[] maps = new Map[25];
+        public static Map[] maps = new Map[50];
         public int num, tagnum, radionum, buttonnum;
         public System.Windows.Window mainwindow;
 
@@ -100,7 +100,8 @@ namespace KanDic.Viewer
         {
             Button xx = sender as Button;
             buttonnum = Convert.ToInt32(xx.Tag);
-            MapBackground.DataContext = new MapImage("/Cache/map/"+radionum+"-"+buttonnum+".png");
+            string path = "/Cache/map/" + radionum + "-" + buttonnum + ".png";
+            MapBackground.Source = new BitmapImage(new Uri(path, UriKind.Relative));
             RadioButton_Init(radionum+"-"+buttonnum);
             Map_Show();
         }
@@ -111,9 +112,8 @@ namespace KanDic.Viewer
         {
             MapButton.Children.Clear();
             ResetPos();
-            for (int i = 1; i < 25; i++)
+            for (int i = 1; i < 50; i++)
             {
-                Console.WriteLine(i);
                 if (maps[i] != null && maps[i].Key == x)
                 {
                     RadioButton xx = new RadioButton();
@@ -149,10 +149,11 @@ namespace KanDic.Viewer
             bool isbattle = true;
 
             PointDetail.DataContext = maps[tagnum];
-            Add_Enermy();
+
+            if (maps[tagnum].Pattern != null) Add_Enermy();
             Add_Drop();
 
-            if (maps[tagnum].Name == null) { isbattle = false; }
+            if (maps[tagnum].NoBattle != null) { isbattle = false; }
             ResetPos();
 
             DoubleAnimation da = new DoubleAnimation();
@@ -173,7 +174,7 @@ namespace KanDic.Viewer
             }
             else
             {
-                NoBattle.BeginAnimation(Canvas.LeftProperty, da);
+                Nobattle.BeginAnimation(Canvas.LeftProperty, da);
             }
         }
         #endregion
@@ -182,11 +183,10 @@ namespace KanDic.Viewer
         private void Add_Enermy()
         {
             EnermyButton.Children.Clear();
-            Button_Init(maps[tagnum].Pattern1);
-            Button_Init(maps[tagnum].Pattern2);
-            Button_Init(maps[tagnum].Pattern3);
-            Button_Init(maps[tagnum].Pattern4);
-            Button_Init(maps[tagnum].Pattern5);
+            for (int i = 0; i < maps[tagnum].Pattern.Count; i++)
+            {
+                Button_Init(maps[tagnum].Pattern[i]);
+            }
         }
 
         private void Button_Init(string x)
@@ -203,12 +203,13 @@ namespace KanDic.Viewer
         private void Add_Drop()
         {
             DropDetail.Children.Clear();
-            TextBlock_Init(maps[tagnum].Dropqu);
-            TextBlock_Init(maps[tagnum].Dropqing);
-            TextBlock_Init(maps[tagnum].Dropzhong);
-            TextBlock_Init(maps[tagnum].Dropzhan);
-            TextBlock_Init(maps[tagnum].Dropqian);
-            TextBlock_Init(maps[tagnum].Dropkong);
+            TextBlock_Init(maps[tagnum].DropDD);
+            TextBlock_Init(maps[tagnum].DropCL);
+            TextBlock_Init(maps[tagnum].DropCA);
+            TextBlock_Init(maps[tagnum].DropAV);
+            TextBlock_Init(maps[tagnum].DropCV);
+            TextBlock_Init(maps[tagnum].DropSS);
+            TextBlock_Init(maps[tagnum].DropBB);
         }
 
         private void TextBlock_Init(string x)
@@ -226,9 +227,9 @@ namespace KanDic.Viewer
         private void ResetPos()
         {
             Battle.BeginAnimation(Canvas.LeftProperty, null);
-            NoBattle.BeginAnimation(Canvas.LeftProperty, null);
+            Nobattle.BeginAnimation(Canvas.LeftProperty, null);
             Battle.SetValue(Canvas.LeftProperty, (double)-305);
-            NoBattle.SetValue(Canvas.LeftProperty, (double)-305);
+            Nobattle.SetValue(Canvas.LeftProperty, (double)-305);
         }
         #endregion
 

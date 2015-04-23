@@ -59,6 +59,35 @@
         </Setter>
     </Style>
 
+    <Style x:Key="purple" TargetType="{x:Type RadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Grid Height="30" Width="60">
+                        <Rectangle Fill="Transparent"/>
+                        <ContentPresenter />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/purple.PNG" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content">
+                                <Setter.Value>
+                                    <Image Source="/KanDic;component/Cache/icon/battle/shipicon.PNG" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="None"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
     <Style x:Key="red" TargetType="{x:Type RadioButton}">
         <Setter Property="Template">
             <Setter.Value>

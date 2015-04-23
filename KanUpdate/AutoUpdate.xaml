@@ -8,15 +8,29 @@
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen">
     <DockPanel>
+        <DockPanel.Resources>
+            <DataTemplate x:Key="datatmeplate">
+                <Border Margin="5">
+                    <StackPanel>
+                        <TextBlock Text="{Binding Version}" FontSize="16"/>
+                        <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
+                        <TextBlock Text="{Binding Update}"/>
+                    </StackPanel>
+                </Border>
+            </DataTemplate>
+        </DockPanel.Resources>
         <StackPanel DockPanel.Dock="Bottom">
-            <TextBlock Name="Status" HorizontalAlignment="Center"/>
-            <ProgressBar Name="xx" Height="20"/>
+            <TextBlock Name="Status" HorizontalAlignment="Center" FontSize="16"/>
+            <ProgressBar Name="xx" Height="25" Maximum="100"/>
+            <DockPanel DockPanel.Dock="Bottom">
+                <TextBlock Name="AppVer" DockPanel.Dock="Left" FontSize="16" Margin="5,0,0,0"/>
+                <TextBlock Name="DataVer" DockPanel.Dock="Right" FontSize="16" Margin="0,0,5,0"/>
+                <Rectangle/>
+            </DockPanel>
         </StackPanel>
-        <DockPanel DockPanel.Dock="Top">
-            <TextBlock Name="AppVer" DockPanel.Dock="Left" FontSize="16" Margin="10,0,0,0"/>
-            <TextBlock Name="DataVer" DockPanel.Dock="Right" FontSize="16" Margin="0,0,10,0"/>
-            <Rectangle/>
-        </DockPanel>
-        <WebBrowser Name="ChangeLog"/>
+        <Rectangle Height="1" Fill="Black" DockPanel.Dock="Bottom"/>
+        <ScrollViewer Name="Change">
+            <ItemsControl ItemTemplate="{DynamicResource datatmeplate}" ItemsSource="{Binding}"/>
+        </ScrollViewer>
     </DockPanel>
 </Controls:MetroWindow>
