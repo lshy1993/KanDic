@@ -203,6 +203,10 @@ namespace KanDic
             {
                 KanDic.Window.EnermySet.enemys[i + 1] = di.enemylist[i];
             }
+            for (int i = 0; i < di.questlist.Count; i++)
+            {
+                KanDic.Viewer.QuestPanel.list.Add(di.questlist[i]);
+            }
             myTimer.Interval = new TimeSpan(0, 0, 0 ,1);
             myTimer.Tick += myTimer_Tick;
             myTimer.Start();

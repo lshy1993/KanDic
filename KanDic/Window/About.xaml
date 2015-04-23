@@ -20,7 +20,7 @@
                 <Setter Property="Foreground" Value="{DynamicResource AccentColorBrush}"/>
             </Style>
         </StackPanel.Resources>
-        <TextBlock Text="舰娘百科" FontSize="30"/>
+        <TextBlock Text="提督方略" FontSize="30"/>
         <TextBlock Text="可视化的「艦これ」动态 wiki" FontSize="20" Margin="0,2"/>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="程序版本 Kancolle-Dictionary" FontSize="16" Margin="0,2"/>

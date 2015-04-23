@@ -10,7 +10,7 @@
     
     mc:Ignorable="d"
     x:Class="KanDic.StartWindow"
-    Title="舰娘百科"
+    Title="提督方略"
     Height="600"
     Width="800"
     MinHeight="600"
@@ -70,12 +70,12 @@
                 </StackPanel>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Controls:Tile Count="攻略速报" Title="6" TiltFactor="6" Width="208" Height="208" Click="Tile_Click"/>
+                <Controls:Tile Count="攻略速报" Title="6" TiltFactor="6" Width="208" Height="208" Click="Web_Click"/>
                 <StackPanel>
-                    <Controls:Tile Count="改修" Title="7" TiltFactor="7" Width="208" Height="100" Click="Tile_Click"/>
-                    <Controls:Tile Count="地图" Title="8" TiltFactor="8" Width="208" Height="100" Click="Tile_Click"/>
+                    <Controls:Tile Count="改修" Title="7" TiltFactor="6" Width="208" Height="100" Click="Tile_Click"/>
+                    <Controls:Tile Count="地图" Title="8" TiltFactor="7" Width="208" Height="100" Click="Tile_Click"/>
                 </StackPanel>
-                <Controls:Tile Count="舰队模拟器" Title="9" TiltFactor="9" Width="208" Height="208" Click="Tile_Click"/>
+                <Controls:Tile Count="舰队模拟器" Title="9" TiltFactor="8" Width="208" Height="208" Click="Tile_Click"/>
             </StackPanel>
         </StackPanel>
         <Canvas Name="MainPanel">
@@ -93,7 +93,7 @@
                     <viewer:ExpPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="380" MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="任务" Width="100">
-                    <viewer:Quest MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                    <viewer:QuestPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="阵型" Width="100">
                     <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
@@ -105,7 +105,7 @@
                     <viewer:MapPanel VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </TabItem>
             </TabControl>
-            <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5">
+            <Button Width="45" Height="45" Style="{DynamicResource MetroCircleButtonStyle}" Click="MainPanel_Back" Canvas.Right="5" ToolTip="返回主界面">
                 <Button.Background>
                     <VisualBrush Visual="{StaticResource appbar_arrow_left}" Stretch="None">
                         <VisualBrush.RelativeTransform>

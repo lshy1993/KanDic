@@ -14,7 +14,7 @@ namespace KanData
         public List<Kan> kanlist = new List<Kan>();
         public List<Enemy> enemylist = new List<Enemy>();
         public List<Map> maplist = new List<Map>();
-        public List<QuestInfo> questlist = new List<QuestInfo>();
+        public List<Quest> questlist = new List<Quest>();
         public List<Expedition> explist = new List<Expedition>();
         public UpdateInfo updateinfo = new UpdateInfo();
 
@@ -24,8 +24,8 @@ namespace KanData
             Load_Enemy();
             Load_Kan();
             Load_Exp();
-            loadmap();
-            //Load_Map();
+            Load_Map();
+            Load_Quest();
         }
 
         #region 读取xml并生成Soubi类
@@ -147,7 +147,7 @@ namespace KanData
         }
         #endregion
 
-        #region 读取xml并生成Map类
+        /*已经废除读取xml生成Map
         private void Load_Map()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -179,9 +179,10 @@ namespace KanData
             }
             maplist.Add(map);
         }
-        #endregion
+        */
 
-        private void loadmap()
+        //读取map.json
+        private void Load_Map()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
             System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
@@ -213,6 +214,32 @@ namespace KanData
                 typeof(Enemy).GetProperty(name1).SetValue(shenhai, yy.InnerText, null);
             }
             enemylist.Add(shenhai);
+        }
+        #endregion
+
+        #region 读取xml并生成Quest类
+        private void Load_Quest()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.Quest.xml");
+            XmlDocument EnemyList = new XmlDocument();
+            EnemyList.Load(sStream);
+            XmlElement EnemyInfo = EnemyList.DocumentElement;
+            foreach (XmlNode temp in EnemyInfo.ChildNodes)
+            {
+                Set_Quest(temp);
+            }
+        }
+
+        private void Set_Quest(XmlNode x)
+        {
+            Quest renwu = new Quest();
+            foreach (XmlNode yy in x.ChildNodes)
+            {
+                string name1 = yy.Name;
+                typeof(Quest).GetProperty(name1).SetValue(renwu, yy.InnerText, null);
+            }
+            questlist.Add(renwu);
         }
         #endregion
     }

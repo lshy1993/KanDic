@@ -49,6 +49,11 @@ namespace KanDic
             }
         }
 
+        private void Web_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://kancolle.aemedia.org/forum-45-1.html");
+        }
+
         private void Tile_MouseEnter(object sender, MouseEventArgs e)
         {
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;

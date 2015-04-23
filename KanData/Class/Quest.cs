@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KanData
 {
-    public class QuestInfo
+    public class Quest
     {
         public string Type { set; get; }
         public string ID { set; get; }
@@ -20,9 +20,10 @@ namespace KanData
         public string Content { set; get; }
         public string IsDaily { set; get; }
         public string IsWeekly { set; get; }
+        public string Extra { set; get; }
 
         public string IsDone { set; get; }
 
-        public QuestInfo() { }
+        public Quest() { }
     }
 }

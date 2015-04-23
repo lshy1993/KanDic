@@ -46,10 +46,12 @@
                     </StackPanel>
                 </DockPanel>
             </Grid>
-            <Canvas Name="MapBox" Visibility="Hidden" Width="800" Height="480" MouseRightButtonDown="MapBox_MouseRightButtonDown">
-                <Grid>
+            <Canvas Name="MapBox" Visibility="Hidden" Width="800" Height="480">
+                <Grid Name="MapBoxGrid">
                     <Image Source="/KanDic;component/Cache/map/BackgroundDay.bmp" Stretch="None"/>
                     <Image Name="MapBackground" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" MouseLeftButtonDown="Close_PointDetail"/>
+                    <TextBlock Text="点击此处返回选择界面" FontSize="24" MouseLeftButtonDown="MapBox_MLBD" VerticalAlignment="Top" HorizontalAlignment="Center" Cursor="Hand"/>
+                    <Canvas Name="MapFont" Width="768" Height="435" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     <Canvas Name="MapButton" Width="768" Height="435" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     <Canvas Name="PointDetail">
                         <Canvas.Resources>
@@ -89,13 +91,11 @@
                                 <StackPanel Name="DropDetail" Margin="5"/>
                             </StackPanel>
                         </ScrollViewer>
-                        <ScrollViewer Name="Nobattle" Background="#f0e6dc" Width="300" Height="180">
-                            <StackPanel>
-                                <TextBlock Text="非战斗点" Margin="5,5,5,0" FontSize="24"/>
-                                <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
-                                <TextBlock Text="{Binding NoBattle}" Margin="5"/>
-                            </StackPanel>
-                        </ScrollViewer>
+                        <StackPanel Name="Nobattle" Background="#f0e6dc" Width="300" Height="80">
+                            <TextBlock Text="非战斗点" Margin="5" FontSize="24"/>
+                            <Rectangle Height="3" Margin="0,3,0,3" Fill="Gray" />
+                            <TextBlock Text="{Binding NoBattle}" Margin="5"/>
+                        </StackPanel>
                     </Canvas>
                 </Grid>
             </Canvas>

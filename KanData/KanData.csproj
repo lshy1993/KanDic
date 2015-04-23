@@ -47,7 +47,7 @@
     <Compile Include="Class\Expedition.cs" />
     <Compile Include="Class\Kan.cs" />
     <Compile Include="Class\Map.cs" />
-    <Compile Include="Class\QuestInfo.cs" />
+    <Compile Include="Class\Quest.cs" />
     <Compile Include="Class\UpdateInfo.cs" />
     <Compile Include="DataInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,9 +60,6 @@
     <EmbeddedResource Include="XmlData\Expedition.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="XmlData\Map.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="XmlData\Music.xml">

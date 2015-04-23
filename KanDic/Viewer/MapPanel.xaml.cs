@@ -25,17 +25,9 @@ namespace KanDic.Viewer
     /// </summary>
     public partial class MapPanel : UserControl
     {
-        public static Map[] maps = new Map[50];
+        public static Map[] maps = new Map[200];
         public int num, tagnum, radionum, buttonnum;
         public System.Windows.Window mainwindow;
-
-        //xaml显示图片用临时class
-        public class MapImage
-        {
-            public string MAP { set; get; }
-            public MapImage() { }
-            public MapImage(string x) { MAP = x; }
-        }
 
         public MapPanel()
         {
@@ -111,18 +103,26 @@ namespace KanDic.Viewer
         private void RadioButton_Init(string x)
         {
             MapButton.Children.Clear();
+            MapFont.Children.Clear();
             ResetPos();
-            for (int i = 1; i < 50; i++)
+            for (int i = 1; i < 200; i++)
             {
                 if (maps[i] != null && maps[i].Key == x)
                 {
+                    TextBlock tb = new TextBlock();
+                    tb.Text = maps[i].Code;
+                    tb.FontSize = 32;
+                    Canvas.SetLeft(tb, Convert.ToDouble(maps[i].xPos + 45));
+                    Canvas.SetTop(tb, Convert.ToDouble(maps[i].yPos - 30));
+                    MapFont.Children.Add(tb);
+
                     RadioButton xx = new RadioButton();
                     xx.Style = (Style)FindResource(maps[i].Type);
                     xx.Tag = i;
-                    MapButton.Children.Add(xx);
                     Canvas.SetLeft(xx, Convert.ToDouble(maps[i].xPos));
                     Canvas.SetTop(xx, Convert.ToDouble(maps[i].yPos));
                     xx.Checked += new RoutedEventHandler(Point_Detail);
+                    MapButton.Children.Add(xx);
                 }
             }
         }
@@ -136,7 +136,7 @@ namespace KanDic.Viewer
             da.From = 480;
             da.To = 0;
             da.Duration = TimeSpan.FromSeconds(0.2);
-            MapBackground.BeginAnimation(Canvas.TopProperty, da);
+            MapBoxGrid.BeginAnimation(Canvas.TopProperty, da);
         }
         #endregion
 
@@ -160,7 +160,7 @@ namespace KanDic.Viewer
             if (Canvas.GetLeft(xx) < 380)
             {
                 da.From = 800;
-                da.To = 500;
+                da.To = 494;
             }
             else
             {
@@ -214,7 +214,7 @@ namespace KanDic.Viewer
 
         private void TextBlock_Init(string x)
         {
-            if (x == null) return;
+            if (x == "") return;
             TextBlock temptext = new TextBlock();
             temptext.TextWrapping = TextWrapping.Wrap;
             temptext.Text = x;
@@ -253,7 +253,7 @@ namespace KanDic.Viewer
         }
         #endregion
 
-        private void MapBox_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        private void MapBox_MLBD(object sender, MouseButtonEventArgs e)
         {
             MapBox.Visibility = Visibility.Hidden;
         }

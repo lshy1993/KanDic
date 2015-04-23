@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="KanDic.Viewer.Quest"
+﻿<UserControl x:Class="KanDic.Viewer.QuestPanel"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -45,9 +45,6 @@
             </Grid>
         </Expander>
         <Border BorderThickness="1" Margin="5" BorderBrush="Gray">
-            <Border.Resources>
-                <XmlDataProvider x:Key="listsource" Source="/Resources/Data/Quest.xml"/>
-            </Border.Resources>
             <DataGrid Name="ShowList" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both">
                 <DataGrid.Resources>
                     <Style TargetType="TextBlock">

@@ -141,7 +141,6 @@
     <Compile Include="Resources\Class\TabNum.cs" />
     <Compile Include="Resources\Class\Music\MP3.cs" />
     <Compile Include="Resources\Class\TabNums.cs" />
-    <Compile Include="Settings.cs" />
     <Compile Include="Viewer\EnermyPanel.xaml.cs">
       <DependentUpon>EnermyPanel.xaml</DependentUpon>
     </Compile>
@@ -163,8 +162,8 @@
     <Compile Include="Plugins\Simulator\ShipDock.xaml.cs">
       <DependentUpon>ShipDock.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Quest.xaml.cs">
-      <DependentUpon>Quest.xaml</DependentUpon>
+    <Compile Include="Viewer\QuestPanel.xaml.cs">
+      <DependentUpon>QuestPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\Revamp.xaml.cs">
       <DependentUpon>Revamp.xaml</DependentUpon>
@@ -322,7 +321,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Viewer\Quest.xaml">
+    <Page Include="Viewer\QuestPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
