@@ -36,7 +36,7 @@ namespace KanDic
         {
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
             int tabnum = temp1.TiltFactor - 1;
-            if (tabnum < 8)
+            if (tabnum < 7)
             {
                 this.TabCtrl.SelectedIndex = tabnum;
                 this.WelcomPanel.Visibility = Visibility.Collapsed;

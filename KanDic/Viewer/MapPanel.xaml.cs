@@ -112,6 +112,7 @@ namespace KanDic.Viewer
                     TextBlock tb = new TextBlock();
                     tb.Text = maps[i].Code;
                     tb.FontSize = 32;
+                    tb.Foreground = new SolidColorBrush(Colors.Black);
                     Canvas.SetLeft(tb, Convert.ToDouble(maps[i].xPos + 45));
                     Canvas.SetTop(tb, Convert.ToDouble(maps[i].yPos - 30));
                     MapFont.Children.Add(tb);
