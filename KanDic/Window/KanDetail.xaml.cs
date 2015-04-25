@@ -45,15 +45,14 @@ namespace KanDic.Window
             if (kanmusu.OnlyHuge == "True")
             {
                 IfHuge.Text = "大";
-                Color color = (Color)ColorConverter.ConvertFromString("Red");
-                SolidColorBrush brush = new SolidColorBrush(color);
-                IfHugeBack.Background = brush;
+                IfHugeBack.Background = new SolidColorBrush(Colors.Red);
+                IfHugeBack.ToolTip = "大型建造限定";
             }
             //建造时间
             TextBlock temptb = new TextBlock();
             temptb.VerticalAlignment = VerticalAlignment.Center;
             temptb.HorizontalAlignment = HorizontalAlignment.Center;
-            temptb.Text = String.Format("{0:00}:{1:00}:{2:00}", kanmusu.Hour, kanmusu.Minute, 0);
+            temptb.Text = String.Format("{0:T}", new TimeSpan(kanmusu.Hour, kanmusu.Minute, 0));
             TimePanel.Children.Add(temptb);
             //补给量
             Draw_Supply(Supply1, false);

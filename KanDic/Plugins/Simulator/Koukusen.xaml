@@ -8,10 +8,10 @@
     <Grid Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="162"/>
-            <ColumnDefinition Width="140"/>
-            <ColumnDefinition Width="140"/>
-            <ColumnDefinition Width="140"/>
-            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="160"/>
             <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="60"/>
         </Grid.ColumnDefinitions>

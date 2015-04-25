@@ -64,7 +64,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Grid.Column="1">
                     <TextBlock Text="司令部等级：" VerticalAlignment="Center"/>
-                    <Controls:NumericUpDown Name="LevelPanel" Minimum="1" Maximum="150" Interval="1" Value="{Binding LV}" ValueChanged="LevelPanel_ValueChanged"/>
+                    <Controls:NumericUpDown Name="LevelPanel" Minimum="1" Maximum="150" Interval="1" Value="{Binding LV,Mode=TwoWay}" ValueChanged="LevelPanel_ValueChanged"/>
                 </StackPanel>
             </Grid>
             <plugin:ShipDock x:Name="Dock1" Tag="1" Grid.Row="1" Grid.Column="0"/>

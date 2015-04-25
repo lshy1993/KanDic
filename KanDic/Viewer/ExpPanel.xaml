@@ -229,20 +229,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image HorizontalAlignment="Left" Margin="5" Source="/KanDic;component/Cache/icon/expand/time.PNG" Stretch="None"/>
-                <Grid HorizontalAlignment="Right" Grid.Column="1" Margin="0,0,10,0">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="0" Text="{Binding Hour}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBlock Grid.Column="1" Text=":" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBlock Grid.Column="2" Text="{Binding Minute}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBlock Grid.Column="3" Text=":" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBlock Grid.Column="4" Text="00" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Grid>
+                <TextBlock Name="ExpTime" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,10,0"/>
             </Grid>
             <Grid DockPanel.Dock="Top">
                 <Grid.ColumnDefinitions>
@@ -268,9 +255,9 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Margin="5,5,15,5" Source="/KanDic;component/Cache/icon/expand/item.PNG" Stretch="None"/>
-                <Image Source="{Binding ItemName1}" Height="20" Stretch="UniformToFill" Grid.Column="1"/>
+                <Image Name="Image1" Height="20" Stretch="UniformToFill" Grid.Column="1"/>
                 <TextBlock Text="{Binding Item1}" VerticalAlignment="Center" Margin="5,0,5,0" Grid.Column="2"/>
-                <Image Source="{Binding ItemName2}" Height="20" Stretch="UniformToFill" Grid.Column="3"/>
+                <Image Name="Image2" Height="20" Stretch="UniformToFill" Grid.Column="3"/>
                 <TextBlock Text="{Binding Item2}" VerticalAlignment="Center" Margin="5,0,5,0" Grid.Column="4"/>
             </Grid>
             <Rectangle DockPanel.Dock="Top" Height="1" Margin="0,5,0,5" Fill="Gray"/>

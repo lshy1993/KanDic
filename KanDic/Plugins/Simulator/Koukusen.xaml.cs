@@ -38,6 +38,11 @@ namespace KanDic.Plugins.Simulator
                 if (example[i] == null || airforce.Find(x => x == example[i].Type) == null) { }
                 else
                 {
+                    Image im = new Image();
+                    im.Source = new BitmapImage(new Uri(example[i].ImageSmall,UriKind.Relative));
+                    im.SetValue(Grid.ColumnProperty, 0);
+                    im.SetValue(Grid.RowProperty, i);
+                    MainGrid.Children.Add(im);
                     for (int j = 1; j <= 4; j++)
                     {
                         string name;

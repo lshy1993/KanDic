@@ -8,24 +8,24 @@ namespace KanData
 {
     public class Expedition
     {
-        public string ID { set; get; }
+        public int ID { set; get; }
         public string Name { set; get; }
         public string Hard { set; get; }
         public string Content { set; get; }
-        public string Hour { set; get; }
-        public string Minute { set; get; }
+        public int Hour { set; get; }
+        public int Minute { set; get; }
         public int GetFuel { set; get; }
         public int GetAmmo { set; get; }
         public int GetSteel { set; get; }
         public int GetAluminum { set; get; }
         public string CostFuel { set; get; }
         public string CostAmmo { set; get; }
-        public string Item1 { set; get; }
+        public int Item1 { set; get; }
         public string ItemName1 { set; get; }
-        public string Item2 { set; get; }
+        public int Item2 { set; get; }
         public string ItemName2 { set; get; }
-        public string Exp { set; get; }
-        public string Lv { set; get; }
+        public int Exp { set; get; }
+        public int Lv { set; get; }
         public string Set { set; get; }
         public string Remark { set; get; }
 

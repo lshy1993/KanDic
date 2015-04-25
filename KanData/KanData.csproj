@@ -78,6 +78,8 @@
   <ItemGroup>
     <None Include="packages.config" />
     <EmbeddedResource Include="XmlData\map.json" />
+    <EmbeddedResource Include="XmlData\expedition.json" />
+    <EmbeddedResource Include="XmlData\quest.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

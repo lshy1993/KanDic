@@ -25,7 +25,7 @@ namespace KanDic.Viewer
     public partial class ExpPanel : UserControl
     {
         public static Expedition[] exps = new Expedition[41];
-        public int expgroup;
+        public int expgroup, selectnum;
         public bool kira;
 
         public ExpPanel()
@@ -33,6 +33,8 @@ namespace KanDic.Viewer
             InitializeComponent();
             expgroup = 1;
             Rows_Init(expgroup);
+            SetTime(null);
+            SetImage(null);
         }
 
         #region binding每一行
@@ -63,8 +65,10 @@ namespace KanDic.Viewer
         {
             Button bt1 = (Button)sender;
             int y = Convert.ToInt32(bt1.Name.Substring(3));
-            y = y + (expgroup - 1) * 8;
-            ExpDetail.DataContext = exps[y];
+            selectnum = y + (expgroup - 1) * 8;
+            ExpDetail.DataContext = exps[selectnum];
+            SetTime("0");
+            SetImage("0");
         }
 
         //不同地图按下事件
@@ -73,6 +77,8 @@ namespace KanDic.Viewer
             RadioButton im = (RadioButton)sender;
             expgroup = Convert.ToInt32(im.Tag); 
             Rows_Init(expgroup);
+            SetTime(null);
+            SetImage(null);
         }
 
         //大成功按下事件
@@ -90,6 +96,31 @@ namespace KanDic.Viewer
                 }
             }
             Rows_Init(expgroup);
+        }
+
+        //显示远征时间
+        private void SetTime(string x)
+        {
+            if (x != null)
+                ExpTime.Text = string.Format("{0:T}", new TimeSpan(exps[selectnum].Hour, exps[selectnum].Minute, 0));
+            else
+                ExpTime.Text = string.Format("{0:T}", new TimeSpan());
+        }
+
+        //显示得到物品图片
+        private void SetImage(string x)
+        {
+            if (x == null) return;
+            if (exps[selectnum].ItemName1 != null)
+            {
+                string temp = "/Cache/icon/expand/" + exps[selectnum].ItemName1 + ".PNG";
+                Image1.Source = new BitmapImage(new Uri(temp, UriKind.Relative));
+            }
+            if (exps[selectnum].ItemName2 != null)
+            {
+                string temp = "/Cache/icon/expand/" + exps[selectnum].ItemName2 + ".PNG";
+                Image2.Source = new BitmapImage(new Uri(temp, UriKind.Relative));
+            }
         }
     }
 }
