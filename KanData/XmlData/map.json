@@ -7,14 +7,28 @@
     "xPos": 218,
     "yPos": 157,
     "Exp": 30,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "駆逐イ級",
-      "駆逐ロ級",
-      "駆逐ハ級"
+      {
+        "ShipList": "駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ハ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞",
     "DropCL": "球磨 神通 那珂",
@@ -32,14 +46,28 @@
     "xPos": 343,
     "yPos": 75,
     "Exp": 30,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 1,
-    "AirConfirm": 1,
     "Pattern": [
-      "駆逐イ級 駆逐イ級",
-      "駆逐ロ級 駆逐イ級",
-      "駆逐ハ級 駆逐ハ級"
+      {
+        "ShipList": "駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ロ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ハ級 駆逐ハ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞",
     "DropCL": "神通 那珂",
@@ -57,14 +85,28 @@
     "xPos": 331,
     "yPos": 222,
     "Exp": 30,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 1,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級 駆逐イ級 駆逐イ級",
-      "軽巡ホ級 駆逐ロ級 駆逐ロ級",
-      "軽巡ホ級 駆逐ハ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 1,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 川内 神通 那珂",
@@ -82,14 +124,28 @@
     "xPos": 302,
     "yPos": 107,
     "Exp": 50,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級 駆逐イ級 駆逐イ級",
-      "駆逐ロ級 駆逐イ級",
-      "軽巡ヘ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ロ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 文月 菊月 三日月 望月 朧 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 黒潮",
     "DropCL": "天龍 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -107,14 +163,28 @@
     "xPos": 465,
     "yPos": 72,
     "Exp": 50,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ヘ級 雷巡チ級 駆逐ハ級 駆逐ハ級 駆逐ロ級",
-      "軽巡ヘ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 軽巡ホ級 駆逐ロ級 駆逐イ級 駆逐イ級"
+      {
+        "ShipList": "軽巡ヘ級 雷巡チ級 駆逐ハ級 駆逐ハ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 軽巡ホ級 駆逐ロ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 長月 菊月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 阿武隈 夕張",
@@ -140,14 +210,28 @@
     "xPos": 371,
     "yPos": 294,
     "Exp": 50,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級 駆逐イ級 駆逐イ級",
-      "駆逐ロ級 駆逐イ級",
-      "軽巡ヘ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ロ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 磯波 敷波 睦月 如月 文月 皐月 菊月 三日月 望月 朧 曙 漣 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 不知火 黒潮 朝潮 荒潮",
     "DropCL": "天龍 龍田 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -165,14 +249,28 @@
     "xPos": 262,
     "yPos": 73,
     "Exp": 50,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級 駆逐ハ級 駆逐ハ級",
-      "軽巡ホ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 駆逐ハ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 満潮 荒潮 霰 霞 不知火 黒潮",
     "DropCL": "多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -214,14 +312,28 @@
     "xPos": 307,
     "yPos": 306,
     "Exp": 50,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級 駆逐ハ級 駆逐ハ級",
-      "軽巡ホ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 駆逐ハ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 白雪 磯波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 満潮 荒潮 霰 不知火 黒潮",
     "DropCL": "多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -239,14 +351,28 @@
     "xPos": 432,
     "yPos": 320,
     "Exp": 50,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級 駆逐イ級 駆逐イ級 駆逐イ級",
-      "重巡リ級 重巡リ級 駆逐ロ級 駆逐ロ級",
-      "重巡リ級 雷巡チ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "重巡リ級 駆逐イ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 重巡リ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 雷巡チ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 磯波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 満潮 荒潮 霰 霞 不知火 黒潮",
     "DropCL": "多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 夕張",
@@ -264,13 +390,28 @@
     "xPos": 594,
     "yPos": 290,
     "Exp": 50,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 雷巡チ級 軽巡ヘ級 駆逐イ級 駆逐イ級",
-      "戦艦ル級 雷巡チ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "戦艦ル級 雷巡チ級 軽巡ヘ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 雷巡チ級 軽巡ヘ級 駆逐イ級 駆逐イ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 雷巡チ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 文月 菊月 三日月 望月 朧 漣 潮 響 雷 電 初春 子日 若葉 初霜 皐月白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 霰 不知火 黒潮 霞",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 夕張",
@@ -288,14 +429,28 @@
     "xPos": 205,
     "yPos": 67,
     "Exp": 100,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級 軽巡ヘ級 駆逐イ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 駆逐イ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 暁 響 雷 電 初春 子日 初霜 若葉 白露 時雨 夕立 五月雨 涼風 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 神通 那珂",
@@ -313,14 +468,28 @@
     "xPos": 245,
     "yPos": 181,
     "Exp": 100,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級 軽巡ヘ級 駆逐イ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 駆逐イ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 叢雲 磯波 綾波 敷波 睦月 皐月 文月 長月 菊月 三日月 望月 暁 響 雷 電 子日 若葉 白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 霰 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 神通 那珂",
@@ -354,14 +523,28 @@
     "xPos": 470,
     "yPos": 175,
     "Exp": 100,
-    "Formation": "輪形",
-    "AirBase": 16,
-    "AirAdvantage": 24,
-    "AirConfirm": 48,
     "Pattern": [
-      "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ロ級 駆逐ロ級",
-      "軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級",
-      "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級"
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 睦月 如月 皐月 文月 望月 暁 響 雷 電 初春 子日 若葉 初霜 白露 夕立 五月雨 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 神通 那珂",
@@ -379,14 +562,28 @@
     "xPos": 635,
     "yPos": 157,
     "Exp": 100,
-    "Formation": "輪形",
-    "AirBase": 20,
-    "AirAdvantage": 30,
-    "AirConfirm": 60,
     "Pattern": [
-      "空母ヲ級 空母ヲ級 重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
-      "空母ヲ級 空母ヲ級 重巡リ級 重巡リ級 軽巡ヘ級 駆逐ニ級",
-      "空母ヲ級 軽母ヌ級 重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級"
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 20,
+        "AirAdvantage": 30,
+        "AirConfirm": 60
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 重巡リ級 重巡リ級 軽巡ヘ級 駆逐ニ級",
+        "Formation": "輪形",
+        "AirBase": 20,
+        "AirAdvantage": 30,
+        "AirConfirm": 60
+      },
+      {
+        "ShipList": "空母ヲ級 軽母ヌ級 重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 18,
+        "AirAdvantage": 27,
+        "AirConfirm": 54
+      }
     ],
     "DropDD": "望月 吹雪 初雪 深雪 叢雲 磯波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 夕立 村雨 五月雨 涼風 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮 巻雲",
     "DropCL": "天龍 龍田 球磨 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -420,14 +617,28 @@
     "xPos": 491,
     "yPos": 260,
     "Exp": 100,
-    "Formation": "輪形",
-    "AirBase": 16,
-    "AirAdvantage": 24,
-    "AirConfirm": 48,
     "Pattern": [
-      "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ロ級 駆逐ロ級",
-      "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "吹雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 望月 暁 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 霰 霞 陽炎 不知火 黒潮 荒潮",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 神通 夕張",
@@ -445,14 +656,28 @@
     "xPos": 670,
     "yPos": 297,
     "Exp": 100,
-    "Formation": "単縦 複縦",
-    "AirBase": 16,
-    "AirAdvantage": 24,
-    "AirConfirm": 48,
     "Pattern": [
-      "戦艦ル級 雷巡チ級 軽巡ヘ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
-      "戦艦ル級 雷巡チ級 雷巡チ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
-      "戦艦ル級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級"
+      {
+        "ShipList": "戦艦ル級 雷巡チ級 軽巡ヘ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "戦艦ル級 雷巡チ級 雷巡チ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "戦艦ル級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級 駆逐イ級",
+        "Formation": "複縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "初雪 深雪 磯波 敷波 叢雲 如月 菊月 長月 三日月 暁 響 雷 初霜 初春 子日 若葉 白露 村雨 夕立 五月雨 朝潮 大潮 満潮 荒潮 霰 陽炎 不知火 黒潮 巻雲 涼風",
     "DropCL": "天龍 龍田 球磨 木曾 長良 名取 神通 那珂",
@@ -470,14 +695,28 @@
     "xPos": 181,
     "yPos": 303,
     "Exp": 120,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級 軽巡ヘ級 軽巡ヘ級 駆逐イ級 駆逐ロ級 駆逐ロ級",
-      "重巡リ級 重巡リ級 駆逐ロ級 駆逐ロ級 駆逐ロ級",
-      "重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級 駆逐ハ級"
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 軽巡ヘ級 駆逐イ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 重巡リ級 駆逐ロ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 軽巡ヘ級 駆逐ハ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 如月 皐月 文月 長月 菊月 三日月 望月 響 雷 電 子日 若葉 初霜 時雨 村雨 夕立 五月雨 大潮 満潮 荒潮 霰 不知火 黒潮",
     "DropCL": "球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -503,14 +742,28 @@
     "xPos": 92,
     "yPos": 163,
     "Exp": 120,
-    "Formation": "輪形",
-    "AirBase": 24,
-    "AirAdvantage": 36,
-    "AirConfirm": 72,
     "Pattern": [
-      "軽母ヌ級 軽母ヌ級 重巡リ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "軽母ヌ級 軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "軽母ヌ級 軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "白雪 初雪 深雪 初霜 響 雷 村雨 夕立 五月雨 満潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 球磨 多摩 木曾 長良 五十鈴 名取 川内 神通 那珂",
@@ -536,14 +789,28 @@
     "xPos": 131,
     "yPos": 75,
     "Exp": 100,
-    "Formation": "複縦 輪形",
-    "AirBase": 28,
-    "AirAdvantage": 42,
-    "AirConfirm": 84,
     "Pattern": [
-      "戦艦ル級 空母ヲ級 空母ヲ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "戦艦ル級 空母ヲ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "空母ヲ級 空母ヲ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級"
+      {
+        "ShipList": "戦艦ル級 空母ヲ級 空母ヲ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 20,
+        "AirAdvantage": 30,
+        "AirConfirm": 60
+      },
+      {
+        "ShipList": "戦艦ル級 空母ヲ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 18,
+        "AirAdvantage": 27,
+        "AirConfirm": 54
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦 輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "吹雪 白雪 深雪 叢雲 綾波 敷波 睦月 如月 文月 長月 菊月 三日月 暁 雷 電 初春 子日 若葉 初霜 白露 夕立 涼風 五月雨 朝潮 大潮 満潮 荒潮 霰 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -561,14 +828,28 @@
     "xPos": 312,
     "yPos": 67,
     "Exp": 120,
-    "Formation": "輪形",
-    "AirBase": 24,
-    "AirAdvantage": 36,
-    "AirConfirm": 72,
     "Pattern": [
-      "軽母ヌ級 軽母ヌ級 重巡リ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "軽母ヌ級 軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
-      "軽母ヌ級 軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 重巡リ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽母ヌ級 重巡リ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "軽母ヌ級 軽母ヌ級 軽母ヌ級 軽巡ホ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 敷波 皐月 長月 響 雷 電 子日 若葉 時雨 夕立 五月雨 大潮 満潮 荒潮 霰 不知火 黒潮 村雨",
     "DropCL": "球磨 多摩 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -586,14 +867,28 @@
     "xPos": 100,
     "yPos": 148,
     "Exp": 150,
-    "Formation": "単縦 梯形 単横",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "雷巡チ級 雷巡チ級 駆逐ハ級 駆逐ロ級 駆逐ロ級 駆逐ロ級",
-      "軽巡ト級 雷巡チ級 雷巡チ級 駆逐ロ級 駆逐イ級 駆逐イ級",
-      "軽巡ヘ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級 駆逐イ級 駆逐イ級"
+      {
+        "ShipList": "雷巡チ級 雷巡チ級 駆逐ハ級 駆逐ロ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ト級 雷巡チ級 雷巡チ級 駆逐ロ級 駆逐イ級 駆逐イ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級 軽巡ヘ級 駆逐ロ級 駆逐ロ級 駆逐イ級 駆逐イ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 敷波 如月 皐月 菊月 文月 長月 三日月 望月 暁 響 雷 電 初春 子日 若葉 初霜 時雨 村雨 夕立 五月雨 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 五十鈴 名取 由良 川内 神通 那珂",
@@ -627,14 +922,28 @@
     "xPos": 351,
     "yPos": 104,
     "Exp": 150,
-    "Formation": "複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 軽巡ト級elite 駆逐ニ級 駆逐ニ級 輸送ワ級 輸送ワ級",
-      "戦艦ル級 駆逐ニ級elite 駆逐ニ級 輸送ワ級 輸送ワ級、輸送ワ級",
-      "重巡リ級 重巡リ級 輸送ワ級 輸送ワ級 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "戦艦ル級 軽巡ト級elite 駆逐ニ級 駆逐ニ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 駆逐ニ級elite 駆逐ニ級 輸送ワ級 輸送ワ級、輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 重巡リ級 輸送ワ級 輸送ワ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 如月 文月 長月 菊月 三日月 望月 暁 響 雷 電 初春 子日 初霜 若葉 時雨 村雨 夕立 五月雨 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮 巻雲",
     "DropCL": "天龍 龍田 五十鈴 名取 由良 川内 神通 那珂",
@@ -660,14 +969,28 @@
     "xPos": 362,
     "yPos": 194,
     "Exp": 150,
-    "Formation": "輪形 複縦 単縦",
-    "AirBase": 54,
-    "AirAdvantage": 81,
-    "AirConfirm": 162,
     "Pattern": [
-      "空母ヲ級elite 空母ヲ級elite 重巡リ級elite 軽巡ト級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級elite 重巡リ級 軽巡ヘ級elite 軽巡ヘ級 駆逐ニ級 駆逐ニ級",
-      "重巡リ級elite 重巡リ級 雷巡チ級elite 軽巡ヘ級 駆逐ニ級 駆逐ニ級"
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 重巡リ級elite 軽巡ト級 駆逐ハ級 駆逐ハ級",
+        "Formation": "輪形",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      },
+      {
+        "ShipList": "重巡リ級elite 重巡リ級 軽巡ヘ級elite 軽巡ヘ級 駆逐ニ級 駆逐ニ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級elite 重巡リ級 雷巡チ級elite 軽巡ヘ級 駆逐ニ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "巻雲 弥生 浜風",
     "DropCL": "北上 天龍 名取",
@@ -685,14 +1008,28 @@
     "xPos": 282,
     "yPos": 301,
     "Exp": 150,
-    "Formation": "複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 軽巡ト級elite 駆逐ニ級 駆逐ニ級 輸送ワ級 輸送ワ級",
-      "戦艦ル級 駆逐ニ級elite 駆逐ニ級 輸送ワ級 輸送ワ級 輸送ワ級",
-      "重巡リ級 重巡リ級 輸送ワ級 輸送ワ級 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "戦艦ル級 軽巡ト級elite 駆逐ニ級 駆逐ニ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 駆逐ニ級elite 駆逐ニ級 輸送ワ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 重巡リ級 輸送ワ級 輸送ワ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 叢雲 磯波 敷波 如月 皐月 文月 長月 菊月 三日月 暁 響 雷 電 初春 子日 若葉 白露 時雨 村雨 夕立 五月雨 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 五十鈴 名取 由良 川内 神通 那珂",
@@ -718,14 +1055,28 @@
     "xPos": 239,
     "yPos": 61,
     "Exp": 200,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級elite 重巡リ級 軽巡ト級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級 雷巡チ級 軽巡ト級elite 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
-      "雷巡チ級elite 軽巡ト級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級"
+      {
+        "ShipList": "重巡リ級elite 重巡リ級 軽巡ト級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 雷巡チ級 軽巡ト級elite 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "雷巡チ級elite 軽巡ト級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 暁 響 雷 電 初春 子日 初霜 若葉 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -743,14 +1094,28 @@
     "xPos": 195,
     "yPos": 219,
     "Exp": 200,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級elite 重巡リ級 軽巡ト級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級 雷巡チ級 軽巡ト級elite 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
-      "雷巡チ級elite 軽巡ト級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級"
+      {
+        "ShipList": "重巡リ級elite 重巡リ級 軽巡ト級 軽巡ヘ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級 雷巡チ級 軽巡ト級elite 軽巡ヘ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "雷巡チ級elite 軽巡ト級 軽巡ホ級 軽巡ホ級 駆逐イ級 駆逐イ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 響 雷 電 初春 子日 初霜 時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -784,14 +1149,28 @@
     "xPos": 408,
     "yPos": 53,
     "Exp": 200,
-    "Formation": "単縦 輪形 複縦",
-    "AirBase": 26,
-    "AirAdvantage": 39,
-    "AirConfirm": 78,
     "Pattern": [
-      "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
-      "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
-      "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
+        "Formation": "単縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
+        "Formation": "輪形",
+        "AirBase": 26,
+        "AirAdvantage": 39,
+        "AirConfirm": 78
+      },
+      {
+        "ShipList": "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 16,
+        "AirAdvantage": 29,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "時雨 村雨 夕立 五月雨 涼風 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮 巻雲",
     "DropCL": "天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -809,14 +1188,28 @@
     "xPos": 578,
     "yPos": 90,
     "Exp": 200,
-    "Formation": "複縦 単縦 輪形",
-    "AirBase": 37,
-    "AirAdvantage": 56,
-    "AirConfirm": 111,
     "Pattern": [
-      "戦艦ル級elite 戦艦ル級 空母ヲ級 重巡リ級 軽巡ヘ級 軽巡ヘ級",
-      "空母ヲ級elite 空母ヲ級 戦艦ル級 重巡リ級 重巡リ級 駆逐ニ級",
-      "戦艦ル級 重巡リ級elite 空母ヲ級 雷巡チ級 雷巡チ級 軽巡ト級"
+      {
+        "ShipList": "戦艦ル級elite 戦艦ル級 空母ヲ級 重巡リ級 軽巡ヘ級 軽巡ヘ級",
+        "Formation": "複縦",
+        "AirBase": 10,
+        "AirAdvantage": 15,
+        "AirConfirm": 30
+      },
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級 戦艦ル級 重巡リ級 重巡リ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 37,
+        "AirAdvantage": 56,
+        "AirConfirm": 111
+      },
+      {
+        "ShipList": "戦艦ル級 重巡リ級elite 空母ヲ級 雷巡チ級 雷巡チ級 軽巡ト級",
+        "Formation": "輪形",
+        "AirBase": 10,
+        "AirAdvantage": 15,
+        "AirConfirm": 30
+      }
     ],
     "DropDD": "吹雪 敷波 涼風 大潮 満潮 荒潮 霰 霞 巻雲 弥生",
     "DropCL": "大井 北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -834,14 +1227,28 @@
     "xPos": 218,
     "yPos": 317,
     "Exp": 200,
-    "Formation": "単縦 輪形 複縦",
-    "AirBase": 26,
-    "AirAdvantage": 39,
-    "AirConfirm": 78,
     "Pattern": [
-      "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
-      "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
-      "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
+        "Formation": "単縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
+        "Formation": "輪形",
+        "AirBase": 26,
+        "AirAdvantage": 39,
+        "AirConfirm": 78
+      },
+      {
+        "ShipList": "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 叢雲 磯波 睦月 如月 皐月 文月 響 雷 若葉 初春 子日 初霜 村雨 夕立 涼風 大潮 満潮 荒潮 霞 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -875,14 +1282,28 @@
     "xPos": 509,
     "yPos": 253,
     "Exp": 200,
-    "Formation": "単縦 輪形 複縦",
-    "AirBase": 26,
-    "AirAdvantage": 39,
-    "AirConfirm": 78,
     "Pattern": [
-      "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
-      "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
-      "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "戦艦ル級 軽母ヌ級 軽母ヌ級 重巡リ級 輸送ワ級 輸送ワ級",
+        "Formation": "単縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      },
+      {
+        "ShipList": "空母ヲ級 戦艦ル級 軽母ヌ級 軽母ヌ級 輸送ワ級 輸送ワ級",
+        "Formation": "輪形",
+        "AirBase": 26,
+        "AirAdvantage": 39,
+        "AirConfirm": 78
+      },
+      {
+        "ShipList": "重巡リ級 軽母ヌ級 軽母ヌ級 軽巡ヘ級 輸送ワ級 輸送ワ級",
+        "Formation": "複縦",
+        "AirBase": 16,
+        "AirAdvantage": 24,
+        "AirConfirm": 48
+      }
     ],
     "DropDD": "初雪 白雪 叢雲 綾波 若葉 子日 睦月 如月 皐月 文月 電 時雨 村雨 夕立 涼風 大潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -900,14 +1321,28 @@
     "xPos": 197,
     "yPos": 242,
     "Exp": 300,
-    "Formation": "単横 単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級 雷巡チ級elite 雷巡チ級elite 軽巡ト級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級elite 雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ハ級 駆逐ハ級",
-      "重巡リ級elite 重巡リ級elite 重巡リ級 重巡リ級 駆逐ニ級 駆逐ニ級"
+      {
+        "ShipList": "重巡リ級 雷巡チ級elite 雷巡チ級elite 軽巡ト級 駆逐ハ級 駆逐ハ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級elite 雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ハ級 駆逐ハ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級elite 重巡リ級elite 重巡リ級 重巡リ級 駆逐ニ級 駆逐ニ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 吹雪 初雪 深雪 叢雲 磯波 綾波 敷波 電 時雨 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -933,14 +1368,28 @@
     "xPos": 137,
     "yPos": 130,
     "Exp": 300,
-    "Formation": "単縦 梯形",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 吹雪 深雪 叢雲 綾波 敷波 朝潮 大潮 満潮 荒潮 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -958,14 +1407,28 @@
     "xPos": 294,
     "yPos": 93,
     "Exp": 300,
-    "Formation": "複縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      }
     ],
     "DropDD": "島風 吹雪 白雪 初雪 深雪 磯波 敷波 如月 電 子日 若葉 大潮 満潮 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 龍田 天龍 五十鈴 名取 川内 神通 木曾",
@@ -991,14 +1454,28 @@
     "xPos": 257,
     "yPos": 152,
     "Exp": 300,
-    "Formation": "単縦 梯形",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 初雪 叢雲 綾波 子日 朝潮 満潮 荒潮 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 木曾 五十鈴 川内 神通 那珂",
@@ -1016,13 +1493,21 @@
     "xPos": 388,
     "yPos": 126,
     "Exp": 300,
-    "Formation": "複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite、駆逐ハ級elite",
-      "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite、駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      }
     ],
     "DropDD": "島風 吹雪 深雪 叢雲 敷波 黒潮",
     "DropCL": "大井 龍田 川内 神通",
@@ -1040,14 +1525,28 @@
     "xPos": 507,
     "yPos": 77,
     "Exp": 300,
-    "Formation": "複縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
-      "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      }
     ],
     "DropDD": "島風 吹雪 深雪 磯波 綾波 潮 朝潮 荒潮 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 多摩 木曾 神通 鬼怒 那珂",
@@ -1065,14 +1564,28 @@
     "xPos": 485,
     "yPos": 209,
     "Exp": 300,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級 駆逐ニ級",
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級 駆逐ニ級elite 駆逐ニ級 駆逐ニ級",
-      "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級 駆逐ニ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 吹雪 初雪 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 多摩 木曾 川内 神通 那珂",
@@ -1090,14 +1603,28 @@
     "xPos": 644,
     "yPos": 222,
     "Exp": 300,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級flagship 戦艦ル級elite 戦艦ル級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 戦艦ル級 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 戦艦ル級 重巡リ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 戦艦ル級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 戦艦ル級 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 戦艦ル級 重巡リ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "雪風 島風 朝潮 大潮 陽炎 黒潮 夕雲 弥生 浦風 浜風 山雲",
     "DropCL": "大井 北上 天龍 龍田 川内 由良",
@@ -1123,14 +1650,28 @@
     "xPos": 382,
     "yPos": 308,
     "Exp": 300,
-    "Formation": "単縦 梯形",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級 戦艦ル級 重巡リ級 重巡リ級 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 重巡リ級 重巡リ級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 重巡リ級 軽巡ト級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 吹雪 叢雲 綾波 敷波 朝潮 大潮 満潮 陽炎 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -1156,14 +1697,28 @@
     "xPos": 188,
     "yPos": 300,
     "Exp": 300,
-    "Formation": "複縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      }
     ],
     "DropDD": "島風 吹雪 初雪 深雪 磯波 綾波 朝潮 満潮 荒潮 霰 陽炎",
     "DropCL": "大井 北上 天龍 多摩 五十鈴 由良 川内 神通 那珂",
@@ -1181,14 +1736,28 @@
     "xPos": 498,
     "yPos": 294,
     "Exp": 300,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級 駆逐ニ級elite 駆逐ニ級 駆逐ニ級",
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級 駆逐ニ級",
-      "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級 駆逐ニ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 吹雪 初雪 深雪 綾波 敷波 朝潮 大潮 満潮 霰 陽炎 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 由良 川内 神通 那珂",
@@ -1206,14 +1775,28 @@
     "xPos": 679,
     "yPos": 297,
     "Exp": 300,
-    "Formation": "単縦",
-    "AirBase": 82,
-    "AirAdvantage": 134,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
-      "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 134,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級 空母ヲ級 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      }
     ],
     "DropDD": "島風 吹雪 初雪 深雪 磯波 時雨 朝潮 大潮 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 龍田 五十鈴 名取 由良 川内 神通 那珂",
@@ -1231,14 +1814,28 @@
     "xPos": 126,
     "yPos": 147,
     "Exp": 310,
-    "Formation": "単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ト級elite 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ホ級elite 軽巡ヘ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ト級elite 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ホ級elite 軽巡ヘ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 深雪 叢雲 磯波 綾波 敷波 文月 五月雨 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂 阿武隈",
@@ -1264,13 +1861,28 @@
     "xPos": 220,
     "yPos": 126,
     "Exp": 310,
-    "Formation": "単縦 梯形",
-    "AirBase": 72,
-    "AirAdvantage": 108,
-    "AirConfirm": 216,
     "Pattern": [
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      }
     ],
     "DropDD": "白雪 初雪 深雪 叢雲 磯波 敷波 如月 菊月 三日月 望月 雷 電 子日 初霜 村雨 夕立 五月雨 大潮 満潮 荒潮 霰 霞 不知火 黒潮",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂",
@@ -1288,14 +1900,28 @@
     "xPos": 144,
     "yPos": 294,
     "Exp": 310,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ト級elite 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ホ級elite 軽巡ヘ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ト級elite 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ホ級elite 軽巡ヘ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 深雪 叢雲 綾波 敷波 曙 五月雨 朝潮 大潮 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -1313,14 +1939,28 @@
     "xPos": 245,
     "yPos": 183,
     "Exp": 310,
-    "Formation": "単縦 複縦",
-    "AirBase": 28,
-    "AirAdvantage": 42,
-    "AirConfirm": 84,
     "Pattern": [
-      "空母ヲ級flagship 戦艦ル級flagship 戦艦ル級elite 駆逐ハ級flagship 駆逐ニ級elite 輸送ワ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ニ級elite 輸送ワ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 戦艦ル級flagship 戦艦ル級elite 駆逐ハ級flagship 駆逐ニ級elite 輸送ワ級elite",
+        "Formation": "単縦",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ニ級elite 輸送ワ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "雪風 島風 吹雪 敷波 朝潮 大潮 陽炎 不知火 黒潮 弥生",
     "DropCL": "北上 天龍 龍田 鬼怒",
@@ -1338,13 +1978,28 @@
     "xPos": 264,
     "yPos": 293,
     "Exp": 310,
-    "Formation": "単縦 梯形",
-    "AirBase": 72,
-    "AirAdvantage": 108,
-    "AirConfirm": 216,
     "Pattern": [
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      }
     ],
     "DropDD": "吹雪 深雪 叢雲 磯波 綾波 敷波 五月雨 朝潮 大潮 満潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通",
@@ -1362,14 +2017,28 @@
     "xPos": 89,
     "yPos": 119,
     "Exp": 320,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級flagship 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級 駆逐ロ級 駆逐ロ級",
-      "雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ロ級flagship 駆逐ロ級 駆逐ロ級",
-      "軽巡ホ級flagship 駆逐ハ級 駆逐ハ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級flagship 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ロ級flagship 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 駆逐ハ級 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 叢雲 綾波 敷波 朝潮 大潮 満潮 荒潮 霰 陽炎 不知火 黒潮 涼風 磯波",
     "DropCL": "北上 天龍 龍田 多摩 木曾 鬼怒 五十鈴 名取 由良 川内 神通 那珂 球磨",
@@ -1395,14 +2064,28 @@
     "xPos": 295,
     "yPos": 68,
     "Exp": 320,
-    "Formation": "単縦 複縦",
-    "AirBase": 78,
-    "AirAdvantage": 117,
-    "AirConfirm": 234,
     "Pattern": [
-      "空母ヲ級elite 空母ヲ級elite 戦艦ル級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "空母ヲ級elite 空母ヲ級elite 軽母ヌ級elite 重巡リ級elite 駆逐ロ級flagship 駆逐ハ級elite",
-      "空母ヲ級elite 空母ヲ級elite 重巡リ級elite 軽巡ト級elite 駆逐ロ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 戦艦ル級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      },
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 軽母ヌ級elite 重巡リ級elite 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 78,
+        "AirAdvantage": 117,
+        "AirConfirm": 234
+      },
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 重巡リ級elite 軽巡ト級elite 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 綾波 磯波 朝潮 満潮 荒潮 霞 涼風 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -1428,14 +2111,28 @@
     "xPos": 152,
     "yPos": 282,
     "Exp": 320,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級flagship 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級 駆逐ロ級 駆逐ロ級",
-      "雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ロ級flagship 駆逐ロ級 駆逐ロ級",
-      "軽巡ホ級flagship 駆逐ハ級 駆逐ハ級 駆逐ロ級 駆逐ロ級"
+      {
+        "ShipList": "軽巡ホ級flagship 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "雷巡チ級elite 雷巡チ級 雷巡チ級 駆逐ロ級flagship 駆逐ロ級 駆逐ロ級",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 駆逐ハ級 駆逐ハ級 駆逐ロ級 駆逐ロ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 叢雲 綾波 敷波 涼風 大潮 満潮 陽炎 不知火 黒潮 磯波",
     "DropCL": "北上 天龍 龍田 多摩 長良 名取 由良 川内 那珂",
@@ -1453,14 +2150,28 @@
     "xPos": 253,
     "yPos": 286,
     "Exp": 320,
-    "Formation": "単縦 梯形",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級elite 戦艦ル級elite 重巡リ級elite 重巡リ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級elite 重巡リ級elite 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦ル級elite 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級elite 戦艦ル級elite 重巡リ級elite 重巡リ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級elite 重巡リ級elite 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級elite 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 叢雲 磯波 敷波 涼風 朝潮 荒潮 霰 陽炎 不知火",
     "DropCL": "北上 多摩 木曾 五十鈴 由良 川内 神通",
@@ -1486,14 +2197,28 @@
     "xPos": 407,
     "yPos": 267,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ホ級flagship 軽巡ト級 駆逐ニ級 駆逐ニ級 輸送ワ級elite 輸送ワ級elite",
-      "軽巡ヘ級flagship 軽巡ヘ級elite 軽巡ト級 駆逐ニ級 駆逐ニ級 輸送ワ級elite",
-      "軽巡ホ級flagship 軽巡ホ級elite 駆逐イ級elite 駆逐イ級elite 輸送ワ級 輸送ワ級"
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ト級 駆逐ニ級 駆逐ニ級 輸送ワ級elite 輸送ワ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 軽巡ヘ級elite 軽巡ト級 駆逐ニ級 駆逐ニ級 輸送ワ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ホ級elite 駆逐イ級elite 駆逐イ級elite 輸送ワ級 輸送ワ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "雪風 島風 朝潮 大潮 陽炎 黒潮 長波 弥生",
     "DropCL": "大井 北上 天龍 龍田",
@@ -1511,14 +2236,28 @@
     "xPos": 152,
     "yPos": 282,
     "Exp": 330,
-    "Formation": "単縦 複縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "軽巡ヘ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ヘ級flagship 軽巡ト級elite 軽巡ト級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ヘ級flagship 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "軽巡ヘ級flagship 重巡リ級elite 軽巡ト級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 軽巡ト級elite 軽巡ト級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 軽巡ホ級elite 軽巡ホ級elite 駆逐ロ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "敷波 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮 舞風",
     "DropCL": "大井 北上 天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -1544,14 +2283,28 @@
     "xPos": 356,
     "yPos": 117,
     "Exp": 330,
-    "Formation": "単縦 梯形",
-    "AirBase": 72,
-    "AirAdvantage": 108,
-    "AirConfirm": 216,
     "Pattern": [
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      }
     ],
     "DropDD": "島風 深雪 叢雲 敷波 朝潮 大潮 荒潮 霰 陽炎 不知火 黒潮 舞風",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 由良 川内 那珂",
@@ -1569,14 +2322,28 @@
     "xPos": 454,
     "yPos": 98,
     "Exp": 330,
-    "Formation": "複縦",
-    "AirBase": 79,
-    "AirAdvantage": 119,
-    "AirConfirm": 237,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ヘ級elite 駆逐ハ級flagship",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ヘ級elite 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 79,
+        "AirAdvantage": 119,
+        "AirConfirm": 237
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 79,
+        "AirAdvantage": 119,
+        "AirConfirm": 237
+      }
     ],
     "DropDD": "島風 深雪 磯波 朝潮 満潮 霞 陽炎 舞風",
     "DropCL": "大井 木曾 天龍 五十鈴 名取 由良 那珂",
@@ -1594,14 +2361,28 @@
     "xPos": 277,
     "yPos": 246,
     "Exp": 330,
-    "Formation": "単縦 梯形",
-    "AirBase": 72,
-    "AirAdvantage": 108,
-    "AirConfirm": 216,
     "Pattern": [
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦 梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦 梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦 梯形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      }
     ],
     "DropDD": "初雪 深雪 叢雲 磯波 朝潮 大潮 荒潮 霞 霰 陽炎 不知火 舞風 黒潮",
     "DropCL": "大井 北上 天龍 龍田 球磨 多摩 木曾 五十鈴 川内 那珂",
@@ -1627,14 +2408,28 @@
     "xPos": 569,
     "yPos": 137,
     "Exp": 330,
-    "Formation": "複縦 単縦",
-    "AirBase": 55,
-    "AirAdvantage": 83,
-    "AirConfirm": 165,
     "Pattern": [
-      "空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 軽巡ト級elite 駆逐ニ級elite",
-      "空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ホ級flagship 駆逐ニ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 軽巡ト級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ホ級flagship 駆逐ニ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      }
     ],
     "DropDD": "雪風 島風 朝潮 大潮 陽炎 黒潮 舞風 弥生 浜風 山雲",
     "DropCL": "川内",
@@ -1660,14 +2455,28 @@
     "xPos": 456,
     "yPos": 244,
     "Exp": 330,
-    "Formation": "複縦 単縦",
-    "AirBase": 79,
-    "AirAdvantage": 119,
-    "AirConfirm": 237,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ヘ級elite 駆逐ハ級flagship",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ヘ級elite 駆逐ハ級flagship",
+        "Formation": "複縦 単縦",
+        "AirBase": 79,
+        "AirAdvantage": 119,
+        "AirConfirm": 237
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦 単縦",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 軽母ヌ級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ニ級elite",
+        "Formation": "複縦 単縦",
+        "AirBase": 79,
+        "AirAdvantage": 119,
+        "AirConfirm": 237
+      }
     ],
     "DropDD": "初雪 叢雲 磯波 敷波 朝潮 満潮 荒潮 陽炎 不知火 黒潮 舞風",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -1701,14 +2510,28 @@
     "xPos": 114,
     "yPos": 104,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 79,
-    "AirAdvantage": 119,
-    "AirConfirm": 237,
     "Pattern": [
-      "重巡リ級flagship 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ハ級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ハ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 深雪 叢雲 綾波 敷波 朝潮 大潮 満潮 霰 霞 陽炎 不知火 舞風",
     "DropCL": "大井 北上 天龍 龍田 木曾 名取 由良 神通 那珂",
@@ -1726,14 +2549,28 @@
     "xPos": 288,
     "yPos": 49,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 27,
+        "AirAdvantage": 41,
+        "AirConfirm": 81
+      },
+      {
+        "ShipList": "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "島風 初雪 叢雲 綾波 敷波 朝潮 荒潮 霰 霞 黒潮",
     "DropCL": "大井 天龍 龍田 木曾 由良 那珂",
@@ -1759,14 +2596,28 @@
     "xPos": 502,
     "yPos": 47,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      }
     ],
     "DropDD": "島風 大潮 陽炎",
     "DropCL": "天龍 龍田 川内 神通",
@@ -1784,14 +2635,28 @@
     "xPos": 600,
     "yPos": 85,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 56,
-    "AirAdvantage": 84,
-    "AirConfirm": 168,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 雷巡チ級elite",
-      "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite",
-      "空母ヲ級flagship 空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 軽巡ト級elite 軽巡ト級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級flagship 戦艦ル級elite 軽巡ホ級flagship 雷巡チ級elite",
+        "Formation": "単縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite",
+        "Formation": "単縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 軽巡ト級elite 軽巡ト級elite",
+        "Formation": "単縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      }
     ],
     "DropDD": "雪風 叢雲 朝潮 大潮 陽炎 黒潮 初風 卯月",
     "DropCL": "北上 天龍",
@@ -1809,14 +2674,28 @@
     "xPos": 241,
     "yPos": 116,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 56,
-    "AirAdvantage": 84,
-    "AirConfirm": 168,
     "Pattern": [
-      "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 27,
+        "AirAdvantage": 41,
+        "AirConfirm": 83
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 敷波 大潮 荒潮 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 五十鈴 名取 由良 神通 那珂",
@@ -1842,14 +2721,28 @@
     "xPos": 493,
     "yPos": 177,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級flagship 戦艦ル級flagship 戦艦ル級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ハ級flagship",
-      "戦艦ル級flagship 戦艦ル級flagship 重巡リ級elite 重巡リ級elite 駆逐ハ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級flagship 戦艦ル級elite 戦艦ル級elite 軽巡ホ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級flagship 重巡リ級elite 重巡リ級elite 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 深雪 叢雲 磯波 綾波 敷波 朝潮 霞 不知火 黒潮 陽炎",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -1867,14 +2760,28 @@
     "xPos": 591,
     "yPos": 190,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 磯波 敷波 朝潮 荒潮 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 五十鈴 神通 那珂",
@@ -1892,14 +2799,28 @@
     "xPos": 204,
     "yPos": 211,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級flagship 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ハ級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 軽巡ト級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ハ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 磯波 敷波 朝潮 大潮 荒潮 霰 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 五十鈴 名取 由良",
@@ -1925,14 +2846,28 @@
     "xPos": 335,
     "yPos": 293,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
-      "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ホ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "梯形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "戦艦ル級flagship 戦艦ル級elite 空母ヲ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 27,
+        "AirAdvantage": 41,
+        "AirConfirm": 83
+      },
+      {
+        "ShipList": "戦艦ル級flagship 重巡リ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 磯波 綾波 朝潮 大潮 満潮 荒潮 霰 霞 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 名取 由良 神通 那珂",
@@ -1958,14 +2893,28 @@
     "xPos": 562,
     "yPos": 280,
     "Exp": 350,
-    "Formation": "複縦 単縦",
-    "AirBase": 82,
-    "AirAdvantage": 123,
-    "AirConfirm": 246,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
-      "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 軽巡ヘ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 空母ヲ級elite 戦艦ル級flagship 駆逐ハ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 82,
+        "AirAdvantage": 123,
+        "AirConfirm": 246
+      }
     ],
     "DropDD": "島風 初雪 深雪 叢雲 磯波 綾波 朝潮 大潮 霰 霞 不知火 黒潮 陽炎",
     "DropCL": "大井 北上 天龍 龍田 五十鈴 由良 神通 那珂",
@@ -1991,13 +2940,28 @@
     "xPos": 458,
     "yPos": 82,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "重巡リ級elite 軽巡ヘ級elite 軽巡ホ級elite 駆逐ニ級elite 駆逐イ級elite 駆逐イ級elite",
-      "軽巡ヘ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ニ級elite 駆逐ロ級elite 駆逐ロ級elite"
+      {
+        "ShipList": "重巡リ級elite 軽巡ヘ級elite 軽巡ホ級elite 駆逐ニ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級elite 軽巡ヘ級elite 軽巡ホ級elite 駆逐ニ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 軽巡ヘ級elite 軽巡ヘ級elite 駆逐ニ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 叢雲 綾波 敷波 文月 暁 響 雷 電 時雨 朝潮 大潮 荒潮 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2015,13 +2979,28 @@
     "xPos": 253,
     "yPos": 82,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 叢雲 綾波 敷波 文月 暁 響 雷 電 時雨 朝潮 荒潮 大潮 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2039,14 +3018,28 @@
     "xPos": 66,
     "yPos": 94,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 0,
-    "AirAdvantage": 0,
-    "AirConfirm": 1,
     "Pattern": [
-      "戦艦タ級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
-      "戦艦ル級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
-      "戦艦ル級 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite"
+      {
+        "ShipList": "戦艦タ級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 叢雲 磯波 綾波 敷波 暁 響 雷 電 時雨 朝潮 大潮 陽炎 不知火 黒潮",
     "DropCL": "北上 龍田 多摩 木曾 名取 由良 川内 神通 那珂 鬼怒",
@@ -2064,13 +3057,28 @@
     "xPos": 99,
     "yPos": 230,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "雪風 島風 弥生 夕雲",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 鬼怒 阿武隈 夕張",
@@ -2088,13 +3096,28 @@
     "xPos": 529,
     "yPos": 231,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽巡ヘ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "軽巡ホ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "軽巡ヘ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 叢雲 綾波 敷波 暁 響 雷 電 時雨 朝潮 大潮 荒潮 陽炎 不知火 黒潮",
     "DropCL": "北上 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2120,13 +3143,28 @@
     "xPos": 228,
     "yPos": 215,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "叢雲 綾波 敷波 文月 暁 響 電 時雨 朝潮 大潮 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 川内 神通 那珂 鬼怒 阿武隈",
@@ -2144,13 +3182,28 @@
     "xPos": 426,
     "yPos": 303,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 駆逐ニ級 駆逐ニ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 叢雲 敷波 暁 雷 電 大潮 荒潮 陽炎 不知火",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2168,14 +3221,28 @@
     "xPos": 283,
     "yPos": 318,
     "Exp": 310,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
-      "戦艦ル級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
-      "戦艦ル級 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite"
+      {
+        "ShipList": "戦艦タ級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "複縦 単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級elite 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "複縦 単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級 戦艦タ級 駆逐ロ級elite 駆逐ロ級elite 駆逐ロ級elite 駆逐イ級elite",
+        "Formation": "複縦 単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 叢雲 磯波 綾波 文月 暁 響 雷 電 時雨 朝潮 大潮 荒潮 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂 鬼怒",
@@ -2193,14 +3260,28 @@
     "xPos": 493,
     "yPos": 164,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "軽巡ヘ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ロ級elite 駆逐ロ級elite"
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ホ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 磯波 睦月 如月 暁 五月雨 涼風 陽炎 不知火 黒潮 夕雲",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2226,14 +3307,28 @@
     "xPos": 275,
     "yPos": 84,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級elite 潜水ヨ級 潜水カ級elite 潜水カ級 軽巡ヘ級elite 駆逐イ級elite",
-      "潜水ヨ級elite 潜水ヨ級 潜水カ級 軽巡ヘ級elite 駆逐イ級elite 駆逐イ級elite",
-      "潜水ヨ級elite 潜水ヨ級 潜水ヨ級 潜水カ級elite 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水カ級elite 潜水カ級 軽巡ヘ級elite 駆逐イ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水カ級 軽巡ヘ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水ヨ級 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 如月 暁 涼風 陽炎 不知火 黒潮",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 名取 由良 川内 神通 那珂",
@@ -2251,14 +3346,28 @@
     "xPos": 90,
     "yPos": 135,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 空母ヲ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "戦艦ル級flagship 空母ヲ級elite 軽巡ホ級flagship 軽巡ヘ級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "戦艦ル級flagship 空母ヲ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 空母ヲ級flagship 重巡リ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "戦艦ル級flagship 空母ヲ級elite 軽巡ホ級flagship 軽巡ヘ級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "複縦",
+        "AirBase": 27,
+        "AirAdvantage": 41,
+        "AirConfirm": 81
+      },
+      {
+        "ShipList": "戦艦ル級flagship 空母ヲ級elite 重巡リ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 27,
+        "AirAdvantage": 41,
+        "AirConfirm": 81
+      }
     ],
     "DropDD": "雪風 島風 夕雲 弥生 浦風",
     "DropCL": "大井 北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 鬼怒 阿武隈 夕張",
@@ -2284,14 +3393,28 @@
     "xPos": 497,
     "yPos": 277,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級elite 潜水ヨ級 潜水カ級elite 潜水カ級 軽巡ヘ級elite 駆逐イ級elite",
-      "潜水ヨ級elite 潜水ヨ級 潜水カ級 軽巡ヘ級elite 駆逐イ級elite 駆逐イ級elite",
-      "潜水ヨ級elite 潜水ヨ級 潜水ヨ級 潜水カ級elite 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水カ級elite 潜水カ級 軽巡ヘ級elite 駆逐イ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水カ級 軽巡ヘ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水ヨ級 潜水ヨ級 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 綾波 敷波 睦月 如月 暁 響 雷 電 白露 村雨 夕立 陽炎 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 那珂",
@@ -2317,14 +3440,28 @@
     "xPos": 205,
     "yPos": 220,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級elite 軽巡ト級elite 駆逐ニ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 55,
+        "AirAdvantage": 83,
+        "AirConfirm": 165
+      },
+      {
+        "ShipList": "空母ヲ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 75,
+        "AirAdvantage": 113,
+        "AirConfirm": 225
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "輪形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 深雪 磯波 睦月 如月 暁 五月雨 涼風 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2342,14 +3479,28 @@
     "xPos": 137,
     "yPos": 316,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級elite 輸送ワ級 輸送ワ級 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "輸送ワ級elite 輸送ワ級 輸送ワ級 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "軽巡ヘ級flagship 輸送ワ級 輸送ワ級 軽母ヌ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級 輸送ワ級 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級 輸送ワ級 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 輸送ワ級 輸送ワ級 軽母ヌ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "吹雪 白雪 深雪 磯波 睦月 如月 暁 五月雨 涼風 陽炎 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2367,14 +3518,28 @@
     "xPos": 565,
     "yPos": 43,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "綾波 敷波 暁 電 白露 時雨 村雨 夕立 陽炎",
     "DropCL": "北上 龍田 木曾 五十鈴 名取 川内 神通 那珂",
@@ -2408,14 +3573,28 @@
     "xPos": 354,
     "yPos": 92,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite"
+      {
+        "ShipList": "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "綾波 敷波 暁 雷 電 響 白露 村雨 夕立 大潮 陽炎 不知火",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 由良 川内 神通 那珂",
@@ -2441,14 +3620,28 @@
     "xPos": 500,
     "yPos": 247,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite",
-      "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite"
+      {
+        "ShipList": "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 綾波 敷波 暁 響 雷 電 白露 時雨 村雨 夕立 陽炎 黒潮 不知火",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2466,13 +3659,28 @@
     "xPos": 320,
     "yPos": 250,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ハ級elite 潜水カ級elite",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級elite 駆逐ハ級elite 潜水ヨ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ハ級elite 潜水カ級elite",
+        "Formation": "複縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ハ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級elite 駆逐ハ級elite 潜水ヨ級elite",
+        "Formation": "輪形",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      }
     ],
     "DropDD": "島風 綾波 敷波 暁 電 雷 白露 時雨 村雨 夕立 陽炎 黒潮",
     "DropCL": "北上 天龍 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2490,13 +3698,28 @@
     "xPos": 263,
     "yPos": 163,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦タ級flagship 空母ヲ級elite 空母ヲ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦タ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "戦艦タ級flagship 空母ヲ級elite 空母ヲ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      },
+      {
+        "ShipList": "戦艦タ級flagship 空母ヲ級elite 空母ヲ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 54,
+        "AirAdvantage": 81,
+        "AirConfirm": 162
+      }
     ],
     "DropDD": "綾波 敷波 暁 雷 電 時雨 夕立 陽炎",
     "DropCL": "天龍 多摩 木曾 名取 由良 北上 川内 神通 那珂",
@@ -2514,14 +3737,28 @@
     "xPos": 205,
     "yPos": 257,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 戦艦タ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦タ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 潜水ヨ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "戦艦タ級flagship 空母ヲ級flagship 重巡リ級elite 潜水ヨ級elite 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦タ級flagship 戦艦タ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 潜水ヨ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 空母ヲ級flagship 重巡リ級elite 潜水ヨ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "島風 巻雲 弥生 浦風",
     "DropCL": "大井 北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 鬼怒 阿武隈 夕張",
@@ -2539,14 +3776,28 @@
     "xPos": 610,
     "yPos": 267,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
-      "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "綾波 暁 響 雷 電 白露 時雨 村雨 陽炎 不知火 黒潮 白雪",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2564,14 +3815,35 @@
     "xPos": 498,
     "yPos": 336,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite",
-      "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite",
-      "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 軽巡ホ級elite 軽巡ヘ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級 輸送ワ級elite",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "綾波 敷波 暁 響 雷 電 白露 時雨 村雨 夕立 陽炎 黒潮 不知火",
     "DropCL": "北上 天龍 龍田 多摩 五十鈴 名取 由良 川内 神通 那珂",
@@ -2597,14 +3869,28 @@
     "xPos": 54,
     "yPos": 255,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 戦艦ル級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 空母ヲ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 戦艦ル級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 空母ヲ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "綾波 敷波 暁 響 雷 電 白露 時雨 村雨 夕立 陽炎 不知火",
     "DropCL": "大井 北上 天龍 龍田 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2622,14 +3908,28 @@
     "xPos": 595,
     "yPos": 180,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 雷巡チ級elite 雷巡チ級elite 軽巡ホ級elite 駆逐イ級elite 駆逐イ級elite",
-      "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "重巡リ級flagship 軽巡ホ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 雷巡チ級elite 雷巡チ級elite 軽巡ホ級elite 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽巡ホ級flagship 雷巡チ級elite 軽巡ト級elite 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 磯波 敷波 睦月 如月 五月雨 涼風 朝潮 大潮 満潮 荒潮 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2655,14 +3955,28 @@
     "xPos": 338,
     "yPos": 154,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 空母ヲ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite 潜水ヨ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 空母ヲ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 51,
+        "AirAdvantage": 77,
+        "AirConfirm": 153
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite 潜水ヨ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 敷波 磯波 睦月 涼風 不知火 黒潮 巻雲",
     "DropCL": "北上 天龍 龍田 多摩 木曾 名取 由良 川内 那珂",
@@ -2696,14 +4010,28 @@
     "xPos": 444,
     "yPos": 193,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級elite 潜水カ級 潜水カ級 軽巡ホ級elite 軽母ヌ級elite 軽母ヌ級elite",
-      "潜水カ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級"
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 軽巡ホ級elite 軽母ヌ級elite 軽母ヌ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 磯波 敷波 睦月 如月 五月雨 朝潮 大潮 満潮 荒潮 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 川内 神通 那珂",
@@ -2721,14 +4049,28 @@
     "xPos": 319,
     "yPos": 217,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級elite 駆逐ハ級flagship 駆逐ロ級flagship",
-      "空母ヲ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級elite 重巡リ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級elite 駆逐ハ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 104,
+        "AirAdvantage": 156,
+        "AirConfirm": 312
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 戦艦ル級elite 重巡リ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      }
     ],
     "DropDD": "初雪 深雪 敷波 睦月 如月 五月雨 涼風 朝潮 大潮 荒潮 不知火 黒潮",
     "DropCL": "北上 天龍 龍田 球磨 多摩 木曾 名取 由良 川内 神通 那珂",
@@ -2746,14 +4088,28 @@
     "xPos": 181,
     "yPos": 230,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "装甲空母鬼 戦艦タ級elite 軽母ヌ級elite 輸送ワ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
-      "装甲空母姫 浮遊要塞(B) 浮遊要塞(C) 駆逐ニ級elite 駆逐ニ級elite 潜水ヨ級flagship",
-      "戦艦タ級flagship 軽巡ヘ級flagship 軽母ヌ級elite 輸送ワ級elite 駆逐ニ級elite 潜水ヨ級elite"
+      {
+        "ShipList": "装甲空母鬼 戦艦タ級elite 軽母ヌ級elite 輸送ワ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 68,
+        "AirAdvantage": 102,
+        "AirConfirm": 204
+      },
+      {
+        "ShipList": "装甲空母姫 浮遊要塞(B) 浮遊要塞(C) 駆逐ニ級elite 駆逐ニ級elite 潜水ヨ級flagship",
+        "Formation": "輪形",
+        "AirBase": 102,
+        "AirAdvantage": 153,
+        "AirConfirm": 306
+      },
+      {
+        "ShipList": "戦艦タ級flagship 軽巡ヘ級flagship 軽母ヌ級elite 輸送ワ級elite 駆逐ニ級elite 潜水ヨ級elite",
+        "Formation": "複縦",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "雪風 長波 卯月 五月雨 浜風",
     "DropCL": "大井 北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川内 神通 那珂 鬼怒 阿武隈",
@@ -2771,14 +4127,28 @@
     "xPos": 497,
     "yPos": 285,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級",
-      "潜水カ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級elite 潜水カ級 潜水カ級 軽巡ホ級elite 軽母ヌ級elite 軽母ヌ級elite"
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級elite 潜水カ級 潜水カ級 軽巡ホ級elite 軽母ヌ級elite 軽母ヌ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "初雪 敷波 睦月 五月雨 涼風 朝潮 不知火 黒潮",
     "DropCL": "北上 龍田 多摩 由良 川内 神通",
@@ -2796,14 +4166,28 @@
     "xPos": 343,
     "yPos": 326,
     "Exp": 320,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 空母ヲ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
-      "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite 潜水ヨ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 空母ヲ級elite 軽母ヌ級elite 軽巡ホ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 51,
+        "AirAdvantage": 77,
+        "AirConfirm": 153
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ト級elite 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "複縦",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "重巡リ級flagship 重巡リ級elite 雷巡チ級elite 駆逐ハ級elite 駆逐ハ級elite 潜水ヨ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "初雪 深雪 磯波 睦月 如月 五月雨 朝潮 大潮 満潮 荒潮 不知火 黒潮 涼風",
     "DropCL": "北上 天龍 球磨 多摩 木曾 五十鈴 名取 由良 川内 神通",
@@ -2821,14 +4205,28 @@
     "xPos": 199,
     "yPos": 155,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite 潜水カ級elite",
-      "軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 潜水カ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 駆逐ニ級elite 駆逐ニ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "戦艦タ級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 潜水カ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "叢雲 睦月 如月 皐月 文月 長月 菊月 三日月 望月 初春 白露",
     "DropCL": "大井 北上 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -2862,14 +4260,28 @@
     "xPos": 230,
     "yPos": 329,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級",
-      "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級"
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "叢雲 如月 皐月 長月 望月 初春 白露 時雨 夕立",
     "DropCL": "大井 北上 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -2887,14 +4299,28 @@
     "xPos": 519,
     "yPos": 117,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
-      "空母ヲ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ハ級flagship 駆逐ハ級flagship",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 潜水カ級flagship"
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 戦艦タ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 52,
+        "AirAdvantage": 78,
+        "AirConfirm": 156
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 104,
+        "AirAdvantage": 156,
+        "AirConfirm": 312
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 潜水カ級flagship",
+        "Formation": "輪形",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      }
     ],
     "DropDD": "睦月 如月 皐月 長月 菊月 望月 初春 村雨",
     "DropCL": "大井 多摩 木曾 五十鈴 由良 那珂",
@@ -2912,13 +4338,28 @@
     "xPos": 391,
     "yPos": 262,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽母ヌ級elite 戦艦ル級flagship 戦艦ル級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship"
+      {
+        "ShipList": "軽母ヌ級elite 戦艦ル級flagship 戦艦ル級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "軽母ヌ級elite 戦艦ル級flagship 戦艦ル級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "叢雲 睦月 如月 皐月 文月 長月 三日月 望月 初春 白露 時雨 夕立",
     "DropCL": "大井 北上 木曾 五十鈴 名取 由良 神通 那珂",
@@ -2944,14 +4385,28 @@
     "xPos": 522,
     "yPos": 238,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite",
-      "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
-      "軽母ヌ級elite 軽母ヌ級elite 戦艦ル級flagship 軽巡ホ級flagship 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 重巡リ級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 軽母ヌ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 72,
+        "AirAdvantage": 108,
+        "AirConfirm": 216
+      },
+      {
+        "ShipList": "軽母ヌ級elite 軽母ヌ級elite 戦艦ル級flagship 軽巡ホ級flagship 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "叢雲 睦月 如月 皐月 文月 長月 菊月 三日月 望月 初春 白露 村雨 夕立",
     "DropCL": "大井 北上 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -2969,14 +4424,28 @@
     "xPos": 584,
     "yPos": 322,
     "Exp": 360,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 戦艦タ級flagship 重巡リ級flagship 軽巡ト級elite 駆逐ハ級flagship 駆逐ハ級flagship",
-      "空母ヲ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite 潜水カ級flagship",
-      "輸送ワ級elite 戦艦タ級flagship 戦艦タ級flagship 軽巡ト級elite 駆逐ハ級flagship 駆逐ハ級flagship"
+      {
+        "ShipList": "空母ヲ級flagship 戦艦タ級flagship 重巡リ級flagship 軽巡ト級elite 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 駆逐ニ級elite 駆逐ニ級elite 潜水カ級flagship",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "輸送ワ級elite 戦艦タ級flagship 戦艦タ級flagship 軽巡ト級elite 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "島風 秋雲 夕雲 長波 卯月 弥生 浜風",
     "DropCL": "北上 天龍 龍田 多摩 木曾 五十鈴 名取 由良 川内 鬼怒 阿武隈",
@@ -2994,13 +4463,28 @@
     "xPos": 202,
     "yPos": 222,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ロ級flagship"
+      {
+        "ShipList": "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "暁 響 雷 電 五月雨 涼風 朝潮 満潮 荒潮 霞 陽炎 不知火 黒潮 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -3018,14 +4502,28 @@
     "xPos": 251,
     "yPos": 97,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite"
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "暁 響 雷 電 霞 五月雨 涼風 朝潮 満潮 荒潮 霞 陽炎 不知火 黒潮 舞風 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -3043,14 +4541,28 @@
     "xPos": 431,
     "yPos": 56,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
-      "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "暁 響 雷 電 五月雨 涼風 朝潮 満潮 荒潮 霞 不知火 黒潮 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -3068,14 +4580,28 @@
     "xPos": 586,
     "yPos": 44,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "装甲空母姫 装甲空母鬼 重巡リ級flagship 軽巡ホ級flagship 軽巡ト級elite 駆逐ハ級flagship",
-      "南方棲戦鬼 空母ヲ級flagship 空母ヲ級flagship 戦艦タ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
-      "装甲空母姫 空母ヲ級elite 戦艦タ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship"
+      {
+        "ShipList": "装甲空母姫 装甲空母鬼 重巡リ級flagship 軽巡ホ級flagship 軽巡ト級elite 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 92,
+        "AirAdvantage": 138,
+        "AirConfirm": 276
+      },
+      {
+        "ShipList": "南方棲戦鬼 空母ヲ級flagship 空母ヲ級flagship 戦艦タ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 97,
+        "AirAdvantage": 146,
+        "AirConfirm": 291
+      },
+      {
+        "ShipList": "装甲空母姫 空母ヲ級elite 戦艦タ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship",
+        "Formation": "単縦",
+        "AirBase": 75,
+        "AirAdvantage": 113,
+        "AirConfirm": 225
+      }
     ],
     "DropDD": "雪風 涼風 舞風 秋雲 夕雲 巻雲 浜風",
     "DropCL": "大井 北上 天龍 球磨 長良 五十鈴 名取 由良 川内 夕張",
@@ -3101,14 +4627,28 @@
     "xPos": 295,
     "yPos": 318,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite"
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      }
     ],
     "DropDD": "暁 響 雷 電 五月雨 朝潮 満潮 霞 不知火 黒潮 秋雲",
     "DropCL": "大井 天龍 龍田 球磨 多摩 木曾 名取 神通 那珂",
@@ -3126,13 +4666,28 @@
     "xPos": 389,
     "yPos": 237,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "暁 響 雷 電 五月雨 涼風 朝潮 満潮 荒潮 陽炎 不知火 黒潮 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂",
@@ -3158,14 +4713,28 @@
     "xPos": 458,
     "yPos": 330,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 軽巡ト級elite 駆逐ロ級flagship 駆逐ロ級flagship",
-      "輸送ワ級elite 輸送ワ級elite 軽巡ヘ級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "輸送ワ級elite 軽巡ホ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite 駆逐ニ級elite"
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 軽巡ト級elite 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 軽巡ヘ級flagship 軽巡ト級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 軽巡ホ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "輪形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "雷 満潮 涼風 霞 不知火 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 神通 那珂",
@@ -3183,14 +4752,28 @@
     "xPos": 610,
     "yPos": 322,
     "Exp": 380,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
-      "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "電 五月雨 涼風 朝潮 満潮 荒潮 霞 陽炎 黒潮 秋雲",
     "DropCL": "龍田 多摩 名取 由良 神通 那珂",
@@ -3216,14 +4799,28 @@
     "xPos": 313,
     "yPos": 157,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級elite 潜水ヨ級elite",
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級flagship 潜水カ級flagship 潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級 潜水ヨ級"
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級elite 潜水ヨ級elite",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級flagship 潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級 潜水ヨ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "綾波 敷波 漣 初春 夕立",
     "DropCL": "天龍 球磨 木曾 神通 夕張",
@@ -3241,14 +4838,28 @@
     "xPos": 375,
     "yPos": 150,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級elite 潜水ヨ級elite",
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水カ級flagship 潜水カ級flagship 潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級 潜水ヨ級"
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級elite 潜水ヨ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級flagship 潜水ヨ級flagship 潜水ヨ級flagship 潜水ヨ級 潜水ヨ級",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 綾波 敷波 睦月 如月 曙 漣 初春 夕立 朝潮 満潮 荒潮 霞 秋雲",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂 夕張",
@@ -3266,14 +4877,28 @@
     "xPos": 482,
     "yPos": 216,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦タ級flagship 戦艦タ級flagship 重巡リ級flagship 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
-      "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ロ級flagship",
-      "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship"
+      {
+        "ShipList": "戦艦タ級flagship 戦艦タ級flagship 重巡リ級flagship 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 綾波 敷波 睦月 曙 漣 初春 夕立 朝潮 満潮 荒潮 霞",
     "DropCL": "天龍 龍田 球磨 多摩 木曾 五十鈴 名取 由良 神通 那珂 夕張",
@@ -3291,13 +4916,28 @@
     "xPos": 582,
     "yPos": 159,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 空母ヲ級flagship 戦艦タ級flagship 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
-      "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship"
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 戦艦タ級flagship 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "複縦",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 戦艦タ級flagship 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 56,
+        "AirAdvantage": 84,
+        "AirConfirm": 168
+      },
+      {
+        "ShipList": "空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "輪形",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      }
     ],
     "DropDD": "睦月 如月 初春 朝潮 満潮 霞",
     "DropCL": "天龍 龍田 球磨 五十鈴 名取 由良 那珂 夕張",
@@ -3315,14 +4955,28 @@
     "xPos": 572,
     "yPos": 264,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級elite 輸送ワ級elite 輸送ワ級 輸送ワ級 軽巡ホ級flagship 駆逐ハ級flagship",
-      "輸送ワ級elite 輸送ワ級 輸送ワ級 輸送ワ級 駆逐ハ級flagship 駆逐ハ級flagship",
-      "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級flagship"
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 輸送ワ級 輸送ワ級 軽巡ホ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級 輸送ワ級 輸送ワ級 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "敷波 曙 漣 夕立 朝潮 満潮 霞",
     "DropCL": "天龍 龍田 球磨 木曾 五十鈴 由良 神通 那珂 夕張",
@@ -3364,14 +5018,28 @@
     "xPos": 158,
     "yPos": 301,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "潜水カ級flagship 潜水カ級flagship 潜水カ級flagship 潜水カ級flagship 重巡リ級flagship 軽巡ヘ級flagship",
-      "空母ヲ級flagship 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 潜水カ級flagship 潜水カ級flagship",
-      "輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級flagship"
+      {
+        "ShipList": "潜水カ級flagship 潜水カ級flagship 潜水カ級flagship 潜水カ級flagship 重巡リ級flagship 軽巡ヘ級flagship",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "空母ヲ級flagship 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 潜水カ級flagship 潜水カ級flagship",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "輸送ワ級elite 輸送ワ級elite 重巡リ級flagship 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ハ級flagship",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 綾波 如月 曙 漣 初春 荒潮 霞 満潮",
     "DropCL": "龍田 多摩 木曾 五十鈴 名取 由良 那珂 夕張",
@@ -3389,14 +5057,28 @@
     "xPos": 174,
     "yPos": 179,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級elite 南方棲戦姫 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 潜水カ級flagship",
-      "輸送ワ級elite 南方棲戦姫 戦艦タ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 潜水ヨ級flagship",
-      "空母ヲ級flagship 南方棲戦姫 重巡リ級flagship 重巡リ級flagship 駆逐ロ級flagship 駆逐ロ級flagship"
+      {
+        "ShipList": "輸送ワ級elite 南方棲戦姫 戦艦タ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 潜水カ級flagship",
+        "Formation": "輪形",
+        "AirBase": 47,
+        "AirAdvantage": 71,
+        "AirConfirm": 141
+      },
+      {
+        "ShipList": "輸送ワ級elite 南方棲戦姫 戦艦タ級flagship 戦艦タ級flagship 軽巡ヘ級flagship 潜水ヨ級flagship",
+        "Formation": "輪形",
+        "AirBase": 47,
+        "AirAdvantage": 71,
+        "AirConfirm": 141
+      },
+      {
+        "ShipList": "空母ヲ級flagship 南方棲戦姫 重巡リ級flagship 重巡リ級flagship 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "輪形",
+        "AirBase": 75,
+        "AirAdvantage": 113,
+        "AirConfirm": 225
+      }
     ],
     "DropDD": "夕立 秋雲 夕雲 長波 卯月 弥生 山雲",
     "DropCL": "大井 北上 天龍 龍田 球磨 長良 五十鈴 名取 由良 川内 夕張",
@@ -3414,14 +5096,28 @@
     "xPos": 252,
     "yPos": 62,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽母ヌ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship 駆逐イ級elite 駆逐イ級elite",
-      "重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 駆逐イ級elite 駆逐イ級elite",
-      "軽巡ヘ級flagship 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ロ級flagship 駆逐イ級elite 駆逐イ級elite"
+      {
+        "ShipList": "軽母ヌ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級flagship 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "軽巡ヘ級flagship 軽巡ホ級flagship 駆逐ロ級flagship 駆逐ロ級flagship 駆逐イ級elite 駆逐イ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 白雪 初雪 叢雲 綾波 敷波 睦月 三日月 望月 暁 雷 電 五月雨 涼風 陽炎 巻雲 夕立",
     "DropCL": "天龍 長良 五十鈴 由良 川内 神通",
@@ -3447,14 +5143,28 @@
     "xPos": 163,
     "yPos": 238,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "",
     "DropCL": "由良 川内 神通",
@@ -3488,14 +5198,28 @@
     "xPos": 274,
     "yPos": 194,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "駆逐ロ級elite 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
-      "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ロ級flagship"
+      {
+        "ShipList": "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "駆逐ロ級elite 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "重巡リ級flagship 雷巡チ級elite 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ロ級flagship",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 叢雲 睦月 望月 三日月 暁 雷 夕立 五月雨 涼風 陽炎 黒潮 長波",
     "DropCL": "天龍 長良 由良 川内 神通",
@@ -3513,14 +5237,28 @@
     "xPos": 247,
     "yPos": 284,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite"
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級flagship 駆逐ハ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      },
+      {
+        "ShipList": "空母ヲ級flagship 重巡リ級elite 重巡リ級elite 軽巡ヘ級flagship 駆逐ハ級flagship 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 28,
+        "AirAdvantage": 42,
+        "AirConfirm": 84
+      }
     ],
     "DropDD": "三日月 夕立 巻雲 長波",
     "DropCL": "長良 川内",
@@ -3538,14 +5276,28 @@
     "xPos": 515,
     "yPos": 78,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "装甲空母鬼 装甲空母鬼 空母ヲ級flagship 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
-      "装甲空母鬼 空母ヲ級flagship 空母ヲ級flagship 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
-      "空母ヲ級flagship 空母ヲ級flagship 空母ヲ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite"
+      {
+        "ShipList": "装甲空母鬼 装甲空母鬼 空母ヲ級flagship 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 116,
+        "AirAdvantage": 174,
+        "AirConfirm": 348
+      },
+      {
+        "ShipList": "装甲空母鬼 空母ヲ級flagship 空母ヲ級flagship 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 100,
+        "AirAdvantage": 150,
+        "AirConfirm": 300
+      },
+      {
+        "ShipList": "空母ヲ級flagship 空母ヲ級flagship 空母ヲ級elite 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
+        "Formation": "輪形",
+        "AirBase": 83,
+        "AirAdvantage": 125,
+        "AirConfirm": 249
+      }
     ],
     "DropDD": "三日月 夕立 巻雲 長波",
     "DropCL": "長良 川内",
@@ -3563,14 +5315,28 @@
     "xPos": 338,
     "yPos": 219,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite",
-      "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
-      "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級"
+      {
+        "ShipList": "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 24,
+        "AirAdvantage": 36,
+        "AirConfirm": 72
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水カ級elite 潜水カ級elite 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "単横",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "潜水ヨ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級 潜水カ級",
+        "Formation": "梯形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 叢雲 敷波 睦月 望月 三日月 暁 電 夕立 五月雨 陽炎 黒潮 長波",
     "DropCL": "長良 五十鈴 川内",
@@ -3596,14 +5362,28 @@
     "xPos": 588,
     "yPos": 209,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "装甲空母姫 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級flagship 駆逐ニ級elite 潜水カ級elite",
-      "装甲空母姫 空母ヲ級elite 空母ヲ級elite 重巡リ級flagship 駆逐ニ級elite 潜水ヨ級elite",
-      "装甲空母姫 軽母ヌ級elite 軽母ヌ級elite 軽巡へ級flagship 駆逐ニ級elite 潜水カ級elite"
+      {
+        "ShipList": "装甲空母姫 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級flagship 駆逐ニ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 96,
+        "AirAdvantage": 144,
+        "AirConfirm": 288
+      },
+      {
+        "ShipList": "装甲空母姫 空母ヲ級elite 空母ヲ級elite 重巡リ級flagship 駆逐ニ級elite 潜水ヨ級elite",
+        "Formation": "輪形",
+        "AirBase": 102,
+        "AirAdvantage": 153,
+        "AirConfirm": 306
+      },
+      {
+        "ShipList": "装甲空母姫 軽母ヌ級elite 軽母ヌ級elite 軽巡へ級flagship 駆逐ニ級elite 潜水カ級elite",
+        "Formation": "輪形",
+        "AirBase": 96,
+        "AirAdvantage": 144,
+        "AirConfirm": 288
+      }
     ],
     "DropDD": "睦月 望月 五月雨 涼風 陽炎 黒潮",
     "DropCL": "長良 五十鈴 由良 川内 神通",
@@ -3637,13 +5417,28 @@
     "xPos": 449,
     "yPos": 326,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
-      "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite"
+      {
+        "ShipList": "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "単縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "戦艦タ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
+        "Formation": "複縦",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      }
     ],
     "DropDD": "吹雪 初雪 綾波 敷波 睦月 皐月 望月 三日月 雷 夕立 五月雨 涼風 陽炎 巻雲 長波",
     "DropCL": "天龍 長良 五十鈴 川内 神通",
@@ -3661,14 +5456,28 @@
     "xPos": 612,
     "yPos": 287,
     "Exp": 400,
-    "Formation": "複縦 単縦",
-    "AirBase": 48,
-    "AirAdvantage": 72,
-    "AirConfirm": 144,
     "Pattern": [
-      "輸送ワ級flagship 戦艦ル級flagship 戦艦ル級flagship 軽巡へ級flagship 駆逐ハ級elite 駆逐ハ級elite",
-      "輸送ワ級flagship 戦艦タ級flagship 戦艦タ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite",
-      "輸送ワ級flagship 戦艦ル級flagship 戦艦ル級flagship 軽巡へ級flagship 軽母ヌ級elite 軽母ヌ級elite"
+      {
+        "ShipList": "輸送ワ級flagship 戦艦ル級flagship 戦艦ル級flagship 軽巡へ級flagship 駆逐ハ級elite 駆逐ハ級elite",
+        "Formation": "輪形",
+        "AirBase": 0,
+        "AirAdvantage": 0,
+        "AirConfirm": 1
+      },
+      {
+        "ShipList": "輸送ワ級flagship 戦艦タ級flagship 戦艦タ級flagship 空母ヲ級flagship 軽母ヌ級elite 軽母ヌ級elite",
+        "Formation": "輪形",
+        "AirBase": 76,
+        "AirAdvantage": 114,
+        "AirConfirm": 228
+      },
+      {
+        "ShipList": "輸送ワ級flagship 戦艦ル級flagship 戦艦ル級flagship 軽巡へ級flagship 軽母ヌ級elite 軽母ヌ級elite",
+        "Formation": "輪形",
+        "AirBase": 48,
+        "AirAdvantage": 72,
+        "AirConfirm": 144
+      }
     ],
     "DropDD": "雪風 吹雪 初雪 叢雲 綾波 敷波 睦月 皐月 三日月 望月 暁 雷 電 夕立 五月雨 涼風 陽炎 黒潮 秋雲 夕雲 巻雲 長波 弥生 卯月 浜風",
     "DropCL": "天龍 長良 五十鈴 川内 神通 夕張 阿賀野",

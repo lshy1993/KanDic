@@ -29,10 +29,10 @@ namespace KanData
         public int Defence { get; set; }
         public string Range{ get; set; }
 
-        public string Fuel{ get; set; }
-        public string Ammo{ get; set; }
-        public string Steel{ get; set; }
-        public string Aluminium{ get; set; }
+        public int Fuel{ get; set; }
+        public int Ammo{ get; set; }
+        public int Steel{ get; set; }
+        public int Aluminium{ get; set; }
 
         public string Tuijian { get; set; }
         public string Mishu { get; set; }

@@ -47,6 +47,7 @@
     <Compile Include="Class\Expedition.cs" />
     <Compile Include="Class\Kan.cs" />
     <Compile Include="Class\Map.cs" />
+    <Compile Include="Class\Pattern.cs" />
     <Compile Include="Class\Quest.cs" />
     <Compile Include="Class\UpdateInfo.cs" />
     <Compile Include="DataInit.cs" />
@@ -80,6 +81,7 @@
     <EmbeddedResource Include="XmlData\map.json" />
     <EmbeddedResource Include="XmlData\expedition.json" />
     <EmbeddedResource Include="XmlData\quest.json" />
+    <EmbeddedResource Include="XmlData\ship.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

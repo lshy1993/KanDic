@@ -186,7 +186,7 @@ namespace KanDic.Viewer
             EnermyButton.Children.Clear();
             for (int i = 0; i < maps[tagnum].Pattern.Count; i++)
             {
-                Button_Init(maps[tagnum].Pattern[i]);
+                Button_Init(maps[tagnum].Pattern[i].ShipList);
             }
         }
 

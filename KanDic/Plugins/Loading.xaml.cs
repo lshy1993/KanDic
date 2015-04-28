@@ -185,6 +185,8 @@ namespace KanDic
             DataInit di = new DataInit();
             for (int i = 0; i < di.kanlist.Count; i++)
             {
+                di.kanlist[i].ImageNormal = "/Cache/ships/" + di.kanlist[i].FileName + ".swf/Image 5.jpg";
+                di.kanlist[i].ImageSmall = "/Cache/ships/" + di.kanlist[i].FileName + ".swf/Image 1.jpg";
                 KanDic.Viewer.KanColle.ships[di.kanlist[i].Number] = di.kanlist[i];
             }
             for (int i = 0; i < di.soubilist.Count; i++)
@@ -193,8 +195,8 @@ namespace KanDic
             }
             for (int i = 0; i < di.explist.Count; i++)
             {
+                di.explist[i].Hard = "/KanDic;component/Cache/icon/expand/" + di.explist[i].Hard + ".PNG";
                 KanDic.Viewer.ExpPanel.exps[i + 1] = di.explist[i];
-                KanDic.Viewer.ExpPanel.exps[i + 1].Hard = "/KanDic;component/Cache/icon/expand/" + KanDic.Viewer.ExpPanel.exps[i + 1].Hard + ".PNG";
             }
             for (int i = 0; i < di.maplist.Count; i++)
             {

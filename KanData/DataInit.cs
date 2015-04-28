@@ -26,11 +26,51 @@ namespace KanData
             Load_Exp();
             Load_Map();
             Load_Quest();
-            StreamWriter sw = new StreamWriter("D:\\test2.txt",false,Encoding.UTF8);
-            var content = Newtonsoft.Json.JsonConvert.SerializeObject(questlist);
+            /*StreamWriter sw = new StreamWriter("D:\\test2.txt",false,Encoding.UTF8);
+            var content = Newtonsoft.Json.JsonConvert.SerializeObject(kanlist);
             sw.Write(content);
             sw.Flush();
-            sw.Close();
+            sw.Close();*/
+        }
+
+        //读取ship.json
+        private void Load_Kan()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.ship.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            kanlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Kan>>(html);
+        }
+
+        //读取expedition.json
+        private void Load_Exp()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.expedition.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            explist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Expedition>>(html);
+        }
+
+        //读取map.json
+        private void Load_Map()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            maplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Map>>(html);
+        }
+
+        //读取quest.json
+        private void Load_Quest()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.quest.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            questlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Quest>>(html);
         }
 
         #region 读取xml并生成Soubi类
@@ -70,7 +110,34 @@ namespace KanData
         }
         #endregion
 
-        #region 读取xml并生成Kan类
+        #region 读取xml并生成Enemy类
+        private void Load_Enemy()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.Enemy.xml");
+            XmlDocument EnemyList = new XmlDocument();
+            EnemyList.Load(sStream);
+            XmlElement EnemyInfo = EnemyList.DocumentElement;
+            foreach (XmlNode temp in EnemyInfo.ChildNodes)
+            {
+                Set_Enemy(temp);
+            }
+        }
+
+        private void Set_Enemy(XmlNode x)
+        {
+            Enemy shenhai = new Enemy();
+            foreach (XmlNode yy in x.ChildNodes)
+            {
+                string name1 = yy.Name;
+                typeof(Enemy).GetProperty(name1).SetValue(shenhai, yy.InnerText, null);
+            }
+            enemylist.Add(shenhai);
+        }
+        #endregion
+
+        /* 已废除
+        读取xml并生成Kan类
         private void Load_Kan()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -104,8 +171,8 @@ namespace KanData
                     prop.SetValue(ship, yy.InnerText, null);
                 }
             }
-            ship.ImageNormal = "/Cache/ships/" + ship.FileName + ".swf/Image 5.jpg";
-            ship.ImageSmall = "/Cache/ships/" + ship.FileName + ".swf/Image 1.jpg";
+            //ship.ImageNormal = "/Cache/ships/" + ship.FileName + ".swf/Image 5.jpg";
+            //ship.ImageSmall = "/Cache/ships/" + ship.FileName + ".swf/Image 1.jpg";
             ship.IsFinal = ship.LinkNumber == 0;
             if (ship.Name != null)
             {
@@ -114,8 +181,7 @@ namespace KanData
         }
         #endregion
 
-        /* 已废除
-         * 读取xml生成Expedition
+        读取xml生成Expedition
         private void Load_Exp()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -184,65 +250,7 @@ namespace KanData
             }
             maplist.Add(map);
         }
-        */
-
-        //读取expedition.json
-        private void Load_Exp()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.expedition.json");
-            StreamReader sr = new StreamReader(sStream);
-            var html = sr.ReadToEnd();
-            explist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Expedition>>(html);
-        }
-
-        //读取map.json
-        private void Load_Map()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
-            StreamReader sr = new StreamReader(sStream);
-            var html = sr.ReadToEnd();
-            maplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Map>>(html);
-        }
-
-        //读取quest.json
-        private void Load_Quest()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.quest.json");
-            StreamReader sr = new StreamReader(sStream);
-            var html = sr.ReadToEnd();
-            questlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Quest>>(html);
-        }
-
-        #region 读取xml并生成Enemy类
-        private void Load_Enemy()
-        {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.Enemy.xml");
-            XmlDocument EnemyList = new XmlDocument();
-            EnemyList.Load(sStream);
-            XmlElement EnemyInfo = EnemyList.DocumentElement;
-            foreach (XmlNode temp in EnemyInfo.ChildNodes)
-            {
-                Set_Enemy(temp);
-            }
-        }
-
-        private void Set_Enemy(XmlNode x)
-        {
-            Enemy shenhai = new Enemy();
-            foreach (XmlNode yy in x.ChildNodes)
-            {
-                string name1 = yy.Name;
-                typeof(Enemy).GetProperty(name1).SetValue(shenhai, yy.InnerText, null);
-            }
-            enemylist.Add(shenhai);
-        }
-        #endregion
-
-        /*
+        
         #region 读取xml并生成Quest类
         private void Load_Quest()
         {

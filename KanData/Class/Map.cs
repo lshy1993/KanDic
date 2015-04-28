@@ -16,9 +16,7 @@ namespace KanData
         public int xPos { set; get; }
         public int yPos { set; get; }
 
-        public string Formation { set; get; }
-
-        public List<string> Pattern { set; get; }
+        public List<Pattern> Pattern { set; get; }
 
         public string DropDD { set; get; }
         public string DropCL { set; get; }
@@ -29,10 +27,6 @@ namespace KanData
         public string DropAV { set; get; }
 
         public int Exp { set; get; }
-
-        public int AirBase { set; get; }
-        public int AirAdvantage { set; get; }
-        public int AirConfirm { set; get; }
 
         public string NoBattle { set; get; }
 
