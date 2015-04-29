@@ -18,7 +18,6 @@ using System.Net.NetworkInformation;
 using System.Net;
 using System.Configuration;
 using System.IO;
-using System.Xml;
 
 namespace KanDic
 {
@@ -35,6 +34,9 @@ namespace KanDic
             AnimationInit();
             AnimationInit2();
             string url = "pngbase.sinapp.com";
+            //仅收集操作系统与IP信息，不会收集用户其他信息
+            SendInfo();
+            //检查更新
             if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]) && CheckServeStatus(url))
             {
                 CheckUpdate();
@@ -94,9 +96,9 @@ namespace KanDic
                     flag = false;
                 }
             }
-            catch(Exception e)
+            catch
             {
-                MessageBox.Show(e.ToString());
+                MessageBox.Show("未能连接到更新服务器！");
                 flag = false;
             }
             return flag;
@@ -106,7 +108,30 @@ namespace KanDic
         #region 检测是否有更新
         private void CheckUpdate()
         {
-            string url = "http://1.pngbase.sinaapp.com/Update.xml";
+            HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/update.json");
+            htr.Method = "GET";
+            HttpWebResponse hwr = (HttpWebResponse)htr.GetResponse();
+            Stream responseStream = hwr.GetResponseStream();
+            StreamReader streamReader = new StreamReader(responseStream);
+            var html = streamReader.ReadToEnd();
+            streamReader.Close();
+            responseStream.Close();
+            htr.Abort();
+            hwr.Close();
+            var updateInfo = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateInfo>(html);
+
+            if (Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.AppVersion))
+            {
+                Confirm cr = new Confirm(updateInfo.AppVersion);
+                cr.Owner = this;
+                if (!(bool)cr.ShowDialog()) DataLoading();
+            }
+            else
+            {
+                DataLoading();
+            }
+        }
+        /*废除
             var client = new WebClient();
             client.DownloadDataCompleted += (x, y) =>
             {
@@ -134,14 +159,14 @@ namespace KanDic
                         DataLoading();
                     }
                 }
-                catch(Exception e)
+                catch
                 {
-                    MessageBox.Show(e.ToString());
+                    MessageBox.Show("未能下载更新文件！");
                     //DataLoading();
                 }
             };
             client.DownloadDataAsync(new Uri(url));
-        }
+        }*/
         #endregion
 
         #region 动画绑定
@@ -213,6 +238,40 @@ namespace KanDic
             myTimer.Interval = new TimeSpan(0, 0, 0 ,1);
             myTimer.Tick += myTimer_Tick;
             myTimer.Start();
+        }
+        #endregion
+
+        #region 发送操作系统信息
+        private void SendInfo()
+        {
+            string strName = Environment.UserDomainName;
+            string strOS = Environment.OSVersion.ToString();
+            string strVer = Environment.Version.ToString();
+
+            ASCIIEncoding encoding = new ASCIIEncoding();
+            string postData = "&name=" + strName + "&os=" + strOS + "&ver=" + strVer;
+            byte[] data = encoding.GetBytes(postData);
+            try
+            {
+                HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/statistics.php");
+                htr.Method = "POST";
+                htr.ContentType = "application/x-www-form-urlencoded";
+                htr.ContentLength = data.Length;
+                Stream newStream = htr.GetRequestStream();
+                newStream.Write(data, 0, data.Length);
+                newStream.Close();
+
+                HttpWebResponse hwr = (HttpWebResponse)htr.GetResponse();
+                Stream responseStream = hwr.GetResponseStream();
+
+                StreamReader streamReader = new StreamReader(responseStream);
+                var html = streamReader.ReadToEnd();
+                streamReader.Close();
+                responseStream.Close();
+                htr.Abort();
+                hwr.Close();
+            }
+            catch { }
         }
         #endregion
 

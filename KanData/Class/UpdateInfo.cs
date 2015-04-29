@@ -16,9 +16,6 @@ namespace KanData
         public string DataDescription { set; get; }
         public string DataUpdateTime { set; get; }
 
-        public UpdateInfo()
-        {
-
-        }
+        public UpdateInfo() { }
     }
 }

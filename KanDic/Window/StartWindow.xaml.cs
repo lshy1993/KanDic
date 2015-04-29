@@ -104,5 +104,12 @@ namespace KanDic
             st.Owner = this;
             st.ShowDialog();
         }
+
+        private void Huang_Click(object sender, RoutedEventArgs e)
+        {
+            Almanac al = new Almanac();
+            al.Owner = this;
+            al.Show();
+        }
     }
 }

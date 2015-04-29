@@ -171,6 +171,9 @@
     <Compile Include="Window\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window\Almanac.xaml.cs">
+      <DependentUpon>Almanac.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window\EnermySet.xaml.cs">
       <DependentUpon>EnermySet.xaml</DependentUpon>
     </Compile>
@@ -330,6 +333,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window\Almanac.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

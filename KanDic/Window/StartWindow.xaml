@@ -76,7 +76,7 @@
                     <Controls:Tile Count="舰队模拟器" Title="9" TiltFactor="8" Width="208" Height="208" Click="Tile_Click"/>
                 </StackPanel>
             </StackPanel>
-            <Controls:Tile Count="知运势" Title="舰娘黄历" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            <Controls:Tile Count="知运势" Title="舰娘黄历" VerticalAlignment="Center" HorizontalAlignment="Left" Click="Huang_Click"/>
             <Controls:Tile Count="验血统" Title="模拟建造" VerticalAlignment="Center" HorizontalAlignment="Right"/>
         </Grid>
         <Canvas Name="MainPanel">

@@ -1,0 +1,48 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Almanac"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    ResizeMode="NoResize"
+    Title="舰娘老黄历" Height="650" Width="350">
+    <DockPanel>
+        <Border BorderThickness="1" BorderBrush="Gray" DockPanel.Dock="Top" Margin="5">
+            <StackPanel Margin="5">
+                <TextBlock Text="氪不改命，玄不救非" FontSize="24" HorizontalAlignment="Left"/>
+                <TextBlock Text="走出非洲，一发入欧" HorizontalAlignment="Right"/>
+            </StackPanel>
+        </Border>
+        <TextBlock Name="Date" FontSize="24" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="5" DockPanel.Dock="Bottom">
+            <StackPanel Margin="5">
+                <TextBlock Text="▪  舰娘黄历面向 非洲提督 和 非洲提督 偷渡使用"/>
+                <TextBlock Text="▪  数据基于玄学（随机）生成，请勿轻易相信"/>
+                <TextBlock Text="▪  若愿意为 黄历 添加 新梗，欢迎向作者留言"/>
+            </StackPanel>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="5" DockPanel.Dock="Bottom">
+            <StackPanel Margin="5">
+                <TextBlock Text="今日玄学（坑爹）公式" HorizontalAlignment="Center"/>
+                <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
+                <TextBlock Name="BBFormula" HorizontalAlignment="Center"/>
+                <Rectangle Height="1" Fill="Gray" Margin="0,5"/>
+                <TextBlock Name="CVFormula" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        <TextBlock Name="Star" Margin="0,5" DockPanel.Dock="Bottom" HorizontalAlignment="Center"/>
+        <StackPanel Margin="5">
+            <DockPanel Background="#99FFFF80">
+                <Border Background="Yellow" DockPanel.Dock="Left" Width="100">
+                    <TextBlock Text="宜" Foreground="Black" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                <StackPanel Name="Good" Margin="10,5"/>
+            </DockPanel>
+            <DockPanel Background="#99FF8080">
+                <Border Background="Red" DockPanel.Dock="Left" Width="100">
+                    <TextBlock Text="忌" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                <StackPanel Name="Bad" Margin="10,5"/>
+            </DockPanel>
+        </StackPanel>
+    </DockPanel>
+</Controls:MetroWindow>
