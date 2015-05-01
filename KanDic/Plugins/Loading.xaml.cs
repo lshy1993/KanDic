@@ -34,12 +34,15 @@ namespace KanDic
             AnimationInit();
             AnimationInit2();
             string url = "pngbase.sinapp.com";
-            //仅收集操作系统与IP信息，不会收集用户其他信息
-            SendInfo();
-            //检查更新
-            if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]) && CheckServeStatus(url))
-            {
-                CheckUpdate();
+            if (CheckServeStatus(url))
+            { 
+                //首次获取用户种子，日常登录统计（不会收集用户隐私信息）
+                SignUp();
+                //检查更新
+                if (bool.Parse(ConfigurationManager.AppSettings["autoupdate"]))
+                    CheckUpdate();
+                else
+                    DataLoading();
             }
             else
             {
@@ -241,22 +244,34 @@ namespace KanDic
         }
         #endregion
 
-        #region 发送操作系统信息
-        private void SendInfo()
+        #region 注册信息
+        private void SignUp()
         {
-            string strName = Environment.UserDomainName;
+            //首次使用联网获取seed
+            if (ConfigurationManager.AppSettings["randomseed"] == "")
+            {
+                Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+                cfa.AppSettings.Settings["randomseed"].Value = getuserseed();
+                cfa.Save(ConfigurationSaveMode.Modified);
+                ConfigurationManager.RefreshSection("appSettings");
+            }
+            //读取用户种子
+            string userseed = ConfigurationManager.AppSettings["randomseed"];
+            //获取操作系统于framework环境
             string strOS = Environment.OSVersion.ToString();
             string strVer = Environment.Version.ToString();
-
+            //提交表单
             ASCIIEncoding encoding = new ASCIIEncoding();
-            string postData = "&name=" + strName + "&os=" + strOS + "&ver=" + strVer;
+            string postData = "&userseed=" + userseed + "&os=" + strOS + "&ver=" + strVer;
             byte[] data = encoding.GetBytes(postData);
+
             try
             {
-                HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/statistics.php");
+                HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/login.php");
                 htr.Method = "POST";
                 htr.ContentType = "application/x-www-form-urlencoded";
                 htr.ContentLength = data.Length;
+
                 Stream newStream = htr.GetRequestStream();
                 newStream.Write(data, 0, data.Length);
                 newStream.Close();
@@ -274,6 +289,21 @@ namespace KanDic
             catch { }
         }
         #endregion
+
+        private string getuserseed()
+        {
+            HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com");
+            htr.Method = "GET";
+            HttpWebResponse hwr = (HttpWebResponse)htr.GetResponse();
+            Stream responseStream = hwr.GetResponseStream();
+            StreamReader streamReader = new StreamReader(responseStream);
+            var html = streamReader.ReadToEnd();
+            streamReader.Close();
+            responseStream.Close();
+            htr.Abort();
+            hwr.Close();
+            return (string)html;
+        }
 
         void myTimer_Tick(object sender, EventArgs e)
         {

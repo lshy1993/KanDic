@@ -467,7 +467,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Resource Include="Cache\error.png" />
+    <Resource Include="Cache\noimage.png" />
     <None Include="Cache\bgm\Thumbs.db" />
     <None Include="Cache\ships\jcrdsdpsjcgj.swf\Thumbs.db" />
     <None Include="Cache\ships\ugxgvgtjsxud.swf\Thumbs.db" />
@@ -1358,6 +1358,7 @@
     <EmbeddedResource Include="Resources\Data\Map.xml" />
     <Resource Include="Cache\icon\battle\00.PNG" />
     <Resource Include="Cache\alipay.png" />
+    <Resource Include="Cache\error.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

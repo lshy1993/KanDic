@@ -40,17 +40,10 @@ namespace KanDic
         public Almanac()
         {
             InitializeComponent();
-
-            download();
+            //联网获取最新黄历内容
+            GetJson();
             Date.Text = System.DateTime.Now.ToString("yyyy年MM月dd日 dddd");
 
-            if (ConfigurationManager.AppSettings["randomseed"] == "")
-            {
-                Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                cfa.AppSettings.Settings["randomseed"].Value = getuserseed();
-                cfa.Save(ConfigurationSaveMode.Modified);
-                ConfigurationManager.RefreshSection("appSettings");
-            }
             //获取用户种子
             string str = ConfigurationManager.AppSettings["randomseed"];
             //天数种子
@@ -94,21 +87,6 @@ namespace KanDic
             Star.Text = "罗盘娘玄学概率：" + SetStar(random.Next(10) % 10 + 1);
         }
 
-        private string getuserseed()
-        {
-            HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com");
-            htr.Method = "GET";
-            HttpWebResponse hwr = (HttpWebResponse)htr.GetResponse();
-            Stream responseStream = hwr.GetResponseStream();
-            StreamReader streamReader = new StreamReader(responseStream);
-            var html = streamReader.ReadToEnd();
-            streamReader.Close();
-            responseStream.Close();
-            htr.Abort();
-            hwr.Close();
-            return (string)html;
-        }
-
         private int getseed(string x)
         {
             int seed = 0;
@@ -119,7 +97,7 @@ namespace KanDic
             return seed;
         }
 
-        private void download()
+        private void GetJson()
         {
             try
             {
@@ -137,11 +115,14 @@ namespace KanDic
             }
             catch
             {
+                MessageBox.Show("无法获取最新黄历信息QAQ");
+                /*
                 System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
                 System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.huang.json");
                 StreamReader sr = new StreamReader(sStream);
                 var html = sr.ReadToEnd();
                 result = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Huang>>(html);
+                */
             }
         }
 
