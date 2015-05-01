@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="KanDic.Plugins.ReourceBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             d:DesignHeight="122" d:DesignWidth="210">
+    <UserControl.Resources>
+        <ResourceDictionary Source="/KanDic;component/Resources/Style/BuildStyle.xaml"/>
+    </UserControl.Resources>
+    <Canvas Width="210" Height="122">
+        <Image Source="/KanDic;component/Cache/icon/build/background.PNG" Stretch="None"/>
+        <TextBlock Name="Number" Text="999" Foreground="White" FontSize="30" Canvas.Left="30" Canvas.Top="53"/>
+        <Button Name="plus1" Style="{DynamicResource ResourceKey=plus}" Canvas.Right="17" Canvas.Top="10" Click="PlusTen_Click"/>
+        <Button Name="minus1" Style="{DynamicResource ResourceKey=minus}" Canvas.Left="120" Canvas.Top="10" Click="MinusTen_Click"/>
+        <Button Name="plus2" Style="{DynamicResource ResourceKey=plus}" Canvas.Right="17" Canvas.Top="35" Click="PlusHundred_Click"/>
+        <Button Name="minus2" Style="{DynamicResource ResourceKey=minus}" Canvas.Left="120" Canvas.Top="35" Click="MinusHundred_Click"/>
+        <Button Style="{DynamicResource ResourceKey=reset}" Canvas.Right="12" Canvas.Top="65" Click="Reset_Click"/>
+        <Button Style="{DynamicResource ResourceKey=max}" Canvas.Right="12" Canvas.Top="90" Click="Max_Click"/>
+        <Button Name="plus0" Style="{DynamicResource ResourceKey=up}" Canvas.Left="48" Canvas.Top="35" Click="Plus_Click"/>
+        <Button Name="minus0" Style="{DynamicResource ResourceKey=down}" Canvas.Left="48" Canvas.Top="95" Click="Minus_Click"/>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,175 @@
+﻿<Controls:MetroWindow
+    x:Class="KanDic.Build"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns:box="clr-namespace:KanDic.Plugins"
+    ShowInTaskbar="False"
+    ResizeMode="NoResize"
+    BorderBrush="{DynamicResource AccentColorBrush}"
+    BorderThickness="1"
+    WindowStartupLocation="CenterOwner"
+    Title="模拟建造" Height="650" Width="700">
+    <DockPanel>
+        <DockPanel.Resources>
+            <DataTemplate x:Key="datatmeplate">
+                <Border Margin="0,5" Background="#555555">
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock Text="{Binding User}" Width="100"/>
+                        <TextBlock Text="{Binding NewGet}" Width="80"/>
+                        <TextBlock Text="{Binding UseFormula}" Width="170" ToolTip="油 / 钢 / 弹 / 铝：资"/>
+                        <TextBlock Text="{Binding FaceColor}" Width="80" ToolTip="数值越大，表示脸黑"/>
+                        <TextBlock Text="{Binding FormulaTimes}" Width="80" ToolTip="使用这个公式的次数"/>
+                        <TextBlock Text="{Binding GetCount}" Width="80" ToolTip="公式建出的舰娘数"/>
+                        <TextBlock Text="{Binding GetRate}" Width="80" ToolTip="这个公式的实际出货率"/>
+                    </StackPanel>
+                </Border>
+            </DataTemplate>
+        </DockPanel.Resources>
+        <Border Name="UserBox" BorderBrush="Gray" BorderThickness="1" DockPanel.Dock="Top" Margin="5">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <StackPanel Orientation="Horizontal" Width="100">
+                    <TextBlock Text="{Binding UserID}" VerticalAlignment="Center"/>
+                    <TextBlock Text=" 提督" VerticalAlignment="Center"/>
+                </StackPanel>
+                <DockPanel Width="100">
+                    <TextBlock Text="高速建造：" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                    <TextBlock Text="{Binding QuickBuild}" VerticalAlignment="Center"/>
+                </DockPanel>
+                <DockPanel Width="100">
+                    <TextBlock Text="开发资材：" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                    <TextBlock Text="{Binding Material}" VerticalAlignment="Center"/>
+                </DockPanel>
+                <DockPanel Width="100">
+                    <TextBlock Text="脸色指数：" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                    <TextBlock Text="{Binding FaceRate}" VerticalAlignment="Center"/>
+                </DockPanel>
+                <Image Source="/KanDic;component/Cache/icon/info/fuel.PNG" Stretch="None"/>
+                <TextBlock Text="{Binding Fuel}" VerticalAlignment="Center" Width="50"/>
+                <Image Source="/KanDic;component/Cache/icon/info/steel.PNG" Stretch="None"/>
+                <TextBlock Text="{Binding Steel}" VerticalAlignment="Center" Width="50"/>
+                <Image Source="/KanDic;component/Cache/icon/info/ammo.PNG" Stretch="None"/>
+                <TextBlock Text="{Binding Ammo}" VerticalAlignment="Center" Width="50"/>
+                <Image Source="/KanDic;component/Cache/icon/info/aluminum.PNG" Stretch="None"/>
+                <TextBlock Text="{Binding Aluminum}" VerticalAlignment="Center" Width="50"/>
+            </StackPanel>
+        </Border>
+        <Canvas DockPanel.Dock="Top" Height="340" Width="700">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Left" Width="250">
+                    <StackPanel.Resources>
+                        <ResourceDictionary Source="/KanDic;component/Resources/Style/BuildStyle.xaml"/>
+                    </StackPanel.Resources>
+                    <Image Source="/KanDic;component/Cache/icon/build/build.PNG" Stretch="None"/>
+                    <Button Style="{DynamicResource ResourceKey=develop}"/>
+                </StackPanel>
+                <StackPanel>
+                    <box:BuildBox x:Name="dock1" docknum="1"/>
+                    <box:BuildBox x:Name="dock2" docknum="2"/>
+                    <box:BuildBox x:Name="dock3" docknum="3"/>
+                    <box:BuildBox x:Name="dock4" docknum="4"/>
+                </StackPanel>
+            </DockPanel>
+            <StackPanel Orientation="Horizontal" Name="FormulaBox" Canvas.Left="700">
+                <Rectangle Width="200" Fill="#99555555" MouseLeftButtonDown="Rectangle_MLBD"/>
+                <StackPanel Width="500" Background="#f0e6dc" Canvas.Left="700">
+                    <Grid Height="255">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Canvas Width="220" Height="122" Grid.Row="0" Grid.Column="0">
+                            <box:ReourceBox x:Name="re1" boxtype="1"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <Image Source="/KanDic;component/Cache/icon/info/fuel.PNG" Stretch="None"/>
+                                <TextBlock Text="燃料" Foreground="White" VerticalAlignment="Center" Margin="5,0"/>
+                            </StackPanel>
+                        </Canvas>
+                        <Canvas Width="220" Height="122" Grid.Row="0" Grid.Column="1">
+                            <box:ReourceBox x:Name="re2" boxtype="2"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <Image Source="/KanDic;component/Cache/icon/info/steel.PNG" Stretch="None"/>
+                                <TextBlock Text="钢材" Foreground="White" VerticalAlignment="Center" Margin="5,0"/>
+                            </StackPanel>
+                        </Canvas>
+                        <Canvas Width="220" Height="122" Grid.Row="1" Grid.Column="0">
+                            <box:ReourceBox x:Name="re3" boxtype="3"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <Image Source="/KanDic;component/Cache/icon/info/ammo.PNG" Stretch="None"/>
+                                <TextBlock Text="弹药" Foreground="White" VerticalAlignment="Center" Margin="5,0"/>
+                            </StackPanel>
+                        </Canvas>
+                        <Canvas Width="220" Height="122" Grid.Row="1" Grid.Column="1">
+                            <box:ReourceBox x:Name="re4" boxtype="4"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <Image Source="/KanDic;component/Cache/icon/info/aluminum.PNG" Stretch="None"/>
+                                <TextBlock Text="航空铝" Foreground="White" VerticalAlignment="Center" Margin="5,0"/>
+                            </StackPanel>
+                        </Canvas>
+                    </Grid>
+                    <StackPanel>
+                        <TextBlock Text="使用资材"/>
+                    </StackPanel>
+                    <DockPanel Margin="5">
+                        <DockPanel.Resources>
+                            <ResourceDictionary Source="/KanDic;component/Resources/Style/BuildStyle.xaml"/>
+                        </DockPanel.Resources>
+                        <Grid DockPanel.Dock="Left">
+                            <Button Name="NormalBuild" Style="{DynamicResource ResourceKey=nbuild}" Visibility="Collapsed"/>
+                            <Button Name="HugeBuild" Style="{DynamicResource ResourceKey=hbuild}"/>
+                        </Grid>
+                        <Grid DockPanel.Dock="Right">
+                            <Button Name="BuildStart" Style="{DynamicResource ResourceKey=start}" Click="BuildStart_Click"/>
+                            <Button Name="DevelopStart" Style="{DynamicResource ResourceKey=dstart}" Visibility="Collapsed" Click="DevelopStart_Click"/>
+                        </Grid>
+                        <Rectangle/>
+                    </DockPanel>
+                </StackPanel>
+            </StackPanel>
+        </Canvas>
+        <DockPanel Margin="5">
+            <DockPanel Margin="5" DockPanel.Dock="Top">
+                <StackPanel DockPanel.Dock="Right">
+                    <TextBlock Text="注：程序仅为了博得提督们百忙中的一笑"/>
+                    <TextBlock Text="数据完全基于玄学，不代表游戏中真实结果"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="仅供各位" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="欧洲提督" FontSize="24"/>
+                    <TextBlock Text="娱乐" VerticalAlignment="Center"/>
+                    <TextBlock Text="非洲提督" FontSize="24"/>
+                    <TextBlock Text="偷渡专用" VerticalAlignment="Center"/>
+                </StackPanel>
+            </DockPanel>
+            <Border BorderBrush="Gray" BorderThickness="1" DockPanel.Dock="Top">
+                <DockPanel Margin="5">
+                    <TextBlock Text="最新出货消息：" Width="100"/>
+                    <TextBlock Text="（滚动播报）XXXX提督用玄学【4663】公式，成功建造【轻巡-那珂】一只！2015-04-30 0:10"/>
+                </DockPanel>
+            </Border>
+            <StackPanel Orientation="Horizontal" Margin="5" DockPanel.Dock="Top">
+                <TextBlock Text="晒脸排行榜："/>
+                <RadioButton Content="大型建造-欧洲榜"/>
+                <RadioButton Content="大型建造-非洲榜"/>
+                <RadioButton Content="普通建造-欧洲榜"/>
+                <RadioButton Content="普通建造-非洲榜"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5" DockPanel.Dock="Top">
+                <TextBlock Text="提督名" Width="100"/>
+                <TextBlock Text="最新出货" Width="80"/>
+                <TextBlock Text="公式（油 / 钢 / 弹 / 铝：资）" Width="170" ToolTip="建造公式(油/钢/弹/铝:资)"/>
+                <TextBlock Text="脸色指数" Width="80" ToolTip="数值越大，表示脸黑"/>
+                <TextBlock Text="使用次数" Width="80" ToolTip="使用这个公式的次数"/>
+                <TextBlock Text="出货次数" Width="80" ToolTip="公式建出的舰娘数"/>
+                <TextBlock Text="出货率" Width="80" ToolTip="这个公式的实际出货率"/>
+            </StackPanel>
+            <ScrollViewer VerticalScrollBarVisibility="Visible">
+                <ItemsControl Name="leaderboard" ItemTemplate="{DynamicResource datatmeplate}" ItemsSource="{Binding}"/>
+            </ScrollViewer>
+        </DockPanel>
+    </DockPanel>
+</Controls:MetroWindow>

@@ -4,17 +4,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/KanDic;component/Cache/icon/CJ.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/CJ.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/CJ1.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/CJ1.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -25,17 +18,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/KanDic;component/Cache/icon/YX.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/YX.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/YX1.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/YX1.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -46,17 +32,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/KanDic;component/Cache/icon/YZ.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/YZ.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/YZ1.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/YZ1.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -67,10 +46,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/KanDic;component/Cache/icon/battle/00.PNG" Margin="1.5" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Source="/KanDic;component/Cache/icon/battle/00.PNG" Margin="1.5" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="False"/>
                     </ControlTemplate.Triggers>
@@ -545,24 +521,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/1.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/1.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/2.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/2.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/2.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/2.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -574,24 +539,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/3.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/3.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/4.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/4.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/4.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/4.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -604,24 +558,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/5.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/5.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/6.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/6.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/6.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/6.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -634,24 +577,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/7.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/7.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/8.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/8.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/8.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/8.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -664,24 +596,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/9.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/9.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/10.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/10.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/10.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/10.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -694,24 +615,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/icon/battle/11.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/icon/battle/11.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/12.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/12.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/icon/battle/12.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/icon/battle/12.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

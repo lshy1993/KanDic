@@ -27,17 +27,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/Cache/Calculate/bt1.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/Cache/Calculate/bt1.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/Cache/Calculate/bt11.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/Cache/Calculate/bt11.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -48,17 +41,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/Cache/Calculate/bt2.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/Cache/Calculate/bt2.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/Cache/Calculate/bt21.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/Cache/Calculate/bt21.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -69,17 +55,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Grid>
-                        <Image Source="/Cache/Calculate/bt3.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/Cache/Calculate/bt3.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/Cache/Calculate/bt31.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/Cache/Calculate/bt31.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -90,24 +69,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/Calculate/team1.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team1.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team11.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team11.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team11.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team11.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -118,24 +86,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/Calculate/team2.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team2.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team21.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team21.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team21.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team21.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -146,24 +103,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/Calculate/team3.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team3.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team31.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team31.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team31.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team31.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -174,24 +120,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Grid Height="auto">
-                        <Image Source="/KanDic;component/Cache/Calculate/team4.PNG" Stretch="None"/>
-                        <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center" />
-                    </Grid>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team4.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team41.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team41.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Content">
-                                <Setter.Value>
-                                    <Image Source="/KanDic;component/Cache/Calculate/team41.PNG" Stretch="None"/>
-                                </Setter.Value>
-                            </Setter>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team41.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

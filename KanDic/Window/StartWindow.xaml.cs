@@ -111,5 +111,12 @@ namespace KanDic
             al.Owner = this;
             al.Show();
         }
+
+        private void Build_Click(object sender, RoutedEventArgs e)
+        {
+            Build bu = new Build();
+            bu.Owner = this;
+            bu.Show();
+        }
     }
 }

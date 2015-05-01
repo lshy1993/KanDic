@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="KanDic.Plugins.BuildBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="500">
+    <UserControl.Resources>
+        <ResourceDictionary Source="/KanDic;component/Resources/Style/BuildStyle.xaml"/>
+    </UserControl.Resources>
+    <Border BorderBrush="Gray" BorderThickness="1" Width="420" Height="65" Margin="5">
+        <DockPanel>
+            <StackPanel Width="100" DockPanel.Dock="Left" VerticalAlignment="Center">
+                <TextBlock Text="剩余时间" FontSize="16" HorizontalAlignment="Center"/>
+                <TextBlock Name="RestTime" Text="00:00:00" FontSize="20" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <Button Style="{DynamicResource ResourceKey=quick}" IsEnabled="False" DockPanel.Dock="Right" Margin="0,0,10,0"/>
+            <Grid>
+                <TextBlock Text="建造中ing" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Button Name="Input" Content="输入公式" Width="135" Margin="5" Click="Input_Click"/>
+            </Grid>
+        </DockPanel>
+    </Border>
+</UserControl>
