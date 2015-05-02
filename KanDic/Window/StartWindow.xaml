@@ -16,12 +16,26 @@
     MinHeight="600"
     MinWidth="800"
     
+    ShowIconOnTitleBar="True"
     EnableDWMDropShadow="True"
     
     ResizeMode="CanResizeWithGrip"
 
     WindowStartupLocation="CenterScreen">
-    
+
+    <Controls:MetroWindow.IconTemplate>
+        <DataTemplate>
+            <Grid Width="{TemplateBinding Width}"
+                 Height="{TemplateBinding Height}"
+                 Margin="2"
+                 Background="Transparent"
+                 RenderOptions.EdgeMode="Aliased"
+                 RenderOptions.BitmapScalingMode="HighQuality">
+                <Image Source="/KanDic;component/Icon/app.ico"/>
+            </Grid>
+        </DataTemplate>
+    </Controls:MetroWindow.IconTemplate>
+
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Click="Setting_Click">

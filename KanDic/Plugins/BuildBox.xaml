@@ -18,6 +18,7 @@
             <Grid>
                 <TextBlock Text="建造中ing" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <Button Name="Input" Content="输入公式" Width="135" Margin="5" Click="Input_Click"/>
+                <Button Name="GetShip" Content="获取" Width="135" Margin="5" Click="Get_Click" Visibility="Collapsed"/>
             </Grid>
         </DockPanel>
     </Border>

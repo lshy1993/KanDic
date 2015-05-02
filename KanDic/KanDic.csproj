@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon\app.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MahApps.Metro, Version=1.1.2.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -508,6 +511,14 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Icon\128.png" />
+    <Resource Include="Icon\16.png" />
+    <Resource Include="Icon\24.png" />
+    <Resource Include="Icon\256.png" />
+    <Resource Include="Icon\32.png" />
+    <Resource Include="Icon\48.png" />
+    <Resource Include="Icon\64.png" />
+    <Resource Include="Icon\app.ico" />
     <Resource Include="Cache\loading-d.png" />
     <Resource Include="Cache\icon\info\supply.PNG" />
     <Resource Include="Cache\ship.png" />

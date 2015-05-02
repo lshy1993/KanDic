@@ -16,11 +16,11 @@
                 <DataTemplate x:Key="datatmeplate">
                     <Border Margin="0,5" Background="#555555">
                         <StackPanel Orientation="Horizontal" Margin="5">
-                            <TextBlock Text="{Binding User}" Width="100"/>
+                            <TextBlock Text="{Binding NickName}" Width="100"/>
                             <TextBlock Text="{Binding NewGet}" Width="80"/>
-                            <TextBlock Text="{Binding UseFormula}" Width="170" ToolTip="油 / 钢 / 弹 / 铝：资"/>
-                            <TextBlock Text="{Binding FaceColor}" Width="80" ToolTip="数值越大，表示脸黑"/>
-                            <TextBlock Text="{Binding FormulaTimes}" Width="80" ToolTip="使用这个公式的次数"/>
+                            <TextBlock Text="{Binding Formula}" Width="170" ToolTip="油 / 钢 / 弹 / 铝：资"/>
+                            <TextBlock Text="{Binding FaceRate}" Width="80" ToolTip="数值越大，表示脸黑"/>
+                            <TextBlock Text="{Binding UseTimes}" Width="80" ToolTip="使用这个公式的次数"/>
                             <TextBlock Text="{Binding GetCount}" Width="80" ToolTip="公式建出的舰娘数"/>
                             <TextBlock Text="{Binding GetRate}" Width="80" ToolTip="这个公式的实际出货率"/>
                         </StackPanel>
@@ -62,7 +62,7 @@
                             <ResourceDictionary Source="/KanDic;component/Resources/Style/BuildStyle.xaml"/>
                         </StackPanel.Resources>
                         <Image Source="/KanDic;component/Cache/icon/build/build.PNG" Stretch="None"/>
-                        <Button Style="{DynamicResource ResourceKey=develop}"/>
+                        <Button Style="{DynamicResource ResourceKey=develop}" IsEnabled="False"/>
                     </StackPanel>
                     <StackPanel>
                         <box:BuildBox x:Name="dock1" docknum="1"/>
@@ -149,15 +149,15 @@
                 <Border BorderBrush="Gray" BorderThickness="1" DockPanel.Dock="Top">
                     <DockPanel Margin="5">
                         <TextBlock Text="最新出货消息：" Width="100"/>
-                        <TextBlock Text="（滚动播报）XXXX提督用玄学【4663】公式，成功建造【轻巡-那珂】一只！2015-04-30 0:10"/>
+                        <TextBlock Name="NewsText" Text="（滚动播报）XXXX提督用玄学【4663】公式，成功建造【轻巡-那珂】一只！2015-04-30 0:10"/>
                     </DockPanel>
                 </Border>
-                <StackPanel Orientation="Horizontal" Margin="5" DockPanel.Dock="Top">
-                    <TextBlock Text="晒脸排行榜："/>
-                    <RadioButton Content="大型建造-欧洲榜"/>
-                    <RadioButton Content="大型建造-非洲榜"/>
-                    <RadioButton Content="普通建造-欧洲榜"/>
-                    <RadioButton Content="普通建造-非洲榜"/>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="晒脸排行榜：" VerticalAlignment="Center" Margin="5"/>
+                    <RadioButton Content="建造-欧洲榜" IsChecked="True" Click="BoardMode_Click" Margin="5"/>
+                    <RadioButton Content="建造-非洲榜" Click="BoardMode_Click" Margin="5"/>
+                    <RadioButton Content="开发-欧洲榜" IsEnabled="False" Margin="5"/>
+                    <RadioButton Content="开发-非洲榜" IsEnabled="False" Margin="5"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="5" DockPanel.Dock="Top">
                     <TextBlock Text="提督名" Width="100"/>
@@ -169,7 +169,7 @@
                     <TextBlock Text="出货率" Width="80" ToolTip="这个公式的实际出货率"/>
                 </StackPanel>
                 <ScrollViewer VerticalScrollBarVisibility="Visible">
-                    <ItemsControl Name="leaderboard" ItemTemplate="{DynamicResource datatmeplate}" ItemsSource="{Binding}"/>
+                    <ItemsControl Name="LeaderBoard" ItemTemplate="{DynamicResource datatmeplate}" ItemsSource="{Binding}"/>
                 </ScrollViewer>
             </DockPanel>
         </DockPanel>

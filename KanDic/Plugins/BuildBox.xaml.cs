@@ -42,5 +42,12 @@ namespace KanDic.Plugins
             da.Duration = TimeSpan.FromSeconds(0.2);
             father.FormulaBox.BeginAnimation(Canvas.LeftProperty, da);
         }
+
+        private void Get_Click(object sender, RoutedEventArgs e)
+        {
+            Build father = (Build)Build.GetWindow(this);
+            father.builddock = docknum;
+            father.GetShip();
+        }
     }
 }
