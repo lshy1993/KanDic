@@ -55,7 +55,7 @@
                     <TextBlock Text="{Binding Aluminium}" VerticalAlignment="Center" Width="50"/>
                 </StackPanel>
             </Border>
-            <Canvas DockPanel.Dock="Top" Height="340" Width="700">
+            <Canvas DockPanel.Dock="Top" Height="330" Width="700">
                 <DockPanel>
                     <StackPanel DockPanel.Dock="Left" Width="250">
                         <StackPanel.Resources>
@@ -131,25 +131,36 @@
                         </DockPanel>
                     </StackPanel>
                 </StackPanel>
+                <Grid Name="ImageBox" Width="700" Height="330" Visibility="Collapsed" Cursor="Hand" MouseLeftButtonDown="Image_MLBD">
+                    <Image Source="/KanDic;component/Cache/getBG.png" Stretch="Fill"/>
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Image Name="ShipImage" Stretch="None"/>
+                        <TextBlock Name="ShipText"/>
+                    </StackPanel>
+                </Grid>
             </Canvas>
             <DockPanel Margin="5">
-                <DockPanel Margin="5" DockPanel.Dock="Top">
+                <DockPanel DockPanel.Dock="Top">
                     <StackPanel DockPanel.Dock="Right">
                         <TextBlock Text="注：程序仅为了博得提督们百忙中的一笑"/>
                         <TextBlock Text="数据完全基于玄学，不代表游戏中真实结果"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="仅供各位" VerticalAlignment="Bottom"/>
-                        <TextBlock Text="欧洲提督" FontSize="24"/>
+                        <TextBlock Text="仅供各位" VerticalAlignment="Center"/>
+                        <TextBlock Text="欧洲提督" FontSize="24" Margin="5,0"/>
                         <TextBlock Text="娱乐" VerticalAlignment="Center"/>
-                        <TextBlock Text="非洲提督" FontSize="24"/>
-                        <TextBlock Text="偷渡专用" VerticalAlignment="Center"/>
+                        <TextBlock Text="非洲提督" FontSize="24" Margin="5,0"/>
+                        <TextBlock Text="偷渡使用" VerticalAlignment="Center"/>
                     </StackPanel>
                 </DockPanel>
                 <Border BorderBrush="Gray" BorderThickness="1" DockPanel.Dock="Top">
                     <DockPanel Margin="5">
-                        <TextBlock Text="最新出货消息：" Width="100"/>
-                        <TextBlock Name="NewsText" Text="（滚动播报）XXXX提督用玄学【4663】公式，成功建造【轻巡-那珂】一只！2015-04-30 0:10"/>
+                        <TextBlock Text="最新出货消息：" Width="100" DockPanel.Dock="Left"/>
+                        <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <Canvas>
+                                <TextBlock Name="NewsText" Text="（滚动播报）XXXX提督用玄学【4663】公式，成功建造【轻巡-那珂】一只！2015-04-30 0:10"/>
+                            </Canvas>
+                        </ScrollViewer>
                     </DockPanel>
                 </Border>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">

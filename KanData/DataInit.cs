@@ -33,6 +33,15 @@ namespace KanData
             sw.Close();*/
         }
 
+        public Kan GetKan(int x)
+        {
+            for (int i = 0; i < 250; i++)
+            {
+                if (kanlist[i].Number == x) return kanlist[i];
+            }
+            return null;
+        }
+
         //读取ship.json
         private void Load_Kan()
         {

@@ -1,0 +1,16 @@
+﻿<Window x:Class="KanDic.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False"
+        Background="White"
+        Title="Register" Height="90" Width="300">
+    <DockPanel>
+        <TextBlock Text="提督，怎么称呼您？(请谨慎考虑，暂时无法更改)" Margin="5" DockPanel.Dock="Top"/>
+        <Button Name="OKB" Content="OK" IsEnabled="False" DockPanel.Dock="Bottom" Click="OKB_Click"/>
+        <Border BorderBrush="Gray" BorderThickness="1">
+            <TextBox Name="TB" Background="White" Foreground="Black" TextChanged="TextBox_TextChanged" VerticalContentAlignment="Center" TextAlignment="Center"/>
+        </Border>
+    </DockPanel>
+</Window>

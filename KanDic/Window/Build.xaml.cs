@@ -80,23 +80,25 @@ namespace KanDic
         public UserInfo tidu = new UserInfo();//提督信息
         public List<Board> nEurope = new List<Board>();//普建欧洲榜非洲榜
         public List<NEWS> news = new List<NEWS>();//最新播报列表
-        public int builddock, boardmode, fuel, steel, ammo, aluminium, material, timecount;
-        //建造队列，排行类型，油，钢，弹，铝，资材，计时器
-        public string userseed;
+        public int builddock, boardmode, fuel, steel, ammo, aluminium, material, timecount, newscount;
+        //建造队列，排行类型，油，钢，弹，铝，资材，计时器，新闻队列
+        public string userseed, nickname;
+        public KanData.DataInit di = new KanData.DataInit();
 
         public Build()
         {
             InitializeComponent();
             try
             {
-                userseed = ConfigurationManager.AppSettings["randomseed"];
                 //检测是否首次开启
                 if (ConfigurationManager.AppSettings["nickname"] == "")
                 {
-                    //注册网名与seed对应
-                    Register();
+                    Register();//注册网名与seed对应
                 }
+                userseed = ConfigurationManager.AppSettings["randomseed"];
+                nickname = ConfigurationManager.AppSettings["nickname"];
                 boardmode = 1;
+                newscount = 0;
                 //下载用户数据
                 DownloadUser();
                 DownloadBoard();
@@ -119,8 +121,12 @@ namespace KanDic
 
         private void Register()
         {
-            tidu.NickName = "lucky";
-            //MessageBox.Show("测试阶段无须用户名");
+            Register ri = new Register();
+            ri.ShowDialog();
+            Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            cfa.AppSettings.Settings["nickname"].Value = ri.nickname;
+            cfa.Save(ConfigurationSaveMode.Modified);
+            ConfigurationManager.RefreshSection("appSettings");
         }
 
         private void UIRefresh()
@@ -132,14 +138,38 @@ namespace KanDic
         #region 拿到船并提交数据
         public void GetShip()
         {
+            string strname = di.GetKan(tidu.ShipID[builddock - 1]).Name;
+            string strimg = "/Cache/ships/" + di.GetKan(tidu.ShipID[builddock - 1]).FileName + ".swf/Image 5.jpg";
+            ShipImage.Source = new BitmapImage(new Uri(strimg, UriKind.Relative));
+            ShipText.Text = "模拟建造结果，恭喜你获得【" + strname + "】";
+            ImageBox.Visibility = Visibility.Visible;
+            DoubleAnimation da = new DoubleAnimation();
+            da.From = 0;
+            da.To = 1;
+            da.Duration = TimeSpan.FromSeconds(0.3);
+            ImageBox.BeginAnimation(OpacityProperty,da);
+            string postData = "&userseed=" + userseed + "&dock=" + builddock;
+            string url = "http://1.pngbase.sinaapp.com/getship.php";
+            post(postData, url);
+            DownloadUser();
+        }
+        #endregion
 
+        #region 快速建造
+        public void QuickGet()
+        {
+            string postData = "&userseed=" + userseed + "&dock=" + builddock + "&quick=1";
+            string url = "http://1.pngbase.sinaapp.com/getship.php";
+            post(postData, url);
+            DownloadUser();
+            timer_Tick(null, null);
         }
         #endregion
 
         #region 下载用户数据
         private void DownloadUser()
         {
-            string postData = "&userseed=" + userseed + "&nickname=" + tidu.NickName;
+            string postData = "&userseed=" + userseed + "&nickname=" + nickname;
             string url = "http://1.pngbase.sinaapp.com/userinfo.php";
             tidu = Newtonsoft.Json.JsonConvert.DeserializeObject<UserInfo>(post(postData, url));
             for (int i = 0; i < 4; i++)
@@ -171,6 +201,10 @@ namespace KanDic
             string postData = "&boardmode=" + boardmode;
             string url = "http://1.pngbase.sinaapp.com/board.php";
             nEurope = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Board>>(post(postData, url));
+            if (nEurope != null)
+            {
+                for (int i = 0; i < nEurope.Count; i++) nEurope[i].NewGet = di.GetKan(nEurope[i].ShipID).Name;
+            }
         }
         #endregion
 
@@ -212,6 +246,7 @@ namespace KanDic
         }
         #endregion
 
+        #region 开始建造提交公式
         private void BuildStart_Click(object sender, RoutedEventArgs e)
         {
             material = 1;
@@ -220,8 +255,10 @@ namespace KanDic
             string url = "http://1.pngbase.sinaapp.com/build.php";
             post(postData, url);
             DownloadUser();
+            UIRefresh();
             FormulaAnimation();
         }
+        #endregion
 
         #region 计时器工作内容
         void timer_Tick(object sender, EventArgs e)
@@ -230,48 +267,56 @@ namespace KanDic
             if (tidu.WaitTime[0].Equals(new TimeSpan(0)))
             {
                 dock1.Input.Visibility = Visibility.Visible;
+                dock1.Quick.IsEnabled = false;
                 if (tidu.ShipID[0] != 0) dock1.GetShip.Visibility = Visibility.Visible;
             }
             else
             {
                 dock1.Input.Visibility = Visibility.Collapsed;
                 dock1.GetShip.Visibility = Visibility.Collapsed;
+                dock1.Quick.IsEnabled = true;
                 tidu.WaitTime[0] = tidu.WaitTime[0].Subtract(new TimeSpan(0, 0, 1));
             }
             //队列二
             if (tidu.WaitTime[1].Equals(new TimeSpan(0)))
             {
                 dock2.Input.Visibility = Visibility.Visible;
+                dock2.Quick.IsEnabled = false;
                 if (tidu.ShipID[1] != 0) dock2.GetShip.Visibility = Visibility.Visible;
             }
             else
             {
                 dock2.Input.Visibility = Visibility.Collapsed;
                 dock2.GetShip.Visibility = Visibility.Collapsed;
+                dock2.Quick.IsEnabled = true;
                 tidu.WaitTime[1] = tidu.WaitTime[1].Subtract(new TimeSpan(0, 0, 1));
             }
             //队列三
             if (tidu.WaitTime[2].Equals(new TimeSpan(0)))
             {
                 dock3.Input.Visibility = Visibility.Visible;
+                dock3.Quick.IsEnabled = false;
                 if (tidu.ShipID[2] != 0) dock3.GetShip.Visibility = Visibility.Visible;
             }
             else
             {
                 dock3.Input.Visibility = Visibility.Collapsed;
                 dock3.GetShip.Visibility = Visibility.Collapsed;
+                dock3.Quick.IsEnabled = true;
                 tidu.WaitTime[2] = tidu.WaitTime[2].Subtract(new TimeSpan(0, 0, 1));
             }
             //队列四
             if (tidu.WaitTime[3].Equals(new TimeSpan(0)))
             {
                 dock4.Input.Visibility = Visibility.Visible;
+                dock4.Quick.IsEnabled = false;
                 if (tidu.ShipID[3] != 0) dock4.GetShip.Visibility = Visibility.Visible;
             }
             else
             {
                 dock4.Input.Visibility = Visibility.Collapsed;
                 dock4.GetShip.Visibility = Visibility.Collapsed;
+                dock4.Quick.IsEnabled = true;
                 tidu.WaitTime[3] = tidu.WaitTime[3].Subtract(new TimeSpan(0, 0, 1));
             }
             //文字显示
@@ -287,9 +332,20 @@ namespace KanDic
                 UIRefresh();
                 timecount = 0;
             }
-            if (timecount % 10 == 0)
+            if (news != null)
             {
-                NewsText.Text = news[0].NickName + "提督用玄学【" + news[0].Formula + "】公式，成功建造【" + news[0].ShipID + "】一只！" + news[0].LastTime;
+                if (timecount % 5 == 0)
+                {
+                    if (newscount >= news.Count) newscount = 0;
+                    string shipname = di.GetKan(news[newscount].ShipID).Name;
+                    NewsText.Text = news[newscount].NickName + "提督用玄学【" + news[newscount].Formula + "】公式，成功建造【" + shipname + "】一只！" + news[newscount].LastTime;
+                    DoubleAnimation da = new DoubleAnimation();
+                    da.From = -20;
+                    da.To = 0;
+                    da.Duration = TimeSpan.FromSeconds(0.3);
+                    NewsText.BeginAnimation(Canvas.TopProperty, da);
+                    newscount++;
+                }
             }
             timecount++;
         }
@@ -303,6 +359,11 @@ namespace KanDic
         private void Rectangle_MLBD(object sender, MouseButtonEventArgs e)
         {
             FormulaAnimation();
+        }
+
+        private void Image_MLBD(object sender, MouseButtonEventArgs e)
+        {
+            ImageBox.Visibility = Visibility.Collapsed;
         }
 
         private void FormulaAnimation()
@@ -325,7 +386,9 @@ namespace KanDic
                 boardmode = 2;
             }
             DownloadBoard();
+            DownloadNews();
             UIRefresh();
         }
+
     }
 }

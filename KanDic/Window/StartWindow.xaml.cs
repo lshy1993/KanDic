@@ -118,5 +118,22 @@ namespace KanDic
             bu.Owner = this;
             bu.Show();
         }
+
+        private void Grid_MLBD(object sender, MouseButtonEventArgs e)
+        {
+            Grid temp = sender as Grid;
+            int tabnum = Convert.ToInt32(temp.Tag) - 1;
+            if (tabnum < 7)
+            {
+                this.TabCtrl.SelectedIndex = tabnum;
+                this.WelcomPanel.Visibility = Visibility.Collapsed;
+                this.MainPanel.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                KanDic.Plugins.Calculator win = new KanDic.Plugins.Calculator();
+                win.Show();
+            }
+        }
     }
 }

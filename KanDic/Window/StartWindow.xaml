@@ -67,31 +67,88 @@
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
         <Grid Name="WelcomPanel">
+            <Grid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                </Style>
+            </Grid.Resources>
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <Controls:Tile Count="舰娘" Title="1" TiltFactor="1" Width="424" Height="208" Click="Tile_Click"/>
-                    <StackPanel Width="212" Height="208">
-                        <StackPanel Orientation="Horizontal">
-                            <Controls:Tile Count="装备" Title="2" TiltFactor="2" Width="100" Height="100" Click="Tile_Click"/>
-                            <Controls:Tile Count="远征" Title="3" TiltFactor="3" Width="100" Height="100" Click="Tile_Click"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <Controls:Tile Count="任务" Title="4" TiltFactor="4" Width="100" Height="100" Click="Tile_Click"/>
-                            <Controls:Tile Count="阵型" Title="5" TiltFactor="5" Width="100" Height="100" Click="Tile_Click"/>
-                        </StackPanel>
-                    </StackPanel>
+                    <Grid Width="412" Height="204" Tag="1" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                        <Image Source="/KanDic;component/Cache/title1.jpg" Stretch="UniformToFill"/>
+                        <Rectangle Fill="#AA466e8c" Height="51" VerticalAlignment="Bottom"/>
+                        <DockPanel VerticalAlignment="Bottom" Height="51">
+                            <TextBlock Text="舰娘图鉴" FontSize="40" VerticalAlignment="Center" DockPanel.Dock="Right" Margin="5"/>
+                            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5">
+                                <TextBlock Text="缺啥 赌啥" FontSize="18"/>
+                                <TextBlock Text="KAN·ALBUM" FontSize="18"/>
+                            </StackPanel>
+                        </DockPanel>
+                    </Grid>
+                    <WrapPanel Width="208" Height="208">
+                        <Grid Background="#466e8c" Width="100" Height="100" Tag="2" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="装备一览" FontSize="20"/>
+                                <TextBlock Text="烈风·91" FontSize="16"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#007777" Width="100" Height="100" Tag="3" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="远征图解" FontSize="20"/>
+                                <TextBlock Text="挂个铝" FontSize="16"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#325a6e" Width="100" Height="100" Tag="4" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="任务大全" FontSize="20"/>
+                                <TextBlock Text="卡五航" FontSize="16"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#466e8c" Width="100" Height="100" Tag="5" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="阵型解释" FontSize="20"/>
+                                <TextBlock Text="单纵就是干" FontSize="16"/>
+                            </StackPanel>
+                        </Grid>
+                    </WrapPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Controls:Tile Count="攻略速报" Title="6" TiltFactor="6" Width="208" Height="208" Click="Web_Click"/>
+                    <Grid Background="#b05757" Width="204" Height="204" Tag="1" MouseLeftButtonDown="Web_Click" Margin="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="攻略速报" FontSize="36"/>
+                            <TextBlock Text="科学作死，不叫作死" FontSize="20"/>
+                        </StackPanel>
+                    </Grid>
                     <StackPanel>
-                        <Controls:Tile Count="改修" Title="7" TiltFactor="6" Width="208" Height="100" Click="Tile_Click"/>
-                        <Controls:Tile Count="地图" Title="8" TiltFactor="7" Width="208" Height="100" Click="Tile_Click"/>
+                        <Grid Background="#826e5a" Width="204" Height="100" Tag="6" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="改修工厂" FontSize="28"/>
+                                <TextBlock Text="你们聊，我去捞明石" FontSize="18"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#826e5a" Width="204" Height="100" Tag="7" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="地图详解" FontSize="28"/>
+                                <TextBlock Text="科学爆肝，再也不沟了" FontSize="18"/>
+                            </StackPanel>
+                        </Grid>
                     </StackPanel>
-                    <Controls:Tile Count="舰队模拟器" Title="9" TiltFactor="8" Width="208" Height="208" Click="Tile_Click"/>
+                    <Grid Background="Gray" Width="204" Height="204" Tag="8" MouseLeftButtonDown="Grid_MLBD" Margin="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="舰队模拟器" FontSize="36"/>
+                            <TextBlock Text="黑科技，先行剧透" FontSize="20"/>
+                        </StackPanel>
+                    </Grid>
                 </StackPanel>
             </StackPanel>
-            <Controls:Tile Count="知运势" Title="舰娘黄历" VerticalAlignment="Center" HorizontalAlignment="Left" Click="Huang_Click"/>
-            <Controls:Tile Count="验血统" Title="模拟建造" VerticalAlignment="Center" HorizontalAlignment="Right" Click="Build_Click"/>
+            <Grid VerticalAlignment="Center" Background="#42484c" HorizontalAlignment="Left" MouseLeftButtonDown="Huang_Click">
+                <TextBlock Text="知&#13;运&#13;势" FontSize="30" Margin="10,50"/>
+            </Grid>
+            <Grid VerticalAlignment="Center" Background="#42484c" HorizontalAlignment="Right" MouseLeftButtonDown="Build_Click">
+                <TextBlock Text="验&#13;血&#13;统" FontSize="30" Margin="10,50"/>
+            </Grid>
         </Grid>
         <Canvas Name="MainPanel">
             <TabControl Name="TabCtrl" Canvas.Top="5" HorizontalAlignment="Left" VerticalAlignment="Top"

@@ -115,7 +115,8 @@ namespace KanDic
             }
             catch
             {
-                MessageBox.Show("无法获取最新黄历信息QAQ");
+                MessageBox.Show("无法获取最新黄历信息QAQ\n请检查网络是否连接！");
+                this.Close();
                 /*
                 System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
                 System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.huang.json");

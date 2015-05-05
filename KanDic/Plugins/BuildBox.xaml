@@ -14,7 +14,7 @@
                 <TextBlock Text="剩余时间" FontSize="16" HorizontalAlignment="Center"/>
                 <TextBlock Name="RestTime" Text="00:00:00" FontSize="20" HorizontalAlignment="Center"/>
             </StackPanel>
-            <Button Style="{DynamicResource ResourceKey=quick}" IsEnabled="False" DockPanel.Dock="Right" Margin="0,0,10,0"/>
+            <Button Name="Quick" Style="{DynamicResource ResourceKey=quick}" IsEnabled="False" DockPanel.Dock="Right" Margin="0,0,10,0" Click="Quick_Click"/>
             <Grid>
                 <TextBlock Text="建造中ing" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <Button Name="Input" Content="输入公式" Width="135" Margin="5" Click="Input_Click"/>

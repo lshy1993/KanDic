@@ -55,17 +55,13 @@ namespace KanDic.Window
             temptb.Text = String.Format("{0:T}", new TimeSpan(kanmusu.Hour, kanmusu.Minute, 0));
             TimePanel.Children.Add(temptb);
             //补给量
-            Draw_Supply(Supply1, false);
-            Draw_Supply(Supply2, false);
-            Draw_Supply(Supply3, true);
-            Draw_Supply(Supply4, true);
             MainData.DataContext = kanmusu;
             //SobiList.DataContext = new SobiIcon(kanmusu.Equip1, kanmusu.Equip2, kanmusu.Equip3, kanmusu.Equip4);
             Show_Chart();
         }
         #endregion
 
-        #region 绘制补给格
+        /* 绘制补给格
         private void Draw_Supply(StackPanel temp,bool ifall)
         {
             for (int i = 1; i <= 10; i++)
@@ -89,7 +85,7 @@ namespace KanDic.Window
                 }
             }
         }
-        #endregion
+        */
 
         #region Visifire表格生成
         private void Show_Chart()

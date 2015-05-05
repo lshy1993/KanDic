@@ -195,6 +195,9 @@
     <Compile Include="Window\KanDetail.xaml.cs">
       <DependentUpon>KanDetail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window\Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>
     </Compile>
@@ -380,6 +383,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Window\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Window\Setting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -511,6 +518,8 @@
     <Resource Include="Cache\icon\info\lv.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Cache\title2.jpg" />
+    <Resource Include="Cache\title1.jpg" />
     <Resource Include="Icon\128.png" />
     <Resource Include="Icon\16.png" />
     <Resource Include="Icon\24.png" />
@@ -520,7 +529,6 @@
     <Resource Include="Icon\64.png" />
     <Resource Include="Icon\app.ico" />
     <Resource Include="Cache\loading-d.png" />
-    <Resource Include="Cache\icon\info\supply.PNG" />
     <Resource Include="Cache\ship.png" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 1.jpg" />
     <Resource Include="Cache\ships\ugxgvgtjsxud.swf\Image 5.jpg" />
@@ -1370,6 +1378,10 @@
     <Resource Include="Cache\icon\battle\00.PNG" />
     <Resource Include="Cache\alipay.png" />
     <Resource Include="Cache\error.png" />
+    <Resource Include="Cache\icon\info\empty.PNG" />
+    <Resource Include="Cache\icon\info\full.PNG" />
+    <Resource Include="Cache\Calculate\backDay.png" />
+    <Resource Include="Cache\Calculate\backNight.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2076,6 +2088,7 @@
     <Resource Include="Cache\icon\build\dstartd.PNG" />
     <Resource Include="Cache\icon\build\hbuild.PNG" />
     <Resource Include="Cache\icon\build\nbuild.PNG" />
+    <Resource Include="Cache\getBG.png" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

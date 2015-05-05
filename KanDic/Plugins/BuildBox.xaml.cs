@@ -48,6 +48,15 @@ namespace KanDic.Plugins
             Build father = (Build)Build.GetWindow(this);
             father.builddock = docknum;
             father.GetShip();
+            GetShip.Visibility = Visibility.Collapsed;
+        }
+
+        private void Quick_Click(object sender, RoutedEventArgs e)
+        {
+            Build father = (Build)Build.GetWindow(this);
+            father.builddock = docknum;
+            father.QuickGet();
+            Quick.IsEnabled = false;
         }
     }
 }

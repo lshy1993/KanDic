@@ -295,17 +295,21 @@
                             </Grid.RowDefinitions>
                             <TextBlock Text="一战" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="5,0"/>
                             <TextBlock Text="四次+夜战" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Margin="5,0"/>
-                            <StackPanel Name="Supply1" Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
                                 <Image Source="/KanDic;component/Cache/icon/info/fuel.PNG" Stretch="None"/>
+                                <Image Source="/KanDic;component/Cache/icon/info/full.PNG" Stretch="None" Margin="5,0"/>
                             </StackPanel>
-                            <StackPanel Name="Supply2" Orientation="Horizontal" Grid.Row="0" Grid.Column="3">
+                            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="3">
                                 <Image Source="/KanDic;component/Cache/icon/info/ammo.PNG" Stretch="None" />
+                                <Image Source="/KanDic;component/Cache/icon/info/full.PNG" Stretch="None" Margin="5,0"/>
                             </StackPanel>
-                            <StackPanel Name="Supply3" Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+                            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
                                 <Image Source="/KanDic;component/Cache/icon/info/fuel.PNG" Stretch="None"/>
+                                <Image Source="/KanDic;component/Cache/icon/info/empty.PNG" Stretch="None" Margin="5,0"/>
                             </StackPanel>
-                            <StackPanel Name="Supply4" Orientation="Horizontal" Grid.Row="1" Grid.Column="3">
+                            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="3">
                                 <Image Source="/KanDic;component/Cache/icon/info/ammo.PNG" Stretch="None" />
+                                <Image Source="/KanDic;component/Cache/icon/info/empty.PNG" Stretch="None" Margin="5,0"/>
                             </StackPanel>
                             <TextBlock Text="{Binding Fuel}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2"/>
                             <TextBlock Text="{Binding Ammo}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="4"/>
