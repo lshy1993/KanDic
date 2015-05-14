@@ -16,6 +16,7 @@ namespace KanData
         public List<Map> maplist = new List<Map>();
         public List<Quest> questlist = new List<Quest>();
         public List<Expedition> explist = new List<Expedition>();
+        public List<Revamp> revamplist = new List<Revamp>();
         public UpdateInfo updateinfo = new UpdateInfo();
 
         public DataInit()
@@ -26,6 +27,7 @@ namespace KanData
             Load_Exp();
             Load_Map();
             Load_Quest();
+            Load_Revamp();
             /*StreamWriter sw = new StreamWriter("D:\\test2.txt",false,Encoding.UTF8);
             var content = Newtonsoft.Json.JsonConvert.SerializeObject(kanlist);
             sw.Write(content);
@@ -80,6 +82,16 @@ namespace KanData
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
             questlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Quest>>(html);
+        }
+
+        //读取revamp.json
+        private void Load_Revamp()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.revamp.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            revamplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Revamp>>(html);
         }
 
         #region 读取xml并生成Soubi类

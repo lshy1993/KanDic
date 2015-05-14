@@ -5,9 +5,9 @@
         WindowStartupLocation="CenterScreen"
         ShowInTaskbar="False"
         Background="White"
-        Title="Register" Height="90" Width="300">
+        Title="Register" Height="105" Width="300">
     <DockPanel>
-        <TextBlock Text="提督，怎么称呼您？(请谨慎考虑，暂时无法更改)" Margin="5" DockPanel.Dock="Top"/>
+        <TextBlock Text="提督，怎么称呼您？&#13;（尽量不要用奇♂奇♂怪♀怪♀的符号，无法更换）" Margin="5" DockPanel.Dock="Top"/>
         <Button Name="OKB" Content="OK" IsEnabled="False" DockPanel.Dock="Bottom" Click="OKB_Click"/>
         <Border BorderBrush="Gray" BorderThickness="1">
             <TextBox Name="TB" Background="White" Foreground="Black" TextChanged="TextBox_TextChanged" VerticalContentAlignment="Center" TextAlignment="Center"/>

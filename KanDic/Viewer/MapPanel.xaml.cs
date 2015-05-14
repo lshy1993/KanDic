@@ -15,7 +15,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KanData;
 using KanDic.Resources;
-using System.Xml;
 using System.Reflection;
 
 namespace KanDic.Viewer
@@ -26,12 +25,16 @@ namespace KanDic.Viewer
     public partial class MapPanel : UserControl
     {
         public static Map[] maps = new Map[200];
-        public int num, tagnum, radionum, buttonnum;
+        public int num, tagnum, radionum, buttonnum, windex;
+        public double rate1, rate2, rate3;
         public System.Windows.Window mainwindow;
 
         public MapPanel()
         {
             InitializeComponent();
+            rate1 = 1;
+            rate2 = 1;
+            rate3 = 0;
         }
 
         #region 选择关卡标签
@@ -186,16 +189,17 @@ namespace KanDic.Viewer
             EnermyButton.Children.Clear();
             for (int i = 0; i < maps[tagnum].Pattern.Count; i++)
             {
-                Button_Init(maps[tagnum].Pattern[i].ShipList);
+                Button_Init(i);
             }
         }
 
-        private void Button_Init(string x)
+        private void Button_Init(int i)
         {
-            if (x == null) return;
+            if (maps[tagnum].Pattern[i].ShipList == null) return;
             Button tempbut = new Button();
             tempbut.Click += Enermy_Detail;
-            tempbut.Content = x;
+            tempbut.Tag = i.ToString();
+            tempbut.Content = maps[tagnum].Pattern[i].ShipList;
             EnermyButton.Children.Add(tempbut);
         }
         #endregion
@@ -248,7 +252,8 @@ namespace KanDic.Viewer
                     break;
                 }
             }
-            MahApps.Metro.Controls.MetroWindow win = new Window.EnermySet((string)xx.Content);
+            int temp = Convert.ToInt32(xx.Tag);
+            MahApps.Metro.Controls.MetroWindow win = new Window.EnermySet(maps[tagnum].Pattern[temp]);
             win.Owner = mainwindow;
             win.Show();
         }
@@ -272,5 +277,64 @@ namespace KanDic.Viewer
             ResetPos();
         }
 
+        #region 经验计算部分
+        private void WinMode_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            windex = ((ComboBox)sender).SelectedIndex;
+            switch (windex)
+            {
+                case 0:
+                    rate3 = 1.2;
+                    break;
+                case 1:
+                    rate3 = 1;
+                    break;
+                case 2:
+                    rate3 = 1;
+                    break;
+                case 3:
+                    rate3 = 0.8;
+                    break;
+                case 4:
+                    rate3 = 0.7;
+                    break;
+                case 5:
+                    rate3 = 0.5;
+                    break;
+                default:
+                    rate3 = 0;
+                    break;
+            }
+            ExpShow();
+        }
+
+        private void MVP_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            rate1 = (bool)cb.IsChecked ? 2 : 1;
+            ExpShow();
+        }
+
+        private void Ultimate_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            rate2 = (bool)cb.IsChecked ? 1.5 : 1;
+            ExpShow();
+        }
+
+        private void ExpShow()
+        {
+            if (rate3 != 0)
+            {
+                int temp = Convert.ToInt32(maps[tagnum].Exp * rate1 * rate2 * rate3);
+                ExpCal.Text = temp.ToString();
+            }
+            else
+            {
+                ExpCal.Text = "请选择胜利状态";
+            }
+
+        }
+        #endregion
     }
 }

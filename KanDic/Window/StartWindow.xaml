@@ -171,7 +171,7 @@
                     <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="改修" Width="100">
-                    <viewer:Revamp MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                    <viewer:RevampPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="地图" Width="100">
                     <viewer:MapPanel VerticalAlignment="Center" HorizontalAlignment="Center"/>

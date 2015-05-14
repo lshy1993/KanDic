@@ -234,10 +234,12 @@ namespace KanDic
             {
                 KanDic.Window.EnermySet.enemys[i + 1] = di.enemylist[i];
             }
-            for (int i = 0; i < di.questlist.Count; i++)
+            /*for (int i = 0; i < di.questlist.Count; i++)
             {
                 KanDic.Viewer.QuestPanel.list.Add(di.questlist[i]);
-            }
+            }*/
+            KanDic.Viewer.QuestPanel.list = di.questlist;
+            KanDic.Viewer.RevampPanel.revamplist = di.revamplist;
             myTimer.Interval = new TimeSpan(0, 0, 0 ,1);
             myTimer.Tick += myTimer_Tick;
             myTimer.Start();
@@ -250,8 +252,10 @@ namespace KanDic
             //首次使用联网获取seed
             if (ConfigurationManager.AppSettings["randomseed"] == "")
             {
+                var uid = new Guid();
+                uid.ToString().Replace("-", string.Empty);
                 Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                cfa.AppSettings.Settings["randomseed"].Value = getuserseed();
+                cfa.AppSettings.Settings["randomseed"].Value = uid.ToString().Replace("-", string.Empty);
                 cfa.Save(ConfigurationSaveMode.Modified);
                 ConfigurationManager.RefreshSection("appSettings");
             }
@@ -265,7 +269,7 @@ namespace KanDic
             string postData = "&userseed=" + userseed + "&os=" + strOS + "&ver=" + strVer;
             byte[] data = encoding.GetBytes(postData);
 
-            try
+            /*try
             {
                 HttpWebRequest htr = (HttpWebRequest)WebRequest.Create("http://1.pngbase.sinaapp.com/login.php");
                 htr.Method = "POST";
@@ -286,7 +290,7 @@ namespace KanDic
                 htr.Abort();
                 hwr.Close();
             }
-            catch { }
+            catch { }*/
         }
         #endregion
 

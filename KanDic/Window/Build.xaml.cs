@@ -220,8 +220,7 @@ namespace KanDic
         #region POST数据方法
         private string post(string postData, string url)
         {
-            ASCIIEncoding encoding = new ASCIIEncoding();
-            byte[] data = encoding.GetBytes(postData);
+            byte[] data = Encoding.UTF8.GetBytes(postData);
             //提交公式与紫菜
             HttpWebRequest htr = (HttpWebRequest)WebRequest.Create(url);
             htr.Method = "POST";

@@ -5095,7 +5095,7 @@
     "Code": "A",
     "xPos": 252,
     "yPos": 62,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "軽母ヌ級elite 軽巡ヘ級flagship 駆逐ロ級flagship 駆逐ロ級flagship 駆逐イ級elite 駆逐イ級elite",
@@ -5142,7 +5142,7 @@
     "Code": "C",
     "xPos": 163,
     "yPos": 238,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
@@ -5197,7 +5197,7 @@
     "Code": "F",
     "xPos": 274,
     "yPos": 194,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "軽巡ヘ級flagship 重巡リ級flagship 重巡リ級flagship 雷巡チ級elite 駆逐ニ級elite 駆逐ニ級elite",
@@ -5236,7 +5236,7 @@
     "Code": "G",
     "xPos": 247,
     "yPos": 284,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "空母ヲ級flagship 重巡リ級flagship 重巡リ級elite 軽巡ホ級flagship 駆逐ハ級flagship 駆逐ハ級elite",
@@ -5275,7 +5275,7 @@
     "Code": "H",
     "xPos": 515,
     "yPos": 78,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "装甲空母鬼 装甲空母鬼 空母ヲ級flagship 軽巡ホ級flagship 駆逐ロ級elite 駆逐ロ級elite",
@@ -5314,7 +5314,7 @@
     "Code": "I",
     "xPos": 338,
     "yPos": 219,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "軽母ヌ級elite 駆逐ロ級flagship 駆逐ロ級flagship 潜水ヨ級flagship 潜水カ級elite 潜水カ級elite",
@@ -5361,7 +5361,7 @@
     "Code": "K",
     "xPos": 588,
     "yPos": 209,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "装甲空母姫 軽母ヌ級elite 軽母ヌ級elite 戦艦ル級flagship 駆逐ニ級elite 潜水カ級elite",
@@ -5416,7 +5416,7 @@
     "Code": "N",
     "xPos": 449,
     "yPos": 326,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "戦艦ル級flagship 軽巡ヘ級flagship 雷巡チ級elite 雷巡チ級elite 駆逐ロ級flagship 駆逐ニ級elite",
@@ -5455,7 +5455,7 @@
     "Code": "O",
     "xPos": 612,
     "yPos": 287,
-    "Exp": 400,
+    "Exp": 420,
     "Pattern": [
       {
         "ShipList": "輸送ワ級flagship 戦艦ル級flagship 戦艦ル級flagship 軽巡へ級flagship 駆逐ハ級elite 駆逐ハ級elite",

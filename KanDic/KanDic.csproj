@@ -110,6 +110,9 @@
     <Compile Include="Plugins\ReourceBox.xaml.cs">
       <DependentUpon>ReourceBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\RevampBox.xaml.cs">
+      <DependentUpon>RevampBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Plugins\Simulator\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
@@ -174,8 +177,8 @@
     <Compile Include="Viewer\QuestPanel.xaml.cs">
       <DependentUpon>QuestPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Revamp.xaml.cs">
-      <DependentUpon>Revamp.xaml</DependentUpon>
+    <Compile Include="Viewer\RevampPanel.xaml.cs">
+      <DependentUpon>RevampPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
@@ -224,6 +227,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Plugins\ReourceBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\RevampBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -355,7 +362,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Revamp.xaml">
+    <Page Include="Viewer\RevampPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -2089,6 +2096,9 @@
     <Resource Include="Cache\icon\build\hbuild.PNG" />
     <Resource Include="Cache\icon\build\nbuild.PNG" />
     <Resource Include="Cache\getBG.png" />
+    <Resource Include="Cache\icon\info\gaixiu.PNG" />
+    <Resource Include="Cache\icon\info\zicai.png" />
+    <Resource Include="Cache\icon\info\star.PNG" />
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

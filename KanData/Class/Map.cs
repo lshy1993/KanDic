@@ -28,6 +28,8 @@ namespace KanData
 
         public int Exp { set; get; }
 
+        public int ExpT { set; get; }
+
         public string NoBattle { set; get; }
 
         public Map() { }

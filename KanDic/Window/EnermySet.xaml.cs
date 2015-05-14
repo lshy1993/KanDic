@@ -29,7 +29,7 @@ namespace KanDic.Window
         public XmlDocument EnermyList = new XmlDocument();
         public string[] namelist;
 
-        public EnermySet(string x)
+        public EnermySet(Pattern shippattern)
         {
             InitializeComponent();
 
@@ -37,7 +37,12 @@ namespace KanDic.Window
             System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanDic.Resources.Data.Enermy.xml");
             EnermyList.Load(sStream);
 
-            namelist = x.Split(' ');
+            Formation.Text = "阵型："+shippattern.Formation;
+            AirA.Text = "敌制空：" + shippattern.AirBase;
+            AirB.Text = "确保：" + shippattern.AirAdvantage;
+            AirC.Text = "优势：" + shippattern.AirConfirm;
+
+            namelist = shippattern.ShipList.Split(' ');
             for (int i = 0; i < namelist.Length; i++)
             {
                 shinkai = new Enemy();
