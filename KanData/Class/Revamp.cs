@@ -15,6 +15,7 @@ namespace KanData
         public int Ammo { set; get; }
         public int Aluminium { set; get; }
         public List<bool> Week { set; get; }
+        public string Icon { set; get; }
         public int Position { set; get; }
         public string Target { set; get; }
         public string Secretary { set; get; }

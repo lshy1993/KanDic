@@ -2,6 +2,7 @@
 	{
 		"Name":"12.7cm連装砲",
 		"Type":"小口径主砲",
+        "Icon": "68.PNG",
 		"Fuel":10,
 		"Ammo":30,
 		"Steel":60,
@@ -18,6 +19,7 @@
 	{
 		"Name":"12.7cm連装砲B型改二",
 		"Type":"小口径主砲",
+        "Icon": "68.PNG",
 		"Fuel":10,
 		"Ammo":40,
 		"Steel":70,
@@ -34,6 +36,7 @@
 	{
 		"Name":"10cm連装高角砲 + 高射装置",
 		"Type":"小口径主砲",
+        "Icon": "68.PNG",
 		"Fuel":10,
 		"Ammo":60,
 		"Steel":150,
@@ -50,6 +53,7 @@
 	{
 		"Name":"14cm単装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":50,
 		"Steel":80,
@@ -66,6 +70,7 @@
 	{
 		"Name":"14cm連装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":60,
 		"Steel":100,
@@ -82,6 +87,7 @@
 	{
 		"Name":"15.5cm三連装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":90,
 		"Steel":120,
@@ -98,6 +104,7 @@
 	{
 		"Name":"20.3cm連装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":90,
 		"Steel":120,
@@ -114,6 +121,7 @@
 	{
 		"Name":"20.3cm(2号)連装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":100,
 		"Steel":130,
@@ -130,6 +138,7 @@
 	{
 		"Name":"20.3cm(3号)連装砲",
 		"Type":"中口径主砲",
+        "Icon": "70.PNG",
 		"Fuel":10,
 		"Ammo":110,
 		"Steel":140,
@@ -146,6 +155,7 @@
 	{
 		"Name":"35.6cm連装砲",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":20,
 		"Ammo":240,
 		"Steel":300,
@@ -162,6 +172,7 @@
 	{
 		"Name":"41cm連装砲",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":30,
 		"Ammo":350,
 		"Steel":480,
@@ -178,6 +189,7 @@
 	{
 		"Name":"38cm連装砲",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":20,
 		"Ammo":380,
 		"Steel":450,
@@ -194,6 +206,7 @@
 	{
 		"Name":"38cm連装砲改",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":30,
 		"Ammo":390,
 		"Steel":470,
@@ -210,6 +223,7 @@
 	{
 		"Name":"試製46cm連装砲",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":40,
 		"Ammo":420,
 		"Steel":650,
@@ -226,6 +240,7 @@
 	{
 		"Name":"46cm三連装砲",
 		"Type":"大口径主砲",
+        "Icon": "72.PNG",
 		"Fuel":50,
 		"Ammo":480,
 		"Steel":800,
@@ -242,6 +257,7 @@
 	{
 		"Name":"61cm三連装魚雷",
 		"Type":"魚雷",
+        "Icon": "76.PNG",
 		"Fuel":50,
 		"Ammo":70,
 		"Steel":60,
@@ -258,6 +274,7 @@
 	{
 		"Name":"61cm三連装(酸素)魚雷",
 		"Type":"魚雷",
+        "Icon": "76.PNG",
 		"Fuel":60,
 		"Ammo":90,
 		"Steel":60,
@@ -274,6 +291,7 @@
 	{
 		"Name":"61cm四連装魚雷",
 		"Type":"魚雷",
+        "Icon": "76.PNG",
 		"Fuel":70,
 		"Ammo":100,
 		"Steel":70,
@@ -290,6 +308,7 @@
 	{
 		"Name":"61cm四連装(酸素)魚雷",
 		"Type":"魚雷",
+        "Icon": "76.PNG",
 		"Fuel":80,
 		"Ammo":120,
 		"Steel":80,
@@ -306,6 +325,7 @@
 	{
 		"Name":"61cm五連装(酸素)魚雷",
 		"Type":"魚雷",
+        "Icon": "76.PNG",
 		"Fuel":100,
 		"Ammo":150,
 		"Steel":80,
@@ -322,6 +342,7 @@
 	{
 		"Name":"25mm連装機銃",
 		"Type":"対空機銃",
+        "Icon": "96.PNG",
 		"Fuel":0,
 		"Ammo":20,
 		"Steel":10,
@@ -338,6 +359,7 @@
 	{
 		"Name":"25mm三連装機銃",
 		"Type":"対空機銃",
+        "Icon": "96.PNG",
 		"Fuel":0,
 		"Ammo":30,
 		"Steel":20,
@@ -354,6 +376,7 @@
 	{
 		"Name":"91式高射装置",
 		"Type":"高射装置",
+        "Icon": "96.PNG",
 		"Fuel":0,
 		"Ammo":0,
 		"Steel":60,
@@ -370,6 +393,7 @@
 	{
 		"Name":"94式高射装置",
 		"Type":"高射装置",
+        "Icon": "96.PNG",
 		"Fuel":0,
 		"Ammo":0,
 		"Steel":60,
@@ -386,6 +410,7 @@
 	{
 		"Name":"九四式爆雷投射機",
 		"Type":"爆雷",
+        "Icon": "100.PNG",
 		"Fuel":10,
 		"Ammo":60,
 		"Steel":20,
@@ -402,6 +427,7 @@
 	{
 		"Name":"三式爆雷投射機",
 		"Type":"爆雷",
+        "Icon": "100.PNG",
 		"Fuel":10,
 		"Ammo":80,
 		"Steel":20,
@@ -418,6 +444,7 @@
 	{
 		"Name":"九三式水中聴音機",
 		"Type":"声呐",
+        "Icon": "102.PNG",
 		"Fuel":10,
 		"Ammo":0,
 		"Steel":30,
@@ -434,6 +461,7 @@
 	{
 		"Name":"三式水中探信儀",
 		"Type":"声呐",
+        "Icon": "102.PNG",
 		"Fuel":10,
 		"Ammo":0,
 		"Steel":30,
@@ -450,6 +478,7 @@
 	{
 		"Name":"九一式徹甲弾",
 		"Type":"彻甲弹",
+        "Icon": "92.PNG",
 		"Fuel":30,
 		"Ammo":150,
 		"Steel":310,
@@ -466,6 +495,7 @@
 	{
 		"Name":"一式徹甲弾",
 		"Type":"彻甲弹",
+        "Icon": "92.PNG",
 		"Fuel":30,
 		"Ammo":170,
 		"Steel":330,

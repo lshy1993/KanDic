@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using log4net;
 
 namespace KanDic
 {
@@ -17,6 +18,7 @@ namespace KanDic
         public string[] ColorType111 = { "Purple", "Red", "Green", "Blue", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
         public List<string> ColorType = new List<string>();
         public int ColorNumber;
+        public static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         protected override void OnStartup(StartupEventArgs e)
         {
@@ -44,8 +46,9 @@ namespace KanDic
                 App_Timer.Tick += new EventHandler(WindowColor_Change);
                 App_Timer.Start();
             }
-
+            log4net.Config.XmlConfigurator.Configure();
             base.OnStartup(e);
+            log.Info("==Startup=====================>>>");
         }
 
         private void WindowColor_Change(object sender, EventArgs e)
@@ -55,6 +58,12 @@ namespace KanDic
             MahApps.Metro.ThemeManager.ChangeAppStyle(Application.Current,
                                         MahApps.Metro.ThemeManager.GetAccent(ColorType[ColorNumber]),
                                         MahApps.Metro.ThemeManager.GetAppTheme("BaseDark"));
+        }
+
+        protected override void OnExit(ExitEventArgs e)
+        {
+            log.Info("<<<========================End==");
+            base.OnExit(e);
         }
         
     }

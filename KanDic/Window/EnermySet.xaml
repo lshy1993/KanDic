@@ -12,8 +12,8 @@
     WindowStartupLocation="CenterScreen">
     <DockPanel>
         <StackPanel Name="ImagePanel" Margin="5" DockPanel.Dock="Left"/>
-        <StackPanel>
-            <Border BorderBrush="Gray" BorderThickness="1" Background="{DynamicResource AccentColorBrush}">
+        <DockPanel>
+            <Border BorderBrush="Gray" BorderThickness="1" Background="{DynamicResource AccentColorBrush}" DockPanel.Dock="Bottom">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Name="Formation" Text="阵型" Margin="5"/>
                     <TextBlock Name="AirA" Text="阵型" Margin="5"/>
@@ -24,6 +24,6 @@
             <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
                 <StackPanel Name="DataPanel" Orientation="Horizontal"/>
             </ScrollViewer>
-        </StackPanel>
+        </DockPanel>
     </DockPanel>
 </Controls:MetroWindow>
