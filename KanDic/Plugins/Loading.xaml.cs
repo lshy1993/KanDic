@@ -126,7 +126,6 @@ namespace KanDic
             if (Version.Parse(ConfigurationManager.AppSettings["appver"]) < Version.Parse(updateInfo.AppVersion))
             {
                 Confirm cr = new Confirm(updateInfo.AppVersion);
-                cr.Owner = this;
                 if (!(bool)cr.ShowDialog()) DataLoading();
             }
             else

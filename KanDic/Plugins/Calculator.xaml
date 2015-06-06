@@ -9,7 +9,7 @@
     x:Class="KanDic.Plugins.Calculator"
     
     Title="舰队模拟器（测试版）"
-    Height="440" Width="695"
+    Height="820" Width="695"
     BorderThickness="1"
     EnableDWMDropShadow="True"
     ResizeMode="CanMinimize"
@@ -36,7 +36,7 @@
             <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
         </Grid.Resources>
         <Grid.RowDefinitions>
-            <RowDefinition Height="380"/>
+            <RowDefinition Height="375"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid Name="ShipDock" Margin="5">
@@ -312,22 +312,42 @@
                 </Canvas>
             </Canvas>
         </Canvas>
-        <Expander Header="计算结果" Grid.Row="1" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed" Margin="0">
-            <Expander.Resources>
+        <DockPanel Grid.Row="1" Background="White" Margin="0">
+            <DockPanel.Resources>
                 <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateResult.xaml"/>
-            </Expander.Resources>
-            <DockPanel Margin="0" Background="White">
-                <StackPanel DockPanel.Dock="Left" Background="#3f3f46">
-                    <RadioButton Name="rb1" Content="总览" IsChecked="True" Click="Over_Click"/>
-                    <RadioButton Name="rb2" Content="航空战" Click="Koukusen_Click"/>
-                    <RadioButton Name="rb3" Content="雷击战" Click="Raigekisen_Click"/>
-                    <RadioButton Name="rb4" Content="炮击战" Click="Hougekisen_Click"/>
-                    <RadioButton Name="rb5" Content="夜战" Click="Yasen_Click"/>
+            </DockPanel.Resources>
+            <Border DockPanel.Dock="Top" Background="{DynamicResource AccentColorBrush}">
+                <TextBlock Text="计算结果与模拟出击(测试)" Margin="3"/>
+            </Border>
+            <DockPanel DockPanel.Dock="Bottom" Background="#3f3f46" Height="55">
+                <StackPanel Margin="5" VerticalAlignment="Center">
+                    <TextBlock Text="关卡选择" Foreground="White"/>
+                    <ComboBox Name="BattleNum" Width="100" ItemsSource="{Binding}"/>
                 </StackPanel>
-                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="#2d2d30">
-                    <DockPanel Name="ResultPanel"/>
-                </ScrollViewer>
+                <StackPanel Margin="5" VerticalAlignment="Center">
+                    <TextBlock Text="战斗点" Foreground="White"/>
+                    <ComboBox Name="MapPoint" Width="60" ItemsSource="{Binding}"/>
+                </StackPanel>
+                <StackPanel Margin="5" VerticalAlignment="Center">
+                    <TextBlock Text="固定深海配置(未实装)" Foreground="White"/>
+                    <ComboBox Name="EnemySet" Width="150" ItemsSource="{Binding}" IsEnabled="False"/>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" DockPanel.Dock="Right">
+                    <CheckBox Content="自由模式(未实装)" Foreground="White" IsEnabled="False" Margin="5"/>
+                    <TextBlock Text="*任意设置敌方阵容" FontSize="12"/>
+                </StackPanel>
+                <Button Style="{StaticResource cjbutton}"/>
             </DockPanel>
-        </Expander>
+            <StackPanel DockPanel.Dock="Left" Background="#3f3f46">
+                <RadioButton Name="rb1" Content="总览" IsChecked="True" Click="Over_Click"/>
+                <RadioButton Name="rb2" Content="航空战" Click="Koukusen_Click"/>
+                <RadioButton Name="rb3" Content="雷击战" Click="Raigekisen_Click"/>
+                <RadioButton Name="rb4" Content="炮击战" Click="Hougekisen_Click"/>
+                <RadioButton Name="rb5" Content="夜战" Click="Yasen_Click"/>
+            </StackPanel>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="#2d2d30">
+                <DockPanel Name="ResultPanel"/>
+            </ScrollViewer>
+        </DockPanel>
     </Grid>
 </Controls:MetroWindow>

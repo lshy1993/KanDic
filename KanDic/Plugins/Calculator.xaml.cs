@@ -41,6 +41,7 @@ namespace KanDic.Plugins
         public Level commanderlv = new Level();
 
         public List<string> airplane = new List<string>() { "艦上戦闘機", "艦上爆撃機", "艦上攻撃機", "艦上偵察機", "水上爆撃機", "水上偵察機" };
+        public List<string> area = new List<string>() { "1-1", "1-2", "1-3", "1-4", "1-5", "2-1", "2-2", "2-3", "2-4", "2-5", "3-1", "3-2", "3-3", "3-4", "3-5", "4-1", "4-2", "4-3", "4-4", "4-5", "5-1", "5-2", "5-3", "5-4", "5-5", "6-1", "6-2" };
 
         public Calculator()
         {
@@ -61,6 +62,7 @@ namespace KanDic.Plugins
             Dock6.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/6.PNG", UriKind.Relative));
             ShipList_Change(shippage);
             SoubiList_Change(soubipage);
+            ComboBox_Init();
         }
 
         #region 形成船List
@@ -451,23 +453,11 @@ namespace KanDic.Plugins
         }
         #endregion
 
-        #region 计算结果栏展开
-        private void Expander_Expanded(object sender, RoutedEventArgs e)
+        #region 关卡初始化与选择
+        private void ComboBox_Init()
         {
-            DoubleAnimation da = new DoubleAnimation();
-            da.From = 455;
-            da.To = 800;
-            da.Duration = TimeSpan.FromSeconds(0.2);
-            this.BeginAnimation(HeightProperty, da);
-        }
-
-        private void Expander_Collapsed(object sender, RoutedEventArgs e)
-        {
-            DoubleAnimation da = new DoubleAnimation();
-            da.From = 800;
-            da.To = 455;
-            da.Duration = TimeSpan.FromSeconds(0.2);
-            this.BeginAnimation(HeightProperty, da);
+            BattleNum.ItemsSource = area;
+            BattleNum.SelectedIndex = 0;
         }
         #endregion
 

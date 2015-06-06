@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="KanDic.Viewer.RevampPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="510" d:DesignWidth="780">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <TextBlock Text="日期调整：" FontSize="14" VerticalAlignment="Center"/>
+            <Button Name="Prev" Content="周二" Click="Prev_Click"/>
+            <Border BorderThickness="2" BorderBrush="Red">
+                <TextBlock Name="NowDay" Text="周三" FontSize="14" VerticalAlignment="Center" Margin="5,0"/>
+            </Border>
+            <Button Name="Next" Content="周四" Click="Next_Click"/>
+        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <WrapPanel Name="MainContent" HorizontalAlignment="Center"/>
+        </ScrollViewer>
+    </DockPanel>
+</UserControl>

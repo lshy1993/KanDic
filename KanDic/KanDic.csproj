@@ -1604,6 +1604,9 @@
     <Resource Include="Cache\Calculate\shuxing.PNG" />
     <Resource Include="Cache\Calculate\next.PNG" />
     <Resource Include="Cache\Calculate\prev.PNG" />
+    <Resource Include="Cache\Calculate\battle.png" />
+    <Resource Include="Cache\Calculate\battle1.png" />
+    <Resource Include="Cache\Calculate\battle2.png" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
