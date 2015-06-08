@@ -101,16 +101,16 @@
                     <TextBlock Text="{Binding Number8}" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Margin="10"/>
                     <TextBlock Text="{Binding Number9}" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Margin="10"/>
                     <TextBlock Text="{Binding Number10}" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center" Margin="10"/>
-                    <Image MaxWidth="218" Tag="1" Source="{Binding Image1}" Grid.Column="0" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="2" Source="{Binding Image2}" Grid.Column="1" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="3" Source="{Binding Image3}" Grid.Column="2" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="4" Source="{Binding Image4}" Grid.Column="3" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="5" Source="{Binding Image5}" Grid.Column="4" Grid.Row="1" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="6" Source="{Binding Image6}" Grid.Column="0" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="7" Source="{Binding Image7}" Grid.Column="1" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="8" Source="{Binding Image8}" Grid.Column="2" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="9" Source="{Binding Image9}" Grid.Column="3" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
-                    <Image MaxWidth="218" Tag="10" Source="{Binding Image10}" Grid.Column="4" Grid.Row="3" Margin="5" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="1" Source="{Binding Image1}" Grid.Column="0" Grid.Row="1" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="2" Source="{Binding Image2}" Grid.Column="1" Grid.Row="1" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="3" Source="{Binding Image3}" Grid.Column="2" Grid.Row="1" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="4" Source="{Binding Image4}" Grid.Column="3" Grid.Row="1" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="5" Source="{Binding Image5}" Grid.Column="4" Grid.Row="1" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="6" Source="{Binding Image6}" Grid.Column="0" Grid.Row="3" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="7" Source="{Binding Image7}" Grid.Column="1" Grid.Row="3" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="8" Source="{Binding Image8}" Grid.Column="2" Grid.Row="3" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="9" Source="{Binding Image9}" Grid.Column="3" Grid.Row="3" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
+                    <Image MaxWidth="218" Tag="10" Source="{Binding Image10}" Grid.Column="4" Grid.Row="3" Margin="5" Cursor="Hand" MouseLeftButtonDown="Show_Detail"/>
                 </Grid>
             </ScrollViewer>
         </Grid>

@@ -612,11 +612,20 @@ namespace KanDic.Plugins
             if ((bool)rb1.IsChecked) Over_Click(null, null);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        //计算公式确认
+        private void Info_Click(object sender, RoutedEventArgs e)
         {
             Help hp = new Help();
             hp.Owner = this;
             hp.Show();
+        }
+
+        //模拟动态战斗
+        private void Battle_Click(object sender, RoutedEventArgs e)
+        {
+            BattleMain bm = new BattleMain();
+            bm.Owner = this;
+            bm.Show();
         }
     }
 }

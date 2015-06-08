@@ -14,11 +14,11 @@
     EnableDWMDropShadow="True"
     ResizeMode="CanMinimize"
     
-    WindowStartupLocation="Manual">
+    WindowStartupLocation="CenterScreen">
 
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
-            <Button Click="Button_Click">
+            <Button Click="Info_Click">
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
                         <Rectangle.OpacityMask>
@@ -317,7 +317,7 @@
                 <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateResult.xaml"/>
             </DockPanel.Resources>
             <Border DockPanel.Dock="Top" Background="{DynamicResource AccentColorBrush}">
-                <TextBlock Text="计算结果与模拟出击(测试)" Margin="3"/>
+                <TextBlock Text="计算结果与模拟出击(测试)" Margin="3" Foreground="White"/>
             </Border>
             <DockPanel DockPanel.Dock="Bottom" Background="#3f3f46" Height="55">
                 <StackPanel Margin="5" VerticalAlignment="Center">
@@ -334,9 +334,9 @@
                 </StackPanel>
                 <StackPanel VerticalAlignment="Center" DockPanel.Dock="Right">
                     <CheckBox Content="自由模式(未实装)" Foreground="White" IsEnabled="False" Margin="5"/>
-                    <TextBlock Text="*任意设置敌方阵容" FontSize="12"/>
+                    <TextBlock Text="*任意设置敌方阵容" FontSize="12" Foreground="White"/>
                 </StackPanel>
-                <Button Style="{StaticResource cjbutton}"/>
+                <Button Style="{StaticResource cjbutton}" Click="Battle_Click"/>
             </DockPanel>
             <StackPanel DockPanel.Dock="Left" Background="#3f3f46">
                 <RadioButton Name="rb1" Content="总览" IsChecked="True" Click="Over_Click"/>

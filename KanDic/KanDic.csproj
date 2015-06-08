@@ -116,6 +116,15 @@
     <Compile Include="Plugins\RevampBox.xaml.cs">
       <DependentUpon>RevampBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\Simulator\BattleMain.xaml.cs">
+      <DependentUpon>BattleMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\FormationPoint.xaml.cs">
+      <DependentUpon>FormationPoint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Simulator\FormSelect.xaml.cs">
+      <DependentUpon>FormSelect.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Plugins\Simulator\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
@@ -237,6 +246,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Plugins\Simulator\BattleMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\FormationPoint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\FormSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Plugins\Simulator\Help.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -290,6 +311,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\Style\EquipStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\FormSelectStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1390,8 +1415,47 @@
     <Resource Include="Cache\error.png" />
     <Resource Include="Cache\icon\info\empty.PNG" />
     <Resource Include="Cache\icon\info\full.PNG" />
-    <Resource Include="Cache\Calculate\backDay.png" />
-    <Resource Include="Cache\Calculate\backNight.png" />
+    <Resource Include="Cache\battle\formation1.png" />
+    <Resource Include="Cache\battle\formation2.png" />
+    <Resource Include="Cache\battle\formation3.png" />
+    <Resource Include="Cache\battle\formation4.png" />
+    <Resource Include="Cache\battle\formation5.png" />
+    <Resource Include="Cache\battle\Ty.png" />
+    <Resource Include="Cache\battle\Tl.png" />
+    <Resource Include="Cache\battle\font1-1.png" />
+    <Resource Include="Cache\battle\font1-2.png" />
+    <Resource Include="Cache\battle\font1-3.png" />
+    <Resource Include="Cache\battle\font2-1.png" />
+    <Resource Include="Cache\battle\font2-2.png" />
+    <Resource Include="Cache\battle\font3.png" />
+    <Resource Include="Cache\battle\form1.png" />
+    <Resource Include="Cache\battle\form2.png" />
+    <Resource Include="Cache\battle\form3.png" />
+    <Resource Include="Cache\battle\form4.png" />
+    <Resource Include="Cache\battle\form5.png" />
+    <Resource Include="Cache\battle\BGGreen.png" />
+    <Resource Include="Cache\battle\BGRed.png" />
+    <Resource Include="Cache\battle\TextDown.png" />
+    <Resource Include="Cache\battle\TextUp.png" />
+    <Resource Include="Cache\battle\NoReturn.png" />
+    <Resource Include="Cache\battle\StartSakuteki.png" />
+    <Resource Include="Cache\battle\FindNoReturn.png" />
+    <Resource Include="Cache\battle\NoFind.png" />
+    <Resource Include="Cache\battle\Find.png" />
+    <Resource Include="Cache\battle\TekikantaiMiyu.png" />
+    <Resource Include="Cache\battle\FormBG.png" />
+    <Resource Include="Cache\battle\GreenPoint.png" />
+    <Resource Include="Cache\battle\RedPoint.png" />
+    <Resource Include="Cache\battle\F1.png" />
+    <Resource Include="Cache\battle\F1_o.png" />
+    <Resource Include="Cache\battle\F2.png" />
+    <Resource Include="Cache\battle\F2_o.png" />
+    <Resource Include="Cache\battle\F3.png" />
+    <Resource Include="Cache\battle\F3_o.png" />
+    <Resource Include="Cache\battle\F4.png" />
+    <Resource Include="Cache\battle\F4_o.png" />
+    <Resource Include="Cache\battle\F5.png" />
+    <Resource Include="Cache\battle\F5_o.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1607,6 +1671,8 @@
     <Resource Include="Cache\Calculate\battle.png" />
     <Resource Include="Cache\Calculate\battle1.png" />
     <Resource Include="Cache\Calculate\battle2.png" />
+    <Resource Include="Cache\battle\BattleDay.png" />
+    <Resource Include="Cache\battle\BattleNight.png" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
