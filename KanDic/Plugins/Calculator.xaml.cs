@@ -625,7 +625,7 @@ namespace KanDic.Plugins
         {
             BattleMain bm = new BattleMain();
             bm.Owner = this;
-            bm.Show();
+            bm.ShowDialog();
         }
     }
 }

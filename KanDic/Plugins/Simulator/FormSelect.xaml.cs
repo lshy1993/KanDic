@@ -20,9 +20,13 @@ namespace KanDic.Plugins.Simulator
     /// </summary>
     public partial class FormSelect : UserControl
     {
-        public FormSelect(int formation, int teamnum)
+        public FormSelect()
         {
             InitializeComponent();
+        }
+
+        public void SetButton(int formation, int teamnum)
+        {
             Change_Button(formation);
             FormationPoint fp = new FormationPoint(formation, teamnum, false);
             MainCanvas.Children.Add(fp);
@@ -48,6 +52,12 @@ namespace KanDic.Plugins.Simulator
                     button.SetResourceReference(Button.StyleProperty, "formation5");
                     break;
             }
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            BattleMain bt = (BattleMain)BattleMain.GetWindow(this);
+            bt.GoAnimation();
         }
     }
 }

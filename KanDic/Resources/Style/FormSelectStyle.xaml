@@ -4,10 +4,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/F1.png" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/FormationButton1.png" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/F1_o.png"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/FormationButton1_o.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -18,10 +18,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/F2.png" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/FormationButton2.png" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/F2_o.png"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/FormationButton2_o.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -32,10 +32,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/F3.png" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/FormationButton3.png" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/F3_o.png"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/FormationButton3_o.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -46,10 +46,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/F4.png" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/FormationButton4.png" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/F4_o.png"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/FormationButton4_o.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -60,10 +60,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/F5.png" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanDic;component/Cache/battle/FormationButton5.png" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/F5_o.png"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/battle/FormationButton5_o.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

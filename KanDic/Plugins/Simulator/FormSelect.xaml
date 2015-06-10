@@ -10,7 +10,7 @@
         <Canvas.Resources>
             <ResourceDictionary Source="/KanDic;component/Resources/Style/FormSelectStyle.xaml"/>
         </Canvas.Resources>
-        <Image Source="/KanDic;component/Cache/battle/FormBG.png" Stretch="None"/>
-        <Button Name="button" Style="{DynamicResource formation1}" Canvas.Left="10" Canvas.Top="107"/>
+        <Image Source="/KanDic;component/Cache/battle/FormationBG.png" Stretch="None"/>
+        <Button Name="button" Style="{DynamicResource formation1}" Canvas.Left="10" Canvas.Top="107" Click="button_Click"/>
     </Canvas>
 </UserControl>

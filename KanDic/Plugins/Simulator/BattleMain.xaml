@@ -1,7 +1,7 @@
 ﻿<Window
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:form="clr-namespace:KanDic.Plugins.Simulator"
+    xmlns:sim="clr-namespace:KanDic.Plugins.Simulator"
     x:Class="KanDic.Plugins.Simulator.BattleMain"
     WindowStyle="None"
     Height="480" Width="800"
@@ -11,18 +11,39 @@
         <Image Source="/KanDic;component/Cache/battle/BattleNight.png" Stretch="None" Visibility="Collapsed"/>
         <Image Source="/KanDic;component/Cache/battle/BattleDay.png" Stretch="None"/>
         <Canvas Name="MainCanvas">
-            <Canvas Name="FormSelectCanvan" Width="800" Height="480"/>
+            <Canvas Name="FormSelectionCanvas" Width="800" Height="480">
+                <Image Name="TextBG" Source="/KanDic;component/Cache/battle/TextBG.png" Stretch="None" Canvas.Bottom="-93"/>
+                <TextBlock Name="MainText" Width="416" Height="68" Foreground="White" FontSize="20" Canvas.Left="302" Canvas.Bottom="5"/>
+                <sim:FormSelect x:Name="fs1"/>
+                <sim:FormSelect x:Name="fs2"/>
+                <sim:FormSelect x:Name="fs3"/>
+                <sim:FormSelect x:Name="fs4"/>
+                <sim:FormSelect x:Name="fs5"/>
+            </Canvas>
+            <Canvas Name="ShipTeam">
+                <sim:HitNumber x:Name="HitNum" Canvas.Left="10" Canvas.Top="50"/>
+            </Canvas>
             <Canvas Name="StartAnimationCanvas" Width="800" Height="480">
                 <Rectangle Name="RecB" Width="800" Fill="Black" Canvas.Top="402"/>
                 <Rectangle Name="RecT" Width="800" Fill="Black" Canvas.Top="78"/>
-                <Image Name="EnemyForm" Source="/KanDic;component/Cache/battle/form1.png" Stretch="None" Canvas.Top="22.5" Canvas.Left="-270"/>
-                <Image Name="TeamForm" Source="/KanDic;component/Cache/battle/formation1.png" Stretch="None" Canvas.Top="346.5" Canvas.Left="800"/>
-                <Image Name="Font1" Source="/KanDic;component/Cache/battle/font1-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="Font2" Source="/KanDic;component/Cache/battle/font2-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="Font3" Source="/KanDic;component/Cache/battle/font3.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="FormGood" Source="/KanDic;component/Cache/battle/Tl.png" Canvas.Top="238" Canvas.Left="272" Opacity="0"/>
+                <Image Name="EnemyForm" Source="/KanDic;component/Cache/battle/FormationEnemy1.png" Stretch="None" Canvas.Top="22.5" Canvas.Left="-270"/>
+                <Image Name="TeamForm" Source="/KanDic;component/Cache/battle/Formation1.png" Stretch="None" Canvas.Top="346.5" Canvas.Left="800"/>
+                <Image Name="Font1" Source="/KanDic;component/Cache/battle/Font1-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="Font2" Source="/KanDic;component/Cache/battle/Font2-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="Font3" Source="/KanDic;component/Cache/battle/Font3.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="FormGood" Source="/KanDic;component/Cache/battle/TGood.png" Canvas.Top="238" Canvas.Left="272" Opacity="0"/>
             </Canvas>
-            <Button Content="start" Click="Button_Click"/>
+            <Canvas Name="GoAnimationCanvas" Width="800" Height="480">
+                <Image Name="GoBlack" Source="/KanDic;component/Cache/battle/GoBlack.png" Height="0" Width="800" Stretch="Fill" Canvas.Top="240"/>
+                <Image Name="GoBar" Source="/KanDic;component/Cache/battle/GoBar.png" Stretch="None" Canvas.Top="206.5" Canvas.Left="800"/>
+                <Image Name="GoText2" Source="/KanDic;component/Cache/battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
+                <Image Name="GoText1" Source="/KanDic;component/Cache/battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
+            </Canvas>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="close" Click="Button_Click" Margin="5,0"/>
+                <Button Content="hit1" Tag="1" Click="Hit_Click" Margin="5,0"/>
+                <Button Content="hit2" Tag="2" Click="Hit_Click" Margin="5,0"/>
+            </StackPanel>
         </Canvas>
     </Grid>
 </Window>
