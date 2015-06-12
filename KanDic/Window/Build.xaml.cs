@@ -236,7 +236,7 @@ namespace KanDic
             StreamReader streamReader = new StreamReader(responseStream);
             var html = streamReader.ReadToEnd();
             streamReader.Close();
-            responseStream.Close();
+            //responseStream.Close();
             htr.Abort();
             hwr.Close();
 

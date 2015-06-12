@@ -51,7 +51,7 @@ namespace KanUpdate
             StreamReader streamReader = new StreamReader(responseStream, Encoding.UTF8);
             var html = streamReader.ReadToEnd();
             streamReader.Close();
-            responseStream.Close();
+            //responseStream.Close();
             htr.Abort();
             hwr.Close();
             var temp = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Changelog>>(html);

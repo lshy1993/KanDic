@@ -37,39 +37,25 @@ namespace KanDic.Plugins.Simulator
             MainText.Text = "请选择阵型……";
             fs1.SetButton(0, teamnum);
             fs1.Opacity = 0;
-            Canvas.SetTop(fs1, 61);
-            Canvas.SetLeft(fs1, 387);
-
             if (teamnum >= 4)
             {
                 fs2.SetButton(1, teamnum);
                 fs2.Opacity = 0;
-                Canvas.SetTop(fs2, 61);
-                Canvas.SetLeft(fs2, 517);
             }
-
             if (teamnum >= 5)
             {
                 fs3.SetButton(2, teamnum);
                 fs3.Opacity = 0;
-                Canvas.SetTop(fs3, 61);
-                Canvas.SetLeft(fs3, 649);
             }
-
             if (teamnum >= 4)
             {
                 fs4.SetButton(3, teamnum);
                 fs4.Opacity = 0;
-                Canvas.SetTop(fs4, 220);
-                Canvas.SetLeft(fs4, 455);
             }
-
             if (teamnum >= 4)
             {
                 fs5.SetButton(4, teamnum);
                 fs5.Opacity = 0;
-                Canvas.SetTop(fs5, 220);
-                Canvas.SetLeft(fs5, 586);
             }
             FormationSelectionFadeIn();
         }
@@ -327,7 +313,8 @@ namespace KanDic.Plugins.Simulator
             da_fadeout.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
             da_fadeout.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.8))));
             da_fadeout.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(2.2))));
-            da_fadeout.Completed += (sender, e) => { SetFormation(); };
+                //下一个动画
+            da_fadeout.Completed += (sender, e) => { StageBar.SetStage(1); StageBar.FadeIn(1); SetCenterLine(true); };
 
             //绑定动画
             GoBlack.BeginAnimation(HeightProperty, da_black_h);
@@ -349,6 +336,119 @@ namespace KanDic.Plugins.Simulator
             GoText2.BeginAnimation(Canvas.TopProperty, da_text2_top);
 
             GoAnimationCanvas.BeginAnimation(OpacityProperty, da_fadeout);
+        }
+        #endregion
+
+        #region 初始化-中央线
+        private void SetCenterLine(bool gotosub)
+        {
+            string str = gotosub ? "/Cache/battle/LineText_StartSakuteki.png" : "/Cache/battle/LineText_TekikantaiMiyu.png";
+            CenterText.Source = new BitmapImage(new Uri(str, UriKind.Relative));
+            int h = gotosub ? 180 : 240 - 150 / 2;
+            Canvas.SetTop(CenterText, h);
+            double width = 400 - CenterText.ActualWidth / 2;
+            CenterLineAnimation(gotosub, width);
+        }
+        #endregion
+
+        #region 动画-中央线
+        private void CenterLineAnimation(bool gotosub, double width)
+        {
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            if (gotosub)
+            {
+                da_bg_h.Completed += (sender, e) => { SetSubLine(); };
+            }
+            else
+            {
+                da_bg_h.Completed += (sender, e) => { SetFormation(); };
+            }
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(width + 100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width + 60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width -60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width -100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+
+            //绑定动画
+            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
+        }
+        #endregion
+
+        #region 初始化-副线
+        private void SetSubLine()
+        {
+            CenterSubText.Source = new BitmapImage(new Uri("/Cache/battle/LineText_Find.png", UriKind.Relative));
+            double width = CenterSubText.ActualWidth / 2;
+            SubLineAnimation(width);
+        }
+        #endregion
+
+        #region 动画-副线
+        private void SubLineAnimation(double w)
+        {
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            da_bg_top.Completed += (sender, e) => { SetCenterLine(false); };
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(w - 311, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 184, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 123, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 7, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.65))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.25))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.1))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            //副字
+            DoubleAnimationUsingKeyFrames da_sub_left = new DoubleAnimationUsingKeyFrames();
+            da_sub_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(-400, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
+            DoubleAnimationUsingKeyFrames da_sub_opa = new DoubleAnimationUsingKeyFrames();
+            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.35))));
+            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
+
+            //绑定动画
+            CenterSubBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterSubBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterSubText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterSubText.BeginAnimation(OpacityProperty, da_text_opa);
+
+            CenterSub.BeginAnimation(Canvas.LeftProperty, da_sub_left);
+            CenterSub.BeginAnimation(OpacityProperty, da_sub_opa);
         }
         #endregion
 

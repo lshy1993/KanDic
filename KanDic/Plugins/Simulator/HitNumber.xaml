@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:num="clr-namespace:KanDic.Plugins.Simulator"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="35" d:DesignWidth="80">
     <Canvas>
         <Image Name="Num4" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="-11"/>
         <Image Name="Num3" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="3"/>

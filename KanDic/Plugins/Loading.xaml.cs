@@ -118,7 +118,7 @@ namespace KanDic
             StreamReader streamReader = new StreamReader(responseStream);
             var html = streamReader.ReadToEnd();
             streamReader.Close();
-            responseStream.Close();
+            //responseStream.Close();
             htr.Abort();
             hwr.Close();
             var updateInfo = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateInfo>(html);
@@ -284,7 +284,7 @@ namespace KanDic
                 StreamReader streamReader = new StreamReader(responseStream);
                 var html = streamReader.ReadToEnd();
                 streamReader.Close();
-                responseStream.Close();
+                //responseStream.Close();
                 htr.Abort();
                 hwr.Close();
             }
@@ -301,7 +301,7 @@ namespace KanDic
             StreamReader streamReader = new StreamReader(responseStream);
             var html = streamReader.ReadToEnd();
             streamReader.Close();
-            responseStream.Close();
+            //responseStream.Close();
             htr.Abort();
             hwr.Close();
             return (string)html;

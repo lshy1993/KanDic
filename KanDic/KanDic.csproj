@@ -155,6 +155,9 @@
     <Compile Include="Plugins\Simulator\SoubiRow.xaml.cs">
       <DependentUpon>SoubiRow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Plugins\Simulator\StageBar.xaml.cs">
+      <DependentUpon>StageBar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Plugins\Simulator\Yasen.xaml.cs">
       <DependentUpon>Yasen.xaml</DependentUpon>
     </Compile>
@@ -298,6 +301,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Plugins\Simulator\SoubiRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Plugins\Simulator\StageBar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1440,19 +1447,19 @@
     <Resource Include="Cache\battle\FormationEnemy3.png" />
     <Resource Include="Cache\battle\FormationEnemy4.png" />
     <Resource Include="Cache\battle\FormationEnemy5.png" />
-    <Resource Include="Cache\battle\BGGreen.png" />
-    <Resource Include="Cache\battle\BGRed.png" />
-    <Resource Include="Cache\battle\TextDown.png" />
-    <Resource Include="Cache\battle\TextUp.png" />
-    <Resource Include="Cache\battle\NoReturn.png" />
-    <Resource Include="Cache\battle\StartSakuteki.png" />
-    <Resource Include="Cache\battle\FindNoReturn.png" />
-    <Resource Include="Cache\battle\NoFind.png" />
-    <Resource Include="Cache\battle\Find.png" />
-    <Resource Include="Cache\battle\TekikantaiMiyu.png" />
+    <Resource Include="Cache\battle\LineBG_Green.png" />
+    <Resource Include="Cache\battle\LineBG_Red.png" />
+    <Resource Include="Cache\battle\LineText_Down.png" />
+    <Resource Include="Cache\battle\LineText_Up.png" />
+    <Resource Include="Cache\battle\LineText_NoReturn.png" />
+    <Resource Include="Cache\battle\LineText_StartSakuteki.png" />
+    <Resource Include="Cache\battle\LineText_FindNoReturn.png" />
+    <Resource Include="Cache\battle\LineText_NoFind.png" />
+    <Resource Include="Cache\battle\LineText_Find.png" />
+    <Resource Include="Cache\battle\LineText_TekikantaiMiyu.png" />
     <Resource Include="Cache\battle\FormationBG.png" />
-    <Resource Include="Cache\battle\GreenPoint.png" />
-    <Resource Include="Cache\battle\RedPoint.png" />
+    <Resource Include="Cache\battle\Point_Green.png" />
+    <Resource Include="Cache\battle\Point_Red.png" />
     <Resource Include="Cache\battle\FormationButton1.png" />
     <Resource Include="Cache\battle\FormationButton1_o.png" />
     <Resource Include="Cache\battle\FormationButton2.png" />
@@ -1489,21 +1496,21 @@
     <Resource Include="Cache\battle\NumYellow_8.png" />
     <Resource Include="Cache\battle\NumYellow_9.png" />
     <Resource Include="Cache\battle\NumYellow_cri.png" />
-    <Resource Include="Cache\battle\Gear.png" />
-    <Resource Include="Cache\battle\GearNight.png" />
-    <Resource Include="Cache\battle\StatusBar.png" />
-    <Resource Include="Cache\battle\StatusSakuteki.png" />
-    <Resource Include="Cache\battle\StatusKoukusen.png" />
-    <Resource Include="Cache\battle\StatusHougekisen.png" />
-    <Resource Include="Cache\battle\StatusRaigekisen.png" />
-    <Resource Include="Cache\battle\StatusRun.png" />
-    <Resource Include="Cache\battle\StatusResult.png" />
-    <Resource Include="Cache\battle\StatusKoukushien.png" />
-    <Resource Include="Cache\battle\StatusShien.png" />
-    <Resource Include="Cache\battle\StatusShienL.png" />
-    <Resource Include="Cache\battle\StatusRunO.png" />
-    <Resource Include="Cache\battle\StatusBarY.png" />
-    <Resource Include="Cache\battle\StatusYasen.png" />
+    <Resource Include="Cache\battle\StageGear.png" />
+    <Resource Include="Cache\battle\StageGear_Night.png" />
+    <Resource Include="Cache\battle\StageBar.png" />
+    <Resource Include="Cache\battle\Stage_Sakuteki.png" />
+    <Resource Include="Cache\battle\Stage_Koukusen.png" />
+    <Resource Include="Cache\battle\Stage_Hougekisen.png" />
+    <Resource Include="Cache\battle\Stage_Raigekisen.png" />
+    <Resource Include="Cache\battle\Stage_Run.png" />
+    <Resource Include="Cache\battle\Stage_Result.png" />
+    <Resource Include="Cache\battle\Stage_Koukushien.png" />
+    <Resource Include="Cache\battle\Stage_Shien.png" />
+    <Resource Include="Cache\battle\Stage_ShienL.png" />
+    <Resource Include="Cache\battle\Stage_RunO.png" />
+    <Resource Include="Cache\battle\StageBar_Night.png" />
+    <Resource Include="Cache\battle\Stage_Yasen.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
