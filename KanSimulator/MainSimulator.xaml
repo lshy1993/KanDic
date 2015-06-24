@@ -127,9 +127,9 @@
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="/Cache/Calculate/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Page_Prev"/>
+                    <Image Source="/KanSimulator;component/Image/UI/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Page_Prev"/>
                     <TextBlock Name="PageNum" Text="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <Image Source="/Cache/Calculate/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Page_Next"/>
+                    <Image Source="/KanSimulator;component/Image/UI/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Page_Next"/>
                 </Grid>
             </DockPanel>
             <Canvas Name="ConfirmPanel" Visibility="Hidden">
@@ -176,7 +176,7 @@
                 <StackPanel Margin="15,20,5,20">
                     <DockPanel Margin="10,0,30,0">
                         <TextBlock Text="{Binding Name}" FontSize="20" Width="130"/>
-                        <Image Source="/Cache/icon/info/lv.PNG" Stretch="None"/>
+                        <Image Source="/KanDic;component/Cache/icon/info/lv.PNG" Stretch="None"/>
                         <TextBlock Text="{Binding LV}" HorizontalAlignment="Right" FontSize="20"/>
                     </DockPanel>
                     <StackPanel Orientation="Horizontal" Margin="5,10,0,5">
@@ -194,7 +194,7 @@
                         <TextBlock Text="即时数据" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                     </DockPanel>
                     <Canvas Name="DataBox" Margin="20,0,0,0">
-                        <Image Source="/Cache/Calculate/shuxing.PNG" Stretch="None"/>
+                        <Image Source="/KanSimulator;component/Image/UI/shuxing.PNG" Stretch="None"/>
                         <Grid Canvas.Left="56" Width="34">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="23"/>
@@ -270,9 +270,9 @@
                             <ColumnDefinition Width="30"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="/Cache/Calculate/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Pages_Prev"/>
+                        <Image Source="/KanSimulator;component/Image/UI/prev.PNG" Stretch="None" Grid.Column="0" HorizontalAlignment="Right" MouseLeftButtonDown="Pages_Prev"/>
                         <TextBlock Name="PageNums" Text="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <Image Source="/Cache/Calculate/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Pages_Next"/>
+                        <Image Source="/KanSimulator;component/Image/UI/next.PNG" Stretch="None" Grid.Column="2" HorizontalAlignment="Left" MouseLeftButtonDown="Pages_Next"/>
                     </Grid>
                 </DockPanel>
                 <Canvas Name="ChangePanel" Visibility="Hidden">

@@ -8,9 +8,9 @@
              d:DesignHeight="150" d:DesignWidth="121">
     <Canvas Name="MainCanvas" Height="150" Width="121">
         <Canvas.Resources>
-            <ResourceDictionary Source="/KanDic;component/Resources/Style/FormSelectStyle.xaml"/>
+            <ResourceDictionary Source="/KanSimulator;component/Style/FormSelectStyle.xaml"/>
         </Canvas.Resources>
-        <Image Source="/KanDic;component/Cache/battle/FormationBG.png" Stretch="None"/>
+        <Image Source="/KanSimulator;component/Image/Battle/FormationBG.png" Stretch="None"/>
         <Button Name="button" Style="{DynamicResource formation1}" Canvas.Left="10" Canvas.Top="107" Click="button_Click"/>
     </Canvas>
 </UserControl>

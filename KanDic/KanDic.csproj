@@ -116,57 +116,9 @@
     <Compile Include="Plugins\RevampBox.xaml.cs">
       <DependentUpon>RevampBox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plugins\Simulator\BattleMain.xaml.cs">
-      <DependentUpon>BattleMain.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\FormationPoint.xaml.cs">
-      <DependentUpon>FormationPoint.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\FormSelect.xaml.cs">
-      <DependentUpon>FormSelect.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\Help.xaml.cs">
-      <DependentUpon>Help.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\HitNumber.xaml.cs">
-      <DependentUpon>HitNumber.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\Hougekisen.xaml.cs">
-      <DependentUpon>Hougekisen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\Koukusen.xaml.cs">
-      <DependentUpon>Koukusen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\OverView.xaml.cs">
-      <DependentUpon>OverView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\OverViewRow.xaml.cs">
-      <DependentUpon>OverViewRow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\Raigekisen.xaml.cs">
-      <DependentUpon>Raigekisen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\ShipRow.xaml.cs">
-      <DependentUpon>ShipRow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\SoubiButton.xaml.cs">
-      <DependentUpon>SoubiButton.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\SoubiRow.xaml.cs">
-      <DependentUpon>SoubiRow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\StageBar.xaml.cs">
-      <DependentUpon>StageBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Simulator\Yasen.xaml.cs">
-      <DependentUpon>Yasen.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Resources\Class\NewKan.cs" />
     <Compile Include="Resources\Class\Update.cs" />
-    <Compile Include="Resources\Class\Keisanki.cs" />
-    <Compile Include="Resources\Class\MoniKan.cs" />
     <Compile Include="Resources\Class\Quest\QuestInfo.cs" />
-    <Compile Include="Resources\Class\ShowData.cs" />
     <Compile Include="Resources\Class\Soubi\SobiIcon.cs" />
     <Compile Include="Resources\Class\TabNum.cs" />
     <Compile Include="Resources\Class\Music\MP3.cs" />
@@ -189,9 +141,6 @@
     <Compile Include="Viewer\MapPanel.xaml.cs">
       <DependentUpon>MapPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plugins\Simulator\ShipDock.xaml.cs">
-      <DependentUpon>ShipDock.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Viewer\QuestPanel.xaml.cs">
       <DependentUpon>QuestPanel.xaml</DependentUpon>
     </Compile>
@@ -209,9 +158,6 @@
     </Compile>
     <Compile Include="Window\EnermySet.xaml.cs">
       <DependentUpon>EnermySet.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Plugins\Calculator.xaml.cs">
-      <DependentUpon>Calculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window\KanDetail.xaml.cs">
       <DependentUpon>KanDetail.xaml</DependentUpon>
@@ -252,83 +198,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Plugins\Simulator\BattleMain.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\FormationPoint.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\FormSelect.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\Help.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\HitNumber.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\Hougekisen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\Koukusen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\OverView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\OverViewRow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\Raigekisen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\ShipRow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\SoubiButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\SoubiRow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\StageBar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Simulator\Yasen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Resources\Style\BuildStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Style\CalculateButton.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\Style\CalculateResult.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Resources\Style\EquipStyle.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Resources\Style\FormSelectStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -396,10 +270,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Plugins\Simulator\ShipDock.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Viewer\QuestPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -423,10 +293,6 @@
     <Page Include="Window\EnermySet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Plugins\Calculator.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="Window\KanDetail.xaml">
       <SubType>Designer</SubType>
@@ -1429,92 +1295,6 @@
     <Resource Include="Cache\error.png" />
     <Resource Include="Cache\icon\info\empty.PNG" />
     <Resource Include="Cache\icon\info\full.PNG" />
-    <Resource Include="Cache\battle\Formation1.png" />
-    <Resource Include="Cache\battle\Formation2.png" />
-    <Resource Include="Cache\battle\Formation3.png" />
-    <Resource Include="Cache\battle\Formation4.png" />
-    <Resource Include="Cache\battle\Formation5.png" />
-    <Resource Include="Cache\battle\TGood.png" />
-    <Resource Include="Cache\battle\TBad.png" />
-    <Resource Include="Cache\battle\Font1-1.png" />
-    <Resource Include="Cache\battle\Font1-2.png" />
-    <Resource Include="Cache\battle\Font1-3.png" />
-    <Resource Include="Cache\battle\Font2-1.png" />
-    <Resource Include="Cache\battle\Font2-2.png" />
-    <Resource Include="Cache\battle\Font3.png" />
-    <Resource Include="Cache\battle\FormationEnemy1.png" />
-    <Resource Include="Cache\battle\FormationEnemy2.png" />
-    <Resource Include="Cache\battle\FormationEnemy3.png" />
-    <Resource Include="Cache\battle\FormationEnemy4.png" />
-    <Resource Include="Cache\battle\FormationEnemy5.png" />
-    <Resource Include="Cache\battle\LineBG_Green.png" />
-    <Resource Include="Cache\battle\LineBG_Red.png" />
-    <Resource Include="Cache\battle\LineText_Down.png" />
-    <Resource Include="Cache\battle\LineText_Up.png" />
-    <Resource Include="Cache\battle\LineText_NoReturn.png" />
-    <Resource Include="Cache\battle\LineText_StartSakuteki.png" />
-    <Resource Include="Cache\battle\LineText_FindNoReturn.png" />
-    <Resource Include="Cache\battle\LineText_NoFind.png" />
-    <Resource Include="Cache\battle\LineText_Find.png" />
-    <Resource Include="Cache\battle\LineText_TekikantaiMiyu.png" />
-    <Resource Include="Cache\battle\FormationBG.png" />
-    <Resource Include="Cache\battle\Point_Green.png" />
-    <Resource Include="Cache\battle\Point_Red.png" />
-    <Resource Include="Cache\battle\FormationButton1.png" />
-    <Resource Include="Cache\battle\FormationButton1_o.png" />
-    <Resource Include="Cache\battle\FormationButton2.png" />
-    <Resource Include="Cache\battle\FormationButton2_o.png" />
-    <Resource Include="Cache\battle\FormationButton3.png" />
-    <Resource Include="Cache\battle\FormationButton3_o.png" />
-    <Resource Include="Cache\battle\FormationButton4.png" />
-    <Resource Include="Cache\battle\FormationButton4_o.png" />
-    <Resource Include="Cache\battle\FormationButton5.png" />
-    <Resource Include="Cache\battle\FormationButton5_o.png" />
-    <Resource Include="Cache\battle\GoBlack.png" />
-    <Resource Include="Cache\battle\GoBar.png" />
-    <Resource Include="Cache\battle\GoText.png" />
-    <Resource Include="Cache\battle\TextBG.png" />
-    <Resource Include="Cache\battle\NumRed_0.png" />
-    <Resource Include="Cache\battle\NumRed_1.png" />
-    <Resource Include="Cache\battle\NumRed_2.png" />
-    <Resource Include="Cache\battle\NumRed_3.png" />
-    <Resource Include="Cache\battle\NumRed_4.png" />
-    <Resource Include="Cache\battle\NumRed_5.png" />
-    <Resource Include="Cache\battle\NumRed_6.png" />
-    <Resource Include="Cache\battle\NumRed_7.png" />
-    <Resource Include="Cache\battle\NumRed_8.png" />
-    <Resource Include="Cache\battle\NumRed_9.png" />
-    <Resource Include="Cache\battle\Num_miss.png" />
-    <Resource Include="Cache\battle\NumYellow_0.png" />
-    <Resource Include="Cache\battle\NumYellow_1.png" />
-    <Resource Include="Cache\battle\NumYellow_2.png" />
-    <Resource Include="Cache\battle\NumYellow_3.png" />
-    <Resource Include="Cache\battle\NumYellow_4.png" />
-    <Resource Include="Cache\battle\NumYellow_5.png" />
-    <Resource Include="Cache\battle\NumYellow_6.png" />
-    <Resource Include="Cache\battle\NumYellow_7.png" />
-    <Resource Include="Cache\battle\NumYellow_8.png" />
-    <Resource Include="Cache\battle\NumYellow_9.png" />
-    <Resource Include="Cache\battle\NumYellow_cri.png" />
-    <Resource Include="Cache\battle\StageGear.png" />
-    <Resource Include="Cache\battle\StageGear_Night.png" />
-    <Resource Include="Cache\battle\StageBar.png" />
-    <Resource Include="Cache\battle\Stage_Sakuteki.png" />
-    <Resource Include="Cache\battle\Stage_Koukusen.png" />
-    <Resource Include="Cache\battle\Stage_Hougekisen.png" />
-    <Resource Include="Cache\battle\Stage_Raigekisen.png" />
-    <Resource Include="Cache\battle\Stage_Run.png" />
-    <Resource Include="Cache\battle\Stage_Result.png" />
-    <Resource Include="Cache\battle\Stage_Koukushien.png" />
-    <Resource Include="Cache\battle\Stage_Shien.png" />
-    <Resource Include="Cache\battle\Stage_ShienL.png" />
-    <Resource Include="Cache\battle\Stage_RunO.png" />
-    <Resource Include="Cache\battle\StageBar_Night.png" />
-    <Resource Include="Cache\battle\Stage_Yasen.png" />
-    <Resource Include="Cache\battle\ShipFrame_Left.png" />
-    <Resource Include="Cache\battle\ShipFrame_LeftFlag.png" />
-    <Resource Include="Cache\battle\ShipFrame_Right.png" />
-    <Resource Include="Cache\battle\ShipFrame_RightFlag.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1701,37 +1481,6 @@
     <Content Include="Cache\bgm\sound_b_bgm_9.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Cache\Calculate\1.PNG" />
-    <Resource Include="Cache\Calculate\2.PNG" />
-    <Resource Include="Cache\Calculate\3.PNG" />
-    <Resource Include="Cache\Calculate\4.PNG" />
-    <Resource Include="Cache\Calculate\5.PNG" />
-    <Resource Include="Cache\Calculate\6.PNG" />
-    <Resource Include="Cache\Calculate\back.PNG" />
-    <Resource Include="Cache\Calculate\bt1.PNG" />
-    <Resource Include="Cache\Calculate\bt11.PNG" />
-    <Resource Include="Cache\Calculate\bt2.PNG" />
-    <Resource Include="Cache\Calculate\bt21.PNG" />
-    <Resource Include="Cache\Calculate\bt3.PNG" />
-    <Resource Include="Cache\Calculate\bt31.PNG" />
-    <Resource Include="Cache\Calculate\team1.PNG" />
-    <Resource Include="Cache\Calculate\team11.PNG" />
-    <Resource Include="Cache\Calculate\team2.PNG" />
-    <Resource Include="Cache\Calculate\team21.PNG" />
-    <Resource Include="Cache\Calculate\team3.PNG" />
-    <Resource Include="Cache\Calculate\team31.PNG" />
-    <Resource Include="Cache\Calculate\team4.PNG" />
-    <Resource Include="Cache\Calculate\team41.PNG" />
-    <Resource Include="Cache\Calculate\left.PNG" />
-    <Resource Include="Cache\Calculate\right.PNG" />
-    <Resource Include="Cache\Calculate\shuxing.PNG" />
-    <Resource Include="Cache\Calculate\next.PNG" />
-    <Resource Include="Cache\Calculate\prev.PNG" />
-    <Resource Include="Cache\Calculate\battle.png" />
-    <Resource Include="Cache\Calculate\battle1.png" />
-    <Resource Include="Cache\Calculate\battle2.png" />
-    <Resource Include="Cache\battle\BattleDay.png" />
-    <Resource Include="Cache\battle\BattleNight.png" />
     <Content Include="Cache\equipment\002.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -99,30 +99,30 @@ namespace KanSimulator.Module
             switch (status)
             {
                 case 0://同航战
-                    Font1.Source = new BitmapImage(new Uri("/Cache/battle/Font1-1.png", UriKind.Relative));
-                    Font2.Source = new BitmapImage(new Uri("/Cache/battle/Font2-1.png", UriKind.Relative));
+                    Font1.Source = new BitmapImage(new Uri("/Image/Battle/Font1-1.png", UriKind.Relative));
+                    Font2.Source = new BitmapImage(new Uri("/Image/Battle/Font2-1.png", UriKind.Relative));
                     FormGood.Source = null;
                     break;
                 case 1://返航战
-                    Font1.Source = new BitmapImage(new Uri("/Cache/battle/Font1-2.png", UriKind.Relative));
-                    Font2.Source = new BitmapImage(new Uri("/Cache/battle/Font2-1.png", UriKind.Relative));
+                    Font1.Source = new BitmapImage(new Uri("/Image/Battle/Font1-2.png", UriKind.Relative));
+                    Font2.Source = new BitmapImage(new Uri("/Image/Battle/Font2-1.png", UriKind.Relative));
                     FormGood.Source = null;
                     break;
                 case 2://T优
-                    Font1.Source = new BitmapImage(new Uri("/Cache/battle/Font1-3.png", UriKind.Relative));
-                    Font2.Source = new BitmapImage(new Uri("/Cache/battle/Font2-2.png", UriKind.Relative));
-                    FormGood.Source = new BitmapImage(new Uri("/Cache/battle/TGood.png", UriKind.Relative));
+                    Font1.Source = new BitmapImage(new Uri("/Image/Battle/Font1-3.png", UriKind.Relative));
+                    Font2.Source = new BitmapImage(new Uri("/Image/Battle/Font2-2.png", UriKind.Relative));
+                    FormGood.Source = new BitmapImage(new Uri("/Image/Battle/TGood.png", UriKind.Relative));
                     offset = -25;
                     break;
                 case 3://T劣
-                    Font1.Source = new BitmapImage(new Uri("/Cache/battle/Font1-3.png", UriKind.Relative));
-                    Font2.Source = new BitmapImage(new Uri("/Cache/battle/Font2-2.png", UriKind.Relative));
-                    FormGood.Source = new BitmapImage(new Uri("/Cache/battle/TBad.png", UriKind.Relative));
+                    Font1.Source = new BitmapImage(new Uri("/Image/Battle/Font1-3.png", UriKind.Relative));
+                    Font2.Source = new BitmapImage(new Uri("/Image/Battle/Font2-2.png", UriKind.Relative));
+                    FormGood.Source = new BitmapImage(new Uri("/Image/Battle/TBad.png", UriKind.Relative));
                     offset = -25;
                     break;
             }
-            TeamForm.Source = new BitmapImage(new Uri("/Cache/battle/Formation" + formation + ".png", UriKind.Relative));
-            EnemyForm.Source = new BitmapImage(new Uri("/Cache/battle/FormationEnemy" + form + ".png", UriKind.Relative));
+            TeamForm.Source = new BitmapImage(new Uri("/Image/Battle/Formation" + formation + ".png", UriKind.Relative));
+            EnemyForm.Source = new BitmapImage(new Uri("/Image/Battle/FormationEnemy" + form + ".png", UriKind.Relative));
             FormationAnimation(offset);
         }
         #endregion
@@ -342,7 +342,7 @@ namespace KanSimulator.Module
         #region 初始化-中央线
         private void SetCenterLine(bool gotosub)
         {
-            string str = gotosub ? "/Cache/battle/LineText_StartSakuteki.png" : "/Cache/battle/LineText_TekikantaiMiyu.png";
+            string str = gotosub ? "/Image/Battle/LineText_StartSakuteki.png" : "/Image/Battle/LineText_TekikantaiMiyu.png";
             CenterText.Source = new BitmapImage(new Uri(str, UriKind.Relative));
             int h = gotosub ? 180 : 240 - 150 / 2;
             Canvas.SetTop(CenterText, h);
@@ -397,7 +397,7 @@ namespace KanSimulator.Module
         #region 初始化-副线
         private void SetSubLine()
         {
-            CenterSubText.Source = new BitmapImage(new Uri("/Cache/battle/LineText_Find.png", UriKind.Relative));
+            CenterSubText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_Find.png", UriKind.Relative));
             double width = CenterSubText.ActualWidth / 2;
             SubLineAnimation(width);
         }

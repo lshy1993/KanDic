@@ -56,12 +56,12 @@ namespace KanSimulator
             soubipage = 1;
             formation = 0;
             status = 0;
-            Dock1.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/1.PNG", UriKind.Relative));
-            Dock2.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/2.PNG", UriKind.Relative));
-            Dock3.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/3.PNG", UriKind.Relative));
-            Dock4.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/4.PNG", UriKind.Relative));
-            Dock5.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/5.PNG", UriKind.Relative));
-            Dock6.NumImage.Source = new BitmapImage(new Uri("/Cache/Calculate/6.PNG", UriKind.Relative));
+            Dock1.NumImage.Source = new BitmapImage(new Uri("/Image/1.PNG", UriKind.Relative));
+            Dock2.NumImage.Source = new BitmapImage(new Uri("/Image/2.PNG", UriKind.Relative));
+            Dock3.NumImage.Source = new BitmapImage(new Uri("/Image/3.PNG", UriKind.Relative));
+            Dock4.NumImage.Source = new BitmapImage(new Uri("/Image/4.PNG", UriKind.Relative));
+            Dock5.NumImage.Source = new BitmapImage(new Uri("/Image/5.PNG", UriKind.Relative));
+            Dock6.NumImage.Source = new BitmapImage(new Uri("/Image/6.PNG", UriKind.Relative));
             ShipList_Change(shippage);
             SoubiList_Change(soubipage);
             ComboBox_Init();
@@ -98,6 +98,11 @@ namespace KanSimulator
                         }
                     }
                 }
+            }
+            for (int i = 0; i < ships.Count; i++)
+            {
+                ships[i].ImageNormal = "/KanDic;component/Cache/ships/" + ships[i].FileName + ".swf/Image 5.jpg";
+                ships[i].ImageSmall = "/KanDic;component/Cache/ships/" + ships[i].FileName + ".swf/Image 1.jpg";
             }
         }
         #endregion

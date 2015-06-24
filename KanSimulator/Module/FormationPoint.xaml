@@ -6,11 +6,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Canvas Height="150" Width="121">
-        <Image Name="P1" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
-        <Image Name="P2" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
-        <Image Name="P3" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
-        <Image Name="P4" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
-        <Image Name="P5" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
-        <Image Name="P6" Source="/KanDic;component/Cache/battle/GreenPoint.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P1" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P2" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P3" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P4" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P5" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
+        <Image Name="P6" Source="/KanSimulator;component/Image/Battle/Point_Green.png" Width="8.4" Height="8.4" Visibility="Collapsed"/>
     </Canvas>
 </UserControl>

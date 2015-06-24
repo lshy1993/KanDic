@@ -27,10 +27,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/bt1.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/bt1.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/bt11.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/bt11.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -41,10 +41,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/bt2.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/bt2.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/bt21.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/bt21.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -55,10 +55,10 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/bt3.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/bt3.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/bt31.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/bt31.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -69,13 +69,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team1.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/team1.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team11.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team11.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team11.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team11.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -86,13 +86,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team2.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/team2.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team21.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team21.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team21.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team21.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -103,13 +103,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team3.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/team3.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team31.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team31.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team31.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team31.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -120,13 +120,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/team4.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/team4.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team41.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team41.PNG"/>
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/team41.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/team41.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -137,13 +137,13 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Image Name="aaa" Source="/KanDic;component/Cache/Calculate/battle.PNG" Stretch="None"/>
+                    <Image Name="aaa" Source="/KanSimulator;component/Image/UI/battle.PNG" Stretch="None"/>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/battle1.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/battle1.PNG"/>
                         </Trigger>
                         <Trigger Property="IsEnabled" Value="False">
-                            <Setter Property="Source" TargetName="aaa" Value="/KanDic;component/Cache/Calculate/battle2.PNG"/>
+                            <Setter Property="Source" TargetName="aaa" Value="/KanSimulator;component/Image/UI/battle2.PNG"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

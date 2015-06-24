@@ -8,9 +8,9 @@
              d:DesignHeight="110" d:DesignWidth="340">
     <Canvas Height="110" Width="340" Name="InfoBox" ClipToBounds="True">
         <Canvas.Resources>
-            <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
+            <ResourceDictionary Source="/KanSimulator;component/Style/CalculateButton.xaml"/>
         </Canvas.Resources>
-        <Image Source="/KanDic;component/Cache/Calculate/back.PNG" Canvas.Right="0" Stretch="None"/>
+        <Image Source="/KanSimulator;component/Image/UI/back.PNG" Canvas.Right="0" Stretch="None"/>
         <Image Name="ShipImage" Source="{Binding ImageSmall}" Canvas.Right="7" Canvas.Top="12" Stretch="None"/>
         <Border BorderThickness="1" BorderBrush="White" Background="#00ff00" CornerRadius="3" Height="7" Width="65" Canvas.Left="98" Canvas.Top="36"/>
         <TextBlock Text="{Binding Name}" Foreground="White" FontSize="24" Canvas.Top="13" Canvas.Left="23"/>
@@ -25,8 +25,8 @@
         <TextBlock Text="{Binding Torpedo}" Foreground="White" FontSize="10" Canvas.Top="81" Canvas.Left="76"/>
         <TextBlock Text="{Binding Defence}" Foreground="White" FontSize="10" Canvas.Top="81" Canvas.Left="153"/>
         <Button Name="DetailButton" Style="{StaticResource xxbutton}" Canvas.Right="90" Canvas.Bottom="12" Click="Show_Detail"/>
-        <Image Name="MaskLeft" Source="/KanDic;component/Cache/Calculate/left.PNG" Stretch="None" Canvas.Left="10"/>
-        <Image Name="MaskRight" Source="/KanDic;component/Cache/Calculate/right.PNG" Stretch="None" Canvas.Right="0"/>
+        <Image Name="MaskLeft" Source="/KanSimulator;component/Image/UI/left.PNG" Stretch="None" Canvas.Left="10"/>
+        <Image Name="MaskRight" Source="/KanSimulator;component/Image/UI/right.PNG" Stretch="None" Canvas.Right="0"/>
         <Button Style="{StaticResource bgbutton}" Canvas.Right="5" Canvas.Bottom="12" Click="Change_Ship"/>
         <Image Name="NumImage" Stretch="None"/>
     </Canvas>

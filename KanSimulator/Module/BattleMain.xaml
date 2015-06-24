@@ -8,8 +8,8 @@
     ResizeMode="CanMinimize"
     WindowStartupLocation="CenterOwner">
     <Grid Width="800" Height="480">
-        <Image Source="/KanDic;component/Cache/battle/BattleNight.png" Stretch="None" Visibility="Collapsed"/>
-        <Image Source="/KanDic;component/Cache/battle/BattleDay.png" Stretch="None"/>
+        <Image Source="/KanSimulator;component/Image/Battle/BattleNight.png" Stretch="None" Visibility="Collapsed"/>
+        <Image Source="/KanSimulator;component/Image/Battle/BattleDay.png" Stretch="None"/>
         <Canvas Name="MainCanvas">
             <Canvas Name="ShipCanvas" Width="800" Height="480">
                 
@@ -17,30 +17,30 @@
             <sim:StageBar x:Name="StageBar"/>
             <sim:HitNumber x:Name="HitNum" Canvas.Left="10" Canvas.Top="50"/>
             <Canvas Name="CenterAnimationCanvas" Width="800" Height="480">
-                <Image Name="CenterBG" Source="/KanDic;component/Cache/battle/LineBG_Green.png" Stretch="Fill" Height="0" Width="800" Canvas.Top="240"/>
-                <Image Name="CenterText" Source="/KanDic;component/Cache/battle/LineText_StartSakuteki.png" Stretch="None" Canvas.Top="180" Opacity="0"/>
-                <Image Name="CenterSubBG" Source="/KanDic;component/Cache/battle/LineBG_Green.png" Stretch="Fill" Height="0" Width="800" Canvas.Top="-30"/>
-                <Image Name="CenterSubText" Source="/KanDic;component/Cache/battle/LineText_Find.png" Stretch="None" Canvas.Left="-500" Canvas.Top="-5"/>
-                <Image Name="CenterSub" Source="/KanDic;component/Cache/battle/LineText_Up.png" Stretch="None" Canvas.Top="118" Opacity="0"/>
+                <Image Name="CenterBG" Source="/KanSimulator;component/Image/Battle/LineBG_Green.png" Stretch="Fill" Height="0" Width="800" Canvas.Top="240"/>
+                <Image Name="CenterText" Source="/KanSimulator;component/Image/Battle/LineText_StartSakuteki.png" Stretch="None" Canvas.Top="180" Opacity="0"/>
+                <Image Name="CenterSubBG" Source="/KanSimulator;component/Image/Battle/LineBG_Green.png" Stretch="Fill" Height="0" Width="800" Canvas.Top="-30"/>
+                <Image Name="CenterSubText" Source="/KanSimulator;component/Image/Battle/LineText_Find.png" Stretch="None" Canvas.Left="-500" Canvas.Top="-5"/>
+                <Image Name="CenterSub" Source="/KanSimulator;component/Image/Battle/LineText_Up.png" Stretch="None" Canvas.Top="118" Opacity="0"/>
             </Canvas>
             <Canvas Name="StartAnimationCanvas" Width="800" Height="480">
                 <Rectangle Name="RecB" Width="800" Fill="Black" Canvas.Top="402"/>
                 <Rectangle Name="RecT" Width="800" Fill="Black" Canvas.Top="78"/>
-                <Image Name="EnemyForm" Source="/KanDic;component/Cache/battle/FormationEnemy1.png" Stretch="None" Canvas.Top="22.5" Canvas.Left="-270"/>
-                <Image Name="TeamForm" Source="/KanDic;component/Cache/battle/Formation1.png" Stretch="None" Canvas.Top="346.5" Canvas.Left="800"/>
-                <Image Name="Font1" Source="/KanDic;component/Cache/battle/Font1-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="Font2" Source="/KanDic;component/Cache/battle/Font2-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="Font3" Source="/KanDic;component/Cache/battle/Font3.png" Canvas.Top="169.5" Canvas.Left="800"/>
-                <Image Name="FormGood" Source="/KanDic;component/Cache/battle/TGood.png" Canvas.Top="238" Canvas.Left="272" Opacity="0"/>
+                <Image Name="EnemyForm" Source="/KanSimulator;component/Image/Battle/FormationEnemy1.png" Stretch="None" Canvas.Top="22.5" Canvas.Left="-270"/>
+                <Image Name="TeamForm" Source="/KanSimulator;component/Image/Battle/Formation1.png" Stretch="None" Canvas.Top="346.5" Canvas.Left="800"/>
+                <Image Name="Font1" Source="/KanSimulator;component/Image/Battle/Font1-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="Font2" Source="/KanSimulator;component/Image/Battle/Font2-1.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="Font3" Source="/KanSimulator;component/Image/Battle/Font3.png" Canvas.Top="169.5" Canvas.Left="800"/>
+                <Image Name="FormGood" Source="/KanSimulator;component/Image/Battle/TGood.png" Canvas.Top="238" Canvas.Left="272" Opacity="0"/>
             </Canvas>
             <Canvas Name="GoAnimationCanvas" Width="800" Height="480">
-                <Image Name="GoBlack" Source="/KanDic;component/Cache/battle/GoBlack.png" Height="0" Width="800" Stretch="Fill" Canvas.Top="240"/>
-                <Image Name="GoBar" Source="/KanDic;component/Cache/battle/GoBar.png" Stretch="None" Canvas.Top="206.5" Canvas.Left="800"/>
-                <Image Name="GoText2" Source="/KanDic;component/Cache/battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
-                <Image Name="GoText1" Source="/KanDic;component/Cache/battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
+                <Image Name="GoBlack" Source="/KanSimulator;component/Image/Battle/GoBlack.png" Height="0" Width="800" Stretch="Fill" Canvas.Top="240"/>
+                <Image Name="GoBar" Source="/KanSimulator;component/Image/Battle/GoBar.png" Stretch="None" Canvas.Top="206.5" Canvas.Left="800"/>
+                <Image Name="GoText2" Source="/KanSimulator;component/Image/Battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
+                <Image Name="GoText1" Source="/KanSimulator;component/Image/Battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
             </Canvas>
             <Canvas Name="FormSelectionCanvas" Width="800" Height="480">
-                <Image Name="TextBG" Source="/KanDic;component/Cache/battle/TextBG.png" Stretch="None" Canvas.Bottom="-93"/>
+                <Image Name="TextBG" Source="/KanSimulator;component/Image/Battle/TextBG.png" Stretch="None" Canvas.Bottom="-93"/>
                 <TextBlock Name="MainText" Width="416" Height="68" Foreground="White" FontSize="20" Canvas.Left="302" Canvas.Bottom="5"/>
                 <sim:FormSelect x:Name="fs1" Canvas.Top="61" Canvas.Left="387"/>
                 <sim:FormSelect x:Name="fs2" Canvas.Top="61" Canvas.Left="517"/>

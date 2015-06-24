@@ -6,12 +6,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="65" d:DesignWidth="300">
     <Canvas Name="StageCanvas" Opacity="0">
-        <Image Name="StageBG" Source="/KanDic;component/Cache/battle/StageBar.png" Stretch="None"/>
-        <Image Name="StageGear" Source="/KanDic;component/Cache/battle/StageGear.png" Stretch="None" Canvas.Left="6.5" Canvas.Top="15.5" RenderTransformOrigin="0.5,0.5">
+        <Image Name="StageBG" Source="/KanSimulator;component/Image/Battle/StageBar.png" Stretch="None"/>
+        <Image Name="StageGear" Source="/KanSimulator;component/Image/Battle/StageGear.png" Stretch="None" Canvas.Left="6.5" Canvas.Top="15.5" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <RotateTransform x:Name="RotateTransform" Angle="0"/>
             </Image.RenderTransform>
         </Image>
-        <Image Name="StageText" Source="/KanDic;component/Cache/battle/Stage_Sakuteki.png" Stretch="None" Canvas.Left="40" Canvas.Top="15"/>
+        <Image Name="StageText" Source="/KanSimulator;component/Image/Battle/Stage_Sakuteki.png" Stretch="None" Canvas.Left="40" Canvas.Top="15"/>
     </Canvas>
 </UserControl>

@@ -7,7 +7,7 @@
              d:DesignHeight="27" d:DesignWidth="470"
              DataContextChanged="UserControl_DataContextChanged">
     <UserControl.Resources>
-        <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
+        <ResourceDictionary Source="/KanSimulator;component/Style/CalculateButton.xaml"/>
     </UserControl.Resources>
     <StackPanel Margin="35,0,0,0" Orientation="Horizontal">
         <Canvas Width="30" Height="30">

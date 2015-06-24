@@ -23,7 +23,7 @@ namespace KanSimulator.Module
         public FormationPoint(int formation, int num, bool isenemy)
         {
             InitializeComponent();
-            string url = isenemy ? "/Cache/battle/Point_Red.png" : "/Cache/battle/Point_Green.png";
+            string url = isenemy ? "/Image/Battle/Point_Red.png" : "/Image/Battle/Point_Green.png";
             P1.Source = new BitmapImage(new Uri(url, UriKind.Relative));
             P2.Source = new BitmapImage(new Uri(url, UriKind.Relative));
             P3.Source = new BitmapImage(new Uri(url, UriKind.Relative));

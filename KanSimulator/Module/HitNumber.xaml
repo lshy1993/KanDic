@@ -7,10 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="35" d:DesignWidth="80">
     <Canvas>
-        <Image Name="Num4" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="-11"/>
-        <Image Name="Num3" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="3"/>
-        <Image Name="Num2" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="17"/>
-        <Image Name="Num1" Source="/KanDic;component/Cache/battle/NumRed_0.png" Stretch="None" Canvas.Left="31"/>
-        <Image Name="Critical" Source="/KanDic;component/Cache/battle/NumYellow_cri.png" Stretch="None" Canvas.Left="-17.5" Canvas.Top="11.5"/>
+        <Image Name="Num4" Source="/KanSimulator;component/Image/Battle/NumRed_0.png" Stretch="None" Canvas.Left="-11"/>
+        <Image Name="Num3" Source="/KanSimulator;component/Image/Battle/NumRed_0.png" Stretch="None" Canvas.Left="3"/>
+        <Image Name="Num2" Source="/KanSimulator;component/Image/Battle/NumRed_0.png" Stretch="None" Canvas.Left="17"/>
+        <Image Name="Num1" Source="/KanSimulator;component/Image/Battle/NumRed_0.png" Stretch="None" Canvas.Left="31"/>
+        <Image Name="Critical" Source="/KanSimulator;component/Image/Battle/NumYellow_cri.png" Stretch="None" Canvas.Left="-17.5" Canvas.Top="11.5"/>
     </Canvas>
 </UserControl>

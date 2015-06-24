@@ -88,7 +88,6 @@
     </Compile>
     <Compile Include="Class\Keisanki.cs" />
     <Compile Include="Class\MoniKan.cs" />
-    <Compile Include="Class\NewKan.cs" />
     <Compile Include="Class\ShowData.cs" />
     <Compile Include="MainSimulator.xaml.cs">
       <DependentUpon>MainSimulator.xaml</DependentUpon>
@@ -166,6 +165,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Style\CalculateResult.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Style\FormSelectStyle.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -275,6 +278,357 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\back.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\battle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\battle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\battle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\bt31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\left.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\next.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\prev.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\right.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\shuxing.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\UI\team41.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\BattleDay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\BattleNight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font1-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font1-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font1-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font2-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font2-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Font3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Formation1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Formation2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Formation3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Formation4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Formation5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton1_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton2_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton3_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton4_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationButton5_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationEnemy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationEnemy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationEnemy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationEnemy4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\FormationEnemy5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\GoBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\GoBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\GoText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineBG_Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineBG_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_FindNoReturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_NoFind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_NoReturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_StartSakuteki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_TekikantaiMiyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Num_miss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumRed_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\NumYellow_cri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Point_Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Point_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\ShipFrame_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\ShipFrame_LeftFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\ShipFrame_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\ShipFrame_RightFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Hougekisen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Koukusen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Koukushien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Raigekisen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Result.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_RunO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Sakuteki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Shien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_ShienL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\Stage_Yasen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\StageBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\StageBar_Night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\StageGear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\StageGear_Night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\TBad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\TextBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\TGood.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

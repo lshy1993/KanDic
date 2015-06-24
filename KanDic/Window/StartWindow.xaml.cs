@@ -133,14 +133,13 @@ namespace KanDic
             }
             else
             {
-                /*
                 System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
                 Info.FileName = "KanSimulator.exe";
                 Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
                 System.Diagnostics.Process.Start(Info);
-                */
+                /*
                 KanDic.Plugins.Calculator win = new KanDic.Plugins.Calculator();
-                win.Show();
+                win.Show();*/
             }
         }
     }

@@ -30,7 +30,7 @@ namespace KanSimulator.Module
         {
             string str = x.ToString();
             //□□□□(4321)向前占位
-            string url = x > 0 ? geturl(str[0] - 48, iscri) : "/Cache/battle/Num_miss.PNG";
+            string url = x > 0 ? geturl(str[0] - 48, iscri) : "/Image/Battle/Num_miss.PNG";
             Num4.Source = new BitmapImage(new Uri(url, UriKind.Relative));
             Num3.Source = str.Length < 2 ? null : new BitmapImage(new Uri(geturl(str[1] - 48, iscri), UriKind.Relative));
             Num2.Source = str.Length < 3 ? null : new BitmapImage(new Uri(geturl(str[2] - 48, iscri), UriKind.Relative));
@@ -116,7 +116,7 @@ namespace KanSimulator.Module
 
         private string geturl(int x, bool iscri)
         {
-            string result = "/Cache/battle/";
+            string result = "/Image/Battle/";
             result += iscri ? "NumYellow_" : "NumRed_";
             result += x;
             result += ".png";

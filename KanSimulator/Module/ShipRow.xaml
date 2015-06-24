@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="27" d:DesignWidth="390">
     <UserControl.Resources>
-        <ResourceDictionary Source="/KanDic;component/Resources/Style/CalculateButton.xaml"/>
+        <ResourceDictionary Source="/KanSimulator;component/Style/CalculateButton.xaml"/>
     </UserControl.Resources>
     <Button Margin="35,0,30,0" Click="row_Click">
         <Grid Margin="15,0,0,0">
