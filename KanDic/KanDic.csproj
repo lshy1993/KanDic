@@ -1511,6 +1511,10 @@
     <Resource Include="Cache\battle\Stage_RunO.png" />
     <Resource Include="Cache\battle\StageBar_Night.png" />
     <Resource Include="Cache\battle\Stage_Yasen.png" />
+    <Resource Include="Cache\battle\ShipFrame_Left.png" />
+    <Resource Include="Cache\battle\ShipFrame_LeftFlag.png" />
+    <Resource Include="Cache\battle\ShipFrame_Right.png" />
+    <Resource Include="Cache\battle\ShipFrame_RightFlag.png" />
     <Content Include="Cache\bgm\103v.swf.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

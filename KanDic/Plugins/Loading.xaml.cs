@@ -248,7 +248,7 @@ namespace KanDic
         #region 注册信息
         private void SignUp()
         {
-            //首次使用联网获取seed
+            //首次使用获取guid
             if (ConfigurationManager.AppSettings["randomseed"] == "")
             {
                 var uid = Guid.NewGuid();

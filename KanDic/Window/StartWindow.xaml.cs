@@ -32,6 +32,7 @@ namespace KanDic
             MainPanel.Visibility = System.Windows.Visibility.Collapsed;
         }
 
+        /* 已废除
         private void Tile_Click(object sender, RoutedEventArgs e)
         {
             MahApps.Metro.Controls.Tile temp1 = sender as MahApps.Metro.Controls.Tile;
@@ -48,6 +49,7 @@ namespace KanDic
                 win.Show();
             }
         }
+        */
 
         private void Web_Click(object sender, RoutedEventArgs e)
         {
@@ -131,6 +133,12 @@ namespace KanDic
             }
             else
             {
+                /*
+                System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
+                Info.FileName = "KanSimulator.exe";
+                Info.WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                System.Diagnostics.Process.Start(Info);
+                */
                 KanDic.Plugins.Calculator win = new KanDic.Plugins.Calculator();
                 win.Show();
             }
