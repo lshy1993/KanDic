@@ -111,7 +111,7 @@ namespace KanSimulator
         private void Set_Soubi(List<Soubi> xx)
         {
             equips = new List<Soubi>();
-            for (int i = 1; i < xx.Count(); i++)
+            for (int i = 0; i < xx.Count(); i++)
             {
                 if (xx[i] != null) equips.Add(xx[i]);
             }

@@ -57,7 +57,8 @@ namespace KanSimulator.Module
         private void button_Click(object sender, RoutedEventArgs e)
         {
             BattleMain bt = (BattleMain)BattleMain.GetWindow(this);
-            bt.GoAnimation();
+            bt.EnterAreaAnimation();
+            //bt.GoAnimation();
         }
     }
 }

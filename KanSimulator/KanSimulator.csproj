@@ -96,11 +96,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\FormationPoint.xaml">
+    <Page Include="Module\Battle\FormationPoint.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\FormSelect.xaml">
+    <Page Include="Module\Battle\FormSelect.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -108,15 +108,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\HitNumber.xaml">
+    <Page Include="Module\Battle\ShipBox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\Hougekisen.xaml">
+    <Page Include="Module\DataView\Hougekisen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\Koukusen.xaml">
+    <Page Include="Module\DataView\Koukusen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -124,35 +124,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\OverViewRow.xaml">
+    <Page Include="Module\DataView\OverViewRow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\Raigekisen.xaml">
+    <Page Include="Module\DataView\Raigekisen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\ShipDock.xaml">
+    <Page Include="Module\DataView\ShipDock.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\ShipRow.xaml">
+    <Page Include="Module\DataView\ShipRow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\SoubiButton.xaml">
+    <Page Include="Module\DataView\SoubiButton.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\SoubiRow.xaml">
+    <Page Include="Module\DataView\SoubiRow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\StageBar.xaml">
+    <Page Include="Module\Battle\StageBar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Module\Yasen.xaml">
+    <Page Include="Module\DataView\Yasen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -177,49 +177,49 @@
     <Compile Include="Module\BattleMain.xaml.cs">
       <DependentUpon>BattleMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\FormationPoint.xaml.cs">
+    <Compile Include="Module\Battle\FormationPoint.xaml.cs">
       <DependentUpon>FormationPoint.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\FormSelect.xaml.cs">
+    <Compile Include="Module\Battle\FormSelect.xaml.cs">
       <DependentUpon>FormSelect.xaml</DependentUpon>
     </Compile>
     <Compile Include="Module\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\HitNumber.xaml.cs">
-      <DependentUpon>HitNumber.xaml</DependentUpon>
+    <Compile Include="Module\Battle\ShipBox.xaml.cs">
+      <DependentUpon>ShipBox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\Hougekisen.xaml.cs">
+    <Compile Include="Module\DataView\Hougekisen.xaml.cs">
       <DependentUpon>Hougekisen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\Koukusen.xaml.cs">
+    <Compile Include="Module\DataView\Koukusen.xaml.cs">
       <DependentUpon>Koukusen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Module\OverView.xaml.cs">
       <DependentUpon>OverView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\OverViewRow.xaml.cs">
+    <Compile Include="Module\DataView\OverViewRow.xaml.cs">
       <DependentUpon>OverViewRow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\Raigekisen.xaml.cs">
+    <Compile Include="Module\DataView\Raigekisen.xaml.cs">
       <DependentUpon>Raigekisen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\ShipDock.xaml.cs">
+    <Compile Include="Module\DataView\ShipDock.xaml.cs">
       <DependentUpon>ShipDock.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\ShipRow.xaml.cs">
+    <Compile Include="Module\DataView\ShipRow.xaml.cs">
       <DependentUpon>ShipRow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\SoubiButton.xaml.cs">
+    <Compile Include="Module\DataView\SoubiButton.xaml.cs">
       <DependentUpon>SoubiButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\SoubiRow.xaml.cs">
+    <Compile Include="Module\DataView\SoubiRow.xaml.cs">
       <DependentUpon>SoubiRow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\StageBar.xaml.cs">
+    <Compile Include="Module\Battle\StageBar.xaml.cs">
       <DependentUpon>StageBar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Module\Yasen.xaml.cs">
+    <Compile Include="Module\DataView\Yasen.xaml.cs">
       <DependentUpon>Yasen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -629,6 +629,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Battle\TGood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Battle\LineText_Encounter.png" />
+    <Resource Include="Image\Battle\LineText_EnterArea.png" />
+    <Resource Include="Image\Battle\LineText_Finish.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

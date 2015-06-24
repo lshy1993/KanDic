@@ -27,10 +27,50 @@ namespace KanSimulator.Module
         {
             InitializeComponent();
             teamnum = 6;
-            SetFormationSelection();
+            EnterTextAnimation();
         }
 
-        #region 初始化-阵型按钮
+        #region 0-动画-中央【假想遭遇】
+        private void EnterTextAnimation()
+        {
+            //初始化
+            CenterText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_Encounter.png", UriKind.Relative));
+            Canvas.SetTop(CenterText, 140);
+            CenterBG.Source = new BitmapImage(new Uri("/Image/Battle/LineBG_Red.png", UriKind.Relative));
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.55))));
+            da_bg_h.Completed += (sender, e) => { SetFormationSelection(); };//下一动画
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.55))));
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(40, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(20, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+
+            //绑定动画
+            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
+        }
+        #endregion
+
+        #region 1-初始化-【选择阵型】
         private void SetFormationSelection()
         {
             FormSelectionCanvas.Visibility = Visibility.Visible;
@@ -57,11 +97,12 @@ namespace KanSimulator.Module
                 fs5.SetButton(4, teamnum);
                 fs5.Opacity = 0;
             }
+            FormSelectionCanvas.Visibility = Visibility.Visible;
             FormationSelectionFadeIn();
         }
         #endregion
 
-        #region 动画-淡入阵型按钮
+        #region 1-动画-【选择阵型】淡入
         private void FormationSelectionFadeIn()
         {
             DoubleAnimationUsingKeyFrames da = new DoubleAnimationUsingKeyFrames();
@@ -87,7 +128,308 @@ namespace KanSimulator.Module
         }
         #endregion
 
-        #region 初始化-双方阵型
+        #region 2-动画-中央【突入敌方海域】
+        public void EnterAreaAnimation()
+        {
+            //隐藏阵型选择
+            DoubleAnimationUsingKeyFrames da = new DoubleAnimationUsingKeyFrames();
+            da.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.15))));
+            da.Completed += (sender, e) => { FormSelectionCanvas.Visibility = Visibility.Collapsed; };
+            FormSelectionCanvas.BeginAnimation(OpacityProperty, da);
+            //初始化
+            CenterText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_EnterArea.png", UriKind.Relative));
+            Canvas.SetTop(CenterText, 140);
+            CenterBG.Source = new BitmapImage(new Uri("/Image/Battle/LineBG_Red.png", UriKind.Relative));
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.55))));
+            da_bg_h.Completed += (sender, e) => { SetShipList(); };//下一动画
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.55))));
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(-20, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(-40, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(-80, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.25))));
+
+            //绑定动画
+            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
+        }
+        #endregion
+
+        //*3-【战斗开始】
+        
+        //↓4-【待完善】我方初始化
+
+        #region 4-初始化-【我方列阵】
+        private void SetShipList()
+        {
+            for (int i = 0; i < 6; i++)
+            {
+                ShipBox sb = new ShipBox("ljesxnctkmmf", i, false);
+                this.RegisterName("ship" + i, sb);
+                ShipCanvas.Children.Add(sb);
+                Canvas.SetLeft(sb, -170);
+                Canvas.SetTop(sb, 70 + i * 46);
+            }
+            ShipListAnimation();
+        }
+        #endregion
+
+        #region 4-动画-【我方列阵】
+        private void ShipListAnimation()
+        {
+            //船移动动画
+            DoubleAnimationUsingKeyFrames da_ship1_left = new DoubleAnimationUsingKeyFrames();
+            da_ship1_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_ship1_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.2))));
+            da_ship1_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.2))));
+            DoubleAnimationUsingKeyFrames da_ship2_left = new DoubleAnimationUsingKeyFrames();
+            da_ship2_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.1))));
+            da_ship2_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            DoubleAnimationUsingKeyFrames da_ship3_left = new DoubleAnimationUsingKeyFrames();
+            da_ship3_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.2))));
+            da_ship3_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.4))));
+            DoubleAnimationUsingKeyFrames da_ship4_left = new DoubleAnimationUsingKeyFrames();
+            da_ship4_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_ship4_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
+            DoubleAnimationUsingKeyFrames da_ship5_left = new DoubleAnimationUsingKeyFrames();
+            da_ship5_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.4))));
+            da_ship5_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            DoubleAnimationUsingKeyFrames da_ship6_left = new DoubleAnimationUsingKeyFrames();
+            da_ship6_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(-170, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
+            da_ship6_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.7))));
+            //下一个动画
+            da_ship1_left.Completed += (sender, e) => { SakutekiAnimation(); };
+            //绑定动画
+            ShipBox sb1 = this.FindName("ship0") as ShipBox;
+            sb1.BeginAnimation(Canvas.LeftProperty, da_ship1_left);
+            ShipBox sb2 = this.FindName("ship1") as ShipBox;
+            if (sb2 != null) sb2.BeginAnimation(Canvas.LeftProperty, da_ship2_left);
+            ShipBox sb3 = this.FindName("ship2") as ShipBox;
+            if (sb3 != null) sb3.BeginAnimation(Canvas.LeftProperty, da_ship3_left);
+            ShipBox sb4 = this.FindName("ship3") as ShipBox;
+            if (sb4 != null) sb4.BeginAnimation(Canvas.LeftProperty, da_ship4_left);
+            ShipBox sb5 = this.FindName("ship4") as ShipBox;
+            if (sb5 != null) sb5.BeginAnimation(Canvas.LeftProperty, da_ship5_left);
+            ShipBox sb6 = this.FindName("ship5") as ShipBox;
+            if (sb6 != null) sb6.BeginAnimation(Canvas.LeftProperty, da_ship6_left);
+        }
+        #endregion
+
+        #region 5-动画-中央【索敌开始】
+        private void SakutekiAnimation()
+        {
+            //初始化
+            CenterText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_StartSakuteki.png", UriKind.Relative));
+            Canvas.SetTop(CenterText, 180);
+            CenterBG.Source = new BitmapImage(new Uri("/Image/Battle/LineBG_Green.png", UriKind.Relative));
+            //阶段显示
+            StageBar.SetStage(1);
+            StageBar.FadeIn(1);
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            da_bg_h.Completed += (sender, e) => { SakutekiResultAnimation(); };
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(-60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(-100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            //绑定动画
+            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
+        }
+        #endregion
+
+        //*6-【飞机索敌】
+
+        //↓7-【待完善】索敌判定
+
+        #region 7-动画-上方【索敌结果】
+        private void SakutekiResultAnimation()
+        {
+            //初始化
+            CenterSubText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_Find.png", UriKind.Relative));
+            double w = CenterSubText.ActualWidth / 2;
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            da_bg_top.Completed += (sender, e) => { TekimiyuAnimation(); SetEnemyList(); };
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(w - 311, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 184, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 123, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 7, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.65))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.25))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.1))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            //副字
+            DoubleAnimationUsingKeyFrames da_sub_left = new DoubleAnimationUsingKeyFrames();
+            da_sub_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(-400, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
+            DoubleAnimationUsingKeyFrames da_sub_opa = new DoubleAnimationUsingKeyFrames();
+            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
+            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.35))));
+            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
+            //绑定动画
+            CenterSubBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterSubBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterSubText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterSubText.BeginAnimation(OpacityProperty, da_text_opa);
+
+            CenterSub.BeginAnimation(Canvas.LeftProperty, da_sub_left);
+            CenterSub.BeginAnimation(OpacityProperty, da_sub_opa);
+        }
+        #endregion
+
+        #region 8-动画-中央【发现敌舰队】
+        private void TekimiyuAnimation()
+        {
+            //初始化
+            CenterText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_TekikantaiMiyu.png", UriKind.Relative));
+            Canvas.SetTop(CenterText, 165);
+            CenterBG.Source = new BitmapImage(new Uri("/Image/Battle/LineBG_Green.png", UriKind.Relative));
+            double w = 400 - CenterText.ActualWidth / 2;
+            //背景块
+            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
+            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            da_bg_h.Completed += (sender, e) => {  };
+            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
+            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
+            //字
+            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
+            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(w + 300, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 260, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
+            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
+            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
+            //绑定动画
+            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
+            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
+
+            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
+            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
+        }
+        #endregion
+
+        //↓8-【待完善】敌方初始化
+
+        #region 8-初始化-【敌方列阵】
+        private void SetEnemyList()
+        {
+            for (int i = 0; i < 6; i++)
+            {
+                ShipBox sb = new ShipBox("ljesxnctkmmf", i, true);
+                this.RegisterName("enemy" + i, sb);
+                sb.Opacity = 0;
+                ShipCanvas.Children.Add(sb);
+                Canvas.SetLeft(sb, 630);
+                Canvas.SetTop(sb, 130 + i * 46);
+            }
+            EnemyListAnimation();
+        }
+        #endregion
+
+        #region 8-动画-【敌方列阵】
+        private void EnemyListAnimation()
+        {
+            DoubleAnimationUsingKeyFrames da_enemy_opa = new DoubleAnimationUsingKeyFrames();
+            da_enemy_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
+            da_enemy_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
+            da_enemy_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.8))));
+            //下一个动画
+            da_enemy_opa.Completed += (sender, e) => { KoukusenAnimation(); };
+            //绑定动画
+            ShipBox sb1 = this.FindName("enemy0") as ShipBox;
+            sb1.BeginAnimation(OpacityProperty, da_enemy_opa);
+            ShipBox sb2 = this.FindName("enemy1") as ShipBox;
+            if (sb2 != null) sb2.BeginAnimation(OpacityProperty, da_enemy_opa);
+            ShipBox sb3 = this.FindName("enemy2") as ShipBox;
+            if (sb3 != null) sb3.BeginAnimation(OpacityProperty, da_enemy_opa);
+            ShipBox sb4 = this.FindName("enemy3") as ShipBox;
+            if (sb4 != null) sb4.BeginAnimation(OpacityProperty, da_enemy_opa);
+            ShipBox sb5 = this.FindName("enemy4") as ShipBox;
+            if (sb5 != null) sb5.BeginAnimation(OpacityProperty, da_enemy_opa);
+            ShipBox sb6 = this.FindName("enemy5") as ShipBox;
+            if (sb6 != null) sb6.BeginAnimation(OpacityProperty, da_enemy_opa);
+        }
+        #endregion
+
+        //*9-【航空战初始化】
+
+        //↓9-【待完善】航空战动画
+
+        #region 9-动画-【航空战】
+        private void KoukusenAnimation(){
+            //初始化
+            //阶段显示
+            StageBar.SetStage(2);
+            StageBar.FadeIn(3);
+        }
+        #endregion
+        
+        //*10-【开幕雷击】
+
+        #region 11-初始化-双方阵型
         private void SetFormation()
         {
             StartAnimationCanvas.Visibility = Visibility.Visible;
@@ -127,7 +469,7 @@ namespace KanSimulator.Module
         }
         #endregion
 
-        #region 动画-双方阵型
+        #region 11-动画-双方阵型
         public void FormationAnimation(int offset)
         {
             //背景黑块
@@ -252,6 +594,8 @@ namespace KanSimulator.Module
         }
         #endregion
 
+        //*12-【炮击战】
+
         #region 动画-出击！
         public void GoAnimation()
         {
@@ -313,9 +657,8 @@ namespace KanSimulator.Module
             da_fadeout.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
             da_fadeout.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.8))));
             da_fadeout.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(2.2))));
-                //下一个动画
-            da_fadeout.Completed += (sender, e) => { StageBar.SetStage(1); StageBar.FadeIn(1); SetCenterLine(true); };
-
+            //下一个动画【中央线】
+            da_fadeout.Completed += (sender, e) => { StageBar.SetStage(1); StageBar.FadeIn(1); };
             //绑定动画
             GoBlack.BeginAnimation(HeightProperty, da_black_h);
             GoBlack.BeginAnimation(Canvas.TopProperty, da_black_top);
@@ -339,119 +682,7 @@ namespace KanSimulator.Module
         }
         #endregion
 
-        #region 初始化-中央线
-        private void SetCenterLine(bool gotosub)
-        {
-            string str = gotosub ? "/Image/Battle/LineText_StartSakuteki.png" : "/Image/Battle/LineText_TekikantaiMiyu.png";
-            CenterText.Source = new BitmapImage(new Uri(str, UriKind.Relative));
-            int h = gotosub ? 180 : 240 - 150 / 2;
-            Canvas.SetTop(CenterText, h);
-            double width = 400 - CenterText.ActualWidth / 2;
-            CenterLineAnimation(gotosub, width);
-        }
-        #endregion
-
-        #region 动画-中央线
-        private void CenterLineAnimation(bool gotosub, double width)
-        {
-            //背景块
-            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
-            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
-            if (gotosub)
-            {
-                da_bg_h.Completed += (sender, e) => { SetSubLine(); };
-            }
-            else
-            {
-                da_bg_h.Completed += (sender, e) => { SetFormation(); };
-            }
-            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
-            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(140, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(240, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
-            //字
-            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
-            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(width + 100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width + 60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width -60, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(width -100, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
-            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.6))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.95))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-
-            //绑定动画
-            CenterBG.BeginAnimation(HeightProperty, da_bg_h);
-            CenterBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
-
-            CenterText.BeginAnimation(Canvas.LeftProperty, da_text_left);
-            CenterText.BeginAnimation(OpacityProperty, da_text_opa);
-        }
-        #endregion
-
-        #region 初始化-副线
-        private void SetSubLine()
-        {
-            CenterSubText.Source = new BitmapImage(new Uri("/Image/Battle/LineText_Find.png", UriKind.Relative));
-            double width = CenterSubText.ActualWidth / 2;
-            SubLineAnimation(width);
-        }
-        #endregion
-
-        #region 动画-副线
-        private void SubLineAnimation(double w)
-        {
-            //背景块
-            DoubleAnimationUsingKeyFrames da_bg_h = new DoubleAnimationUsingKeyFrames();
-            da_bg_h.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(200, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            da_bg_h.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
-            DoubleAnimationUsingKeyFrames da_bg_top = new DoubleAnimationUsingKeyFrames();
-            da_bg_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(-30, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            da_bg_top.KeyFrames.Add(new LinearDoubleKeyFrame(70, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.75))));
-            da_bg_top.Completed += (sender, e) => { SetCenterLine(false); };
-            //字
-            DoubleAnimationUsingKeyFrames da_text_left = new DoubleAnimationUsingKeyFrames();
-            da_text_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(w - 311, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 184, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w - 123, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.3))));
-            da_text_left.KeyFrames.Add(new LinearDoubleKeyFrame(w + 7, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.65))));
-            DoubleAnimationUsingKeyFrames da_text_opa = new DoubleAnimationUsingKeyFrames();
-            da_text_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.25))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.35))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.1))));
-            da_text_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            //副字
-            DoubleAnimationUsingKeyFrames da_sub_left = new DoubleAnimationUsingKeyFrames();
-            da_sub_left.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
-            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.45))));
-            da_sub_left.KeyFrames.Add(new LinearDoubleKeyFrame(-400, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
-            DoubleAnimationUsingKeyFrames da_sub_opa = new DoubleAnimationUsingKeyFrames();
-            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            da_sub_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.55))));
-            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.35))));
-            da_sub_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.7))));
-
-            //绑定动画
-            CenterSubBG.BeginAnimation(HeightProperty, da_bg_h);
-            CenterSubBG.BeginAnimation(Canvas.TopProperty, da_bg_top);
-
-            CenterSubText.BeginAnimation(Canvas.LeftProperty, da_text_left);
-            CenterSubText.BeginAnimation(OpacityProperty, da_text_opa);
-
-            CenterSub.BeginAnimation(Canvas.LeftProperty, da_sub_left);
-            CenterSub.BeginAnimation(OpacityProperty, da_sub_opa);
-        }
-        #endregion
-
+        //以下为临时测试按钮
         private void Hit_Click(object sender, RoutedEventArgs e)
         {
             Button bt = sender as Button;
@@ -459,11 +690,13 @@ namespace KanSimulator.Module
             Random ra = new Random(DateTime.Now.Millisecond);
             if (temp == "1")
             {
-                HitNum.HitAnimation(ra.Next(999), false);
+                ShipBox sb = (ShipBox)this.FindName("ship1");
+                sb.HitAnimation(ra.Next(999), false);
             }
             else
             {
-                HitNum.HitAnimation(ra.Next(999), true);
+                ShipBox sb = (ShipBox)this.FindName("enemy2");
+                sb.HitAnimation(ra.Next(999), true);
             }
         }
 

@@ -46,15 +46,15 @@ namespace KanSimulator.Module
 
         public void SetStage(int x)
         {
-            string url = "/Cache/battle/Stage_";
-            string urlbg = "/Cache/battle/StageBar.png";
-            string urlgear = "/Cache/battle/StageGear.png";
+            string url = "/Image/Battle/Stage_";
+            string urlbg = "/Image/Battle/StageBar.png";
+            string urlgear = "/Image/Battle/StageGear.png";
             switch (x)
             {
                 case 0://夜战
                     url += "Yasen.png";
-                    urlbg = "/Cache/battle/StageBar_Night.png";
-                    urlgear = "/Cache/battle/StageGear_Night.png";
+                    urlbg = "/Image/Battle/StageBar_Night.png";
+                    urlgear = "/Image/Battle/StageGear_Night.png";
                     break;
                 case 1://索敌
                     url += "Sakuteki.png";

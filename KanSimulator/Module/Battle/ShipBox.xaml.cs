@@ -19,25 +19,41 @@ namespace KanSimulator.Module
     /// <summary>
     /// HitNumber.xaml 的交互逻辑
     /// </summary>
-    public partial class HitNumber : UserControl
+    public partial class ShipBox : UserControl
     {
-        public HitNumber()
+        public bool IsEnemyBox;
+        public ShipBox(string imageurl, int position, bool isenemy)
         {
             InitializeComponent();
+            IsEnemyBox = isenemy;
+            //设置框架图
+            string boxurl = "/KanSimulator;component/Image/Battle/ShipFrame_";
+            boxurl += IsEnemyBox ? "Right" : "Left";
+            boxurl += position == 0 ? "Flag.png" : ".png";
+            FrameImage.Source = new BitmapImage(new Uri(boxurl, UriKind.Relative));
+            //设置船图
+            string imgurl = "/KanDic;component/Cache/ships/" + imageurl + ".swf/Image 1.jpg";
+            ShipImage.Source = new BitmapImage(new Uri(imgurl, UriKind.Relative));
+            //设置血条偏移量
+            int barleft = IsEnemyBox ? 4 : 160;
+            Canvas.SetLeft(HPBar, barleft);
+            //设置船图偏移量
+            int shipleft = IsEnemyBox ? 10 : 0;
+            Canvas.SetLeft(ShipImage, shipleft);
         }
 
         public void HitAnimation(int x, bool iscri)
         {
             string str = x.ToString();
-            //□□□□(4321)向前占位
-            string url = x > 0 ? geturl(str[0] - 48, iscri) : "/Image/Battle/Num_miss.PNG";
-            Num4.Source = new BitmapImage(new Uri(url, UriKind.Relative));
-            Num3.Source = str.Length < 2 ? null : new BitmapImage(new Uri(geturl(str[1] - 48, iscri), UriKind.Relative));
-            Num2.Source = str.Length < 3 ? null : new BitmapImage(new Uri(geturl(str[2] - 48, iscri), UriKind.Relative));
-            Num1.Source = str.Length < 4 ? null : new BitmapImage(new Uri(geturl(str[3] - 48, iscri), UriKind.Relative));
+            //□□□□(4321)向后占位
+            string url = x > 0 ? geturl(str[0] - 48, iscri) : "/KanSimulator;component/Image/Battle/Num_miss.PNG";
+            Num1.Source = new BitmapImage(new Uri(url, UriKind.Relative));
+            Num2.Source = str.Length < 2 ? null : new BitmapImage(new Uri(geturl(str[1] - 48, iscri), UriKind.Relative));
+            Num3.Source = str.Length < 3 ? null : new BitmapImage(new Uri(geturl(str[2] - 48, iscri), UriKind.Relative));
+            Num4.Source = str.Length < 4 ? null : new BitmapImage(new Uri(geturl(str[3] - 48, iscri), UriKind.Relative));
             Critical.Visibility = iscri ? Visibility.Visible : Visibility.Collapsed;
             int offset = iscri ? -14 : 0;//Critical时黄色数字的上偏移
-            //■□□□
+            //■□□□num4
             DoubleAnimationUsingKeyFrames da_num4_top = new DoubleAnimationUsingKeyFrames();
             da_num4_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(offset, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
             da_num4_top.KeyFrames.Add(new LinearDoubleKeyFrame(offset - 13.5, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.2))));
@@ -48,7 +64,7 @@ namespace KanSimulator.Module
             da_num4_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
             da_num4_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
             da_num4_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.2))));
-            //□■□□
+            //□■□□num3
             DoubleAnimationUsingKeyFrames da_num3_top = new DoubleAnimationUsingKeyFrames();
             da_num3_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(offset, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.1))));
             da_num3_top.KeyFrames.Add(new LinearDoubleKeyFrame(offset - 13.5, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
@@ -59,7 +75,7 @@ namespace KanSimulator.Module
             da_num3_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.1))));
             da_num3_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
             da_num3_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.2))));
-            //□□■□
+            //□□■□num2
             DoubleAnimationUsingKeyFrames da_num2_top = new DoubleAnimationUsingKeyFrames();
             da_num2_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(offset, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.2))));
             da_num2_top.KeyFrames.Add(new LinearDoubleKeyFrame(offset - 13.5, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.4))));
@@ -70,7 +86,7 @@ namespace KanSimulator.Module
             da_num2_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.17))));
             da_num2_opa.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
             da_num2_opa.KeyFrames.Add(new LinearDoubleKeyFrame(0, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1.2))));
-            //□□□■
+            //□□□■num1
             DoubleAnimationUsingKeyFrames da_num1_top = new DoubleAnimationUsingKeyFrames();
             da_num1_top.KeyFrames.Add(new DiscreteDoubleKeyFrame(offset, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3))));
             da_num1_top.KeyFrames.Add(new LinearDoubleKeyFrame(offset - 13.5, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
@@ -116,7 +132,7 @@ namespace KanSimulator.Module
 
         private string geturl(int x, bool iscri)
         {
-            string result = "/Image/Battle/";
+            string result = "/KanSimulator;component/Image/Battle/";
             result += iscri ? "NumYellow_" : "NumRed_";
             result += x;
             result += ".png";

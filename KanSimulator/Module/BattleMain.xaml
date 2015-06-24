@@ -11,11 +11,8 @@
         <Image Source="/KanSimulator;component/Image/Battle/BattleNight.png" Stretch="None" Visibility="Collapsed"/>
         <Image Source="/KanSimulator;component/Image/Battle/BattleDay.png" Stretch="None"/>
         <Canvas Name="MainCanvas">
-            <Canvas Name="ShipCanvas" Width="800" Height="480">
-                
-            </Canvas>
+            <Canvas Name="ShipCanvas" Width="800" Height="480"/>
             <sim:StageBar x:Name="StageBar"/>
-            <sim:HitNumber x:Name="HitNum" Canvas.Left="10" Canvas.Top="50"/>
             <Canvas Name="CenterAnimationCanvas" Width="800" Height="480">
                 <Image Name="CenterBG" Source="/KanSimulator;component/Image/Battle/LineBG_Green.png" Stretch="Fill" Height="0" Width="800" Canvas.Top="240"/>
                 <Image Name="CenterText" Source="/KanSimulator;component/Image/Battle/LineText_StartSakuteki.png" Stretch="None" Canvas.Top="180" Opacity="0"/>
@@ -39,7 +36,7 @@
                 <Image Name="GoText2" Source="/KanSimulator;component/Image/Battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
                 <Image Name="GoText1" Source="/KanSimulator;component/Image/Battle/GoText.png" Canvas.Left="1017.5" Canvas.Top="143.5"/>
             </Canvas>
-            <Canvas Name="FormSelectionCanvas" Width="800" Height="480">
+            <Canvas Name="FormSelectionCanvas" Width="800" Height="480" Visibility="Collapsed">
                 <Image Name="TextBG" Source="/KanSimulator;component/Image/Battle/TextBG.png" Stretch="None" Canvas.Bottom="-93"/>
                 <TextBlock Name="MainText" Width="416" Height="68" Foreground="White" FontSize="20" Canvas.Left="302" Canvas.Bottom="5"/>
                 <sim:FormSelect x:Name="fs1" Canvas.Top="61" Canvas.Left="387"/>
