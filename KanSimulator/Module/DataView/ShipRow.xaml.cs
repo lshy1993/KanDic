@@ -41,5 +41,11 @@ namespace KanSimulator.Module
             xx.example[xx.posnum] = new MoniKan(xx.ships[xx.shippage * 10 - 11 + xx.rownum]);
             xx.ShipView.DataContext = xx.example[xx.posnum];
         }
+
+        private void UserControl_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (this.DataContext == null) level.Text = "";
+            else level.Text = "1";
+        }
     }
 }

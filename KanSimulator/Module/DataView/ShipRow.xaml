@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="27" d:DesignWidth="390">
+             d:DesignHeight="27" d:DesignWidth="390"
+             DataContextChanged="UserControl_DataContextChanged">
     <UserControl.Resources>
         <ResourceDictionary Source="/KanSimulator;component/Style/CalculateButton.xaml"/>
     </UserControl.Resources>
@@ -23,7 +24,7 @@
                 <TextBlock Text="{Binding Type}" VerticalAlignment="Center"/>
                 <TextBlock Text="{Binding Name}" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
-            <TextBlock Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+            <TextBlock Name="level" Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
             <TextBlock Text="{Binding HP}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2"/>
             <TextBlock Text="{Binding Power}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="3"/>
             <TextBlock Text="{Binding Torpedo}" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="4"/>

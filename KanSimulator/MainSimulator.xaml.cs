@@ -115,9 +115,13 @@ namespace KanSimulator
             {
                 if (xx[i] != null) equips.Add(xx[i]);
             }
+            for (int i = 0; i < equips.Count(); i++)
+            {
+                equips[i].Icon = "/KanDic;component/Cache/icon/soubi/" + equips[i].Icon + ".PNG";
+            }
             equips.Sort((x,y) =>{
-                string aa = x.Icon.Substring(18, x.Icon.Length - 22);
-                string bb = y.Icon.Substring(18, y.Icon.Length - 22);
+                string aa = x.Icon.Substring(35, x.Icon.Length - 39);
+                string bb = y.Icon.Substring(35, y.Icon.Length - 39);
                 if (int.Parse(aa) > int.Parse(bb))
                     return 1;
                 else if (int.Parse(aa) == int.Parse(bb))
@@ -132,46 +136,16 @@ namespace KanSimulator
         public void ShipList_Change(int x)
         {
             PageNum.Text = x.ToString();
-            if ( x * 10 - 10 < ships.Count )
-                row1.DataContext = ships[x * 10 - 10];
-            else
-                row1.DataContext = null;
-            if ( x * 10 - 9 < ships.Count )
-                row2.DataContext = ships[x * 10 - 9];
-            else
-                row2.DataContext = null;
-            if ( x * 10 - 8 < ships.Count )
-                row3.DataContext = ships[x * 10 - 8];
-            else
-                row3.DataContext = null;
-            if ( x * 10 - 7 < ships.Count )
-                row4.DataContext = ships[x * 10 - 7];
-            else
-                row4.DataContext = null;
-            if ( x * 10 - 6 < ships.Count )
-                row5.DataContext = ships[x * 10 - 6];
-            else
-                row5.DataContext = null;
-            if ( x * 10 - 5 < ships.Count )
-                row6.DataContext = ships[x * 10 - 5];
-            else
-                row6.DataContext = null;
-            if ( x * 10 - 4 < ships.Count )
-                row7.DataContext = ships[x * 10 - 4];
-            else
-                row7.DataContext = null;
-            if ( x * 10 - 3 < ships.Count )
-                row8.DataContext = ships[x * 10 - 3];
-            else
-                row8.DataContext = null;
-            if ( x * 10 - 2 < ships.Count )
-                row9.DataContext = ships[x * 10 - 2];
-            else
-                row9.DataContext = null;
-            if ( x * 10 - 1 < ships.Count )
-                row10.DataContext = ships[x * 10 - 1];
-            else
-                row10.DataContext = null;
+            row1.DataContext = x * 10 - 10 < ships.Count ? ships[x * 10 - 10] : null;
+            row2.DataContext = x * 10 - 9 < ships.Count ? ships[x * 10 - 9] : null;
+            row3.DataContext = x * 10 - 8 < ships.Count ? ships[x * 10 - 8] : null;
+            row4.DataContext = x * 10 - 7 < ships.Count ? ships[x * 10 - 7] : null;
+            row5.DataContext = x * 10 - 6 < ships.Count ? ships[x * 10 - 6] : null;
+            row6.DataContext = x * 10 - 5 < ships.Count ? ships[x * 10 - 5] : null;
+            row7.DataContext = x * 10 - 4 < ships.Count ? ships[x * 10 - 4] : null;
+            row8.DataContext = x * 10 - 3 < ships.Count ? ships[x * 10 - 3] : null;
+            row9.DataContext = x * 10 - 2 < ships.Count ? ships[x * 10 - 2] : null;
+            row10.DataContext = x * 10 - 1 < ships.Count ? ships[x * 10 - 1] : null;
         }
         #endregion
 
@@ -179,46 +153,16 @@ namespace KanSimulator
         public void SoubiList_Change(int x)
         {
             PageNums.Text = soubipage.ToString();
-            if (x * 10 - 10 < equips.Count)
-                soubirow1.DataContext = equips[x * 10 - 10];
-            else
-                soubirow1.DataContext = null;
-            if (x * 10 - 9 < equips.Count)
-                soubirow2.DataContext = equips[x * 10 - 9];
-            else
-                soubirow2.DataContext = null;
-            if (x * 10 - 8 < equips.Count)
-                soubirow3.DataContext = equips[x * 10 - 8];
-            else
-                soubirow3.DataContext = null;
-            if (x * 10 - 7 < equips.Count)
-                soubirow4.DataContext = equips[x * 10 - 7];
-            else
-                soubirow4.DataContext = null;
-            if (x * 10 - 6 < equips.Count)
-                soubirow5.DataContext = equips[x * 10 - 6];
-            else
-                soubirow5.DataContext = null;
-            if (x * 10 - 5 < equips.Count)
-                soubirow6.DataContext = equips[x * 10 - 5];
-            else
-                soubirow6.DataContext = null;
-            if (x * 10 - 4 < equips.Count)
-                soubirow7.DataContext = equips[x * 10 - 4];
-            else
-                soubirow7.DataContext = null;
-            if (x * 10 - 3 < equips.Count)
-                soubirow8.DataContext = equips[x * 10 - 3];
-            else
-                soubirow8.DataContext = null;
-            if (x * 10 - 2 < equips.Count)
-                soubirow9.DataContext = equips[x * 10 - 2];
-            else
-                soubirow9.DataContext = null;
-            if (x * 10 - 1 < equips.Count)
-                soubirow10.DataContext = equips[x * 10 - 1];
-            else
-                soubirow10.DataContext = null;
+            soubirow1.DataContext = x * 10 - 10 < equips.Count ? equips[x * 10 - 10] : null;
+            soubirow2.DataContext = x * 10 - 9 < equips.Count ? equips[x * 10 - 9] : null;
+            soubirow3.DataContext = x * 10 - 8 < equips.Count ? equips[x * 10 - 8] : null;
+            soubirow4.DataContext = x * 10 - 7 < equips.Count ? equips[x * 10 - 7] : null;
+            soubirow5.DataContext = x * 10 - 6 < equips.Count ? equips[x * 10 - 6] : null;
+            soubirow6.DataContext = x * 10 - 5 < equips.Count ? equips[x * 10 - 5] : null;
+            soubirow7.DataContext = x * 10 - 4 < equips.Count ? equips[x * 10 - 4] : null;
+            soubirow8.DataContext = x * 10 - 3 < equips.Count ? equips[x * 10 - 3] : null;
+            soubirow9.DataContext = x * 10 - 2 < equips.Count ? equips[x * 10 - 2] : null;
+            soubirow10.DataContext = x * 10 - 1 < equips.Count ? equips[x * 10 - 1] : null;
         }
         #endregion 
 
@@ -229,49 +173,59 @@ namespace KanSimulator
             Soubi hou = new Soubi();
             yuan = example[posnum].soubi[soubinum];
             hou = equips[soubipage * 10 - 11 + rownum];
-            Compare_List(yuan,BeforeChange);
-            Compare_List(hou,AfterChange);
+            Compare_List(yuan, true);
+            Compare_List(hou, false);
         }
 
-        private void Compare_List(Soubi x,StackPanel target)
+        private void Compare_List(Soubi x, bool isbefore)
         {
-            List<string> strlist = new List<string>();
-            strlist.Clear();
-            strlist.Add(x.Icon);
-            strlist.Add(x.Name);
-            if (x.Power != 0)
+            if (isbefore)
             {
-                strlist.Add("火力+" + x.Power.ToString());
+                if (x.Icon != null)
+                {
+                    BitmapImage bi = new BitmapImage(new Uri(x.Icon, UriKind.Relative));
+                    BeforeIcon.Source = bi;
+                    double left = (30 - bi.PixelWidth) / 2;
+                    double top = (30 - bi.PixelHeight) / 2;
+                    Canvas.SetLeft(BeforeIcon, left);
+                    Canvas.SetTop(BeforeIcon, top);
+                }
+                BeforeName.Text = x.Name;
+                BeforeTextBlock.Children.Clear();
             }
-            if (x.Torpedo != 0)
+            else
             {
-                strlist.Add("雷装+" + x.Torpedo.ToString());
+                if (x.Icon != null)
+                {
+                    BitmapImage bi = new BitmapImage(new Uri(x.Icon, UriKind.Relative));
+                    AfterIcon.Source = bi;
+                    double left = (30 - bi.PixelWidth) / 2;
+                    double top = (30 - bi.PixelHeight) / 2;
+                    Canvas.SetLeft(AfterIcon, left);
+                    Canvas.SetTop(AfterIcon, top);
+                }
+                AfterName.Text = x.Name;
+                AfterTextBlock.Children.Clear();
             }
-            if (x.Bomb != 0)
-            {
-                strlist.Add("爆装+" + x.Bomb.ToString());
-            }
-            if (x.Air != 0)
-            {
-                strlist.Add("对空+" + x.Air.ToString());
-            }
-            if (x.Antisub != 0)
-            {
-                strlist.Add("对潜+" + x.Antisub.ToString());
-            }
-            if (x.Search != 0)
-            {
-                strlist.Add("索敌+" + x.Search.ToString());
-            }
-            if (x.Hitrate != 0)
-            {
-                strlist.Add("命中+" + x.Hitrate.ToString());
-            }
-            if (x.Dodge != 0)
-            {
-                strlist.Add("回避+" + x.Dodge.ToString());
-            }
-            target.DataContext = strlist;
+            Add_Text(x.Power != 0 ? "火力+" + x.Power.ToString() : "", isbefore);
+            Add_Text(x.Torpedo != 0 ? "雷装+" + x.Torpedo.ToString() : "", isbefore);
+            Add_Text(x.Bomb != 0 ? "爆装+" + x.Bomb.ToString() : "", isbefore);
+            Add_Text(x.Air != 0 ? "对空+" + x.Air.ToString() : "", isbefore);
+            Add_Text(x.Antisub != 0 ? "对潜+" + x.Antisub.ToString() : "", isbefore);
+            Add_Text(x.Search != 0 ? "索敌+" + x.Search.ToString() : "", isbefore);
+            Add_Text(x.Hitrate != 0 ? "命中+" + x.Hitrate.ToString() : "", isbefore);
+            Add_Text(x.Dodge != 0 ? "回避+" + x.Dodge.ToString() : "", isbefore);
+        }
+
+        private void Add_Text(string str, bool isbefore)
+        {
+            if (str == "") return;
+            TextBlock tb = new TextBlock();
+            tb.Margin = new Thickness(10, 0, 10, 0);
+            tb.FontSize = 12;
+            tb.Text = str;
+            if (isbefore) BeforeTextBlock.Children.Add(tb);
+            else AfterTextBlock.Children.Add(tb);
         }
         #endregion
 

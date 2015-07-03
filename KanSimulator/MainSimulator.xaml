@@ -282,30 +282,22 @@
                         <StackPanel Name="BeforeChange" Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
                             <StackPanel Orientation="Horizontal">
                                 <Canvas Height="30" Width="30">
-                                    <Image Source="{Binding Path=.[0]}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
+                                    <Image Name="BeforeIcon" Stretch="None"/>
                                 </Canvas>
-                                <TextBlock Text="{Binding Path=.[1]}" VerticalAlignment="Center" FontWeight="Bold"/>
+                                <TextBlock Name="BeforeName" VerticalAlignment="Center" FontWeight="Bold"/>
                             </StackPanel>
-                            <TextBlock Text="{Binding Path=.[2]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[3]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[4]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[5]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[6]}" Margin="10,0" FontSize="12"/>
+                            <WrapPanel Name="BeforeTextBlock"/>
                         </StackPanel>
                         <TextBlock Text="变更后" DockPanel.Dock="Top" Margin="0,0,10,0" HorizontalAlignment="Right" Foreground="#af9441"/>
                         <Border Height="30" DockPanel.Dock="Top"/>
                         <StackPanel Name="AfterChange" Background="#e1d0bb" DockPanel.Dock="Top" Margin="10,0,0,0" Width="200" Height="122">
                             <StackPanel Orientation="Horizontal">
                                 <Canvas Height="30" Width="30">
-                                    <Image Name="AfterIcon" Source="{Binding Path=.[0]}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
+                                    <Image Name="AfterIcon" Stretch="None"/>
                                 </Canvas>
-                                <TextBlock Text="{Binding Path=.[1]}" VerticalAlignment="Center" FontWeight="Bold"/>
+                                <TextBlock Name="AfterName" VerticalAlignment="Center" FontWeight="Bold"/>
                             </StackPanel>
-                            <TextBlock Text="{Binding Path=.[2]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[3]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[4]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[5]}" Margin="10,0" FontSize="12"/>
-                            <TextBlock Text="{Binding Path=.[6]}" Margin="10,0" FontSize="12"/>
+                            <WrapPanel Name="AfterTextBlock"/>
                         </StackPanel>
                         <Button Style="{StaticResource qrbutton}" Click="Change_Click"/>
                     </DockPanel>

@@ -23,7 +23,7 @@ namespace KanDic.Viewer
     /// <summary>
     /// Equipment.xaml 的交互逻辑
     /// </summary>
-    public partial class Equipment : UserControl
+    public partial class EquipPanel : UserControl
     {
         public System.Windows.Window mainwindow;
 
@@ -34,7 +34,7 @@ namespace KanDic.Viewer
         CollectionViewSource equipview = new CollectionViewSource();
         ObservableCollection<Soubi> customers = new ObservableCollection<Soubi>();
 
-        public Equipment()
+        public EquipPanel()
         {
             equipteam = 1;
             equipgroup = 1;

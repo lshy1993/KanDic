@@ -45,62 +45,31 @@ namespace KanSimulator.Module
         private void UserControl_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
             x = (Soubi)this.DataContext;
-            InfoPanel.Children.Clear();
             if (x == null) return;
-            if (x.Range != null)
+            if (x.Icon != null)
             {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "射程 " + x.Range + "/";
-                InfoPanel.Children.Add(aaa);
+                BitmapImage bi = new BitmapImage(new Uri(x.Icon, UriKind.Relative));
+                IconImage.Source = bi;
+                Canvas.SetLeft(IconImage, (30 - bi.PixelWidth) / 2);
+                Canvas.SetTop(IconImage, (30 - bi.PixelHeight) / 2);
             }
-            if (x.Power != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "火力+" + x.Power.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Torpedo != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "雷装+" + x.Torpedo.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Bomb != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "爆装+" + x.Bomb.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Air != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "对空+" + x.Air.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Antisub != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "对潜+" + x.Antisub.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Search != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "索敌+" + x.Search.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Hitrate != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "命中+" + x.Hitrate.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
-            if (x.Dodge != 0)
-            {
-                TextBlock aaa = new TextBlock();
-                aaa.Text = "回避+" + x.Dodge.ToString() + "/";
-                InfoPanel.Children.Add(aaa);
-            }
+            InfoPanel.Children.Clear();
+            Add_Block(x.Range != null ? "射程 " + x.Range.ToString() + "/" : "");
+            Add_Block(x.Power != 0 ? "火力+" + x.Power.ToString() + "/" : "");
+            Add_Block(x.Torpedo != 0 ? "雷装+" + x.Torpedo.ToString() + "/" : "");
+            Add_Block(x.Bomb != 0 ? "爆装+" + x.Bomb.ToString() + "/" : "");
+            Add_Block(x.Air != 0 ? "对空+" + x.Air.ToString() + "/" : "");
+            Add_Block(x.Antisub != 0 ? "对潜+" + x.Antisub.ToString() + "/" : "");
+            Add_Block(x.Search != 0 ? "索敌+" + x.Search.ToString() + "/" : "");
+            Add_Block(x.Hitrate != 0 ? "命中+" + x.Hitrate.ToString() + "/" : "");
+            Add_Block(x.Dodge != 0 ? "回避+" + x.Dodge.ToString() + "/" : "");
+        }
+
+        private void Add_Block(string str)
+        {
+            TextBlock tb = new TextBlock();
+            tb.Text = str;
+            if (str != "") InfoPanel.Children.Add(tb);
         }
     }
 }

@@ -84,6 +84,7 @@
     <EmbeddedResource Include="XmlData\quest.json" />
     <EmbeddedResource Include="XmlData\ship.json" />
     <EmbeddedResource Include="XmlData\revamp.json" />
+    <EmbeddedResource Include="XmlData\soubi.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

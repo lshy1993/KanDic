@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="KanDic.Viewer.Equipment"
+﻿<UserControl x:Class="KanDic.Viewer.EquipPanel"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -113,7 +113,7 @@
                 <RadioButton Tag="9" Content="追加类" Style="{StaticResource zhuijia}" Click="Type_Click"/>
                 <RadioButton Tag="10" Content="其他" Style="{StaticResource qita}" Click="Type_Click"/>
             </StackPanel>
-            <DataGrid Name="MainList" AutoGenerateColumns="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5" MouseLeftButtonDown="MainList_MLBD">
+            <DataGrid Name="MainList" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}" ScrollViewer.PanningMode="Both" Margin="5" MouseLeftButtonDown="MainList_MLBD">
                 <DataGrid.Columns>
                     <DataGridTemplateColumn Width="30" IsReadOnly="True">
                         <DataGridTemplateColumn.CellTemplate>

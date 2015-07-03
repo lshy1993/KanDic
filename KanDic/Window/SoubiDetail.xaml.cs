@@ -29,7 +29,7 @@ namespace KanDic.Window
         public SoubiDetail(int num)
         {
             InitializeComponent();
-            equip = KanDic.Viewer.Equipment.equips[num];
+            equip = KanDic.Viewer.EquipPanel.equips[num];
             Detail_Init();
             MainDetail.DataContext = equip;
             DataBox.DataContext = strlist;

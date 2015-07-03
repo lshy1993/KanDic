@@ -126,14 +126,14 @@
     <Compile Include="Viewer\EnermyPanel.xaml.cs">
       <DependentUpon>EnermyPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Equipment.xaml.cs">
-      <DependentUpon>Equipment.xaml</DependentUpon>
+    <Compile Include="Viewer\EquipPanel.xaml.cs">
+      <DependentUpon>EquipPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\ExpPanel.xaml.cs">
       <DependentUpon>ExpPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Viewer\Formation.xaml.cs">
-      <DependentUpon>Formation.xaml</DependentUpon>
+    <Compile Include="Viewer\FormationPanel.xaml.cs">
+      <DependentUpon>FormationPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\KanColle.xaml.cs">
       <DependentUpon>KanColle.xaml</DependentUpon>
@@ -250,17 +250,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Equipment.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Viewer\EquipPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Viewer\ExpPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Viewer\Formation.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Viewer\FormationPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Viewer\KanColle.xaml">
       <SubType>Designer</SubType>
@@ -1979,6 +1979,42 @@
     <Resource Include="Cache\icon\info\gaixiu.PNG" />
     <Resource Include="Cache\icon\info\zicai.png" />
     <Resource Include="Cache\icon\info\star.PNG" />
+    <Content Include="Cache\equipment\130.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\131.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\132.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\133.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\134.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\135.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\136.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\137.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\138.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\139.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\140.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cache\equipment\141.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Cache\map\1-1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

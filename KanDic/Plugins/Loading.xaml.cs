@@ -218,7 +218,9 @@ namespace KanDic
             }
             for (int i = 0; i < di.soubilist.Count; i++)
             {
-                KanDic.Viewer.Equipment.equips[di.soubilist[i].Number] = di.soubilist[i];
+                di.soubilist[i].Image = "/Cache/equipment/" + string.Format("{0:D3}", di.soubilist[i].Number) + ".png";
+                di.soubilist[i].Icon = "/Cache/icon/soubi/" + di.soubilist[i].Icon + ".PNG";
+                KanDic.Viewer.EquipPanel.equips[di.soubilist[i].Number] = di.soubilist[i];
             }
             for (int i = 0; i < di.explist.Count; i++)
             {

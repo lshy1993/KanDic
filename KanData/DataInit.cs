@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.IO;
+using System.Reflection;
+using Newtonsoft.Json;
 
 namespace KanData
 {
@@ -18,6 +20,9 @@ namespace KanData
         public List<Expedition> explist = new List<Expedition>();
         public List<Revamp> revamplist = new List<Revamp>();
         public UpdateInfo updateinfo = new UpdateInfo();
+
+        public Assembly _assembly = Assembly.GetExecutingAssembly();
+        public Stream sStream;
 
         public DataInit()
         {
@@ -47,89 +52,57 @@ namespace KanData
         //读取ship.json
         private void Load_Kan()
         {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.ship.json");
+            sStream = _assembly.GetManifestResourceStream("KanData.XmlData.ship.json");
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
-            kanlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Kan>>(html);
+            kanlist = JsonConvert.DeserializeObject<List<Kan>>(html);
         }
 
         //读取expedition.json
         private void Load_Exp()
         {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.expedition.json");
+            sStream = _assembly.GetManifestResourceStream("KanData.XmlData.expedition.json");
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
-            explist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Expedition>>(html);
+            explist = JsonConvert.DeserializeObject<List<Expedition>>(html);
         }
 
         //读取map.json
         private void Load_Map()
         {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
+            sStream = _assembly.GetManifestResourceStream("KanData.XmlData.map.json");
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
-            maplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Map>>(html);
+            maplist = JsonConvert.DeserializeObject<List<Map>>(html);
         }
 
         //读取quest.json
         private void Load_Quest()
         {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.quest.json");
+            sStream = _assembly.GetManifestResourceStream("KanData.XmlData.quest.json");
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
-            questlist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Quest>>(html);
+            questlist = JsonConvert.DeserializeObject<List<Quest>>(html);
         }
 
         //读取revamp.json
         private void Load_Revamp()
         {
-            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.revamp.json");
+            sStream = _assembly.GetManifestResourceStream("KanData.XmlData.revamp.json");
             StreamReader sr = new StreamReader(sStream);
             var html = sr.ReadToEnd();
             revamplist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Revamp>>(html);
         }
 
-        #region 读取xml并生成Soubi类
+        //读取soubi.json
         private void Load_Soubi()
         {
             System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.Soubi.xml");
-            XmlDocument ShipList = new XmlDocument();
-            ShipList.Load(sStream);
-            XmlElement ShipInfo = ShipList.DocumentElement;
-            foreach (XmlNode temp in ShipInfo.ChildNodes)
-            {
-                Set_Soubi(temp);
-            }
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.soubi.json");
+            StreamReader sr = new StreamReader(sStream);
+            var html = sr.ReadToEnd();
+            soubilist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Soubi>>(html);
         }
-
-        private void Set_Soubi(XmlNode x)
-        {
-            string name1;
-            Soubi equip = new Soubi();
-            foreach (XmlNode yy in x.ChildNodes)
-            {
-                name1 = yy.Name;
-                var prop = typeof(Soubi).GetProperty(name1);
-                if (prop.PropertyType.Equals(typeof(int)))
-                {
-                    typeof(Soubi).GetProperty(name1).SetValue(equip, Convert.ToInt32(yy.InnerText), null);
-                }
-                else
-                {
-                    typeof(Soubi).GetProperty(name1).SetValue(equip, yy.InnerText, null);
-                }
-            }
-            equip.Image = "/Cache/equipment/" + string.Format("{0:D3}", equip.Number) + ".png";
-            equip.Icon = "/Cache/icon/soubi/" + equip.Icon + ".PNG";
-            soubilist.Add(equip);
-        }
-        #endregion
 
         #region 读取xml并生成Enemy类
         private void Load_Enemy()
@@ -295,6 +268,43 @@ namespace KanData
                 typeof(Quest).GetProperty(name1).SetValue(renwu, yy.InnerText, null);
             }
             questlist.Add(renwu);
+        }
+        #endregion
+        
+        #region 读取xml并生成Soubi类
+        private void Load_Soubi()
+        {
+            System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream sStream = _assembly.GetManifestResourceStream("KanData.XmlData.Soubi.xml");
+            XmlDocument ShipList = new XmlDocument();
+            ShipList.Load(sStream);
+            XmlElement ShipInfo = ShipList.DocumentElement;
+            foreach (XmlNode temp in ShipInfo.ChildNodes)
+            {
+                Set_Soubi(temp);
+            }
+        }
+
+        private void Set_Soubi(XmlNode x)
+        {
+            string name1;
+            Soubi equip = new Soubi();
+            foreach (XmlNode yy in x.ChildNodes)
+            {
+                name1 = yy.Name;
+                var prop = typeof(Soubi).GetProperty(name1);
+                if (prop.PropertyType.Equals(typeof(int)))
+                {
+                    typeof(Soubi).GetProperty(name1).SetValue(equip, Convert.ToInt32(yy.InnerText), null);
+                }
+                else
+                {
+                    typeof(Soubi).GetProperty(name1).SetValue(equip, yy.InnerText, null);
+                }
+            }
+            equip.Image = "/Cache/equipment/" + string.Format("{0:D3}", equip.Number) + ".png";
+            equip.Icon = "/Cache/icon/soubi/" + equip.Icon + ".PNG";
+            soubilist.Add(equip);
         }
         #endregion
         */

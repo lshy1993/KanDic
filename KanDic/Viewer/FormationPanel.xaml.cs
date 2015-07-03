@@ -18,9 +18,9 @@ namespace KanDic.Viewer
     /// <summary>
     /// Formation.xaml 的交互逻辑
     /// </summary>
-    public partial class Formation : UserControl
+    public partial class FormationPanel : UserControl
     {
-        public Formation()
+        public FormationPanel()
         {
             InitializeComponent();
         }

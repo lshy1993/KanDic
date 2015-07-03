@@ -159,7 +159,7 @@
                     <viewer:KanColle MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="装备" Width="100">
-                    <viewer:Equipment MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                    <viewer:EquipPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="远征" Width="100">
                     <viewer:ExpPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="380" MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
@@ -168,7 +168,7 @@
                     <viewer:QuestPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="阵型" Width="100">
-                    <viewer:Formation MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
+                    <viewer:FormationPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>
                 </TabItem>
                 <TabItem Header="改修" Width="100">
                     <viewer:RevampPanel MouseRightButtonDown="KanColle_MouseRightButtonDown"/>

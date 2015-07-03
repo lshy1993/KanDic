@@ -11,7 +11,7 @@
     </UserControl.Resources>
     <StackPanel Margin="35,0,0,0" Orientation="Horizontal">
         <Canvas Width="30" Height="30">
-            <Image Source="{Binding Icon}" Stretch="None" Canvas.Left="-3" Canvas.Top="-3"/>
+            <Image Name="IconImage" Stretch="None"/>
         </Canvas>
         <Button Click="row_Click">
             <Grid Margin="0">
@@ -19,9 +19,10 @@
                     <ColumnDefinition Width="170"/>
                     <ColumnDefinition Width="50"/>
                     <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="30"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="0"/>
-                <TextBlock Text="{Binding Rare}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
+                <TextBlock Name="NameText" Text="{Binding Name}" VerticalAlignment="Center" Grid.Column="0"/>
+                <TextBlock Name="RareText" Text="{Binding Rare}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"/>
                 <ScrollViewer Grid.Column="2" VerticalScrollBarVisibility="Disabled">
                     <StackPanel Name="InfoPanel" Orientation="Horizontal"/>
                 </ScrollViewer>
